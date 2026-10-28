@@ -2574,7 +2574,115 @@ Likely problem:  ____________________
       lede: "You will forget. Not “might forget” — you will forget. Here is how to write it down so the data survives.",
       minutes: 6,
       tags: ["practice", "reference"],
-      body: ``
+      body: `
+<p>There is a rule in learning any skill: <strong>what is not written down is not learned</strong>. You can brew a very good cup on Tuesday and be unable to reproduce it on Thursday, simply because you do not remember what you did differently.</p>
+
+<h3>Why a log matters more than gear</h3>
+
+<p>A notebook costing 30,000 VND gives you more progress than a 5-million-dong grinder, for a concrete reason: <strong>it turns experience into data</strong>. Without a log, every brew is a separate incident. With a log, every brew is a point on a curve.</p>
+
+<h3>The minimum template: seven lines</h3>
+
+<div class="formula">
+<span class="fx-label">Every brew</span>
+Date:       ____________<br>
+Coffee:     ____________ (name + days since roast)<br>
+Coffee / Water: ____ g / ____ g   (1:____)<br>
+Temp / Grind:   ____ °C / ____ (clicks or description)<br>
+Time:       ____ (total) / ____ (drawdown)<br>
+Bed:        ___ even / ___ hole / ___ dry patches<br>
+Taste:      ____________ (one sentence, using the 4 axes)
+</div>
+
+<p>Seven lines. Forty seconds. That is the minimum you need to reproduce a cup three weeks later.</p>
+
+<h3>A fuller template, if you want one</h3>
+
+<div class="formula">
+<span class="fx-label">The full version</span>
+DATE: __________  COFFEE: ______________________<br>
+Variety: ________  Region: ________  Process: ________<br>
+Roast: __________  Roast date: __________ (___ days)<br>
+<br>
+WATER: __________  (estimated alkalinity: ____ ppm)<br>
+<br>
+BREWER: __________<br>
+COFFEE: ____ g    WATER: ____ g    RATIO: 1:____<br>
+TEMP: ____ °C    GRIND: __________<br>
+<br>
+STEPS:<br>
+0:00  bloom  ____ g   ___ s<br>
+____  pour 2  to ____ g<br>
+____  pour 3  to ____ g<br>
+____  finish (total ____ : ____)<br>
+<br>
+BED: ________________________________<br>
+DRAWDOWN: ____ s<br>
+<br>
+TASTE (hot/warm/cool):<br>
+Bright: ___  Full: ___  Direction: ___  Finish: ___<br>
+NOTES: ________________________________
+</div>
+
+<h3>Four axes for recording taste</h3>
+
+<p>Do not try to write flavour notes. Use the four axes from chapter 24, scoring each from 1 to 5:</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Axis</th><th>1</th><th>3</th><th>5</th></tr></thead>
+<tbody>
+<tr><td><strong>Bright</strong></td><td>Ripe, heavy, little acidity</td><td>Balanced</td><td>Fresh, bright, lots of acidity</td></tr>
+<tr><td><strong>Full</strong></td><td>Thin, tea-like</td><td>Medium</td><td>Full, round, heavy</td></tr>
+<tr><td><strong>Direction</strong></td><td>Caramel, nuts, bread</td><td>Neutral</td><td>Fruit, flowers, tea</td></tr>
+<tr><td><strong>Finish</strong></td><td>Clean, short</td><td>Medium</td><td>Heavy, long, bitter or drying</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>A line like <code>4 / 3 / 5 / 2</code> tells you more than "apricot, jasmine, honey" — and it can be compared between brews.</p>
+
+<h3>Three columns to review</h3>
+
+<p>Once you have twenty lines, read them back along these three columns:</p>
+
+<ol class="steps">
+<li><strong>The “grind” column</strong><p>How many different grind settings are you using? More than four and you are drifting. One good setting usually works for most coffees within a given roast range.</p></li>
+<li><strong>The “time” column</strong><p>Is it trending upward over time? If so, your grinder is wearing, or your filter paper changed.</p></li>
+<li><strong>The “bed” column</strong><p>What percentage of brews had an even bed? Below 50% and your problem is technique, not recipe.</p></li>
+</ol>
+
+<h3>Record the failures too</h3>
+
+<p>This is the most important and hardest part. People tend to record the good cups and skip the bad ones. But data about failure is usually more useful — it tells you <em>where the edge of the good zone is</em>.</p>
+
+<p>If you record three bad cups in a row with the same change, you know that change was the wrong direction. If you only record the good ones, you do not know how many wrong turns it took to get there.</p>
+
+<div class="callout act">
+<p class="callout-title">The most effective way to use the log</p>
+<p>Do not read it every day. Read it <strong>when you open a new bag</strong> — and look for the coffee closest in variety, processing and roast. That is a better starting point than any generic recipe.</p>
+</div>
+
+<h3>About keeping it on your phone</h3>
+
+<p>A phone works, but has two drawbacks: you will not see it while brewing (wet hands), and you will not read it again.</p>
+
+<p>The best arrangement: a small notebook and a pen, kept next to the brewer. Write while the coffee is draining. You already have 45 seconds of waiting — use it.</p>
+
+<h3>A one-line summary per bag</h3>
+
+<p>Besides the per-brew log, keep one line for each bag:</p>
+
+<div class="formula">
+<span class="fx-label">Bag summary</span>
+Name: __________  Roast: ______  Opened: ______<br>
+Best recipe:  ____ g / ____ g, ___ °C, grind ____, ___ : ___<br>
+vs cupping:  ___ close / ___ far<br>
+Buy again?  ___ yes / ___ no      Why: ____________
+</div>
+
+<p>That last line — "buy again?" — is the most valuable line in the whole notebook. After a year it is a list of what you actually like, verified with your own money and time.</p>
+`
     },
 
     "ch-bo-dung-cu": {
@@ -2582,7 +2690,93 @@ Likely problem:  ____________________
       lede: "You can brew an excellent cup with four things. Everything beyond that buys convenience, not a better cup.",
       minutes: 7,
       tags: ["gear", "reference"],
-      body: ``
+      body: `
+<p>The brewing gear market is designed to make you believe you are still missing something. The reality: <strong>four things are enough</strong>, and the order you buy them in matters more than the quantity.</p>
+
+<h3>The four essentials</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Item</th><th>Why</th><th>Budget</th></tr></thead>
+<tbody>
+<tr><td><strong>0.1 g scale</strong></td><td>Without a scale you cannot repeat anything</td><td>200–400k</td></tr>
+<tr><td><strong>Burr grinder</strong></td><td>Even grinding is the foundation of every technique. A blade grinder cannot compensate.</td><td>800k–3m</td></tr>
+<tr><td><strong>Dripper + paper</strong></td><td>The extraction tool</td><td>150–600k</td></tr>
+<tr><td><strong>Gooseneck kettle</strong></td><td>Control over the stream. A temperature-controlled one is better.</td><td>300k–1.5m</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>The order to buy, and why</h3>
+
+<ol class="steps">
+<li><strong>The scale first</strong><p>It is the cheapest and it unlocks everything else. If you are measuring with spoons, this is the biggest change you can make for the least money.</p></li>
+<li><strong>Then water</strong><p>Nothing to buy beyond a few thousand dong of purified water. See chapter 6. This is the second biggest change, and it is nearly free.</p></li>
+<li><strong>Then the grinder</strong><p>The largest investment, and the largest effect after water. If you have to choose between a good grinder and a good dripper, choose the grinder.</p></li>
+<li><strong>Then the dripper and kettle</strong><p>Important, but below the other three. A Switch and an ordinary gooseneck kettle are enough.</p></li>
+</ol>
+
+<div class="callout ok">
+<p class="callout-title">If you are using a blade grinder</p>
+<p>Do not buy a new dripper. Do not buy a new kettle. Buy a burr grinder first. Everything else is optimising a system with one uncontrolled variable.</p>
+</div>
+
+<h3>What to skip</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Item</th><th>Why you do not need it</th></tr></thead>
+<tbody>
+<tr><td>Refractometer</td><td>Expensive, needs calibration, and does not tell you whether the cup is good. See chapter 7.</td></tr>
+<tr><td>TDS pen</td><td>Cannot measure alkalinity — the only thing that matters. See chapter 5.</td></tr>
+<tr><td>Litmus paper / pH pen</td><td>pH is governed by alkalinity; measuring pH is measuring the symptom.</td></tr>
+<tr><td>Carbon filter (Brita)</td><td>Does not reduce alkalinity. Helps with chlorine only. See chapter 6.</td></tr>
+<tr><td>Water softener</td><td>Handles hardness, not alkalinity.</td></tr>
+<tr><td>Separate thermometer</td><td>If your kettle already controls temperature.</td></tr>
+<tr><td>A bundled “starter kit”</td><td>Usually contains what you do not need, and lacks what you do (a scale, a good grinder).</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>What is worth buying, in order</h3>
+
+<ol>
+<li><strong>An aquarium KH test kit</strong> (150–300k) — the only thing that measures alkalinity, and it lasts for hundreds of tests.</li>
+<li><strong>RO water</strong> (a few thousand a litre) — for dilution. You do not need a filter if you can buy RO water.</li>
+<li><strong>A dark, airtight jar</strong> (100–200k) — if your bag has no one-way valve.</li>
+<li><strong>A scale with a timer</strong> (300–500k) — if you want to follow pour times without looking at your phone.</li>
+</ol>
+
+<h3>About grinders: three tiers</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Tier</th><th>Example</th><th>What you get</th></tr></thead>
+<tbody>
+<tr><td>Under 1 million</td><td>An ordinary ceramic burr hand grinder</td><td>Far more even than a blade. Slow, but sufficient.</td></tr>
+<tr><td>1–2.5 million</td><td>A steel burr hand grinder (1Zpresso, Timemore)</td><td>Even, faster, precise adjustment. This is the sweet spot.</td></tr>
+<tr><td>Over 3 million</td><td>An electric burr grinder (Baratza, Fellow)</td><td>Convenient, stable, worth it if you brew a lot.</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>For most home drinkers the second tier is the sweet spot: even enough that your technique means something, and not so expensive that you avoid using it.</p>
+
+<h3>Starting budget</h3>
+
+<div class="stat-grid">
+<div class="stat"><b>~1.5m</b><span>Minimum</span></div>
+<div class="stat"><b>~3m</b><span>Sweet spot</span></div>
+<div class="stat"><b>~6m</b><span>Complete</span></div>
+</div>
+
+<p>With about 1.5 million — a scale, a hand grinder, a Switch, an ordinary kettle — you can brew a cup better than 90% of ordinary coffee shops. The rest is technique and water, and both are nearly free.</p>
+
+<div class="callout warn">
+<p class="callout-title">A note on kettles</p>
+<p>If you are using an ordinary kettle (no gooseneck, no temperature control), you can still brew — but accept two limits: you cannot control the stream precisely, and you do not know the temperature. With those limits, choose a recipe with a wide window (immersion) rather than one that needs precise control (multi-step percolation).</p>
+</div>
+`
     },
 
     "ch-khi-that-bai": {
@@ -2590,7 +2784,89 @@ Likely problem:  ____________________
       lede: "A list to walk through when the cup is bad and you have no idea where to start. Go in order; do not jump.",
       minutes: 7,
       tags: ["diagnosis", "reference"],
-      body: ``
+      body: `
+<p>Some days the cup is bad and you do not know why. This chapter is a list to walk through, from the most common cause to the least.</p>
+
+<div class="callout warn">
+<p class="callout-title">Before you start</p>
+<p>If you are tired, have just eaten, have just drunk other coffee, or have just smoked — your palate is compromised. Try again tomorrow morning, before eating. This is step 0, and it resolves more "problems" than you would expect.</p>
+</div>
+
+<h3>The checklist, in order</h3>
+
+<ol class="steps">
+<li><strong>Water</strong><p>Do you know the alkalinity of the water you are using? If not, run the three-cup experiment in chapter 6. If you use bottled mineral water, read the label — many in Vietnam carry 200–330 mg/L bicarbonate, which is 160–270 ppm alkalinity, three to six times the recommended level.</p><p><em>Signs:</em> a flat cup, fruit gone, a bitter base even after you reduce extraction.</p></li>
+
+<li><strong>Is the coffee old</strong><p>How many days since roast? Over 60 days with no one-way valve, and this may be the main cause. If you do not know the roast date, assume it is old.</p><p><em>Signs:</em> papery, cardboard smell; aroma that will not open even when you raise the temperature.</p></li>
+
+<li><strong>Weigh and measure again</strong><p>Are you really using the dose you think? Many people measure by spoon and are 20–30% off. Weigh once to be sure.</p><p><em>Signs:</em> the cup varies oddly between brews that were meant to be identical.</p></li>
+
+<li><strong>Look at the bed</strong><p>Even? A hole in the middle? Dry patches at the rim? How long did it drain?</p><p><em>If it is uneven:</em> the problem is technique. Drop the height to 3–5 cm, switch to a spiral, swirl the dripper after the bloom.</p></li>
+
+<li><strong>Temperature</strong><p>Are you really pouring at the temperature you think? Without a temperature-controlled kettle, the real temperature can be 5–8 °C lower. Measure it once with a thermometer.</p><p><em>Signs:</em> sour-green, vegetal, lacking aroma — even though the grind seems right.</p></li>
+
+<li><strong>Grind</strong><p>This is the lever you adjust last, not first. If the bed is even and the drawdown is normal (30–60 seconds for the final stage), the grind may already be right.</p></li>
+
+<li><strong>Compare with a cupping</strong><p>If the cupping is also bad, the problem is not your brewing. It is the coffee, the water, or both.</p><p><em>This is the most important step in the whole checklist</em> — because it splits the problem in half.</p></li>
+
+<li><strong>Accept it</strong><p>If you have been through seven steps and the cup is still only "fine", this may be the limit of this coffee. Not every bag can be great. And not every disappointing cup is your fault.</p></li>
+</ol>
+
+<h3>Quick lookup: “what is wrong with my cup”</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>What you taste</th><th>Most likely</th><th>Check first</th></tr></thead>
+<tbody>
+<tr><td>Like weak tea, nothing there</td><td>Ratio too weak, or under-extracted</td><td>Ratio, then grind</td></tr>
+<tr><td>Sour like lemon, astringent</td><td>Under-extracted, or water with too little buffer</td><td>Grind, then alkalinity</td></tr>
+<tr><td>Bitter like medicine</td><td>Over-extracted, or the bean itself</td><td>Coarser grind; compare with a cupping</td></tr>
+<tr><td>Sour and bitter at once</td><td>Channelling</td><td>Look at the bed; lower the pour height</td></tr>
+<tr><td>Drying, astringent mouth</td><td>Over-extracted, or scorched fines</td><td>Less agitation; coarser grind</td></tr>
+<tr><td>Papery, cardboard smell</td><td>Stale coffee</td><td>The roast date</td></tr>
+<tr><td>Mouldy, earthy smell</td><td>Damp storage</td><td>Bin the bag, buy new</td></tr>
+<tr><td>Medicine, rubber smell</td><td>A roast fault</td><td>Change roaster</td></tr>
+<tr><td>Very weak even after adding coffee</td><td>Water too alkaline, or stale coffee</td><td>Alkalinity, roast date</td></tr>
+<tr><td>Flavour varies unpredictably</td><td>No scale, or an uneven grinder</td><td>Weigh again; review the grinder</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Three rules when fixing</h3>
+
+<div class="callout ok">
+<p class="callout-title">1. One change at a time</p>
+<p>Change two things and the cup improves → you do not know which one helped. Change two things and it gets worse → you do not know which one hurt. There are no exceptions to this rule.</p>
+</div>
+
+<div class="callout ok">
+<p class="callout-title">2. Do not adjust while you are annoyed</p>
+<p>This is serious advice. When you are disappointed you tend to change several things at once, and you lose the data. Put the cup down, go and do something else, try again tomorrow.</p>
+</div>
+
+<div class="callout ok">
+<p class="callout-title">3. A limit of three tries</p>
+<p>If after three adjustments you are still not close to the cupping, stop. That is information about the coffee. And it is valuable information — it tells you not to buy it again.</p>
+</div>
+
+<h3>Three things that are never the cause</h3>
+
+<ul>
+<li><strong>"I just do not have the touch."</strong> There is no mechanism for this. If the cup is bad, there is a physical cause. Not having found it yet does not mean it does not exist.</li>
+<li><strong>"This coffee is too good for my gear."</strong> Not true. Good gear helps with repeatability, but an ordinary dripper with correct technique beats an expensive one with bad technique.</li>
+<li><strong>"I need to buy more gear."</strong> This is the most common answer and usually the most wrong. In 90% of cases the problem is the water, the coffee, or one of the four pouring variables.</li>
+</ul>
+
+<div class="pull">If you have been through the checklist<br>and the cup is still only “fine” —<br>that is an <em>answer</em>, not a failure.</div>
+
+<h3>A last word</h3>
+
+<p>This book began with one idea: <strong>a cup has a ceiling, and that ceiling is set before you start.</strong> Every technique in these pages — water, grind, pouring, reading the bed — is a way of getting closer to that ceiling, not of exceeding it.</p>
+
+<p>And if you remember only one thing from all of it, remember this: <strong>you do not create aroma. You can only drop it.</strong> That is both a limit and a liberation.</p>
+
+<p>A limit, because some coffees cannot be made better than what they are. A liberation, because you do not have to try. You only have to avoid breaking them.</p>
+`
     }
   }
 };

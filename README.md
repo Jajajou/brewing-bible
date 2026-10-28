@@ -68,6 +68,8 @@ Bản gốc là tiếng Việt. Bản dịch nằm trong `content/en/text.js` v�
 
 Mỗi file dịch có cùng cấu trúc: `parts` (tiêu đề phần) và `chapters` (tiêu đề, lede, phút đọc, tag, thân bài). Chương chưa có `body` sẽ hiện thông báo "chưa dịch" kèm link sang bản tiếng Việt, nên có thể đẩy lên web từng phần một mà không sợ trang vỡ.
 
+**Trạng thái:** tiếng Anh đủ **28/28 chương** (toàn bộ 8 phần); tiếng Nhật **3/28** (Phần I — Hạt).
+
 Quy ước thuật ngữ và ba nhãn bằng chứng nằm ở [TRANSLATION.md](TRANSLATION.md). Trước khi commit một phần đã dịch:
 
 ```bash
