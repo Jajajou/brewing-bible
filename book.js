@@ -105,9 +105,10 @@
             "và bạn sẽ biết mình đang đứng trên nền đất gì.</p>";
 
     html += '<div class="tier-legend">' +
-      '<div><span class="tier tier-a">Bằng chứng</span><span>Có nghiên cứu công bố hoặc lý thuyết vật lý/hóa học chắc chắn. Có thể dùng làm nền.</span></div>' +
-      '<div><span class="tier tier-b">Hợp lý</span><span>Cơ chế đúng, nhưng chưa có nghiên cứu kiểm soát. Dùng được, đừng tin tuyệt đối.</span></div>' +
-      '<div><span class="tier tier-c">Truyền miệng</span><span>Được lặp lại nhiều nhưng không ai kiểm chứng. Biết để hiểu vì sao người ta nói vậy.</span></div>' +
+      '<div><span class="tier tier-a">Bằng chứng</span><span>Có nghiên cứu công bố hoặc lý thuyết vật lý/hóa học chắc chắn.</span></div>' +
+      '<div><span class="tier tier-b">Hợp lý</span><span>Cơ chế đúng nhưng chưa có nghiên cứu kiểm soát.</span></div>' +
+      '<div><span class="tier tier-c">Truyền miệng</span><span>Được lặp lại nhiều nhưng không ai kiểm chứng.</span></div>' +
+      '<p class="tier-legend-foot">Cái đầu là nền đất. Cái giữa là giả thuyết tốt. Cái cuối là niềm tin — biết để hiểu vì sao người ta nói vậy.</p>' +
       "</div>";
 
     /* table of contents on the cover */
@@ -132,6 +133,7 @@
     html += '<div class="cta-row">';
     html += '<a class="btn btn-primary" href="#/' + (flat[0] ? flat[0].ch.id : "") + '">Bắt đầu đọc →</a>';
     html += '<button class="btn btn-ghost" id="randomCh">Mở một chương ngẫu nhiên</button>';
+    html += '<a class="btn btn-ghost" href="the-brewing-bible.pdf" download>Bản in A5 (PDF) ↓</a>';
     html += "</div>";
 
     html += "</div>";

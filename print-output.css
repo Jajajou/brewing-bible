@@ -1,0 +1,46 @@
+/* ============================================================
+   The Brewing Bible — luật CHỈ dùng lúc in / xuất PDF.
+
+   Tách khỏi print.css là có chủ đích: Paged.js đọc cả những @page nằm
+   trong @media print, nên nếu để luật `@page{margin:0}` chung với
+   stylesheet phân trang thì nó ghi đè mẫu trang và toàn bộ sách bị
+   dồn thành 18 trang. Nạp riêng bằng media="print" để Paged.js bỏ qua.
+
+   Paged.js đã dựng sẵn từng trang đúng khổ 148×210mm và đã áp lề bên
+   trong, nên khi in phải đặt lề trang về 0 để trang không bị thu nhỏ
+   thêm một lần nữa.
+   ============================================================ */
+
+@page{
+  size: 148mm 210mm;
+  margin: 0;
+}
+
+html, body{
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 148mm;
+  background: #fff !important;
+}
+
+.pagedjs_pages{ display: block !important; }
+
+.pagedjs_page{
+  margin: 0 !important;
+  box-shadow: none !important;
+  break-after: page;
+  break-inside: avoid;
+  page-break-after: always;
+  page-break-inside: avoid;
+}
+
+.pagedjs_page:last-child{
+  break-after: auto;
+  page-break-after: auto;
+}
+
+/* KHÔNG ẩn `#book` ở đây.
+   Paged.js giữ nguyên id="book" trong bản sao của TRANG ĐẦU, nên
+   `#book{display:none}` sẽ xoá luôn trang bìa khỏi bản in. Bản gốc
+   không cần ẩn: sau khi phân trang, Paged.js đã chuyển nó vào một
+   <template> nên nó không còn vẽ ra gì. */

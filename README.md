@@ -34,27 +34,55 @@ Mỗi khẳng định trong sách đều được dán nhãn theo ba mức này.
 - Chế độ tối, chỉnh cỡ chữ
 - Thanh tiến độ đọc
 - Điều hướng bằng phím ← → ; nhấn `/` để tìm
-- **Bản in**: Ctrl/Cmd + P cho ra bản sách in sạch, mỗi chương sang trang mới
+- **Bản in**: Ctrl/Cmd + P cho ra bản in nhanh; hoặc tải bản dàn trang A5 sẵn ở [the-brewing-bible.pdf](the-brewing-bible.pdf)
 
 ## Cấu trúc
 
 ```
-index.html          khung trang
-styles.css          toàn bộ giao diện
-book.js             router, mục lục, tìm kiếm, tiến độ
-content/part-*.js   nội dung 8 phần (dữ liệu JS)
+index.html            khung trang web
+styles.css            toàn bộ giao diện web
+book.js               router, mục lục, tìm kiếm, tiến độ
+content/part-*.js     nội dung 8 phần (dữ liệu JS)
+
+print.html            khung bản in A5 (dùng chung content/)
+print.css             dàn trang A5: khổ, lề, chạy đầu trang, số trang, mục lục có số trang
+print.js              dựng bìa → mục lục → phần → chương cho bản in
+print-output.css      luật chỉ áp lúc in (lề 0) — nạp sau khi phân trang xong
+build-pdf.sh          một lệnh xuất ra PDF
+tools/print-pdf.mjs   xuất PDF qua Chrome DevTools (chờ Paged.js xong mới in)
+vendor/paged.polyfill.js  Paged.js 0.4.3 (phân trang trong trình duyệt)
 ```
 
 Nội dung nằm trong các file `content/part-N.js` dưới dạng dữ liệu — thêm chương chỉ cần thêm một object vào mảng `chapters`.
 
 ### Quy ước version asset
 
-Các thẻ `<link>` và `<script>` trong `index.html` có hậu tố `?v=N`. GitHub Pages cache asset 10 phút, nên sau khi sửa `styles.css`, `book.js` hoặc file nội dung, **tăng `N`** ở tất cả các thẻ rồi push — người đọc nhận bản mới ngay thay vì chờ cache hết hạn.
+Các thẻ `<link>` và `<script>` trong `index.html` **và** `print.html` có hậu tố `?v=N`. GitHub Pages cache asset 10 phút, nên sau khi sửa `styles.css`, `book.js` hoặc file nội dung, **tăng `N`** ở tất cả các thẻ rồi push — người đọc nhận bản mới ngay thay vì chờ cache hết hạn.
 
 ```bash
-sed -i '' 's/?v=2/?v=3/g' index.html   # macOS
-sed -i 's/?v=2/?v=3/g' index.html      # Linux
+sed -i '' 's/?v=3/?v=4/g' index.html print.html   # macOS
+sed -i 's/?v=3/?v=4/g' index.html print.html      # Linux
 ```
+
+## Bản in A5 (PDF)
+
+```bash
+./build-pdf.sh                  # → the-brewing-bible.pdf
+./build-pdf.sh out/ban-in.pdf    # đường dẫn khác
+SHOT_PAGE=6 ./build-pdf.sh       # kèm ảnh trang 6 ra /tmp/shot-6.png để soi lỗi
+```
+
+Script tự bật một static server tạm (Paged.js không chạy được với `file://`), dựng trang, **chờ Paged.js phân trang xong** rồi mới in. Cần Chrome/Chromium và Node 18+.
+
+Bản dàn trang: khổ A5 148×210 mm, lề 17/16/18 mm, chạy đầu trang theo tên phần, số trang chân, mục lục có số trang thật (dùng `target-counter`), bìa và trang phần riêng. Hiện khoảng **129 trang**.
+
+Muốn xem bản dàn trang ngay trong trình duyệt: mở `print.html`. Thêm `?pdf=1` để thấy đúng những gì PDF nhận.
+
+Vài điều dễ vấp nếu sửa `print.css`:
+
+- **Đừng** để `@page{ margin: 0 }` chung với `print.css`. Paged.js đọc cả `@page` nằm trong `@media print`, nên luật đó ghi đè mẫu trang và cả sách dồn lại còn ~18 trang. Nó nằm riêng trong `print-output.css`, chỉ nạp sau khi phân trang xong.
+- **Đừng** ẩn `#book`: Paged.js giữ nguyên `id="book"` trong bản sao của trang đầu, nên `#book{display:none}` xoá luôn trang bìa.
+- Đầu chương nằm trong `<header class="ch-head">` với `break-inside/break-after: avoid` — nếu tách rời, số chương có thể bị bỏ lại cuối trang trước.
 
 ## Chạy tại máy
 

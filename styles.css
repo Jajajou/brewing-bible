@@ -444,14 +444,24 @@ html[data-theme="dark"] .btn-primary{ color: #17120c; }
 .tier-c{ background: var(--bad-wash); color: var(--bad); border: 1px solid color-mix(in srgb, var(--bad) 30%, transparent); }
 
 .tier-legend{
-  display: grid; gap: 0.7rem;
+  display: grid; gap: 0.85rem;
   margin: 1.8rem 0; padding: 1.2rem 1.3rem;
   border: 1px solid var(--rule-soft); border-radius: var(--radius);
   background: var(--surface);
   font-family: var(--font-ui); font-size: 0.8rem; line-height: 1.55;
 }
-.tier-legend > div{ display: grid; grid-template-columns: 5.6rem 1fr; gap: 0.7rem; align-items: start; }
-.tier-legend span:last-child{ color: var(--ink-2); }
+.tier-legend > div{ display: flex; gap: 0.95rem; align-items: start; }
+/* Nhãn cùng một bề rộng để mép phải thẳng hàng, chữ căn giữa */
+.tier-legend .tier{
+  flex: 0 0 6.6rem;
+  justify-content: center;
+  height: 1.35rem;
+}
+.tier-legend span:last-child{ color: var(--ink-2); padding-top: 0.12rem; }
+.tier-legend-foot{
+  margin: 0; padding-top: 0.7rem; border-top: 1px solid var(--rule-soft);
+  font-size: 0.74rem; color: var(--muted); line-height: 1.5;
+}
 
 /* ---------- stats / formula blocks ---------- */
 .stat-grid{
@@ -605,7 +615,8 @@ html[data-theme="dark"] .btn-primary{ color: #17120c; }
   .search-input{ width: 100%; }
   .search-input:focus{ width: 100%; }
   .body > p:first-of-type::first-letter{ font-size: 2.9rem; }
-  .tier-legend > div{ grid-template-columns: 1fr; gap: 0.2rem; }
+  .tier-legend > div{ flex-direction: column; gap: 0.25rem; }
+  .tier-legend .tier{ flex: none; }
 }
 
 /* ---------- print ---------- */
