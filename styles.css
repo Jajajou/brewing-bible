@@ -136,6 +136,60 @@ body{
 .drawer-toggle{ display: none; }
 .font-ctl{ display: flex; gap: 0.1rem; }
 
+/* ---------- language ---------- */
+.lang-select{
+  height: 2.1rem; padding: 0 1.4rem 0 0.55rem;
+  border: 1px solid var(--rule-soft); border-radius: var(--radius);
+  background-color: var(--surface); color: var(--ink-2);
+  font-family: var(--font-ui); font-size: 0.76rem;
+  appearance: none; cursor: pointer;
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%),
+                    linear-gradient(135deg, currentColor 50%, transparent 50%);
+  background-position: calc(100% - 0.72rem) 0.85rem, calc(100% - 0.48rem) 0.85rem;
+  background-size: 0.24rem 0.24rem, 0.24rem 0.24rem;
+  background-repeat: no-repeat;
+}
+.lang-select:hover{ border-color: var(--rule); color: var(--ink); }
+.lang-select:focus-visible{ outline: 2px solid var(--accent-2); outline-offset: 1px; }
+
+/* ---------- tiếng Nhật ---------- */
+/* Drop cap làm cho chữ kana đầu đoạn phóng to như một ký tự Latin — sai
+   hoàn toàn với tiếng Nhật. Tắt, và nới dòng cho dễ đọc hơn. */
+html[lang="ja"] .body > p:first-of-type::first-letter{
+  float: none; font-size: inherit; line-height: inherit;
+  color: inherit; padding: 0; font-weight: inherit;
+}
+html[lang="ja"] body{
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", Georgia, serif;
+}
+html[lang="ja"] .body{ line-height: 1.92; }
+html[lang="ja"] .body h3,
+html[lang="ja"] .chapter-head h2,
+html[lang="ja"] .cover h1{ letter-spacing: 0.01em; }
+html[lang="ja"] .body h3{ line-height: 1.5; }
+html[lang="ja"] .chapter-head h2{ line-height: 1.35; }
+
+/* nhãn “chưa dịch” trên mục lục */
+.toc-link .toc-todo{
+  font-family: var(--font-ui); font-size: 0.6rem; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--muted);
+  border: 1px solid var(--rule-soft); border-radius: 0.25rem;
+  padding: 0 0.25rem; margin-left: 0.4rem; white-space: nowrap;
+}
+
+/* thông báo chương chưa dịch */
+.notice{
+  margin: 2.2rem 0; padding: 1.4rem 1.5rem;
+  border: 1px solid var(--rule-soft); border-left: 3px solid var(--accent);
+  background: var(--surface);
+}
+.notice h3{
+  font-family: var(--font-display); font-weight: 400; font-size: 1.15rem;
+  margin: 0 0 0.5rem;
+}
+.notice p{ margin: 0 0 1rem; color: var(--ink-2); font-size: 0.94rem; }
+.notice a{ color: var(--accent); border-bottom: 1px solid currentColor; }
+
 /* ---------- search ---------- */
 .search-wrap{ position: relative; }
 .search-input{
@@ -580,6 +634,7 @@ html[data-theme="dark"] .btn-primary{ color: #17120c; }
 @media (max-width: 68rem){
   .search-input{ width: 8rem; }
   .search-input:focus{ width: 13rem; }
+  .lang-select{ padding: 0 1.2rem 0 0.45rem; font-size: 0.72rem; }
   .main{ padding: 0 2rem 5rem; }
 }
 
@@ -604,6 +659,8 @@ html[data-theme="dark"] .btn-primary{ color: #17120c; }
   body.drawer-open .scrim{ opacity: 1; pointer-events: auto; }
   .main{ padding: 0 1.15rem 4rem; }
   .font-ctl{ display: none; }
+  .search-input{ width: 7rem; }
+  .search-input:focus{ width: 10rem; }
   .cover{ padding: 2.5rem 0 2rem; }
   .chapter{ padding-top: 2rem; }
   .pager{ grid-template-columns: 1fr; gap: 0.7rem; }
@@ -611,9 +668,13 @@ html[data-theme="dark"] .btn-primary{ color: #17120c; }
 }
 
 @media (max-width: 32rem){
-  .search-wrap{ flex: 1; }
+  /* spacer cũng flex:1, để nguyên thì nó chia đôi chỗ trống với ô tìm
+     kiếm và ô tìm bị bóp còn ~75px */
+  .topbar-spacer{ display: none; }
+  .search-wrap{ flex: 1 1 auto; min-width: 4.5rem; }
   .search-input{ width: 100%; }
   .search-input:focus{ width: 100%; }
+  .lang-select{ font-size: 0.68rem; padding: 0 1.1rem 0 0.4rem; }
   .body > p:first-of-type::first-letter{ font-size: 2.9rem; }
   .tier-legend > div{ flex-direction: column; gap: 0.25rem; }
   .tier-legend .tier{ flex: none; }

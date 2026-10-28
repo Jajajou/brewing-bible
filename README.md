@@ -35,6 +35,7 @@ Mỗi khẳng định trong sách đều được dán nhãn theo ba mức này.
 - Thanh tiến độ đọc
 - Điều hướng bằng phím ← → ; nhấn `/` để tìm
 - **Bản in**: Ctrl/Cmd + P cho ra bản in nhanh; hoặc tải bản dàn trang A5 sẵn ở [the-brewing-bible.pdf](the-brewing-bible.pdf)
+- **Ba ngôn ngữ trên web**: tiếng Việt, tiếng Anh, tiếng Nhật — chọn ở góc phải thanh trên, lựa chọn được nhớ trong máy
 
 ## Cấu trúc
 
@@ -43,6 +44,9 @@ index.html            khung trang web
 styles.css            toàn bộ giao diện web
 book.js               router, mục lục, tìm kiếm, tiến độ
 content/part-*.js     nội dung 8 phần (dữ liệu JS)
+content/en/text.js    bản dịch tiếng Anh (chỉ dùng cho bản web)
+content/ja/text.js    bản dịch tiếng Nhật (chỉ dùng cho bản web)
+i18n.js               chuỗi giao diện ba thứ tiếng
 
 print.html            khung bản in A5 (dùng chung content/)
 print.css             dàn trang A5: khổ, lề, chạy đầu trang, số trang, mục lục có số trang
@@ -52,10 +56,26 @@ epub.css              giao diện bản EPUB (e-ink)
 build-pdf.sh          một lệnh xuất ra PDF
 tools/print-pdf.mjs   xuất PDF qua Chrome DevTools (chờ Paged.js xong mới in)
 tools/build-epub.mjs  dựng EPUB 3 (nav, ncx, từng chương một file)
+tools/check-i18n.mjs  so cấu trúc bản dịch với bản gốc (bảng, danh sách, đoạn)
 vendor/paged.polyfill.js  Paged.js 0.4.3 (phân trang trong trình duyệt)
 ```
 
 Nội dung nằm trong các file `content/part-N.js` dưới dạng dữ liệu — thêm chương chỉ cần thêm một object vào mảng `chapters`.
+
+## Bản dịch
+
+Bản gốc là tiếng Việt. Bản dịch nằm trong `content/en/text.js` và `content/ja/text.js`, **chỉ dùng cho bản web** — PDF và EPUB vẫn là tiếng Việt.
+
+Mỗi file dịch có cùng cấu trúc: `parts` (tiêu đề phần) và `chapters` (tiêu đề, lede, phút đọc, tag, thân bài). Chương chưa có `body` sẽ hiện thông báo "chưa dịch" kèm link sang bản tiếng Việt, nên có thể đẩy lên web từng phần một mà không sợ trang vỡ.
+
+Quy ước thuật ngữ và ba nhãn bằng chứng nằm ở [TRANSLATION.md](TRANSLATION.md). Trước khi commit một phần đã dịch:
+
+```bash
+node tools/check-i18n.mjs        # cả en và ja
+node tools/check-i18n.mjs en     # chỉ một ngôn ngữ
+```
+
+Script so từng chương với bản gốc: số bảng, số hàng, số `<li>`, số `<strong>`, số đoạn, và độ dài trong khoảng cho phép. Lệch là báo lỗi — dấu hiệu bị bỏ sót một hàng bảng hoặc một đoạn văn.
 
 ### Quy ước version asset
 

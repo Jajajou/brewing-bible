@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,800&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=6">
+<link rel="stylesheet" href="styles.css?v=11">
 </head>
 <body>
 
@@ -35,6 +35,12 @@
     <button class="icon-btn" id="fontDown" aria-label="Chữ nhỏ hơn">A−</button>
     <button class="icon-btn" id="fontUp" aria-label="Chữ lớn hơn">A+</button>
   </div>
+
+  <select class="lang-select" id="langSelect" aria-label="Ngôn ngữ / Language / 言語">
+    <option value="vi" lang="vi" data-short="VI">Tiếng Việt</option>
+    <option value="en" lang="en" data-short="EN">English</option>
+    <option value="ja" lang="ja" data-short="日本語">日本語</option>
+  </select>
 
   <button class="icon-btn" id="themeToggle" aria-label="Đổi giao diện sáng/tối">
     <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8Z" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linejoin="round"/></svg>
@@ -67,6 +73,7 @@
 <script src="content/part-6.js?v=6"></script>
 <script src="content/part-7.js?v=6"></script>
 <script src="content/part-8.js?v=6"></script>
-<script src="book.js?v=6"></script>
+<script src="i18n.js?v=8"></script>
+<script src="book.js?v=10"></script>
 </body>
 </html>

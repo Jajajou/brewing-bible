@@ -7,6 +7,31 @@
 
   var PARTS = window.BOOK_PARTS || [];
 
+  /* ---------- ngôn ngữ ---------- */
+  var I18N = window.BOOK_I18N || {
+    lang: "vi",
+    langs: ["vi"],
+    ui: { vi: {} },
+    chapterLabel: function (l, n) { return "Chương " + String(n).padStart(2, "0"); },
+    partLabel: function (l, r) { return "Phần " + r; }
+  };
+  var LANG = I18N.lang;
+  var T = I18N.ui[LANG] || I18N.ui.vi;
+
+  function chLabel(n) { return I18N.chapterLabel(LANG, n); }
+  function partLabel(roman) { return I18N.partLabel(LANG, roman); }
+
+  /* bản dịch nằm ở content/<lang>/text.js; tiếng Việt là nguồn gốc */
+  function loadOverlay(lang) {
+    return new Promise(function (resolve) {
+      var s = document.createElement("script");
+      s.src = "content/" + lang + "/text.js?v=10";
+      s.onload = function () { resolve(window.BOOK_TEXT || null); };
+      s.onerror = function () { resolve(null); };
+      document.head.appendChild(s);
+    });
+  }
+
   /* ---------- flatten ---------- */
   var flat = [];
   PARTS.forEach(function (part) {
@@ -21,6 +46,48 @@
   });
 
   var TOTAL = flat.length;
+
+  /* Ghép bản dịch vào cấu trúc gốc: giữ nguyên id và thứ tự, chỉ thay
+     tiêu đề / lede / thân bài. Chương chưa có thân bài dịch thì đánh
+     dấu __translated = false để hiện thông báo thay vì im lặng. */
+  function applyTranslation(text) {
+    var parts = (text && text.parts) || {};
+    var chs = (text && text.chapters) || {};
+    var missing = 0;
+
+    PARTS.forEach(function (part) {
+      var pt = parts[part.id];
+      if (pt) {
+        part.titleVi = part.title;
+        if (pt.title) part.title = pt.title;
+        if (pt.blurb) part.blurb = pt.blurb;
+      }
+      (part.chapters || []).forEach(function (ch) {
+        var ct = chs[ch.id];
+        if (ct) {
+          ch.titleVi = ch.title;
+          if (ct.title) ch.title = ct.title;
+          if (ct.lede) ch.lede = ct.lede;
+          if (ct.tags) ch.tags = ct.tags;
+          if (ct.minutes) ch.minutes = ct.minutes;
+        }
+
+        /* Bản gốc: mọi chương đều đọc được. Bản dịch: chương chưa có thân
+           bài thì để rỗng và hiện thông báo — không trộn tiếng Việt vào
+           giữa một trang tiếng Anh. */
+        if (LANG === "vi") {
+          ch.__translated = true;
+          return;
+        }
+        ch.bodyVi = ch.body;
+        ch.body = (ct && ct.body) ? ct.body : "";
+        ch.__translated = !!ch.body;
+        if (!ch.__translated) missing++;
+      });
+    });
+
+    window.BOOK_MISSING = missing;
+  }
 
   /* ---------- storage ---------- */
   var LS = {
@@ -47,18 +114,34 @@
 
   var ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
 
+  /* địa chỉ của cùng chương đó ở bản tiếng Việt */
+  function viUrl(id) {
+    return location.pathname + "?lang=vi#/" + id;
+  }
+
+  function switchLang(lang) {
+    try { localStorage.setItem("nuocba.lang", lang); } catch (e) {}
+    var hash = location.hash || "#/";
+    location.href = location.pathname + "?lang=" + lang + hash;
+  }
+
   /* ---------- plain text index for search ---------- */
-  var index = flat.map(function (entry) {
-    var tmp = document.createElement("div");
-    tmp.innerHTML = entry.ch.body || "";
-    var norm = function (s) { return String(s || "").replace(/\s+/g, " ").toLowerCase(); };
-    return {
-      entry: entry,
-      title: norm(entry.ch.title),
-      lede: norm(entry.ch.lede),
-      text: norm(entry.ch.title + " " + (entry.ch.lede || "") + " " + (tmp.textContent || ""))
-    };
-  });
+  var index = [];
+
+  function normText(s) { return String(s || "").replace(/\s+/g, " ").toLowerCase(); }
+
+  function buildIndex() {
+    index = flat.map(function (entry) {
+      var tmp = document.createElement("div");
+      tmp.innerHTML = entry.ch.body || "";
+      return {
+        entry: entry,
+        title: normText(entry.ch.title),
+        lede: normText(entry.ch.lede),
+        text: normText(entry.ch.title + " " + (entry.ch.lede || "") + " " + (tmp.textContent || ""))
+      };
+    });
+  }
 
   /* ---------- build TOC ---------- */
   function buildToc() {
@@ -76,7 +159,9 @@
         if (!entry) return;
         html += '<li><a class="toc-link" href="#/' + ch.id + '" data-ch="' + ch.id + '">' +
                 '<span class="n">' + String(entry.n).padStart(2, "0") + "</span>" +
-                "<span>" + esc(ch.title) + "</span></a></li>";
+                "<span>" + esc(ch.title) +
+                (ch.__translated ? "" : '<span class="toc-todo">' + esc(T.untranslatedBadge) + "</span>") +
+                "</span></a></li>";
       });
       html += "</ul></div>";
     });
@@ -87,28 +172,24 @@
   function renderCover() {
     var html = "";
     html += '<div class="cover">';
-    html += '<p class="cover-kicker">Sách thực hành · Pour Over &amp; Cupping</p>';
+    html += '<p class="cover-kicker">' + esc(T.coverKicker) + "</p>";
     html += "<h1>The Brewing<br><em>Bible</em></h1>";
-    html += '<p class="cover-dek">Một cuốn sách về những gì thật sự xảy ra khi nước chạm vào bã cà — ' +
-            "và cách biến một ly cupping ngon thành một ly pour-over ngon, mà không cần biến việc uống cà phê thành một dự án kỹ thuật.</p>";
+    html += '<p class="cover-dek">' + esc(T.coverDek) + "</p>";
 
     html += '<div class="cover-meta">';
-    html += "<div><b>" + TOTAL + "</b>chương</div>";
-    html += "<div><b>" + PARTS.length + "</b>phần</div>";
-    html += "<div><b>~5 giờ</b>đọc</div>";
-    html += "<div><b>3 mức</b>độ bằng chứng</div>";
+    html += "<div><b>" + TOTAL + "</b>" + esc(T.metaChapters) + "</div>";
+    html += "<div><b>" + PARTS.length + "</b>" + esc(T.metaParts) + "</div>";
+    html += "<div><b>" + esc(T.metaHoursValue) + "</b>" + esc(T.metaHours) + "</div>";
+    html += "<div><b>" + esc(T.metaTiersValue) + "</b>" + esc(T.metaTiers) + "</div>";
     html += "</div>";
 
-    html += "<p>Cuốn sách này được viết từ một nguyên tắc: <strong>nói rõ chỗ nào có bằng chứng, " +
-            "chỗ nào chỉ là suy luận hợp lý, và chỗ nào là truyền miệng</strong>. Nghề pha cà phê specialty " +
-            "đầy những lời khuyên được lặp lại đủ lâu để thành niềm tin. Bạn sẽ thấy chúng được đánh dấu, " +
-            "và bạn sẽ biết mình đang đứng trên nền đất gì.</p>";
+    html += "<p>" + T.coverBody + "</p>";
 
     html += '<div class="tier-legend">' +
-      '<div><span class="tier tier-a">Bằng chứng</span><span>Có nghiên cứu công bố hoặc lý thuyết vật lý/hóa học chắc chắn.</span></div>' +
-      '<div><span class="tier tier-b">Hợp lý</span><span>Cơ chế đúng nhưng chưa có nghiên cứu kiểm soát.</span></div>' +
-      '<div><span class="tier tier-c">Truyền miệng</span><span>Được lặp lại nhiều nhưng không ai kiểm chứng.</span></div>' +
-      '<p class="tier-legend-foot">Cái đầu là nền đất. Cái giữa là giả thuyết tốt. Cái cuối là niềm tin — biết để hiểu vì sao người ta nói vậy.</p>' +
+      '<div><span class="tier tier-a">' + esc(T.tierA[0]) + "</span><span>" + esc(T.tierA[1]) + "</span></div>" +
+      '<div><span class="tier tier-b">' + esc(T.tierB[0]) + "</span><span>" + esc(T.tierB[1]) + "</span></div>" +
+      '<div><span class="tier tier-c">' + esc(T.tierC[0]) + "</span><span>" + esc(T.tierC[1]) + "</span></div>" +
+      '<p class="tier-legend-foot">' + esc(T.tierFoot) + "</p>" +
       "</div>";
 
     /* table of contents on the cover */
@@ -131,16 +212,16 @@
     html += "</div>";
 
     html += '<div class="cta-row">';
-    html += '<a class="btn btn-primary" href="#/' + (flat[0] ? flat[0].ch.id : "") + '">Bắt đầu đọc →</a>';
-    html += '<button class="btn btn-ghost" id="randomCh">Mở một chương ngẫu nhiên</button>';
-    html += '<a class="btn btn-ghost" href="the-brewing-bible.pdf" download>Bản in A5 (PDF) ↓</a>';
-    html += '<a class="btn btn-ghost" href="the-brewing-bible.epub" download>EPUB cho máy đọc sách ↓</a>';
+    html += '<a class="btn btn-primary" href="#/' + (flat[0] ? flat[0].ch.id : "") + '">' + esc(T.start) + "</a>";
+    html += '<button class="btn btn-ghost" id="randomCh">' + esc(T.random) + "</button>";
+    html += '<a class="btn btn-ghost" href="the-brewing-bible.pdf" download>' + esc(T.pdf) + "</a>";
+    html += '<a class="btn btn-ghost" href="the-brewing-bible.epub" download>' + esc(T.epub) + "</a>";
     html += "</div>";
 
     html += "</div>";
 
     $("#page").innerHTML = html;
-    document.title = "The Brewing Bible — Pour Over & Cupping";
+    document.title = T.title;
 
     var rnd = $("#randomCh");
     if (rnd) {
@@ -163,20 +244,28 @@
     var html = "";
     html += '<div class="chapter">';
     html += '<header class="chapter-head">';
-    html += '<p class="chapter-kicker"><span>Chương ' + String(entry.n).padStart(2, "0") + "</span>" +
+    html += '<p class="chapter-kicker"><span>' + esc(chLabel(entry.n)) + "</span>" +
             '<span class="dot"></span>' +
-            '<span class="part-name">' + esc(part.title) + "</span></p>";
+            '<span class="part-name">' + esc(partLabel(part.roman || ROMAN[pi] || "")) + " · " + esc(part.title) + "</span></p>";
     html += "<h2>" + esc(ch.title) + "</h2>";
     if (ch.lede) html += '<p class="chapter-lede">' + esc(ch.lede) + "</p>";
 
     html += '<div class="chapter-meta">';
-    if (ch.minutes) html += "<span>~" + ch.minutes + " phút đọc</span>";
+    if (ch.minutes) html += "<span>" + esc(T.minutes(ch.minutes)) + "</span>";
     (ch.tags || []).forEach(function (t) {
       html += '<span class="tag">' + esc(t) + "</span>";
     });
     html += "</div></header>";
 
-    html += '<div class="body">' + (ch.body || "") + "</div>";
+    if (ch.__translated) {
+      html += '<div class="body">' + (ch.body || "") + "</div>";
+    } else {
+      html += '<div class="notice">' +
+        "<h3>" + esc(T.untranslatedTitle) + "</h3>" +
+        "<p>" + esc(T.untranslatedBody) + "</p>" +
+        '<a href="' + viUrl(ch.id) + '">' + esc(T.untranslatedCta) + "</a>" +
+        "</div>";
+    }
     html += "</div>";
 
     $("#page").innerHTML = html;
@@ -188,11 +277,11 @@
     var next = flat[idx + 1];
     var pager = "";
     if (prev) {
-      pager += '<a class="pager-link prev" href="#/' + prev.ch.id + '"><span class="dir">← Chương trước</span>' +
+      pager += '<a class="pager-link prev" href="#/' + prev.ch.id + '"><span class="dir">' + esc(T.prev) + "</span>" +
                '<span class="t">' + esc(prev.ch.title) + "</span></a>";
     }
     if (next) {
-      pager += '<a class="pager-link next" href="#/' + next.ch.id + '"><span class="dir">Chương sau →</span>' +
+      pager += '<a class="pager-link next" href="#/' + next.ch.id + '"><span class="dir">' + esc(T.next) + "</span>" +
                '<span class="t">' + esc(next.ch.title) + "</span></a>";
     }
     $("#pager").innerHTML = pager;
@@ -223,7 +312,7 @@
     var done = Object.keys(readSet).filter(function (k) { return byId[k]; }).length;
     var pct = TOTAL ? Math.round((done / TOTAL) * 100) : 0;
     $("#readStat").innerHTML =
-      "<strong>" + done + "</strong> / " + TOTAL + " chương đã đọc" +
+      T.readStat(done, TOTAL) +
       '<span class="read-meter"><i style="width:' + pct + '%"></i></span>';
   }
 
@@ -281,14 +370,14 @@
     hits = hits.slice(0, 8);
 
     if (!hits.length) {
-      searchResults.innerHTML = '<p class="sr-empty">Không tìm thấy. Thử một từ khác.</p>';
+      searchResults.innerHTML = '<p class="sr-empty">' + esc(T.noResults) + "</p>";
       searchResults.hidden = false;
       return;
     }
 
     searchResults.innerHTML = hits.map(function (h) {
       return '<button class="sr-item" data-go="' + h.entry.ch.id + '">' +
-        '<span class="sr-kicker">Chương ' + String(h.entry.n).padStart(2, "0") + " · " + esc(h.entry.part.title) + "</span>" +
+        '<span class="sr-kicker">' + esc(T.searchKicker(String(h.entry.n).padStart(2, "0"), h.entry.part.title)) + "</span>" +
         '<span class="sr-title">' + esc(h.entry.ch.title) + "</span>" +
         '<span class="sr-snippet">' + esc(h.snippet) + "</span></button>";
     }).join("");
@@ -395,9 +484,69 @@
     }
   });
 
+  /* Ở màn hình hẹp, ô chọn ngôn ngữ hiện mã ngắn (VI / EN / 日本語) để
+     chừa chỗ cho ô tìm kiếm. Nhãn đầy đủ vẫn nằm trong aria-label. */
+  function syncLangLabels(sel) {
+    var narrow = window.matchMedia("(max-width: 32rem)").matches;
+    Array.prototype.forEach.call(sel.options, function (o) {
+      if (!o.dataset.full) o.dataset.full = o.textContent;
+      var next = narrow ? (o.dataset.short || o.dataset.full) : o.dataset.full;
+      if (o.textContent !== next) o.textContent = next;
+    });
+  }
+
+  /* ---------- khung giao diện theo ngôn ngữ ---------- */
+  function setupChrome() {
+    document.documentElement.lang = LANG;
+    document.title = T.title;
+
+    var sel = $("#langSelect");
+    if (sel) {
+      sel.value = LANG;
+      sel.addEventListener("change", function () { switchLang(sel.value); });
+      syncLangLabels(sel);
+      window.addEventListener("resize", function () { syncLangLabels(sel); });
+    }
+
+    var si = $("#searchInput");
+    if (si) {
+      si.placeholder = T.searchPlaceholder;
+      si.setAttribute("aria-label", T.searchAria);
+    }
+
+    var toc = $("#toc");
+    if (toc) toc.setAttribute("aria-label", T.tocAria);
+
+    var dt = $("#drawerToggle");
+    if (dt) dt.setAttribute("aria-label", T.drawerAria);
+
+    var fd2 = $("#fontDown");
+    if (fd2) fd2.setAttribute("aria-label", T.fontSmaller);
+    var fu2 = $("#fontUp");
+    if (fu2) fu2.setAttribute("aria-label", T.fontLarger);
+
+    var th = $("#themeToggle");
+    if (th) th.setAttribute("aria-label", T.themeToggle);
+  }
+
   /* ---------- init ---------- */
-  buildToc();
-  updateReadStat();
-  route();
-  updateProgress();
+  function boot() {
+    buildIndex();
+    buildToc();
+    updateReadStat();
+    route();
+    updateProgress();
+  }
+
+  setupChrome();
+
+  if (LANG === "vi") {
+    applyTranslation(null);
+    boot();
+  } else {
+    loadOverlay(LANG).then(function (text) {
+      applyTranslation(text);
+      boot();
+    });
+  }
 })();
