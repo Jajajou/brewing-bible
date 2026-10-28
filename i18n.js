@@ -49,7 +49,14 @@
       untranslatedTitle: "Chương này chưa có bản dịch",
       untranslatedBody: "Nội dung tiếng Việt đã có đủ. Bản dịch đang được làm dần từng phần.",
       untranslatedCta: "Đọc chương này bằng tiếng Việt",
-      untranslatedBadge: "Chưa dịch"
+      untranslatedBadge: "Chưa dịch",
+      tplPrint: "In mẫu này",
+      tplHint: "In một trang A5 cho mỗi lần dùng. In 100 bản là có ngay một cuốn sổ.",
+      tplCopies: "Số bản",
+      tplGo: "In",
+      tplClose: "Đóng",
+      tplBlocked: "Trình duyệt chặn cửa sổ in. Cho phép popup rồi thử lại.",
+      tplSheet: "The Brewing Bible"
     },
 
     en: {
@@ -94,7 +101,14 @@
       untranslatedTitle: "This chapter is not translated yet",
       untranslatedBody: "The Vietnamese text is complete. Translations are being added one part at a time.",
       untranslatedCta: "Read this chapter in Vietnamese",
-      untranslatedBadge: "Untranslated"
+      untranslatedBadge: "Untranslated",
+      tplPrint: "Print this template",
+      tplHint: "One A5 page per entry. Print 100 and you have a notebook.",
+      tplCopies: "Copies",
+      tplGo: "Print",
+      tplClose: "Close",
+      tplBlocked: "The browser blocked the print window. Allow pop-ups and try again.",
+      tplSheet: "The Brewing Bible"
     },
 
     ja: {
@@ -139,7 +153,14 @@
       untranslatedTitle: "この章はまだ翻訳されていません",
       untranslatedBody: "ベトナム語版は完成しています。翻訳は部ごとに順次追加しています。",
       untranslatedCta: "この章をベトナム語で読む",
-      untranslatedBadge: "未翻訳"
+      untranslatedBadge: "未翻訳",
+      tplPrint: "このテンプレートを印刷",
+      tplHint: "1回につき A5 用紙1枚。100枚印刷すれば、そのままノートになります。",
+      tplCopies: "枚数",
+      tplGo: "印刷",
+      tplClose: "閉じる",
+      tplBlocked: "ブラウザが印刷ウィンドウをブロックしました。ポップアップを許可して、もう一度お試しください。",
+      tplSheet: "The Brewing Bible"
     }
   };
 

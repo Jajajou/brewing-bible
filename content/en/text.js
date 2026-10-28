@@ -1349,7 +1349,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 
 <p>Do not write a paragraph. Write five lines:</p>
 
-<div class="formula">
+<div class="formula" data-tpl="1">
 <span class="fx-label">Cupping note template</span>
 Sample: _______________  Date: _______<br>
 Dry:  _______________<br>
@@ -2858,7 +2858,7 @@ Likely problem:  ____________________
 
 <h3>The minimum template: seven lines</h3>
 
-<div class="formula">
+<div class="formula" data-tpl="1">
 <span class="fx-label">Every brew</span>
 Date:       ____________<br>
 Coffee:     ____________ (name + days since roast)<br>
@@ -2873,7 +2873,7 @@ Taste:      ____________ (one sentence, using the 4 axes)
 
 <h3>A fuller template, if you want one</h3>
 
-<div class="formula">
+<div class="formula" data-tpl="1">
 <span class="fx-label">The full version</span>
 DATE: __________  COFFEE: ______________________<br>
 Variety: ________  Region: ________  Process: ________<br>
@@ -2948,7 +2948,7 @@ NOTES: ________________________________
 
 <p>Besides the per-brew log, keep one line for each bag:</p>
 
-<div class="formula">
+<div class="formula" data-tpl="1">
 <span class="fx-label">Bag summary</span>
 Name: __________  Roast: ______  Opened: ______<br>
 Best recipe:  ____ g / ____ g, ___ °C, grind ____, ___ : ___<br>

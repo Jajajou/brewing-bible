@@ -305,7 +305,7 @@ window.BOOK_PARTS.push({
 
 <p>Đừng viết một đoạn văn. Viết năm dòng:</p>
 
-<div class="formula">
+<div class="formula" data-tpl="1">
 <span class="fx-label">Mẫu ghi chép cupping</span>
 Mẫu: _______________  Ngày: _______<br>
 Khô:  _______________<br>

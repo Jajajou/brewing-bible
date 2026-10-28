@@ -289,6 +289,7 @@
 
     $("#page").innerHTML = html;
     document.title = ch.title + " — The Brewing Bible";
+    decorateTemplates(ch);
 
     /* pager */
     var idx = flat.indexOf(entry);
@@ -316,6 +317,51 @@
     updateReadStat();
     window.scrollTo({ top: 0, behavior: "instant" in document.body.style ? "instant" : "auto" });
     closeDrawer();
+  }
+
+  /* ---------- mẫu để điền tay, in được ---------- */
+
+  /* Vài khối trong sách là mẫu điền tay: nhật ký pha, phiếu cupping, tóm tắt
+     bao cà. Trong sách giấy chỉ có một bản — không ai photo cả cuốn sách để
+     lấy một trang. Khối nào có data-tpl thì trên web có thêm nút mở một
+     trang in riêng: mỗi bản một tờ A5, in bao nhiêu tuỳ ý rồi đóng lại. */
+  function decorateTemplates(ch) {
+    document.querySelectorAll(".body [data-tpl]").forEach(function (el, i) {
+      var bar = document.createElement("div");
+      bar.className = "tpl-bar";
+
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "tpl-btn";
+      btn.textContent = T.tplPrint;
+      btn.addEventListener("click", function () { openTemplatePrint(el, ch, i, bar); });
+
+      bar.appendChild(btn);
+      el.insertAdjacentElement("afterend", bar);
+    });
+  }
+
+  /* Trang in là một trang riêng (tpl.html), không phải cửa sổ dựng bằng
+     document.write: mở được bằng link, tải lại được, và không phụ thuộc
+     popup của trang đang đọc. Ở đây chỉ cần mở nó kèm mã chương và thứ tự
+     của khối mẫu trong chương. */
+  function openTemplatePrint(el, ch, index, bar) {
+    var url = "tpl.html?ch=" + encodeURIComponent(ch.id) +
+              "&i=" + index + "&lang=" + LANG;
+    var w = window.open(url, "_blank");
+    if (w) return;
+
+    /* Popup bị chặn: để lại một link cùng chỗ, thay vì hộp thoại báo lỗi.
+       Link mở được bằng cú click thứ hai, hoặc Ctrl-click. */
+    if (bar.querySelector(".tpl-note")) return;
+    var note = document.createElement("a");
+    note.className = "tpl-note";
+    note.href = url;
+    note.target = "_blank";
+    note.rel = "noopener";
+    note.title = T.tplBlocked;
+    note.textContent = T.tplPrint + " ↗";
+    bar.appendChild(note);
   }
 
   function markRead(id) {

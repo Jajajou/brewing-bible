@@ -22,7 +22,7 @@ window.BOOK_PARTS.push({
 
 <h3>Mẫu tối thiểu: bảy dòng</h3>
 
-<div class="formula">
+<div class="formula" data-tpl="1">
 <span class="fx-label">Mỗi lần pha</span>
 Ngày:        ____________<br>
 Cà:          ____________ (tên + số ngày sau rang)<br>
@@ -37,7 +37,7 @@ Vị:          ____________ (một câu, dùng 4 trục)
 
 <h3>Một mẫu đầy hơn, nếu bạn muốn</h3>
 
-<div class="formula">
+<div class="formula" data-tpl="1">
 <span class="fx-label">Bản đầy đủ</span>
 NGÀY: __________  CÀ: ______________________<br>
 Giống: __________  Vùng: __________  Sơ chế: __________<br>
@@ -112,7 +112,7 @@ GHI CHÚ: ________________________________
 
 <p>Ngoài nhật ký từng lần, hãy có một dòng cho mỗi bao:</p>
 
-<div class="formula">
+<div class="formula" data-tpl="1">
 <span class="fx-label">Tóm tắt bao cà</span>
 Tên: __________  Rang: ______  Mở ngày: ______<br>
 Công thức tốt nhất:  ____ g / ____ g, ___ °C, xay ____, ___ : ___<br>

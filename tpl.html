@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>In mẫu — The Brewing Bible</title>
+<style>
+/* Trang in cho các mẫu điền tay (nhật ký pha, phiếu cupping, tóm tắt bao cà).
+   Mỗi bản một trang A5 để in xong là đóng thành sổ được ngay. */
+:root{
+  --ink: #111;
+  --muted: #6f6459;
+  --rule: #d8cdba;
+  --accent: #8f421a;
+  --wash: #f4efe6;
+}
+/* Lề và giãn dòng đã tính để mẫu dài nhất của sách (bản nhật ký đầy đủ,
+   ~24 dòng) vừa đúng một trang A5 — tràn sang trang hai thì mỗi bản in ra
+   hai tờ, và không ai dùng được nữa. */
+@page{ size: A5; margin: 13mm; }
+*{ box-sizing: border-box; }
+html, body{ margin: 0; background: #fff; }
+body{
+  color: var(--ink);
+  font-family: "SF Mono", Menlo, Consolas, monospace;
+  font-size: 9.6pt; line-height: 1.9;
+}
+
+/* thanh điều khiển: chỉ hiện trên màn hình */
+.bar{
+  position: sticky; top: 0; z-index: 2;
+  display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center;
+  padding: 0.8rem 1.1rem;
+  background: var(--wash); border-bottom: 1px solid var(--rule);
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 0.8rem; line-height: 1.4;
+}
+.bar button{
+  font: inherit; padding: 0.42rem 1rem; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--accent); background: var(--accent); color: #fff;
+}
+.bar button.ghost{ background: transparent; color: var(--accent); }
+.bar label{ display: inline-flex; gap: 0.4rem; align-items: center; }
+.bar input{
+  width: 4.2rem; font: inherit; padding: 0.3rem 0.45rem;
+  border: 1px solid var(--rule); border-radius: 4px; background: #fff; color: var(--ink);
+}
+.bar .hint{ color: var(--muted); }
+
+/* nội dung in */
+#sheets{ padding: 12mm 13mm; }
+.sheet{ break-after: page; page-break-after: always; }
+.sheet:last-child{ break-after: auto; page-break-after: auto; }
+.hdr{
+  display: flex; justify-content: space-between; gap: 10mm;
+  margin: 0 0 8mm; padding-bottom: 2mm;
+  border-bottom: 1px solid #e2d9c9;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 8pt; letter-spacing: 0.09em; text-transform: uppercase;
+  color: #8a7f72;
+}
+.hdr .ch{ text-align: right; }
+.fx-label{
+  display: block; margin: 0 0 5mm;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 7.5pt; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--accent);
+}
+.tpl{ white-space: normal; }
+
+@media print{
+  .bar{ display: none; }
+  #sheets{ padding: 0; }
+  body{ background: #fff; }
+}
+</style>
+</head>
+<body>
+
+<div class="bar" id="bar">
+  <button id="go" type="button">In</button>
+  <label><span id="copiesLabel">Số bản</span>
+    <input id="n" type="number" min="1" max="400" value="1" inputmode="numeric">
+  </label>
+  <button id="close" class="ghost" type="button">Đóng</button>
+  <span class="hint" id="hint"></span>
+</div>
+
+<div id="sheets"></div>
+
+<script src="i18n.js?v=12"></script>
+
+<!-- Nội dung do tpl.js nạp theo ngôn ngữ: tiếng Việt cần 9 file part,
+     tiếng Anh/Nhật chỉ một file text.js. Nạp tĩnh cả ba bộ ở đây thì mỗi
+     lần in một mẫu sẽ tải thừa gần 200 KB. -->
+<script src="tpl.js?v=1"></script>
+
+</body>
+</html>

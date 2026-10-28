@@ -36,6 +36,7 @@ Mỗi khẳng định trong sách đều được dán nhãn theo ba mức này.
 - Thanh tiến độ đọc
 - Điều hướng bằng phím ← → ; nhấn `/` để tìm
 - **Bản in**: Ctrl/Cmd + P cho ra bản in nhanh; hoặc tải bản dàn trang A5 sẵn ở [the-brewing-bible.pdf](the-brewing-bible.pdf)
+- **In các mẫu điền tay**: mỗi mẫu (nhật ký pha, phiếu cupping, tóm tắt bao cà) có nút *In mẫu này* ngay dưới khối — mở trang in riêng, mỗi bản một tờ A5
 - **Ba ngôn ngữ trên web**: tiếng Việt, tiếng Anh, tiếng Nhật — chọn ở góc phải thanh trên, lựa chọn được nhớ trong máy
 
 ## Cấu trúc
@@ -49,6 +50,8 @@ REFERENCES.md         danh mục nguồn dạng đọc ngoài trình duyệt (ng
 content/en/text.js    bản dịch tiếng Anh (chỉ dùng cho bản web)
 content/ja/text.js    bản dịch tiếng Nhật (chỉ dùng cho bản web)
 i18n.js               chuỗi giao diện ba thứ tiếng
+
+tpl.html / tpl.js     trang in một mẫu điền tay: mỗi bản một tờ A5, chọn số bản
 
 print.html            khung bản in A5 (dùng chung content/)
 print.css             dàn trang A5: khổ, lề, chạy đầu trang, số trang, mục lục có số trang
@@ -126,6 +129,22 @@ Vài điều dễ vấp nếu sửa `print.css`:
 - **Đừng** để `@page{ margin: 0 }` chung với `print.css`. Paged.js đọc cả `@page` nằm trong `@media print`, nên luật đó ghi đè mẫu trang và cả sách dồn lại còn ~18 trang. Nó nằm riêng trong `print-output.css`, chỉ nạp sau khi phân trang xong.
 - **Đừng** ẩn `#book`: Paged.js giữ nguyên `id="book"` trong bản sao của trang đầu, nên `#book{display:none}` xoá luôn trang bìa.
 - Đầu chương nằm trong `<header class="ch-head">` với `break-inside/break-after: avoid` — nếu tách rời, số chương có thể bị bỏ lại cuối trang trước.
+
+## Mẫu in được
+
+Sách có bốn mẫu điền tay: phiếu ghi cupping, nhật ký một lần pha, bản nhật ký đầy đủ, và tóm tắt mỗi bao cà. Bản giấy chỉ có một bản mỗi mẫu — muốn dùng thì phải photo cả trang sách. Trên web, mỗi mẫu có nút **In mẫu này** ngay dưới khối.
+
+Nút mở [tpl.html](tpl.html) với ba tham số:
+
+```
+tpl.html?ch=<id chương>&i=<thứ tự khối trong chương>&n=<số bản>
+```
+
+`n` để trống thì mặc định 1 bản; `&n=100` mở sẵn 100 tờ, in một lần là có cả cuốn sổ. Trang này tự chứa (không phụ thuộc trang đang đọc), nên link gửi thẳng cho người in cũng chạy.
+
+Mỗi tờ là khổ A5, có dòng nhận dạng trên đầu (tên sách + tên chương) để lẫn giấy vẫn biết tờ nào của mẫu nào, và lề/giãn dòng đã tính để mẫu dài nhất vừa đúng một trang — tràn sang trang hai thì mỗi bản in ra hai tờ, không dùng được.
+
+**Thêm một mẫu mới:** đặt khối trong `content/part-N.js` (và bản dịch tương ứng) với thuộc tính `data-tpl`, ví dụ `<div class="formula" data-tpl="1">`. `book.js` tự thêm nút cho mọi khối có thuộc tính này, `tpl.js` lấy đúng khối theo thứ tự trong chương. Không cần sửa gì khác.
 
 ## Bản EPUB (máy đọc sách)
 
