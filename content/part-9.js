@@ -198,7 +198,9 @@
         body: `
 <p>Bảng dưới đây ghi khẳng định nào dựa vào nguồn nào. "Dẫn được" nghĩa là tìm thấy tài liệu nói đúng điều sách nói, không có nghĩa là tài liệu đó hoàn hảo.</p>
 
-<table>
+<p class="tbl-cap">Chương 1–9 · hạt, nước, chiết xuất</p>
+
+<table class="tbl-a3">
 <thead>
 <tr><th>Ch.</th><th>Khẳng định cần nguồn</th><th>Nhãn trong sách</th><th>Nguồn</th><th>Kết luận</th></tr>
 </thead>
@@ -216,6 +218,16 @@
 <tr><td>8</td><td>Thứ tự giảm: trigonelline, TDS, 5-CQA, caffeine</td><td>Bằng chứng</td><td>[8]</td><td>Dẫn được</td></tr>
 <tr><td>8</td><td>Axit malic, acetic, lactic dưới ngưỡng; chuyên gia không gọi được tên</td><td>Bằng chứng</td><td>[2]</td><td>Dẫn được</td></tr>
 <tr><td>9</td><td>Nhiệt độ là đòn bẩy yếu khi TDS và EY đã cố định</td><td>—</td><td>[6] [7]</td><td>Dẫn được</td></tr>
+</tbody>
+</table>
+
+<p class="tbl-cap tbl-cap-break">Chương 10–29 · cỡ xay, cupping, pha, cảm nhận</p>
+
+<table class="tbl-a3">
+<thead>
+<tr><th>Ch.</th><th>Khẳng định cần nguồn</th><th>Nhãn trong sách</th><th>Nguồn</th><th>Kết luận</th></tr>
+</thead>
+<tbody>
 <tr><td>10</td><td>Phân bố hạt có đỉnh fines 30–40 µm; cùng trung vị vẫn có thể khác lượng fines</td><td>Bằng chứng</td><td>[34] [35] [39]</td><td>Dẫn được</td></tr>
 <tr><td>10</td><td>Đường cong chiết–cỡ xay có đỉnh, không đơn điệu</td><td>Bằng chứng</td><td>[33] [11]</td><td>Dẫn được</td></tr>
 <tr><td>10</td><td>Ngâm tới cân bằng: EY 19–23% trên dải trung vị 579–1311 µm</td><td>Bằng chứng</td><td>[31] [37]</td><td>Dẫn được</td></tr>

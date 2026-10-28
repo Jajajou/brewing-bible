@@ -3175,7 +3175,9 @@ Buy again?  ___ yes / ___ no      Why: ____________
       body: `
 <p>The table shows which claim rests on which source. "Citable" means a document was found that says what the book says — not that the document is flawless.</p>
 
-<table>
+<p class="tbl-cap">Chapters 1–9 · bean, water, extraction</p>
+
+<table class="tbl-a3">
 <thead>
 <tr><th>Ch.</th><th>Claim that needs a source</th><th>Label in the book</th><th>Source</th><th>Verdict</th></tr>
 </thead>
@@ -3193,6 +3195,16 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <tr><td>8</td><td>Order of decline: trigonelline, TDS, 5-CQA, caffeine</td><td>Evidence</td><td>[8]</td><td>Citable</td></tr>
 <tr><td>8</td><td>Malic, acetic and lactic below threshold; tasters cannot name them</td><td>Evidence</td><td>[2]</td><td>Citable</td></tr>
 <tr><td>9</td><td>Temperature is a weak lever once TDS and EY are fixed</td><td>—</td><td>[6] [7]</td><td>Citable</td></tr>
+</tbody>
+</table>
+
+<p class="tbl-cap tbl-cap-break">Chapters 10–29 · grind, cupping, brewing, perception</p>
+
+<table class="tbl-a3">
+<thead>
+<tr><th>Ch.</th><th>Claim that needs a source</th><th>Label in the book</th><th>Source</th><th>Verdict</th></tr>
+</thead>
+<tbody>
 <tr><td>10</td><td>The distribution carries a fines peak at 30–40 µm; the same median can hide a different fines load</td><td>Evidence</td><td>[34] [35] [39]</td><td>Citable</td></tr>
 <tr><td>10</td><td>The extraction–grind curve has a peak rather than a monotonic slope</td><td>Evidence</td><td>[33] [11]</td><td>Citable</td></tr>
 <tr><td>10</td><td>At immersion equilibrium: EY 19–23% across a 579–1311 µm median range</td><td>Evidence</td><td>[31] [37]</td><td>Citable</td></tr>
@@ -3212,7 +3224,6 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <tr><td>25</td><td>Flavour-note language and its trap</td><td>—</td><td>[14] [19]</td><td>Partly</td></tr>
 <tr><td>26–29</td><td>Palate training, log, gear, checklist</td><td>—</td><td>method</td><td>Needs no source</td></tr>
 </tbody>
-</table>
 </table>
 
 <p>The two entries at the bottom — 17 and 19 — stand on the writer's experience. That does not make them wrong; it only means they are not the place to invoke science.</p>

@@ -462,6 +462,14 @@ html[data-theme="dark"] .btn-primary{ color: #17120c; }
 .body tbody td:first-child{ color: var(--ink); font-weight: 500; }
 .body table code{ font-size: 0.95em; }
 
+/* nhãn chủ đề của một bảng dài đã chẻ (A3) */
+.body .tbl-cap{
+  font-family: var(--font-ui); font-size: 0.7rem; font-weight: 600;
+  letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent);
+  margin: 2rem 0 0.6rem;
+}
+.body .tbl-cap + table, .body .tbl-cap + .table-wrap{ margin-top: 0; }
+
 /* ---------- callouts ---------- */
 .callout{
   margin: 1.9rem 0; padding: 1.15rem 1.3rem;
