@@ -22,7 +22,7 @@
 
 <p>Nguyên tắc lập rất đơn giản: chỉ câu có thể kiểm chứng bằng tài liệu bên ngoài mới cần nguồn. Câu về kinh nghiệm, quy trình và lời khuyên thì không — và không được gán cho chúng một nguồn nghe có vẻ khoa học. Ưu tiên bài bình duyệt có DOI; khi không có, dùng tiêu chuẩn ngành hoặc nguồn sơ cấp của chính người đề xuất phương pháp.</p>
 
-<p>Ba mươi ba nguồn được xếp theo chủ đề ở A2 và theo chương ở A3. Trong 28 chương, chín chương dựa trực tiếp vào tài liệu, năm chương dựa một phần, mười chương là quy trình nên không cần nguồn ngoài, và hai chương — 16 và 18 — không có nguồn nào cho khẳng định trung tâm.</p>
+<p>Bốn mươi nguồn được xếp theo chủ đề ở A2 và theo chương ở A3. Trong 29 chương, mười chương dựa trực tiếp vào tài liệu, năm chương dựa một phần, mười hai chương là quy trình nên không cần nguồn ngoài, và hai chương — 17 và 19 — không có nguồn nào cho khẳng định trung tâm.</p>
 
 <div class="callout">
 <p class="callout-title">Có nguồn không có nghĩa là đúng</p>
@@ -34,7 +34,7 @@
       {
         id: "ch-nguon-danh-muc",
         title: "Thư mục",
-        lede: "Ba mươi ba nguồn, xếp theo chủ đề. Mỗi mục có DOI hoặc đường dẫn đã mở và đọc, kèm một câu nói nguồn đó đóng góp gì.",
+        lede: "Bốn mươi nguồn, xếp theo chủ đề. Mỗi mục có DOI hoặc đường dẫn đã mở và đọc, kèm một câu nói nguồn đó đóng góp gì.",
         minutes: 12,
         tags: ["phụ lục", "nguồn"],
         body: `
@@ -86,7 +86,7 @@
 
 <p><strong>[13]</strong> Specialty Coffee Association (2024). <em>Coffee Value Assessment</em> — SCA Standard 102-2024 (Sample Preparation and Tasting Mechanics), 103-2024 (Descriptive Assessment), 104-2024 (Affective Assessment).</p>
 
-<p>CVA không dùng một điểm tổng duy nhất; nó tách thành đánh giá mô tả, đánh giá cảm xúc và phần ngoại cảnh. Đây là thay đổi lớn nhất của ngành cupping trong hai mươi năm, và là lý do chương 10 giờ mở bằng một ghi chú về bộ 2004.</p>
+<p>CVA không dùng một điểm tổng duy nhất; nó tách thành đánh giá mô tả, đánh giá cảm xúc và phần ngoại cảnh. Đây là thay đổi lớn nhất của ngành cupping trong hai mươi năm, và là lý do chương 11 giờ mở bằng một ghi chú về bộ 2004.</p>
 
 <p><strong>[14]</strong> Chambers, E., IV, và cộng sự (2016). <em>Development of a "living" lexicon for descriptive sensory analysis of brewed coffee.</em> Journal of Sensory Studies, 31(6), 465–480. doi:10.1111/joss.12237</p>
 
@@ -150,7 +150,37 @@
 
 <p><strong>[33]</strong> Cameron, M. I., và cộng sự (2020). <em>Systematically improving espresso: insights from mathematical modeling and experiment.</em> Matter. doi:10.1016/j.matt.2019.12.019</p>
 
-<p>Bài bình duyệt cùng nhóm Hendon. Nếu cần một nguồn học thuật cho mô hình espresso, dùng bài này, không dùng blog.</p>
+<p>Bài bình duyệt cùng nhóm Hendon. Nếu cần một nguồn học thuật cho mô hình espresso, dùng bài này, không dùng blog. Chương 10 dùng lại bài này cho đường cong có đỉnh.</p>
+
+<h3>Cỡ xay</h3>
+
+<p><strong>[34]</strong> Mo, C., Johnston, R., Navarini, L., Suggi Liverani, F., &amp; Ellero, M. (2023). <em>Exploring the link between coffee matrix microstructure and flow properties using combined X-ray microtomography and smoothed particle hydrodynamics simulations.</em> Scientific Reports, 13, 16374. doi:10.1038/s41598-023-42380-y</p>
+
+<p>Chụp cắt lớp vi mô bã espresso và mô phỏng dòng chảy. Phân bố kích thước hạt có một đỉnh fines khoảng 30–40 µm, quy về các mảnh vách tế bào; đỉnh hạt thô do máy xay quyết định. Độ rỗng của bã giảm dần theo hướng từ đáy lên miệng.</p>
+
+<p><strong>[35]</strong> Smrke, S., Eiermann, A., &amp; Yeretzian, C. (2024). <em>The role of fines in espresso extraction dynamics.</em> Scientific Reports, 14, 5612. doi:10.1038/s41598-024-55831-x</p>
+
+<p>Định nghĩa fines là phần dưới 100 µm. Tăng tỉ lệ fines làm giảm độ thấm của bã, giảm lưu lượng và kéo dài thời gian chiết. Cùng một trung vị có thể đi kèm tỉ lệ fines khác nhau nếu công nghệ xay khác nhau.</p>
+
+<p><strong>[36]</strong> Eiermann, A., và cộng sự (2020). <em>Extraction of single serve coffee capsules: linking properties of ground coffee to extraction dynamics and cup quality.</em> Scientific Reports, 10, 17079. doi:10.1038/s41598-020-74138-1</p>
+
+<p>43 loại capsule thương mại. Trung vị 255–549 µm, mức chiết 15,7–26%, TDS 2,15–3,64%, thời gian 11,3–41 giây. Tỉ lệ fines từ 10% lên 15% đi kèm thời gian chiết dài thêm khoảng 10 giây.</p>
+
+<p><strong>[37]</strong> Córdoba, N., Pataquiva, L., Osorio, C., Moreno, F. L., &amp; Ruiz, R. Y. (2019). <em>Effect of grinding, extraction time and type of coffee on the physicochemical and flavour characteristics of cold brew coffee.</em> Scientific Reports, 9, 8440. doi:10.1038/s41598-019-44886-w</p>
+
+<p>Cold brew ngâm túi lọc, hai con cà Colombia. Ở 14 giờ, Huila: medium 7,06% chiết, coarse 15,21%. Tác giả giải thích bột medium đóng bánh trong túi nên khuếch tán bị chặn. Đây là nguồn cho câu "phương pháp quyết định dấu của hiệu ứng".</p>
+
+<p><strong>[38]</strong> Frost, S. C., Ristenpart, W. D., &amp; Guinard, J.-X. (2019). <em>Effect of basket geometry on the sensory quality and consumer acceptance of drip brewed coffee.</em> Journal of Food Science, 84(8), 2297–2312. doi:10.1111/1750-3841.14696</p>
+
+<p>45 người thử phân biệt, cộng với phân tích mô tả. Khác biệt nhỏ về trung vị kích thước hạt không được phân biệt; khác biệt giữa hai kiểu giỏ lọc thì có. Trong bảng mô tả, sáu thuộc tính đổi theo cỡ xay, và có tương tác cỡ xay × hình học giỏ với vị đắng và hương hoa.</p>
+
+<p><strong>[39]</strong> Uman, E., và cộng sự (2016). <em>The effect of bean origin and temperature on grinding roasted coffee.</em> Scientific Reports, 6, 24483. doi:10.1038/srep24483</p>
+
+<p>Bốn loại cà: phân bố kích thước hạt không phụ thuộc nguồn gốc hay cách sơ chế. Hạt lạnh cho phân bố hẹp hơn và trung bình nhỏ hơn — cơ sở cho kỹ thuật xay hạt còn đông lạnh ở chương 3.</p>
+
+<p><strong>[40]</strong> Corrochano, B. R., Melrose, J. R., Bentley, A. C., Fryer, P. J., &amp; Bakalis, S. (2015). <em>A new methodology to estimate the steady-state permeability of roast and ground coffee in packed beds.</em> Journal of Food Engineering, 150, 106–116. doi:10.1016/j.jfoodeng.2014.11.006</p>
+
+<p>Độ thấm của bã đo được trong khoảng 10⁻¹³–10⁻¹⁴ m². Ước lượng bằng phương trình Kozeny–Carman với phân bố hạt khô không khớp với phép đo, vì bã bị nén làm đổi cấu trúc đóng gói.</p>
 
 <div class="callout">
 <p class="callout-title">Ba bài không mở được toàn văn</p>
@@ -183,40 +213,44 @@
 <tr><td>8</td><td>Thứ tự giảm: trigonelline, TDS, 5-CQA, caffeine</td><td>Bằng chứng</td><td>[8]</td><td>Dẫn được</td></tr>
 <tr><td>8</td><td>Axit malic, acetic, lactic dưới ngưỡng; chuyên gia không gọi được tên</td><td>Bằng chứng</td><td>[2]</td><td>Dẫn được</td></tr>
 <tr><td>9</td><td>Nhiệt độ là đòn bẩy yếu khi TDS và EY đã cố định</td><td>—</td><td>[6] [7]</td><td>Dẫn được</td></tr>
-<tr><td>10</td><td>Thang SCA mười mục, 100 điểm (bộ 2004)</td><td>—</td><td>[12] [13]</td><td>Đã ghi chú, xem A4</td></tr>
-<tr><td>11</td><td>8,25 g trên 150 ml; năm cốc mỗi mẫu; quy trình bốn phút</td><td>—</td><td>[12]</td><td>Dẫn được</td></tr>
-<tr><td>12</td><td>Ba lớp thời gian; bánh xe hương vị</td><td>—</td><td>[14]</td><td>Dẫn được</td></tr>
-<tr><td>13</td><td>Cupping không dự đoán pour over</td><td>—</td><td>[30] [31]</td><td>Một phần</td></tr>
-<tr><td>14</td><td>Immersion không có cùng cơ chế channeling</td><td>—</td><td>[10] [11] [31]</td><td>Một phần</td></tr>
-<tr><td>15</td><td>Giấy và kim loại cho hồ sơ bay hơi khác nhau</td><td>Hợp lý</td><td>[30]</td><td>Dẫn được, một con cà</td></tr>
-<tr><td>16</td><td>Vòi cách bã 3–5 cm; giữ mực nước trên mặt bã; 5–8 g/s</td><td>—</td><td>không có</td><td>Không có nguồn</td></tr>
-<tr><td>17</td><td>Ba trường phái công thức</td><td>—</td><td>[27] [28] [29]</td><td>Dẫn được</td></tr>
-<tr><td>18</td><td>Nhìn bã để chẩn đoán</td><td>—</td><td>không có</td><td>Không có nguồn</td></tr>
-<tr><td>19</td><td>Bảng chẩn đoán</td><td>—</td><td>suy ra từ [10] [11]</td><td>Một phần</td></tr>
-<tr><td>20–22</td><td>Quy trình, bốn luật, case study</td><td>—</td><td>phương pháp</td><td>Không cần nguồn</td></tr>
-<tr><td>23</td><td>Giải phẫu một ngụm; đường mũi ngược</td><td>—</td><td>sinh lý khứu giác</td><td>Không cần nguồn</td></tr>
-<tr><td>24</td><td>Ngôn ngữ nốt hương và cái bẫy của nó</td><td>—</td><td>[14] [19]</td><td>Một phần</td></tr>
-<tr><td>25–28</td><td>Luyện khẩu vị, nhật ký, dụng cụ, checklist</td><td>—</td><td>phương pháp</td><td>Không cần nguồn</td></tr>
+<tr><td>10</td><td>Phân bố hạt có đỉnh fines 30–40 µm; cùng trung vị vẫn có thể khác lượng fines</td><td>Bằng chứng</td><td>[34] [35] [39]</td><td>Dẫn được</td></tr>
+<tr><td>10</td><td>Đường cong chiết–cỡ xay có đỉnh, không đơn điệu</td><td>Bằng chứng</td><td>[33] [11]</td><td>Dẫn được</td></tr>
+<tr><td>10</td><td>Ngâm tới cân bằng: EY 19–23% trên dải trung vị 579–1311 µm</td><td>Bằng chứng</td><td>[31] [37]</td><td>Dẫn được</td></tr>
+<tr><td>10</td><td>Thứ tự nước → cỡ xay → kỹ thuật là thứ tự chẩn đoán, không phải xếp hạng đo được</td><td>Hợp lý</td><td>không có nghiên cứu trực tiếp</td><td>Đã hạ nhãn, xem A4</td></tr>
+<tr><td>11</td><td>Thang SCA mười mục, 100 điểm (bộ 2004)</td><td>—</td><td>[12] [13]</td><td>Đã ghi chú, xem A4</td></tr>
+<tr><td>12</td><td>8,25 g trên 150 ml; năm cốc mỗi mẫu; quy trình bốn phút</td><td>—</td><td>[12]</td><td>Dẫn được</td></tr>
+<tr><td>13</td><td>Ba lớp thời gian; bánh xe hương vị</td><td>—</td><td>[14]</td><td>Dẫn được</td></tr>
+<tr><td>14</td><td>Cupping không dự đoán pour over</td><td>—</td><td>[30] [31]</td><td>Một phần</td></tr>
+<tr><td>15</td><td>Immersion không có cùng cơ chế channeling</td><td>—</td><td>[10] [11] [31]</td><td>Một phần</td></tr>
+<tr><td>16</td><td>Giấy và kim loại cho hồ sơ bay hơi khác nhau</td><td>Hợp lý</td><td>[30]</td><td>Dẫn được, một con cà</td></tr>
+<tr><td>17</td><td>Vòi cách bã 3–5 cm; giữ mực nước trên mặt bã; 5–8 g/s</td><td>—</td><td>không có</td><td>Không có nguồn</td></tr>
+<tr><td>18</td><td>Ba trường phái công thức</td><td>—</td><td>[27] [28] [29]</td><td>Dẫn được</td></tr>
+<tr><td>19</td><td>Nhìn bã để chẩn đoán</td><td>—</td><td>không có</td><td>Không có nguồn</td></tr>
+<tr><td>20</td><td>Bảng chẩn đoán</td><td>—</td><td>suy ra từ [10] [11]</td><td>Một phần</td></tr>
+<tr><td>21–23</td><td>Quy trình, bốn luật, case study</td><td>—</td><td>phương pháp</td><td>Không cần nguồn</td></tr>
+<tr><td>24</td><td>Giải phẫu một ngụm; đường mũi ngược</td><td>—</td><td>sinh lý khứu giác</td><td>Không cần nguồn</td></tr>
+<tr><td>25</td><td>Ngôn ngữ nốt hương và cái bẫy của nó</td><td>—</td><td>[14] [19]</td><td>Một phần</td></tr>
+<tr><td>26–29</td><td>Luyện khẩu vị, nhật ký, dụng cụ, checklist</td><td>—</td><td>phương pháp</td><td>Không cần nguồn</td></tr>
 </table>
 
-<p>Hai chương cuối cột — 16 và 18 — đứng trên kinh nghiệm của người viết. Điều đó không làm chúng sai; chỉ có nghĩa chúng không phải chỗ để viện dẫn khoa học.</p>
+<p>Hai chương cuối cột — 17 và 19 — đứng trên kinh nghiệm của người viết. Điều đó không làm chúng sai; chỉ có nghĩa chúng không phải chỗ để viện dẫn khoa học.</p>
 `
       },
 
       {
         id: "ch-nguon-khoang-trong",
         title: "Nguồn không khớp, và chỗ trống",
-        lede: "Ba chỗ tài liệu gốc không khớp với sách, bảy khẳng định không có nguồn, và một ghi chú về bản quyền hình ảnh.",
+        lede: "Bốn chỗ sách nói chắc hơn tài liệu cho phép, bảy khẳng định không có nguồn, và một ghi chú về bản quyền hình ảnh.",
         minutes: 8,
         tags: ["phụ lục", "sửa lỗi"],
         body: `
-<p>Ba chỗ dưới đây là chỗ tài liệu gốc không nói đúng như sách viết. Cả ba đã được chỉnh trong bản này; chúng còn ghi ở đây để người đọc biết lỗi nằm ở đâu.</p>
+<p>Bốn chỗ dưới đây là chỗ sách nói chắc hơn tài liệu cho phép. Cả bốn đã được chỉnh trong bản này; chúng còn ghi ở đây để người đọc biết lỗi nằm ở đâu.</p>
 
 <h3>Một: thang cupping</h3>
 
-<p>Chương 10 đến 12 dùng thang mười mục, 100 điểm. Đó là bộ <em>Cupping Protocol and Form</em> năm 2004. Từ 2024, SCA thay bằng <em>Coffee Value Assessment</em> (SCA-102, 103 và 104-2024), và CVA không dùng một điểm tổng duy nhất: nó tách thành đánh giá mô tả, đánh giá cảm xúc và phần ngoại cảnh.</p>
+<p>Chương 11 đến 13 dùng thang mười mục, 100 điểm. Đó là bộ <em>Cupping Protocol and Form</em> năm 2004. Từ 2024, SCA thay bằng <em>Coffee Value Assessment</em> (SCA-102, 103 và 104-2024), và CVA không dùng một điểm tổng duy nhất: nó tách thành đánh giá mô tả, đánh giá cảm xúc và phần ngoại cảnh.</p>
 
-<p>Lập luận của chương vẫn đứng, vì điểm số đo sự đồng thuận của những người được huấn luyện theo cùng một hệ tiêu chuẩn — điều đó còn đúng hơn với CVA. Chỉ câu “hầu như mọi chuyên gia trong ngành đều dùng cùng một quy trình” là không còn chính xác từ 2024. Chương 10 nay nói rõ điều này ngay câu đầu.</p>
+<p>Lập luận của chương vẫn đứng, vì điểm số đo sự đồng thuận của những người được huấn luyện theo cùng một hệ tiêu chuẩn — điều đó còn đúng hơn với CVA. Chỉ câu “hầu như mọi chuyên gia trong ngành đều dùng cùng một quy trình” là không còn chính xác từ 2024. Chương 11 nay nói rõ điều này ngay câu đầu.</p>
 
 <h3>Hai: vùng TDS</h3>
 
@@ -230,6 +264,14 @@
 
 <p>Phát hiện đó có nguồn trực tiếp hơn: Rune và cộng sự (2026), Đại học Copenhagen — nghiên cứu đầu tiên kiểm chứng vùng nước “lý tưởng” của ngành bằng cảm quan có kiểm soát. Chương 4 nay dẫn bài này.</p>
 
+<h3>Bốn: thứ hạng các đòn bẩy</h3>
+
+<p>Sách nói thứ tự ưu tiên là nước → cỡ xay → độ tươi → kỹ thuật, và ở một chỗ nói thẳng kỹ thuật rót “đứng thứ ba, sau nước và sau cỡ xay”. Câu đó không có nguồn nào đỡ.</p>
+
+<p>Không có nghiên cứu nào so trực tiếp các đòn bẩy này trong pour-over nóng, đo đồng thời TDS, mức chiết, thời gian rút và cảm quan. Cái đo được thì hẹp hơn: nước có bằng chứng cảm quan trực tiếp; cỡ xay là đòn bẩy thuỷ lực mạnh nhất; kỹ thuật là đòn bẩy duy nhất tác động chủ yếu lên độ đều, và cỡ xay tương tác với hình học phễu thay vì đứng riêng.</p>
+
+<p>Nên sách sửa hai chỗ. Một: thêm chương 10, chương riêng về cỡ xay, để đòn bẩy được xếp thứ hai có chỗ đứng thật — bảy nguồn mới, từ [34] đến [40]. Hai: đổi câu khẳng định thứ hạng thành câu mô tả chức năng. Kỹ thuật không yếu hơn cỡ xay; nó sửa một thứ khác. Phần còn lại của thứ tự được gọi đúng tên: thứ tự chẩn đoán, không phải bảng xếp hạng.</p>
+
 <h3>Bảy khẳng định không có nguồn</h3>
 
 <p>Đây là chỗ hệ thống nhãn mất giá trị nếu để nguyên.</p>
@@ -237,11 +279,11 @@
 <ul>
 <li><strong>“Rang đậm dễ pha hơn”</strong> (chương 2) — đúng phần dễ, sai phần nên bắt đầu bằng. Không có nghiên cứu so sánh độ khó pha theo mức rang. Nên là Truyền miệng, không phải để trống.</li>
 <li><strong>Độ tươi so với nước</strong> (chương 3) — câu so sánh cụ thể không có nghiên cứu nào. Cơ chế đúng, nên hạ xuống Hợp lý.</li>
-<li><strong>Vòi cách bã 3–5 cm, giữ mực nước trên mặt bã, 5–8 g/s</strong> (chương 16) — suy luận từ cơ chế, chưa ai đo. Hợp lý, không hơn.</li>
-<li><strong>Nhìn bã để chẩn đoán</strong> (chương 18) — chỗ sách tự tin nhất mà bằng chứng mỏng nhất. Không có nghiên cứu nào nối hình dạng bã với bản đồ chiết xuất. Nên là Truyền miệng.</li>
+<li><strong>Vòi cách bã 3–5 cm, giữ mực nước trên mặt bã, 5–8 g/s</strong> (chương 17) — suy luận từ cơ chế, chưa ai đo. Hợp lý, không hơn.</li>
+<li><strong>Nhìn bã để chẩn đoán</strong> (chương 19) — chỗ sách tự tin nhất mà bằng chứng mỏng nhất. Không có nghiên cứu nào nối hình dạng bã với bản đồ chiết xuất. Nên là Truyền miệng.</li>
 <li><strong>Bloom là bước xử lý khí</strong> (chương 3) — cơ chế đúng, tác dụng cảm quan chưa được chứng minh. Nên là Hợp lý.</li>
 <li><strong>Tỉ lệ đổi TDS tuyến tính, 1:16 sang 1:15 đậm hơn 6–7%</strong> (chương 7) — số học đúng, nhưng con số 6–7% là ngoại suy chưa được kiểm riêng.</li>
-<li><strong>“Không có nghiên cứu nào cho thấy điểm cupping dự đoán được mức ưa thích”</strong> (chương 10) — đúng tính đến nay, nhưng nên nói “chưa có” thay vì “không có”, vì đó là khẳng định phủ định toàn cầu.</li>
+<li><strong>“Không có nghiên cứu nào cho thấy điểm cupping dự đoán được mức ưa thích”</strong> (chương 11) — đúng tính đến nay, nhưng nên nói “chưa có” thay vì “không có”, vì đó là khẳng định phủ định toàn cầu.</li>
 </ul>
 
 <h3>Bản quyền hình ảnh</h3>

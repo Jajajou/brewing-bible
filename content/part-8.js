@@ -65,7 +65,7 @@ GHI CHÚ: ________________________________
 
 <h3>Bốn trục để ghi vị</h3>
 
-<p>Đừng cố viết nốt hương. Dùng bốn trục từ chương 24, mỗi trục một số từ 1 đến 5:</p>
+<p>Đừng cố viết nốt hương. Dùng bốn trục từ chương 25, mỗi trục một số từ 1 đến 5:</p>
 
 <div class="table-wrap">
 <table>
@@ -246,7 +246,7 @@ Mua lại?  ___ có / ___ không      Vì: ____________
 
 <li><strong>Nhiệt độ</strong><p>Bạn có thật sự đang rót ở nhiệt độ mình nghĩ? Nếu ấm không có điều nhiệt, nhiệt độ thật có thể thấp hơn 5–8 °C. Đo bằng nhiệt kế một lần.</p><p><em>Dấu hiệu:</em> chua xanh, rau cỏ, thiếu hương — dù cỡ xay có vẻ đúng.</p></li>
 
-<li><strong>Cỡ xay</strong><p>Đây là đòn bẩy bạn nên chỉnh sau cùng, không phải đầu tiên. Nếu bã đều và thời gian rút bình thường (30–60 giây cho giai đoạn cuối), cỡ xay có thể đã đúng.</p></li>
+<li><strong>Cỡ xay</strong><p>Trong checklist này, đây là thứ bạn kiểm sau cùng — vì mọi thứ phía trên đều dễ kiểm hơn và đều có thể giả làm lỗi cỡ xay. Nếu bã đều và thời gian rút bình thường (30–60 giây cho giai đoạn cuối), cỡ xay có thể đã đúng.</p></li>
 
 <li><strong>So với cupping</strong><p>Nếu cupping cũng dở, vấn đề không phải pha. Đó là con cà, hoặc nước, hoặc cả hai.</p><p><em>Đây là bước quan trọng nhất trong toàn bộ checklist</em> — vì nó chia đôi vấn đề.</p></li>
 

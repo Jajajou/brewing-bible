@@ -50,8 +50,8 @@
     if (entry.ch.id) byId[entry.ch.id] = entry;
   });
 
-  /* Phụ lục là chương của nó, không phải chương 29–32: bìa vẫn ghi 28 chương,
-     và thanh tiến độ đọc cũng chỉ đếm 28 chương chính. */
+  /* Phụ lục là chương của nó, không phải chương 30–33: bìa vẫn ghi 29 chương,
+     và thanh tiến độ đọc cũng chỉ đếm 29 chương chính. */
   function isAppendix(part) { return !!(part && part.appendix); }
   var MAIN = flat.filter(function (e) { return !isAppendix(e.part); });
   var MAIN_PARTS = PARTS.filter(function (p) { return !isAppendix(p); });

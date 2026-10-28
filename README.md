@@ -1,6 +1,6 @@
 # The Brewing Bible
 
-Một cuốn sách thực hành về **pour over** và **cupping** — 8 phần, 28 chương, và một phụ lục nguồn tham chiếu.
+Một cuốn sách thực hành về **pour over** và **cupping** — 8 phần, 29 chương, và một phụ lục nguồn tham chiếu.
 
 Đọc trực tuyến: **https://jajajou.github.io/brewing-bible/**
 
@@ -20,13 +20,13 @@ Mỗi khẳng định trong sách đều được dán nhãn theo ba mức này.
 |---|---|---|
 | I — Hạt | Bốn biến số có sẵn trước khi pha; mức rang; độ tươi | 3 |
 | II — Nước | Alkalinity; cách đo; xử lý nước ở Việt Nam | 3 |
-| III — Chiết xuất | Ba con số; huyền thoại "acid trước, đắng sau"; mô hình ba chiều | 3 |
+| III — Chiết xuất | Ba con số; huyền thoại "acid trước, đắng sau"; mô hình ba chiều; cỡ xay | 4 |
 | IV — Cupping | Nó đo gì; quy trình tại nhà; đọc ly; giới hạn | 4 |
 | V — Pour over | Ngâm vs chảy; dụng cụ; kỹ thuật rót; công thức; đọc bã; chẩn đoán | 6 |
 | VI — Cầu nối | Quy trình 20 phút; bốn luật của công thức nền; case study | 3 |
 | VII — Cảm nhận | Giải phẫu một ngụm; ngôn ngữ nốt hương; xây khẩu vị | 3 |
 | VIII — Sổ tay | Nhật ký pha; dụng cụ; checklist khi thất bại | 3 |
-| A — Nguồn tham chiếu | Cách lập danh mục; thư mục 33 nguồn; đối chiếu từng chương; chỗ cần sửa | 4 |
+| A — Nguồn tham chiếu | Cách lập danh mục; thư mục 40 nguồn; đối chiếu từng chương; chỗ cần sửa | 4 |
 
 ## Tính năng
 
@@ -70,7 +70,7 @@ Bản gốc là tiếng Việt. Bản dịch nằm trong `content/en/text.js` v�
 
 Mỗi file dịch có cùng cấu trúc: `parts` (tiêu đề phần) và `chapters` (tiêu đề, lede, phút đọc, tag, thân bài). Chương chưa có `body` sẽ hiện thông báo "chưa dịch" kèm link sang bản tiếng Việt, nên có thể đẩy lên web từng phần một mà không sợ trang vỡ.
 
-**Trạng thái:** tiếng Anh đủ **32/32** (28 chương + 4 chương phụ lục); tiếng Nhật **3/32** có thân bài (Phần I — Hạt), 32/32 có tiêu đề.
+**Trạng thái:** tiếng Anh đủ **33/33** (29 chương + 4 chương phụ lục); tiếng Nhật **3/33** có thân bài (Phần I — Hạt), 33/33 có tiêu đề.
 
 Quy ước thuật ngữ và ba nhãn bằng chứng nằm ở [TRANSLATION.md](TRANSLATION.md). Trước khi commit một phần đã dịch:
 
@@ -100,7 +100,7 @@ SHOT_PAGE=6 ./build-pdf.sh       # kèm ảnh trang 6 ra /tmp/shot-6.png để s
 
 Script tự bật một static server tạm (Paged.js không chạy được với `file://`), dựng trang, **chờ Paged.js phân trang xong** rồi mới in. Cần Chrome/Chromium và Node 18+.
 
-Bản dàn trang: khổ A5 148×210 mm, lề 17/16/18 mm, chạy đầu trang theo tên phần, số trang chân, mục lục có số trang thật (dùng `target-counter`), bìa và trang phần riêng. Hiện khoảng **145 trang**.
+Bản dàn trang: khổ A5 148×210 mm, lề 17/16/18 mm, chạy đầu trang theo tên phần, số trang chân, mục lục có số trang thật (dùng `target-counter`), bìa và trang phần riêng. Hiện khoảng **154 trang**.
 
 Muốn xem bản dàn trang ngay trong trình duyệt: mở `print.html`. Thêm `?pdf=1` để thấy đúng những gì PDF nhận.
 
@@ -117,7 +117,7 @@ node tools/build-epub.mjs                  # → the-brewing-bible.epub
 node tools/build-epub.mjs out/ban-doc.epub
 ```
 
-EPUB 3 dựng thẳng từ `content/part-*.js`, không cần gói npm — chỉ cần `zip` trong PATH. Sinh ra một file cho mỗi chương (32, gồm 4 chương phụ lục đánh số A1–A4), một file cho mỗi phần (9), bìa, `nav.xhtml` (mục lục EPUB 3) và `toc.ncx` (cho máy đọc cũ và Kindle). Giao diện cho e-ink nằm trong [epub.css](epub.css) — dùng số thứ tự của máy đọc thay vì `counter` của CSS, tránh `flex` vì nhiều máy đọc bỏ qua.
+EPUB 3 dựng thẳng từ `content/part-*.js`, không cần gói npm — chỉ cần `zip` trong PATH. Sinh ra một file cho mỗi chương (33, gồm 4 chương phụ lục đánh số A1–A4), một file cho mỗi phần (9), bìa, `nav.xhtml` (mục lục EPUB 3) và `toc.ncx` (cho máy đọc cũ và Kindle). Giao diện cho e-ink nằm trong [epub.css](epub.css) — dùng số thứ tự của máy đọc thay vì `counter` của CSS, tránh `flex` vì nhiều máy đọc bỏ qua.
 
 Kiểm định bằng epubcheck 5.1.0: 0 lỗi, 0 cảnh báo (EPUB 3.3).
 

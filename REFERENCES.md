@@ -14,10 +14,10 @@ sách thật sự khẳng định**, không phải từ một thư mục có s�
 3. Nếu tài liệu tìm được **không** nói đúng điều sách nói, ghi vào mục "Chỗ cần sửa"
    thay vì gán đại một nguồn cho đủ.
 
-Kết quả, tính trên 28 chương: **9 chương** có khẳng định dẫn được trực tiếp, **5 chương**
-dẫn được một phần, **2 chương** (16 và 18) không có nguồn ngoài, **10 chương** là quy
-trình thuần tuý nên không cần nguồn, và **2 chương** (7 và 10) có chỗ phải sửa. Thêm ba
-khẳng định lẻ không có nguồn, nằm trong các chương 3, 16 và 18.
+Kết quả, tính trên 29 chương: **10 chương** có khẳng định dẫn được trực tiếp, **5 chương**
+dẫn được một phần, **2 chương** (17 và 19) không có nguồn ngoài, **12 chương** là quy
+trình thuần tuý nên không cần nguồn, và **3 chương** (7, 10, 11) có chỗ phải sửa. Thêm ba
+khẳng định lẻ không có nguồn, nằm trong các chương 3, 17 và 19.
 
 ---
 
@@ -232,7 +232,73 @@ from mathematical modeling and experiment.* Matter.
 DOI [10.1016/j.matt.2019.12.019](https://doi.org/10.1016/j.matt.2019.12.019)
 
 Bài bình duyệt cùng nhóm Hendon — nếu cần một nguồn học thuật cho mô hình espresso thì
-dùng bài này, không dùng blog.
+dùng bài này, không dùng blog. Chương 10 dùng lại bài này cho đường cong có đỉnh.
+
+### Cỡ xay
+
+**[34]** Mo, C., Johnston, R., Navarini, L., Suggi Liverani, F., & Ellero, M. (2023).
+*Exploring the link between coffee matrix microstructure and flow properties using
+combined X-ray microtomography and smoothed particle hydrodynamics simulations.*
+Scientific Reports, 13, 16374.
+DOI [10.1038/s41598-023-42380-y](https://doi.org/10.1038/s41598-023-42380-y)
+
+Chụp cắt lớp vi mô bã espresso và mô phỏng dòng chảy. Phân bố kích thước hạt có một đỉnh
+fines khoảng **30–40 µm**, được quy về các mảnh vách tế bào; đỉnh hạt thô do máy xay
+quyết định. Độ rỗng của bã giảm dần theo hướng từ đáy lên miệng phễu.
+
+**[35]** Smrke, S., Eiermann, A., & Yeretzian, C. (2024). *The role of fines in espresso
+extraction dynamics.* Scientific Reports, 14, 5612.
+DOI [10.1038/s41598-024-55831-x](https://doi.org/10.1038/s41598-024-55831-x)
+
+Định nghĩa fines là phần **dưới 100 µm**. Tăng tỉ lệ fines làm giảm độ thấm của bã, giảm
+lưu lượng và kéo dài thời gian chiết. Cùng một trung vị có thể đi kèm tỉ lệ fines khác
+nhau nếu công nghệ xay khác nhau — đây là nguồn cho câu "trung vị không phải cỡ xay".
+
+**[36]** Eiermann, A., và cộng sự (2020). *Extraction of single serve coffee capsules:
+linking properties of ground coffee to extraction dynamics and cup quality.* Scientific
+Reports, 10, 17079.
+DOI [10.1038/s41598-020-74138-1](https://doi.org/10.1038/s41598-020-74138-1)
+
+43 loại capsule thương mại. Trung vị 255–549 µm, mức chiết 15,7–26%, TDS 2,15–3,64%,
+thời gian 11,3–41 giây. Tỉ lệ fines từ 10% lên 15% đi kèm thời gian chiết dài thêm
+khoảng **10 giây**.
+
+**[37]** Córdoba, N., Pataquiva, L., Osorio, C., Moreno, F. L., & Ruiz, R. Y. (2019).
+*Effect of grinding, extraction time and type of coffee on the physicochemical and flavour
+characteristics of cold brew coffee.* Scientific Reports, 9, 8440.
+DOI [10.1038/s41598-019-44886-w](https://doi.org/10.1038/s41598-019-44886-w)
+
+Cold brew ngâm túi lọc, hai con cà Colombia. Ở 14 giờ, Huila: medium **7,06%** chiết,
+coarse **15,21%**. Tác giả giải thích bột medium đóng bánh trong túi nên khuếch tán bị
+chặn. Đây là nguồn cho câu "phương pháp quyết định dấu của hiệu ứng" — và là lý do
+không được biến "xay mịn hơn thì chiết nhiều hơn" thành định luật.
+
+**[38]** Frost, S. C., Ristenpart, W. D., & Guinard, J.-X. (2019). *Effect of basket
+geometry on the sensory quality and consumer acceptance of drip brewed coffee.* Journal of
+Food Science, 84(8), 2297–2312.
+DOI [10.1111/1750-3841.14696](https://doi.org/10.1111/1750-3841.14696)
+
+45 người thử phân biệt cộng với phân tích mô tả. Khác biệt nhỏ về trung vị kích thước hạt
+**không được phân biệt**; khác biệt giữa hai kiểu giỏ lọc thì có. Trong bảng mô tả, sáu
+thuộc tính đổi theo cỡ xay, và có **tương tác** cỡ xay × hình học giỏ với vị đắng và
+hương hoa.
+
+**[39]** Uman, E., và cộng sự (2016). *The effect of bean origin and temperature on
+grinding roasted coffee.* Scientific Reports, 6, 24483.
+DOI [10.1038/srep24483](https://doi.org/10.1038/srep24483)
+
+Bốn loại cà: phân bố kích thước hạt **không** phụ thuộc nguồn gốc hay cách sơ chế. Hạt
+lạnh cho phân bố hẹp hơn và trung bình nhỏ hơn — cơ sở cho kỹ thuật xay hạt còn đông lạnh
+ở chương 3.
+
+**[40]** Corrochano, B. R., Melrose, J. R., Bentley, A. C., Fryer, P. J., & Bakalis, S.
+(2015). *A new methodology to estimate the steady-state permeability of roast and ground
+coffee in packed beds.* Journal of Food Engineering, 150, 106–116.
+DOI [10.1016/j.jfoodeng.2014.11.006](https://doi.org/10.1016/j.jfoodeng.2014.11.006)
+
+Độ thấm của bã đo được trong khoảng **10⁻¹³–10⁻¹⁴ m²**. Ước lượng bằng phương trình
+Kozeny–Carman với phân bố hạt khô **không khớp** với phép đo, vì bã bị nén làm đổi cấu
+trúc đóng gói.
 
 ---
 
@@ -253,30 +319,35 @@ Chương | Khẳng định cần nguồn | Nhãn trong sách | Nguồn | Trạng
 8 | Thứ tự giảm: trigonelline → TDS → 5-CQA → caffeine | Bằng chứng | [8] | dẫn được
 8 | Axit malic/acetic/lactic dưới ngưỡng; chuyên gia không gọi được tên | Bằng chứng | [2] | dẫn được
 9 | Nhiệt độ là đòn bẩy yếu khi đã cố định TDS/EY | — | [6] [7] | dẫn được
-10 | Thang SCA 10 mục, 100 điểm | — | [12] | **đã lỗi thời — xem mục "Chỗ cần sửa"**
-11 | 8,25 g / 150 ml; 5 cốc mỗi mẫu; quy trình 4 phút | — | [12] | dẫn được
-12 | Ngũ quan ba lớp; bánh xe hương vị | — | [14] | dẫn được
-13 | Cupping không dự đoán pour over | — | [30] [31] | một phần
-14 | Immersion không có cùng cơ chế channeling | — | [10] [11] [31] | một phần
-15 | Giấy vs kim loại cho hồ sơ bay hơi khác nhau | Hợp lý | [30] | dẫn được — có thể nâng lên Bằng chứng kèm báo trước "một con cà"
-16 | Vòi cách bã 3–5 cm; giữ mực nước trên mặt bã | — | không có | không có nguồn
-17 | Ba trường phái công thức | — | [27] [28] [29] | dẫn được
-18 | Nhìn bã để chẩn đoán | — | không có | không có nguồn
-19 | Bảng chẩn đoán | — | suy ra từ [10] [11] | một phần
-20–22 | Quy trình, bốn luật, case study | — | phương pháp, không phải khẳng định thực nghiệm | không cần nguồn
-23 | Giải phẫu một ngụm; retro-nasal | — | sinh lý khứu giác phổ thông | không cần nguồn
-24 | Ngôn ngữ nốt hương và cái bẫy của nó | — | [14] [19] | một phần
-25–28 | Luyện khẩu vị, nhật ký, dụng cụ, checklist | — | phương pháp | không cần nguồn
+10 | Phân bố hạt có đỉnh fines 30–40 µm; cùng trung vị vẫn có thể khác lượng fines | Bằng chứng | [34] [35] [39] | dẫn được
+10 | Đường cong chiết–cỡ xay có đỉnh, không đơn điệu | Bằng chứng | [33] [11] | dẫn được
+10 | Ngâm tới cân bằng: EY 19–23% trên dải trung vị 579–1311 µm | Bằng chứng | [31] [37] | dẫn được
+10 | Thứ tự nước → cỡ xay → kỹ thuật là thứ tự chẩn đoán, không phải xếp hạng đo được | Hợp lý | không có nghiên cứu trực tiếp | **đã hạ nhãn — xem "Chỗ cần sửa"**
+11 | Thang SCA 10 mục, 100 điểm | — | [12] | **đã lỗi thời — xem mục "Chỗ cần sửa"**
+12 | 8,25 g / 150 ml; 5 cốc mỗi mẫu; quy trình 4 phút | — | [12] | dẫn được
+13 | Ngũ quan ba lớp; bánh xe hương vị | — | [14] | dẫn được
+14 | Cupping không dự đoán pour over | — | [30] [31] | một phần
+15 | Immersion không có cùng cơ chế channeling | — | [10] [11] [31] | một phần
+16 | Giấy vs kim loại cho hồ sơ bay hơi khác nhau | Hợp lý | [30] | dẫn được — có thể nâng lên Bằng chứng kèm báo trước "một con cà"
+17 | Vòi cách bã 3–5 cm; giữ mực nước trên mặt bã | — | không có | không có nguồn
+18 | Ba trường phái công thức | — | [27] [28] [29] | dẫn được
+19 | Nhìn bã để chẩn đoán | — | không có | không có nguồn
+20 | Bảng chẩn đoán | — | suy ra từ [10] [11] | một phần
+21–23 | Quy trình, bốn luật, case study | — | phương pháp, không phải khẳng định thực nghiệm | không cần nguồn
+24 | Giải phẫu một ngụm; retro-nasal | — | sinh lý khứu giác phổ thông | không cần nguồn
+25 | Ngôn ngữ nốt hương và cái bẫy của nó | — | [14] [19] | một phần
+26–29 | Luyện khẩu vị, nhật ký, dụng cụ, checklist | — | phương pháp | không cần nguồn
 
 ---
 
 ## Chỗ cần sửa — đã sửa ngày 28/10/2026
 
-Ba chỗ tài liệu gốc **không khớp** với sách. Hai chỗ là cập nhật, một chỗ là gán sai.
-Cả ba đã được chỉnh trong `content/part-*.js` và bản tiếng Anh; phần dưới giữ lại
-cách phát hiện, và ghi rõ đã sửa thành gì.
+Bốn chỗ sách **nói chắc hơn tài liệu cho phép**. Ba chỗ đầu là cập nhật và gán sai;
+chỗ thứ tư là một thứ hạng không có nguồn. Cả bốn đã được chỉnh trong
+`content/part-*.js` và bản tiếng Anh; phần dưới giữ lại cách phát hiện, và ghi rõ
+đã sửa thành gì.
 
-### 1. Thang cupping 100 điểm đã bị thay (chương 10–12)
+### 1. Thang cupping 100 điểm đã bị thay (chương 11–13)
 
 Sách trình bày thang 10 mục / 100 điểm của SCA như tiêu chuẩn hiện hành. Đó là bộ
 **Cupping Protocol and Form 2004**. Từ 2024, SCA đã thay bằng **Coffee Value
@@ -287,7 +358,7 @@ nó tách thành đánh giá mô tả, đánh giá cảm xúc và phần ngoại
 vẫn đúng, và còn đúng hơn với CVA. Nhưng câu "hầu như mọi chuyên gia trong ngành đều
 dùng cùng một quy trình đó" thì từ 2024 không còn chính xác.
 
-**Đã sửa:** chương 10 giờ nói rõ ngay câu đầu rằng đây là bộ 2004 và SCA chuyển sang
+**Đã sửa:** chương 11 giờ nói rõ ngay câu đầu rằng đây là bộ 2004 và SCA chuyển sang
 CVA từ 2024, kèm lý do mười mục cũ vẫn đáng biết. Không phải viết lại chương.
 
 ### 2. Vùng TDS "1,15–1,45%" (chương 7)
@@ -311,6 +382,24 @@ nước uống thông thường vẫn không tạo khác biệt".
 **Đã sửa:** chương 4 giờ dẫn Rune và cộng sự (2026), giữ nguyên nhãn Bằng chứng.
 Nhãn đó giờ còn vững hơn trước.
 
+### 4. Thứ hạng các đòn bẩy (chương 3, 17, 10)
+
+Sách nói thứ tự ưu tiên là **nước → cỡ xay → độ tươi → kỹ thuật**, và ở chương 17 nói
+thẳng kỹ thuật rót "đứng thứ ba, sau nước và sau cỡ xay". Câu đó **không có nguồn nào**.
+
+Tra tài liệu cho thấy hai điều. Một: không có nghiên cứu nào so trực tiếp các đòn bẩy
+này trong pour-over nóng, đo đồng thời TDS, mức chiết, thời gian rút và cảm quan. Hai:
+cỡ xay — đòn bẩy được xếp thứ hai — thực ra chưa có chương nào đứng sau nó, dù đó là
+chỗ có nhiều dữ liệu nhất trong cả cuốn sách.
+
+**Đã sửa:** thêm **chương 10 — Cỡ xay: một con số, hai cơ chế** (bảy nguồn mới, [34]–[40]),
+và đổi câu khẳng định thứ hạng thành câu mô tả chức năng: kỹ thuật không yếu hơn cỡ xay,
+nó sửa một thứ khác — độ đều. Phần còn lại của thứ tự được gọi đúng tên: **thứ tự chẩn
+đoán**, không phải bảng xếp hạng, và mang nhãn Hợp lý khi phát biểu như một thứ hạng.
+
+Cái đáng ghi lại ở đây: sách đã dạy người đọc đòi nguồn cho từng khẳng định, rồi tự đặt
+một thứ hạng không có nguồn ở vị trí trung tâm của mình.
+
 ---
 
 ## Những chỗ không có nguồn, và vì sao
@@ -322,9 +411,9 @@ khẳng định không có nguồn mà vẫn mang nhãn Bằng chứng thì hệ
   có nghiên cứu so sánh độ khó pha theo mức rang. Hiện không gắn nhãn: nên là Truyền miệng.
 - **Độ tươi so với nước** (ch.3) — câu so sánh cụ thể không có nghiên cứu nào. Cơ chế
   thì đúng, nên hạ xuống **Hợp lý**.
-- **Vòi cách bã 3–5 cm, giữ mực nước trên mặt bã, tốc độ 5–8 g/s** (ch.16) — tất cả là
+- **Vòi cách bã 3–5 cm, giữ mực nước trên mặt bã, tốc độ 5–8 g/s** (ch.17) — tất cả là
   suy luận từ cơ chế, chưa ai đo. **Hợp lý**, không hơn.
-- **Nhìn bã để chẩn đoán** (ch.18) — đây là chỗ sách tự tin nhất mà bằng chứng mỏng
+- **Nhìn bã để chẩn đoán** (ch.19) — đây là chỗ sách tự tin nhất mà bằng chứng mỏng
   nhất. Không có nghiên cứu nào nối hình dạng bã với bản đồ chiết xuất. Chính sách cũng
   nói "bã đều nhưng ly vẫn tệ thì vấn đề không phải pha" — nhưng "bã đều" ở đây là do
   mắt người đánh giá. Nên là **Truyền miệng**.
@@ -333,7 +422,7 @@ khẳng định không có nguồn mà vẫn mang nhãn Bằng chứng thì hệ
 - **Tỉ lệ đổi TDS tuyến tính, 1:16 → 1:15 đậm hơn 6–7%** (ch.7) — số học đúng, nhưng
   "gần như chắc chắn" là ngoại suy. [31] cho thấy tỉ lệ đổi TDS mạnh; mức 6–7% chưa
   được kiểm chứng riêng.
-- **"Không có nghiên cứu nào cho thấy điểm cupping dự đoán được mức ưa thích"** (ch.10) —
+- **"Không có nghiên cứu nào cho thấy điểm cupping dự đoán được mức ưa thích"** (ch.11) —
   đúng tính đến nay, nhưng nên nói "chưa có" thay vì "không có", vì đó là khẳng định
   phủ định toàn cầu.
 

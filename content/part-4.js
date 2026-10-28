@@ -315,7 +315,7 @@ Sau:  _______________  (dài/ngắn, sạch/bẩn)<br>
 Lạ:   _______________<br>
 </div>
 
-<p>Năm dòng này, sau mười con cà, sẽ cho bạn một thứ mà không cuốn sách nào cho được: <strong>bản đồ khẩu vị của chính bạn</strong>. Và nó là nền tảng cho chương 25.</p>
+<p>Năm dòng này, sau mười con cà, sẽ cho bạn một thứ mà không cuốn sách nào cho được: <strong>bản đồ khẩu vị của chính bạn</strong>. Và nó là nền tảng cho chương 26.</p>
 `
   },
 

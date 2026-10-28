@@ -15,7 +15,7 @@
     return;
   }
 
-  /* đánh số chương liên tục; phụ lục đánh riêng A1, A2… để không thành chương 29 */
+  /* đánh số chương liên tục; phụ lục đánh riêng A1, A2… để không thành chương 30 */
   var counter = 0;
   var acounter = 0;
   PARTS.forEach(function (part) {

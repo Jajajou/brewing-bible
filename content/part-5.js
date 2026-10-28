@@ -81,7 +81,7 @@ window.BOOK_PARTS.push({
 <p>Nếu bạn thường xuyên gặp ly cà "vừa chua vừa đắng, không rõ nốt" — đó là dấu hiệu của percolation không đều. Có hai cách xử lý:</p>
 
 <ol>
-<li><strong>Sửa kỹ thuật</strong> để làm percolation đều hơn (xem chương 16 và 18).</li>
+<li><strong>Sửa kỹ thuật</strong> để làm percolation đều hơn (xem chương 17 và 19).</li>
 <li><strong>Chuyển sang immersion</strong> — hoặc tăng phần immersion trong quy trình. Đây là cách nhanh hơn, và là cách mình khuyên nếu bạn đang mệt với việc tối ưu.</li>
 </ol>
 
@@ -307,7 +307,7 @@ window.BOOK_PARTS.push({
 
 <p>Bạn có thể làm cho ly cà sạch hơn, đều hơn, rõ hơn, đậm hơn, hoặc sáng hơn. Bạn không thể làm cho một con cà Catimor rang trung có mùi mơ. Bạn không thể làm cho một bao cà 60 ngày tuổi có hương hoa.</p>
 
-<p>Đây là lý do kỹ thuật rót đứng thứ ba trong thứ tự ưu tiên: sau nước và sau cỡ xay. Nó là đòn bẩy cuối cùng, không phải đầu tiên.</p>
+<p>Đây là lý do kỹ thuật rót đứng cuối trong thứ tự chẩn đoán — không phải vì nó yếu, mà vì nó sửa một thứ khác: độ đều, không phải mức chiết.</p>
 `
   },
 
@@ -391,7 +391,7 @@ window.BOOK_PARTS.push({
 
 <div class="callout ok">
 <p class="callout-title">Sự thật về các công thức</p>
-<p>Chênh lệch giữa các công thức tốt, khi mọi thứ khác giữ nguyên, thường nhỏ hơn chênh lệch do <strong>nước</strong> hoặc do <strong>cỡ xay lệch một nấc</strong>. Đừng đổi công thức để sửa một vấn đề thuộc về nước hoặc cỡ xay.</p>
+<p>Chênh lệch giữa các công thức tốt, khi mọi thứ khác giữ nguyên, thường nhỏ hơn chênh lệch do <strong>nước</strong> hoặc do <strong>cỡ xay lệch đủ để đổi thời gian rút</strong>. Đừng đổi công thức để sửa một vấn đề thuộc về nước hoặc cỡ xay.</p>
 </div>
 
 <h3>Điều mình khuyên</h3>
@@ -491,7 +491,7 @@ window.BOOK_PARTS.push({
 <li><strong>Kỹ thuật</strong> — chỉ có tác dụng khi hai thứ trên đã ổn.</li>
 </ol>
 
-<p>Đây là lý do mình nói ở chương 3 rằng thứ tự ưu tiên là nước → cỡ xay → độ tươi. "Cỡ xay" ở đây bao gồm cả <em>chất lượng</em> của việc xay, không chỉ con số cài đặt.</p>
+<p>Đó cũng là lý do thứ tự chẩn đoán đặt nước và cỡ xay trước độ tươi: hai thứ đầu sửa được bằng một hành động, còn độ tươi thì không. "Cỡ xay" ở đây bao gồm cả <em>chất lượng</em> của việc xay — và chương 10 nói rõ vì sao phần đó mới là phần quyết định.</p>
 
 <div class="pull">Bã là bằng chứng.<br>Ly cà là <em>lời khai</em>.</div>
 `

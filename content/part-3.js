@@ -186,7 +186,7 @@ window.BOOK_PARTS.push({
 
 <p>Có một chỗ mà thời gian thật sự quan trọng, nhưng không phải vì thứ tự hợp chất: <strong>giai đoạn cuối của quá trình rút</strong>. Khi bã gần khô, nước còn lại chảy qua một lớp mỏng bã đã bị nén, ở nhiệt độ thấp hơn, và có thể kéo theo các hợp chất có vị khô và chát. Đây là lý do một số người cắt bỏ vài giọt cuối.</p>
 
-<p>Nhưng hiệu ứng này nhỏ hơn nhiều so với những gì nó được gán cho, và nó bị lẫn với một hiệu ứng khác lớn hơn: khi ly cà nguội, cảm giác đắng tăng lên <em>mà không có thêm gì được chiết ra</em>. Đó là sinh lý học, không phải hóa học. Chương 23 nói về điều này.</p>
+<p>Nhưng hiệu ứng này nhỏ hơn nhiều so với những gì nó được gán cho, và nó bị lẫn với một hiệu ứng khác lớn hơn: khi ly cà nguội, cảm giác đắng tăng lên <em>mà không có thêm gì được chiết ra</em>. Đó là sinh lý học, không phải hóa học. Chương 24 nói về điều này.</p>
 `
   },
 
@@ -229,6 +229,8 @@ window.BOOK_PARTS.push({
 <p>Xay mịn hơn: mức chiết tăng (nhiều bề mặt hơn, nước ở lại lâu hơn). Nhưng đồng thời: nhiều fines hơn → dễ nghẹt giấy hơn → dễ channeling hơn → độ đều giảm.</p>
 
 <p>Đây là lý do "xay mịn hơn" là lời khuyên nguy hiểm khi ly cà nhạt. Nó tăng chiết, nhưng nó cũng làm giảm đều. Kết quả có thể là ly cà vừa đậm hơn vừa lộn xộn hơn.</p>
+
+<p>Hai chiều này không phải hai lời khuyên mà là hai cơ chế vật lý chạy song song, và chúng kéo ngược nhau. Chương sau mổ riêng đòn bẩy này — vì nó là chỗ có nhiều dữ liệu nhất, và cũng là chỗ dễ hiểu sai nhất.</p>
 
 <h4>Nhiệt độ — đòn bẩy tinh tế</h4>
 
@@ -283,6 +285,125 @@ window.BOOK_PARTS.push({
 </ul>
 
 <p>Nhưng ba chiều đó vẫn là công cụ tốt nhất bạn có, vì chúng <strong>đúng trong phần lớn trường hợp</strong> và chúng <strong>cho bạn biết nên làm gì tiếp theo</strong>. Một mô hình đơn giản mà dùng được tốt hơn một mô hình hoàn chỉnh mà không dùng được.</p>
+`
+  },
+
+  {
+    id: "ch-co-xay",
+    title: "Cỡ xay: một con số, hai cơ chế",
+    lede: "Sách xếp cỡ xay ở vị trí thứ hai. Chương này nói vì sao nó mạnh đến vậy, và vì sao nó không phải một núm xoay duy nhất.",
+    minutes: 11,
+    tags: ["chiết xuất", "cỡ xay", "vật lý"],
+    body: `
+<p>Trong ba đòn bẩy của chương trước, cỡ xay là cái bị hiểu sai nhiều nhất. Nó được nói đến như một con số: mịn hơn, thô hơn, một nấc. Nhưng thứ máy xay nhả ra không phải một con số. Nó là một hỗn hợp hạt với nhiều kích thước, và chính hỗn hợp đó — không phải đường kính trung bình — quyết định nước đi qua bã nhanh hay chậm, và lấy được gì trên đường đi.</p>
+
+<h3>Chuyện xảy ra trong máy xay</h3>
+
+<p>Hạt rang giòn. Lưỡi nghiền bẻ nó gãy theo những vết nứt có sẵn, và những vết nứt đó chạy dọc vách tế bào — chỗ yếu nhất của hạt. Vì vậy một lần xay không tạo ra hạt đều cỡ. Nó tạo ra hai nhóm.</p>
+
+<p><strong>Nhóm lớn</strong> là những mảnh vỡ của phần ruột hạt. Kích thước nhóm này do khe nghiền quyết định: bạn vặn mịn, nhóm này nhỏ đi.</p>
+
+<p><strong>Nhóm nhỏ</strong> là mảnh vách tế bào vỡ vụn. Chúng có mặt ở mọi cỡ cài đặt, và đường kính của chúng thường rơi vào khoảng <strong>30–40 µm</strong> <span class="tier tier-a">Bằng chứng</span>. Người ta gọi chúng là <em>fines</em>, với ngưỡng vận hành thường lấy là dưới 100 µm.</p>
+
+<p>Điều này có hai hệ quả không hiển nhiên. Thứ nhất: phân bố kích thước hạt của cà phê xay thường có hai đỉnh, và cái đỉnh nhỏ không biến mất khi bạn vặn thô — nó chỉ chiếm tỉ lệ khác đi. Thứ hai: nhiệt độ của hạt trước khi xay thay đổi phân bố. Hạt lạnh cho phân bố hẹp hơn và trung bình nhỏ hơn; còn nguồn gốc hạt và cách sơ chế thì gần như không ảnh hưởng đến phân bố <span class="tier tier-a">Bằng chứng</span>. Đây là lý do kỹ thuật xay hạt còn đông lạnh ở chương 3 có cơ sở: hạt lạnh vỡ giòn hơn, nên ít mảnh vụn hơn.</p>
+
+<h3>Trung vị không phải cỡ xay</h3>
+
+<p>Khi bạn nói "tôi xay ở 18 nấc", bạn đang nói một con số của máy, không phải một tính chất của bột. Ba con số mới mô tả được bột:</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Con số</th><th>Nó nói gì</th><th>Ảnh hưởng đến ly cà</th></tr></thead>
+<tbody>
+<tr><td><strong>Trung vị</strong> (D50)</td><td>Một nửa khối lượng hạt nhỏ hơn mức này</td><td>Tốc độ chiết trung bình</td></tr>
+<tr><td><strong>Độ rộng</strong> (D90 − D10)</td><td>Hỗn hợp trải rộng đến đâu</td><td>Mức độ đều; bã có chỗ chiết quá, chỗ chưa tới</td></tr>
+<tr><td><strong>Tỉ lệ fines</strong> (&lt; 100 µm)</td><td>Bao nhiêu phần trăm là mảnh vụn</td><td>Độ thấm của bã, và do đó thời gian rút</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Ba con số này không đi cùng nhau. Hai máy xay có thể cho cùng trung vị và khác hẳn lượng fines — và vì thế, cùng một "cỡ xay" trên giấy, hai kết quả khác nhau trong ly <span class="tier tier-a">Bằng chứng</span>.</p>
+
+<p>Fines là con số quan trọng nhất trong ba, vì nó tác động lên dòng chảy chứ không chỉ lên diện tích bề mặt. Trong một nghiên cứu trên 43 loại capsule thương mại, khi tỉ lệ fines tăng từ 10% lên 15%, thời gian chiết dài thêm khoảng <strong>10 giây</strong> — dù trung vị kích thước chỉ dao động trong khoảng 255–549 µm <span class="tier tier-a">Bằng chứng</span>. Năm phần trăm hạt vụn, mười giây.</p>
+
+<p>Một cảnh báo ngược lại, cũng cần thiết: trên một máy xay espresso, dải cài đặt từ 1.4 đến 2.0 chỉ đổi đường kính trung bình theo thể tích trong khoảng 273–295 µm, và trong thí nghiệm đó <strong>lưu lượng nước mạnh hơn cỡ xay</strong> <span class="tier tier-a">Bằng chứng</span>. Nghĩa là: có những lần bạn vặn ba nấc, đo, thấy không khác gì, rồi kết luận cỡ xay không quan trọng. Kết luận đó sai — bạn chỉ vừa chứng minh rằng ba nấc trên máy của bạn đổi rất ít.</p>
+
+<h3>Hai cơ chế kéo ngược chiều</h3>
+
+<p>Đây là phần cốt lõi, và là phần mọi lời khuyên về cỡ xay bỏ qua. Xay mịn hơn tác động lên hai thứ cùng lúc, theo hai hướng ngược nhau:</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th></th><th>Xay mịn hơn được gì</th><th>Xay mịn hơn mất gì</th></tr></thead>
+<tbody>
+<tr><td><strong>Cơ chế</strong></td><td>Diện tích bề mặt tăng; đường khuếch tán từ trong hạt ra ngoài ngắn lại</td><td>Khoảng rỗng giữa các hạt hẹp lại; bã dẫn nước kém hơn</td></tr>
+<tr><td><strong>Kết quả</strong></td><td>Chất hoà tan ra nhanh hơn</td><td>Nước chảy chậm hơn, dễ nghẹt, dễ đi lệch chỗ</td></tr>
+<tr><td><strong>Bạn thấy</strong></td><td>Ly đậm và rõ hơn</td><td>Thời gian rút dài; ly vừa đắng vừa chua, không có nốt</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Vì hai cơ chế này chạy cùng lúc, quan hệ giữa cỡ xay và mức chiết <strong>không đơn điệu</strong>. Nó không phải một đường thẳng đi lên. Nó là một đường cong có đỉnh.</p>
+
+<h3>Đường cong có đỉnh</h3>
+
+<p>Một mô hình giả định nước chảy đều qua bã sẽ dự đoán: xay càng thô, chiết càng ít, và ngược lại. Nhưng khi nhóm của Christopher Hendon đo thật trên espresso, mức chiết đạt đỉnh ở cỡ xay trung gian rồi <em>giảm</em> ở cả hai đầu — kể cả đầu mịn <span class="tier tier-a">Bằng chứng</span>. Ở đầu mịn, bã tắc và dòng chảy tách thành nhiều đường, nên phần lớn bã không được chiết đều.</p>
+
+<p>Một mô hình hai đường dòng giải thích cùng hiện tượng: dưới một ngưỡng nào đó, xay mịn thêm chỉ làm nước đi lệch, và mức chiết tổng giảm <span class="tier tier-a">Bằng chứng</span>.</p>
+
+<p>Đây không phải chi tiết học thuật. Nó giải thích một tình huống bạn sẽ gặp: ly cà nhạt, bạn xay mịn hơn, và nó nhạt hơn hoặc đắng hơn. Không phải bạn làm sai. Bạn đã đi qua đỉnh.</p>
+
+<div class="callout">
+<p class="callout-title">Dấu hiệu bạn đã qua đỉnh</p>
+<p>Thời gian rút dài ra, nhưng vị <strong>không</strong> đậm lên — hoặc đậm lên kèm đắng và chát. Lúc đó xay thô lại một hai nấc, đừng xay mịn thêm.</p>
+</div>
+
+<h3>Ngâm khác chảy</h3>
+
+<p>Mọi thứ trên đây nói về hệ có dòng chảy: nước đi qua bã và ra khỏi đó. Trong hệ ngâm kín, vật lý đổi khác — và đổi theo hướng ít người ngờ.</p>
+
+<p>Khi cà phê ngâm đủ lâu để tới cân bằng, lượng chất lấy ra gần như do độ hoà tan và tỉ lệ cà/nước quyết định, không do kích thước hạt. Một nghiên cứu quét trung vị từ 579 đến 1311 µm — hơn gấp đôi — và mức chiết cân bằng chỉ dao động trong khoảng <strong>19–23%</strong>, trung bình 20,7% <span class="tier tier-a">Bằng chứng</span>. Cỡ xay đổi <em>tốc độ</em> tới cân bằng; nó không đổi <em>đích</em>.</p>
+
+<p>Và trong một hệ kín, dấu của hiệu ứng có thể lật. Trong cold brew ngâm túi lọc, cùng một con cà Huila, cùng 14 giờ: cỡ medium cho 7,06% chiết, cỡ coarse cho 15,21% <span class="tier tier-a">Bằng chứng</span>. Xay thô hơn mà chiết nhiều hơn gấp đôi. Tác giả giải thích: bột medium đóng bánh trong túi, làm nước khó tiếp xúc đều, nên khuếch tán bị chặn. Bột thô giữ được cấu trúc rỗng, nước đi qua được.</p>
+
+<p>Bài học không phải "cold brew nên xay thô". Bài học là: <strong>phương pháp quyết định dấu của hiệu ứng.</strong> Câu "xay mịn hơn thì chiết nhiều hơn" không phải một định luật vật lý. Nó là một xu hướng đúng trong một số hệ, và sai trong những hệ khác.</p>
+
+<h3>Khi nào bạn không nếm ra</h3>
+
+<p>Có một kết quả khó chịu hơn: đôi khi cỡ xay đổi mà không ai nhận ra. Trong một thử nghiệm với 45 người trên cà phê drip, những khác biệt nhỏ về trung vị kích thước hạt <strong>không được phân biệt</strong> — trong khi khác biệt giữa hai kiểu giỏ lọc thì có <span class="tier tier-a">Bằng chứng</span>.</n
+<p>Nhưng cùng nghiên cứu đó cho một kết quả quan trọng hơn: bảng mô tả cảm quan tìm thấy sáu thuộc tính đổi theo cỡ xay, và có <strong>tương tác</strong> giữa cỡ xay và hình học giỏ lọc với vị đắng và hương hoa <span class="tier tier-a">Bằng chứng</span>. Nghĩa là: cỡ xay không tách khỏi cái phễu. Cùng một nấc xay, đổi phễu, cho kết quả khác.</p>
+
+<p>Đây là lý do "cỡ xay chuẩn cho pour over" không tồn tại, và cũng là lý do bạn không nên sao chép số nấc của người khác — kể cả khi hai người dùng cùng một loại máy xay.</p>
+
+<h3>Vậy cỡ xay đứng thứ mấy</h3>
+
+<p>Sách này nói thứ tự ưu tiên là nước → cỡ xay → độ tươi → kỹ thuật. Cần nói rõ: đó là <strong>thứ tự chẩn đoán</strong>, không phải một bảng xếp hạng đã được đo. Không có nghiên cứu nào so trực tiếp ba đòn bẩy này trong pour-over nóng, đo đồng thời TDS, mức chiết, thời gian rút và cảm quan <span class="tier tier-b">Hợp lý</span>.</p>
+
+<p>Cái đo được thì hẹp hơn, nhưng vẫn đủ để xếp thứ tự thực dụng:</p>
+
+<ul>
+<li><strong>Nước</strong> có bằng chứng cảm quan trực tiếp: đổi bicarbonate là đổi vị, đo được bằng panel (chương 4).</li>
+<li><strong>Cỡ xay</strong> là đòn bẩy thuỷ lực mạnh nhất. Nó đổi cả tốc độ chiết lẫn đường đi của nước — hai thứ mà không đòn bẩy nào khác đổi cùng lúc.</li>
+<li><strong>Kỹ thuật rót</strong> là đòn bẩy duy nhất tác động chủ yếu lên <em>độ đều</em>, và nó tương tác với cỡ xay thay vì thay thế cỡ xay.</li>
+</ul>
+
+<p>Nên câu đúng không phải "kỹ thuật yếu hơn cỡ xay". Câu đúng là: <strong>kỹ thuật sửa một thứ khác.</strong> Nếu bã đều mà vị sai, đổi cỡ xay hoặc nhiệt. Nếu bã không đều, đổi kỹ thuật — và đổi cỡ xay lúc đó chỉ là che lỗi bằng một biến khác.</p>
+
+<h3>Cách xay trong thực tế</h3>
+
+<ol class="steps">
+<li><strong>Bắt đầu từ một mốc và ghi lại hai con số</strong><p>Số nấc, tổng thời gian rút, và thời gian của 30 giây cuối. Không có hai con số này, bạn không có gì để so.</p></li>
+<li><strong>Đổi hai nấc, đừng đổi một</strong><p>Trên nhiều máy xay, một nấc đổi quá ít để nếm ra. Nếu bạn đổi một nấc, thấy không khác, rồi bỏ cuộc, bạn đang đo nhiễu chứ không đo cỡ xay.</p></li>
+<li><strong>Đọc vị và thời gian rút cùng lúc</strong><p>Rút dài hơn + đắng/khô hơn → quá mịn. Rút dài hơn + vẫn chua xanh → nhiều khả năng là không đều, không phải chiết thiếu. Rút ngắn hơn + nhạt → quá thô.</p></li>
+<li><strong>Dừng khi hai tín hiệu đồng ý</strong><p>Vị đúng và thời gian rút nằm trong khoảng bạn chấp nhận. Đừng tìm "cỡ xay chuẩn" — không có, và cái phễu của bạn sẽ từ chối nó.</p></li>
+</ol>
+
+<div class="callout ok">
+<p class="callout-title">Một câu để nhớ</p>
+<p><strong>Cỡ xay không phải một núm, mà là hai: kích thước và độ rộng.</strong> Bạn chỉnh được cái thứ nhất. Cái thứ hai do máy xay quyết định, và đó là lý do nâng cấp máy xay có tác dụng lớn hơn học thêm ba công thức.</p>
+</div>
+
+<p>Và đây là chỗ chương này dừng, đúng như nó phải dừng: chưa có nghiên cứu nào cô lập riêng cỡ xay trong pour-over nóng, với cùng một con cà, cùng liều, cùng tỉ lệ, cùng nhiệt, cùng kỹ thuật rót, mà đo đủ bốn thứ. Những gì chương này nói là tổng hợp từ espresso, từ ngâm, từ mô hình và từ một thử nghiệm cảm quan trên drip. Đó là nền tốt hơn truyền miệng, và vẫn là nền mỏng hơn ta muốn.</p>
 `
   }
 

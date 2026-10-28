@@ -73,7 +73,7 @@ window.BOOK_TEXT = {
 
 <p>One detail most drinkers do not know: the information on the bag <strong>affects what you taste</strong>. In a sensory study, when tasters were told the origin and process, their assessments shifted toward what they expected <span class="tier tier-a">Evidence</span>. Which means the "apricot" you find may come partly from the words on the bag.</p>
 
-<p>This is not you being fooled. It is how the human brain works: taste is not separate from knowledge. But it has a plainly practical consequence — if you want to know what you <em>actually</em> like, you sometimes have to taste without knowing what you are tasting. Chapter 24 is about this.</p>
+<p>This is not you being fooled. It is how the human brain works: taste is not separate from knowledge. But it has a plainly practical consequence — if you want to know what you <em>actually</em> like, you sometimes have to taste without knowing what you are tasting. Chapter 25 is about this.</p>
 `
     },
 
@@ -797,7 +797,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 
 <p>There is one place where time genuinely matters, though not because of compound order: <strong>the last stage of the drawdown</strong>. As the bed approaches dry, the remaining water passes through a thin, compressed layer of grounds at a lower temperature, and it can carry compounds that taste dry and astringent. That is why some people discard the last few drops.</p>
 
-<p>But this effect is much smaller than what it is credited with, and it gets confused with a larger one: as the cup cools, bitterness increases <em>without anything more being extracted</em>. That is physiology, not chemistry. Chapter 23 is about this.</p>
+<p>But this effect is much smaller than what it is credited with, and it gets confused with a larger one: as the cup cools, bitterness increases <em>without anything more being extracted</em>. That is physiology, not chemistry. Chapter 24 is about this.</p>
 `
     },
 
@@ -839,6 +839,8 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 <p>Grind finer: extraction rises (more surface, water stays longer). But at the same time: more fines → paper clogs more easily → more channelling → less evenness.</p>
 
 <p>That is why "grind finer" is dangerous advice for a weak cup. It raises extraction, but it also lowers evenness. The result can be a cup that is both stronger and muddier.</p>
+
+<p>Those two directions are not two pieces of advice but two physical mechanisms running in parallel, pulling against each other. The next chapter takes this lever apart on its own — because it is where the most data exists, and also where it is easiest to misunderstand.</p>
 
 <h4>Temperature — the subtle lever</h4>
 
@@ -893,6 +895,125 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 </ul>
 
 <p>But those three dimensions remain the best tool you have, because they are <strong>right most of the time</strong> and they <strong>tell you what to do next</strong>. A simple model you can use beats a complete model you cannot.</p>
+`
+    },
+
+    "ch-co-xay": {
+      title: "Grind size: one number, two mechanisms",
+      lede: "The book ranks grind size second. This chapter says why it is that strong — and why it is not a single dial.",
+      minutes: 11,
+      tags: ["extraction", "grind", "physics"],
+      body: `
+<p>Of the three levers in the previous chapter, grind size is the one most often misunderstood. It gets discussed as a number: finer, coarser, one click. But what the grinder releases is not a number. It is a mixture of particles at many sizes, and it is that mixture — not the average diameter — that decides how fast water moves through the bed, and what it picks up on the way.</p>
+
+<h3>What happens inside the grinder</h3>
+
+<p>A roasted bean is brittle. The burrs break it along the cracks it already has, and those cracks run along the cell walls — the weakest part of the bean. So one grind does not produce particles of one size. It produces two groups.</p>
+
+<p><strong>The coarse group</strong> is the fragments of the bean's interior. Their size is set by the burr gap: turn finer and this group shrinks.</p>
+
+<p><strong>The fine group</strong> is shattered cell-wall fragments. They are present at every setting, and their diameter usually falls in the <strong>30–40 µm</strong> range <span class="tier tier-a">Evidence</span>. People call them <em>fines</em>, with an operational cut-off usually taken as below 100 µm.</p>
+
+<p>Two consequences follow that are not obvious. First: the particle size distribution of ground coffee usually has two peaks, and the small peak does not disappear when you grind coarser — only its share changes. Second: the temperature of the bean before grinding changes that distribution. Cold beans give a narrower distribution and a smaller mean; bean origin and processing barely affect it at all <span class="tier tier-a">Evidence</span>. This is why grinding beans while still frozen, in chapter 3, has a basis: cold beans shatter more cleanly, so there is less debris.</p>
+
+<h3>The median is not the grind</h3>
+
+<p>When you say “I grind at 18”, you are naming a setting on a machine, not a property of the powder. Three numbers describe the powder:</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Number</th><th>What it says</th><th>What it does to the cup</th></tr></thead>
+<tbody>
+<tr><td><strong>Median</strong> (D50)</td><td>Half the mass is finer than this</td><td>Average extraction speed</td></tr>
+<tr><td><strong>Spread</strong> (D90 − D10)</td><td>How wide the mixture runs</td><td>Uniformity: some of the bed over-extracted, some untouched</td></tr>
+<tr><td><strong>Fines fraction</strong> (&lt; 100 µm)</td><td>What share is debris</td><td>Bed permeability, and therefore drawdown time</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>These three do not move together. Two grinders can deliver the same median and very different fines — and so the same “grind size” on paper gives two different cups <span class="tier tier-a">Evidence</span>.</p>
+
+<p>Fines is the most important of the three, because it acts on flow, not just on surface area. In one study of 43 commercial capsules, when the fines fraction rose from 10% to 15%, extraction time lengthened by about <strong>10 seconds</strong> — even though median particle size varied only between 255 and 549 µm <span class="tier tier-a">Evidence</span>. Five percent debris, ten seconds.</p>
+
+<p>A counter-warning is also needed: on one espresso grinder, settings from 1.4 to 2.0 shifted the volume-mean diameter only between 273 and 295 µm, and in that experiment <strong>flow rate mattered more than grind size</strong> <span class="tier tier-a">Evidence</span>. Which means: sometimes you turn three clicks, measure, see nothing, and conclude grind does not matter. That conclusion is wrong — you have only shown that three clicks on your grinder change very little.</p>
+
+<h3>Two mechanisms pulling opposite ways</h3>
+
+<p>This is the core of it, and the part most grind advice skips. Grinding finer acts on two things at once, in opposite directions:</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th></th><th>What finer grinding gains</th><th>What finer grinding costs</th></tr></thead>
+<tbody>
+<tr><td><strong>Mechanism</strong></td><td>More surface area; a shorter diffusion path from inside the particle out</td><td>Narrower gaps between particles; the bed conducts water less well</td></tr>
+<tr><td><strong>Result</strong></td><td>Solubles leave faster</td><td>Water moves slower, clogs more easily, strays more easily</td></tr>
+<tr><td><strong>What you taste</strong></td><td>A stronger, clearer cup</td><td>A longer drawdown; a cup both bitter and sour, with no defined note</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Because both mechanisms run at once, the relationship between grind size and extraction is <strong>not monotonic</strong>. It is not a straight line going up. It is a curve with a peak.</p>
+
+<h3>The curve has a peak</h3>
+
+<p>A model that assumes water flows evenly through the bed predicts: the coarser the grind, the less extraction, and the reverse. But when Christopher Hendon's group measured it on espresso, extraction peaked at an intermediate grind and then <em>fell</em> at both ends — including the fine end <span class="tier tier-a">Evidence</span>. At the fine end the bed clogs and flow splits into channels, so most of the bed is not extracted evenly.</p>
+
+<p>A two-path flow model explains the same behaviour: below some threshold, grinding finer only sends water down the wrong paths, and total extraction falls <span class="tier tier-a">Evidence</span>.</p>
+
+<p>This is not an academic detail. It explains a situation you will meet: the cup is thin, you grind finer, and it gets thinner or more bitter. You did not do it wrong. You went over the peak.</p>
+
+<div class="callout">
+<p class="callout-title">Signs you have gone over the peak</p>
+<p>The drawdown gets longer, but the cup does <strong>not</strong> get stronger — or it gets stronger along with bitterness and astringency. At that point go two clicks coarser, not finer.</p>
+</div>
+
+<h3>Immersion is not percolation</h3>
+
+<p>Everything above concerns a flowing system: water passes through the bed and leaves. In a closed immersion, the physics changes — and it changes in a direction few people expect.</p>
+
+<p>When coffee steeps long enough to reach equilibrium, how much is extracted is set mainly by solubility and by the coffee-to-water ratio, not by particle size. One study swept the median from 579 to 1311 µm — more than double — and equilibrium extraction moved only within <strong>19–23%</strong>, averaging 20.7% <span class="tier tier-a">Evidence</span>. Grind size changes the <em>speed</em> at which equilibrium arrives; it does not change the <em>destination</em>.</p>
+
+<p>And in a closed system the sign of the effect can flip. In bag-in-water cold brew, same Huila coffee, same 14 hours: a medium grind gave 7.06% extraction, a coarse grind gave 15.21% <span class="tier tier-a">Evidence</span>. Coarser ground, more than double the extraction. The authors explain it as the medium powder caking inside the bag and blocking even contact. The coarse powder kept its open structure and water could move through it.</p>
+
+<p>The lesson is not “cold brew should be coarse”. The lesson is: <strong>the method decides the sign of the effect.</strong> “Finer means more extraction” is not a law of physics. It is a trend that holds in some systems and reverses in others.</p>
+
+<h3>When you cannot taste it</h3>
+
+<p>There is a more uncomfortable result: sometimes the grind changes and nobody notices. In one trial with 45 people on drip coffee, small differences in median particle size were <strong>not discriminated</strong> — while the difference between two basket shapes was <span class="tier tier-a">Evidence</span>.</p>
+
+<p>But the same study found something more useful: a descriptive panel found six attributes changing with grind, and there was an <strong>interaction</strong> between grind and basket geometry for bitterness and floral notes <span class="tier tier-a">Evidence</span>. Which means: grind size cannot be separated from the dripper. The same setting, a different cone, a different result.</p>
+
+<p>That is why a “standard pour-over grind” does not exist, and why copying someone else's click count is a bad idea — even when they use the same grinder model.</p>
+
+<h3>So where does grind size rank?</h3>
+
+<p>This book says the order of priority is water → grind size → freshness → technique. That needs saying plainly: it is a <strong>diagnostic order</strong>, not a ranking that has been measured. No study compares these levers directly in hot pour-over while measuring TDS, extraction yield, drawdown time and sensory character together <span class="tier tier-b">Plausible</span>.</p>
+
+<p>What has been measured is narrower, but still enough to set a practical order:</p>
+
+<ul>
+<li><strong>Water</strong> has direct sensory evidence: change the bicarbonate and you change the taste, measured by a panel (chapter 4).</li>
+<li><strong>Grind size</strong> is the strongest hydraulic lever. It changes both extraction speed and the path water takes — two things no other lever changes at once.</li>
+<li><strong>Pour technique</strong> is the only lever that acts mainly on <em>uniformity</em>, and it interacts with grind rather than replacing it.</li>
+</ul>
+
+<p>So the right sentence is not “technique is weaker than grind size”. The right sentence is: <strong>technique fixes a different thing.</strong> If the bed is even and the taste is wrong, change grind or temperature. If the bed is uneven, change technique — and changing grind at that moment only hides the error behind another variable.</p>
+
+<h3>Grinding in practice</h3>
+
+<ol class="steps">
+<li><strong>Start from one mark and record two numbers</strong><p>The setting, total drawdown, and the time of the last 30 seconds. Without those two numbers you have nothing to compare against.</p></li>
+<li><strong>Change two clicks, not one</strong><p>On many grinders one click shifts too little to taste. If you change one click, notice nothing, and give up, you are measuring noise rather than grind.</p></li>
+<li><strong>Read taste and drawdown together</strong><p>Longer drawdown and more bitter and dry → too fine. Longer drawdown and still sour and grassy → most likely uneven, not under-extracted. Shorter drawdown and thin → too coarse.</p></li>
+<li><strong>Stop when the two signals agree</strong><p>The taste is right and the drawdown sits in a range you accept. Do not hunt for “the correct grind” — there is not one, and your dripper will reject it.</p></li>
+</ol>
+
+<div class="callout ok">
+<p class="callout-title">One sentence to keep</p>
+<p><strong>Grind size is not one dial but two: size and spread.</strong> You can adjust the first. The second is decided by the grinder, and that is why upgrading the grinder does more than learning three more recipes.</p>
+</div>
+
+<p>And this is where the chapter stops, as it should: no study has yet isolated grind size in hot pour-over — same coffee, same dose, same ratio, same temperature, same pour technique — while measuring all four outputs. What this chapter says is assembled from espresso, from immersion, from modelling and from one sensory trial on drip. That is a better foundation than folklore, and still a thinner one than we would like.</p>
 `
     },
 
@@ -1201,7 +1322,7 @@ After: _______________  (long/short, clean/dirty)<br>
 Odd:   _______________
 </div>
 
-<p>These five lines, after ten coffees, give you something no book can: <strong>a map of your own palate</strong>. And that is the foundation for chapter 25.</p>
+<p>These five lines, after ten coffees, give you something no book can: <strong>a map of your own palate</strong>. And that is the foundation for chapter 26.</p>
 `
     },
 
@@ -1371,7 +1492,7 @@ Odd:   _______________
 <p>If you keep getting cups that are "sour and bitter with no clear notes", that is a sign of uneven percolation. There are two responses:</p>
 
 <ol>
-<li><strong>Fix your technique</strong> so the percolation is more even (see chapters 16 and 18).</li>
+<li><strong>Fix your technique</strong> so the percolation is more even (see chapters 17 and 19).</li>
 <li><strong>Move toward immersion</strong> — or increase the immersion share of your routine. This is the faster route, and the one I would suggest if you are tired of optimising.</li>
 </ol>
 
@@ -1927,8 +2048,8 @@ Likely problem:  ____________________
 <p>After brewing, do three things:</p>
 <ol>
 <li><strong>Look at the bed.</strong> Even? A hole? Dry patches? How long did it drain?</li>
-<li><strong>Drink it with a slurp.</strong> Not a sip. See chapter 11.</li>
-<li><strong>Compare with the cupping.</strong> Use the four questions from chapter 13.</li>
+<li><strong>Drink it with a slurp.</strong> Not a sip. See chapter 12.</li>
+<li><strong>Compare with the cupping.</strong> Use the four questions from chapter 14.</li>
 </ol>
 
 <h3>Step 3 — One adjustment (5 minutes)</h3>
@@ -2230,7 +2351,7 @@ Likely problem:  ____________________
 <li><strong>Raise the temperature 1–2 °C</strong><p>If there is sour-green, vegetal character (under-extraction).</p></li>
 </ol>
 
-<p>One thing at a time. And if after three tries you are still far from the cupping — by rule 4 in chapter 21 — that is information about the coffee, not a reason to change your base recipe.</p>
+<p>One thing at a time. And if after three tries you are still far from the cupping — by rule 4 in chapter 22 — that is information about the coffee, not a reason to change your base recipe.</p>
 
 <h3>The right expectation</h3>
 
@@ -2500,7 +2621,7 @@ Likely problem:  ____________________
 
 <h3>Four axes of palate</h3>
 
-<p>Once you have a sequence of choices, read it along four axes (from chapter 24):</p>
+<p>Once you have a sequence of choices, read it along four axes (from chapter 25):</p>
 
 <div class="table-wrap">
 <table>
@@ -2627,7 +2748,7 @@ NOTES: ________________________________
 
 <h3>Four axes for recording taste</h3>
 
-<p>Do not try to write flavour notes. Use the four axes from chapter 24, scoring each from 1 to 5:</p>
+<p>Do not try to write flavour notes. Use the four axes from chapter 25, scoring each from 1 to 5:</p>
 
 <div class="table-wrap">
 <table>
@@ -2880,7 +3001,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p>The rule is simple: only sentences an outside document can check need a source. Statements about experience, method and advice do not — and none of them should be given a source that merely sounds scientific. Peer-reviewed work with a DOI comes first; where none exists, the industry standard or the primary source from the person who proposed the method.</p>
 
-<p>Thirty-three sources are grouped by subject in A2 and by chapter in A3. Of the 28 chapters, nine rest directly on documents, five rest on them halfway, ten are method and need no outside source, and two — 16 and 18 — have no source at all for their central claim.</p>
+<p>Forty sources are grouped by subject in A2 and by chapter in A3. Of the 29 chapters, ten rest directly on documents, five rest on them halfway, twelve are method and need no outside source, and two — 17 and 19 — have no source at all for their central claim.</p>
 
 <div class="callout">
 <p class="callout-title">A source is not evidence</p>
@@ -2891,7 +3012,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
     "ch-nguon-danh-muc": {
       title: "Bibliography",
-      lede: "Thirty-three sources, grouped by subject. Each entry carries a DOI or a link that was opened and read, plus one line on what that source contributes.",
+      lede: "Forty sources, grouped by subject. Each entry carries a DOI or a link that was opened and read, plus one line on what that source contributes.",
       minutes: 12,
       tags: ["appendix", "sources"],
       body: `
@@ -2943,7 +3064,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p><strong>[13]</strong> Specialty Coffee Association (2024). <em>Coffee Value Assessment</em> — SCA Standard 102-2024 (Sample Preparation and Tasting Mechanics), 103-2024 (Descriptive Assessment), 104-2024 (Affective Assessment).</p>
 
-<p>No single total score. Descriptive, affective and extrinsic assessments are separate. This is the biggest change in cupping in twenty years, and the reason chapter 10 now opens with a note about the 2004 set.</p>
+<p>No single total score. Descriptive, affective and extrinsic assessments are separate. This is the biggest change in cupping in twenty years, and the reason chapter 11 now opens with a note about the 2004 set.</p>
 
 <p><strong>[14]</strong> Chambers, E., IV, et al. (2016). <em>Development of a "living" lexicon for descriptive sensory analysis of brewed coffee.</em> Journal of Sensory Studies, 31(6), 465–480. doi:10.1111/joss.12237</p>
 
@@ -3007,7 +3128,37 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p><strong>[33]</strong> Cameron, M. I., et al. (2020). <em>Systematically improving espresso: insights from mathematical modeling and experiment.</em> Matter. doi:10.1016/j.matt.2019.12.019</p>
 
-<p>The peer-reviewed paper from the same Hendon group. If you need an academic source for the espresso model, use this one, not the blog.</p>
+<p>The peer-reviewed paper from the same Hendon group. If you need an academic source for the espresso model, use this one, not the blog. Chapter 10 reuses it for the extraction curve with a peak.</p>
+
+<h3>Grind size</h3>
+
+<p><strong>[34]</strong> Mo, C., Johnston, R., Navarini, L., Suggi Liverani, F., &amp; Ellero, M. (2023). <em>Exploring the link between coffee matrix microstructure and flow properties using combined X-ray microtomography and smoothed particle hydrodynamics simulations.</em> Scientific Reports, 13, 16374. doi:10.1038/s41598-023-42380-y</p>
+
+<p>Micro-CT of an espresso bed plus flow simulation. The particle size distribution carries a fines peak around 30–40 µm, traced to cell-wall fragments; the coarse peak is set by the grinder. Bed porosity falls from the bottom of the puck up towards the shower screen.</p>
+
+<p><strong>[35]</strong> Smrke, S., Eiermann, A., &amp; Yeretzian, C. (2024). <em>The role of fines in espresso extraction dynamics.</em> Scientific Reports, 14, 5612. doi:10.1038/s41598-024-55831-x</p>
+
+<p>Fines defined as the fraction below 100 µm. Raising the fines fraction lowers bed permeability, lowers flow rate and lengthens extraction. The same median can come with a different fines fraction when the grinding technology differs.</p>
+
+<p><strong>[36]</strong> Eiermann, A., et al. (2020). <em>Extraction of single serve coffee capsules: linking properties of ground coffee to extraction dynamics and cup quality.</em> Scientific Reports, 10, 17079. doi:10.1038/s41598-020-74138-1</p>
+
+<p>43 commercial capsules. Median 255–549 µm, extraction 15.7–26%, TDS 2.15–3.64%, time 11.3–41 seconds. A fines fraction rising from 10% to 15% came with about 10 extra seconds of extraction.</p>
+
+<p><strong>[37]</strong> Córdoba, N., Pataquiva, L., Osorio, C., Moreno, F. L., &amp; Ruiz, R. Y. (2019). <em>Effect of grinding, extraction time and type of coffee on the physicochemical and flavour characteristics of cold brew coffee.</em> Scientific Reports, 9, 8440. doi:10.1038/s41598-019-44886-w</p>
+
+<p>Bag-in-water cold brew, two Colombian coffees. At 14 hours, Huila: medium 7.06% extraction, coarse 15.21%. The authors explain it as the medium powder caking inside the bag, which choked diffusion. This is the source for "the method decides the sign of the effect".</p>
+
+<p><strong>[38]</strong> Frost, S. C., Ristenpart, W. D., &amp; Guinard, J.-X. (2019). <em>Effect of basket geometry on the sensory quality and consumer acceptance of drip brewed coffee.</em> Journal of Food Science, 84(8), 2297–2312. doi:10.1111/1750-3841.14696</p>
+
+<p>45 tasters in a discrimination test, plus descriptive analysis. Small differences in median particle size were not discriminated; the difference between two basket shapes was. In the descriptive panel six attributes moved with grind, and there was a grind × basket-geometry interaction for bitterness and floral notes.</p>
+
+<p><strong>[39]</strong> Uman, E., et al. (2016). <em>The effect of bean origin and temperature on grinding roasted coffee.</em> Scientific Reports, 6, 24483. doi:10.1038/srep24483</p>
+
+<p>Four coffees: particle size distribution did not depend on origin or processing. Cold beans gave a narrower distribution and a smaller mean — the basis for grinding beans while frozen in chapter 3.</p>
+
+<p><strong>[40]</strong> Corrochano, B. R., Melrose, J. R., Bentley, A. C., Fryer, P. J., &amp; Bakalis, S. (2015). <em>A new methodology to estimate the steady-state permeability of roast and ground coffee in packed beds.</em> Journal of Food Engineering, 150, 106–116. doi:10.1016/j.jfoodeng.2014.11.006</p>
+
+<p>Measured bed permeability falls in the 10⁻¹³–10⁻¹⁴ m² range. Estimates from a dry particle size distribution with the Kozeny–Carman equation did not match the measurements, because compression changes the packing structure.</p>
 
 <div class="callout">
 <p class="callout-title">Three papers I could not open in full</p>
@@ -3039,39 +3190,43 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <tr><td>8</td><td>Order of decline: trigonelline, TDS, 5-CQA, caffeine</td><td>Evidence</td><td>[8]</td><td>Citable</td></tr>
 <tr><td>8</td><td>Malic, acetic and lactic below threshold; tasters cannot name them</td><td>Evidence</td><td>[2]</td><td>Citable</td></tr>
 <tr><td>9</td><td>Temperature is a weak lever once TDS and EY are fixed</td><td>—</td><td>[6] [7]</td><td>Citable</td></tr>
-<tr><td>10</td><td>The SCA ten-item, 100-point scale (2004 set)</td><td>—</td><td>[12] [13]</td><td>Noted, see A4</td></tr>
-<tr><td>11</td><td>8.25 g to 150 ml; five cups per sample; a four-minute protocol</td><td>—</td><td>[12]</td><td>Citable</td></tr>
-<tr><td>12</td><td>Three layers in time; the flavour wheel</td><td>—</td><td>[14]</td><td>Citable</td></tr>
-<tr><td>13</td><td>Cupping does not predict pour over</td><td>—</td><td>[30] [31]</td><td>Partly</td></tr>
-<tr><td>14</td><td>Immersion has no equivalent channelling mechanism</td><td>—</td><td>[10] [11] [31]</td><td>Partly</td></tr>
-<tr><td>15</td><td>Paper and metal give different volatile profiles</td><td>Plausible</td><td>[30]</td><td>Citable, one coffee</td></tr>
-<tr><td>16</td><td>Kettle 3–5 cm above the bed; keep the water level above the bed; 5–8 g/s</td><td>—</td><td>none</td><td>No source</td></tr>
-<tr><td>17</td><td>Three schools of recipe</td><td>—</td><td>[27] [28] [29]</td><td>Citable</td></tr>
-<tr><td>18</td><td>Reading the bed to diagnose</td><td>—</td><td>none</td><td>No source</td></tr>
-<tr><td>19</td><td>The diagnostic table</td><td>—</td><td>derived from [10] [11]</td><td>Partly</td></tr>
-<tr><td>20–22</td><td>Process, four rules, case study</td><td>—</td><td>method</td><td>Needs no source</td></tr>
-<tr><td>23</td><td>Anatomy of a sip; retronasal path</td><td>—</td><td>general olfactory physiology</td><td>Needs no source</td></tr>
-<tr><td>24</td><td>Flavour-note language and its trap</td><td>—</td><td>[14] [19]</td><td>Partly</td></tr>
-<tr><td>25–28</td><td>Palate training, log, gear, checklist</td><td>—</td><td>method</td><td>Needs no source</td></tr>
+<tr><td>10</td><td>The distribution carries a fines peak at 30–40 µm; the same median can hide a different fines load</td><td>Evidence</td><td>[34] [35] [39]</td><td>Citable</td></tr>
+<tr><td>10</td><td>The extraction–grind curve has a peak rather than a monotonic slope</td><td>Evidence</td><td>[33] [11]</td><td>Citable</td></tr>
+<tr><td>10</td><td>At immersion equilibrium: EY 19–23% across a 579–1311 µm median range</td><td>Evidence</td><td>[31] [37]</td><td>Citable</td></tr>
+<tr><td>10</td><td>The order water → grind → technique is a diagnostic order, not a measured ranking</td><td>Plausible</td><td>no direct study</td><td>Downgraded, see A4</td></tr>
+<tr><td>11</td><td>The SCA ten-item, 100-point scale (2004 set)</td><td>—</td><td>[12] [13]</td><td>Noted, see A4</td></tr>
+<tr><td>12</td><td>8.25 g to 150 ml; five cups per sample; a four-minute protocol</td><td>—</td><td>[12]</td><td>Citable</td></tr>
+<tr><td>13</td><td>Three layers in time; the flavour wheel</td><td>—</td><td>[14]</td><td>Citable</td></tr>
+<tr><td>14</td><td>Cupping does not predict pour over</td><td>—</td><td>[30] [31]</td><td>Partly</td></tr>
+<tr><td>15</td><td>Immersion has no equivalent channelling mechanism</td><td>—</td><td>[10] [11] [31]</td><td>Partly</td></tr>
+<tr><td>16</td><td>Paper and metal give different volatile profiles</td><td>Plausible</td><td>[30]</td><td>Citable, one coffee</td></tr>
+<tr><td>17</td><td>Kettle 3–5 cm above the bed; keep the water level above the bed; 5–8 g/s</td><td>—</td><td>none</td><td>No source</td></tr>
+<tr><td>18</td><td>Three schools of recipe</td><td>—</td><td>[27] [28] [29]</td><td>Citable</td></tr>
+<tr><td>19</td><td>Reading the bed to diagnose</td><td>—</td><td>none</td><td>No source</td></tr>
+<tr><td>20</td><td>The diagnostic table</td><td>—</td><td>derived from [10] [11]</td><td>Partly</td></tr>
+<tr><td>21–23</td><td>Process, four rules, case study</td><td>—</td><td>method</td><td>Needs no source</td></tr>
+<tr><td>24</td><td>Anatomy of a sip; retronasal path</td><td>—</td><td>general olfactory physiology</td><td>Needs no source</td></tr>
+<tr><td>25</td><td>Flavour-note language and its trap</td><td>—</td><td>[14] [19]</td><td>Partly</td></tr>
+<tr><td>26–29</td><td>Palate training, log, gear, checklist</td><td>—</td><td>method</td><td>Needs no source</td></tr>
 </table>
 
-<p>The two entries at the bottom — 16 and 18 — stand on the writer's experience. That does not make them wrong; it only means they are not the place to invoke science.</p>
+<p>The two entries at the bottom — 17 and 19 — stand on the writer's experience. That does not make them wrong; it only means they are not the place to invoke science.</p>
 `
     },
 
     "ch-nguon-khoang-trong": {
       title: "Where the sources disagree, and what is missing",
-      lede: "Three places where the original documents do not match the book, seven claims with no source, and a note on image rights.",
+      lede: "Four places where the book says more than the documents allow, seven claims with no source, and a note on image rights.",
       minutes: 8,
       tags: ["appendix", "corrections"],
       body: `
-<p>Three places below are where the original documents do not say what the book says. All three are corrected in this edition; they remain on record here so the reader knows where the error sat.</p>
+<p>Four places below are where the book says more than the documents allow. All four are corrected in this edition; they remain on record here so the reader knows where the error sat.</p>
 
 <h3>One: the cupping scale</h3>
 
-<p>Chapters 10 to 12 use the ten-item, 100-point scale. That is the <em>Cupping Protocol and Form</em> of 2004. In 2024 the SCA replaced it with the <em>Coffee Value Assessment</em> (SCA-102, 103 and 104-2024), which does not use a single total score: descriptive, affective and extrinsic assessment are separate.</p>
+<p>Chapters 11 to 13 use the ten-item, 100-point scale. That is the <em>Cupping Protocol and Form</em> of 2004. In 2024 the SCA replaced it with the <em>Coffee Value Assessment</em> (SCA-102, 103 and 104-2024), which does not use a single total score: descriptive, affective and extrinsic assessment are separate.</p>
 
-<p>The argument of the chapter still holds, because a score measures the agreement of people trained to the same standard — truer under the CVA, not less true. Only the sentence “almost every professional uses the same procedure” has not been accurate since 2024. Chapter 10 now says so in its first sentence.</p>
+<p>The argument of the chapter still holds, because a score measures the agreement of people trained to the same standard — truer under the CVA, not less true. Only the sentence “almost every professional uses the same procedure” has not been accurate since 2024. Chapter 11 now says so in its first sentence.</p>
 
 <h3>Two: the TDS band</h3>
 
@@ -3085,6 +3240,14 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p>That finding has a more direct source: Rune and colleagues (2026) at the University of Copenhagen — the first study to test the industry's “ideal” water zone with controlled sensory methods. Chapter 4 now cites it.</p>
 
+<h3>Four: the ranking of the levers</h3>
+
+<p>The book says the order of priority is water → grind size → freshness → technique, and in one place states flatly that pour technique “comes third, after water and after grind size”. That sentence had no source behind it.</p>
+
+<p>No study compares these levers directly in hot pour-over while measuring TDS, extraction yield, drawdown time and sensory character together. What has been measured is narrower: water has direct sensory evidence; grind size is the strongest hydraulic lever; technique is the only lever acting mainly on uniformity, and grind interacts with dripper geometry rather than standing apart from it.</p>
+
+<p>So the book changed in two places. One: chapter 10 was added, a chapter of its own on grind size, so the lever ranked second has somewhere real to stand — seven new sources, [34] to [40]. Two: the ranking sentence became a sentence about function. Technique is not weaker than grind size; it fixes a different thing. The rest of the order is now called by its right name: a diagnostic order, not a ranking.</p>
+
 <h3>Seven claims with no source</h3>
 
 <p>This is where the labelling system loses its value if it is left alone.</p>
@@ -3092,11 +3255,11 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <ul>
 <li><strong>“Dark roast is easier to brew”</strong> (chapter 2) — right about easier, wrong about where to start. No study compares brewing difficulty across roast levels. It should be Folklore, not left blank.</li>
 <li><strong>Freshness versus water</strong> (chapter 3) — the specific comparison has no study behind it. The mechanism is right, so it should drop to Plausible.</li>
-<li><strong>Kettle 3–5 cm above the bed, water level above the bed, 5–8 g/s</strong> (chapter 16) — inferred from mechanism, never measured. Plausible, no more.</li>
-<li><strong>Reading the bed to diagnose</strong> (chapter 18) — the book's most confident chapter with its thinnest evidence. Nothing published links bed shape to an extraction map. It should be Folklore.</li>
+<li><strong>Kettle 3–5 cm above the bed, water level above the bed, 5–8 g/s</strong> (chapter 17) — inferred from mechanism, never measured. Plausible, no more.</li>
+<li><strong>Reading the bed to diagnose</strong> (chapter 19) — the book's most confident chapter with its thinnest evidence. Nothing published links bed shape to an extraction map. It should be Folklore.</li>
 <li><strong>Bloom as a gas-handling step</strong> (chapter 3) — the mechanism is right, the sensory benefit is unproven. It should be Plausible.</li>
 <li><strong>Ratio moves TDS linearly; 1:16 to 1:15 is about 6–7% stronger</strong> (chapter 7) — the arithmetic is right, but the 6–7% figure is an extrapolation nobody has tested on its own.</li>
-<li><strong>“No study shows cupping scores predict liking”</strong> (chapter 10) — true so far, but it should read “none yet” rather than “none”, because that is a global negative claim.</li>
+<li><strong>“No study shows cupping scores predict liking”</strong> (chapter 11) — true so far, but it should read “none yet” rather than “none”, because that is a global negative claim.</li>
 </ul>
 
 <h3>Image rights</h3>
