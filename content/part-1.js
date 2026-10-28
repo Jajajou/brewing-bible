@@ -69,7 +69,7 @@ window.BOOK_PARTS.push({
 
 <p>Còn một chi tiết mà hầu hết người uống không biết: thông tin trên bao bì <strong>ảnh hưởng đến những gì bạn nếm</strong>. Trong một nghiên cứu cảm quan, khi người thử được cho biết thông tin về xuất xứ và cách chế biến, đánh giá của họ thay đổi theo hướng phù hợp với kỳ vọng <span class="tier tier-a">Bằng chứng</span>. Nghĩa là nốt "mơ" bạn tìm thấy có thể đến một phần từ dòng chữ trên bao bì.</p>
 
-<p>Đây không phải là chuyện bạn bị lừa. Đây là cách não người hoạt động: vị giác không tách rời khỏi hiểu biết. Nhưng nó có một hệ quả thực dụng rất rõ — nếu bạn muốn biết mình <em>thật sự</em> thích gì, đôi khi bạn phải nếm mà không biết mình đang nếm gì. Chương 25 sẽ nói về việc này.</p>
+<p>Đây không phải là chuyện bạn bị lừa. Đây là cách não người hoạt động: vị giác không tách rời khỏi hiểu biết. Nhưng nó có một hệ quả thực dụng rất rõ — nếu bạn muốn biết mình <em>thật sự</em> thích gì, đôi khi bạn phải nếm mà không biết mình đang nếm gì. Chương 26 sẽ nói về việc này.</p>
 `
   },
 

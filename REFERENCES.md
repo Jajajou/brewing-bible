@@ -1,6 +1,6 @@
 # Nguồn tham chiếu — The Brewing Bible
 
-Cập nhật: 28/10/2026. Mọi đường dẫn dưới đây đã được mở và đọc, không phải suy từ
+Cập nhật: 29/10/2026. Mọi đường dẫn dưới đây đã được mở và đọc, không phải suy từ
 trí nhớ. Chỗ nào không xác minh được thì ghi rõ là không xác minh được.
 
 ## Cách lập danh mục này
@@ -14,10 +14,10 @@ sách thật sự khẳng định**, không phải từ một thư mục có s�
 3. Nếu tài liệu tìm được **không** nói đúng điều sách nói, ghi vào mục "Chỗ cần sửa"
    thay vì gán đại một nguồn cho đủ.
 
-Kết quả, tính trên 29 chương: **10 chương** có khẳng định dẫn được trực tiếp, **5 chương**
-dẫn được một phần, **2 chương** (17 và 19) không có nguồn ngoài, **12 chương** là quy
+Kết quả, tính trên 30 chương: **10 chương** có khẳng định dẫn được trực tiếp, **6 chương**
+dẫn được một phần, **2 chương** (17 và 20) không có nguồn ngoài, **12 chương** là quy
 trình thuần tuý nên không cần nguồn, và **3 chương** (7, 10, 11) có chỗ phải sửa. Thêm ba
-khẳng định lẻ không có nguồn, nằm trong các chương 3, 17 và 19.
+khẳng định lẻ không có nguồn, nằm trong các chương 3, 17 và 20.
 
 ---
 
@@ -300,6 +300,101 @@ DOI [10.1016/j.jfoodeng.2014.11.006](https://doi.org/10.1016/j.jfoodeng.2014.11.
 Kozeny–Carman với phân bố hạt khô **không khớp** với phép đo, vì bã bị nén làm đổi cấu
 trúc đóng gói.
 
+### Thi đấu
+
+**[41]** World Coffee Championships. *World Brewers Cup* — thể thức hai phần thi và trần
+TDS 2%: [wcc.coffee/world-brewers-cup](https://wcc.coffee/world-brewers-cup). Kết quả 2026,
+công bố 28/6/2026: [wcc.coffee/latest-news/wbrc-winners](https://wcc.coffee/latest-news/wbrc-winners)
+— Nas Jaafar (Malaysia) vô địch tại Brussels; Simon Gautherin (Úc) nhì, Bavis Kwong
+(Hồng Kông) ba. Đây là nguồn xác nhận tên và quốc gia của cả sáu nhà vô địch trong bảng
+chương 19; số gam thì phải lấy từ các mục dưới.
+
+**[42]** Barista Hustle (2021). *No Stir: An Interview with World Brewers Cup Champion
+Matt Winton.* [Link](https://www.baristahustle.com/lesson/p-1-07-1-no-stir-an-interview-with-world-brewers-cup-champion-matt-winton/)
+
+20 g / 300 g, 93 °C, năm lần rót 60 g. Winton nói rõ vì sao chọn cỡ xay thô (để rót được
+năm lần mà không đắng), rằng bốn lần rót không cho cùng biểu hiện với năm lần, và đội của
+ông đã thử **sáu công thức nước**. Đây là bản ghi chi tiết nhất cho hàng 2021.
+
+**[43]** European Coffee Trip (2024). *Winning pour over recipe — Martin Wölfl.*
+[Link](https://europeancoffeetrip.com/winning-pour-over-recipe-martin-woelfl/)
+
+17 g / 270 g, 93 °C, khoảng 490 µm, OREA V4 + giấy Sibarist FAST. **Giới hạn:** trang chặn
+trình đọc khi tra, nên số liệu lấy từ bản tóm tắt được lập chỉ mục, chưa đối chiếu toàn văn.
+Chương 19 ghi đúng mức độ đó.
+
+**[44]** Barista Magazine (2024). *10 Minutes with Martin Wölfl, Part One.*
+[Link](https://www.baristamagazine.com/10-minutes-with-martin-wolfl-part-one/)
+
+Xác nhận OREA V4, giấy Sibarist FAST, và cà: Gesha Finca Maya, sơ chế hai giai đoạn, sấy 33
+ngày. Bài không cho số gam.
+
+**[45]** European Coffee Trip (2025). *Winning pour over recipe — SOLO Dripper.*
+[Link](https://europeancoffeetrip.com/winning-pourover-recipe-solo-dripper/)
+
+15 g / 210 g; 30 g ở 96 °C, 90 g ở 96 °C, 90 g ở 80 °C qua Melodrip; khoảng 800 µm; 1:45;
+nước 40 ppm. Công thức đầy đủ nhất trong sáu hàng.
+
+**[46]** Barista Magazine (2025). *George Jinyang Peng Discusses World Brewers Cup Win.*
+[Link](https://www.baristamagazine.com/george-jinyang-peng-discusses-world-brewers-cup-win/)
+
+Cà Gesha Mount Totumas (Panama). Bài không cho thông số pha.
+
+**[47]** gota.cafe (2026). *Nas Jaafar — UFO V3, World Brewers Cup.*
+[Link](https://gota.cafe/en/recipes/ufo/ufo-jaafar-wbrc)
+
+15 g / 200 g, 92 °C, khoảng 700 µm; 100 g xả qua van mở rồi 100 g ngâm van đóng 35 giây.
+Bản dựng lại, không phải biên bản.
+
+**[48]** Mikava Coffee. *Thẻ công thức* (2022).
+[Link](https://mikava.coffee/pages/mikava-recipes)
+
+14 g / 200 g; 50 g ở 70 °C mở đầu rồi 95 °C; bốn lần 50 g; 800–1000 µm; 2:30–3:00.
+**Hai giới hạn:** thẻ không nêu dụng cụ, và không xác nhận được con cà trên thẻ có phải con
+cà dùng trong lượt thi.
+
+**[49]** Kaffelogic. *Carlos Medina, World Brewers Cup* (2023).
+[Link](https://www.kaffelogic.com/blogs/competitors/carlos-medina-wbrc)
+
+Origami Air, giấy Brewista X, cà Sidra Granja La Esperanza. Số gam lấy từ bản dựng lại và
+các bản **không khớp nhau**: một bản ghi 248 g, bản khác ghi năm lần 50 g (250 g). Chương
+19 dùng 248 g và nói rõ đó là bản dựng lại.
+
+**[50]** Barista Magazine (2022). *Brewers Cup Runner-Up Lance Hedrick on the “Nifty Coffee
+Grinds Trick” from His Routine.*
+[Link](https://www.baristamagazine.com/brewers-cup-runner-up-lance-hedrick-on-the-nifty-coffee-grinds-trick-from-his-routine/)
+
+Hedrick ước lượng khoảng **2,5 g fines** ban đầu, 1,7–2 g bị giấy giữ lại, còn dưới 0,4 g
+trong ly — và nói vấn đề lớn nhất của routine là **độ lặp lại**. Đây là bằng chứng duy nhất
+tìm được cho câu "routine thi đấu đánh đổi độ lặp lại lấy độ rõ", và nó là lời người trong
+cuộc, không phải phép đo độc lập.
+
+**[51]** *Pour-over coffee: Mixing by a water jet impinging on a granular bed.* Physics of
+Fluids 37(4), 043332 (2025).
+[Link](https://pubs.aip.org/aip/pof/article/37/4/043332/3342795)
+
+Hạt trong suốt + chụp ảnh laser: tia tầng ổn định làm lở bã mạnh hơn tia rơi thành giọt.
+**Toàn văn bị chặn** khi tra; phần đọc được là [bản tóm tắt của AIP](https://publishing.aip.org/publications/latest-content/coffee-too-weak-try-this/).
+
+**[52]** Batali, M. E., Ristenpart, W. D., & Guinard, J.-X. (2020). Thực nghiệm về nhiệt
+độ pha, TDS và mức chiết. [Toàn văn PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7536440/)
+
+Giữ TDS và mức chiết như nhau, đổi nhiệt 87–93 °C: khác biệt cảm quan không đáng kể. Đây là
+nguồn cho cảnh báo ở phần "hạ nhiệt cuối" của chương 19 — và là lý do chương đó không hứa
+nhiều từ bước nhiệt.
+
+**[53]** Rao, S. (2025). *Bed depth: why it matters.*
+[Link](https://www.scottrao.com/blog/2025/11/11/bed-depth-why-it-matters)
+
+Liều và độ sâu bã theo dụng cụ (V60 khoảng 20–25 g, Kalita 155 khoảng 15–18 g). Kinh nghiệm
+hành nghề, không phải nghiên cứu có kiểm soát.
+
+**[54]** Gagné, J. (2025). *The Pulsar Mini and the Importance of Bed Depth.*
+[Link](https://coffeeadastra.com/2025/11/28/the-pulsar-mini-and-the-importance-of-bed-depth/)
+
+Cùng một liều cho độ sâu bã khác nhau ở dụng cụ khác đường kính; 15 g trên dụng cụ nhỏ không
+tương đương 15 g trên dụng cụ lớn. Tác giả tự ghi rõ phần nào là giả thuyết.
+
 ---
 
 ## Đối chiếu theo chương
@@ -331,12 +426,42 @@ Chương | Khẳng định cần nguồn | Nhãn trong sách | Nguồn | Trạng
 16 | Giấy vs kim loại cho hồ sơ bay hơi khác nhau | Hợp lý | [30] | dẫn được — có thể nâng lên Bằng chứng kèm báo trước "một con cà"
 17 | Vòi cách bã 3–5 cm; giữ mực nước trên mặt bã | — | không có | không có nguồn
 18 | Ba trường phái công thức | — | [27] [28] [29] | dẫn được
-19 | Nhìn bã để chẩn đoán | — | không có | không có nguồn
-20 | Bảng chẩn đoán | — | suy ra từ [10] [11] | một phần
-21–23 | Quy trình, bốn luật, case study | — | phương pháp, không phải khẳng định thực nghiệm | không cần nguồn
-24 | Giải phẫu một ngụm; retro-nasal | — | sinh lý khứu giác phổ thông | không cần nguồn
-25 | Ngôn ngữ nốt hương và cái bẫy của nó | — | [14] [19] | một phần
-26–29 | Luyện khẩu vị, nhật ký, dụng cụ, checklist | — | phương pháp | không cần nguồn
+19 | Sáu công thức vô địch 2021–2026: liều 14–20 g, tỉ lệ 1:13,3–1:16, cỡ xay 490–1000 µm | — | [41]–[49] | dẫn được, nhưng là bản dựng lại
+19 | Nhiệt 87–93 °C không đổi cảm quan khi TDS và mức chiết đã cố định | Bằng chứng | [52] | dẫn được
+19 | Routine thi đấu đánh đổi độ lặp lại lấy độ rõ của một ngụm | Hợp lý | [50] | một phần — người trong cuộc kể
+19 | Độ sâu bã phải khớp đường kính dụng cụ | Hợp lý | [53] [54] | suy luận từ thực hành
+20 | Nhìn bã để chẩn đoán | — | không có | không có nguồn
+21 | Bảng chẩn đoán | — | suy ra từ [10] [11] | một phần
+22–24 | Quy trình, bốn luật, case study | — | phương pháp, không phải khẳng định thực nghiệm | không cần nguồn
+25 | Giải phẫu một ngụm; retro-nasal | — | sinh lý khứu giác phổ thông | không cần nguồn
+26 | Ngôn ngữ nốt hương và cái bẫy của nó | — | [14] [19] | một phần
+27–30 | Luyện khẩu vị, nhật ký, dụng cụ, checklist | — | phương pháp | không cần nguồn
+
+---
+
+## Chương 19 thêm ngày 29/10/2026
+
+Chương **"Sáu năm công thức vô địch"** được viết mới, không phải sửa chương cũ. Nó chen
+vào sau chương 18, nên **mọi chương từ 19 cũ trở đi đổi số +1**: "Đọc bã" thành 20, "Bảng
+chẩn đoán" thành 21, phần VI thành 22–24, phần VII thành 25–26, phần VIII thành 27–30.
+Cuốn sách giờ có 30 chương chính và 4 phụ lục.
+
+Điều đáng ghi lại về phương pháp: **không có biên bản chính thức nào** ghi từng gam nước
+của một lượt thi WBrC. Mọi con số trong bảng của chương đều là bản dựng lại từ video, thẻ
+công thức và bài phỏng vấn. Vì vậy chương mở đầu bằng một cái neo: đó là **bản ghi**, không
+phải **bằng chứng**, và nhãn "công thức vô địch là công thức tốt nhất" là **Truyền miệng**.
+
+Bốn chỗ không xác minh được, ghi lại để lần sau không phải tra lại:
+
+- 2023 (Carlos Medina): các bản dựng lại lệch nhau về tổng nước — 248 g so với 5 × 50 g.
+  Chương dùng 248 g và nói rõ.
+- 2024 (Martin Wölfl): trang công thức chặn trình đọc; số gam lấy từ bản tóm tắt.
+- 2022 (Sherry Hsu): thẻ công thức không nêu dụng cụ, và không xác nhận được con cà dùng
+  trong lượt thi.
+- 2021 (Matt Winton): cỡ xay không được công bố dưới dạng số.
+
+Thêm 14 nguồn mới, **[41]–[54]**, đưa tổng số lên **54**. Hai nguồn trong đó ([43], [51])
+chỉ đọc được một phần — chi tiết nằm ngay trong mục của chúng.
 
 ---
 

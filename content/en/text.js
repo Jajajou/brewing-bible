@@ -73,7 +73,7 @@ window.BOOK_TEXT = {
 
 <p>One detail most drinkers do not know: the information on the bag <strong>affects what you taste</strong>. In a sensory study, when tasters were told the origin and process, their assessments shifted toward what they expected <span class="tier tier-a">Evidence</span>. Which means the "apricot" you find may come partly from the words on the bag.</p>
 
-<p>This is not you being fooled. It is how the human brain works: taste is not separate from knowledge. But it has a plainly practical consequence — if you want to know what you <em>actually</em> like, you sometimes have to taste without knowing what you are tasting. Chapter 25 is about this.</p>
+<p>This is not you being fooled. It is how the human brain works: taste is not separate from knowledge. But it has a plainly practical consequence — if you want to know what you <em>actually</em> like, you sometimes have to taste without knowing what you are tasting. Chapter 26 is about this.</p>
 `
     },
 
@@ -933,6 +933,43 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 
 <p>These three do not move together. Two grinders can deliver the same median and very different fines — and so the same “grind size” on paper gives two different cups <span class="tier tier-a">Evidence</span>.</p>
 
+<h3>How big these numbers are</h3>
+
+<p>A micrometre is a thousandth of a millimetre. That is a definition, not a picture — and because nobody can picture a thousandth of a millimetre, the <strong>40 µm</strong> in this book passes through the reader's eye and leaves nothing behind.</p>
+
+<p>The table below converts µm into things that sit in your kitchen and in your hand. It is a <em>comparison for picturing</em>, not a measurement: every grain of salt and every hair is different, and the numbers are only there to give you an anchor.</p>
+
+<div class="table-wrap">
+<table class="tbl-tight">
+<thead><tr><th>Object</th><th>Grain size</th><th>What it means for coffee grounds</th></tr></thead>
+<tbody>
+<tr><td>Chalk dust, icing sugar</td><td>30–100 µm</td><td>the size of fines; you do not see grains, only a haze</td></tr>
+<tr><td>A human hair</td><td>50–100 µm</td><td>a 40 µm particle is thinner than your hair</td></tr>
+<tr><td>Fine sand</td><td>100–300 µm</td><td>smaller than table salt, but still visibly grains when spread out</td></tr>
+<tr><td>Fine table salt</td><td>200–400 µm</td><td>the coarsest end of espresso</td></tr>
+<tr><td>Granulated sugar, ground pepper</td><td>400–700 µm</td><td>pour-over grinds, from fine to middle</td></tr>
+<tr><td>A sesame seed</td><td>about 2,000 µm</td><td>coarser than any pour-over grind in this book</td></tr>
+</tbody>
+</table>
+</div>
+
+<p><strong>D50</strong> read literally: pour the whole batch onto a sieve and shake it, then repeat with a smaller sieve — the sieve size at which <em>half the mass has fallen through</em> is the D50. It is a median by mass, not an average diameter: a few very large particles can pull an average up, but they cannot move a median. <strong>D90 − D10</strong> is the width: 90% of the mass lies below D90, 10% below D10, and the gap between the two says whether the grind is even.</p>
+
+<p>And here is where D50 misleads: the same D50 can arrive with 5% fines, or with 15%. The first number stays put while drawdown time does not — that is exactly the measurement in the section below.</p>
+
+<h3>Using a grind-size card</h3>
+
+<p>A card with holes drilled from 200 to 1,600 µm (a Kruve Brewler or something like it) does exactly one thing: it gives you an approximate number from the eye. Enough to compare <em>this grind with the last one</em>, not enough to claim an absolute figure.</p>
+
+<ol class="steps">
+<li><strong>Take a dry sample and spread it thin</strong><p>A pinch of grounds on your palm or on white paper. On a thick layer the eye only sees the top grains, and you will read it wrong.</p></li>
+<li><strong>Work up from the small holes</strong><p>Start at 200 µm and go upwards. The hole that <em>most</em> of the grounds pass through puts your median around that size. Do not hunt for the hole that one grain fits exactly: there are always larger and smaller particles.</p></li>
+<li><strong>Write down two numbers, not one</strong><p>The largest hole most grounds pass through, and the smallest hole the biggest particle still passes through. Those two are your D50 and your coarse tail; the gap between them is the "width" in the table above.</p></li>
+<li><strong>Use it to compare, not to declare</strong><p>The card reads by eye, so its error is far larger than a particle analyser's. Its real value is knowing "this grind is finer than the last one by how much", not "my grounds are exactly 640 µm".</p></li>
+</ol>
+
+<p>Two things to know before you trust the card. The FINE, MEDIUM and COARSE labels printed on it are the maker's convention, not an industry standard — every maker cuts the bands differently. And the click numbers printed beside the holes are correct only for the grinder model the card references; on your grinder those numbers mean nothing, precise as they look.</p>
+
 <p>Fines is the most important of the three, because it acts on flow, not just on surface area. In one study of 43 commercial capsules, when the fines fraction rose from 10% to 15%, extraction time lengthened by about <strong>10 seconds</strong> — even though median particle size varied only between 255 and 549 µm <span class="tier tier-a">Evidence</span>. Five percent debris, ten seconds.</p>
 
 <p>A counter-warning is also needed: on one espresso grinder, settings from 1.4 to 2.0 shifted the volume-mean diameter only between 273 and 295 µm, and in that experiment <strong>flow rate mattered more than grind size</strong> <span class="tier tier-a">Evidence</span>. Which means: sometimes you turn three clicks, measure, see nothing, and conclude grind does not matter. That conclusion is wrong — you have only shown that three clicks on your grinder change very little.</p>
@@ -1322,7 +1359,7 @@ After: _______________  (long/short, clean/dirty)<br>
 Odd:   _______________
 </div>
 
-<p>These five lines, after ten coffees, give you something no book can: <strong>a map of your own palate</strong>. And that is the foundation for chapter 26.</p>
+<p>These five lines, after ten coffees, give you something no book can: <strong>a map of your own palate</strong>. And that is the foundation for chapter 27.</p>
 `
     },
 
@@ -1492,7 +1529,7 @@ Odd:   _______________
 <p>If you keep getting cups that are "sour and bitter with no clear notes", that is a sign of uneven percolation. There are two responses:</p>
 
 <ol>
-<li><strong>Fix your technique</strong> so the percolation is more even (see chapters 17 and 19).</li>
+<li><strong>Fix your technique</strong> so the percolation is more even (see chapters 17 and 20).</li>
 <li><strong>Move toward immersion</strong> — or increase the immersion share of your routine. This is the faster route, and the one I would suggest if you are tired of optimising.</li>
 </ol>
 
@@ -1807,6 +1844,123 @@ Odd:   _______________
 <p>Choose <strong>one</strong> recipe as your base. Learn it until you can brew it without looking at a timer. Only then try another — and when you do, hold everything else constant, so you know where the difference came from.</p>
 
 <p>Jumping between recipes every week is the fastest way to learn nothing. You end up with twelve experiences and no data.</p>
+`
+    },
+
+    "ch-cong-thuc-nha-vo-dich": {
+      title: "Six years of championship recipes",
+      lede: "Six champions, six different recipes. Take all six apart and the common ground turns out to sit somewhere else — and most of it does not travel to your kitchen.",
+      minutes: 12,
+      tags: ["recipes", "analysis", "competition"],
+      body: `
+<p>The last chapter concluded that you do not need to memorise any recipe. This chapter is the test of that claim: take the six most carefully built recipes in the industry — from six World Brewers Cup champions between 2021 and 2026 — and ask where they differ, and what that difference means for someone brewing at home.</p>
+
+<h3>One thing to say first</h3>
+
+<p>No official transcript records every gram of water in a competition routine. What survives online is a reconstruction — from video, from a recipe card the competitor published, from an interview. So every number below is a <em>record</em>, not <em>evidence</em>: it tells you what that person did, not that doing it is better than doing something else.</p>
+
+<div class="callout warn">
+<p class="callout-title">Do not mix two sentences</p>
+<p>"These six people used the following parameters" is a fact and it can be checked. "The champion's recipe is the best recipe" is <span class="tier tier-c">Folklore</span> — and the people in the table below say so themselves. This whole chapter rests on the first sentence.</p>
+</div>
+
+<h3>Six years, one table</h3>
+
+<p>Read the table along the rows, and keep your eye on the last column. That column is the only place that says what a recipe <em>does</em>, rather than what it <em>uses</em>. The dose : water column is in grams.</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Year · champion</th><th>Brewer</th><th>Dose : water</th><th>Temperature</th><th>Grind</th><th>Pour structure</th></tr></thead>
+<tbody>
+<tr><td>2021 · Matt Winton (Switzerland)</td><td>V60</td><td>20 : 300 g</td><td>93 °C</td><td>not published</td><td>5 pours of 60 g, waiting for the bed to drain between them</td></tr>
+<tr><td>2022 · Sherry Hsu (Taiwan)</td><td>not named on the card</td><td>14 : 200 g</td><td>70 °C for the first 50 g, 95 °C after</td><td>800–1000 µm</td><td>4 pours of 50 g, 2:30–3:00</td></tr>
+<tr><td>2023 · Carlos Medina (Chile)</td><td>Origami Air</td><td>15.5 : 248 g</td><td>91 °C</td><td>not published</td><td>5 pours, 30 seconds apart</td></tr>
+<tr><td>2024 · Martin Wölfl (Austria)</td><td>OREA V4, Sibarist FAST paper</td><td>17 : 270 g</td><td>93 °C</td><td>~490 µm</td><td>4 pours, the first being the bloom</td></tr>
+<tr><td>2025 · George Jinyang Peng (China)</td><td>SOLO, Melodrip, Sibarist FAST</td><td>15 : 210 g</td><td>96 °C, then down to 80 °C</td><td>~800 µm</td><td>3 pours: 30 g, 90 g, 90 g; 1:45</td></tr>
+<tr><td>2026 · Nas Jaafar (Malaysia)</td><td>UFO V3 on a Switch base</td><td>15 : 200 g</td><td>92 °C</td><td>~700 µm</td><td>100 g drained through the open valve, then 100 g steeped with the valve closed for 35 seconds</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Three details in this table run against what gets shared most. Nobody uses a 1:17 ratio. Nobody goes above a 20 g dose. And nobody pours once.</p>
+
+<h3>Four things genuinely shared</h3>
+
+<p><strong>One: a small dose and a tight ratio.</strong> Five of the six use 14–17 g; Winton is the only one at 20 g. The ratios fall inside 1:13.3 to 1:16 — much narrower than the range recipe guides usually suggest. The reason is not taste but geometry: at the same dose, a wider brewer gives a shallower bed, and bed depth decides whether water moves through the bed evenly <span class="tier tier-b">Plausible</span>. Chapter 10 covered the physics; this is its practical half.</p>
+
+<p><strong>Two: water built for the job.</strong> Peng competed with water at around 40 ppm. Winton says his team tested six water formulations before choosing one. This is the easiest thing to miss when reading a recipe, because it is not in the recipe — it is in the kettle. Brew with tap water at 200 ppm alkalinity and you are running a different recipe from the one printed on the card <span class="tier tier-a">Evidence</span>.</p>
+
+<p><strong>Three: flow control through materials.</strong> Sibarist FAST, HIFLUX, a Switch valve, a Melodrip — four different things, one purpose: shorten the drawdown without grinding coarser. Grinding coarser to drain faster costs you extraction; making the paper thinner and faster keeps the extraction and still drains quickly. That is why one sheet of paper can change a cup more than one click on the grinder.</p>
+
+<p><strong>Four: pour by the state of the bed, not by the clock.</strong> Winton waits for the bed to finish draining before the next pour. Medina pours every 30 seconds. Neither applies one fixed timeline to every coffee — they pour according to what the bed is doing.</p>
+
+<p>There is a physical basis for that habit. A 2025 study used transparent particles and laser imaging to watch a water jet meet a bed of grounds: the shape of the jet decides how the bed is disturbed, and a steady laminar jet breaks the bed into slabs far more than a thin stream falling in drops <span class="tier tier-a">Evidence</span>. So the speed and height of your pour are not decoration — they are a real lever, just a lever that is hard to hold steady by hand.</p>
+
+<h3>Three things not shared at all</h3>
+
+<p><strong>Pour count: two to five.</strong> There is no trend. Winton pours five times, Wölfl four, Peng three, Jaafar in two stages. This is the most argued-about question in brewing, and six champions do not give one answer.</p>
+
+<p><strong>Temperature: 70 to 96 °C.</strong> Hsu opens at 70 °C and then goes to 95. Peng pours at 96 and drops to 80. Jaafar holds 92 throughout. Some argue that low heat at the start preserves aroma; others that high heat at the start extracts more evenly. Both approaches have won.</p>
+
+<p><strong>Grind: 490 to 1000 µm.</strong> More than double. This is the least useful number in the whole table, because it depends on the grinder and the way it was measured — a lesson chapter 10 already covered. It only means something read next to the brewer and the paper: Wölfl grinds at 490 µm but uses fast paper, so his drawdown still stays short.</p>
+
+<p>Those three columns add up to one conclusion: <strong>there is no championship recipe.</strong> There are six answers to six different coffees, on six different setups. The only thing they share is how the people thought, not the numbers they used.</p>
+
+<h3>Three things that exist only because it is a competition</h3>
+
+<p><strong>One: the coffee.</strong> Wölfl competed with a 3 kg Gesha lot, processed in two stages with yeast and bacteria, dried for 33 days. Peng blended three roast profiles of the same lot to balance aroma against sweetness. Neither of those is for sale at a counter.</p>
+
+<p><strong>Two: equipment and water built for a single cup.</strong> A Melodrip, two kettles at two temperatures, thin paper, water mixed from scratch. At home each of those is a variable you have to hold steady; in a competition each is a variable that was fixed months in advance.</p>
+
+<p><strong>Three: one cup, ten minutes, two sips.</strong> The judges do not drink the 200 ml. They taste, score, and move to the next competitor. That changes what gets optimised: the clarity of the first sip matters more than the stability of the third cup. It is a trade-off, not a higher grade of quality <span class="tier tier-b">Plausible</span>.</p>
+
+<p>And there is evidence for that trade-off, from someone who lived it. Lance Hedrick, runner-up at the US Brewers Cup, describes a routine that swapped paper mid-brew to remove fines: roughly 2.5 g of fines at the start, 1.7–2 g caught, under 0.4 g left in the cup — and he says plainly that the routine's biggest problem was <em>repeatability</em>: cup to cup, it changed noticeably. A beautiful routine can be a routine that is hard to repeat.</p>
+
+<h3>Four things that do travel</h3>
+
+<p><strong>Ratio by bed depth, not by habit.</strong> Choose your dose by the diameter of your brewer, not by the number on the card. A small brewer takes 12–15 g, a large one 18–22 g, and keep the ratio between 1:14 and 1:16 <span class="tier tier-b">Plausible</span>. This is the one you can move tonight, for free.</p>
+
+<p><strong>Fast paper, or a valve.</strong> If the bed drains slowly and you do not want to grind coarser, fast paper is a cheaper lever than a new grinder. If you brew on a Switch or any valved brewer, use the valve as a way to cut drawdown time, not only as a way to steep <span class="tier tier-b">Plausible</span>.</p>
+
+<p><strong>Drop the temperature late — but do not expect much.</strong> Stepped temperature is technically portable, and it has a rationale: cooler water extracts more slowly, so the tail end pulls less of the bitter, hard-to-dissolve material. But a warning belongs right next to it: with TDS and extraction held equal, changing temperature anywhere between 87 and 93 °C makes almost no sensory difference <span class="tier tier-a">Evidence</span>. Which means most of the effect of a late temperature drop does not come from the temperature — it comes from the fact that you changed the rate of extraction, and therefore the extraction itself. Drop the temperature without measuring again and you do not know what you changed.</p>
+
+<p><strong>Water.</strong> Of the four, this is the one with the strongest evidence and the one most often skipped <span class="tier tier-a">Evidence</span>. Chapters 4 and 5 cover how to fix it; this chapter only needs to say that it matters more than everything else in the table above.</p>
+
+<h3>What to copy, what to leave</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Component</th><th>Copy it?</th><th>Why</th></tr></thead>
+<tbody>
+<tr><td>Ratio and dose</td><td>Yes, adjusted to your brewer</td><td>Bed geometry, not taste</td></tr>
+<tr><td>Pour structure</td><td>Yes, as a frame</td><td>Still has to change with the coffee</td></tr>
+<tr><td>Pour count</td><td>No need</td><td>Two to five pours have all won</td></tr>
+<tr><td>Grind setting</td><td>No</td><td>A click count only means something on that grinder</td></tr>
+<tr><td>Stepped temperature</td><td>Worth a try, low expectations</td><td>Most of the effect comes from extraction</td></tr>
+<tr><td>Brewer and paper</td><td>Yes, if it is the same kind</td><td>Fast paper really does change drawdown</td></tr>
+<tr><td>Coffee and water</td><td>No</td><td>A private lot, water built from scratch</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>An exercise: copy a championship recipe</h3>
+
+<p>Pick the recipe in the table above that sits closest to the equipment you own. Do exactly four steps, and only four.</p>
+
+<ol class="steps">
+<li><strong>Keep the ratio and the pour structure, move the dose to your brewer</strong><p>If the recipe is 15 g to 210 g and your brewer is larger, raise both by the same proportion until the bed depth matches. Leave the pour count and the share of water in each pour alone.</p></li>
+<li><strong>Set the grind by drawdown time, not by a click count</strong><p>The target is the drawdown time of the original recipe. Adjust until you hit it, then write down the setting on your own grinder. That number, written down, is your grind size.</p></li>
+<li><strong>Taste against your baseline, not against a memory of the champion</strong><p>Same coffee, brew your base recipe again. Compare the two cups side by side. You are looking for what the other recipe fixes — not for whether it tastes better.</p></li>
+<li><strong>Change one thing next time</strong><p>If the result is worse, you know immediately where it came from. If it is better, you also know immediately. This is rule three from the chapter on four rules, applied to a recipe someone else wrote.</p></li>
+</ol>
+
+<h3>What a championship recipe does not say</h3>
+
+<p>These six recipes say nothing about the coffee you have in front of you. They say nothing about your grinder, your water, or the fact that you drink the whole cup rather than two sips. That is not a flaw in them — it is the limit of every shared recipe, including the recipes in the last chapter.</p>
+
+<p>Their real value sits somewhere else: they show you what the best people in the industry chose when they were free to choose everything. And the answer — small dose, tight ratio, water built on purpose, flow that is controlled, pouring by the bed — is four things you can do tonight. None of them requires a title.</p>
+
+<p>The sources for this chapter are in A2, under Competition, [41]–[54]. Wherever a number is a reconstruction rather than a record, that entry says so.</p>
 `
     },
 
@@ -2351,7 +2505,7 @@ Likely problem:  ____________________
 <li><strong>Raise the temperature 1–2 °C</strong><p>If there is sour-green, vegetal character (under-extraction).</p></li>
 </ol>
 
-<p>One thing at a time. And if after three tries you are still far from the cupping — by rule 4 in chapter 22 — that is information about the coffee, not a reason to change your base recipe.</p>
+<p>One thing at a time. And if after three tries you are still far from the cupping — by rule 4 in chapter 23 — that is information about the coffee, not a reason to change your base recipe.</p>
 
 <h3>The right expectation</h3>
 
@@ -2621,7 +2775,7 @@ Likely problem:  ____________________
 
 <h3>Four axes of palate</h3>
 
-<p>Once you have a sequence of choices, read it along four axes (from chapter 25):</p>
+<p>Once you have a sequence of choices, read it along four axes (from chapter 26):</p>
 
 <div class="table-wrap">
 <table>
@@ -2748,7 +2902,7 @@ NOTES: ________________________________
 
 <h3>Four axes for recording taste</h3>
 
-<p>Do not try to write flavour notes. Use the four axes from chapter 25, scoring each from 1 to 5:</p>
+<p>Do not try to write flavour notes. Use the four axes from chapter 26, scoring each from 1 to 5:</p>
 
 <div class="table-wrap">
 <table>
@@ -3001,7 +3155,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p>The rule is simple: only sentences an outside document can check need a source. Statements about experience, method and advice do not — and none of them should be given a source that merely sounds scientific. Peer-reviewed work with a DOI comes first; where none exists, the industry standard or the primary source from the person who proposed the method.</p>
 
-<p>Forty sources are grouped by subject in A2 and by chapter in A3. Of the 29 chapters, ten rest directly on documents, five rest on them halfway, twelve are method and need no outside source, and two — 17 and 19 — have no source at all for their central claim.</p>
+<p>Fifty-four sources are grouped by subject in A2 and by chapter in A3. Of the 30 chapters, ten rest directly on documents, six rest on them halfway, twelve are method and need no outside source, and two — 17 and 20 — have no source at all for their central claim.</p>
 
 <div class="callout">
 <p class="callout-title">A source is not evidence</p>
@@ -3012,7 +3166,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
     "ch-nguon-danh-muc": {
       title: "Bibliography",
-      lede: "Forty sources, grouped by subject. Each entry carries a DOI or a link that was opened and read, plus one line on what that source contributes.",
+      lede: "Fifty-four sources, grouped by subject. Each entry carries a DOI or a link that was opened and read, plus one line on what that source contributes.",
       minutes: 12,
       tags: ["appendix", "sources"],
       body: `
@@ -3160,6 +3314,64 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p>Measured bed permeability falls in the 10⁻¹³–10⁻¹⁴ m² range. Estimates from a dry particle size distribution with the Kozeny–Carman equation did not match the measurements, because compression changes the packing structure.</p>
 
+<h3>Competition</h3>
+
+<p><strong>[41]</strong> World Coffee Championships. <em>World Brewers Cup</em> — the competition format, the two services, the 2% TDS cap; and the results page published 28 June 2026. wcc.coffee/world-brewers-cup · wcc.coffee/latest-news/wbrc-winners</p>
+
+<p>The source for the format that opens chapter 19, and for the names, countries and placings of the six champions. The results page confirms Nas Jaafar (Malaysia) as the 2026 champion in Brussels.</p>
+
+<p><strong>[42]</strong> Barista Hustle (2021). <em>No Stir: An Interview with World Brewers Cup Champion Matt Winton.</em> baristahustle.com/lesson/p-1-07-1-no-stir-an-interview-with-world-brewers-cup-champion-matt-winton/</p>
+
+<p>20 g to 300 g, 93 °C, five 60 g pours, and the reason for a coarse grind: so that five pours finish without bitterness. Winton also says four pours did not express the coffee the way five did, and that his team tested six water recipes. This is the fullest record for the 2021 row.</p>
+
+<p><strong>[43]</strong> European Coffee Trip (2024). <em>Winning pour over recipe — Martin Wölfl.</em> europeancoffeetrip.com/winning-pour-over-recipe-martin-woelfl/</p>
+
+<p>17 g to 270 g, 93 °C, about 490 µm, OREA V4 with Sibarist FAST paper. A caveat: the page blocked the reader when checked, so these figures come from its indexed summary and were not verified against the full page. Chapter 19 states that limitation.</p>
+
+<p><strong>[44]</strong> Barista Magazine (2024). <em>10 Minutes with Martin Wölfl, Part One.</em> baristamagazine.com/10-minutes-with-martin-wolfl-part-one/</p>
+
+<p>Confirms the OREA V4, the Sibarist FAST paper, and the coffee: a Gesha from Finca Maya, processed in two stages and dried for 33 days. The interview gives no gram figures; those belong to [43].</p>
+
+<p><strong>[45]</strong> European Coffee Trip (2025). <em>Winning pour over recipe — SOLO Dripper.</em> europeancoffeetrip.com/winning-pourover-recipe-solo-dripper/</p>
+
+<p>15 g to 210 g; 30 g at 96 °C, 90 g at 96 °C, 90 g at 80 °C through a Melodrip; about 800 µm; 1:45 in total; 40 ppm water. The most complete recipe of the six rows in the table.</p>
+
+<p><strong>[46]</strong> Barista Magazine (2025). <em>George Jinyang Peng Discusses World Brewers Cup Win.</em> baristamagazine.com/george-jinyang-peng-discusses-world-brewers-cup-win/</p>
+
+<p>The coffee is a Mount Totumas Gesha from Panama. The interview gives no brewing figures; those belong to [45].</p>
+
+<p><strong>[47]</strong> gota.cafe (2026). <em>Nas Jaafar — UFO V3, World Brewers Cup.</em> gota.cafe/en/recipes/ufo/ufo-jaafar-wbrc</p>
+
+<p>15 g to 200 g, 92 °C, about 700 µm; the first 100 g drains through an open valve, then 100 g steeps with the valve closed for 35 seconds. A record, not a transcript.</p>
+
+<p><strong>[48]</strong> Mikava Coffee. <em>Recipe cards</em> (2022). mikava.coffee/pages/mikava-recipes</p>
+
+<p>14 g to 200 g; 50 g at 70 °C to open, then 95 °C; four 50 g pours; 800–1000 µm; 2:30–3:00. Two limits: the card names no brewer, and it could not be confirmed that its coffee was the one used in the championship routine.</p>
+
+<p><strong>[49]</strong> Kaffelogic. <em>Carlos Medina, World Brewers Cup</em> (2023). kaffelogic.com/blogs/competitors/carlos-medina-wbrc</p>
+
+<p>Origami Air, Brewista X paper, a Sidra from Granja La Esperanza. The gram figures come from reconstructions, and they disagree — one gives 248 g, another gives five 50 g pours, that is 250 g. Chapter 19 uses 248 g and says it is a reconstruction.</p>
+
+<p><strong>[50]</strong> Barista Magazine (2022). <em>Brewers Cup Runner-Up Lance Hedrick on the “Nifty Coffee Grinds Trick” from His Routine.</em> baristamagazine.com/brewers-cup-runner-up-lance-hedrick-on-the-nifty-coffee-grinds-trick-from-his-routine/</p>
+
+<p>Hedrick estimates roughly 2.5 g of fines at the start, 1.7–2 g held back by the paper, and under 0.4 g left in the cup; he says the routine's biggest problem was repeatability. This is the source for “a competition routine trades repeatability for clarity”.</p>
+
+<p><strong>[51]</strong> <em>Pour-over coffee: Mixing by a water jet impinging on a granular bed.</em> Physics of Fluids 37(4), 043332 (2025). pubs.aip.org/aip/pof/article/37/4/043332/3342795</p>
+
+<p>Transparent particles and laser imaging show how a water jet disturbs a coffee bed: a steady laminar jet drives a stronger avalanche than a stream that breaks into droplets. The publisher blocked the full text during checking; what was read is the AIP summary.</p>
+
+<p><strong>[52]</strong> Batali, M. E., Ristenpart, W. D., &amp; Guinard, J.-X. (2020). An experimental paper on brew temperature, TDS and extraction in drip coffee. Full text: PMC7536440.</p>
+
+<p>Hold TDS and extraction yield constant and vary temperature between 87 and 93 °C: the sensory difference is not appreciable. This is the source for the warning in the “cool the last pour” section of chapter 19.</p>
+
+<p><strong>[53]</strong> Rao, S. (2025). <em>Bed depth: why it matters.</em> scottrao.com/blog/2025/11/11/bed-depth-why-it-matters</p>
+
+<p>Practical argument for dose and bed depth by brewer: roughly 20–25 g for a V60, 15–18 g for a Kalita 155. Not a controlled study; the experience of a long-time practitioner.</p>
+
+<p><strong>[54]</strong> Gagné, J. (2025). <em>The Pulsar Mini and the Importance of Bed Depth.</em> coffeeadastra.com/2025/11/28/the-pulsar-mini-and-the-importance-of-bed-depth/</p>
+
+<p>The same dose gives different bed depths in brewers of different diameter; 15 g in a small brewer is not equivalent to 15 g in a large one. The author marks which parts are hypotheses.</p>
+
 <div class="callout">
 <p class="callout-title">Three papers I could not open in full</p>
 <p>[17], [22] and the DOI page for [5] were blocked by the publishers during the check. Their details here come from abstracts and from the SCA review. If you need a sentence-exact citation, open the full text.</p>
@@ -3198,7 +3410,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 </tbody>
 </table>
 
-<p class="tbl-cap tbl-cap-break">Chapters 10–29 · grind, cupping, brewing, perception</p>
+<p class="tbl-cap tbl-cap-break">Chapters 10–18 · grind, cupping, brewing</p>
 
 <table class="tbl-a3">
 <thead>
@@ -3217,16 +3429,32 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <tr><td>16</td><td>Paper and metal give different volatile profiles</td><td>Plausible</td><td>[30]</td><td>Citable, one coffee</td></tr>
 <tr><td>17</td><td>Kettle 3–5 cm above the bed; keep the water level above the bed; 5–8 g/s</td><td>—</td><td>none</td><td>No source</td></tr>
 <tr><td>18</td><td>Three schools of recipe</td><td>—</td><td>[27] [28] [29]</td><td>Citable</td></tr>
-<tr><td>19</td><td>Reading the bed to diagnose</td><td>—</td><td>none</td><td>No source</td></tr>
-<tr><td>20</td><td>The diagnostic table</td><td>—</td><td>derived from [10] [11]</td><td>Partly</td></tr>
-<tr><td>21–23</td><td>Process, four rules, case study</td><td>—</td><td>method</td><td>Needs no source</td></tr>
-<tr><td>24</td><td>Anatomy of a sip; retronasal path</td><td>—</td><td>general olfactory physiology</td><td>Needs no source</td></tr>
-<tr><td>25</td><td>Flavour-note language and its trap</td><td>—</td><td>[14] [19]</td><td>Partly</td></tr>
-<tr><td>26–29</td><td>Palate training, log, gear, checklist</td><td>—</td><td>method</td><td>Needs no source</td></tr>
 </tbody>
 </table>
 
-<p>The two entries at the bottom — 17 and 19 — stand on the writer's experience. That does not make them wrong; it only means they are not the place to invoke science.</p>
+<p class="tbl-cap tbl-cap-break">Chapters 19–30 · recipes, reading the bed, diagnosis, perception</p>
+
+<table class="tbl-a3">
+<thead>
+<tr><th>Ch.</th><th>Claim that needs a source</th><th>Label in the book</th><th>Source</th><th>Verdict</th></tr>
+</thead>
+<tbody>
+<tr><td>19</td><td>Six championship recipes 2021–2026 use 14–20 g doses and ratios of 1:13.3–1:16</td><td>—</td><td>[41] [42] [43] [45] [47] [48] [49]</td><td>Citable, but a reconstruction</td></tr>
+<tr><td>19</td><td>Published grinds span 490–1000 µm; click counts do not transfer between grinders</td><td>Plausible</td><td>[43] [45] [47], and [34] [35] in chapter 10</td><td>Partly</td></tr>
+<tr><td>19</td><td>The shape of the kettle stream decides how the bed is disturbed</td><td>Evidence</td><td>[51]</td><td>Citable</td></tr>
+<tr><td>19</td><td>A competition routine trades repeatability for the clarity of one sip</td><td>Plausible</td><td>[50]</td><td>Partly, a first-hand account</td></tr>
+<tr><td>19</td><td>87–93 °C makes no sensory difference once TDS and extraction are fixed</td><td>Evidence</td><td>[52]</td><td>Citable</td></tr>
+<tr><td>19</td><td>Bed depth has to match the brewer diameter</td><td>Plausible</td><td>[53] [54]</td><td>Inference from practice</td></tr>
+<tr><td>20</td><td>Reading the bed to diagnose</td><td>—</td><td>none</td><td>No source</td></tr>
+<tr><td>21</td><td>The diagnostic table</td><td>—</td><td>derived from [10] [11]</td><td>Partly</td></tr>
+<tr><td>22–24</td><td>Process, four rules, case study</td><td>—</td><td>method</td><td>Needs no source</td></tr>
+<tr><td>25</td><td>Anatomy of a sip; retronasal path</td><td>—</td><td>general olfactory physiology</td><td>Needs no source</td></tr>
+<tr><td>26</td><td>Flavour-note language and its trap</td><td>—</td><td>[14] [19]</td><td>Partly</td></tr>
+<tr><td>27–30</td><td>Palate training, log, gear, checklist</td><td>—</td><td>method</td><td>Needs no source</td></tr>
+</tbody>
+</table>
+
+<p>The two entries at the bottom — 17 and 20 — stand on the writer's experience. That does not make them wrong; it only means they are not the place to invoke science.</p>
 `
     },
 
@@ -3272,7 +3500,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <li><strong>“Dark roast is easier to brew”</strong> (chapter 2) — right about easier, wrong about where to start. No study compares brewing difficulty across roast levels. It should be Folklore, not left blank.</li>
 <li><strong>Freshness versus water</strong> (chapter 3) — the specific comparison has no study behind it. The mechanism is right, so it should drop to Plausible.</li>
 <li><strong>Kettle 3–5 cm above the bed, water level above the bed, 5–8 g/s</strong> (chapter 17) — inferred from mechanism, never measured. Plausible, no more.</li>
-<li><strong>Reading the bed to diagnose</strong> (chapter 19) — the book's most confident chapter with its thinnest evidence. Nothing published links bed shape to an extraction map. It should be Folklore.</li>
+<li><strong>Reading the bed to diagnose</strong> (chapter 20) — the book's most confident chapter with its thinnest evidence. Nothing published links bed shape to an extraction map. It should be Folklore.</li>
 <li><strong>Bloom as a gas-handling step</strong> (chapter 3) — the mechanism is right, the sensory benefit is unproven. It should be Plausible.</li>
 <li><strong>Ratio moves TDS linearly; 1:16 to 1:15 is about 6–7% stronger</strong> (chapter 7) — the arithmetic is right, but the 6–7% figure is an extrapolation nobody has tested on its own.</li>
 <li><strong>“No study shows cupping scores predict liking”</strong> (chapter 11) — true so far, but it should read “none yet” rather than “none”, because that is a global negative claim.</li>

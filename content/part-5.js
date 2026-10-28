@@ -396,9 +396,125 @@ window.BOOK_PARTS.push({
 
 <h3>Điều mình khuyên</h3>
 
-<p>Chọn <strong>một</strong> công thức làm nền. Học nó cho đến khi bạn có thể pha nó mà không cần nhìn đồng hồ. Rồi mới thử công thức khác — và khi thử, giữ mọi thứ khác nguyên, để bạn biết khác biệt đến từ đâu.</p>
+<p>Chọn <strong>một</strong> công thức làm nền. Học nó cho đến khi bạn có thể pha nó mà không cần nhìn đồng hồ. Rồi mới thử công thức khác — và khi thử, giữ mọi thứ khác nguyên, để bạn biết khác biệt đến từ đâu.</p>      <p>Việc nhảy giữa các công thức mỗi tuần là cách nhanh nhất để không học được gì. Bạn sẽ có mười hai trải nghiệm và không có dữ liệu.</p>
+`
+  },
 
-<p>Việc nhảy giữa các công thức mỗi tuần là cách nhanh nhất để không học được gì. Bạn sẽ có mười hai trải nghiệm và không có dữ liệu.</p>
+  {
+    id: "ch-cong-thuc-nha-vo-dich",
+    title: "Sáu năm công thức vô địch",
+    lede: "Sáu nhà vô địch, sáu công thức khác nhau. Bóc tách cả sáu, cái chung hoá ra nằm ở chỗ khác — và phần lớn nó không chuyển được về nhà bạn.",
+    minutes: 12,
+    tags: ["công thức", "phân tích", "thi đấu"],
+    body: `
+<p>Chương trước kết luận rằng bạn không cần học thuộc công thức nào. Đây là bài kiểm tra cho câu đó: lấy sáu công thức được chăm chút nhất trong ngành — của sáu người vô địch World Brewers Cup từ 2021 đến 2026 — rồi hỏi chúng khác nhau ở đâu, và cái khác đó có nghĩa gì với người pha ở nhà.</p>
+
+<h3>Điều phải nói trước</h3>
+
+<p>Không có biên bản chính thức nào ghi từng gam nước của một lượt thi. Cái còn lại trên mạng là bản dựng lại — từ video, từ thẻ công thức người thi tự đăng, từ bài phỏng vấn. Vì vậy mọi con số dưới đây là <em>bản ghi</em>, không phải <em>bằng chứng</em>: chúng cho biết người đó đã làm gì, không cho biết cách đó tốt hơn cách khác.</p>
+
+<div class="callout warn">
+<p class="callout-title">Đừng trộn hai câu</p>
+<p>“Sáu người này đã dùng những thông số sau” là dữ kiện, kiểm được. “Công thức của nhà vô địch là công thức tốt nhất” là <span class="tier tier-c">Truyền miệng</span> — và chính những người trong bảng dưới nói ngược lại. Cả chương này đứng trên vế thứ nhất.</p>
+</div>
+
+<h3>Sáu năm, một bảng</h3>
+
+<p>Đọc bảng theo hàng ngang, và để mắt ở cột cuối. Cột đó là chỗ duy nhất cho biết công thức <em>làm gì</em>, thay vì <em>dùng bao nhiêu</em>. Cột liều : nước tính bằng gam.</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Năm · vô địch</th><th>Dụng cụ</th><th>Liều : nước</th><th>Nhiệt</th><th>Cỡ xay</th><th>Cấu trúc rót</th></tr></thead>
+<tbody>
+<tr><td>2021 · Matt Winton (Thuỵ Sĩ)</td><td>V60</td><td>20&nbsp;:&nbsp;300</td><td>93&nbsp;°C</td><td>không nêu</td><td>5&nbsp;×&nbsp;60 g, chờ bã rút</td></tr>
+<tr><td>2022 · Sherry Hsu (Đài Loan)</td><td>không nêu</td><td>14&nbsp;:&nbsp;200</td><td>70&nbsp;→&nbsp;95&nbsp;°C</td><td>800–1000 µm</td><td>4&nbsp;×&nbsp;50 g, 2:30–3:00</td></tr>
+<tr><td>2023 · Carlos Medina (Chile)</td><td>Origami Air</td><td>15,5&nbsp;:&nbsp;248</td><td>91&nbsp;°C</td><td>không nêu</td><td>5 lần, cách 30 giây</td></tr>
+<tr><td>2024 · Martin Wölfl (Áo)</td><td>OREA V4 · Sibarist FAST</td><td>17&nbsp;:&nbsp;270</td><td>93&nbsp;°C</td><td>~490 µm</td><td>4 lần, đầu là bloom</td></tr>
+<tr><td>2025 · George Jinyang Peng (Trung Quốc)</td><td>SOLO · Melodrip</td><td>15&nbsp;:&nbsp;210</td><td>96&nbsp;→&nbsp;80&nbsp;°C</td><td>~800 µm</td><td>30&nbsp;/&nbsp;90&nbsp;/&nbsp;90 g, 1:45</td></tr>
+<tr><td>2026 · Nas Jaafar (Malaysia)</td><td>UFO V3 trên đế Switch</td><td>15&nbsp;:&nbsp;200</td><td>92&nbsp;°C</td><td>~700 µm</td><td>100 g xả, 100 g ngâm 35&nbsp;s</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Ba chi tiết trong bảng này đi ngược lại những gì được chia sẻ nhiều nhất trên mạng. Không ai dùng tỉ lệ 1:17. Không ai vượt liều 20 g. Và không ai rót một lần.</p>
+
+<h3>Bốn thứ thật sự chung</h3>
+
+<p><strong>Một: liều nhỏ, tỉ lệ chặt.</strong> Năm trong sáu người dùng 14–17 g; Winton là người duy nhất dùng 20 g. Tỉ lệ nằm gọn trong khoảng 1:13,3 đến 1:16 — hẹp hơn nhiều so với dải mà sách công thức thường khuyên. Lý do không phải khẩu vị mà là hình học: cùng một liều, đường kính dụng cụ khác nhau cho độ sâu bã khác nhau, và độ sâu bã quyết định nước thoát qua bã đều hay không <span class="tier tier-b">Hợp lý</span>. Chương 10 đã nói phần vật lý; đây là phần thực hành của nó.</p>
+
+<p><strong>Hai: nước được dựng riêng.</strong> Peng thi với nước khoảng 40 ppm. Winton nói đội của ông đã thử sáu công thức nước trước khi chọn. Đây là thứ dễ bỏ qua nhất khi đọc một công thức, vì nó không nằm trong công thức — nó nằm trong bình nước. Nếu bạn pha bằng nước máy có 200 ppm alkalinity, bạn đang chạy một công thức khác với công thức in trên thẻ <span class="tier tier-a">Bằng chứng</span>.</p>
+
+<p><strong>Ba: kiểm soát dòng chảy bằng vật liệu.</strong> Sibarist FAST, HIFLUX, van Switch, Melodrip — bốn thứ khác nhau, một mục đích: giảm thời gian rút mà không phải xay thô. Xay thô để bã thoát nhanh thì mất mức chiết; làm giấy mỏng và nhanh hơn thì giữ được mức chiết mà vẫn thoát nhanh. Đây là lý do một tờ giấy có thể đổi ly cà nhiều hơn một nấc xay.</p>
+
+<p><strong>Bốn: rót theo trạng thái bã, không theo đồng hồ.</strong> Winton chờ bã rút hết rồi mới rót lần tiếp. Medina cách 30 giây một lần. Cả hai đều không áp một mốc thời gian cố định cho mọi con cà — họ rót theo cái bã đang làm.</p>
+
+<p>Cách làm đó có cơ sở vật lý. Một nghiên cứu năm 2025 dùng hạt trong suốt và chụp ảnh bằng laser để xem tia nước tương tác với bã thế nào: kiểu tia quyết định cách bã bị xáo trộn, và một tia tầng ổn định làm bã lở thành từng mảng mạnh hơn hẳn một tia rơi thành giọt <span class="tier tier-a">Bằng chứng</span>. Nghĩa là tốc độ và độ cao của vòi không phải chi tiết trang trí — chúng là một đòn bẩy thật, chỉ là đòn bẩy khó giữ ổn định bằng tay.</p>
+
+<h3>Ba thứ không chung</h3>
+
+<p><strong>Số lần rót: hai đến năm.</strong> Không có xu hướng nào. Winton năm lần, Wölfl bốn, Peng ba, Jaafar hai giai đoạn. Đây là chỗ bị tranh cãi nhiều nhất trong giới pha, và sáu nhà vô địch không đưa ra được một câu trả lời chung.</p>
+
+<p><strong>Nhiệt: 70 đến 96 °C.</strong> Hsu mở bằng 70 °C rồi lên 95. Peng rót 96 rồi hạ 80. Jaafar giữ 92 đều. Có người cho rằng nhiệt thấp ở đầu giữ được hương; người khác cho rằng nhiệt cao ở đầu chiết đều hơn. Cả hai cách đều đã thắng.</p>
+
+<p><strong>Cỡ xay: 490 đến 1000 µm.</strong> Chênh hơn gấp đôi. Đây là con số ít giá trị nhất trong cả bảng, vì nó phụ thuộc máy xay và cách đo — bài học đã có ở chương 10. Nó chỉ có nghĩa khi đọc cùng dụng cụ và cùng giấy: Wölfl xay 490 µm nhưng dùng giấy nhanh, nên thời gian rút vẫn ngắn.</p>
+
+<p>Ba cột đó cộng lại thành một kết luận: <strong>không có công thức vô địch.</strong> Có sáu câu trả lời cho sáu con cà khác nhau, trên sáu bộ thiết bị khác nhau. Thứ duy nhất chung là cách họ nghĩ, không phải con số họ dùng.</p>
+
+<h3>Ba thứ chỉ tồn tại vì cuộc thi</h3>
+
+<p><strong>Một: con cà.</strong> Wölfl thi với một lô Gesha 3 kg, sơ chế hai giai đoạn bằng nấm men và vi khuẩn, sấy 33 ngày. Peng trộn ba profile rang của cùng một lô để cân bằng giữa hương và độ ngọt. Không thứ nào trong hai thứ đó mua được ở quầy.</p>
+
+<p><strong>Hai: thiết bị và nước dựng riêng cho một tách.</strong> Melodrip, hai ấm ở hai nhiệt độ, giấy mỏng, nước tự pha. Ở nhà, mỗi thứ đó là một biến số bạn phải giữ ổn định; trong cuộc thi, mỗi thứ đó là một biến số đã được cố định từ trước hàng tháng.</p>
+
+<p><strong>Ba: một tách, mười phút, hai ngụm.</strong> Ban giám khảo không uống hết 200 ml. Họ nếm, ghi điểm, rồi chuyển sang người tiếp theo. Điều này đổi thứ được tối ưu: độ rõ của ngụm đầu quan trọng hơn độ ổn định của ly thứ ba. Đó là một đánh đổi, không phải một mức chất lượng cao hơn <span class="tier tier-b">Hợp lý</span>.</p>
+
+<p>Và có bằng chứng cho sự đánh đổi đó, từ chính người trong cuộc. Lance Hedrick, á quân Brewers Cup Mỹ, kể routine của anh đổi giấy giữa lúc pha để loại fines: khoảng 2,5 g fines ban đầu, 1,7–2 g bị giữ lại, còn dưới 0,4 g trong ly — và anh nói thẳng vấn đề lớn nhất của routine đó là <em>độ lặp lại</em>: ly này sang ly khác đổi rõ. Một routine đẹp có thể là một routine khó lặp.</p>
+
+<h3>Bốn thứ chuyển được</h3>
+
+<p><strong>Tỉ lệ theo độ sâu bã, không theo thói quen.</strong> Chọn liều theo đường kính dụng cụ của bạn, không theo con số trên thẻ. Dụng cụ nhỏ thì 12–15 g, dụng cụ lớn thì 18–22 g, và giữ tỉ lệ trong khoảng 1:14 đến 1:16 <span class="tier tier-b">Hợp lý</span>. Đây là thứ chuyển được ngay tối nay, miễn phí.</p>
+
+<p><strong>Giấy nhanh, hoặc van.</strong> Nếu bã thoát chậm mà bạn không muốn xay thô, giấy nhanh là đòn bẩy rẻ hơn một máy xay mới. Nếu bạn dùng Switch hoặc dụng cụ có van, hãy dùng van như cách cắt thời gian rút, chứ không chỉ để ngâm <span class="tier tier-b">Hợp lý</span>.</p>
+
+<p><strong>Hạ nhiệt ở cuối — nhưng đừng kỳ vọng nhiều.</strong> Bước nhiệt là thứ chuyển được về mặt kỹ thuật, và nó có cơ sở: nước mát chiết chậm hơn, nên phần cuối ít kéo theo các hợp chất đắng khó tan. Nhưng phải đặt ngay cạnh nó một cảnh báo: khi giữ TDS và mức chiết như nhau, đổi nhiệt trong khoảng 87–93 °C gần như không tạo khác biệt cảm quan <span class="tier tier-a">Bằng chứng</span>. Nghĩa là phần lớn tác dụng của việc hạ nhiệt cuối không đến từ nhiệt độ, mà đến từ việc bạn đã đổi tốc độ chiết — tức là đổi mức chiết. Hạ nhiệt mà không đo lại thì bạn không biết mình vừa đổi cái gì.</p>
+
+<p><strong>Nước.</strong> Đây là thứ duy nhất trong bốn thứ có bằng chứng mạnh nhất, và cũng bị bỏ qua nhiều nhất <span class="tier tier-a">Bằng chứng</span>. Chương 4 và 5 nói cách làm; chương này chỉ cần nói rằng nó quan trọng hơn mọi thứ còn lại trong bảng trên.</p>
+
+<h3>Chép gì, bỏ gì</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Thành phần</th><th>Chép được không</th><th>Vì sao</th></tr></thead>
+<tbody>
+<tr><td>Tỉ lệ và liều</td><td>Được, chỉnh theo dụng cụ</td><td>Hình học bã, không phải khẩu vị</td></tr>
+<tr><td>Cấu trúc rót</td><td>Được, như một khung</td><td>Vẫn phải đổi theo con cà</td></tr>
+<tr><td>Số lần rót</td><td>Không cần</td><td>Hai đến năm lần đều đã thắng</td></tr>
+<tr><td>Cỡ xay</td><td>Không</td><td>Số click chỉ có nghĩa trên máy đó</td></tr>
+<tr><td>Nhiệt theo tầng</td><td>Thử được, đừng kỳ vọng nhiều</td><td>Tác dụng phần lớn đến từ mức chiết</td></tr>
+<tr><td>Dụng cụ và giấy</td><td>Được, nếu cùng loại</td><td>Giấy nhanh đổi thời gian rút thật</td></tr>
+<tr><td>Cà và nước</td><td>Không</td><td>Lô riêng, nước dựng riêng</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Bài tập: chép một công thức vô địch</h3>
+
+<p>Chọn một công thức trong bảng trên gần dụng cụ bạn có nhất. Làm đúng bốn bước, và chỉ bốn bước.</p>
+
+<ol class="steps">
+<li><strong>Giữ tỉ lệ và cấu trúc rót, đổi liều theo dụng cụ</strong><p>Nếu công thức là 15 g trên 210 g mà dụng cụ của bạn to hơn, tăng cả hai theo cùng tỉ lệ cho đến khi độ sâu bã tương đương. Giữ nguyên số lần rót và phần trăm nước của mỗi lần.</p></li>
+<li><strong>Đặt cỡ xay bằng thời gian rút, không bằng số click</strong><p>Mục tiêu là thời gian rút của công thức gốc. Vặn cho tới khi đạt, rồi ghi lại nấc của máy bạn. Con số ghi lại đó mới là cỡ xay của bạn.</p></li>
+<li><strong>Nếm so với nền của bạn, không so với ký ức về nhà vô địch</strong><p>Cùng con cà, pha lại công thức nền của bạn. So hai ly cạnh nhau. Bạn đang tìm xem công thức kia sửa được vấn đề gì — không phải xem nó có ngon hơn không.</p></li>
+<li><strong>Chỉ đổi một thứ ở lần sau</strong><p>Nếu kết quả tệ hơn, bạn biết ngay là do đâu. Nếu tốt hơn, bạn cũng biết ngay là nhờ đâu. Đây là luật thứ ba của chương bốn luật, áp vào một công thức có sẵn.</p></li>
+</ol>
+
+<h3>Chỗ công thức vô địch không nói gì</h3>
+
+<p>Sáu công thức này không nói gì về con cà bạn đang có. Chúng không nói gì về máy xay của bạn, về nước của bạn, về việc bạn uống cả ly chứ không phải hai ngụm. Đó không phải khuyết điểm của chúng — đó là giới hạn của mọi công thức được chia sẻ, kể cả công thức trong chương trước.</p>
+
+<p>Giá trị thật của chúng nằm ở chỗ khác: chúng cho bạn thấy người giỏi nhất trong ngành, khi được tự do chọn mọi thứ, đã chọn cái gì. Và câu trả lời — liều nhỏ, tỉ lệ chặt, nước dựng riêng, dòng chảy kiểm soát, rót theo bã — là bốn việc bạn làm được ngay tối nay. Bốn việc đó không cần một chức vô địch nào.</p>
+
+<p>Nguồn cho chương này nằm ở A2, mục Thi đấu, [41]–[54]. Chỗ nào là bản dựng lại thay vì bản ghi, mục đó nói rõ.</p>
 `
   },
 

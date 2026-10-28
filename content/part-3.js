@@ -186,7 +186,7 @@ window.BOOK_PARTS.push({
 
 <p>Có một chỗ mà thời gian thật sự quan trọng, nhưng không phải vì thứ tự hợp chất: <strong>giai đoạn cuối của quá trình rút</strong>. Khi bã gần khô, nước còn lại chảy qua một lớp mỏng bã đã bị nén, ở nhiệt độ thấp hơn, và có thể kéo theo các hợp chất có vị khô và chát. Đây là lý do một số người cắt bỏ vài giọt cuối.</p>
 
-<p>Nhưng hiệu ứng này nhỏ hơn nhiều so với những gì nó được gán cho, và nó bị lẫn với một hiệu ứng khác lớn hơn: khi ly cà nguội, cảm giác đắng tăng lên <em>mà không có thêm gì được chiết ra</em>. Đó là sinh lý học, không phải hóa học. Chương 24 nói về điều này.</p>
+<p>Nhưng hiệu ứng này nhỏ hơn nhiều so với những gì nó được gán cho, và nó bị lẫn với một hiệu ứng khác lớn hơn: khi ly cà nguội, cảm giác đắng tăng lên <em>mà không có thêm gì được chiết ra</em>. Đó là sinh lý học, không phải hóa học. Chương 25 nói về điều này.</p>
 `
   },
 
@@ -323,6 +323,43 @@ window.BOOK_PARTS.push({
 </div>
 
 <p>Ba con số này không đi cùng nhau. Hai máy xay có thể cho cùng trung vị và khác hẳn lượng fines — và vì thế, cùng một "cỡ xay" trên giấy, hai kết quả khác nhau trong ly <span class="tier tier-a">Bằng chứng</span>.</p>
+
+<h3>Những con số này to cỡ nào</h3>
+
+<p>Micromét là một phần nghìn milimét. Đó là định nghĩa, không phải một hình dung — và vì không ai hình dung được phần nghìn milimét, con số <strong>40 µm</strong> trôi qua mắt người đọc mà không để lại gì.</p>
+
+<p>Bảng dưới đây đổi µm thành những thứ có trong bếp và trong tay bạn. Đây là <em>so sánh để hình dung</em>, không phải số đo chính xác: mỗi hạt muối, mỗi sợi tóc đều khác nhau, và các con số chỉ để bạn có một cái neo.</p>
+
+<div class="table-wrap">
+<table class="tbl-tight">
+<thead><tr><th>Vật</th><th>Cỡ hạt</th><th>Nghĩa là gì với bột cà phê</th></tr></thead>
+<tbody>
+<tr><td>Bụi phấn, đường bột</td><td>30–100 µm</td><td>ngang cỡ fines; bạn không thấy từng hạt, chỉ thấy một lớp mờ</td></tr>
+<tr><td>Một sợi tóc</td><td>50–100 µm</td><td>một hạt 40 µm mỏng hơn sợi tóc của bạn</td></tr>
+<tr><td>Cát mịn</td><td>100–300 µm</td><td>nhỏ hơn hạt muối, nhưng rải ra vẫn thấy từng hạt</td></tr>
+<tr><td>Muối ăn hạt mịn</td><td>200–400 µm</td><td>cỡ thô nhất của bột espresso</td></tr>
+<tr><td>Đường cát, tiêu đen xay</td><td>400–700 µm</td><td>cỡ xay pour-over, từ mịn đến trung bình</td></tr>
+<tr><td>Hạt vừng</td><td>khoảng 2.000 µm</td><td>thô hơn mọi cỡ xay pour-over trong sách này</td></tr>
+</tbody>
+</table>
+</div>
+
+<p><strong>D50</strong> đọc theo nghĩa đen: đổ cả lô bột lên một cái sàng và lắc, rồi lặp lại với sàng nhỏ dần — cỡ sàng mà ở đó <em>một nửa khối lượng đã rơi xuống</em> là D50. Nó là trung vị theo khối lượng, không phải đường kính trung bình: một ít hạt rất to kéo được số trung bình lên, nhưng không kéo được trung vị. <strong>D90 − D10</strong> là bề rộng: 90% khối lượng nằm dưới D90, 10% nằm dưới D10, và khoảng cách giữa hai số đó nói bột đều hay không đều.</p>
+
+<p>Và đây là chỗ D50 đánh lừa: cùng một D50 vẫn có thể đi kèm 5% bột mịn, hoặc 15%. Con số thứ nhất đứng yên, còn thời gian rút thì không — đó chính là phép đo ở phần dưới.</p>
+
+<h3>Dùng thước đo cỡ xay</h3>
+
+<p>Một tấm thẻ có các lỗ khoan từ 200 đến 1.600 µm (Kruve Brewler hoặc loại tương tự) làm được đúng một việc: cho bạn một con số gần đúng từ mắt nhìn. Đủ để so <em>lần xay này với lần xay trước</em>, không đủ để tuyên bố một con số tuyệt đối.</p>
+
+<ol class="steps">
+<li><strong>Lấy mẫu khô, rải một lớp mỏng</strong><p>Một nhúm bột trên lòng bàn tay hoặc trên giấy trắng. Lớp dày thì mắt chỉ thấy hạt nằm trên cùng, và bạn sẽ đọc sai.</p></li>
+<li><strong>So từ lỗ nhỏ đi lên</strong><p>Bắt đầu ở 200 µm rồi đi dần lên. Lỗ nào mà <em>phần lớn</em> hạt lọt qua được thì trung vị của bạn quanh mức đó. Đừng tìm lỗ vừa khít một hạt: luôn có hạt to hơn và hạt nhỏ hơn.</p></li>
+<li><strong>Ghi hai con số, đừng ghi một</strong><p>Lỗ lớn nhất mà phần lớn hạt lọt qua, và lỗ nhỏ nhất mà hạt to nhất vẫn lọt. Hai số đó là D50 và đuôi thô của bạn; khoảng cách giữa chúng chính là "độ rộng" trong bảng phía trên.</p></li>
+<li><strong>Dùng để so sánh, đừng dùng để tuyên bố</strong><p>Thẻ đo bằng mắt, nên sai số lớn hơn nhiều so với máy đo hạt. Giá trị thật của nó là biết "lần này mịn hơn lần trước bao nhiêu", chứ không phải "bột của tôi đúng 640 µm".</p></li>
+</ol>
+
+<p>Hai điều nên biết trước khi tin tấm thẻ. Các nhãn FINE, MEDIUM, COARSE in trên đó là quy ước của nhà sản xuất, không phải chuẩn ngành — mỗi hãng cắt khoảng khác nhau. Và các con số "click" in kèm chỉ đúng cho model máy xay mà thẻ tham chiếu; máy bạn khác thì con số đó vô nghĩa, dù nó trông rất chính xác.</p>
 
 <p>Fines là con số quan trọng nhất trong ba, vì nó tác động lên dòng chảy chứ không chỉ lên diện tích bề mặt. Trong một nghiên cứu trên 43 loại capsule thương mại, khi tỉ lệ fines tăng từ 10% lên 15%, thời gian chiết dài thêm khoảng <strong>10 giây</strong> — dù trung vị kích thước chỉ dao động trong khoảng 255–549 µm <span class="tier tier-a">Bằng chứng</span>. Năm phần trăm hạt vụn, mười giây.</p>
 

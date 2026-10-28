@@ -1,6 +1,6 @@
 # The Brewing Bible
 
-Một cuốn sách thực hành về **pour over** và **cupping** — 8 phần, 29 chương, và một phụ lục nguồn tham chiếu.
+Một cuốn sách thực hành về **pour over** và **cupping** — 8 phần, 30 chương, và một phụ lục nguồn tham chiếu.
 
 Đọc trực tuyến: **https://jajajou.github.io/brewing-bible/**
 
@@ -22,11 +22,11 @@ Mỗi khẳng định trong sách đều được dán nhãn theo ba mức này.
 | II — Nước | Alkalinity; cách đo; xử lý nước ở Việt Nam | 3 |
 | III — Chiết xuất | Ba con số; huyền thoại "acid trước, đắng sau"; mô hình ba chiều; cỡ xay | 4 |
 | IV — Cupping | Nó đo gì; quy trình tại nhà; đọc ly; giới hạn | 4 |
-| V — Pour over | Ngâm vs chảy; dụng cụ; kỹ thuật rót; công thức; đọc bã; chẩn đoán | 6 |
+| V — Pour over | Ngâm vs chảy; dụng cụ; kỹ thuật rót; công thức; công thức vô địch; đọc bã; chẩn đoán | 7 |
 | VI — Cầu nối | Quy trình 20 phút; bốn luật của công thức nền; case study | 3 |
 | VII — Cảm nhận | Giải phẫu một ngụm; ngôn ngữ nốt hương; xây khẩu vị | 3 |
 | VIII — Sổ tay | Nhật ký pha; dụng cụ; checklist khi thất bại | 3 |
-| A — Nguồn tham chiếu | Cách lập danh mục; thư mục 40 nguồn; đối chiếu từng chương; chỗ cần sửa | 4 |
+| A — Nguồn tham chiếu | Cách lập danh mục; thư mục 54 nguồn; đối chiếu từng chương; chỗ cần sửa | 4 |
 
 ## Tính năng
 
@@ -70,7 +70,7 @@ Bản gốc là tiếng Việt. Bản dịch nằm trong `content/en/text.js` v�
 
 Mỗi file dịch có cùng cấu trúc: `parts` (tiêu đề phần) và `chapters` (tiêu đề, lede, phút đọc, tag, thân bài). Chương chưa có `body` sẽ hiện thông báo "chưa dịch" kèm link sang bản tiếng Việt, nên có thể đẩy lên web từng phần một mà không sợ trang vỡ.
 
-**Trạng thái:** tiếng Anh đủ **33/33** (29 chương + 4 chương phụ lục); tiếng Nhật **3/33** có thân bài (Phần I — Hạt), 33/33 có tiêu đề.
+**Trạng thái:** tiếng Anh đủ **34/34** (30 chương + 4 chương phụ lục); tiếng Nhật **3/34** có thân bài (Phần I — Hạt), 34/34 có tiêu đề.
 
 Quy ước thuật ngữ và ba nhãn bằng chứng nằm ở [TRANSLATION.md](TRANSLATION.md). Trước khi commit một phần đã dịch:
 

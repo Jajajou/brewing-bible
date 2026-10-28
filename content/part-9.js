@@ -22,7 +22,7 @@
 
 <p>Nguyên tắc lập rất đơn giản: chỉ câu có thể kiểm chứng bằng tài liệu bên ngoài mới cần nguồn. Câu về kinh nghiệm, quy trình và lời khuyên thì không — và không được gán cho chúng một nguồn nghe có vẻ khoa học. Ưu tiên bài bình duyệt có DOI; khi không có, dùng tiêu chuẩn ngành hoặc nguồn sơ cấp của chính người đề xuất phương pháp.</p>
 
-<p>Bốn mươi nguồn được xếp theo chủ đề ở A2 và theo chương ở A3. Trong 29 chương, mười chương dựa trực tiếp vào tài liệu, năm chương dựa một phần, mười hai chương là quy trình nên không cần nguồn ngoài, và hai chương — 17 và 19 — không có nguồn nào cho khẳng định trung tâm.</p>
+<p>Năm mươi bốn nguồn được xếp theo chủ đề ở A2 và theo chương ở A3. Trong 30 chương, mười chương dựa trực tiếp vào tài liệu, sáu chương dựa một phần, mười hai chương là quy trình nên không cần nguồn ngoài, và hai chương — 17 và 20 — không có nguồn nào cho khẳng định trung tâm.</p>
 
 <div class="callout">
 <p class="callout-title">Có nguồn không có nghĩa là đúng</p>
@@ -34,7 +34,7 @@
       {
         id: "ch-nguon-danh-muc",
         title: "Thư mục",
-        lede: "Bốn mươi nguồn, xếp theo chủ đề. Mỗi mục có DOI hoặc đường dẫn đã mở và đọc, kèm một câu nói nguồn đó đóng góp gì.",
+        lede: "Năm mươi bốn nguồn, xếp theo chủ đề. Mỗi mục có DOI hoặc đường dẫn đã mở và đọc, kèm một câu nói nguồn đó đóng góp gì.",
         minutes: 12,
         tags: ["phụ lục", "nguồn"],
         body: `
@@ -182,6 +182,64 @@
 
 <p>Độ thấm của bã đo được trong khoảng 10⁻¹³–10⁻¹⁴ m². Ước lượng bằng phương trình Kozeny–Carman với phân bố hạt khô không khớp với phép đo, vì bã bị nén làm đổi cấu trúc đóng gói.</p>
 
+<h3>Thi đấu</h3>
+
+<p><strong>[41]</strong> World Coffee Championships. <em>World Brewers Cup</em> — thể thức thi, hai phần thi, trần TDS 2%; và trang kết quả công bố ngày 28/6/2026. wcc.coffee/world-brewers-cup · wcc.coffee/latest-news/wbrc-winners</p>
+
+<p>Nguồn cho phần thể thức mở đầu chương 19, và cho tên, quốc gia, thứ hạng của sáu nhà vô địch. Trang kết quả xác nhận Nas Jaafar (Malaysia) vô địch 2026 tại Brussels.</p>
+
+<p><strong>[42]</strong> Barista Hustle (2021). <em>No Stir: An Interview with World Brewers Cup Champion Matt Winton.</em> baristahustle.com/lesson/p-1-07-1-no-stir-an-interview-with-world-brewers-cup-champion-matt-winton/</p>
+
+<p>20 g trên 300 g, 93 °C, năm lần rót 60 g, và lý do chọn cỡ xay thô: để rót được năm lần mà không đắng. Winton cũng nói bốn lần rót không cho cùng biểu hiện với năm lần, và đội của ông đã thử sáu công thức nước. Đây là bản ghi chi tiết nhất cho hàng 2021.</p>
+
+<p><strong>[43]</strong> European Coffee Trip (2024). <em>Winning pour over recipe — Martin Wölfl.</em> europeancoffeetrip.com/winning-pour-over-recipe-martin-woelfl/</p>
+
+<p>17 g trên 270 g, 93 °C, khoảng 490 µm, OREA V4 với giấy Sibarist FAST. Lưu ý: trang này chặn trình đọc khi tra, nên số liệu lấy từ bản tóm tắt được lập chỉ mục, chưa đối chiếu toàn văn. Chương 19 ghi đúng mức độ đó.</p>
+
+<p><strong>[44]</strong> Barista Magazine (2024). <em>10 Minutes with Martin Wölfl, Part One.</em> baristamagazine.com/10-minutes-with-martin-wolfl-part-one/</p>
+
+<p>Xác nhận OREA V4, giấy Sibarist FAST, và con cà: Gesha của Finca Maya, sơ chế hai giai đoạn, sấy 33 ngày. Bài không đưa số gam; phần đó thuộc [43].</p>
+
+<p><strong>[45]</strong> European Coffee Trip (2025). <em>Winning pour over recipe — SOLO Dripper.</em> europeancoffeetrip.com/winning-pourover-recipe-solo-dripper/</p>
+
+<p>15 g trên 210 g; 30 g ở 96 °C, 90 g ở 96 °C, 90 g ở 80 °C qua Melodrip; khoảng 800 µm; tổng 1:45; nước 40 ppm. Đây là công thức đầy đủ nhất trong sáu hàng của bảng.</p>
+
+<p><strong>[46]</strong> Barista Magazine (2025). <em>George Jinyang Peng Discusses World Brewers Cup Win.</em> baristamagazine.com/george-jinyang-peng-discusses-world-brewers-cup-win/</p>
+
+<p>Cà Gesha Mount Totumas, Panama. Bài không cho thông số pha; phần đó thuộc [45].</p>
+
+<p><strong>[47]</strong> gota.cafe (2026). <em>Nas Jaafar — UFO V3, World Brewers Cup.</em> gota.cafe/en/recipes/ufo/ufo-jaafar-wbrc</p>
+
+<p>15 g trên 200 g, 92 °C, khoảng 700 µm; 100 g đầu xả qua van mở, 100 g sau ngâm với van đóng 35 giây. Bản ghi, không phải biên bản.</p>
+
+<p><strong>[48]</strong> Mikava Coffee. <em>Thẻ công thức</em> (2022). mikava.coffee/pages/mikava-recipes</p>
+
+<p>14 g trên 200 g; 50 g ở 70 °C mở đầu, rồi 95 °C; bốn lần 50 g; 800–1000 µm; 2:30–3:00. Hai giới hạn: thẻ không nêu dụng cụ, và không xác nhận được con cà trên thẻ có phải con cà dùng trong lượt thi.</p>
+
+<p><strong>[49]</strong> Kaffelogic. <em>Carlos Medina, World Brewers Cup</em> (2023). kaffelogic.com/blogs/competitors/carlos-medina-wbrc</p>
+
+<p>Origami Air, giấy Brewista X, cà Sidra của Granja La Esperanza. Số gam lấy từ bản dựng lại, và các bản không khớp nhau — một bản ghi 248 g, bản khác ghi năm lần 50 g, tức 250 g. Chương 19 dùng 248 g và nói rõ đó là bản dựng lại.</p>
+
+<p><strong>[50]</strong> Barista Magazine (2022). <em>Brewers Cup Runner-Up Lance Hedrick on the “Nifty Coffee Grinds Trick” from His Routine.</em> baristamagazine.com/brewers-cup-runner-up-lance-hedrick-on-the-nifty-coffee-grinds-trick-from-his-routine/</p>
+
+<p>Hedrick ước lượng khoảng 2,5 g fines ban đầu, 1,7–2 g bị giấy giữ lại, còn dưới 0,4 g trong ly; và nói vấn đề lớn nhất của routine là độ lặp lại. Đây là nguồn cho câu “routine thi đấu đánh đổi độ lặp lại lấy độ rõ”.</p>
+
+<p><strong>[51]</strong> <em>Pour-over coffee: Mixing by a water jet impinging on a granular bed.</em> Physics of Fluids 37(4), 043332 (2025). pubs.aip.org/aip/pof/article/37/4/043332/3342795</p>
+
+<p>Dùng hạt trong suốt và chụp ảnh bằng laser để xem tia nước xáo trộn bã thế nào: tia tầng ổn định làm lở bã mạnh hơn tia rơi thành giọt. Toàn văn bị nhà xuất bản chặn khi tra; phần đọc được là bản tóm tắt của AIP.</p>
+
+<p><strong>[52]</strong> Batali, M. E., Ristenpart, W. D., &amp; Guinard, J.-X. (2020). Bài thực nghiệm về nhiệt độ pha, TDS và mức chiết trong cà phê nhỏ giọt. Toàn văn: PMC7536440.</p>
+
+<p>Giữ TDS và mức chiết như nhau, đổi nhiệt trong khoảng 87–93 °C: khác biệt cảm quan không đáng kể. Đây là nguồn cho cảnh báo ở phần “hạ nhiệt cuối” của chương 19.</p>
+
+<p><strong>[53]</strong> Rao, S. (2025). <em>Bed depth: why it matters.</em> scottrao.com/blog/2025/11/11/bed-depth-why-it-matters</p>
+
+<p>Lập luận thực hành về liều và độ sâu bã theo dụng cụ: V60 khoảng 20–25 g, Kalita 155 khoảng 15–18 g. Không phải nghiên cứu có kiểm soát; là kinh nghiệm của một người hành nghề lâu năm.</p>
+
+<p><strong>[54]</strong> Gagné, J. (2025). <em>The Pulsar Mini and the Importance of Bed Depth.</em> coffeeadastra.com/2025/11/28/the-pulsar-mini-and-the-importance-of-bed-depth/</p>
+
+<p>Cùng một liều cho độ sâu bã khác nhau ở dụng cụ có đường kính khác nhau; 15 g trên dụng cụ nhỏ không tương đương 15 g trên dụng cụ lớn. Tác giả tự ghi rõ phần nào là giả thuyết.</p>
+
 <div class="callout">
 <p class="callout-title">Ba bài không mở được toàn văn</p>
 <p>[17], [22] và trang DOI của [5] bị nhà xuất bản chặn trong lúc tra. Chi tiết trong các mục đó lấy từ tóm tắt và từ bài tổng quan của SCA. Nếu bạn cần trích dẫn chính xác đến từng câu, phải mở bản đầy đủ.</p>
@@ -221,7 +279,7 @@
 </tbody>
 </table>
 
-<p class="tbl-cap tbl-cap-break">Chương 10–29 · cỡ xay, cupping, pha, cảm nhận</p>
+<p class="tbl-cap tbl-cap-break">Chương 10–18 · cỡ xay, cupping, pha</p>
 
 <table class="tbl-a3">
 <thead>
@@ -240,16 +298,32 @@
 <tr><td>16</td><td>Giấy và kim loại cho hồ sơ bay hơi khác nhau</td><td>Hợp lý</td><td>[30]</td><td>Dẫn được, một con cà</td></tr>
 <tr><td>17</td><td>Vòi cách bã 3–5 cm; giữ mực nước trên mặt bã; 5–8 g/s</td><td>—</td><td>không có</td><td>Không có nguồn</td></tr>
 <tr><td>18</td><td>Ba trường phái công thức</td><td>—</td><td>[27] [28] [29]</td><td>Dẫn được</td></tr>
-<tr><td>19</td><td>Nhìn bã để chẩn đoán</td><td>—</td><td>không có</td><td>Không có nguồn</td></tr>
-<tr><td>20</td><td>Bảng chẩn đoán</td><td>—</td><td>suy ra từ [10] [11]</td><td>Một phần</td></tr>
-<tr><td>21–23</td><td>Quy trình, bốn luật, case study</td><td>—</td><td>phương pháp</td><td>Không cần nguồn</td></tr>
-<tr><td>24</td><td>Giải phẫu một ngụm; đường mũi ngược</td><td>—</td><td>sinh lý khứu giác</td><td>Không cần nguồn</td></tr>
-<tr><td>25</td><td>Ngôn ngữ nốt hương và cái bẫy của nó</td><td>—</td><td>[14] [19]</td><td>Một phần</td></tr>
-<tr><td>26–29</td><td>Luyện khẩu vị, nhật ký, dụng cụ, checklist</td><td>—</td><td>phương pháp</td><td>Không cần nguồn</td></tr>
 </tbody>
 </table>
 
-<p>Hai chương cuối cột — 17 và 19 — đứng trên kinh nghiệm của người viết. Điều đó không làm chúng sai; chỉ có nghĩa chúng không phải chỗ để viện dẫn khoa học.</p>
+<p class="tbl-cap tbl-cap-break">Chương 19–30 · công thức, đọc bã, chẩn đoán, cảm nhận</p>
+
+<table class="tbl-a3">
+<thead>
+<tr><th>Ch.</th><th>Khẳng định cần nguồn</th><th>Nhãn trong sách</th><th>Nguồn</th><th>Kết luận</th></tr>
+</thead>
+<tbody>
+<tr><td>19</td><td>Sáu công thức vô địch 2021–2026 dùng liều 14–20 g, tỉ lệ 1:13,3–1:16</td><td>—</td><td>[41] [42] [43] [45] [47] [48] [49]</td><td>Dẫn được, nhưng là bản dựng lại</td></tr>
+<tr><td>19</td><td>Cỡ xay công bố trải 490–1000 µm; số click trên máy không chuyển được</td><td>Hợp lý</td><td>[43] [45] [47], và [34] [35] ở chương 10</td><td>Một phần</td></tr>
+<tr><td>19</td><td>Tia nước quyết định cách bã bị xáo trộn</td><td>Bằng chứng</td><td>[51]</td><td>Dẫn được</td></tr>
+<tr><td>19</td><td>Routine thi đấu đánh đổi độ lặp lại để lấy độ rõ của một ngụm</td><td>Hợp lý</td><td>[50]</td><td>Một phần, người trong cuộc kể</td></tr>
+<tr><td>19</td><td>Nhiệt 87–93 °C không đổi cảm quan khi TDS và mức chiết đã cố định</td><td>Bằng chứng</td><td>[52]</td><td>Dẫn được</td></tr>
+<tr><td>19</td><td>Độ sâu bã phải khớp đường kính dụng cụ</td><td>Hợp lý</td><td>[53] [54]</td><td>Suy luận từ thực hành</td></tr>
+<tr><td>20</td><td>Nhìn bã để chẩn đoán</td><td>—</td><td>không có</td><td>Không có nguồn</td></tr>
+<tr><td>21</td><td>Bảng chẩn đoán</td><td>—</td><td>suy ra từ [10] [11]</td><td>Một phần</td></tr>
+<tr><td>22–24</td><td>Quy trình, bốn luật, case study</td><td>—</td><td>phương pháp</td><td>Không cần nguồn</td></tr>
+<tr><td>25</td><td>Giải phẫu một ngụm; đường mũi ngược</td><td>—</td><td>sinh lý khứu giác</td><td>Không cần nguồn</td></tr>
+<tr><td>26</td><td>Ngôn ngữ nốt hương và cái bẫy của nó</td><td>—</td><td>[14] [19]</td><td>Một phần</td></tr>
+<tr><td>27–30</td><td>Luyện khẩu vị, nhật ký, dụng cụ, checklist</td><td>—</td><td>phương pháp</td><td>Không cần nguồn</td></tr>
+</tbody>
+</table>
+
+<p>Hai chương cuối cột — 17 và 20 — đứng trên kinh nghiệm của người viết. Điều đó không làm chúng sai; chỉ có nghĩa chúng không phải chỗ để viện dẫn khoa học.</p>
 `
       },
 
@@ -296,7 +370,7 @@
 <li><strong>“Rang đậm dễ pha hơn”</strong> (chương 2) — đúng phần dễ, sai phần nên bắt đầu bằng. Không có nghiên cứu so sánh độ khó pha theo mức rang. Nên là Truyền miệng, không phải để trống.</li>
 <li><strong>Độ tươi so với nước</strong> (chương 3) — câu so sánh cụ thể không có nghiên cứu nào. Cơ chế đúng, nên hạ xuống Hợp lý.</li>
 <li><strong>Vòi cách bã 3–5 cm, giữ mực nước trên mặt bã, 5–8 g/s</strong> (chương 17) — suy luận từ cơ chế, chưa ai đo. Hợp lý, không hơn.</li>
-<li><strong>Nhìn bã để chẩn đoán</strong> (chương 19) — chỗ sách tự tin nhất mà bằng chứng mỏng nhất. Không có nghiên cứu nào nối hình dạng bã với bản đồ chiết xuất. Nên là Truyền miệng.</li>
+<li><strong>Nhìn bã để chẩn đoán</strong> (chương 20) — chỗ sách tự tin nhất mà bằng chứng mỏng nhất. Không có nghiên cứu nào nối hình dạng bã với bản đồ chiết xuất. Nên là Truyền miệng.</li>
 <li><strong>Bloom là bước xử lý khí</strong> (chương 3) — cơ chế đúng, tác dụng cảm quan chưa được chứng minh. Nên là Hợp lý.</li>
 <li><strong>Tỉ lệ đổi TDS tuyến tính, 1:16 sang 1:15 đậm hơn 6–7%</strong> (chương 7) — số học đúng, nhưng con số 6–7% là ngoại suy chưa được kiểm riêng.</li>
 <li><strong>“Không có nghiên cứu nào cho thấy điểm cupping dự đoán được mức ưa thích”</strong> (chương 11) — đúng tính đến nay, nhưng nên nói “chưa có” thay vì “không có”, vì đó là khẳng định phủ định toàn cầu.</li>
