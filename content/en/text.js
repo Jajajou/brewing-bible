@@ -2821,16 +2821,15 @@ Likely problem:  ____________________
 
 <p>You do not need a complex system. Three columns are enough:</p>
 
-<div class="formula">
-<span class="fx-label">Palate notebook</span>
-| Date | Coffee (name/region/roast) | One sentence: what you liked, what you did not |
-</div>
-
-<p>For example:</p>
-<div class="formula">
-| 12/03 | Ethiopia Guji, washed, light | Loved the florals; a bit too sour for me |
-| 19/03 | Brazil Cerrado, natural, medium | Sweet, easy to drink; a little short on aroma |
-| 26/03 | Colombia Huila, washed, medium-light | The most balanced so far |
+<div class="table-wrap">
+<table class="tbl-tight">
+<thead><tr><th>Date</th><th>Coffee (name / region / roast)</th><th>One sentence: what you liked, what you did not</th></tr></thead>
+<tbody>
+<tr><td>12/03</td><td>Ethiopia Guji, washed, light</td><td>Loved the florals; a bit too sour for me</td></tr>
+<tr><td>19/03</td><td>Brazil Cerrado, natural, medium</td><td>Sweet, easy to drink; a little short on aroma</td></tr>
+<tr><td>26/03</td><td>Colombia Huila, washed, medium-light</td><td>The most balanced so far</td></tr>
+</tbody>
+</table>
 </div>
 
 <p>After ten lines you will see a pattern. After thirty, you will know your taste well enough to buy without guessing.</p>

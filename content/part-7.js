@@ -304,16 +304,15 @@ window.BOOK_PARTS.push({
 
 <p>Bạn không cần một hệ thống phức tạp. Ba cột là đủ:</p>
 
-<div class="formula">
-<span class="fx-label">Sổ khẩu vị</span>
-| Ngày | Cà (tên/vùng/rang) | Một câu: thích gì, không thích gì |
-</div>
-
-<p>Ví dụ:</p>
-<div class="formula">
-| 12/03 | Ethiopia Guji, washed, sáng | Rất thích hương hoa; hơi quá chua với mình |
-| 19/03 | Brazil Cerrado, natural, trung | Ngọt, dễ uống; hơi thiếu hương |
-| 26/03 | Colombia Huila, washed, trung sáng | Cân bằng nhất từ trước tới giờ |
+<div class="table-wrap">
+<table class="tbl-tight">
+<thead><tr><th>Ngày</th><th>Cà (tên / vùng / rang)</th><th>Một câu: thích gì, không thích gì</th></tr></thead>
+<tbody>
+<tr><td>12/03</td><td>Ethiopia Guji, washed, sáng</td><td>Rất thích hương hoa; hơi quá chua với mình</td></tr>
+<tr><td>19/03</td><td>Brazil Cerrado, natural, trung</td><td>Ngọt, dễ uống; hơi thiếu hương</td></tr>
+<tr><td>26/03</td><td>Colombia Huila, washed, trung sáng</td><td>Cân bằng nhất từ trước tới giờ</td></tr>
+</tbody>
+</table>
 </div>
 
 <p>Sau mười dòng, bạn sẽ thấy mẫu. Sau ba mươi dòng, bạn sẽ biết mình thích gì đủ để chọn mua mà không cần đoán.</p>
