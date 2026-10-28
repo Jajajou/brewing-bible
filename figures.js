@@ -48,6 +48,23 @@
       ratioRatio: "Tỉ lệ 1:",
       ratioWater: "Nước",
       ratioStrength: "Nồng độ so với 1:16",
+      dilutionTitle: "Pha loãng nước: mục tiêu và tỉ lệ",
+      dilutionCap:
+        "Công thức của chương, chạy bằng tay: phần trăm nước khoáng bằng mục tiêu chia alkalinity đo được. Giả định nước RO có alkalinity bằng 0; nếu nước RO của bạn không phải 0, tỉ lệ thật thấp hơn con số này.",
+      dilutionLive:
+        "Kéo hai thanh theo số đo của bạn. Đây là cùng một phép chia mà bạn vẫn làm bằng giấy — chỉ khác là không phải tự chia.",
+      dilutionTap: "Alkalinity đo được",
+      dilutionTarget: "Mục tiêu",
+      dilutionTapShare: "nước máy",
+      dilutionRoShare: "nước RO",
+      dilutionBottle: "cho 2 lít",
+      timelineTitle: "Nước vào lúc nào, và bao nhiêu",
+      timelineCap:
+        "Công thức sửa lại ở trên, vẽ theo trục thời gian: ba đợt rót chiếm chưa đến một nửa thời gian, phần còn lại là chờ rút. Đường bậc là tổng nước đã rót; vùng nhạt là giai đoạn rút.",
+      tlBloom: "bloom",
+      tlPour: "rót 2",
+      tlPour3: "rót 3",
+      tlDraw: "rút",
       unitG: "g",
       unitUm: "µm"
     },
@@ -76,6 +93,23 @@
       ratioRatio: "Ratio 1:",
       ratioWater: "Water",
       ratioStrength: "Strength vs 1:16",
+      dilutionTitle: "Diluting water: target and ratio",
+      dilutionCap:
+        "The chapter's formula, worked by hand: the share of mineral water is the target divided by the measured alkalinity. It assumes RO water at zero alkalinity; if yours is not zero, the real share is lower than this number.",
+      dilutionLive:
+        "Drag the two sliders to your own readings. It is the same division you would do on paper — only you do not have to divide.",
+      dilutionTap: "Measured alkalinity",
+      dilutionTarget: "Target",
+      dilutionTapShare: "tap water",
+      dilutionRoShare: "RO water",
+      dilutionBottle: "for 2 litres",
+      timelineTitle: "When the water goes in, and how much",
+      timelineCap:
+        "The corrected recipe above, drawn against time: three pours take less than half the brew, the rest is waiting to drain. The step line is total water poured; the pale band is the drawdown.",
+      tlBloom: "bloom",
+      tlPour: "pour 2",
+      tlPour3: "pour 3",
+      tlDraw: "drawdown",
       unitG: "g",
       unitUm: "µm"
     }
@@ -279,6 +313,88 @@
     return '<div class="fig-canvas">' + ratioBody(state) + "</div>";
   }
 
+  /* ---------- pha loãng nước ---------- */
+  /* Alkalinity pha loãng tuyến tính theo thể tích: tỉ lệ = mục tiêu / đo
+     được. Không có mô hình nào ở đây, chỉ là phép chia của chương. */
+  function dilutionBody(state) {
+    var share = state.measured > 0 ? (state.target / state.measured) * 100 : 100;
+    share = Math.max(0, Math.min(100, share));
+    var ml = Math.round(2000 * (share / 100) / 10) * 10; /* làm tròn 10 ml */
+    var ro = 2000 - ml;
+
+    return (
+      '<div class="fig-calc">' +
+        '<div><b>' + num(share, 0) + "%</b><span>" + T().dilutionTapShare + "</span></div>" +
+        "<i class=" + '"fig-op"' + ">+</i>" +
+        '<div><b>' + num(100 - share, 0) + "%</b><span>" + T().dilutionRoShare + "</span></div>" +
+      "</div>" +
+      '<div class="fig-bar"><i style="width:' + share.toFixed(1) + '%"></i></div>' +
+      '<p class="fig-note">' + T().dilutionBottle + ": <b>" + ml + " ml</b> " + T().dilutionTapShare +
+        " + <b>" + ro + " ml</b> " + T().dilutionRoShare + "</p>"
+    );
+  }
+
+  function dilutionSvg(state) {
+    return '<div class="fig-canvas">' + dilutionBody(state) + "</div>";
+  }
+
+  /* ---------- dòng thời gian rót ---------- */
+  /* Bậc thang tổng nước đã rót theo thời gian, đúng các mốc của công thức
+     ở chương nghiên cứu tình huống (15 g : 255 g, 1:17). */
+  var TL = {
+    total: 165,                                            /* 2:45 */
+    points: [[0, 0], [10, 45], [40, 45], [60, 150], [75, 150], [95, 255], [165, 255]],
+    marks: [[40, "0:40"], [60, "1:00"], [95, "1:35"], [165, "2:45"]],
+    grams: [45, 150, 255],
+    draw: [95, 165]
+  };
+
+  function timelineSvg() {
+    var base = H - PAD_B, top = PAD_T, L = 26;
+    var gMax = 270;
+    function xOf(t) { return L + (t / TL.total) * (W - L - PAD_R); }
+    function yOf(g) { return base - (g / gMax) * (base - top); }
+
+    var s = '<svg class="fig-svg" viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="' + T().timelineTitle + '">';
+
+    /* giai đoạn rút: nền nhạt, không có nước mới đi vào */
+    s += '<rect class="f-band" x="' + xOf(TL.draw[0]).toFixed(1) + '" y="' + top + '" width="' +
+         (xOf(TL.draw[1]) - xOf(TL.draw[0])).toFixed(1) + '" height="' + (base - top) + '"/>';
+    s += '<text class="f-lab" x="' + (xOf(130)).toFixed(1) + '" y="' + (base - 6) + '" text-anchor="middle">' + T().tlDraw + "</text>";
+
+    /* đường bậc */
+    var d = "";
+    TL.points.forEach(function (p, i) {
+      d += (i ? "L" : "M") + xOf(p[0]).toFixed(1) + " " + yOf(p[1]).toFixed(1);
+    });
+    s += '<path class="f-area" d="' + d + "L" + xOf(TL.total).toFixed(1) + " " + base + "L" + L + " " + base + 'Z"/>';
+    s += '<path class="f-curve" d="' + d + '"/>';
+
+    /* mốc thời gian */
+    TL.marks.forEach(function (mk) {
+      var x = xOf(mk[0]).toFixed(1);
+      s += '<line class="f-guide" x1="' + x + '" y1="' + top + '" x2="' + x + '" y2="' + base + '"/>';
+      s += '<text class="f-lab" x="' + x + '" y="' + (base + 12) + '" text-anchor="' +
+           (mk[0] === 0 ? "start" : mk[0] === TL.total ? "end" : "middle") + '">' + mk[1] + "</text>";
+    });
+
+    /* nhãn khối lượng ở trục dọc */
+    TL.grams.forEach(function (g) {
+      /* đơn vị gắn vào số trên cùng: một nhãn "g" riêng sẽ đè lên chính số đó */
+      var label = g + (g === TL.grams[TL.grams.length - 1] ? " " + T().unitG : "");
+      s += '<text class="f-lab" x="' + (L - 3) + '" y="' + (yOf(g) + 2.2).toFixed(1) + '" text-anchor="end">' + label + "</text>";
+    });
+
+    /* nhãn ba đợt rót */
+    s += '<text class="f-lab" x="' + (xOf(25).toFixed(1)) + '" y="' + (yOf(45) - 4).toFixed(1) + '" text-anchor="middle">' + T().tlBloom + "</text>";
+    s += '<text class="f-lab" x="' + (xOf(50).toFixed(1)) + '" y="' + (yOf(150) - 4).toFixed(1) + '" text-anchor="middle">' + T().tlPour + "</text>";
+    s += '<text class="f-lab" x="' + (xOf(85).toFixed(1)) + '" y="' + (yOf(255) - 4).toFixed(1) + '" text-anchor="middle">' + T().tlPour3 + "</text>";
+
+    s += '<line class="f-axis" x1="' + L + '" y1="' + base + '" x2="' + (W - PAD_R) + '" y2="' + base + '"/>';
+    s += "</svg>";
+    return s;
+  }
+
   /* ---------- registry ---------- */
   /* at: "h3:2" = chèn ngay trước <h3> thứ 2 của chương. Đếm theo thứ tự
      xuất hiện; check-i18n so số tiêu đề giữa ba bản dịch nên một bản dịch
@@ -319,6 +435,30 @@
       body: function (st) {
         return ratioSvg(st);
       }
+    },
+    {
+      id: "dilution",
+      ch: "ch-xu-ly-nuoc",
+      at: "h3:3",
+      live: true,
+      state: { measured: 250, target: 50 },
+      title: "dilutionTitle",
+      caption: "dilutionCap",
+      liveNote: "dilutionLive",
+      body: function (st) {
+        return dilutionSvg(st);
+      }
+    },
+    {
+      id: "timeline",
+      ch: "ch-case-study",
+      at: "recipe",
+      live: false,
+      title: "timelineTitle",
+      caption: "timelineCap",
+      body: function () {
+        return '<div class="fig-canvas">' + timelineSvg() + "</div>";
+      }
     }
   ];
 
@@ -338,7 +478,7 @@
     html += fig.body(fig.state || {});
     html += "<figcaption><b>" + t[fig.title] + "</b>" + t[fig.caption];
     if (fig.live && typeof document !== "undefined") {
-      html += '<span class="fig-live">' + t.psdLive + "</span>";
+      html += '<span class="fig-live">' + t[fig.liveNote || "psdLive"] + "</span>";
     }
     html += "</figcaption></figure>";
     return html;
@@ -349,12 +489,20 @@
     if (!body || !chapterId) return body;
     FIGS.forEach(function (fig) {
       if (fig.ch !== chapterId) return;
-      var m = /^h3:(\d+)$/.exec(fig.at);
-      if (!m) return;
-      var want = Number(m[1]), seen = 0, idx = -1, re = /<h3>/g, hit;
-      while ((hit = re.exec(body))) {
-        seen++;
-        if (seen === want) { idx = hit.index; break; }
+      var idx = -1;
+
+      if (fig.at === "recipe") {
+        /* ngay sau khối công thức: chèn trước tiêu đề kế tiếp */
+        var recipe = body.indexOf('<div class="recipe">');
+        idx = recipe >= 0 ? body.indexOf("<h3>", recipe) : -1;
+      } else {
+        var m = /^h3:(\d+)$/.exec(fig.at);
+        if (!m) return;
+        var want = Number(m[1]), seen = 0, re = /<h3>/g, hit;
+        while ((hit = re.exec(body))) {
+          seen++;
+          if (seen === want) { idx = hit.index; break; }
+        }
       }
       var html = figureHtml(fig);
       if (idx < 0) body += html;
@@ -379,22 +527,32 @@
     if (!fig || !fig.live || figEl.getAttribute("data-live") === "1") return;
     figEl.setAttribute("data-live", "1");
 
-    var state = { d50: fig.state.d50, fines: fig.state.fines, dose: fig.state.dose, ratio: fig.state.ratio };
+    /* bản sao trạng thái: hình nào cũng mang sẵn tham số mặc định của nó,
+       nên thêm hình mới không phải sửa lại dòng này */
+    var state = {};
+    for (var k in fig.state) if (Object.prototype.hasOwnProperty.call(fig.state, k)) state[k] = fig.state[k];
     var t = T();
 
     var ctl = document.createElement("div");
     ctl.className = "fig-ctl";
 
-    var specs =
-      id === "psd"
-        ? [
-            { key: "d50", label: t.psdD50, min: 250, max: 1100, step: 10, unit: " µm", digits: 0 },
-            { key: "fines", label: t.psdFines, min: 3, max: 20, step: 0.5, unit: "%", digits: 1 }
-          ]
-        : [
-            { key: "dose", label: t.ratioDose, min: 10, max: 30, step: 0.5, unit: " " + t.unitG, digits: 1 },
-            { key: "ratio", label: t.ratioRatio.replace(/:$/, "").trim(), min: 12, max: 20, step: 0.5, unit: "", digits: 1 }
-          ];
+    var specs;
+    if (id === "psd") {
+      specs = [
+        { key: "d50", label: t.psdD50, min: 250, max: 1100, step: 10, unit: " µm", digits: 0 },
+        { key: "fines", label: t.psdFines, min: 3, max: 20, step: 0.5, unit: "%", digits: 1 }
+      ];
+    } else if (id === "dilution") {
+      specs = [
+        { key: "measured", label: t.dilutionTap, min: 50, max: 350, step: 5, unit: " ppm", digits: 0 },
+        { key: "target", label: t.dilutionTarget, min: 30, max: 80, step: 5, unit: " ppm", digits: 0 }
+      ];
+    } else {
+      specs = [
+        { key: "dose", label: t.ratioDose, min: 10, max: 30, step: 0.5, unit: " " + t.unitG, digits: 1 },
+        { key: "ratio", label: t.ratioRatio.replace(/:$/, "").trim(), min: 12, max: 20, step: 0.5, unit: "", digits: 1 }
+      ];
+    }
 
     function redraw() {
       var canvas = figEl.querySelector(".fig-canvas");
@@ -404,6 +562,8 @@
         canvas.innerHTML = r.svg;
         var rd = figEl.querySelector(".fig-read");
         if (rd) rd.outerHTML = readoutPsd(r.model);
+      } else if (id === "dilution") {
+        canvas.innerHTML = dilutionBody(state);
       } else {
         canvas.innerHTML = ratioBody(state);
       }

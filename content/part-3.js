@@ -407,7 +407,8 @@ window.BOOK_PARTS.push({
 
 <h3>Khi nào bạn không nếm ra</h3>
 
-<p>Có một kết quả khó chịu hơn: đôi khi cỡ xay đổi mà không ai nhận ra. Trong một thử nghiệm với 45 người trên cà phê drip, những khác biệt nhỏ về trung vị kích thước hạt <strong>không được phân biệt</strong> — trong khi khác biệt giữa hai kiểu giỏ lọc thì có <span class="tier tier-a">Bằng chứng</span>.</n
+<p>Có một kết quả khó chịu hơn: đôi khi cỡ xay đổi mà không ai nhận ra. Trong một thử nghiệm với 45 người trên cà phê drip, những khác biệt nhỏ về trung vị kích thước hạt <strong>không được phân biệt</strong> — trong khi khác biệt giữa hai kiểu giỏ lọc thì có <span class="tier tier-a">Bằng chứng</span>.</p>
+
 <p>Nhưng cùng nghiên cứu đó cho một kết quả quan trọng hơn: bảng mô tả cảm quan tìm thấy sáu thuộc tính đổi theo cỡ xay, và có <strong>tương tác</strong> giữa cỡ xay và hình học giỏ lọc với vị đắng và hương hoa <span class="tier tier-a">Bằng chứng</span>. Nghĩa là: cỡ xay không tách khỏi cái phễu. Cùng một nấc xay, đổi phễu, cho kết quả khác.</p>
 
 <p>Đây là lý do "cỡ xay chuẩn cho pour over" không tồn tại, và cũng là lý do bạn không nên sao chép số nấc của người khác — kể cả khi hai người dùng cùng một loại máy xay.</p>

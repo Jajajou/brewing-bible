@@ -82,6 +82,9 @@ function esc(s) {
 function toXhtml(html) {
   return String(html || "")
     .replace(/\u00a0/g, "&#160;")
+    /* XML chỉ có 5 entity có sẵn tên; `&nbsp;` là entity HTML, dùng trong
+       XHTML là lỗi cú pháp và máy đọc sách có quyền từ chối cả chương. */
+    .replace(/&nbsp;/g, "&#160;")
     .replace(/<br\s*\/?>/gi, "<br/>")
     .replace(/<(hr|img|input|col)\b([^>]*?)\s*\/?>/gi, (_, tag, rest) => `<${tag}${rest}/>`);
 }
