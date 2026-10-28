@@ -47,6 +47,15 @@ content/part-*.js   nội dung 8 phần (dữ liệu JS)
 
 Nội dung nằm trong các file `content/part-N.js` dưới dạng dữ liệu — thêm chương chỉ cần thêm một object vào mảng `chapters`.
 
+### Quy ước version asset
+
+Các thẻ `<link>` và `<script>` trong `index.html` có hậu tố `?v=N`. GitHub Pages cache asset 10 phút, nên sau khi sửa `styles.css`, `book.js` hoặc file nội dung, **tăng `N`** ở tất cả các thẻ rồi push — người đọc nhận bản mới ngay thay vì chờ cache hết hạn.
+
+```bash
+sed -i '' 's/?v=2/?v=3/g' index.html   # macOS
+sed -i 's/?v=2/?v=3/g' index.html      # Linux
+```
+
 ## Chạy tại máy
 
 Không cần build. Chỉ cần một static server:
