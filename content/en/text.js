@@ -624,7 +624,94 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
       lede: "You cannot taste “extraction”. You can only taste the cup. But these three numbers explain most of what you taste.",
       minutes: 9,
       tags: ["extraction", "measurement"],
-      body: ``
+      body: `
+<p>Start with a question that looks simple: when you brew coffee, what actually travels from the bed into the cup?</p>
+
+<p>The precise answer: <strong>roughly 18–22% of the dry coffee's mass</strong>. The rest — cellulose, some protein, insoluble minerals, compounds that never dissolved — stays in the bed and gets thrown away. Even a "strong" cup only takes about a fifth of what the bean contains.</p>
+
+<p>That number, and everything it implies, is the foundation of every technique in this book.</p>
+
+<h3>Three numbers</h3>
+
+<div class="stat-grid">
+<div class="stat"><b>18–22%</b><span>Extraction yield</span></div>
+<div class="stat"><b>1.15–1.45%</b><span>TDS in the cup</span></div>
+<div class="stat"><b>1:15–1:17</b><span>Brew ratio</span></div>
+</div>
+
+<h4>Extraction yield (EY)</h4>
+
+<p>The percentage of the dry coffee's mass that made it into the cup. Measured by drying the spent bed, weighing it and comparing with the starting mass — or with a refractometer combined with weights.</p>
+
+<p>Below 18%: <em>under-extracted</em>. A thin, sour cup with vegetal or raw-grain notes, and a short, sharp finish.</p>
+
+<p>Above 22%: <em>over-extracted</em>. Bitter, drying, astringent, with a long heavy finish and the flavour notes collapsing into each other.</p>
+
+<p>18–22%: <em>the good zone</em>. But it is a zone, not a point. Inside it, between 18 and 22, sit four quite different cups — and you will prefer one corner of that zone to the others. That is palate, not error.</p>
+
+<h4>TDS (Total Dissolved Solids)</h4>
+
+<p>The concentration of dissolved material in the cup, as a percentage. For pour over, 1.15–1.45% is the usual range. Espresso is 8–12%.</p>
+
+<div class="callout warn">
+<p class="callout-title">EY and TDS are two different things</p>
+<p>This is where many people go wrong. <strong>EY</strong> tells you <em>how much</em> you took out of the bean. <strong>TDS</strong> tells you <em>how strong</em> the cup is. You can have high TDS with low EY (little water, shallow extraction — strong but incomplete) or low TDS with high EY (lots of water, deep extraction — weak but complete).</p>
+<p>You adjust them with two different levers: <strong>TDS with ratio</strong>, <strong>EY with grind, time and temperature</strong>. Confusing the two is the source of most adjustments made in the wrong direction.</p>
+</div>
+
+<h4>Brew ratio</h4>
+
+<p>Coffee mass against water mass. 1:16 means 1 g of coffee to 16 g of water. With 15 g of coffee, that is 240 g of water.</p>
+
+<p>Ratio sets <strong>TDS almost linearly</strong> — it is the most predictable lever in the whole process. Change 1:16 to 1:15 and the cup comes out about 6–7% stronger, almost certainly. No other lever predicts that well.</p>
+
+<h3>Why you cannot taste “extraction”</h3>
+
+<p>This is the most important point in the chapter, and it explains why so many people adjust in the wrong direction for years.</p>
+
+<p>Extraction is not a substance. It is a <em>collection</em> of hundreds of compounds, each dissolving at a different rate, each contributing differently to what you feel. When you say "this cup is over-extracted", you are inferring from a symptom — not reading a number.</p>
+
+<p>And the inference can be wrong. At least four different causes produce the same "bitter" symptom:</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Cause</th><th>How to tell it apart</th></tr></thead>
+<tbody>
+<tr><td>Whole-brew over-extraction</td><td>Even bitterness, long finish, no aromatic peak</td></tr>
+<tr><td>Channelling (uneven extraction)</td><td>Sour and bitter at once, bright then dark, a muddled cup</td></tr>
+<tr><td>Local scorching in the bed</td><td>Bitterness at the end of the cup, a burnt finish, usually fines at the bottom</td></tr>
+<tr><td>The bean itself</td><td>Bitter from start to finish, unchanged when you reduce extraction</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Four causes, four different responses — and if you treat cause two by grinding coarser (the fix for cause one), you make it worse.</p>
+
+<h3>The trap of “even extraction”</h3>
+
+<p>There is a concept the industry uses constantly and rarely defines: <strong>even extraction</strong>. It means every coffee particle meets water the same way, for the same time, at the same temperature.</p>
+
+<p>In practice this is never fully true. The bed is a mass of particles of uneven size — from fines to boulders. Water takes the path of least resistance. Some particles extract to 25%, some to 12%. Your cup is the <em>average</em> of a wide distribution.</p>
+
+<p>That is why technique matters: not because it creates flavour, but because it <strong>narrows that distribution</strong>. When the distribution is narrow the cup is clearer, cleaner, and the notes separate. When it is wide you get a cup that is "sour and bitter" with nothing standing out.</p>
+
+<div class="pull">Technique does not create aroma.<br>Technique <em>narrows the distribution</em>.</div>
+
+<h3>To measure, or not</h3>
+
+<p>There is a practical question: do you need a refractometer and a scale?</p>
+
+<p><strong>Scale: yes.</strong> It is the most important piece of gear in brewing, after the kettle. Without a scale you cannot repeat anything. A 0.1 g scale costs about 200,000–400,000 VND, and it turns brewing from an art into something learnable.</p>
+
+<p><strong>Refractometer: no, unless you enjoy data.</strong> It gives you precise EY and TDS. But: (1) it is expensive (2–5 million); (2) it needs calibration and correct sampling technique — a small error and the number is meaningless; (3) it does not tell you whether the cup is good, only whether it sits inside the usual zone.</p>
+
+<p>For most home drinkers, your palate plus a notebook beats a 3-million-dong instrument. A refractometer earns its place when you need to compare methods objectively — for instance while developing a recipe for a café.</p>
+
+<div class="callout act">
+<p class="callout-title">If you only buy one thing</p>
+<p>Buy a scale. Skip everything else. A scale and a notebook are enough to learn 90% of what this book says.</p>
+</div>
+`
     },
 
     "ch-huyen-thoai-thu-tu": {
@@ -632,7 +719,85 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
       lede: "It is the most repeated idea in modern coffee brewing. It is also the least tested.",
       minutes: 11,
       tags: ["extraction", "evidence", "critique"],
-      body: ``
+      body: `
+<p>If you have watched any brewing video in the last ten years, you have heard this or a variation of it:</p>
+
+<blockquote>
+<p>Acids extract first. Sugars extract later. Bitterness extracts last. So if you want to keep the fruit, extract less — stop early, before the bitterness arrives.</p>
+</blockquote>
+
+<p>It sounds convincing. It matches experience: under-extracted cups are sour, over-extracted cups are bitter. It explains a lot. And it is repeated in most training material.</p>
+
+<p>But when you ask <em>where is the evidence</em>, the answer is thin.</p>
+
+<h3>Where this model came from</h3>
+
+<p>It did not come from food science. It came from a 2019 post by Jonathan Gagné on the blog <em>Coffee ad Astra</em>, where he built a kinetic model of espresso extraction. That post is excellent, detailed, and hugely influential.</p>
+
+<p>But Gagné states plainly in that same post that tying extraction rates to specific sensory attributes is <strong>speculation</strong>, and that the model <strong>has not been validated against real data</strong>.</p>
+
+<p>Which means the person who built the model said it was a hypothesis. Ten years on, it is taught as a law.</p>
+
+<div class="callout bad">
+<p class="callout-title">Level of evidence</p>
+<p>The claim that "acids extract first, bitterness last" has no food-science study directly comparing the extraction rate of citric or malic acid with caffeine and chlorogenic acid lactones inside a two-to-four-minute brew <span class="tier tier-c">Folklore</span>. It is a repeated hypothesis, not a finding.</p>
+</div>
+
+<h3>What the data actually shows</h3>
+
+<p>When espresso is split into fractions and each one analysed, the result is clear — but not in the direction the model predicts <span class="tier tier-a">Evidence</span>:</p>
+
+<ul>
+<li><strong>Every compound is highest in the first fraction and falls from there.</strong> No compound "appears later".</li>
+<li><strong>The rates of decline differ.</strong> Trigonelline and TDS fall fastest, then chlorogenic acid (5-CQA), then caffeine falls slowest.</li>
+</ul>
+
+<p>That is evidence for <strong>different extraction rates</strong> — which is true and well established. It is <em>not</em> evidence that acids go first and bitterness last. Caffeine, for instance, barely changes over the course of a shot — meaning it does not "arrive late". It is there from the start.</p>
+
+<h3>A more counter-intuitive finding</h3>
+
+<p>In a study on French press, researchers measured malic, acetic and lactic acid in the cup <span class="tier tier-a">Evidence</span>. Two results stand out:</p>
+
+<ol>
+<li><strong>All three acids sat below their individual detection thresholds.</strong> Chemically they were present — but at concentrations that, on their own, would not produce sourness.</li>
+<li><strong>When the researchers added acids to coffee and brought in trained tasters, the tasters could not identify which acid.</strong> They noticed "more acid", but could not tell citric from malic from acetic.</li>
+</ol>
+
+<p>The consequence is large: <strong>the "sourness" you taste is not "acid X has just been extracted".</strong> It is a composite sensation, produced by the interaction of many compounds, pH, temperature, and your own expectation. Attributing it to one specific compound is an inference — and an inference that does not survive testing.</p>
+
+<div class="callout ok">
+<p class="callout-title">So what is right</p>
+<p>What <em>is</em> right and useful: under-extracted cups are sour and thin; over-extracted cups are bitter and drying. The relationship between <strong>total extraction</strong> and <strong>balance</strong> is real. What is <em>not</em> right: that there is a sequence in time you can exploit to "keep the fruit and leave the bitterness".</p>
+</div>
+
+<h3>Why the myth is so appealing</h3>
+
+<p>Because it hands you control. If acids come first and bitterness last, you only have to stop at the right moment — and you get everything good with nothing bad. That is a very seductive promise to someone trying to brew better.</p>
+
+<p>The reality is less comfortable: you cannot separate them. Everything comes out together, only at different rates. Extract less to keep the acids and you also take less sugar, fewer aroma compounds, and the cup thins. Extract more for the sugars and you also take more bitter compounds. It is not a valve; it is a dial.</p>
+
+<h3>How this changes the way you brew</h3>
+
+<p>If you believe the sequence model, you will spend a great deal of time optimising <em>when to stop</em> — and you will obsess over small changes at the end of the brew.</p>
+
+<p>If you understand that everything comes out together, you focus on the three things that do the large work:</p>
+
+<ol>
+<li><strong>Concentration</strong> — ratio. Linear, predictable, the biggest effect.</li>
+<li><strong>Evenness</strong> — technique. Narrows the extraction distribution. Determines how clear the cup is.</li>
+<li><strong>Total extraction</strong> — grind, temperature, time. A single dial.</li>
+</ol>
+
+<p>Those three. There is no fourth. And no technique "keeps" a particular flavour note — because a note is not a substance you can hold back; it is a sensation produced by a mixture.</p>
+
+<div class="pull">You cannot choose the notes.<br>You can only choose <em>strength, evenness, and extraction level</em>.</div>
+
+<h3>One real exception, and it is small</h3>
+
+<p>There is one place where time genuinely matters, though not because of compound order: <strong>the last stage of the drawdown</strong>. As the bed approaches dry, the remaining water passes through a thin, compressed layer of grounds at a lower temperature, and it can carry compounds that taste dry and astringent. That is why some people discard the last few drops.</p>
+
+<p>But this effect is much smaller than what it is credited with, and it gets confused with a larger one: as the cup cools, bitterness increases <em>without anything more being extracted</em>. That is physiology, not chemistry. Chapter 23 is about this.</p>
+`
     },
 
     "ch-ba-thu-kiem-soat": {
@@ -640,7 +805,94 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
       lede: "Strip away the folklore and what remains is a compact model — and it is enough to do almost all of the work.",
       minutes: 8,
       tags: ["extraction", "model"],
-      body: ``
+      body: `
+<p>The last chapter broke a myth. This one builds a replacement. It is smaller and less exciting, but it holds up.</p>
+
+<h3>The model</h3>
+
+<p>Every pour-over cup can be described along three dimensions:</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Dimension</th><th>The question it answers</th><th>The lever</th><th>Size of effect</th></tr></thead>
+<tbody>
+<tr><td><strong>Concentration</strong></td><td>Strong or weak?</td><td>Coffee-to-water ratio</td><td><strong>Very large, linear</strong></td></tr>
+<tr><td><strong>Extraction level</strong></td><td>How much was taken out?</td><td>Grind, temperature, time</td><td><strong>Large</strong></td></tr>
+<tr><td><strong>Evenness</strong></td><td>Does every part of the bed extract alike?</td><td>Pouring technique, channelling control</td><td>Moderate, but it decides how clear the cup is</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>These three are close to independent. That is what makes them useful: you can change one without wrecking the other two.</p>
+
+<h3>What happens when you change each one</h3>
+
+<h4>Ratio — the cleanest lever</h4>
+
+<p>Go from 1:16 to 1:15 and leave everything else alone: the cup is about 6% stronger. Extraction (EY) barely moves. Evenness barely moves. You changed exactly one variable.</p>
+
+<p>That is why ratio has to be <strong>the first step</strong> whenever you adjust anything. It has no side effects.</p>
+
+<h4>Grind — a strong lever with side effects</h4>
+
+<p>Grind finer: extraction rises (more surface, water stays longer). But at the same time: more fines → paper clogs more easily → more channelling → less evenness.</p>
+
+<p>That is why "grind finer" is dangerous advice for a weak cup. It raises extraction, but it also lowers evenness. The result can be a cup that is both stronger and muddier.</p>
+
+<h4>Temperature — the subtle lever</h4>
+
+<p>Hotter water: faster extraction and greater solubility for compounds that dissolve slowly. The effect is roughly 2–4% of extraction level per 5 °C between 88 and 96 °C.</p>
+
+<p>But temperature also changes what you <em>perceive</em>: a hotter cup releases more aroma (good) and masks bitterness (also good). So temperature acts on two dimensions at once, which is why it is hard to evaluate.</p>
+
+<h4>Pouring — the only lever against channelling</h4>
+
+<p>This is where technique genuinely matters, and the only place it does.</p>
+
+<p>Pour evenly, keep the water level steady, do not pour from too high, do not let the bed dry, rotate the dripper so water passes over the whole surface — none of this raises extraction much. It makes extraction <em>more uniform across the bed</em>.</p>
+
+<p>And that is why technique matters: a cup extracted evenly to 20% tastes far better than a cup averaging 20% while ranging from 12% to 30%.</p>
+
+<div class="callout ok">
+<p class="callout-title">One sentence to remember</p>
+<p><strong>Ratio decides strength. Grind decides extraction. Technique decides evenness.</strong> Three different questions, three different levers, none a substitute for another.</p>
+</div>
+
+<h3>The order of diagnosis</h3>
+
+<p>When a cup is not good, do not start with "what should I change". Start with "which dimension is wrong".</p>
+
+<ol class="steps">
+<li><strong>Is the cup stronger or weaker than you want?</strong><p>If wrong → change the ratio. This is the easiest question and should be answered first. Do not adjust grind for a concentration problem.</p></li>
+<li><strong>Sour-green, vegetal, woody — or bitter, drying, astringent?</strong><p>Sour-green → under-extracted. Bitter-dry → over-extracted. This is the second dimension.</p></li>
+<li><strong>Is the cup clear, or muddled?</strong><p>If nothing stands out and it is sour and bitter at once → the problem is evenness, not extraction level. Change technique, not grind.</p></li>
+</ol>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Symptom</th><th>Dimension off</th><th>Lever</th></tr></thead>
+<tbody>
+<tr><td>Thin, weak, "nothing there"</td><td>Concentration</td><td>Ratio</td></tr>
+<tr><td>Sour-green, vegetal, short finish</td><td>Extraction (low)</td><td>Finer grind / hotter / longer</td></tr>
+<tr><td>Bitter, drying, astringent, long finish</td><td>Extraction (high)</td><td>Coarser grind / cooler / shorter</td></tr>
+<tr><td>Sour and bitter at once, no clear notes</td><td>Evenness</td><td>Pouring technique</td></tr>
+<tr><td>Bitter only at the end of the cup</td><td>Evenness (fines)</td><td>Less agitation, more even grind, do not let the bed dry</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>What this model does not explain</h3>
+
+<p>Honestly, some things sit outside the three dimensions:</p>
+
+<ul>
+<li><strong>Interaction between compounds.</strong> A cup can have enough sugar and enough acid and still not taste good, because the balance between them is wrong. The model does not capture that.</li>
+<li><strong>The effect of expectation.</strong> As chapter 1 said, the information on the bag changes what you taste. That is not a variable in the model.</li>
+<li><strong>Differences between beans in the same bag.</strong> Not every bean is identical — they differ in size, moisture, local roast level. The model assumes an average.</li>
+</ul>
+
+<p>But those three dimensions remain the best tool you have, because they are <strong>right most of the time</strong> and they <strong>tell you what to do next</strong>. A simple model you can use beats a complete model you cannot.</p>
+`
     },
 
     "ch-cupping-la-gi": {
