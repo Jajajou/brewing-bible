@@ -60,5 +60,15 @@ if [ ! -s "$OUT" ]; then
 fi
 
 PAGES="$(printf '%s' "$LOG" | sed -n 's/.*PAGED=\([0-9]*\).*/\1/p')"
+PARTS_LOADED="$(printf '%s' "$LOG" | sed -n 's/.*PARTS=\([0-9]*\).*/\1/p')"
+EXPECTED_PARTS="$(ls "$ROOT"/content/part-*.js | wc -l | tr -d ' ')"
 SIZE="$(du -h "$OUT" | cut -f1)"
-echo "✓ $OUT  ·  ${PAGES:-?} trang  ·  $SIZE"
+
+# Paged.js thin thoảng timeout hoặc một file nội dung không nạp kịp, cho ra PDF
+# thiếu hẳn một phần. Không in "✓" cho những lần đó.
+if [ "${PAGES:-0}" -lt 100 ] || [ "${PARTS_LOADED:-0}" -ne "$EXPECTED_PARTS" ]; then
+  echo "Dựng hỏng: ${PAGES:-0} trang, nạp ${PARTS_LOADED:-0}/$EXPECTED_PARTS phần. Chạy lại ./build-pdf.sh." >&2
+  exit 1
+fi
+
+echo "✓ $OUT  ·  $PAGES trang  ·  $SIZE  ·  $PARTS_LOADED phần"

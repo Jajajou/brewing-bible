@@ -199,7 +199,10 @@
 <p>Bảng dưới đây ghi khẳng định nào dựa vào nguồn nào. "Dẫn được" nghĩa là tìm thấy tài liệu nói đúng điều sách nói, không có nghĩa là tài liệu đó hoàn hảo.</p>
 
 <table>
+<thead>
 <tr><th>Ch.</th><th>Khẳng định cần nguồn</th><th>Nhãn trong sách</th><th>Nguồn</th><th>Kết luận</th></tr>
+</thead>
+<tbody>
 <tr><td>1</td><td>Thông tin trên bao bì làm thay đổi vị bạn nếm</td><td>Bằng chứng</td><td>[15] [16] [17] [18]</td><td>Dẫn được</td></tr>
 <tr><td>2</td><td>Không có định nghĩa chung cho "medium roast"; Agtron có hai biến thể</td><td>—</td><td>[12]–[14] cho phần đo màu</td><td>Một phần</td></tr>
 <tr><td>3</td><td>Trữ đông giữ chất lượng dài hạn</td><td>Bằng chứng</td><td>[22] [23] [24] [25]</td><td>Dẫn được</td></tr>
@@ -231,6 +234,7 @@
 <tr><td>24</td><td>Giải phẫu một ngụm; đường mũi ngược</td><td>—</td><td>sinh lý khứu giác</td><td>Không cần nguồn</td></tr>
 <tr><td>25</td><td>Ngôn ngữ nốt hương và cái bẫy của nó</td><td>—</td><td>[14] [19]</td><td>Một phần</td></tr>
 <tr><td>26–29</td><td>Luyện khẩu vị, nhật ký, dụng cụ, checklist</td><td>—</td><td>phương pháp</td><td>Không cần nguồn</td></tr>
+</tbody>
 </table>
 
 <p>Hai chương cuối cột — 17 và 19 — đứng trên kinh nghiệm của người viết. Điều đó không làm chúng sai; chỉ có nghĩa chúng không phải chỗ để viện dẫn khoa học.</p>

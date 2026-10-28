@@ -3176,7 +3176,10 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <p>The table shows which claim rests on which source. "Citable" means a document was found that says what the book says — not that the document is flawless.</p>
 
 <table>
+<thead>
 <tr><th>Ch.</th><th>Claim that needs a source</th><th>Label in the book</th><th>Source</th><th>Verdict</th></tr>
+</thead>
+<tbody>
 <tr><td>1</td><td>Label information changes what you taste</td><td>Evidence</td><td>[15] [16] [17] [18]</td><td>Citable</td></tr>
 <tr><td>2</td><td>No shared definition of "medium roast"; Agtron has two variants</td><td>—</td><td>[12]–[14] for the colour measurement</td><td>Partly</td></tr>
 <tr><td>3</td><td>Freezing preserves quality long term</td><td>Evidence</td><td>[22] [23] [24] [25]</td><td>Citable</td></tr>
@@ -3208,6 +3211,8 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <tr><td>24</td><td>Anatomy of a sip; retronasal path</td><td>—</td><td>general olfactory physiology</td><td>Needs no source</td></tr>
 <tr><td>25</td><td>Flavour-note language and its trap</td><td>—</td><td>[14] [19]</td><td>Partly</td></tr>
 <tr><td>26–29</td><td>Palate training, log, gear, checklist</td><td>—</td><td>method</td><td>Needs no source</td></tr>
+</tbody>
+</table>
 </table>
 
 <p>The two entries at the bottom — 17 and 19 — stand on the writer's experience. That does not make them wrong; it only means they are not the place to invoke science.</p>
