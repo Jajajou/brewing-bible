@@ -1302,7 +1302,82 @@ Odd:   _______________
       lede: "Every brewer ever made uses one of these two mechanisms, or both. Understanding them is understanding why each dripper gives a different cup.",
       minutes: 9,
       tags: ["physics", "foundations"],
-      body: ``
+      body: `
+<p>There is a very tidy way to classify every brewer ever made: it uses either <strong>immersion</strong> or <strong>percolation</strong>. And most of the differences in character between methods come from exactly this.</p>
+
+<h3>Immersion</h3>
+
+<p>The grounds sit fully submerged. Water does not flow through the bed during extraction. Examples: French press, cupping, AeroPress when steeped.</p>
+
+<p><strong>Characteristics:</strong></p>
+<ul>
+<li><strong>Naturally even extraction.</strong> Every particle meets the same liquid, at the same concentration, at the same temperature. Channelling is impossible.</li>
+<li><strong>Self-limiting.</strong> Once the surrounding water is saturated, extraction slows down. That is a built-in safety mechanism — hard to over-extract.</li>
+<li><strong>Stable temperature.</strong> A large body of water holds heat far better than a thin stream.</li>
+<li><strong>Fewer high notes.</strong> With no airflow and no flow, volatile compounds are less disturbed into the cup. The cup is rounder, heavier, but less bright.</li>
+</ul>
+
+<h3>Percolation</h3>
+
+<p>Water flows through the bed and out. The water is always fresh, always new, always less saturated. Examples: V60, Chemex, Kalita, espresso.</p>
+
+<p><strong>Characteristics:</strong></p>
+<ul>
+<li><strong>Can extract very deeply.</strong> Because the water is always fresh, the concentration gradient is maintained, so extraction does not stop itself. That is why pour over can reach a higher extraction than immersion in the same time.</li>
+<li><strong>Can give more high notes.</strong> Flow and steam stir volatile compounds into the cup. That is why pour over usually shows flowers and fruit more clearly.</li>
+<li><strong>Can be uneven.</strong> Water takes the path of least resistance. If the bed is not uniform, you get channelling.</li>
+<li><strong>Temperature falls.</strong> A thin stream loses heat fast. The cup can be 5–8 °C below the water you poured.</li>
+</ul>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th></th><th>Immersion</th><th>Percolation</th></tr></thead>
+<tbody>
+<tr><td>Cup character</td><td>Round, heavy, even, forgiving</td><td>Bright, separated, can be sharp</td></tr>
+<tr><td>Main risk</td><td>Under-extraction (if time is short)</td><td>Channelling, uneven extraction</td></tr>
+<tr><td>Hard to ruin</td><td>High</td><td>Low</td></tr>
+<tr><td>Control</td><td>Time, temperature</td><td>Time, temperature, pour rate, geometry</td></tr>
+<tr><td>Suits</td><td>Light roasts, difficult coffees, beginners</td><td>Light to medium roasts, high-quality coffee, people who want control</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Why this matters for a Switch</h3>
+
+<p>The Hario Switch is a V60 with a valve at the bottom. Close the valve: immersion. Open it: percolation. That is why it is the most interesting brewer in its price range: it gives you <strong>both mechanisms in one dripper</strong>.</p>
+
+<p>And it gives you something very few brewers can: <strong>an approximate re-creation of a cupping</strong>. Close the valve, pour all the water, wait, then open. That is full immersion — the only difference from cupping is that you filter through paper.</p>
+
+<div class="callout ok">
+<p class="callout-title">This is the key to Part VI</p>
+<p>If you want a pour over that comes closer to a cupping, the most direct route is not copying someone's pouring technique. It is <strong>using more immersion</strong>. A Switch gives you that. A plain V60 does not.</p>
+</div>
+
+<h3>The hybrid cases</h3>
+
+<p>Most brewers are in fact hybrids to some degree:</p>
+
+<ul>
+<li><strong>V60:</strong> percolation, but the bloom stage has a little immersion (water pools in the bed).</li>
+<li><strong>Chemex:</strong> slow percolation, with a tall column of water creating mild pressure. Closer to hybrid than a V60.</li>
+<li><strong>Kalita / flat bottom:</strong> percolation, but the flat base makes the bed more uniform → less channelling than a V60. Close to "even percolation".</li>
+<li><strong>AeroPress:</strong> immersion plus pressure. You can make it percolate by pressing slowly.</li>
+<li><strong>Switch:</strong> both, at your choosing.</li>
+</ul>
+
+<h3>One practical consequence</h3>
+
+<p>If you keep getting cups that are "sour and bitter with no clear notes", that is a sign of uneven percolation. There are two responses:</p>
+
+<ol>
+<li><strong>Fix your technique</strong> so the percolation is more even (see chapters 16 and 18).</li>
+<li><strong>Move toward immersion</strong> — or increase the immersion share of your routine. This is the faster route, and the one I would suggest if you are tired of optimising.</li>
+</ol>
+
+<p>The second is not surrender. It is choosing a mechanism that matches your goal. If your goal is "a pleasant, stable cup without much thinking", immersion is the right mechanism. Percolation is for people who want to extract everything a coffee can give, and are willing to pay for it in inconsistency.</p>
+
+<div class="pull">Immersion forgives.<br>Percolation <em>rewards</em> — but only when you get it right.</div>
+`
     },
 
     "ch-chon-dung-cu": {
@@ -1310,7 +1385,90 @@ Odd:   _______________
       lede: "Every dripper can make good coffee. They differ in how much they forgive, and that is the only thing worth weighing.",
       minutes: 8,
       tags: ["gear"],
-      body: ``
+      body: `
+<p>The gear market is full of promises about "the perfect cup". The reality is simpler: the geometry of the dripper decides how water moves through the bed, and that is all that really differs.</p>
+
+<h3>Three geometric variables</h3>
+
+<h4>1. Base shape</h4>
+
+<p><strong>Conical (V60, Chemex):</strong> the bed forms a cone. Water passes through the deepest part in the middle, where there is most coffee. Which means the centre extracts more and the edges less. That is why pouring technique matters more with a conical dripper.</p>
+
+<p><strong>Flat bottom (Kalita, Origami, Fellow Stagg):</strong> the bed forms a layer of even depth. Water passes through the whole area against fairly uniform resistance. Less channelling, more forgiving — but also less bright, because there is less gradient.</p>
+
+<h4>2. Number and size of holes</h4>
+
+<p>A V60 has one large hole in the middle. A Kalita has three small ones. A Chemex has one wide channel. The number of holes affects drain rate, and therefore contact time.</p>
+
+<p>This explains why the same grind gives different brew times in different drippers — and therefore needs a different grind. There is no "standard pour-over grind"; there is "the grind for your dripper".</p>
+
+<h4>3. Ribs</h4>
+
+<p>The V60's spiral ribs let air out and water down. Fewer ribs → slower flow → more contact time. A small detail with a real effect.</p>
+
+<h3>Comparing the common options</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Brewer</th><th>Mechanism</th><th>Character</th><th>Forgiving?</th><th>Suits</th></tr></thead>
+<tbody>
+<tr><td><strong>Hario V60</strong></td><td>Percolation, conical</td><td>Bright, separated, aromatic</td><td>Low</td><td>Experienced brewers, high-quality coffee</td></tr>
+<tr><td><strong>Hario Switch</strong></td><td>Both</td><td>Up to you — from round to bright</td><td><strong>High</strong></td><td><strong>Almost everyone</strong></td></tr>
+<tr><td><strong>Kalita Wave</strong></td><td>Percolation, flat bed</td><td>Round, even, few faults</td><td>High</td><td>Beginners, medium roasts</td></tr>
+<tr><td><strong>Chemex</strong></td><td>Slow percolation</td><td>Clear, clean, light</td><td>Medium</td><td>Light roasts, brewing for several people</td></tr>
+<tr><td><strong>Origami</strong></td><td>Percolation, conical or flat</td><td>Bright, versatile</td><td>Low–medium</td><td>People who like experimenting</td></tr>
+<tr><td><strong>French press</strong></td><td>Immersion</td><td>Heavy, round, oily</td><td><strong>Very high</strong></td><td>Dark roasts, beginners, fast brewing</td></tr>
+<tr><td><strong>AeroPress</strong></td><td>Immersion + pressure</td><td>Strong, versatile, fast</td><td>High</td><td>One person, quick brews, travel</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>If you only buy one brewer</h3>
+
+<p><strong>Hario Switch.</strong> For concrete reasons, not because it is "the best":</p>
+
+<ul>
+<li>It gives you both mechanisms. You can choose immersion when you want stability, percolation when you want to extract everything.</li>
+<li>It is one of the few brewers that can approximate a cupping — useful for diagnosis (Part IV).</li>
+<li>Its window for success is wide: even when you brew badly, the cup is still drinkable. That matters a great deal when you are learning.</li>
+<li>It uses V60 papers, which are common and cheap.</li>
+</ul>
+
+<p>Downsides: it has a silicone valve to keep clean, and it will not give you the maximum high notes a plain V60 can. For most drinkers that is the right trade.</p>
+
+<h3>About filter paper: do not skip this</h3>
+
+<p>Filter paper affects the cup more than people think. There are two main kinds:</p>
+
+<ul>
+<li><strong>Bleached paper:</strong> neutral, leaves no smell. The default choice.</li>
+<li><strong>Unbleached (natural/brown) paper:</strong> can leave a papery taste if you do not rinse it well. Cheaper, and some people find it gives more body.</li>
+</ul>
+
+<p>Whichever you use, <strong>always rinse the paper with hot water before adding coffee</strong>. Two purposes: remove the papery taste, and warm the dripper to reduce heat loss.</p>
+
+<p>One detail worth noting from a study comparing four methods on the same Kenyan coffee: the <strong>paper</strong> group showed more caramel and floral compounds, while the <strong>metal filter</strong> group showed more fruity and roast compounds <span class="tier tier-b">Plausible</span>. That is one study on one coffee — a tendency, not a law. But the direction is right: paper holds back oils and some compounds, so the cup is cleaner and brighter; metal lets everything through, so the cup is fuller and heavier.</p>
+
+<h3>About scales and kettles</h3>
+
+<p><strong>Scale:</strong> essential. Without one you cannot repeat anything. A 0.1 g scale costs 200,000–400,000 VND and is the most important investment after the dripper.</p>
+
+<p><strong>Kettle:</strong> a gooseneck spout gives you control over the stream, and that is what you actually need. A temperature-controlled electric kettle is better still, but not essential — you can use a normal kettle plus a thermometer, it is just less convenient.</p>
+
+<div class="callout warn">
+<p class="callout-title">One practical warning</p>
+<p>If your kettle cannot recover to the target temperature within 30–60 seconds of pouring off some water, that is a real limitation — and it will affect every recipe that asks for high temperature late in the brew. Knowing your equipment's limits is part of choosing a recipe, not a personal failure.</p>
+</div>
+
+<h3>What you do not need to buy</h3>
+
+<ul>
+<li><strong>A separate thermometer</strong> if your kettle is temperature-controlled.</li>
+<li><strong>A refractometer</strong> (unless you enjoy data — see chapter 7).</li>
+<li><strong>A "premium brewing kit"</strong> — one dripper, one kettle, one scale, one grinder is enough.</li>
+<li><strong>A TDS pen</strong> for water measurement (see chapter 5).</li>
+</ul>
+`
     },
 
     "ch-ky-thuat-rot": {
@@ -1318,7 +1476,126 @@ Odd:   _______________
       lede: "Height, speed, shape, and rhythm. These four are the whole of pouring technique — everything else is a variation.",
       minutes: 11,
       tags: ["technique", "practice"],
-      body: ``
+      body: `
+<p>Pouring technique has a strange property: it matters more than people think, but not for the reason they think. It does not create flavour. It stops you destroying what is already there.</p>
+
+<p>And it only has four variables.</p>
+
+<h3>Variable 1: height</h3>
+
+<p>The distance from the spout to the surface of the bed. This is the most underrated variable of the four.</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Height</th><th>What happens</th><th>Consequence</th></tr></thead>
+<tbody>
+<tr><td><strong>2–4 cm</strong></td><td>The stream lands gently, little disturbance</td><td>Even extraction, little fines migration, safe</td></tr>
+<tr><td><strong>5–8 cm</strong></td><td>Moderate disturbance</td><td>Balanced. The usual range of modern recipes.</td></tr>
+<tr><td><strong>10–15 cm</strong></td><td>The stream has velocity and digs into the bed</td><td><strong>Bores a hole in the centre, splashes grounds onto the walls, drives fines to the bottom</strong></td></tr>
+<tr><td><strong>Above 15 cm</strong></td><td>Very hard to control</td><td>Almost certainly channelling</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Two specific mechanisms make a high pour harmful:</p>
+
+<ol>
+<li><strong>Local erosion.</strong> A stream with kinetic energy digs into the bed and leaves a depression. Water then travels down through that depression — which is the definition of channelling. The bed around it is not extracted to match.</li>
+<li><strong>Grounds splashed onto the paper wall.</strong> Coffee lands above the water line and sticks to the paper. Those particles are never extracted again. You are losing part of the coffee, and you can see it clearly when you look at the dripper after brewing.</li>
+</ol>
+
+<div class="callout act">
+<p class="callout-title">A practical rule</p>
+<p>Keep the spout <strong>3–5 cm</strong> above the bed throughout the pour. As the water level rises, lift the kettle with it. This is a small, free change, and it fixes more problems than any recipe.</p>
+</div>
+
+<h3>Variable 2: speed</h3>
+
+<p>Pour rate decides how fast the water level rises, and therefore how much pressure the bed feels.</p>
+
+<ul>
+<li><strong>Too fast (above 10 g/s):</strong> the water level climbs, the bed is disturbed hard, fines are driven to the bottom → the paper clogs later in the brew.</li>
+<li><strong>Too slow (below 3 g/s):</strong> the water level drops, the edges can dry out, and you lose a lot of heat.</li>
+<li><strong>The good range: 5–8 g/s.</strong> With 250 g of water, each 100 g pour takes about 15–20 seconds.</li>
+</ul>
+
+<p>One trick: use the timer on your scale. If you pour 100 g in 12 seconds, you are at 8 g/s. In 20 seconds, you are at 5 g/s.</p>
+
+<h3>Variable 3: pattern</h3>
+
+<p>The shape you pour onto the surface of the bed.</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Pattern</th><th>Character</th><th>Problem</th></tr></thead>
+<tbody>
+<tr><td><strong>Center pour</strong> (one spot in the middle)</td><td>Simple, easy</td><td>Bores a hole in the centre, the edges never extract. <strong>This is the most common mistake.</strong></td></tr>
+<tr><td><strong>Spiral</strong> (outward from the middle)</td><td>Even, controllable</td><td>Needs practice</td></tr>
+<tr><td><strong>Outside in</strong></td><td>Pushes grounds from the wall toward the middle, prevents dry edges</td><td>Can pile grounds in the centre</td></tr>
+<tr><td><strong>Inside out</strong></td><td>Start in the middle, widen gradually</td><td>Can erode the centre of the bed</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>The best pattern for a beginner: <strong>a spiral from the inside out, stopping about 1 cm short of the paper wall.</strong> The reason: you cover the surface evenly without pushing grounds up the walls.</p>
+
+<p>Do not pour against the paper. Water will run down the wall instead of through the bed — a different form of channelling, and it dilutes the cup without extracting anything.</p>
+
+<h3>Variable 4: rhythm (how many pours, and when)</h3>
+
+<p>Do you pour once, twice, or five times? And do you let the water level drop between pours?</p>
+
+<p><strong>One pour:</strong> fast, but the bed is disturbed once and then compacts. The result is usually uneven.</p>
+
+<p><strong>Several pours:</strong> each pour "opens" the bed and refreshes the contact surface. More even, but more steps.</p>
+
+<p><strong>The important rule:</strong> never let the bed go completely dry between pours. When the bed dries it shrinks and cracks, and the next pour runs straight down those cracks.</p>
+
+<div class="callout ok">
+<p class="callout-title">A practical rhythm</p>
+<p>Keep the water level <strong>from ever dropping below the surface of the bed</strong>. Start the next pour when the water is still about 5 mm above the bed. That is the simplest rule there is, and it solves most rhythm problems.</p>
+</div>
+
+<h3>About stirring and swirling</h3>
+
+<p>Two different motions, and they are not equivalent:</p>
+
+<ul>
+<li><strong>Stir</strong> with a spoon: strong agitation, drives fines to the bottom. Raises extraction noticeably but also raises the risk of clogging.</li>
+<li><strong>Swirl</strong> the whole dripper: a gentle rotation that levels the bed and knocks dry grounds off the wall. Far lower risk.</li>
+</ul>
+
+<p>My advice: <strong>swirl, do not stir.</strong> Swirl after the bloom and after the final pour. If you need more extraction, grind finer before you reach for a spoon.</p>
+
+<h3>Putting it together: a minimum pour routine</h3>
+
+<div class="recipe">
+<div class="recipe-head">A basic pour routine (V60, or Switch with the valve open)<small>This is a frame, not a fixed recipe</small></div>
+<div class="recipe-body">
+<div class="recipe-params">
+<span><b>15 g</b> coffee</span>
+<span><b>240–255 g</b> water</span>
+<span><b>92–94 °C</b></span>
+<span><b>2:30–3:00</b> total</span>
+</div>
+<ol class="steps">
+<li><strong>Bloom — 3× the coffee's mass</strong><p>45 g of water (for 15 g of coffee). Pour evenly, swirl the dripper gently, wait 40 seconds. Purpose: drive off CO₂.</p></li>
+<li><strong>Pour 2 — up to about 60% of total</strong><p>Spiral from inside out, 3–5 cm high, 5–7 g/s. Stop at around 150 g.</p></li>
+<li><strong>A short pause</strong><p>Wait until the water is about 5 mm above the bed. Do not let it dry.</p></li>
+<li><strong>Pour 3 — up to the total</strong><p>Same pattern, same speed. Up to 240–255 g.</p></li>
+<li><strong>Swirl and drain</strong><p>Swirl the dripper once to level the bed. Let it drain fully.</p></li>
+</ol>
+</div>
+</div>
+
+<h3>What technique cannot do</h3>
+
+<p>To end this chapter with an uncomfortable truth: <strong>no pouring technique can create a flavour note the bean does not have.</strong></p>
+
+<p>You can make a cup cleaner, more even, clearer, stronger, or brighter. You cannot make a medium-roast Catimor smell of apricot. You cannot make a 60-day-old bag taste of flowers.</p>
+
+<p>That is why pouring technique comes third in the order of priority: after water, and after grind. It is the last lever, not the first.</p>
+`
     },
 
     "ch-giai-phau-cong-thuc": {
@@ -1326,7 +1603,89 @@ Odd:   _______________
       lede: "Every famous recipe is an answer to a specific question. Know the question and you will know when to use it.",
       minutes: 10,
       tags: ["recipes", "analysis"],
-      body: ``
+      body: `
+<p>Hundreds of pour-over recipes are shared every year. Most are variations on four or five basic ideas. If you understand those ideas, you do not need to memorise any recipe.</p>
+
+<h3>Idea 1: many small pours (Hoffmann)</h3>
+
+<p>James Hoffmann proposes a five-pour routine, roughly 50 g each, with a swirl at the end. The logic: frequent pours keep the water level steady, refresh the bed surface repeatedly, and reduce channelling.</p>
+
+<p><strong>Strengths:</strong> even, repeatable, stable. <strong>Weaknesses:</strong> many steps, and the low pour height (he advises pouring close) means fewer high notes.</p>
+
+<p><strong>Use it when:</strong> you want a stable, reproducible cup with few faults. A good recipe for beginners and for daily brewing.</p>
+
+<h3>Idea 2: one or two large pours (Hedrick)</h3>
+
+<p>Lance Hedrick proposes recipes with fewer pours, a larger volume each time, often combined with stirring or a firm swirl. The logic: fewer pours → less disturbance of the bed → less fines migration → less clogging → you can grind finer → deeper extraction without bitterness.</p>
+
+<p><strong>Strengths:</strong> can reach a high extraction with a clean cup. <strong>Weaknesses:</strong> needs good control, and it is sensitive to grind.</p>
+
+<p><strong>Use it when:</strong> you have a very light roast that needs deep extraction, or your technique is settled and you want maximum yield.</p>
+
+<h3>Idea 3: splitting the ratio by purpose (4:6)</h3>
+
+<p>Tetsu Kasuya proposes splitting the total water into two parts: 40% for the first stage and 60% for the second. The logic: the first stage decides <strong>acidity and sweetness</strong> (in his theory), the second decides <strong>strength</strong>.</p>
+
+<p>It is the most famous recipe and the most misunderstood. Kasuya himself presents it as a system for <em>adjusting</em> to taste, not as a fixed recipe: change the 40/60 split to change the flavour, change the number of pours inside the 60% to change the strength.</p>
+
+<div class="callout warn">
+<p class="callout-title">Level of evidence</p>
+<p>The claim that "the first 40% decides acidity and sweetness, the last 60% decides strength" is a <strong>working model</strong>, not a chemical finding <span class="tier tier-c">Folklore</span>. It is useful because it gives you an organised way to adjust — but do not treat it as a chemically accurate description (see chapter 8).</p>
+</div>
+
+<p><strong>Use it when:</strong> you want a system for directed adjustment, and you like a structured approach.</p>
+
+<h3>Idea 4: steep, then release (hybrid / Switch)</h3>
+
+<p>Close the valve, pour all the water, wait, then open. The logic: combine the strengths of immersion (even, forgiving) with the strengths of paper filtration (clean, no sediment).</p>
+
+<p><strong>Strengths:</strong> very forgiving, close to cupping, highly stable. <strong>Weaknesses:</strong> fewer high notes than pure percolation; and the release stage can clog if the grind is too fine.</p>
+
+<p><strong>Use it when:</strong> you want a pleasant, stable cup; you are brewing a difficult coffee; or you are diagnosing (because it is the closest thing to cupping).</p>
+
+<h3>Idea 5: fine grind, short time</h3>
+
+<p>Some modern recipes use a finer grind than usual with a shorter time and more stirring. The logic: more surface → faster extraction → you can stop earlier → less time for slow-dissolving bitter compounds to arrive.</p>
+
+<p><strong>Strengths:</strong> can give a very clear, aromatic cup. <strong>Weaknesses:</strong> the window is very narrow — a little off and it clogs or turns bitter. Not recommended for beginners.</p>
+
+<h3>Comparison</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Idea</th><th>The question it answers</th><th>Main risk</th></tr></thead>
+<tbody>
+<tr><td>Many small pours</td><td>“How do I make this stable?”</td><td>Fewer high notes, many steps</td></tr>
+<tr><td>One or two large pours</td><td>“How do I extract deeply without bitterness?”</td><td>Sensitive to grind</td></tr>
+<tr><td>40/60 split</td><td>“How do I adjust systematically?”</td><td>The model has no chemical basis</td></tr>
+<tr><td>Steep, then release</td><td>“How do I make this forgiving?”</td><td>Fewer high notes, can clog</td></tr>
+<tr><td>Fine plus fast</td><td>“How do I extract everything?”</td><td>Narrow window, easy to ruin</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>How to read a new recipe</h3>
+
+<p>When you find a recipe online, do not ask "is it good". Ask four questions:</p>
+
+<ol class="steps">
+<li><strong>Which mechanism does it use?</strong><p>Immersion, percolation, or a hybrid? That tells you the character to expect.</p></li>
+<li><strong>What problem was it solving?</strong><p>Most recipes exist to solve a specific problem the author had — usually with one brewer, one kind of coffee, or one kind of water. Is your problem the same?</p></li>
+<li><strong>Does it depend on equipment?</strong><p>Exact temperatures, exact pour rates — these depend on your kettle and your hand. If your kettle cannot reach that temperature, the recipe is not for you.</p></li>
+<li><strong>How many variables does it have?</strong><p>More steps means harder to reproduce. If your brewing is not yet stable, choose a recipe with fewer variables.</p></li>
+</ol>
+
+<div class="callout ok">
+<p class="callout-title">The truth about recipes</p>
+<p>The difference between good recipes, with everything else held constant, is usually smaller than the difference made by <strong>water</strong> or by <strong>one notch of grind</strong>. Do not change recipe to fix a water or grind problem.</p>
+</div>
+
+<h3>What I would advise</h3>
+
+<p>Choose <strong>one</strong> recipe as your base. Learn it until you can brew it without looking at a timer. Only then try another — and when you do, hold everything else constant, so you know where the difference came from.</p>
+
+<p>Jumping between recipes every week is the fastest way to learn nothing. You end up with twelve experiences and no data.</p>
+`
     },
 
     "ch-doc-ba": {
@@ -1334,7 +1693,93 @@ Odd:   _______________
       lede: "Your palate will lie to you. The bed will not. It is the only part of the process that tells you the truth.",
       minutes: 8,
       tags: ["diagnosis", "practice"],
-      body: ``
+      body: `
+<p>After the brew, before you wash the dripper, look at the bed. It is a physical record of what happened — and it is unaffected by expectation, tiredness, or whatever you read on the bag.</p>
+
+<h3>Four things to look at</h3>
+
+<h4>1. Surface shape</h4>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>What you see</th><th>What it means</th><th>What to do</th></tr></thead>
+<tbody>
+<tr><td>Flat, even, slightly concave in the middle</td><td><strong>Even extraction.</strong> This is the target.</td><td>Change nothing.</td></tr>
+<tr><td>A deep hole in the middle, like a crater</td><td>Channelling from a centre pour</td><td>Lower the pour height, switch to a spiral</td></tr>
+<tr><td>Grounds pushed into a ring at the rim, the middle empty</td><td>Water ran down the paper wall instead of through the bed</td><td>Do not pour against the wall; swirl the dripper</td></tr>
+<tr><td>An uneven surface with cracks</td><td>The bed dried out between pours</td><td>Start the next pour sooner</td></tr>
+<tr><td>The bed leans to one side</td><td>The dripper is not level, or you poured off-centre</td><td>Reset the dripper; pour symmetrically</td></tr>
+</tbody>
+</table>
+</div>
+
+<h4>2. Dry patches</h4>
+
+<p>Dry grounds at the edge mean that part of the coffee was never extracted. This is a very common fault and easy to fix: you need to cover the whole surface with water, and swirl the dripper so the dry grounds on the wall fall back in.</p>
+
+<p>But there is one exception: a thin ring of dry grounds high up on the paper is <strong>normal</strong> — that is coffee splashed up during pouring. It only becomes a problem when the layer is thick, or when it sits near the surface of the bed.</p>
+
+<h4>3. Colour and moisture</h4>
+
+<ul>
+<li><strong>Evenly damp, uniform brown</strong> → good.</li>
+<li><strong>Dark patches and pale patches</strong> → uneven extraction. The pale areas are the ones that were never extracted.</li>
+<li><strong>Very dark, almost black, dense</strong> → possibly too fine a grind, or too long an extraction.</li>
+<li><strong>Pale, loose, dry as sand</strong> → clearly under-extracted.</li>
+</ul>
+
+<h4>4. Drawdown time</h4>
+
+<p>This is the most useful diagnostic number, and you can measure it with a timer.</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Drawdown (after the final pour)</th><th>What it means</th></tr></thead>
+<tbody>
+<tr><td>Under 30 seconds</td><td>Grind too coarse, or heavy channelling (water escaping by a shortcut)</td></tr>
+<tr><td>30–60 seconds</td><td>Normal for most recipes</td></tr>
+<tr><td>60–90 seconds</td><td>A little slow — grind slightly too fine, or a lot of fines</td></tr>
+<tr><td>Over 90 seconds</td><td>Clogged. Grind coarser, or agitate less.</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Note that <em>total</em> drawdown (first pour to last drop) matters more than the final stage alone. But the final stage is where clogging shows most clearly.</p>
+
+<h3>Three typical beds</h3>
+
+<h4>Sample A — flat bed, evenly damp, 45-second drawdown</h4>
+<p><strong>Diagnosis:</strong> even extraction. If the cup is still not good, the problem is not technique. Check the water, the grind (total extraction), or the coffee itself.</p>
+
+<h4>Sample B — a hole in the middle, dry patches at the rim, 25-second drawdown</h4>
+<p><strong>Diagnosis:</strong> heavy channelling. Water ran down the central hole and most of the bed was never extracted. The cup will be sour (the unextracted part) and bitter (the centre, over-extracted).</p>
+<p><strong>Fix:</strong> drop the pour height to 3–5 cm, switch to a spiral, swirl the dripper after the bloom. Do not change grind first — you would be hiding a technique fault behind another variable.</p>
+
+<h4>Sample C — flat bed but a two-minute drawdown, muddy surface</h4>
+<p><strong>Diagnosis:</strong> clogging from fines. The bed is even but the water cannot get out. The cup will be bitter and drying, because contact time is too long at a falling temperature.</p>
+<p><strong>Fix:</strong> grind one notch coarser. If your grinder produces a lot of fines (a blade grinder), that is a limit of the equipment, not of your technique.</p>
+
+<div class="callout act">
+<p class="callout-title">A ten-second habit</p>
+<p>Before you wash the dripper, photograph the bed. After ten brews you will have a set to compare — and you will recognise your own patterns faster than any table.</p>
+</div>
+
+<h3>About grinders: the most important limit</h3>
+
+<p>There is a truth beginners are rarely told: <strong>a blade grinder cannot give you a stable cup.</strong> It does not grind evenly — it shatters, producing a mixture of dust and chunks. The particle distribution is so wide that no technique can compensate.</p>
+
+<p>If you are using a blade grinder, your priority order is different from someone with a burr grinder:</p>
+
+<ol>
+<li><strong>A burr grinder</strong> — the highest-impact investment after water.</li>
+<li><strong>Water</strong> — free, or nearly free.</li>
+<li><strong>Technique</strong> — only works once the first two are settled.</li>
+</ol>
+
+<p>That is why I said in chapter 3 that the order is water → grind → freshness. "Grind" there includes the <em>quality</em> of the grind, not just the setting number.</p>
+
+<div class="pull">The bed is evidence.<br>The cup is <em>testimony</em>.</div>
+`
     },
 
     "ch-bang-chan-doan": {
@@ -1342,7 +1787,79 @@ Odd:   _______________
       lede: "A table to consult when you do not know what to do next. Print it and tape it next to your brewer.",
       minutes: 7,
       tags: ["diagnosis", "reference"],
-      body: ``
+      body: `
+<p>This chapter is a reference. Do not read it straight through — come back to it when you have a cup that is not right and you do not know where to start.</p>
+
+<h3>The rule: one change at a time</h3>
+
+<p>This is the most important rule and the most often broken. Change two things at once and the cup improves, and you do not know which one helped. If it gets worse, you do not know which one hurt.</p>
+
+<p>The procedure: <strong>change one thing → brew → write it down → brew again to confirm.</strong> Three brews per change. That is the price of learning something.</p>
+
+<h3>The main table</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Symptom</th><th>Likely cause</th><th>First lever</th><th>Second lever</th></tr></thead>
+<tbody>
+<tr><td>Thin, "nothing there", like weak tea</td><td>Low concentration</td><td><strong>Ratio</strong> (less water or more coffee)</td><td>Finer grind</td></tr>
+<tr><td>Sour-green, vegetal, raw grain</td><td>Under-extracted</td><td><strong>Finer grind</strong></td><td>1–2 °C hotter</td></tr>
+<tr><td>Bitter, drying, astringent</td><td>Over-extracted</td><td><strong>Coarser grind</strong></td><td>1–2 °C cooler</td></tr>
+<tr><td>Sour and bitter at once, no clear notes</td><td>Uneven extraction (channelling)</td><td><strong>Pouring technique</strong>: lower height, spiral</td><td>Swirl the dripper after the bloom</td></tr>
+<tr><td>Bitter only at the end of the cup, burnt finish</td><td>Fines scorching at the bottom</td><td><strong>Less agitation</strong></td><td>Coarser grind; a better grinder</td></tr>
+<tr><td>Sharp sourness, astringent, metallic</td><td>Water with too little buffer (alkalinity too low)</td><td><strong>Add minerals to the water</strong></td><td>Lower the temperature</td></tr>
+<tr><td>Flat, no fruit, bitter base</td><td>Water too alkaline</td><td><strong>Dilute the water with RO</strong></td><td>—</td></tr>
+<tr><td>Drains too fast (&lt; 30 s)</td><td>Grind too coarse, or channelling</td><td><strong>Finer grind</strong></td><td>Check the bed to rule out channelling</td></tr>
+<tr><td>Drains too slowly (&gt; 90 s)</td><td>Clogged by fines</td><td><strong>Coarser grind</strong></td><td>Less agitation; change the filter paper</td></tr>
+<tr><td>Lovely aroma but an empty finish</td><td>Under-extracted at the end of the brew</td><td><strong>Slightly hotter</strong></td><td>Slightly longer</td></tr>
+<tr><td>Good hot, bad as it cools</td><td>The finish has a problem</td><td><strong>Extract less</strong> (coarser)</td><td>Check the coffee itself</td></tr>
+<tr><td>Unchanged no matter what you adjust</td><td>The problem is the water or the coffee</td><td><strong>Check the water</strong></td><td>Compare against a cupping</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Secondary table: problems by brewer</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Brewer</th><th>Characteristic problem</th><th>How to handle it</th></tr></thead>
+<tbody>
+<tr><td>V60</td><td>Channelling, grounds climbing the wall</td><td>Lower the height; pour spirals; swirl; never pour against the wall</td></tr>
+<tr><td>Kalita</td><td>Slow drawdown (three small holes)</td><td>Coarser grind; do not pour too fast</td></tr>
+<tr><td>Chemex</td><td>Thick paper holds back aroma; slow drawdown</td><td>Coarser grind; hotter water</td></tr>
+<tr><td>Switch</td><td>Clogs when the valve opens if the grind is too fine</td><td>Coarser grind; open the valve gradually</td></tr>
+<tr><td>French press</td><td>Sediment, mud at the bottom</td><td>Coarse grind; pour slowly; let it settle before pressing</td></tr>
+<tr><td>AeroPress</td><td>Sour if you press too fast</td><td>Press slowly (20–30 s); steep longer</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>The decision tree</h3>
+
+<p>If you do not want to read tables, use this:</p>
+
+<ol class="steps">
+<li><strong>Is the cup as strong as you want?</strong><p>No → change the ratio. Stop. This is the first question because it is independent of everything else.</p></li>
+<li><strong>Look at the bed. Is it even?</strong><p>Not even (a hole, dry patches, a slope) → fix the pouring technique. Stop. Do not change the grind.</p></li>
+<li><strong>Even bed, but the cup is sour-green?</strong><p>→ Finer grind, or hotter water.</p></li>
+<li><strong>Even bed, but the cup is bitter and drying?</strong><p>→ Coarser grind, or cooler water.</p></li>
+<li><strong>Even bed, balanced cup, still not good?</strong><p>→ The problem is not the brew. Check the water, compare against a cupping, or accept that this is the coffee.</p></li>
+</ol>
+
+<div class="callout ok">
+<p class="callout-title">Step 5 is the most important one</p>
+<p>A great many people get stuck at step 5 without noticing. They keep adjusting, and every adjustment moves the cup away from its best point. If you have reached step 5, stop. You are not short of technique — you are drinking this coffee as it is.</p>
+</div>
+
+<h3>What not to do</h3>
+
+<ul>
+<li><strong>Change grind to fix concentration.</strong> If the cup is weak, change the ratio. A finer grind makes it slightly stronger, but also easier to clog and easier to make bitter.</li>
+<li><strong>Change recipe to fix a pouring fault.</strong> If you have channelling, the new recipe will have channelling too.</li>
+<li><strong>Trust "tips" with no mechanism.</strong> If someone says "pour in a figure eight to increase sweetness", ask: by what mechanism? If there is no answer, skip it.</li>
+<li><strong>Adjust while tired, or after drinking other coffee.</strong> Your palate is affected by what you have just eaten or drunk. Early morning, before eating, is when it is sharpest.</li>
+</ul>
+`
     },
 
     "ch-quy-trinh-con-ca-moi": {
