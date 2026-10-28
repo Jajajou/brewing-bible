@@ -2256,7 +2256,112 @@ Likely problem:  ____________________
       lede: "Most of the aroma you perceive does not come from your nose. It comes from the back of your mouth. Understanding this is understanding why one cup gives two different experiences.",
       minutes: 9,
       tags: ["sensory", "physiology"],
-      body: ``
+      body: `
+<p>There is a strange gap between cupping and pour over that no technique explains. You brew a cup with the right recipe, the right temperature, the right ratio — and it still does not open up the way the cupping did. Then you find the cause is not in the dripper at all. It is in how you lift the cup to your mouth.</p>
+
+<h3>Two routes for aroma</h3>
+
+<p>When you sniff, you use <strong>orthonasal olfaction</strong> — air enters through the nose and rises to the olfactory organ.</p>
+
+<p>When you eat or drink, there is a second route: <strong>retronasal olfaction</strong>. Volatile compounds from food in the mouth travel up the back of the throat and into the nose from behind. The brain does not distinguish between the two routes — it attributes both to "taste".</p>
+
+<p>And here is the important part: <strong>when you drink, most of what you call "flavour" is actually smell, travelling by the retronasal route.</strong> The tongue detects only five basic tastes: sweet, sour, salty, bitter, umami. Everything more complex — caramel, apricot, tea, flowers — is olfaction.</p>
+
+<div class="callout ok">
+<p class="callout-title">An experiment you can run on yourself</p>
+<p>Pinch your nose, take a mouthful of coffee, and keep your nose pinched while you swallow. All you will taste is: slightly bitter, slightly sour, and a sense of strength. No caramel, no fruit. Then let go — and the whole aroma rushes in at once. That is direct proof that flavour travels through the nose, not the tongue.</p>
+</div>
+
+<h3>Why the slurp works</h3>
+
+<p>A slurp (drawing hard, making a noise) does three things at once:</p>
+
+<ol>
+<li><strong>It increases surface area.</strong> The coffee is broken into very small droplets. The evaporating area multiplies many times over, so more volatiles are released in the same time.</li>
+<li><strong>It increases airflow.</strong> Air is drawn in with the coffee, carrying volatiles up to the back of the throat.</li>
+<li><strong>It spreads the coffee across the tongue.</strong> The coffee meets the whole surface of the tongue and mouth, not just the tip.</li>
+</ol>
+
+<p>Take a small sip and swallow, and you get a fraction of that effect. The reason is mechanics — not psychology, not ritual.</p>
+
+<h3>Temperature: three zones, three kinds of information</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Temperature</th><th>Aroma</th><th>Taste</th><th>Use it for</th></tr></thead>
+<tbody>
+<tr><td><strong>70–80 °C</strong></td><td>Strongest</td><td>Bitterness partly masked</td><td>Identifying aroma</td></tr>
+<tr><td><strong>55–65 °C</strong></td><td>Still clear</td><td>Most balanced</td><td><strong>Enjoying the cup</strong></td></tr>
+<tr><td><strong>35–45 °C</strong></td><td>Weak, heavier notes</td><td>Bitter, sour and astringent most obvious</td><td><strong>Diagnosing faults</strong></td></tr>
+</tbody>
+</table>
+</div>
+
+<p>That is why the cupping method asks you to taste at three temperatures. Not to "taste thoroughly" — but because each temperature gives information the others do not.</p>
+
+<div class="callout warn">
+<p class="callout-title">Why coffee tastes more bitter when it cools</p>
+<p>Not because "more has been extracted" — extraction has finished. Two reasons: (1) the volatiles have escaped, so what remains (bitter, sour, astringent) carries more weight in perception; (2) some bitter receptors are more sensitive at lower temperatures. This is physiology, not chemistry.</p>
+</div>
+
+<h3>Three layers of a sip</h3>
+
+<p>When you taste, split the sensation into three layers in time:</p>
+
+<h4>Layer 1 — 0 to 1 second: the attack</h4>
+
+<p>The first impression. Usually acidity or front-of-mouth aroma. This is where you notice "familiar or strange".</p>
+
+<p>The question: <em>Ripe or cooked?</em> (Bright acidity versus heavy sweetness.)</p>
+
+<h4>Layer 2 — 1 to 3 seconds: mid-palate</h4>
+
+<p>Fullness, thickness, texture. This is where you feel body and balance.</p>
+
+<p>The question: <em>Full or thin? Is anything dominating?</em></p>
+
+<h4>Layer 3 — after swallowing: the finish</h4>
+
+<p>This is the most important layer and the most skipped. Swallow, wait thirty seconds, then pay attention.</p>
+
+<p>The question: <em>What is left? For how long? And is it pleasant?</em></p>
+
+<div class="callout act">
+<p class="callout-title">A thirty-second exercise</p>
+<p>Take a mouthful. Swallow. Put the cup down. Count to thirty in your head without drinking more. Then answer: what is still in your mouth? That is the finish. If the answer is "nothing left" — the cup is thin, or under-extracted. If it is "still bitter" — over-extracted, or the bean itself.</p>
+</div>
+
+<h3>Mouthfeel: the forgotten layer</h3>
+
+<p>Body is not a flavour. It is a physical sensation:</p>
+
+<ul>
+<li><strong>Thickness:</strong> like tea, like milk, or like syrup?</li>
+<li><strong>Texture:</strong> smooth or grippy?</li>
+<li><strong>Heat:</strong> a slight burning at the back of the throat? (A sign of high concentration or over-extraction.)</li>
+<li><strong>Drying:</strong> after swallowing, is the mouth dry or moist? Dryness signals tannins and astringent compounds.</li>
+</ul>
+
+<p>Body is one of the six items on the SCA scale, and it is the hardest to improve with technique — it is mostly decided by the bean and by processing (naturals give more body than washed; Robusta more than Arabica).</p>
+
+<h3>About what we call “flavour”</h3>
+
+<p>One thing needs saying clearly, because it explains a lot of confusion: <strong>coffee does not "have an apricot flavour"</strong>. There is no apricot molecule in coffee. What you call "apricot" is a combination of volatile compounds that your brain has learned to associate with apricots — through the experience of eating them.</p>
+
+<p>Two consequences:</p>
+<ul>
+<li><strong>Two people can taste two different things</strong> from the same cup, and both be right — their associations differ.</li>
+<li><strong>You can learn to taste better.</strong> Not by memorising vocabulary, but by widening your store of associations: eat more kinds of fruit, drink more kinds of tea, pay attention to smells in daily life.</li>
+</ul>
+
+<div class="pull">The tongue knows five tastes.<br>Everything else is <em>memory</em>.</div>
+
+<h3>A note on palate fatigue</h3>
+
+<p>Your palate dulls during a tasting session. After three or four cups you start losing sensitivity — especially to bitterness and sourness. That is why professional cuppings limit the number of samples, and provide water and plain crackers to reset.</p>
+
+<p>At home: if you are testing and comparing, do it in the morning, before eating, and limit yourself to three cups. After three, you start guessing instead of tasting.</p>
+`
     },
 
     "ch-ngon-ngu-not-huong": {
@@ -2264,7 +2369,101 @@ Likely problem:  ____________________
       lede: "A flavour wheel is a communication tool, not a tasting tool. Confusing the two is the source of a great deal of disappointment.",
       minutes: 8,
       tags: ["sensory", "critique"],
-      body: ``
+      body: `
+<p>There is an almost universal experience for anyone new to specialty coffee: you buy a bag that says "apricot, jasmine, honey". You brew it. You taste it. You find no apricot, no jasmine, no honey. You conclude that your palate is poor, or that the roaster lied.</p>
+
+<p>Both conclusions are wrong. The problem is somewhere else.</p>
+
+<h3>A flavour note is a metaphor, not an ingredient</h3>
+
+<p>There is no apricot molecule in coffee. No jasmine molecule either. What we call "apricot" is a combination of volatile compounds — esters, lactones, aldehydes — that your brain has learned to associate with apricots.</p>
+
+<p>Which means: <strong>"apricot" is a neural association, not a measurement.</strong> And that association depends on how many ripe apricots you have eaten, which kind, and where.</p>
+
+<p>The consequence: two people can taste two different things from the same cup, and both be right. There is no "correct answer".</p>
+
+<h3>Three traps</h3>
+
+<h4>Trap 1 — the effect of information</h4>
+
+<p>This is the best-evidenced trap. In sensory studies, when tasters are told the origin and processing, their assessments shift toward what they expect <span class="tier tier-a">Evidence</span>.</p>
+
+<p>Which means: if the bag says "apricot", you are more likely to find apricot — even when it is not there, or is there at a level you would not notice without the prompt.</p>
+
+<p>You are not being fooled. This is how the brain works: taste is not separate from knowledge.</p>
+
+<h4>Trap 2 — vocabulary runs ahead of sensation</h4>
+
+<p>When you learn a new word ("bergamot", "blackcurrant"), you start finding it everywhere. Not because it occurs more often, but because you now have a label to attach to a sensation you previously ignored.</p>
+
+<p>This works in both directions: it makes you more sensitive (good), but it also makes you <strong>over-label</strong> (bad). You start tasting with vocabulary instead of with your tongue.</p>
+
+<h4>Trap 3 — the flavour wheel as a checklist</h4>
+
+<p>The SCA flavour wheel has hundreds of entries. Beginners often use it as a checklist: "how many of these can I taste?"</p>
+
+<p>That is the wrong use. The flavour wheel was designed for <strong>communication</strong> — so two people can discuss a cup without being in the same room. It was not designed for tasting.</p>
+
+<div class="callout ok">
+<p class="callout-title">The right way round</p>
+<p>Taste first, with no vocabulary. Write it in your own language — "like the almond biscuit my mother makes", "like dried orange peel". Only afterwards, if you want, look up the standard word. In that order, never the reverse.</p>
+</div>
+
+<h3>So why do people still use flavour notes</h3>
+
+<p>Because they are useful for three specific jobs:</p>
+
+<ol>
+<li><strong>Communication.</strong> "Red fruit" conveys more than "nice".</li>
+<li><strong>Memory.</strong> If you write "apricot, black tea, honey" for a coffee, you can recall it six months later.</li>
+<li><strong>Diagnosis.</strong> Some notes are signals: "raw vegetable" → under-extracted. "Paper" → stale coffee. "Mould" → bad storage.</li>
+</ol>
+
+<p>But none of those three is "measuring how good it is". They are tools, not a scale.</p>
+
+<h3>Why bag notes are often right — and often wrong</h3>
+
+<p>Roasters describe notes from their own cupping, usually with several tasters. So the description is usually <em>not wrong</em> — it is <strong>the description of a specific group of people, under specific conditions</strong>.</p>
+
+<p>Three reasons it does not match your experience:</p>
+
+<ul>
+<li><strong>Your water is different.</strong> If your alkalinity is high, fruit acids are neutralised — and the "apricot" disappears before any other note. This is the most common cause.</li>
+<li><strong>Your brewing is different.</strong> Cupping shows aroma more clearly than pour over. Bag notes are usually written from a cupping, not from a pour over.</li>
+<li><strong>Your associations are different.</strong> If you have never eaten a blackcurrant, you will not find one.</li>
+</ul>
+
+<div class="callout warn">
+<p class="callout-title">A warning sign</p>
+<p>If a bag lists four or five very specific and very different notes ("strawberry, rose, honey, almond, black tea"), treat that as marketing rather than description. Trustworthy descriptions tend to be short and mid-level: "red fruit, sweet, tea-like finish".</p>
+</div>
+
+<h3>How to describe a cup without flavour vocabulary</h3>
+
+<p>If you do not want to learn three hundred words, here is a minimum vocabulary — four axes, two poles each:</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Axis</th><th>Pole A</th><th>Pole B</th></tr></thead>
+<tbody>
+<tr><td>Brightness</td><td>Fresh, bright, has acidity</td><td>Ripe, heavy, little acidity</td></tr>
+<tr><td>Fullness</td><td>Full, round, has body</td><td>Thin, light, tea-like</td></tr>
+<tr><td>Aroma direction</td><td>Roast side (caramel, nuts, bread)</td><td>Origin side (fruit, flowers, tea)</td></tr>
+<tr><td>Finish</td><td>Clean, short, pleasant</td><td>Heavy, long, bitter or drying</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Those four axes are enough to describe almost any cup, and enough to compare brews. More importantly: they <strong>do not depend on personal associations</strong>, so they are far more stable than flavour notes.</p>
+
+<div class="pull">Flavour notes are <em>poetry</em>.<br>The four axes are <em>data</em>.</div>
+
+<h3>Something to let go of</h3>
+
+<p>If you cannot taste the notes on the bag, and the cup is still good — you are not missing anything. You are drinking coffee, not sitting an exam.</p>
+
+<p>Flavour notes are an interesting skill to develop, but they are not a condition for enjoyment. Plenty of people have drunk excellent coffee for forty years without ever saying "bergamot".</p>
+`
     },
 
     "ch-xay-khau-vi": {
@@ -2272,7 +2471,102 @@ Likely problem:  ____________________
       lede: "You do not need to know what you like before you start. You need three choices and a notebook.",
       minutes: 8,
       tags: ["palate", "method"],
-      body: ``
+      body: `
+<p>There is a question a great many people get stuck on: <em>"How do I know what I want?"</em></p>
+
+<p>The answer is a little counter-intuitive: <strong>you do not find out by thinking. You find out by choosing, then reading back what you chose.</strong></p>
+
+<h3>Why asking yourself does not work</h3>
+
+<p>When you ask "what coffee do I like", you are asking a system that has no access to the answer. Preference is not a fact stored in your head — it is a <em>pattern</em> in your behaviour, and you only see it from the outside.</p>
+
+<p>On top of that, your answer is influenced by what you <em>think</em> you should like. If you have read a lot about Ethiopian coffee, you will say you like floral notes — even if what you actually enjoy is a dark roast.</p>
+
+<h3>Three choices</h3>
+
+<p>This is the simplest and most effective method. No equipment, no knowledge, and it works.</p>
+
+<ol class="steps">
+<li><strong>Choose between two</strong><p>Brew two cups from two different coffees. You do not need to know what they are. Pick the one you prefer. Write it down: "A beat B".</p></li>
+<li><strong>Repeat, with a new challenger</strong><p>Next time, A faces C. Then the winner faces D. After five or six rounds you have a ranking.</p></li>
+<li><strong>Read it back two weeks later</strong><p>Look at the sequence of choices. You will see a pattern you did not notice while choosing.</p></li>
+</ol>
+
+<div class="callout ok">
+<p class="callout-title">Why comparison beats scoring</p>
+<p>Scoring ("this cup is 7/10") requires a stable internal scale — and you do not have one. Comparison ("this cup is better than that one") requires only a relative judgement, which humans are very good at. That is why professional sensory tests use paired comparison.</p>
+</div>
+
+<h3>Four axes of palate</h3>
+
+<p>Once you have a sequence of choices, read it along four axes (from chapter 24):</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Axis</th><th>If you lean to pole A</th><th>If you lean to pole B</th></tr></thead>
+<tbody>
+<tr><td>Brightness</td><td>You like light roasts, washed, clear acidity. Try Ethiopia, Kenya.</td><td>You like medium to dark, natural, body. Try Brazil, Colombia, or blends.</td></tr>
+<tr><td>Fullness</td><td>You like a round, heavy cup. Try immersion, naturals, medium roast.</td><td>You like a light, clean cup. Try a V60, light roast, washed.</td></tr>
+<tr><td>Aroma direction</td><td>You like caramel, chocolate, nuts. Try medium to dark roasts.</td><td>You like fruit, flowers, tea. Try light roasts.</td></tr>
+<tr><td>Finish</td><td>You like clean and short. Try washed, light roast.</td><td>You like long and heavy. Try natural, darker roast, or a blend with Robusta.</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>This is not a precise system. It is a <em>rough map</em> of what to try next.</p>
+
+<h3>The important part: palate changes</h3>
+
+<p>Your preferences will change — usually in a fairly predictable direction. Beginners often start with medium to dark roasts, sweet, low acidity. After a few months they tend to drift toward lighter roasts and clearer acidity. It is common enough to be almost a rule.</p>
+
+<p>The reason: once you are used to the base flavours (bitter, roast), you start noticing smaller differences — and those differences live on the acidity side. It is like learning to drink tea: first you like it sweet, later you like it unsweetened.</p>
+
+<p>So: <strong>do not treat your current palate as permanent.</strong> And do not buy ten identical bags because "that is my taste".</p>
+
+<h3>Blind tasting: the strongest tool</h3>
+
+<p>Blind tasting (not knowing what you are tasting) is the only way to learn your real preference — because the information on the bag affects what you taste <span class="tier tier-a">Evidence</span>.</p>
+
+<p>An easy way to do it:</p>
+<ol>
+<li>Ask someone to brew two cups from two different bags and mark the bottoms with numbers.</li>
+<li>You taste, choose, and write down the number.</li>
+<li>Only then look up which number was which.</li>
+</ol>
+
+<p>If there is nobody to ask: brew two cups, turn the cups away from you, rotate them three times, then taste. You will forget which is which faster than you expect.</p>
+
+<div class="callout act">
+<p class="callout-title">A common result</p>
+<p>A lot of people, tasting blind, pick the <em>cheaper</em> coffee. That does not mean expensive coffee is not worth the money — it means <strong>price and personal fit are two different things</strong>. Knowing that saves you a great deal of money.</p>
+</div>
+
+<h3>One notebook, three columns</h3>
+
+<p>You do not need a complex system. Three columns are enough:</p>
+
+<div class="formula">
+<span class="fx-label">Palate notebook</span>
+| Date | Coffee (name/region/roast) | One sentence: what you liked, what you did not |
+</div>
+
+<p>For example:</p>
+<div class="formula">
+| 12/03 | Ethiopia Guji, washed, light | Loved the florals; a bit too sour for me |
+| 19/03 | Brazil Cerrado, natural, medium | Sweet, easy to drink; a little short on aroma |
+| 26/03 | Colombia Huila, washed, medium-light | The most balanced so far |
+</div>
+
+<p>After ten lines you will see a pattern. After thirty, you will know your taste well enough to buy without guessing.</p>
+
+<h3>One last thing: you do not need a system</h3>
+
+<p>There is an unspoken pressure in specialty coffee: that you must have a "palate", that you must be able to describe, that you must pick out notes. That is a professional standard, not a drinker's standard.</p>
+
+<p>If you like a cup because it is "pleasant" and you do not know why — that is a perfectly valid response. And if you prefer an 82-point coffee to an 89-point one, you are not wrong. You simply have a different palate from the panel.</p>
+
+<div class="pull">The goal is not to taste better.<br>It is to <em>enjoy drinking more</em>.</div>
+`
     },
 
     "ch-nhat-ky": {
