@@ -2871,42 +2871,21 @@ Buy again?  ___ yes / ___ no      Why: ____________
     },
 
     "ch-nguon-cach-doc": {
-      title: "How this list was built",
-      lede: "The book had no source notes when it was written. This is the list rebuilt afterwards — and here is exactly how it was rebuilt, so you know which part to trust and which part is inference.",
-      minutes: 4,
-      tags: ["appendix", "method"],
+      title: "A note on sources",
+      lede: "What each evidence label rests on — and where it rests on nothing.",
+      minutes: 3,
+      tags: ["appendix", "sources"],
       body: `
-<p>This book is built on one rule: say plainly where there is evidence, where there is only a reasonable argument, and where the advice is folklore. But when I wrote it, I did not record the sources. No footnotes, no bibliography, only the three labels. That is a real hole: a label with nothing behind it is just an assertion wearing a costume.</p>
+<p>This book uses three evidence labels. This appendix states what each label rests on, and where it rests on nothing.</p>
 
-<p>This appendix fixes that. It is not a bibliography copied in from somewhere else — it was rebuilt backwards, out of what the book actually says.</p>
+<p>The rule is simple: only sentences an outside document can check need a source. Statements about experience, method and advice do not — and none of them should be given a source that merely sounds scientific. Peer-reviewed work with a DOI comes first; where none exists, the industry standard or the primary source from the person who proposed the method.</p>
 
-<h3>Three steps</h3>
-
-<ol class="steps">
-<li><strong>Pull the claims out of the prose.</strong><p>Every chapter was read again and split into two kinds of sentence: the ones an outside document can check, and the ones that are experience, method, or advice. Only the first kind needs a source.</p></li>
-<li><strong>Trace each claim to its original document.</strong><p>Peer-reviewed work with a DOI first. Where none exists, the industry standard or the primary source from the person who proposed the method.</p></li>
-<li><strong>Compare again, and record the mismatch.</strong><p>If the document that turned up does not say what the book says, that goes into chapter A4 — instead of being assigned a convenient citation to make the list look finished.</p></li>
-</ol>
-
-<p>The third step is the important one, and the easiest to skip. A list that looks complete but cites the wrong paper is worse than no list at all, because it makes the reader trust something that does not hold.</p>
+<p>Thirty-three sources are grouped by subject in A2 and by chapter in A3. Of the 28 chapters, nine rest directly on documents, five rest on them halfway, ten are method and need no outside source, and two — 16 and 18 — have no source at all for their central claim.</p>
 
 <div class="callout">
 <p class="callout-title">A source is not evidence</p>
-<p>Having a source does not make a claim correct. A small paper, a trial on twenty people, a model nobody has tested — all of those are sources. What decides is the design of the study, and this appendix states the design wherever it matters.</p>
+<p>A short paper, a trial on twenty people, a model nobody has tested — all of those are sources. What decides is the design of the study, and this appendix states the design wherever it matters.</p>
 </div>
-
-<h3>Where the book stands, after the check</h3>
-
-<table>
-<tr><th>Status</th><th>Chapters</th><th>What it means</th></tr>
-<tr><td>Directly citable</td><td>9</td><td>A document says what the book says. The Evidence label holds.</td></tr>
-<tr><td>Partly citable</td><td>5</td><td>A document supports the core, but the book reaches further than it does.</td></tr>
-<tr><td>No outside source</td><td>2</td><td>Chapters 16 and 18. Nothing published supports the central claim.</td></tr>
-<tr><td>Method, needs no source</td><td>10</td><td>Notebook, gear, checklist. No empirical claim is made.</td></tr>
-<tr><td>Fixed</td><td>2</td><td>Chapters 7 and 10. Corrected in the book itself; details in A4.</td></tr>
-</table>
-
-<p>That adds up to 28. Counting this way does not weaken the book; it lets the book be read correctly. You know which chapters are load-bearing, and which ones are me thinking out loud.</p>
 `
     },
 
@@ -3043,7 +3022,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
       minutes: 9,
       tags: ["appendix", "table"],
       body: `
-<p>The last column is the verdict of this check, not the author's. "Citable" means a document was found that says what the book says — it does not mean that document is flawless.</p>
+<p>The table shows which claim rests on which source. "Citable" means a document was found that says what the book says — not that the document is flawless.</p>
 
 <table>
 <tr><th>Ch.</th><th>Claim that needs a source</th><th>Label in the book</th><th>Source</th><th>Verdict</th></tr>
@@ -3076,72 +3055,61 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <tr><td>25–28</td><td>Palate training, log, gear, checklist</td><td>—</td><td>method</td><td>Needs no source</td></tr>
 </table>
 
-<p>Read down the column and the table says one thing: nine chapters stand on documents, five stand on documents halfway, and two — 16 and 18 — stand on the writer's experience. That does not make those two wrong. It only means they are not the place to invoke science.</p>
+<p>The two entries at the bottom — 16 and 18 — stand on the writer's experience. That does not make them wrong; it only means they are not the place to invoke science.</p>
 `
     },
 
     "ch-nguon-khoang-trong": {
-      title: "Three fixes, and what is still missing",
-      lede: "Three places where the original documents did not match the book — now corrected; seven claims still with no source at all; and a note on image rights.",
+      title: "Where the sources disagree, and what is missing",
+      lede: "Three places where the original documents do not match the book, seven claims with no source, and a note on image rights.",
       minutes: 8,
       tags: ["appendix", "corrections"],
       body: `
-<p>This is the chapter I most want you to read closely in the whole appendix. A book that teaches people to separate three levels of evidence has to hold itself to that same standard — and has to fix things, not just record them. The three below are corrected in the book; I have kept the account of how each was found, because that is the part worth learning.</p>
+<p>Three places below are where the original documents do not say what the book says. All three are corrected in this edition; they remain on record here so the reader knows where the error sat.</p>
 
-<h3>One: the 2004 cupping scale is now footnoted</h3>
+<h3>One: the cupping scale</h3>
 
-<p>Chapters 10 to 12 present the SCA ten-item, 100-point scale. That set is the <em>Cupping Protocol and Form</em> of 2004, not the current standard.</p>
+<p>Chapters 10 to 12 use the ten-item, 100-point scale. That is the <em>Cupping Protocol and Form</em> of 2004. In 2024 the SCA replaced it with the <em>Coffee Value Assessment</em> (SCA-102, 103 and 104-2024), which does not use a single total score: descriptive, affective and extrinsic assessment are separate.</p>
 
-<p>In 2024 the SCA replaced it with the <em>Coffee Value Assessment</em> (SCA-102, 103 and 104-2024), and the CVA <strong>does not use a single total score</strong> — it separates descriptive, affective and extrinsic assessment. In other words, what the SCA publishes now is a set of assessment types, not one number.</p>
+<p>The argument of the chapter still holds, because a score measures the agreement of people trained to the same standard — truer under the CVA, not less true. Only the sentence “almost every professional uses the same procedure” has not been accurate since 2024. Chapter 10 now says so in its first sentence.</p>
 
-<p>This does not make the chapter wrong. The claim that a score measures the agreement of people trained to the same standard still holds, and holds more firmly under the CVA. But "almost everyone in the industry uses the same protocol" has not been true since 2024.</p>
+<h3>Two: the TDS band</h3>
 
-<p>Fixed: chapter 10 now says in its first sentence that this is the 2004 set and that the SCA moved to the CVA in 2024, with the reason the ten old items still matter. The chapter did not need rewriting — one introductory sentence.</p>
+<p>The SCA Golden Cup standard is 1.15–1.35% TDS, or 11.5–13.5 g/L, with 18–22% EY and a 55 g/L ratio.</p>
 
-<h3>Two: the TDS band is corrected</h3>
+<p>The figure 1.15–1.45 circulates more widely than the standard's own number, and the previous printing used it. It now reads 1.15–1.35% in both the three-number panel and the explanation of TDS.</p>
 
-<p>The SCA Golden Cup standard is <strong>1.15–1.35% TDS</strong>, which is 11.5–13.5 g/L, with 18–22% EY and a 55 g/L ratio.</p>
+<h3>Three: the source in chapter 4</h3>
 
-<p>The figure 1.15–<strong>1.45</strong> circulates widely — widely enough that I put it in the book without checking. It is not the standard's number. Fixed: it now reads 1.15–1.35% in both the three-number panel and the explanation of TDS.</p>
+<p>Chapter 4 cited Christopher Hendon and colleagues for a sensory finding. The group's 2014 paper is a chemistry paper on cations and extraction yield; it takes no sensory measurement.</p>
 
-<h3>Three: the source in chapter 4 is changed</h3>
-
-<p>Chapter 4 says: "a controlled sensory study by Christopher Hendon and colleagues shows that bicarbonate is the factor that drives flavour perception, while adding calcium at high levels makes no significant sensory difference."</p>
-
-<p>The 2014 paper by Hendon and colleagues is a <strong>chemistry paper on cations and extraction yield</strong>. It takes no sensory measurement. I attributed a sensory finding to a chemistry paper because the two shared a group of authors.</p>
-
-<p>The claim itself is right — more right than I knew. Rune and colleagues (2026) say almost exactly that, including the detail that calcium above ordinary drinking-water levels still makes no difference. Fixed: the name cited is now Rune and colleagues, and the Evidence label stays — firmer than it was.</p>
+<p>That finding has a more direct source: Rune and colleagues (2026) at the University of Copenhagen — the first study to test the industry's “ideal” water zone with controlled sensory methods. Chapter 4 now cites it.</p>
 
 <h3>Seven claims with no source</h3>
 
-<p>This is where the labelling system can lose its value, if it is left alone.</p>
+<p>This is where the labelling system loses its value if it is left alone.</p>
 
 <ul>
-<li><strong>"Dark roast is easier to brew"</strong> (chapter 2) — right about the easier part, wrong about where to start. No study compares brewing difficulty across roast levels. It should be Folklore, not left blank.</li>
+<li><strong>“Dark roast is easier to brew”</strong> (chapter 2) — right about easier, wrong about where to start. No study compares brewing difficulty across roast levels. It should be Folklore, not left blank.</li>
 <li><strong>Freshness versus water</strong> (chapter 3) — the specific comparison has no study behind it. The mechanism is right, so it should drop to Plausible.</li>
 <li><strong>Kettle 3–5 cm above the bed, water level above the bed, 5–8 g/s</strong> (chapter 16) — inferred from mechanism, never measured. Plausible, no more.</li>
 <li><strong>Reading the bed to diagnose</strong> (chapter 18) — the book's most confident chapter with its thinnest evidence. Nothing published links bed shape to an extraction map. It should be Folklore.</li>
 <li><strong>Bloom as a gas-handling step</strong> (chapter 3) — the mechanism is right, the sensory benefit is unproven. It should be Plausible.</li>
 <li><strong>Ratio moves TDS linearly; 1:16 to 1:15 is about 6–7% stronger</strong> (chapter 7) — the arithmetic is right, but the 6–7% figure is an extrapolation nobody has tested on its own.</li>
-<li><strong>"No study shows cupping scores predict liking"</strong> (chapter 10) — true so far, but it should read "none yet" rather than "none", because that is a global negative claim.</li>
+<li><strong>“No study shows cupping scores predict liking”</strong> (chapter 10) — true so far, but it should read “none yet” rather than “none”, because that is a global negative claim.</li>
 </ul>
 
-<h3>A note on rights</h3>
+<h3>Image rights</h3>
 
-<p>If you ever want to print the flavour wheel in the book: the SCA and World Coffee Research wheel is released under CC BY-NC-ND 4.0 — non-commercial use, attribution required, <strong>no derivative works</strong>. A book sold for money is commercial use, so permission is needed. The WCR Sensory Lexicon is free to download and print for personal use, with no republication right attached.</p>
+<p>The SCA and World Coffee Research flavour wheel is released under CC BY-NC-ND 4.0: non-commercial use, attribution required, no derivative works. A book sold for money is commercial use, so printing it needs permission. The WCR Sensory Lexicon is free to download and print for personal use, with no republication right attached.</p>
 
-<h3>What this appendix has not done</h3>
+<h3>Limits</h3>
 
-<ul>
-<li>It has not traced every claim to the level of page numbers and original sentences.</li>
-<li>It has not re-checked the publication dates of the two videos at [28] and [29].</li>
-<li>The English edition of this appendix does not exist at the time this chapter was written — if you are reading it in English, it does now.</li>
-<li>It has not checked the claims in Parts VII and VIII, where most of the content is method rather than mechanism.</li>
-</ul>
+<p>The appendix has not traced every claim to page numbers and original sentences, has not re-checked the publication dates of the two videos at [28] and [29], and has not checked Parts VII and VIII, where most of the content is method rather than mechanism. Three items — [17], [22] and the DOI page for [5] — were blocked in full text during the check; their details come from abstracts and from the SCA review.</p>
 
 <div class="callout ok">
 <p class="callout-title">What is worth keeping</p>
-<p>After the check, the book's central claim — that water matters more than people think, and alkalinity more than hardness — did not merely survive; it got stronger. All three fixes are details: an outdated scale, one digit, one name. All three are done. Nothing had to be withdrawn.</p>
+<p>The book's central claim — that water matters more than people think, and alkalinity more than hardness — did not merely survive the check; it got stronger. All three fixes are details: an outdated scale, one digit, one name.</p>
 </div>
 `
     }

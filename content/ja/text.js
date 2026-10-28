@@ -459,7 +459,7 @@ window.BOOK_TEXT = {
     },
 
     "ch-nguon-cach-doc": {
-      title: "この一覧の作り方",
+      title: "出典についての注記",
       lede: "本書は書いた時点で出典を記録していません。これは後から組み直した一覧で、どう組み直したかを明記します。",
       minutes: 4,
       tags: ["付録", "方法"],
@@ -483,7 +483,7 @@ window.BOOK_TEXT = {
     },
 
     "ch-nguon-khoang-trong": {
-      title: "直すべき箇所と、空白",
+      title: "出典が食い違う箇所と、空白",
       lede: "原著文献と本書が食い違う三箇所、出典のない七つの主張、そして画像の権利についての注記。",
       minutes: 8,
       tags: ["付録", "訂正"],

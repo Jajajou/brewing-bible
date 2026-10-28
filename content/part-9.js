@@ -13,42 +13,21 @@
 
       {
         id: "ch-nguon-cach-doc",
-        title: "Cách lập danh mục này",
-        lede: "Sách không có ghi chú nguồn khi viết. Đây là danh mục dựng lại từ sau, và mình nói rõ nó được dựng bằng cách nào, để bạn biết chỗ nào tin được và chỗ nào là suy luận.",
-        minutes: 4,
-        tags: ["phụ lục", "phương pháp"],
+        title: "Ghi chú về nguồn",
+        lede: "Mỗi nhãn bằng chứng trong sách dựa trên tài liệu nào — và chỗ nào không dựa trên gì.",
+        minutes: 3,
+        tags: ["phụ lục", "nguồn"],
         body: `
-<p>Cuốn sách này được viết từ một nguyên tắc: nói rõ chỗ nào có bằng chứng, chỗ nào chỉ là suy luận hợp lý, chỗ nào là truyền miệng. Nhưng khi viết, mình không ghi lại nguồn. Không có chú thích cuối trang, không có thư mục tham khảo, chỉ có ba cái nhãn. Đó là một lỗ hổng thật: một cái nhãn mà không dẫn được nguồn thì chỉ là một lời khẳng định có trang trí.</p>
+<p>Sách dùng ba nhãn bằng chứng. Phụ lục này nói rõ mỗi nhãn dựa trên tài liệu nào, và chỗ nào không dựa trên gì.</p>
 
-<p>Phụ lục này sửa lỗ hổng đó. Nó không phải một thư mục có sẵn được chép vào — nó được dựng ngược, từ những gì sách thật sự nói.</p>
+<p>Nguyên tắc lập rất đơn giản: chỉ câu có thể kiểm chứng bằng tài liệu bên ngoài mới cần nguồn. Câu về kinh nghiệm, quy trình và lời khuyên thì không — và không được gán cho chúng một nguồn nghe có vẻ khoa học. Ưu tiên bài bình duyệt có DOI; khi không có, dùng tiêu chuẩn ngành hoặc nguồn sơ cấp của chính người đề xuất phương pháp.</p>
 
-<h3>Ba bước</h3>
-
-<ol class="steps">
-<li><strong>Rút khẳng định ra khỏi văn xuôi.</strong><p>Mỗi chương được đọc lại và tách thành hai loại câu: câu có thể kiểm chứng bằng tài liệu bên ngoài, và câu là kinh nghiệm, quy trình, hoặc lời khuyên. Chỉ loại thứ nhất cần nguồn.</p></li>
-<li><strong>Tra tài liệu gốc cho từng khẳng định.</strong><p>Ưu tiên bài bình duyệt có DOI. Khi không có, dùng tài liệu tiêu chuẩn của ngành hoặc nguồn sơ cấp của chính tác giả phương pháp đó.</p></li>
-<li><strong>Đối chiếu lại, và ghi chỗ không khớp.</strong><p>Nếu tài liệu tìm được không nói đúng điều sách nói, chỗ đó được ghi vào chương A4 thay vì được gán đại một nguồn cho đủ.</p></li>
-</ol>
-
-<p>Bước thứ ba là bước quan trọng nhất, và cũng là bước dễ bỏ qua nhất. Một danh mục trông đầy đủ mà gán sai nguồn thì tệ hơn không có danh mục, vì nó làm người đọc tin vào một thứ không đứng vững.</p>
+<p>Ba mươi ba nguồn được xếp theo chủ đề ở A2 và theo chương ở A3. Trong 28 chương, chín chương dựa trực tiếp vào tài liệu, năm chương dựa một phần, mười chương là quy trình nên không cần nguồn ngoài, và hai chương — 16 và 18 — không có nguồn nào cho khẳng định trung tâm.</p>
 
 <div class="callout">
-<p class="callout-title">Nguồn không phải là bằng chứng</p>
-<p>Có nguồn không có nghĩa là khẳng định đúng. Một bài báo nhỏ, một thử nghiệm trên hai mươi người, một mô hình chưa kiểm chứng — tất cả đều là nguồn. Cái quyết định vẫn là thiết kế của nghiên cứu đó, và phụ lục này ghi rõ thiết kế mỗi khi nó quan trọng.</p>
+<p class="callout-title">Có nguồn không có nghĩa là đúng</p>
+<p>Một bài báo nhỏ, một thử nghiệm trên hai mươi người, một mô hình chưa ai kiểm chứng — tất cả đều là nguồn. Cái quyết định vẫn là thiết kế của nghiên cứu, và phụ lục này ghi rõ thiết kế mỗi khi nó quan trọng.</p>
 </div>
-
-<h3>Sách đứng ở đâu, sau khi tra</h3>
-
-<table>
-<tr><th>Trạng thái</th><th>Số chương</th><th>Nghĩa là gì</th></tr>
-<tr><td>Dẫn được trực tiếp</td><td>9</td><td>Có tài liệu nói đúng điều sách nói. Nhãn Bằng chứng đứng vững.</td></tr>
-<tr><td>Dẫn được một phần</td><td>5</td><td>Có tài liệu cho phần lõi, nhưng sách nói rộng hơn tài liệu.</td></tr>
-<tr><td>Không có nguồn ngoài</td><td>2</td><td>Chương 16 và 18. Không có nghiên cứu nào cho khẳng định trung tâm.</td></tr>
-<tr><td>Quy trình, không cần nguồn</td><td>10</td><td>Nhật ký, dụng cụ, checklist. Không đặt khẳng định thực nghiệm.</td></tr>
-<tr><td>Đã sửa</td><td>2</td><td>Chương 7 và 10. Đã chỉnh ngay trong sách; chi tiết ở A4.</td></tr>
-</table>
-
-<p>Cộng lại là 28. Cách đếm này không làm sách yếu đi; nó làm sách đọc được đúng cách. Bạn biết chương nào là chỗ dựa và chương nào là chỗ mình đang nghĩ thành tiếng.</p>
 `
       },
 
@@ -187,7 +166,7 @@
         minutes: 9,
         tags: ["phụ lục", "bảng"],
         body: `
-<p>Cột cuối là phán quyết của lần tra này, không phải của tác giả sách. "Dẫn được" nghĩa là tìm thấy tài liệu nói đúng điều sách nói, không có nghĩa là tài liệu đó hoàn hảo.</p>
+<p>Bảng dưới đây ghi khẳng định nào dựa vào nguồn nào. "Dẫn được" nghĩa là tìm thấy tài liệu nói đúng điều sách nói, không có nghĩa là tài liệu đó hoàn hảo.</p>
 
 <table>
 <tr><th>Ch.</th><th>Khẳng định cần nguồn</th><th>Nhãn trong sách</th><th>Nguồn</th><th>Kết luận</th></tr>
@@ -220,73 +199,62 @@
 <tr><td>25–28</td><td>Luyện khẩu vị, nhật ký, dụng cụ, checklist</td><td>—</td><td>phương pháp</td><td>Không cần nguồn</td></tr>
 </table>
 
-<p>Đọc theo chiều dọc, bảng này nói một điều: chín chương đứng trên tài liệu, năm chương đứng trên tài liệu một nửa, và hai chương — 16 và 18 — đứng trên kinh nghiệm của người viết. Hai chương đó không vì thế mà sai. Chúng chỉ không phải là chỗ để viện dẫn khoa học.</p>
+<p>Hai chương cuối cột — 16 và 18 — đứng trên kinh nghiệm của người viết. Điều đó không làm chúng sai; chỉ có nghĩa chúng không phải chỗ để viện dẫn khoa học.</p>
 `
       },
 
       {
         id: "ch-nguon-khoang-trong",
-        title: "Ba chỗ đã sửa, và chỗ trống",
-        lede: "Ba chỗ tài liệu gốc không khớp với sách — đã chỉnh xong; bảy khẳng định vẫn không có nguồn nào; và một ghi chú về bản quyền hình ảnh.",
+        title: "Nguồn không khớp, và chỗ trống",
+        lede: "Ba chỗ tài liệu gốc không khớp với sách, bảy khẳng định không có nguồn, và một ghi chú về bản quyền hình ảnh.",
         minutes: 8,
         tags: ["phụ lục", "sửa lỗi"],
         body: `
-<p>Đây là chương mà mình muốn bạn đọc kỹ nhất trong cả phụ lục. Một cuốn sách dạy người ta phân biệt ba mức bằng chứng thì phải chịu cùng tiêu chuẩn đó với chính nó — và phải sửa, không chỉ ghi lại. Ba chỗ dưới đây đã được chỉnh ngay trong sách; mình giữ lại cách phát hiện vì phần đáng học nằm ở đó.</p>
+<p>Ba chỗ dưới đây là chỗ tài liệu gốc không nói đúng như sách viết. Cả ba đã được chỉnh trong bản này; chúng còn ghi ở đây để người đọc biết lỗi nằm ở đâu.</p>
 
-<h3>Một: thang cupping 2004 đã được ghi chú</h3>
+<h3>Một: thang cupping</h3>
 
-<p>Chương 10 đến 12 trình bày thang mười mục, 100 điểm của SCA. Đó là bộ <em>Cupping Protocol and Form</em> năm 2004, không phải tiêu chuẩn hiện hành.</p>
+<p>Chương 10 đến 12 dùng thang mười mục, 100 điểm. Đó là bộ <em>Cupping Protocol and Form</em> năm 2004. Từ 2024, SCA thay bằng <em>Coffee Value Assessment</em> (SCA-102, 103 và 104-2024), và CVA không dùng một điểm tổng duy nhất: nó tách thành đánh giá mô tả, đánh giá cảm xúc và phần ngoại cảnh.</p>
 
-<p>Từ 2024, SCA đã thay bằng <em>Coffee Value Assessment</em> (SCA-102, 103 và 104-2024), và CVA <strong>không dùng một điểm tổng duy nhất</strong> — nó tách thành đánh giá mô tả, đánh giá cảm xúc và phần ngoại cảnh. Nói cách khác, thứ mà SCA công bố bây giờ là một hệ nhiều loại đánh giá, không phải một con số.</p>
+<p>Lập luận của chương vẫn đứng, vì điểm số đo sự đồng thuận của những người được huấn luyện theo cùng một hệ tiêu chuẩn — điều đó còn đúng hơn với CVA. Chỉ câu “hầu như mọi chuyên gia trong ngành đều dùng cùng một quy trình” là không còn chính xác từ 2024. Chương 10 nay nói rõ điều này ngay câu đầu.</p>
 
-<p>Điều này không làm sai nội dung chương. Câu "điểm số đo sự đồng thuận của những người được huấn luyện theo cùng một hệ tiêu chuẩn" vẫn đúng, và còn đúng hơn với CVA. Nhưng câu "hầu như mọi chuyên gia trong ngành đều dùng cùng một quy trình đó" thì từ 2024 không còn chính xác.</p>
+<h3>Hai: vùng TDS</h3>
 
-<p>Đã sửa: chương 10 giờ nói rõ ngay từ câu đầu rằng đây là bộ 2004 và SCA đã chuyển sang CVA từ 2024, kèm lý do mười mục cũ vẫn đáng biết. Không phải viết lại chương — chỉ thêm một câu dẫn.</p>
+<p>Chuẩn Golden Cup của SCA là 1,15–1,35% TDS, tương đương 11,5–13,5 g/L, với 18–22% EY và tỉ lệ 55 g/L.</p>
 
-<h3>Hai: vùng TDS đã chỉnh</h3>
+<p>Con số 1,15–1,45 lưu hành rộng hơn con số của chuẩn, và bản in trước đã dùng nó. Nay là 1,15–1,35% ở cả ô ba con số lẫn phần giải thích TDS.</p>
 
-<p>Chuẩn Golden Cup của SCA là <strong>1,15–1,35% TDS</strong>, tương đương 11,5–13,5 g/L, với 18–22% EY và tỉ lệ 55 g/L.</p>
+<h3>Ba: nguồn của chương 4</h3>
 
-<p>Con số 1,15–<strong>1,45</strong> lưu hành rất rộng — đủ rộng để mình đã viết nó vào sách mà không kiểm lại. Nó không phải con số của chuẩn. Đã sửa: nay là 1,15–1,35% ở cả ô ba con số lẫn phần giải thích TDS.</p>
+<p>Chương 4 dẫn Christopher Hendon và cộng sự cho một phát hiện cảm quan. Bài năm 2014 của nhóm này là bài hoá học về cation và hiệu suất chiết; nó không đo cảm quan.</p>
 
-<h3>Ba: nguồn chương 4 đã đổi</h3>
-
-<p>Chương 4 viết: "nghiên cứu cảm quan có kiểm soát của Christopher Hendon và cộng sự cho thấy bicarbonate là yếu tố chi phối cảm nhận hương vị, trong khi thêm canxi ở mức cao không tạo ra khác biệt cảm quan đáng kể."</p>
-
-<p>Bài của Hendon và cộng sự năm 2014 là bài <strong>hoá học về cation và hiệu suất chiết</strong>. Nó không đo cảm quan. Mình đã gán một phát hiện cảm quan cho một bài hoá học vì hai thứ nằm cùng một nhóm tác giả.</p>
-
-<p>Khẳng định trong sách thì đúng — và đúng hơn mình tưởng. Rune và cộng sự (2026) nói gần như nguyên văn điều đó, kể cả chi tiết "canxi cao hơn mức nước uống thông thường vẫn không tạo khác biệt". Đã sửa: tên người được dẫn giờ là Rune và cộng sự, nhãn Bằng chứng giữ nguyên — và còn vững hơn trước.</p>
+<p>Phát hiện đó có nguồn trực tiếp hơn: Rune và cộng sự (2026), Đại học Copenhagen — nghiên cứu đầu tiên kiểm chứng vùng nước “lý tưởng” của ngành bằng cảm quan có kiểm soát. Chương 4 nay dẫn bài này.</p>
 
 <h3>Bảy khẳng định không có nguồn</h3>
 
-<p>Đây là chỗ hệ thống nhãn có thể mất giá trị, nếu để nguyên.</p>
+<p>Đây là chỗ hệ thống nhãn mất giá trị nếu để nguyên.</p>
 
 <ul>
-<li><strong>"Rang đậm dễ pha hơn"</strong> (chương 2) — đúng phần dễ, sai phần nên bắt đầu bằng. Không có nghiên cứu so sánh độ khó pha theo mức rang. Nên là Truyền miệng, không phải để trống.</li>
+<li><strong>“Rang đậm dễ pha hơn”</strong> (chương 2) — đúng phần dễ, sai phần nên bắt đầu bằng. Không có nghiên cứu so sánh độ khó pha theo mức rang. Nên là Truyền miệng, không phải để trống.</li>
 <li><strong>Độ tươi so với nước</strong> (chương 3) — câu so sánh cụ thể không có nghiên cứu nào. Cơ chế đúng, nên hạ xuống Hợp lý.</li>
 <li><strong>Vòi cách bã 3–5 cm, giữ mực nước trên mặt bã, 5–8 g/s</strong> (chương 16) — suy luận từ cơ chế, chưa ai đo. Hợp lý, không hơn.</li>
 <li><strong>Nhìn bã để chẩn đoán</strong> (chương 18) — chỗ sách tự tin nhất mà bằng chứng mỏng nhất. Không có nghiên cứu nào nối hình dạng bã với bản đồ chiết xuất. Nên là Truyền miệng.</li>
 <li><strong>Bloom là bước xử lý khí</strong> (chương 3) — cơ chế đúng, tác dụng cảm quan chưa được chứng minh. Nên là Hợp lý.</li>
 <li><strong>Tỉ lệ đổi TDS tuyến tính, 1:16 sang 1:15 đậm hơn 6–7%</strong> (chương 7) — số học đúng, nhưng con số 6–7% là ngoại suy chưa được kiểm riêng.</li>
-<li><strong>"Không có nghiên cứu nào cho thấy điểm cupping dự đoán được mức ưa thích"</strong> (chương 10) — đúng tính đến nay, nhưng nên nói "chưa có" thay vì "không có", vì đó là khẳng định phủ định toàn cầu.</li>
+<li><strong>“Không có nghiên cứu nào cho thấy điểm cupping dự đoán được mức ưa thích”</strong> (chương 10) — đúng tính đến nay, nhưng nên nói “chưa có” thay vì “không có”, vì đó là khẳng định phủ định toàn cầu.</li>
 </ul>
 
-<h3>Một ghi chú về bản quyền</h3>
+<h3>Bản quyền hình ảnh</h3>
 
-<p>Nếu sau này muốn in bánh xe hương vị vào sách: bánh xe của SCA và World Coffee Research phát hành theo giấy phép CC BY-NC-ND 4.0 — được dùng phi thương mại, phải ghi công, <strong>không được tạo bản phái sinh</strong>. Sách bán ra là dùng thương mại, nên phải xin phép. Sensory Lexicon của WCR cho tải và in miễn phí cho mục đích cá nhân, không kèm quyền tái bản.</p>
+<p>Bánh xe hương vị của SCA và World Coffee Research phát hành theo CC BY-NC-ND 4.0: dùng phi thương mại, phải ghi công, không được tạo bản phái sinh. Sách bán ra là dùng thương mại, nên muốn in phải xin phép. Sensory Lexicon của WCR cho tải và in miễn phí cho mục đích cá nhân, không kèm quyền tái bản.</p>
 
-<h3>Điều phụ lục này chưa làm</h3>
+<h3>Giới hạn</h3>
 
-<ul>
-<li>Chưa tra từng khẳng định đến mức trích được số trang và câu gốc.</li>
-<li>Chưa kiểm lại ngày đăng hai video ở [28] và [29].</li>
-<li>Chưa có bản tiếng Anh của phụ lục khi chương này được viết — nếu bạn đang đọc bản tiếng Anh, nó đã có.</li>
-<li>Chưa tra các khẳng định ở Phần VII và VIII, nơi phần lớn nội dung là phương pháp chứ không phải cơ chế.</li>
-</ul>
+<p>Phụ lục chưa tra từng khẳng định đến mức trích số trang và câu gốc, chưa kiểm lại ngày đăng hai video ở [28] và [29], và chưa tra Phần VII, VIII — nơi phần lớn nội dung là phương pháp chứ không phải cơ chế. Ba bài [17], [22] và trang DOI của [5] bị chặn toàn văn khi tra; chi tiết lấy từ tóm tắt và bài tổng quan của SCA.</p>
 
 <div class="callout ok">
 <p class="callout-title">Điều đáng giữ lại</p>
-<p>Sau khi tra, khẳng định trung tâm của cuốn sách — nước quan trọng hơn người ta tưởng, và alkalinity quan trọng hơn độ cứng — không chỉ đứng vững mà còn mạnh hơn. Ba chỗ phải sửa đều là chi tiết: một thang điểm đã cũ, một chữ số, một cái tên. Cả ba đã sửa xong. Không có chỗ nào phải rút lại.</p>
+<p>Khẳng định trung tâm của sách — nước quan trọng hơn người ta tưởng, và alkalinity quan trọng hơn độ cứng — không chỉ đứng vững mà còn mạnh hơn sau khi tra. Ba chỗ phải sửa đều là chi tiết: một thang điểm đã cũ, một chữ số, một cái tên.</p>
 </div>
 `
       }
