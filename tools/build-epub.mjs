@@ -52,10 +52,17 @@ function loadParts() {
     }
     new Function("window", src)(win);
   }
-  return win.BOOK_PARTS || [];
+  /* hình minh hoạ: cùng một file với bản web, để EPUB không lệch hình */
+  try {
+    new Function("window", readFileSync(join(ROOT, "figures.js"), "utf8"))(win);
+  } catch (err) {
+    console.error("Không nạp được figures.js: " + err.message);
+  }
+  return win;
 }
 
-const PARTS = loadParts();
+const BOOK = loadParts();
+const PARTS = BOOK.BOOK_PARTS || [];
 if (!PARTS.length) {
   console.error("Không đọc được content/part-*.js");
   process.exit(1);
@@ -183,7 +190,7 @@ PARTS.forEach((part, pi) => {
 <p class="chnum">${part.appendix ? "Phụ lục " : "Chương "}${chNum}</p>
 <h1>${esc(ch.title)}</h1>
 ${ch.lede ? `<p class="lede">${esc(ch.lede)}</p>` : ""}
-${toXhtml(ch.body)}
+${toXhtml(BOOK.BOOK_FIGURES ? BOOK.BOOK_FIGURES.render(ch.body, ch.id) : ch.body)}
 </section>`;
 
     writeFileSync(join(OEBPS, file), page(`${ch.title} — ${TITLE}`, body));

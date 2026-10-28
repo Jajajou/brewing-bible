@@ -290,6 +290,56 @@ a{ color: inherit; text-decoration: none; }
 .body table.tbl-a3 thead th{ padding-bottom: 1.1mm; }
 .body table.tbl-a3 tbody td{ padding-top: 1.1mm; padding-bottom: 1.1mm; }
 
+/* hình minh hoạ: SVG vẽ bằng nét nên in ra không bị răng cưa */
+.fig{ margin: 4.2mm 0; break-inside: avoid; }
+.fig-svg{ display: block; width: 100%; height: auto; }
+.f-axis{ stroke: var(--rule); stroke-width: 0.4; }
+.f-tick{ stroke: var(--rule); stroke-width: 0.4; }
+.f-guide{ stroke: var(--muted); stroke-width: 0.32; stroke-dasharray: 1.2 1.2; }
+.f-curve{ fill: none; stroke: var(--accent); stroke-width: 0.62; }
+.f-area{ fill: #f3ede1; stroke: none; }
+.f-band{ fill: var(--wash); stroke: none; }
+.f-mark{ stroke: var(--muted); stroke-width: 0.4; }
+.f-mark-mid{ stroke: var(--ink-2); stroke-width: 0.62; }
+.f-dot{ fill: var(--accent); }
+.f-lab{ font-family: var(--font-ui); font-size: 5.4px; fill: var(--muted); }
+.f-lab-unit{ text-anchor: end; }
+
+.fig figcaption{
+  margin-top: 1.5mm; padding-top: 1.2mm; border-top: 0.2mm solid var(--rule-soft);
+  font-family: var(--font-ui); font-size: 6.8pt; line-height: 1.42; color: var(--muted);
+}
+.fig figcaption b{
+  display: block; margin-bottom: 0.6mm;
+  font-size: 6.2pt; font-weight: 600;
+  letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent);
+}
+.fig-live{ display: none; }
+
+.fig-read{
+  margin: 1mm 0 0;
+  font-family: var(--font-ui); font-size: 6.6pt; color: var(--muted);
+}
+/* Paged.js không dựng flex ổn định ở đây; dùng inline-block + lề phải
+   để ba số đứng cùng hàng và không dính vào nhãn của chúng. */
+.fig-read span{ display: inline-block; margin-right: 6mm; }
+.fig-read b{ font-weight: 600; color: var(--ink); margin-right: 1.2mm; }
+
+.fig-calc{
+  padding: 2.4mm 3mm;
+  border: 0.2mm solid var(--rule-soft); background: var(--wash);
+  font-family: var(--font-ui);
+}
+.fig-calc > div{ display: inline-block; margin-right: 4mm; }
+.fig-calc b{ display: block; font-family: var(--font-display); font-size: 12pt; font-weight: 400; }
+.fig-calc span{ font-size: 5.8pt; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.fig-op{ font-style: normal; color: var(--muted); margin: 0 2mm; }
+.fig-bar{ height: 1.6mm; margin-top: 2mm; background: var(--wash); border: 0.2mm solid var(--rule-soft); }
+.fig-bar i{ display: block; height: 100%; background: var(--accent); }
+.fig-note{ margin: 1.4mm 0 0; font-family: var(--font-ui); font-size: 6.8pt; color: var(--muted); }
+.fig-note b{ color: var(--ink); }
+.fig-ctl{ display: none; }
+
 /* callout */
 .callout{
   margin: 4mm 0; padding: 3mm 3.6mm;

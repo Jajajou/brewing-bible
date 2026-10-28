@@ -277,7 +277,11 @@
     html += "</div></header>";
 
     if (ch.__translated) {
-      html += '<div class="body">' + (ch.body || "") + "</div>";
+      /* Hình minh hoạ được chèn theo vị trí tiêu đề, không sửa vào từng
+         bản dịch — nên một chương có ba bản vẫn nhận đúng hình. */
+      var body = ch.body || "";
+      if (window.BOOK_FIGURES) body = window.BOOK_FIGURES.render(body, ch.id);
+      html += '<div class="body">' + body + "</div>";
     } else {
       html += '<div class="notice">' +
         "<h3>" + esc(T.untranslatedTitle) + "</h3>" +
@@ -289,6 +293,7 @@
 
     $("#page").innerHTML = html;
     document.title = ch.title + " — The Brewing Bible";
+    if (window.BOOK_FIGURES) window.BOOK_FIGURES.enhance($("#page"));
     decorateTemplates(ch);
 
     /* pager */

@@ -38,6 +38,7 @@ Mỗi khẳng định trong sách đều được dán nhãn theo ba mức này.
 - **Bản in**: Ctrl/Cmd + P cho ra bản in nhanh; hoặc tải bản dàn trang A5 sẵn ở [the-brewing-bible.pdf](the-brewing-bible.pdf)
 - **In các mẫu điền tay**: mỗi mẫu (nhật ký pha, phiếu cupping, tóm tắt bao cà) có nút *In mẫu này* ngay dưới khối — mở trang in riêng, mỗi bản một tờ A5
 - **Ba ngôn ngữ trên web**: tiếng Việt, tiếng Anh, tiếng Nhật — chọn ở góc phải thanh trên, lựa chọn được nhớ trong máy
+- **Hình minh hoạ**: biểu đồ SVG vẽ bằng nét, in ra sắc nét và đổi màu theo giao diện sáng/tối. Vài hình có thanh trượt trên web (phân bố kích thước hạt, máy tính tỉ lệ); bản PDF và EPUB nhận bản tĩnh cùng nội dung
 
 ## Cấu trúc
 
@@ -50,6 +51,7 @@ REFERENCES.md         danh mục nguồn dạng đọc ngoài trình duyệt (ng
 content/en/text.js    bản dịch tiếng Anh (chỉ dùng cho bản web)
 content/ja/text.js    bản dịch tiếng Nhật (chỉ dùng cho bản web)
 i18n.js               chuỗi giao diện ba thứ tiếng
+figures.js            hình minh hoạ: SVG + thanh trượt trên web (dùng chung cho web, PDF, EPUB)
 
 tpl.html / tpl.js     trang in một mẫu điền tay: mỗi bản một tờ A5, chọn số bản
 

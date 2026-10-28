@@ -98,6 +98,11 @@
     );
 
     chs.forEach(function (ch) {
+      /* Bản in dùng hình tĩnh: figures.js chỉ chèn SVG + chú thích, phần
+         kéo thanh trượt chỉ gắn trên web nên PDF không có ô nhập liệu. */
+      var body = ch.body || "";
+      if (window.BOOK_FIGURES) body = window.BOOK_FIGURES.render(body, ch.id);
+
       html.push(
         '<section class="chapter" data-ch="' + ch.id + '">',
         /* id nằm trên .ch-head, không nằm trên <section>: Paged.js có thể tạo
@@ -112,7 +117,7 @@
         ch.lede ? '<p class="ch-lede">' + esc(ch.lede) + "</p>" : "",
         '<div class="ch-rule"></div>',
         "</header>",
-        '<div class="body">' + (ch.body || "") + "</div>",
+        '<div class="body">' + body + "</div>",
         "</section>"
       );
     });

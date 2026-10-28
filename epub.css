@@ -330,3 +330,53 @@ code{ font-family: "Courier New", monospace; font-size: 0.92em; }
 nav#toc ol{ list-style: none; padding-left: 0; }
 nav#toc ol ol{ padding-left: 1.2em; }
 nav#toc li{ margin: 0.35em 0; }
+
+/* ---------- hình minh hoạ ----------
+   SVG nội tuyến (inline) chứ không phải ảnh: nhẹ, sắc nét ở mọi cỡ chữ,
+   và không cần thêm file vào gói EPUB. Máy đọc rất cũ có thể không vẽ
+   được SVG — khi đó phần chú thích dưới hình vẫn còn nguyên nghĩa. */
+.fig{ margin: 1.6em 0; page-break-inside: avoid; }
+.fig-svg{ display: block; width: 100%; height: auto; }
+.f-axis, .f-tick{ stroke: #d8cdba; stroke-width: 0.4; }
+.f-guide{ stroke: #6f6459; stroke-width: 0.32; stroke-dasharray: 1.2 1.2; }
+.f-curve{ fill: none; stroke: #8f421a; stroke-width: 0.62; }
+.f-area{ fill: #f3ede1; stroke: none; }
+.f-band{ fill: #f7f3ea; stroke: none; }
+.f-mark{ stroke: #6f6459; stroke-width: 0.4; }
+.f-mark-mid{ stroke: #1b1815; stroke-width: 0.62; }
+.f-dot{ fill: #8f421a; }
+.f-lab{ font-family: "Helvetica", sans-serif; font-size: 5.4px; fill: #6f6459; }
+.f-lab-unit{ text-anchor: end; }
+
+.fig figcaption{
+  margin-top: 0.7em; padding-top: 0.5em;
+  border-top: 1px solid #e8dfcd;
+  font-size: 0.82em; line-height: 1.45; color: #6f6459;
+}
+.fig figcaption b{
+  display: block; margin-bottom: 0.25em;
+  font-size: 0.88em; font-weight: bold;
+  letter-spacing: 0.08em; text-transform: uppercase; color: #8f421a;
+}
+.fig-live, .fig-ctl{ display: none; }
+
+.fig-read{
+  margin: 0.4em 0 0;
+  font-size: 0.8em; color: #6f6459;
+}
+.fig-read span{ display: inline-block; margin-right: 1.4em; }
+.fig-read b{ color: #1b1815; }
+
+.fig-calc{
+  padding: 0.7em 0.8em;
+  border: 1px solid #e8dfcd; background: #faf7f0;
+  font-size: 0.85em;
+}
+.fig-calc > div{ display: inline-block; margin-right: 1.4em; }
+.fig-calc b{ display: block; font-size: 1.25em; }
+.fig-calc span{ font-size: 0.82em; color: #6f6459; }
+.fig-op{ font-style: normal; color: #6f6459; }
+.fig-bar{ height: 0.4em; margin-top: 0.6em; background: #f7f3ea; border: 1px solid #e8dfcd; }
+.fig-bar i{ display: block; height: 100%; background: #8f421a; }
+.fig-note{ margin: 0.4em 0 0; font-size: 0.85em; color: #6f6459; }
+.fig-note b{ color: #1b1815; }
