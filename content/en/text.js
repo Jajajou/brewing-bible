@@ -900,7 +900,92 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
       lede: "Cupping was designed to remove variables, not to produce the best possible cup. Understanding that changes how you use it.",
       minutes: 9,
       tags: ["cupping", "method"],
-      body: ``
+      body: `
+<p>Cupping is the most standardised way of tasting coffee in the industry. It has a specific procedure, defined by the Specialty Coffee Association, and almost every professional uses that same procedure.</p>
+
+<p>But there is one important thing rarely stated clearly: <strong>cupping was not designed to produce the best possible cup.</strong> It was designed to remove the influence of the brewer.</p>
+
+<h3>The design logic</h3>
+
+<p>Imagine you want to know what a coffee <em>really</em> is. Brew it as pour over and the result depends on your technique — grind, temperature, pouring speed, skill. Brew it as espresso and the result depends on the machine, the pressure, the barista.</p>
+
+<p>Give ten people the same bag and a pour over and you get ten different cups. You do not know which cup represents the coffee and which represents the hands.</p>
+
+<p>Cupping solves that by making the process almost impossible to get wrong:</p>
+
+<ul>
+<li><strong>No flow.</strong> The grounds sit fully immersed. No percolation, no channelling, no local dry patches.</li>
+<li><strong>Fixed ratio.</strong> 8.25 g of coffee to 150 ml of water — 5.5 g per 100 ml, about 1:18. Everyone uses the same ratio.</li>
+<li><strong>Fixed temperature.</strong> Water at 93 °C, and a large body of water holds heat far more steadily than a small dripper.</li>
+<li><strong>No stirring during extraction.</strong> The crust is broken once, at four minutes, and that is all.</li>
+<li><strong>Identical cups.</strong> Same glass, same size.</li>
+<li><strong>Fixed time.</strong> Four minutes of immersion, no more, no less.</li>
+</ul>
+
+<p>The result is a cup that is <em>repeatable between different people</em>. That is the point. Not the best cup — a <strong>comparable</strong> one.</p>
+
+<div class="callout ok">
+<p class="callout-title">An analogy</p>
+<p>Cupping is like a studio portrait: fixed light, fixed background, fixed pose. Not the most beautiful photograph possible, but it shows you the real face. Pour over is street photography: it can be far more beautiful, but you cannot tell how much is the subject and how much is the light.</p>
+</div>
+
+<h3>What cupping measures</h3>
+
+<p>The SCA scale splits the assessment into ten items. The first six are sensory quality; the last four are fault checks:</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Item</th><th>What it measures</th></tr></thead>
+<tbody>
+<tr><td>Fragrance / Aroma</td><td>The smell of the dry grounds (fragrance) and of the wet grounds (aroma)</td></tr>
+<tr><td>Flavor</td><td>Combined taste — palate and retronasal smell working together</td></tr>
+<tr><td>Aftertaste</td><td>Finish: length, quality, cleanliness</td></tr>
+<tr><td>Acidity</td><td>Brightness and quality of the acidity (not its quantity)</td></tr>
+<tr><td>Body</td><td>Mouthfeel: thickness, viscosity, texture</td></tr>
+<tr><td>Balance</td><td>Whether the parts harmonise or one dominates</td></tr>
+<tr><td>Uniformity</td><td>How alike the five cups are (fault check)</td></tr>
+<tr><td>Clean cup</td><td>Absence of off-flavours (fault check)</td></tr>
+<tr><td>Sweetness</td><td>Natural sweetness present (fault check)</td></tr>
+<tr><td>Overall</td><td>The grader's overall judgement</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>The scale runs 6–10 per item, summed into a final score. Above 80 is "specialty". Above 85 is very good. Above 90 is excellent, and rare.</p>
+
+<h3>Three things to know about the score</h3>
+
+<h4>1. A score is not absolute quality</h4>
+
+<p>An 84-point coffee is not "worse" than an 86-point coffee in the sense that you will enjoy it less. The score measures <strong>agreement among people trained to the same standard</strong>. That is a very narrow measurement.</p>
+
+<p>If you prefer an 83 to an 88, you are not wrong. You simply differ from the panel.</p>
+
+<h4>2. Graders do not fully agree with each other</h4>
+
+<p>Q Grader is the professional certification for cupping, and it requires serious training and calibration tests. But even calibrated graders show a measurable spread when scoring the same coffee <span class="tier tier-b">Plausible</span>. That is the nature of sensory judgement — not their failure.</p>
+
+<p>The consequence: when you read a score sheet, read it as a <em>range</em>, not a number. One or two points is noise, not signal.</p>
+
+<h4>3. A high score does not predict what you will like</h4>
+
+<p>This is the most important point for a home drinker. Cupping measures quality by industry standards — cleanliness, complexity, balance, the distinctiveness of origin. It does <strong>not</strong> measure personal preference. And no study shows that cupping scores predict how much ordinary drinkers will enjoy a coffee.</p>
+
+<div class="pull">Cupping answers: <em>“what is this coffee?”</em><br>It does not answer: <em>“do you like it?”</em></div>
+
+<h3>Why you should cup even if you are not a judge</h3>
+
+<p>Because it gives you something no other method can: <strong>a reference point that does not depend on your hands</strong>.</p>
+
+<p>When your pour over is bad, you do not know whether it is a brewing fault or the coffee itself. Cupping answers that. If the cupping is good and the pour over is bad → brewing fault. If the cupping is also bad → the coffee, or the coffee is old, or something basic is wrong.</p>
+
+<p>That is its real value. Not scoring — <strong>splitting the problem in half</strong>.</p>
+
+<div class="callout act">
+<p class="callout-title">How to use it</p>
+<p>Use cupping as a <em>diagnostic tool</em>, not as a <em>target</em>. You do not need to make your pour over taste like a cupping bowl. You only need to know what the cupping shows, so you know how far you can go.</p>
+</div>
+`
     },
 
     "ch-quy-trinh-cupping": {
@@ -908,7 +993,86 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
       lede: "You do not need twelve cups and a scoresheet. You need two cups, one kettle, and four minutes.",
       minutes: 7,
       tags: ["cupping", "practice"],
-      body: ``
+      body: `
+<p>The standard SCA procedure uses five cups per sample to check uniformity. At home you do not need that. You need a routine rigorous enough for the results to mean something, and simple enough that you will actually do it.</p>
+
+<h3>The minimum kit</h3>
+
+<ul>
+<li>Two identical glasses (about 200 ml). Identical matters — you are comparing.</li>
+<li>A 0.1 g scale.</li>
+<li>A kettle with a thermometer, or a kettle plus a thermometer.</li>
+<li>A soup spoon.</li>
+<li>A grinder.</li>
+<li>Treated water (see Part II — this is where it matters most).</li>
+</ul>
+
+<h3>The numbers</h3>
+
+<div class="recipe">
+<div class="recipe-head">Standard cupping at home<small>One sample</small></div>
+<div class="recipe-body">
+<div class="recipe-params">
+<span><b>Coffee:</b> 8.25 g</span>
+<span><b>Water:</b> 150 ml</span>
+<span><b>Ratio:</b> 1:18</span>
+<span><b>Temp:</b> 93 °C</span>
+<span><b>Grind:</b> medium–coarse</span>
+<span><b>Steep:</b> 4 minutes</span>
+</div>
+<p>If you prefer round numbers: <strong>10 g of coffee to 180 ml of water</strong> at 93 °C. Almost the same ratio, and easier to remember.</p>
+</div>
+</div>
+
+<h3>The steps</h3>
+
+<ol class="steps">
+<li><strong>Smell the dry grounds (0:00)</strong><p>Grind, put the coffee in the cup, and smell immediately. This is the strongest and easiest aroma of the whole process. Write it down — no precise naming needed, just "familiar/strange, pleasant/unpleasant" and one or two descriptive words.</p></li>
+<li><strong>Pour (0:10)</strong><p>Pour 150 ml of water at 93 °C, quickly and evenly, so all the grounds are wet. Start the clock.</p></li>
+<li><strong>Smell the wet crust (0:30–1:30)</strong><p>This is the most important aroma layer, because it is closest to what will reach the cup. The bed swells into a thick crust. Smell close to the surface.</p></li>
+<li><strong>Wait (1:30–4:00)</strong><p>Do nothing. This is when the grounds settle. You can smell again at three minutes — the aroma has changed, usually softer, with heavier notes appearing.</p></li>
+<li><strong>Break the crust (4:00)</strong><p>Use the spoon to push the floating crust aside, three times. This releases a burst of aroma — smell immediately. For many people this is the clearest aromatic moment of the whole process.</p></li>
+<li><strong>Skim the foam and floating grounds</strong><p>Use two spoons to lift off what is still floating. Now you have a clear cup of coffee.</p></li>
+<li><strong>Let it cool a little (7:00–8:00)</strong><p>Do not taste while it is very hot — you will burn yourself and perceive nothing. Wait until about 70 °C.</p></li>
+<li><strong>Taste at three temperatures</strong><p>Taste hot (~70 °C), warm (~55 °C) and cool (~40 °C). Each temperature gives you different information. This is the most skipped step, and the most useful.</p></li>
+</ol>
+
+<h3>Tasting technique: the slurp</h3>
+
+<p>This is the most important part of the chapter, and it is what most home drinkers do not do.</p>
+
+<p>In cupping you do not sip. You <strong>draw</strong> a volume of coffee into your mouth, making a noise — like slurping hot noodles. The motion is called a <em>slurp</em>, and it is not bad manners: it is a technique.</p>
+
+<p>The reason: most of the aroma you perceive is <strong>retro-nasal</strong> — travelling from the mouth back up to the nose through the back of the throat. The air carried with the coffee is the vehicle that moves volatile compounds up to the olfactory organ. A slurp atomises the coffee into very small droplets, multiplying the evaporating surface area many times over.</p>
+
+<p>If you take a small sip and swallow, you get a fraction of the aroma you get by slurping. That is mechanics, not philosophy.</p>
+
+<div class="callout act">
+<p class="callout-title">Exercise</p>
+<p>Brew one batch and pour two cups from it. Drink the first with normal sips. Drink the second with a strong slurp. The difference is obvious on the first try — and you will not go back to the old way of drinking.</p>
+</div>
+
+<h3>Comparative cupping: two samples at once</h3>
+
+<p>If you want to use cupping to compare two coffees, or the same coffee at two roast levels, there are three rules:</p>
+
+<ul>
+<li><strong>Everything identical</strong> except the variable you are testing: same mass, same grind, same water temperature, same time.</li>
+<li><strong>Mark the cups on the bottom</strong>, not at the rim. You have to taste without knowing which is which.</li>
+<li><strong>Taste alternately</strong>, not all of A and then all of B. Your palate shifts as you go — alternating makes the comparison fairer.</li>
+</ul>
+
+<div class="callout warn">
+<p class="callout-title">About blind tasting</p>
+<p>Blind tasting (not knowing what you are tasting) is the only way to learn your real preference, because the information on the bag affects what you taste <span class="tier tier-a">Evidence</span>. But blind tasting is also harder — you lose your anchor. The practical approach: taste blind, write it down, then open the information and compare with your prediction.</p>
+</div>
+
+<h3>A note on ratio</h3>
+
+<p>Cupping uses 1:18, weaker than a typical pour over (1:15–1:17). That is deliberate: lower concentration lets the notes separate and keeps bitterness from dominating. You are studying the structure of the coffee, not enjoying a finished cup.</p>
+
+<p>But it also means: <strong>cupping and pour over are not the same concentration</strong>. When you compare the two methods, hold the ratio constant — otherwise you are comparing two things across two variables, not one.</p>
+`
     },
 
     "ch-doc-cupping": {
@@ -916,7 +1080,128 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
       lede: "Aroma is not one block. It changes over time, and each stage tells you something different.",
       minutes: 10,
       tags: ["cupping", "sensory"],
-      body: ``
+      body: `
+<p>Beginners try to find specific notes — "apricot", "black tea", "caramel" — and feel they have failed when they cannot. That is not the skill you need. The skill you need is <strong>recognising structure</strong>.</p>
+
+<h3>Three aroma layers in one cupping</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Moment</th><th>What you are smelling</th><th>What it tells you</th></tr></thead>
+<tbody>
+<tr><td>Dry grounds (0:00)</td><td>The most volatile compounds</td><td>The theoretical aroma ceiling. <strong>Not</strong> what will be in the cup.</td></tr>
+<tr><td>Wet crust (0:30–1:30)</td><td>Compounds soluble in hot steam</td><td>The layer closest to what will reach the cup. The most important one.</td></tr>
+<tr><td>Breaking the crust (4:00)</td><td>A sudden release</td><td>The densest aroma — and the easiest to over-read.</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="callout bad">
+<p class="callout-title">One misunderstanding to fix right away</p>
+<p>Dry grounds are <em>not</em> the "aroma ceiling of the coffee" in the sense that what you smell there will end up in the cup. The compounds behind the dry smell are the most volatile of the lot — they are what escapes into the air first. When hot water hits the grounds, most of them rise or go into the room, and very little stays in the cup.</p>
+<p>The correct rule: <strong>if the dry grounds have nothing, the cup certainly has nothing. But if the dry grounds are rich, the cup may still have nothing.</strong></p>
+</div>
+
+<h3>Read by structure, not vocabulary</h3>
+
+<p>Four questions, in order. You do not need to know the name of a single flavour note to answer them.</p>
+
+<h4>1. Which side is the aroma on?</h4>
+
+<ul>
+<li><strong>Roast side:</strong> caramel, chocolate, roasted nuts, bread, burnt sugar. The stable, durable layer, hard to lose.</li>
+<li><strong>Origin side:</strong> fruit, flowers, tea, spice, herbs. The thinner layer, easier to lose.</li>
+</ul>
+
+<p>A good coffee usually has both, one as the base and the other as the accent. A coffee with only the roast side is usually over-roasted, or the origin has been lost.</p>
+
+<h4>2. Is the aroma in front or behind?</h4>
+
+<ul>
+<li><strong>In front</strong> (nose, front of the tongue): what you notice immediately.</li>
+<li><strong>Behind</strong> (back of the tongue, throat, retro-nasal): what appears after you swallow or breathe out.</li>
+</ul>
+
+<p>Many coffees have a beautiful front and an empty back. That is the sign of a thin coffee — or of an under-extracted cup.</p>
+
+<h4>3. How long does the finish last?</h4>
+
+<p>Swallow, wait thirty seconds, then pay attention. What is left? For how long?</p>
+
+<ul>
+<li><strong>Short, clean, gone</strong> → a light coffee, or under-extracted.</li>
+<li><strong>Long, pleasant</strong> → good. A sign of quality beans and enough extraction.</li>
+<li><strong>Long, bitter, drying</strong> → possibly the bean (Catimor, Robusta), possibly over-extraction, and certainly worse as the cup cools.</li>
+</ul>
+
+<h4>4. Is there anything that should not be there?</h4>
+
+<p>This is the question beginners skip, and it matters more than the three above. Off-flavours — paper, cardboard, metal, mould, medicine, rubber, earth — are stronger information than any pretty note.</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Off-flavour</th><th>Usually means</th></tr></thead>
+<tbody>
+<tr><td>Paper, cardboard</td><td>Old, oxidised coffee</td></tr>
+<tr><td>Metal, astringent</td><td>Under-extraction, or water with a lot of iron</td></tr>
+<tr><td>Mould, earth</td><td>Damp storage, or a processing fault</td></tr>
+<tr><td>Medicine, rubber</td><td>A roast fault (baked), or defective beans</td></tr>
+<tr><td>Raw vegetable, grain</td><td>Clearly under-extracted — or roasted far too light</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Three temperatures, three kinds of information</h3>
+
+<p>This is the most skipped technique, and it is nearly free.</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Temperature</th><th>What you perceive best</th></tr></thead>
+<tbody>
+<tr><td><strong>~70 °C (hot)</strong></td><td>Aroma. Volatiles at their strongest. Bitterness partly masked.</td></tr>
+<tr><td><strong>~55 °C (warm)</strong></td><td>Balance. This is the cup at its most "right" — and the temperature you should drink at.</td></tr>
+<tr><td><strong>~40 °C (cool)</strong></td><td>Structure and faults. Bitterness, astringency, dryness and off-flavours show most clearly. This is where the cup confesses.</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>If a cup is good at 70 °C and bad at 40 °C, you have a coffee with a finish problem — usually over-extraction or the bean itself. If it is good at all three, you have a good coffee and a correct brew.</p>
+
+<div class="callout act">
+<p class="callout-title">The golden rule for drinking</p>
+<p>Drink at 55–65 °C. That is the balance point: hot enough for aroma to rise, cool enough not to burn. Coffee left at 45 °C has lost nearly half its aroma — not because it "went cold", but because the volatiles have already escaped.</p>
+</div>
+
+<h3>Mouthfeel: the forgotten part</h3>
+
+<p>When you taste, pay attention to <strong>sensation</strong>, not only flavour:</p>
+
+<ul>
+<li><strong>Thickness:</strong> thin like tea, or full like milk?</li>
+<li><strong>Texture:</strong> smooth, or grippy?</li>
+<li><strong>Heat:</strong> a slight burning at the back of the throat? (A sign of over-extraction or high concentration.)</li>
+<li><strong>Drying:</strong> after swallowing, is your mouth dry or moist? Dryness signals tannins and astringent compounds — common in over-extraction.</li>
+</ul>
+
+<p>Body is one of the six items on the SCA scale, and it is the one beginners skip most. It is also the hardest to improve with technique — it is mostly decided by the bean and by processing.</p>
+
+<h3>Notes: shorter than you think</h3>
+
+<p>Do not write a paragraph. Write five lines:</p>
+
+<div class="formula">
+<span class="fx-label">Cupping note template</span>
+Sample: _______________  Date: _______<br>
+Dry:  _______________<br>
+Wet:  _______________<br>
+Taste: _______________<br>
+After: _______________  (long/short, clean/dirty)<br>
+Odd:   _______________
+</div>
+
+<p>These five lines, after ten coffees, give you something no book can: <strong>a map of your own palate</strong>. And that is the foundation for chapter 25.</p>
+`
     },
 
     "ch-gioi-han-cupping": {
@@ -924,7 +1209,92 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
       lede: "Cupping and pour-over differ in exactly one place — and that place is the hardest one.",
       minutes: 8,
       tags: ["cupping", "pour over"],
-      body: ``
+      body: `
+<p>There is a very common and very disappointing experience: you cup a coffee and it is wonderful — sweet, fruity, balanced. You brew it as pour over and it turns dull. You conclude you brew badly. Sometimes that is true, but not always.</p>
+
+<h3>A structural difference</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th></th><th>Cupping</th><th>Pour over</th></tr></thead>
+<tbody>
+<tr><td>Water flows through the bed</td><td>No</td><td>Yes</td></tr>
+<tr><td>Channelling</td><td><strong>Impossible</strong></td><td>Possible</td></tr>
+<tr><td>Local dry patches</td><td><strong>Impossible</strong></td><td>Possible</td></tr>
+<tr><td>Temperature</td><td>Steady (large body of water)</td><td>Falls over time</td></tr>
+<tr><td>Fines</td><td>Float up, skimmed off</td><td>Sink to the bottom, can scorch</td></tr>
+<tr><td>Grind</td><td>Slightly coarser</td><td>Finer</td></tr>
+<tr><td>Ratio</td><td>1:18</td><td>1:15–1:17</td></tr>
+<tr><td>Variables you control</td><td>Almost none</td><td>Very many</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Cupping is <strong>full immersion with no flow</strong>. That means it removes exactly the hardest part of pour over. It is not an easier version of pour over — it is a different method with a different mechanism.</p>
+
+<p>So: <strong>cupping has no failure mode. Pour over has exactly one.</strong> That is where the difference lives.</p>
+
+<h3>Three reasons a pour over underperforms a cupping</h3>
+
+<h4>1. Technical fault (channelling, dry patches, clogging)</h4>
+
+<p>This is the most common cause and the easiest to fix. Signs: sour and bitter at once, no clear notes, a muddled finish. And you can see it in the bed — a hole in the middle, or a dry patch at the edge.</p>
+
+<h4>2. A concentration difference</h4>
+
+<p>Cupping at 1:18, pour over at 1:15. That is not the same cup by two methods — those are two different cups. If you want a meaningful comparison, hold the ratio.</p>
+
+<p>But there is a paradox: pour over at 1:15 is usually <em>stronger</em> than cupping at 1:18. So why does it feel worse? Because strength is not clarity. A stronger cup extracted unevenly feels "full but empty".</p>
+
+<h4>3. The way you drink it</h4>
+
+<p>This is the most overlooked cause, and it can account for half the gap.</p>
+
+<p>In cupping you <strong>slurp hard</strong> from an open cup, at low concentration, with a large volume in the mouth. Drinking pour over at home, you take a small sip from a mug, possibly while it is still hot, possibly while it sits cooling on the desk.</p>
+
+<p>Those three differences — motion, volume, temperature — cut the aroma you receive enormously. That is mechanics, not psychology.</p>
+
+<div class="callout ok">
+<p class="callout-title">A two-minute test</p>
+<p>Brew a pour over. Pour half into a second cup. Drink the first with normal sips. Drink the second with a hard slurp, cupping style. Same coffee, same temperature. The gap will surprise you.</p>
+</div>
+
+<h3>So what does cupping predict</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Cupping tells you</th><th>Cupping does not tell you</th></tr></thead>
+<tbody>
+<tr><td>What the coffee's potential is (the aroma ceiling)</td><td>Whether you can reach that ceiling with pour over</td></tr>
+<tr><td>Whether there are bean faults (mould, bad fermentation)</td><td>How much your brewing faults will cost you</td></tr>
+<tr><td>Structure: sour/sweet/bitter, body, finish</td><td>Whether you like it</td></tr>
+<tr><td>What to expect from the pour-over cup</td><td>Which parameters to set</td></tr>
+<tr><td>Whether the coffee is stale</td><td>Whether your water is suitable</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>A correct expectation</h3>
+
+<p>When the cupping is good and the pour over is slightly worse, that is <strong>normal</strong>. Not a fault. The two methods differ structurally, and pour over always loses a little — that is the price of having flow.</p>
+
+<p>The realistic target: <strong>the pour over should keep the base layer (sweetness, caramel, body) and lose part of the thin layer (fruit, flowers) — without adding any off-flavour.</strong></p>
+
+<div class="pull">Cupping is the <em>ceiling</em>.<br>Pour over is the <em>route</em>.<br>They never quite meet.</div>
+
+<h3>How to read the result</h3>
+
+<p>After brewing a coffee you have cupped, ask these questions in order:</p>
+
+<ol class="steps">
+<li><strong>Is there an off-flavour the cupping did not have?</strong><p>Bitter, astringent, drying, metallic. If yes → <strong>technical fault</strong>. Read the bed. Fix your technique.</p></li>
+<li><strong>Just weaker, with nothing added?</strong><p>Less aroma but clean. → <strong>Not a technical fault.</strong> That is intensity, or how you drink, or the ratio difference.</p></li>
+<li><strong>A new note the cupping did not have?</strong><p>Sometimes pour over highlights one aspect (usually acidity, because percolation extracts acids quickly in the early stage). Not a fault — a character of the method.</p></li>
+<li><strong>Nothing at all — completely flat?</strong><p>Check the water first. Then the freshness of the coffee. Then technique.</p></li>
+</ol>
+
+<p>These four questions save you a lot of time adjusting in the wrong direction. They are also the bridge into Part V, where we go into the mechanics of pour over.</p>
+`
     },
 
     "ch-hai-co-che": {
