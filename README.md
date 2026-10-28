@@ -48,8 +48,10 @@ print.html            khung bản in A5 (dùng chung content/)
 print.css             dàn trang A5: khổ, lề, chạy đầu trang, số trang, mục lục có số trang
 print.js              dựng bìa → mục lục → phần → chương cho bản in
 print-output.css      luật chỉ áp lúc in (lề 0) — nạp sau khi phân trang xong
+epub.css              giao diện bản EPUB (e-ink)
 build-pdf.sh          một lệnh xuất ra PDF
 tools/print-pdf.mjs   xuất PDF qua Chrome DevTools (chờ Paged.js xong mới in)
+tools/build-epub.mjs  dựng EPUB 3 (nav, ncx, từng chương một file)
 vendor/paged.polyfill.js  Paged.js 0.4.3 (phân trang trong trình duyệt)
 ```
 
@@ -83,6 +85,26 @@ Vài điều dễ vấp nếu sửa `print.css`:
 - **Đừng** để `@page{ margin: 0 }` chung với `print.css`. Paged.js đọc cả `@page` nằm trong `@media print`, nên luật đó ghi đè mẫu trang và cả sách dồn lại còn ~18 trang. Nó nằm riêng trong `print-output.css`, chỉ nạp sau khi phân trang xong.
 - **Đừng** ẩn `#book`: Paged.js giữ nguyên `id="book"` trong bản sao của trang đầu, nên `#book{display:none}` xoá luôn trang bìa.
 - Đầu chương nằm trong `<header class="ch-head">` với `break-inside/break-after: avoid` — nếu tách rời, số chương có thể bị bỏ lại cuối trang trước.
+
+## Bản EPUB (máy đọc sách)
+
+```bash
+node tools/build-epub.mjs                  # → the-brewing-bible.epub
+node tools/build-epub.mjs out/ban-doc.epub
+```
+
+EPUB 3 dựng thẳng từ `content/part-*.js`, không cần gói npm — chỉ cần `zip` trong PATH. Sinh ra một file cho mỗi chương (28), một file cho mỗi phần (8), bìa, `nav.xhtml` (mục lục EPUB 3) và `toc.ncx` (cho máy đọc cũ và Kindle). Giao diện cho e-ink nằm trong [epub.css](epub.css) — dùng số thứ tự của máy đọc thay vì `counter` của CSS, tránh `flex` vì nhiều máy đọc bỏ qua.
+
+Kiểm định bằng epubcheck 5.1.0: 0 lỗi, 0 cảnh báo (EPUB 3.3).
+
+**Đưa vào máy đọc:**
+
+- **Kindle** — gửi file tới địa chỉ `@kindle.com` của máy (Send to Kindle), hoặc dùng `Send to Kindle` trên macOS/Windows. Kindle không đọc EPUB trực tiếp nhưng dịch vụ gửi sẽ tự chuyển sang AZW3.
+- **Kobo** — cắm cáp, chép vào thư mục chính của máy, hoặc dùng Calibre.
+- **Apple Books** — mở file bằng Books, hoặc AirDrop sang iPhone/iPad.
+- **Boox / PocketBook / máy Android** — chép file vào máy rồi mở bằng ứng dụng đọc.
+
+Nếu muốn bản `.azw3` hoặc `.kepub` riêng, chuyển bằng Calibre từ chính file EPUB này — không cần dựng lại từ đầu.
 
 ## Chạy tại máy
 

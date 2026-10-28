@@ -134,6 +134,7 @@
     html += '<a class="btn btn-primary" href="#/' + (flat[0] ? flat[0].ch.id : "") + '">Bắt đầu đọc →</a>';
     html += '<button class="btn btn-ghost" id="randomCh">Mở một chương ngẫu nhiên</button>';
     html += '<a class="btn btn-ghost" href="the-brewing-bible.pdf" download>Bản in A5 (PDF) ↓</a>';
+    html += '<a class="btn btn-ghost" href="the-brewing-bible.epub" download>EPUB cho máy đọc sách ↓</a>';
     html += "</div>";
 
     html += "</div>";

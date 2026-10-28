@@ -1,0 +1,322 @@
+/* ============================================================
+   The Brewing Bible — stylesheet cho bản EPUB.
+
+   Nguyên tắc: máy đọc sách (Kindle, Kobo, Boox) là trình dựng CSS
+   rất cũ và hay bỏ qua flex/grid. Ở đây chỉ dùng thứ mọi máy đọc
+   đều hiểu: bo góc, đường viền, khoảng cách. Màu chỉ để phân biệt
+   khi đọc trên máy màu; trên máy đen trắng, độ đậm và viền vẫn
+   tách được các khối.
+   ============================================================ */
+
+body{
+  margin: 0;
+  font-family: "Literata", "Bitter", Georgia, serif;
+  line-height: 1.62;
+  text-align: left;
+  hyphens: auto;
+}
+
+/* ---------- bìa ---------- */
+.cover{
+  margin: 0;
+  padding: 12% 8% 8%;
+  text-align: left;
+}
+.cover .kicker{
+  font-size: 0.72em;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #8f421a;
+  margin-bottom: 2em;
+}
+.cover h1{
+  font-size: 2.6em;
+  line-height: 1.02;
+  margin: 0 0 1em;
+  font-weight: normal;
+}
+.cover h1 em{ font-style: italic; color: #8f421a; }
+.cover .dek{
+  font-size: 1.02em;
+  color: #3d3833;
+  margin-bottom: 3em;
+}
+.cover .imprint{
+  margin-top: 3em;
+  padding-top: 1em;
+  border-top: 1px solid #d8cdba;
+  font-size: 0.82em;
+  color: #6f6459;
+}
+.cover .imprint b{ color: #1b1815; }
+
+/* ---------- trang phần ---------- */
+.part{
+  margin: 0;
+  padding: 30% 6%;
+  text-align: center;
+  page-break-before: always;
+}
+.part .num{
+  font-size: 0.7em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #8f421a;
+  margin-bottom: 1.5em;
+}
+.part h1{
+  font-size: 1.9em;
+  line-height: 1.1;
+  margin: 0 0 1em;
+  font-weight: normal;
+}
+.part .blurb{
+  font-style: italic;
+  color: #6f6459;
+  font-size: 0.95em;
+}
+
+/* ---------- chương ---------- */
+.chapter{ page-break-before: always; }
+
+.chnum{
+  font-size: 0.7em;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #a96333;
+  margin: 0 0 0.4em;
+}
+h1{
+  font-size: 1.65em;
+  line-height: 1.15;
+  margin: 0 0 0.5em;
+  font-weight: normal;
+}
+.lede{
+  font-size: 1.02em;
+  color: #3d3833;
+  margin: 0 0 1.4em;
+  padding-bottom: 1.2em;
+  border-bottom: 1px solid #d8cdba;
+}
+
+p{ margin: 0 0 0.85em; text-indent: 0; }
+h2{
+  font-size: 1.2em;
+  margin: 1.8em 0 0.5em;
+  font-weight: bold;
+}
+h3{
+  font-size: 1.12em;
+  margin: 1.6em 0 0.45em;
+  font-weight: bold;
+  page-break-after: avoid;
+}
+h4{
+  font-size: 0.84em;
+  margin: 1.4em 0 0.35em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #8f421a;
+  page-break-after: avoid;
+}
+ul, ol{ margin: 0 0 0.9em; padding-left: 1.3em; }
+li{ margin: 0.25em 0; }
+strong, b{ font-weight: bold; }
+em{ font-style: italic; }
+
+blockquote{
+  margin: 1.2em 0;
+  padding-left: 1em;
+  border-left: 3px solid #8f421a;
+  font-style: italic;
+  color: #3d3833;
+}
+
+/* ---------- bảng ---------- */
+.table-wrap{ margin: 1.2em 0; page-break-inside: avoid; }
+table{
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8em;
+  line-height: 1.35;
+}
+th{
+  text-align: left;
+  font-size: 0.88em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #6f6459;
+  border-bottom: 2px solid #d8cdba;
+  padding: 0 0.5em 0.35em 0;
+  vertical-align: bottom;
+}
+td{
+  border-bottom: 1px solid #e8dfcd;
+  padding: 0.45em 0.5em 0.45em 0;
+  vertical-align: top;
+}
+code{ font-family: "Courier New", monospace; font-size: 0.92em; }
+
+/* ---------- callout ---------- */
+.callout{
+  margin: 1.4em 0;
+  padding: 0.8em 0.9em;
+  border: 1px solid #e8dfcd;
+  border-left: 4px solid #6f6459;
+  background: #faf7f0;
+  page-break-inside: avoid;
+  font-size: 0.95em;
+}
+.callout-title{
+  font-size: 0.78em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #6f6459;
+  margin: 0 0 0.5em;
+  font-weight: bold;
+}
+.callout p:last-child{ margin-bottom: 0; }
+.callout.act{ border-left-color: #8f421a; }
+.callout.ok{ border-left-color: #3f5c35; }
+.callout.warn{ border-left-color: #7a5810; }
+.callout.bad{ border-left-color: #8a322a; }
+
+/* ---------- nhãn bằng chứng ---------- */
+.tier{
+  font-size: 0.72em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 0 0.35em;
+  border: 1px solid #c9bda8;
+  border-radius: 2px;
+}
+.tier-a{ color: #3f5c35; border-color: #cfdcc6; }
+.tier-b{ color: #7a5810; border-color: #e6d7ad; }
+.tier-c{ color: #8a322a; border-color: #e6c9c4; }
+
+.tier-legend{
+  margin: 1.4em 0;
+  padding: 0.9em;
+  border: 1px solid #e8dfcd;
+  font-size: 0.9em;
+  page-break-inside: avoid;
+}
+.tier-legend p{ margin: 0 0 0.6em; }
+.tier-legend-foot{
+  margin: 0.8em 0 0 !important;
+  padding-top: 0.6em;
+  border-top: 1px solid #e8dfcd;
+  font-size: 0.9em;
+  color: #6f6459;
+}
+
+/* ---------- công thức ---------- */
+.formula{
+  margin: 1.3em 0;
+  padding: 0.8em 0.9em;
+  border: 1px solid #d8cdba;
+  background: #faf7f0;
+  font-family: "Courier New", monospace;
+  font-size: 0.86em;
+  line-height: 1.6;
+  page-break-inside: avoid;
+}
+.fx-label{
+  display: block;
+  font-family: inherit;
+  font-size: 0.82em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #6f6459;
+  margin-bottom: 0.5em;
+}
+.formula b{ color: #8f421a; }
+
+/* ---------- các bước: dùng số của máy đọc, không dùng counter ---------- */
+.steps{
+  list-style: decimal;
+  margin: 1.2em 0;
+  padding-left: 1.5em;
+}
+.steps > li{ margin: 0 0 0.8em; page-break-inside: avoid; }
+.steps > li strong:first-child{ display: block; margin-bottom: 0.15em; }
+
+/* ---------- trích dẫn lớn ---------- */
+.pull{
+  margin: 1.6em 0;
+  padding: 0.9em 0;
+  border-top: 1px solid #d8cdba;
+  border-bottom: 1px solid #d8cdba;
+  text-align: center;
+  font-size: 1.1em;
+  page-break-inside: avoid;
+}
+.pull em{ color: #8f421a; }
+
+/* ---------- thẻ công thức pha ---------- */
+.recipe{
+  margin: 1.4em 0;
+  border: 1px solid #d8cdba;
+  page-break-inside: avoid;
+}
+.recipe-head{
+  padding: 0.5em 0.8em;
+  background: #faf7f0;
+  border-bottom: 1px solid #e8dfcd;
+  font-size: 0.78em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #8f421a;
+  font-weight: bold;
+}
+.recipe-head small{
+  display: block;
+  font-size: 0.95em;
+  letter-spacing: 0;
+  text-transform: none;
+  font-weight: normal;
+  color: #6f6459;
+  margin-top: 0.2em;
+}
+.recipe-body{ padding: 0.8em; }
+.recipe-params{ margin: 0 0 0.8em; font-size: 0.82em; }
+.recipe-params span{
+  display: inline-block;
+  margin: 0 0.3em 0.3em 0;
+  padding: 0.1em 0.4em;
+  background: #f4ece0;
+  border-radius: 2px;
+}
+.recipe-params b{ color: #8f421a; }
+
+/* ---------- lưới số liệu ---------- */
+.stat-grid{
+  margin: 1.3em 0;
+  border: 1px solid #e8dfcd;
+  page-break-inside: avoid;
+}
+.stat{
+  display: block;
+  padding: 0.5em 0.8em;
+  border-bottom: 1px solid #e8dfcd;
+}
+.stat:last-child{ border-bottom: 0; }
+.stat b{
+  display: block;
+  font-size: 1.25em;
+  line-height: 1.1;
+}
+.stat span{
+  display: block;
+  font-size: 0.76em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #6f6459;
+}
+
+/* ---------- mục lục trong sách ---------- */
+nav#toc ol{ list-style: none; padding-left: 0; }
+nav#toc ol ol{ padding-left: 1.2em; }
+nav#toc li{ margin: 0.35em 0; }
