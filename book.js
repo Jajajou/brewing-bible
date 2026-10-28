@@ -28,7 +28,7 @@
   function loadOverlay(lang) {
     return new Promise(function (resolve) {
       var s = document.createElement("script");
-      s.src = "content/" + lang + "/text.js?v=18";
+      s.src = "content/" + lang + "/text.js?v=19";
       s.onload = function () { resolve(window.BOOK_TEXT || null); };
       s.onerror = function () { resolve(null); };
       document.head.appendChild(s);

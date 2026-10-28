@@ -24,7 +24,7 @@ window.BOOK_PARTS.push({
 
 <div class="stat-grid">
 <div class="stat"><b>18–22%</b><span>Extraction yield</span></div>
-<div class="stat"><b>1,15–1,45%</b><span>TDS trong ly</span></div>
+<div class="stat"><b>1,15–1,35%</b><span>TDS trong ly</span></div>
 <div class="stat"><b>1:15–1:17</b><span>Tỉ lệ pha</span></div>
 </div>
 
@@ -40,7 +40,7 @@ window.BOOK_PARTS.push({
 
 <h4>TDS (Total Dissolved Solids)</h4>
 
-<p>Nồng độ chất hoà tan trong ly, tính bằng phần trăm. Với pour over, 1,15–1,45% là vùng thông thường. Espresso là 8–12%.</p>
+<p>Nồng độ chất hoà tan trong ly, tính bằng phần trăm. Với pour over, 1,15–1,35% là vùng của chuẩn Golden Cup. Espresso là 8–12%.</p>
 
 <div class="callout warn">
 <p class="callout-title">EY và TDS là hai chuyện khác nhau</p>

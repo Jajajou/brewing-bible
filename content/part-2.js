@@ -50,7 +50,7 @@ HCO₃⁻ + H⁺ → H₂CO₃ → CO₂ + H₂O
 
 <div class="callout ok">
 <p class="callout-title">Bằng chứng ở mức nào?</p>
-<p>Đây là một trong số ít những khẳng định trong cuốn sách có nền tảng vững. Nghiên cứu cảm quan có kiểm soát của Christopher Hendon và cộng sự (nhóm đứng sau nhiều công trình về nước và cà phê) cho thấy <strong>bicarbonate là yếu tố chi phối cảm nhận hương vị</strong>, trong khi việc thêm canxi ở mức cao <em>không</em> tạo ra khác biệt cảm quan đáng kể <span class="tier tier-a">Bằng chứng</span>. Đây là lý do cuốn sách này đặt alkalinity lên đầu và độ cứng xuống sau.</p>
+<p>Đây là một trong số ít những khẳng định trong cuốn sách có nền tảng vững. Nghiên cứu cảm quan có kiểm soát của Christina Rune và cộng sự, Đại học Copenhagen (2026), cho thấy <strong>bicarbonate là yếu tố chi phối cảm nhận hương vị</strong>, trong khi việc thêm canxi ở mức cao — cao hơn cả nước uống thông thường — <em>không</em> tạo ra khác biệt cảm quan đáng kể <span class="tier tier-a">Bằng chứng</span>. Đây cũng là nghiên cứu đầu tiên kiểm chứng bằng cảm quan có kiểm soát đúng cái vùng nước mà ngành vẫn gọi là “lý tưởng”. Đây là lý do cuốn sách này đặt alkalinity lên đầu và độ cứng xuống sau.</p>
 </div>
 
 <h3>Chỉ tiêu tham chiếu</h3>

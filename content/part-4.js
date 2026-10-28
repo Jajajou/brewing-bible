@@ -14,7 +14,7 @@ window.BOOK_PARTS.push({
     minutes: 9,
     tags: ["cupping", "phương pháp"],
     body: `
-<p>Cupping là phương pháp nếm cà phê chuẩn hoá nhất trong ngành. Nó có một quy trình rất cụ thể, được Hiệp hội Cà phê Specialty (SCA) định nghĩa, và hầu như mọi chuyên gia trong ngành đều dùng cùng một quy trình đó.</p>
+<p>Cupping là phương pháp nếm cà phê chuẩn hoá nhất trong ngành. Nó có một quy trình rất cụ thể, được Hiệp hội Cà phê Specialty (SCA) định nghĩa, và trong gần hai mươi năm hầu như mọi chuyên gia trong ngành đều dùng cùng một quy trình đó. Từ 2024, SCA đã thay bộ 2004 bằng <em>Coffee Value Assessment</em>, nên câu “mọi người dùng cùng một quy trình” không còn đúng tuyệt đối — nhưng cách nếm trong chương này vẫn là nền của cả hệ mới.</p>
 
 <p>Nhưng có một điều quan trọng mà ít người nói rõ: <strong>cupping không được thiết kế để pha ra ly cà ngon nhất.</strong> Nó được thiết kế để loại bỏ ảnh hưởng của người pha.</p>
 
@@ -44,7 +44,7 @@ window.BOOK_PARTS.push({
 
 <h3>Cupping đo những gì</h3>
 
-<p>Thang điểm SCA chia đánh giá thành mười mục. Sáu mục đầu là chất lượng cảm quan, bốn mục sau là kiểm tra lỗi:</p>
+<p>Thang điểm dưới đây là bộ <strong>Cupping Protocol and Form 2004</strong> của SCA — bộ đã định hình cách cả ngành nếm trong gần hai mươi năm. Nó chia đánh giá thành mười mục: sáu mục đầu là chất lượng cảm quan, bốn mục sau là kiểm tra lỗi. Từ 2024, SCA chuyển sang <strong>Coffee Value Assessment</strong> và không còn dùng một điểm tổng duy nhất; mười mục này vẫn là thứ bạn cần biết, vì mọi bảng điểm cũ và mọi lời quảng cáo “85 điểm” đều dựa trên nó:</p>
 
 <div class="table-wrap">
 <table>

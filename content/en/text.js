@@ -300,7 +300,7 @@ HCO₃⁻ + H⁺ → H₂CO₃ → CO₂ + H₂O
 
 <div class="callout ok">
 <p class="callout-title">How strong is the evidence?</p>
-<p>This is one of the few claims in this book with solid foundations. Controlled sensory work by Christopher Hendon and colleagues (the group behind much of the research on water and coffee) shows that <strong>bicarbonate is the dominant factor in flavour perception</strong>, while adding calcium at high levels produced <em>no</em> significant sensory difference <span class="tier tier-a">Evidence</span>. That is why this book puts alkalinity first and hardness second.</p>
+<p>This is one of the few claims in this book with solid foundations. Controlled sensory work by Christina Rune and colleagues at the University of Copenhagen (2026) shows that <strong>bicarbonate is the dominant factor in flavour perception</strong>, while adding calcium at high levels — higher than ordinary drinking water — produced <em>no</em> significant sensory difference <span class="tier tier-a">Evidence</span>. It is also the first study to test that "ideal" water zone the industry had been quoting, using controlled sensory methods. That is why this book puts alkalinity first and hardness second.</p>
 </div>
 
 <h3>Reference targets</h3>
@@ -636,7 +636,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 
 <div class="stat-grid">
 <div class="stat"><b>18–22%</b><span>Extraction yield</span></div>
-<div class="stat"><b>1.15–1.45%</b><span>TDS in the cup</span></div>
+<div class="stat"><b>1.15–1.35%</b><span>TDS in the cup</span></div>
 <div class="stat"><b>1:15–1:17</b><span>Brew ratio</span></div>
 </div>
 
@@ -652,7 +652,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 
 <h4>TDS (Total Dissolved Solids)</h4>
 
-<p>The concentration of dissolved material in the cup, as a percentage. For pour over, 1.15–1.45% is the usual range. Espresso is 8–12%.</p>
+<p>The concentration of dissolved material in the cup, as a percentage. For pour over, 1.15–1.35% is the Golden Cup band. Espresso is 8–12%.</p>
 
 <div class="callout warn">
 <p class="callout-title">EY and TDS are two different things</p>
@@ -902,7 +902,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
       minutes: 9,
       tags: ["cupping", "method"],
       body: `
-<p>Cupping is the most standardised way of tasting coffee in the industry. It has a specific procedure, defined by the Specialty Coffee Association, and almost every professional uses that same procedure.</p>
+<p>Cupping is the most standardised way of tasting coffee in the industry. It has a specific procedure, defined by the Specialty Coffee Association, and for almost twenty years nearly every professional used that same procedure. In 2024 the SCA replaced the 2004 set with the <em>Coffee Value Assessment</em>, so "everyone uses the same procedure" is no longer strictly true — but the tasting in this chapter is still the foundation of the new system.</p>
 
 <p>But there is one important thing rarely stated clearly: <strong>cupping was not designed to produce the best possible cup.</strong> It was designed to remove the influence of the brewer.</p>
 
@@ -932,7 +932,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 
 <h3>What cupping measures</h3>
 
-<p>The SCA scale splits the assessment into ten items. The first six are sensory quality; the last four are fault checks:</p>
+<p>The scale below is the SCA's <strong>2004 Cupping Protocol and Form</strong> — the set that shaped how the whole industry tasted for almost twenty years. It splits the assessment into ten items: the first six are sensory quality; the last four are fault checks. Since 2024 the SCA has moved to the <strong>Coffee Value Assessment</strong>, which no longer uses a single total score; these ten items are still what you need to know, because every older score sheet and every "85 points" claim rests on them:</p>
 
 <div class="table-wrap">
 <table>
@@ -2903,7 +2903,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <tr><td>Partly citable</td><td>5</td><td>A document supports the core, but the book reaches further than it does.</td></tr>
 <tr><td>No outside source</td><td>2</td><td>Chapters 16 and 18. Nothing published supports the central claim.</td></tr>
 <tr><td>Method, needs no source</td><td>10</td><td>Notebook, gear, checklist. No empirical claim is made.</td></tr>
-<tr><td>Needs fixing</td><td>2</td><td>Chapters 7 and 10. The original document does not match the book.</td></tr>
+<tr><td>Fixed</td><td>2</td><td>Chapters 7 and 10. Corrected in the book itself; details in A4.</td></tr>
 </table>
 
 <p>That adds up to 28. Counting this way does not weaken the book; it lets the book be read correctly. You know which chapters are load-bearing, and which ones are me thinking out loud.</p>
@@ -2930,7 +2930,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p><strong>[3]</strong> Hendon, C. H., Colonna-Dashwood, L., &amp; Colonna-Dashwood, M. (2014). <em>The Role of Dissolved Cations in Coffee Extraction.</em> Journal of Agricultural and Food Chemistry, 62(21), 4947–4950. doi:10.1021/jf501687c</p>
 
-<p>A chemistry paper about cations and extraction yield, with no sensory measurement. See chapter A4 for how the book cited the wrong paper here.</p>
+<p>A chemistry paper about cations and extraction yield, with no sensory measurement. Chapter 4 once cited it for a sensory finding; the source has been changed to [1] — see A4.</p>
 
 <p><strong>[4]</strong> Specialty Coffee Association (2018). <em>The 2018 SCA Water Quality Handbook.</em> Paid document, no public PDF. This is the source of the 40–75 ppm alkalinity, 50–175 ppm hardness and pH 6.5–7.5 figures.</p>
 
@@ -2964,7 +2964,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p><strong>[13]</strong> Specialty Coffee Association (2024). <em>Coffee Value Assessment</em> — SCA Standard 102-2024 (Sample Preparation and Tasting Mechanics), 103-2024 (Descriptive Assessment), 104-2024 (Affective Assessment).</p>
 
-<p>No single total score. Descriptive, affective and extrinsic assessments are separate. This is the biggest change in cupping in twenty years, and the reason chapter 10 needs a note.</p>
+<p>No single total score. Descriptive, affective and extrinsic assessments are separate. This is the biggest change in cupping in twenty years, and the reason chapter 10 now opens with a note about the 2004 set.</p>
 
 <p><strong>[14]</strong> Chambers, E., IV, et al. (2016). <em>Development of a "living" lexicon for descriptive sensory analysis of brewed coffee.</em> Journal of Sensory Studies, 31(6), 465–480. doi:10.1111/joss.12237</p>
 
@@ -3051,16 +3051,16 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <tr><td>2</td><td>No shared definition of "medium roast"; Agtron has two variants</td><td>—</td><td>[12]–[14] for the colour measurement</td><td>Partly</td></tr>
 <tr><td>3</td><td>Freezing preserves quality long term</td><td>Evidence</td><td>[22] [23] [24] [25]</td><td>Citable</td></tr>
 <tr><td>3</td><td>20-day-old coffee with correct water beats 5-day-old with 250 ppm alkaline water</td><td>"not an opinion"</td><td>none</td><td>No source</td></tr>
-<tr><td>4</td><td>Bicarbonate drives perception, calcium does not</td><td>Evidence</td><td>[1] directly, [3] for chemistry</td><td>Citable, see A4</td></tr>
+<tr><td>4</td><td>Bicarbonate drives perception, calcium does not</td><td>Evidence</td><td>[1] directly, [3] for chemistry</td><td>Citable, source changed</td></tr>
 <tr><td>4</td><td>Water zone of 40–75 ppm alkalinity, 50–175 ppm hardness, pH 6.5–7.5</td><td>Plausible</td><td>[4]</td><td>Citable</td></tr>
 <tr><td>5</td><td>A TDS pen does not measure alkalinity; HCO₃ × 0.82; 1 dKH = 17.86 ppm</td><td>—</td><td>general chemistry</td><td>Needs no source</td></tr>
 <tr><td>6</td><td>Dilution is linear; bottled water figures</td><td>—</td><td>product labels</td><td>Needs no source</td></tr>
-<tr><td>7</td><td>18–22% EY and 1.15–1.45% TDS</td><td>—</td><td>[5] and the Golden Cup standard</td><td>See A4</td></tr>
+<tr><td>7</td><td>18–22% EY and 1.15–1.35% TDS</td><td>—</td><td>[5] and the Golden Cup standard</td><td>Fixed, see A4</td></tr>
 <tr><td>8</td><td>"Acid first, bitter later" is an untested hypothesis</td><td>Folklore</td><td>[32]</td><td>Citable, accurate</td></tr>
 <tr><td>8</td><td>Order of decline: trigonelline, TDS, 5-CQA, caffeine</td><td>Evidence</td><td>[8]</td><td>Citable</td></tr>
 <tr><td>8</td><td>Malic, acetic and lactic below threshold; tasters cannot name them</td><td>Evidence</td><td>[2]</td><td>Citable</td></tr>
 <tr><td>9</td><td>Temperature is a weak lever once TDS and EY are fixed</td><td>—</td><td>[6] [7]</td><td>Citable</td></tr>
-<tr><td>10</td><td>The SCA ten-item, 100-point scale</td><td>—</td><td>[12]</td><td>Outdated, see A4</td></tr>
+<tr><td>10</td><td>The SCA ten-item, 100-point scale (2004 set)</td><td>—</td><td>[12] [13]</td><td>Noted, see A4</td></tr>
 <tr><td>11</td><td>8.25 g to 150 ml; five cups per sample; a four-minute protocol</td><td>—</td><td>[12]</td><td>Citable</td></tr>
 <tr><td>12</td><td>Three layers in time; the flavour wheel</td><td>—</td><td>[14]</td><td>Citable</td></tr>
 <tr><td>13</td><td>Cupping does not predict pour over</td><td>—</td><td>[30] [31]</td><td>Partly</td></tr>
@@ -3081,36 +3081,36 @@ Buy again?  ___ yes / ___ no      Why: ____________
     },
 
     "ch-nguon-khoang-trong": {
-      title: "What needs fixing, and what is missing",
-      lede: "Three places where the original documents do not match the book, seven claims with no source at all, and a note on image rights.",
+      title: "Three fixes, and what is still missing",
+      lede: "Three places where the original documents did not match the book — now corrected; seven claims still with no source at all; and a note on image rights.",
       minutes: 8,
       tags: ["appendix", "corrections"],
       body: `
-<p>This is the chapter I most want you to read closely in the whole appendix. A book that teaches people to separate three levels of evidence has to hold itself to that same standard.</p>
+<p>This is the chapter I most want you to read closely in the whole appendix. A book that teaches people to separate three levels of evidence has to hold itself to that same standard — and has to fix things, not just record them. The three below are corrected in the book; I have kept the account of how each was found, because that is the part worth learning.</p>
 
-<h3>One: the 100-point cupping scale has been replaced</h3>
+<h3>One: the 2004 cupping scale is now footnoted</h3>
 
-<p>Chapters 10 to 12 present the SCA ten-item, 100-point scale as the current standard. It is the <em>Cupping Protocol and Form</em> of 2004.</p>
+<p>Chapters 10 to 12 present the SCA ten-item, 100-point scale. That set is the <em>Cupping Protocol and Form</em> of 2004, not the current standard.</p>
 
 <p>In 2024 the SCA replaced it with the <em>Coffee Value Assessment</em> (SCA-102, 103 and 104-2024), and the CVA <strong>does not use a single total score</strong> — it separates descriptive, affective and extrinsic assessment. In other words, what the SCA publishes now is a set of assessment types, not one number.</p>
 
 <p>This does not make the chapter wrong. The claim that a score measures the agreement of people trained to the same standard still holds, and holds more firmly under the CVA. But "almost everyone in the industry uses the same protocol" has not been true since 2024.</p>
 
-<p>The fix: a note at the head of chapter 10, saying this is the 2004 set and that the SCA moved to the CVA in 2024. The chapter does not need rewriting.</p>
+<p>Fixed: chapter 10 now says in its first sentence that this is the 2004 set and that the SCA moved to the CVA in 2024, with the reason the ten old items still matter. The chapter did not need rewriting — one introductory sentence.</p>
 
-<h3>Two: the "1.15–1.45%" TDS band</h3>
+<h3>Two: the TDS band is corrected</h3>
 
 <p>The SCA Golden Cup standard is <strong>1.15–1.35% TDS</strong>, which is 11.5–13.5 g/L, with 18–22% EY and a 55 g/L ratio.</p>
 
-<p>The figure 1.15–<strong>1.45</strong> circulates widely — widely enough that I put it in the book without checking. It is not the standard's number. One digit to fix.</p>
+<p>The figure 1.15–<strong>1.45</strong> circulates widely — widely enough that I put it in the book without checking. It is not the standard's number. Fixed: it now reads 1.15–1.35% in both the three-number panel and the explanation of TDS.</p>
 
-<h3>Three: the wrong source in chapter 4</h3>
+<h3>Three: the source in chapter 4 is changed</h3>
 
 <p>Chapter 4 says: "a controlled sensory study by Christopher Hendon and colleagues shows that bicarbonate is the factor that drives flavour perception, while adding calcium at high levels makes no significant sensory difference."</p>
 
 <p>The 2014 paper by Hendon and colleagues is a <strong>chemistry paper on cations and extraction yield</strong>. It takes no sensory measurement. I attributed a sensory finding to a chemistry paper because the two shared a group of authors.</p>
 
-<p>The claim itself is right — more right than I knew. Rune and colleagues (2026) say almost exactly that, including the detail that calcium above ordinary drinking-water levels still makes no difference. The fix is to change the name cited and keep the Evidence label. That label is now firmer than before.</p>
+<p>The claim itself is right — more right than I knew. Rune and colleagues (2026) say almost exactly that, including the detail that calcium above ordinary drinking-water levels still makes no difference. Fixed: the name cited is now Rune and colleagues, and the Evidence label stays — firmer than it was.</p>
 
 <h3>Seven claims with no source</h3>
 
@@ -3141,7 +3141,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <div class="callout ok">
 <p class="callout-title">What is worth keeping</p>
-<p>After the check, the book's central claim — that water matters more than people think, and alkalinity more than hardness — did not merely survive; it got stronger. All three fixes are details: an outdated scale, one digit, one name. Nothing had to be withdrawn.</p>
+<p>After the check, the book's central claim — that water matters more than people think, and alkalinity more than hardness — did not merely survive; it got stronger. All three fixes are details: an outdated scale, one digit, one name. All three are done. Nothing had to be withdrawn.</p>
 </div>
 `
     }

@@ -270,9 +270,11 @@ Chương | Khẳng định cần nguồn | Nhãn trong sách | Nguồn | Trạng
 
 ---
 
-## Chỗ cần sửa
+## Chỗ cần sửa — đã sửa ngày 28/10/2026
 
 Ba chỗ tài liệu gốc **không khớp** với sách. Hai chỗ là cập nhật, một chỗ là gán sai.
+Cả ba đã được chỉnh trong `content/part-*.js` và bản tiếng Anh; phần dưới giữ lại
+cách phát hiện, và ghi rõ đã sửa thành gì.
 
 ### 1. Thang cupping 100 điểm đã bị thay (chương 10–12)
 
@@ -285,14 +287,15 @@ nó tách thành đánh giá mô tả, đánh giá cảm xúc và phần ngoại
 vẫn đúng, và còn đúng hơn với CVA. Nhưng câu "hầu như mọi chuyên gia trong ngành đều
 dùng cùng một quy trình đó" thì từ 2024 không còn chính xác.
 
-Cách sửa tối thiểu: thêm một ghi chú ở đầu chương 10 nói rõ đây là bộ 2004, và từ 2024
-SCA chuyển sang CVA. Không cần viết lại chương.
+**Đã sửa:** chương 10 giờ nói rõ ngay câu đầu rằng đây là bộ 2004 và SCA chuyển sang
+CVA từ 2024, kèm lý do mười mục cũ vẫn đáng biết. Không phải viết lại chương.
 
 ### 2. Vùng TDS "1,15–1,45%" (chương 7)
 
 Chuẩn Golden Cup của SCA là **1,15–1,35% TDS** (11,5–13,5 g/L) với 18–22% EY và tỉ lệ
-55 g/L. Con số 1,15–**1,45** lưu hành rất rộng nhưng không phải con số của chuẩn. Sửa
-một chữ số.
+55 g/L. Con số 1,15–**1,45** lưu hành rất rộng nhưng không phải con số của chuẩn.
+
+**Đã sửa:** ô ba con số và phần giải thích TDS ở chương 7 giờ là 1,15–1,35%.
 
 ### 3. Gán sai nguồn ở chương 4
 
@@ -305,7 +308,8 @@ Bài của Hendon và cộng sự (2014) là bài **hoá học về cation và h
 nghiên cứu đó nói gần như nguyên văn điều sách nói, kể cả chi tiết "canxi cao hơn mức
 nước uống thông thường vẫn không tạo khác biệt".
 
-Sửa: đổi tên người được dẫn, giữ nguyên nhãn Bằng chứng. Nhãn đó giờ còn vững hơn trước.
+**Đã sửa:** chương 4 giờ dẫn Rune và cộng sự (2026), giữ nguyên nhãn Bằng chứng.
+Nhãn đó giờ còn vững hơn trước.
 
 ---
 

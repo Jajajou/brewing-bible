@@ -45,7 +45,7 @@
 <tr><td>Dẫn được một phần</td><td>5</td><td>Có tài liệu cho phần lõi, nhưng sách nói rộng hơn tài liệu.</td></tr>
 <tr><td>Không có nguồn ngoài</td><td>2</td><td>Chương 16 và 18. Không có nghiên cứu nào cho khẳng định trung tâm.</td></tr>
 <tr><td>Quy trình, không cần nguồn</td><td>10</td><td>Nhật ký, dụng cụ, checklist. Không đặt khẳng định thực nghiệm.</td></tr>
-<tr><td>Cần sửa</td><td>2</td><td>Chương 7 và 10. Tài liệu gốc không khớp với sách.</td></tr>
+<tr><td>Đã sửa</td><td>2</td><td>Chương 7 và 10. Đã chỉnh ngay trong sách; chi tiết ở A4.</td></tr>
 </table>
 
 <p>Cộng lại là 28. Cách đếm này không làm sách yếu đi; nó làm sách đọc được đúng cách. Bạn biết chương nào là chỗ dựa và chương nào là chỗ mình đang nghĩ thành tiếng.</p>
@@ -73,7 +73,7 @@
 
 <p><strong>[3]</strong> Hendon, C. H., Colonna-Dashwood, L., &amp; Colonna-Dashwood, M. (2014). <em>The Role of Dissolved Cations in Coffee Extraction.</em> Journal of Agricultural and Food Chemistry, 62(21), 4947–4950. doi:10.1021/jf501687c</p>
 
-<p>Bài hoá học về cation và hiệu suất chiết, không đo cảm quan. Xem chương A4 về việc sách đã dẫn nhầm bài này.</p>
+<p>Bài hoá học về cation và hiệu suất chiết, không đo cảm quan. Chương 4 từng dẫn bài này cho một phát hiện cảm quan; nguồn đã đổi sang [1] — xem A4.</p>
 
 <p><strong>[4]</strong> Specialty Coffee Association (2018). <em>The 2018 SCA Water Quality Handbook.</em> Tài liệu trả phí, không có bản PDF công khai. Đây là nguồn của vùng 40–75 ppm alkalinity, 50–175 ppm độ cứng, pH 6,5–7,5.</p>
 
@@ -107,7 +107,7 @@
 
 <p><strong>[13]</strong> Specialty Coffee Association (2024). <em>Coffee Value Assessment</em> — SCA Standard 102-2024 (Sample Preparation and Tasting Mechanics), 103-2024 (Descriptive Assessment), 104-2024 (Affective Assessment).</p>
 
-<p>CVA không dùng một điểm tổng duy nhất; nó tách thành đánh giá mô tả, đánh giá cảm xúc và phần ngoại cảnh. Đây là thay đổi lớn nhất của ngành cupping trong hai mươi năm, và là lý do chương 10 cần một ghi chú.</p>
+<p>CVA không dùng một điểm tổng duy nhất; nó tách thành đánh giá mô tả, đánh giá cảm xúc và phần ngoại cảnh. Đây là thay đổi lớn nhất của ngành cupping trong hai mươi năm, và là lý do chương 10 giờ mở bằng một ghi chú về bộ 2004.</p>
 
 <p><strong>[14]</strong> Chambers, E., IV, và cộng sự (2016). <em>Development of a "living" lexicon for descriptive sensory analysis of brewed coffee.</em> Journal of Sensory Studies, 31(6), 465–480. doi:10.1111/joss.12237</p>
 
@@ -195,16 +195,16 @@
 <tr><td>2</td><td>Không có định nghĩa chung cho "medium roast"; Agtron có hai biến thể</td><td>—</td><td>[12]–[14] cho phần đo màu</td><td>Một phần</td></tr>
 <tr><td>3</td><td>Trữ đông giữ chất lượng dài hạn</td><td>Bằng chứng</td><td>[22] [23] [24] [25]</td><td>Dẫn được</td></tr>
 <tr><td>3</td><td>20 ngày tuổi pha nước đúng ngon hơn 5 ngày tuổi pha nước kiềm 250 ppm</td><td>"không phải ý kiến"</td><td>không có</td><td>Không có nguồn</td></tr>
-<tr><td>4</td><td>Bicarbonate chi phối cảm nhận, canxi thì không</td><td>Bằng chứng</td><td>[1] trực tiếp, [3] hoá học</td><td>Dẫn được, xem A4</td></tr>
+<tr><td>4</td><td>Bicarbonate chi phối cảm nhận, canxi thì không</td><td>Bằng chứng</td><td>[1] trực tiếp, [3] hoá học</td><td>Dẫn được, nguồn đã đổi</td></tr>
 <tr><td>4</td><td>Vùng nước 40–75 ppm alkalinity, 50–175 ppm độ cứng, pH 6,5–7,5</td><td>Hợp lý</td><td>[4]</td><td>Dẫn được</td></tr>
 <tr><td>5</td><td>Bút TDS không đo alkalinity; HCO₃ × 0,82; 1 dKH = 17,86 ppm</td><td>—</td><td>hoá học phổ thông</td><td>Không cần nguồn</td></tr>
 <tr><td>6</td><td>Pha loãng tuyến tính; số liệu nước khoáng đóng chai</td><td>—</td><td>nhãn sản phẩm</td><td>Không cần nguồn</td></tr>
-<tr><td>7</td><td>18–22% EY và 1,15–1,45% TDS</td><td>—</td><td>[5] và chuẩn Golden Cup</td><td>Xem A4</td></tr>
+<tr><td>7</td><td>18–22% EY và 1,15–1,35% TDS</td><td>—</td><td>[5] và chuẩn Golden Cup</td><td>Đã sửa, xem A4</td></tr>
 <tr><td>8</td><td>"Acid trước, đắng sau" là giả thuyết chưa kiểm chứng</td><td>Truyền miệng</td><td>[32]</td><td>Dẫn được, chính xác</td></tr>
 <tr><td>8</td><td>Thứ tự giảm: trigonelline, TDS, 5-CQA, caffeine</td><td>Bằng chứng</td><td>[8]</td><td>Dẫn được</td></tr>
 <tr><td>8</td><td>Axit malic, acetic, lactic dưới ngưỡng; chuyên gia không gọi được tên</td><td>Bằng chứng</td><td>[2]</td><td>Dẫn được</td></tr>
 <tr><td>9</td><td>Nhiệt độ là đòn bẩy yếu khi TDS và EY đã cố định</td><td>—</td><td>[6] [7]</td><td>Dẫn được</td></tr>
-<tr><td>10</td><td>Thang SCA mười mục, 100 điểm</td><td>—</td><td>[12]</td><td>Đã lỗi thời, xem A4</td></tr>
+<tr><td>10</td><td>Thang SCA mười mục, 100 điểm (bộ 2004)</td><td>—</td><td>[12] [13]</td><td>Đã ghi chú, xem A4</td></tr>
 <tr><td>11</td><td>8,25 g trên 150 ml; năm cốc mỗi mẫu; quy trình bốn phút</td><td>—</td><td>[12]</td><td>Dẫn được</td></tr>
 <tr><td>12</td><td>Ba lớp thời gian; bánh xe hương vị</td><td>—</td><td>[14]</td><td>Dẫn được</td></tr>
 <tr><td>13</td><td>Cupping không dự đoán pour over</td><td>—</td><td>[30] [31]</td><td>Một phần</td></tr>
@@ -226,36 +226,36 @@
 
       {
         id: "ch-nguon-khoang-trong",
-        title: "Chỗ cần sửa, và chỗ trống",
-        lede: "Ba chỗ tài liệu gốc không khớp với sách, bảy khẳng định không có nguồn nào, và một ghi chú về bản quyền hình ảnh.",
+        title: "Ba chỗ đã sửa, và chỗ trống",
+        lede: "Ba chỗ tài liệu gốc không khớp với sách — đã chỉnh xong; bảy khẳng định vẫn không có nguồn nào; và một ghi chú về bản quyền hình ảnh.",
         minutes: 8,
         tags: ["phụ lục", "sửa lỗi"],
         body: `
-<p>Đây là chương mà mình muốn bạn đọc kỹ nhất trong cả phụ lục. Một cuốn sách dạy người ta phân biệt ba mức bằng chứng thì phải chịu cùng tiêu chuẩn đó với chính nó.</p>
+<p>Đây là chương mà mình muốn bạn đọc kỹ nhất trong cả phụ lục. Một cuốn sách dạy người ta phân biệt ba mức bằng chứng thì phải chịu cùng tiêu chuẩn đó với chính nó — và phải sửa, không chỉ ghi lại. Ba chỗ dưới đây đã được chỉnh ngay trong sách; mình giữ lại cách phát hiện vì phần đáng học nằm ở đó.</p>
 
-<h3>Một: thang cupping 100 điểm đã bị thay</h3>
+<h3>Một: thang cupping 2004 đã được ghi chú</h3>
 
-<p>Chương 10 đến 12 trình bày thang mười mục, 100 điểm của SCA như tiêu chuẩn hiện hành. Đó là bộ <em>Cupping Protocol and Form</em> năm 2004.</p>
+<p>Chương 10 đến 12 trình bày thang mười mục, 100 điểm của SCA. Đó là bộ <em>Cupping Protocol and Form</em> năm 2004, không phải tiêu chuẩn hiện hành.</p>
 
 <p>Từ 2024, SCA đã thay bằng <em>Coffee Value Assessment</em> (SCA-102, 103 và 104-2024), và CVA <strong>không dùng một điểm tổng duy nhất</strong> — nó tách thành đánh giá mô tả, đánh giá cảm xúc và phần ngoại cảnh. Nói cách khác, thứ mà SCA công bố bây giờ là một hệ nhiều loại đánh giá, không phải một con số.</p>
 
 <p>Điều này không làm sai nội dung chương. Câu "điểm số đo sự đồng thuận của những người được huấn luyện theo cùng một hệ tiêu chuẩn" vẫn đúng, và còn đúng hơn với CVA. Nhưng câu "hầu như mọi chuyên gia trong ngành đều dùng cùng một quy trình đó" thì từ 2024 không còn chính xác.</p>
 
-<p>Cách sửa: thêm một ghi chú ở đầu chương 10, nói rõ đây là bộ 2004 và từ 2024 SCA chuyển sang CVA. Không cần viết lại chương.</p>
+<p>Đã sửa: chương 10 giờ nói rõ ngay từ câu đầu rằng đây là bộ 2004 và SCA đã chuyển sang CVA từ 2024, kèm lý do mười mục cũ vẫn đáng biết. Không phải viết lại chương — chỉ thêm một câu dẫn.</p>
 
-<h3>Hai: vùng TDS "1,15–1,45%"</h3>
+<h3>Hai: vùng TDS đã chỉnh</h3>
 
 <p>Chuẩn Golden Cup của SCA là <strong>1,15–1,35% TDS</strong>, tương đương 11,5–13,5 g/L, với 18–22% EY và tỉ lệ 55 g/L.</p>
 
-<p>Con số 1,15–<strong>1,45</strong> lưu hành rất rộng — đủ rộng để mình đã viết nó vào sách mà không kiểm lại. Nó không phải con số của chuẩn. Sửa một chữ số.</p>
+<p>Con số 1,15–<strong>1,45</strong> lưu hành rất rộng — đủ rộng để mình đã viết nó vào sách mà không kiểm lại. Nó không phải con số của chuẩn. Đã sửa: nay là 1,15–1,35% ở cả ô ba con số lẫn phần giải thích TDS.</p>
 
-<h3>Ba: gán sai nguồn ở chương 4</h3>
+<h3>Ba: nguồn chương 4 đã đổi</h3>
 
 <p>Chương 4 viết: "nghiên cứu cảm quan có kiểm soát của Christopher Hendon và cộng sự cho thấy bicarbonate là yếu tố chi phối cảm nhận hương vị, trong khi thêm canxi ở mức cao không tạo ra khác biệt cảm quan đáng kể."</p>
 
 <p>Bài của Hendon và cộng sự năm 2014 là bài <strong>hoá học về cation và hiệu suất chiết</strong>. Nó không đo cảm quan. Mình đã gán một phát hiện cảm quan cho một bài hoá học vì hai thứ nằm cùng một nhóm tác giả.</p>
 
-<p>Khẳng định trong sách thì đúng — và đúng hơn mình tưởng. Rune và cộng sự (2026) nói gần như nguyên văn điều đó, kể cả chi tiết "canxi cao hơn mức nước uống thông thường vẫn không tạo khác biệt". Sửa: đổi tên người được dẫn, giữ nguyên nhãn Bằng chứng. Nhãn đó giờ còn vững hơn trước.</p>
+<p>Khẳng định trong sách thì đúng — và đúng hơn mình tưởng. Rune và cộng sự (2026) nói gần như nguyên văn điều đó, kể cả chi tiết "canxi cao hơn mức nước uống thông thường vẫn không tạo khác biệt". Đã sửa: tên người được dẫn giờ là Rune và cộng sự, nhãn Bằng chứng giữ nguyên — và còn vững hơn trước.</p>
 
 <h3>Bảy khẳng định không có nguồn</h3>
 
@@ -286,7 +286,7 @@
 
 <div class="callout ok">
 <p class="callout-title">Điều đáng giữ lại</p>
-<p>Sau khi tra, khẳng định trung tâm của cuốn sách — nước quan trọng hơn người ta tưởng, và alkalinity quan trọng hơn độ cứng — không chỉ đứng vững mà còn mạnh hơn. Ba chỗ phải sửa đều là chi tiết: một thang điểm đã cũ, một chữ số, một cái tên. Không có chỗ nào phải rút lại.</p>
+<p>Sau khi tra, khẳng định trung tâm của cuốn sách — nước quan trọng hơn người ta tưởng, và alkalinity quan trọng hơn độ cứng — không chỉ đứng vững mà còn mạnh hơn. Ba chỗ phải sửa đều là chi tiết: một thang điểm đã cũ, một chữ số, một cái tên. Cả ba đã sửa xong. Không có chỗ nào phải rút lại.</p>
 </div>
 `
       }
