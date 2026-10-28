@@ -9,9 +9,18 @@
   var PARTS = window.BOOK_PARTS || [];
   var ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
 
-  if (!PARTS.length) {
+  /* Số file nội dung mà print.html khai báo. Nếu nạp được ít hơn, một
+     request đã hỏng — dựng tiếp sẽ ra một cuốn sách thiếu hẳn một phần
+     mà không ai báo. Dừng và để bộ dựng thử lại. */
+  var EXPECTED = document.querySelectorAll('script[src*="content/part-"]').length;
+  document.documentElement.setAttribute("data-parts-expected", String(EXPECTED || PARTS.length));
+
+  if (!PARTS.length || (EXPECTED && PARTS.length < EXPECTED)) {
     document.getElementById("book").innerHTML =
-      '<p style="padding:20mm;font-family:sans-serif">Không tải được nội dung.</p>';
+      '<p style="padding:20mm;font-family:sans-serif">Nạp được ' + PARTS.length +
+      " / " + (EXPECTED || "?") + " phần nội dung. Dựng lại." +
+      "</p>";
+    document.documentElement.setAttribute("data-paged", "error");
     return;
   }
 
@@ -123,9 +132,18 @@
   }
   var wantsPdf = /[?&]pdf=1\b/.test(location.search);
 
+  /* Paged.js đo chữ bằng font nào thì trang in theo font đó. Nếu phân trang
+     chạy trước khi webfont tải xong, ngắt dòng sai và số trang đổi theo
+     từng lần dựng — nên chờ font xong mới bắt đầu. */
+  function whenFontsReady() {
+    if (!document.fonts || !document.fonts.ready) return Promise.resolve(true);
+    return document.fonts.ready.then(function () { return true; });
+  }
+
   if (window.PagedPolyfill && typeof window.PagedPolyfill.preview === "function") {
     document.documentElement.setAttribute("data-paged", "pending");
-    window.PagedPolyfill.preview()
+    whenFontsReady()
+      .then(function () { return window.PagedPolyfill.preview(); })
       .then(function () {
         if (wantsPdf) loadPrintOverrides();
         document.documentElement.setAttribute("data-paged", "done");

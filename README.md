@@ -57,6 +57,8 @@ print-output.css      luật chỉ áp lúc in (lề 0) — nạp sau khi phân 
 epub.css              giao diện bản EPUB (e-ink)
 build-pdf.sh          một lệnh xuất ra PDF
 tools/print-pdf.mjs   xuất PDF qua Chrome DevTools (chờ Paged.js xong mới in)
+tools/serve.mjs       static server cho bước in (giữ kết nối, có Content-Length)
+tools/check-pdf.mjs   kiểm bản in: trang trắng lạc chỗ, đoạn bị cắt, font chưa nhúng
 tools/build-epub.mjs  dựng EPUB 3 (nav, ncx, từng chương một file)
 tools/check-i18n.mjs  so cấu trúc bản dịch với bản gốc (bảng, danh sách, đoạn)
 vendor/paged.polyfill.js  Paged.js 0.4.3 (phân trang trong trình duyệt)
@@ -96,11 +98,26 @@ sed -i 's/?v=3/?v=4/g' index.html print.html      # Linux
 ./build-pdf.sh                  # → the-brewing-bible.pdf
 ./build-pdf.sh out/ban-in.pdf    # đường dẫn khác
 SHOT_PAGE=6 ./build-pdf.sh       # kèm ảnh trang 6 ra /tmp/shot-6.png để soi lỗi
+SKIP_CHECK=1 ./build-pdf.sh      # bỏ bước tự kiểm (khi máy chưa có poppler)
 ```
 
-Script tự bật một static server tạm (Paged.js không chạy được với `file://`), dựng trang, **chờ Paged.js phân trang xong** rồi mới in. Cần Chrome/Chromium và Node 18+.
+Script tự bật một static server tạm ([tools/serve.mjs](tools/serve.mjs) — Paged.js không chạy được với `file://`), dựng trang, **chờ Paged.js phân trang xong** rồi mới in. Cần Chrome/Chromium, Node 18+ và poppler-utils (`pdftotext`, `pdfinfo`, `pdffonts`) cho bước tự kiểm.
 
-Bản dàn trang: khổ A5 148×210 mm, lề 17/16/18 mm, chạy đầu trang theo tên phần, số trang chân, mục lục có số trang thật (dùng `target-counter`), bìa và trang phần riêng. Hiện khoảng **154 trang**.
+Bản dàn trang: khổ A5 148×210 mm, lề 17/16/18 mm, chạy đầu trang theo tên phần, số trang chân, mục lục có số trang thật (dùng `target-counter`), bìa và trang phần riêng. Hiện **167 trang**, trong đó 8 trang trắng chèn để mỗi phần mở ở trang lẻ.
+
+### Quy trình chống hỏng
+
+Bản in từng hỏng theo kiểu âm thầm: Paged.js không chạy, hoặc một file nội dung không nạp kịp, và script vẫn in ra một file PDF thiếu nguyên một phần. Bốn lớp chặn, theo thứ tự chạy:
+
+1. **Kiểm file trước khi dựng** — `build-pdf.sh` đọc `print.html`, xác nhận mọi file `.js`/`.css` nó trỏ tới đều có thật. Thiếu file thì dừng ngay trong một giây, không mất 40 giây dựng rồi mới biết.
+2. **Server giữ kết nối** — `python3 -m http.server` trả lời HTTP/1.0 và đóng kết nối sau mỗi request; với 12 file nạp song song, Chrome thỉnh thoảng nhận `ERR_CONNECTION_RESET` và một script không chạy. `tools/serve.mjs` khai `Content-Length` và giữ kết nối. Đây là nguyên nhân gốc của phần lớn lần hỏng trước đây (3/5 lần đo được); sau khi đổi, 12 lần dựng liên tiếp đều sạch và đều ra đúng 167 trang.
+3. **Nạp lại tại chỗ** — `print-pdf.mjs` đo lại số trang và số phần sau mỗi lần nạp; chưa đạt thì nạp lại ngay trong cùng phiên Chrome (tối đa `PDF_ATTEMPTS`, mặc định 3), không in ra bản thiếu. `build-pdf.sh` kiểm lại lần nữa và chỉ in `✓` khi đủ trang và đủ phần.
+4. **Kiểm sau khi dựng** — `tools/check-pdf.mjs` đọc lại chính file PDF vừa ra (không tin log) và kiểm ba thứ: trang trắng có nằm đúng chỗ chèn không, có đoạn văn nào bị cắt mất không (so từng đoạn trong `content/` với văn bản rút ra từ PDF), font đã nhúng chưa. Chạy riêng cũng được: `node tools/check-pdf.mjs out/ban-in.pdf`.
+
+### Giới hạn đã biết
+
+- **Chữ tiêu đề nhỏ không tìm kiếm được.** Các nhãn như `CHƯƠNG 1–9 · HẠT, NƯỚC…` dùng `letter-spacing`; khi rút chữ, trình đọc chen khoảng trắng giữa từng ký tự nên tìm `CHƯƠNG` không ra. Chữ trong thân bài tìm và copy bình thường. Muốn hết hẳn thì bỏ `letter-spacing` ở `.eyebrow`/`.tbl-cap` trong `print.css` — đánh đổi bằng mất kiểu chữ giãn hiện tại.
+- **Font trong PDF là Type 3.** Chrome không nhúng được font biến thiên (Google Fonts phục vụ Fraunces/Newsreader/Inter dạng variable), nên nó vẽ từng glyph thành Type 3. Chữ vẫn vector, vẫn tìm được, in vẫn nét; nhưng nhà in khó tính đôi khi đòi Type 1/TrueType. Muốn đổi phải tự host font tĩnh rồi bỏ Google Fonts.
 
 Muốn xem bản dàn trang ngay trong trình duyệt: mở `print.html`. Thêm `?pdf=1` để thấy đúng những gì PDF nhận.
 

@@ -121,38 +121,63 @@ async function waitForPaged(client, timeoutMs = 90000) {
     await client.send("Page.enable");
     await client.send("Runtime.enable");
 
-    await client.send("Page.navigate", { url });
+    /* Một lần nạp có thể hỏng vì lý do ngoài nội dung: mạng reset giữa lúc
+       nạp script, font chậm, Paged.js không chạy. Thay vì in một bản PDF
+       thiếu rồi để người dùng phát hiện, nạp lại ngay trong cùng phiên
+       Chrome — rẻ hơn nhiều so với chạy lại cả script từ đầu. */
+    const MAX_ATTEMPTS = Number(process.env.PDF_ATTEMPTS || 3);
+    const MIN_PAGES = Number(process.env.PDF_MIN_PAGES || 100);
 
-    /* đợi load xong */
-    await sleep(1200);
+    async function loadAndMeasure(attempt) {
+      /* thêm tham số để Chrome không dùng lại bản đã cache */
+      const bust = url + (url.includes("?") ? "&" : "?") + "build=" + Date.now() + "-" + attempt;
+      await client.send("Page.navigate", { url: bust });
+      await sleep(700);
 
-    const state = await waitForPaged(client);
-    if (state !== "done") {
-      console.error(`Cảnh báo: Paged.js ở trạng thái "${state}". PDF có thể thiếu số trang.`);
+      const state = await waitForPaged(client);
+
+      await client.send("Runtime.evaluate", {
+        expression: "document.fonts ? document.fonts.ready.then(()=>true) : true",
+        awaitPromise: true,
+      });
+      await sleep(500);
+
+      const diagnostic = await client.send("Runtime.evaluate", {
+        expression: `JSON.stringify({
+          href: location.href,
+          ready: document.readyState,
+          parts: typeof window.BOOK_PARTS === 'object' ? window.BOOK_PARTS.length : -1,
+          partsExpected: Number(document.documentElement.getAttribute('data-parts-expected')) || -1,
+          pagedLib: typeof window.PagedPolyfill,
+          pagedAttr: document.documentElement.getAttribute('data-paged'),
+          pageBoxes: document.querySelectorAll('.pagedjs_page').length,
+          bookChildren: document.getElementById('book') ? document.getElementById('book').children.length : -1
+        })`,
+        returnByValue: true,
+      });
+      const info = JSON.parse(diagnostic.result.value);
+      if (process.env.DEBUG) console.error(`DEBUG lần ${attempt}`, info);
+      return { state, info };
     }
 
-    /* đợi font và layout ổn định */
-    await client.send("Runtime.evaluate", {
-      expression: "document.fonts ? document.fonts.ready.then(()=>true) : true",
-      awaitPromise: true,
-    });
-    await sleep(700);
+    let good = null;
+    for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+      const r = await loadAndMeasure(attempt);
+      const expected = r.info.partsExpected > 0 ? r.info.partsExpected : r.info.parts;
+      const ok = r.state === "done" && r.info.pageBoxes >= MIN_PAGES && r.info.parts === expected;
+      if (ok) { good = r; break; }
+      console.error(
+        `Lần ${attempt}/${MAX_ATTEMPTS}: ${r.state || "?"}, ${r.info.pageBoxes} trang, ` +
+        `${r.info.parts}/${expected} phần — nạp lại.`
+      );
+    }
 
-    const diagnostic = await client.send("Runtime.evaluate", {
-      expression: `JSON.stringify({
-        href: location.href,
-        ready: document.readyState,
-        parts: typeof window.BOOK_PARTS === 'object' ? window.BOOK_PARTS.length : 'missing',
-        pagedLib: typeof window.PagedPolyfill,
-        pagedAttr: document.documentElement.getAttribute('data-paged'),
-        pageBoxes: document.querySelectorAll('.pagedjs_page').length,
-        bookChildren: document.getElementById('book') ? document.getElementById('book').children.length : -1
-      })`,
-      returnByValue: true,
-    });
-    const info = JSON.parse(diagnostic.result.value);
-    if (process.env.DEBUG) console.error("DEBUG", info);
+    if (!good) {
+      console.error(`Không ra bản in ổn định sau ${MAX_ATTEMPTS} lần. Chạy lại ./build-pdf.sh.`);
+      cleanup(1);
+    }
 
+    const info = good.info;
     const pages = info.pageBoxes;
 
     /* DEBUG_PAGE=n → in HTML của trang n ra stderr */
