@@ -1867,7 +1867,116 @@ Odd:   _______________
       lede: "Not a study session. Just four steps, in order, each one answering a single question.",
       minutes: 10,
       tags: ["process", "practice"],
-      body: ``
+      body: `
+<p>This is the routine I would use every time you open a new bag. It takes about twenty minutes, needs one cupping and two brews, and gives you enough information to brew that coffee for the rest of the bag.</p>
+
+<p>The rule throughout: <strong>each step answers exactly one question.</strong> Do not combine steps. Do not skip any.</p>
+
+<h3>Step 0 — Read the bag (2 minutes, free)</h3>
+
+<p>Before opening it, read: variety, region, altitude, processing, roast date, roast level.</p>
+
+<p>Then write one sentence of prediction:</p>
+
+<div class="formula">
+<span class="fx-label">Prediction</span>
+With [variety] from [region], processed [how], roasted [level], I expect:<br>
+Present:  ____________________<br>
+Absent:  ____________________<br>
+Likely problem:  ____________________
+</div>
+
+<p>For example: "Catimor from Cầu Đất, honey, medium roast — expect sweetness, tea, a little bean; no apricot; likely to leave a bitter finish."</p>
+
+<p>That prediction matters for two reasons. It forces you to think before you taste (which reduces the effect of expectation on perception). And it gives you a ruler to compare against — if the result is far from your prediction, you have something to learn.</p>
+
+<div class="callout act">
+<p class="callout-title">Check the water first</p>
+<p>If you do not know the alkalinity of the water you use, run the three-cup experiment from chapter 6 before going further. Otherwise every conclusion in the later steps may be wrong because of a variable you never checked.</p>
+</div>
+
+<h3>Step 1 — Cup it (7 minutes)</h3>
+
+<p>This is the most important step, and the only one that gives you a reference point independent of your hands.</p>
+
+<ol class="steps">
+<li><strong>Smell the dry grounds</strong><p>Write two columns: <em>like</em> / <em>dislike</em>. Do not try to name the notes.</p></li>
+<li><strong>Pour, then smell the wet crust</strong><p>This is the layer closest to the real cup. Write it down.</p></li>
+<li><strong>Wait four minutes, break the crust, skim</strong><p>Smell the moment you break it — that is the aromatic peak.</p></li>
+<li><strong>Taste at three temperatures</strong><p>Hot: aroma. Warm: balance. Cool: structure and faults.</p></li>
+</ol>
+
+<p>The question to answer after this step: <strong>what coffee is this?</strong> Three layers: which aromas sit on the roast side, which on the origin side, is the finish long or short, and are there any off-flavours.</p>
+
+<div class="callout ok">
+<p class="callout-title">This is your ceiling</p>
+<p>After step 1 you know how far this coffee can go. Every later step is an attempt to approach that level — not to exceed it. That is the most important point in the whole routine.</p>
+</div>
+
+<h3>Step 2 — Brew your baseline (5 minutes)</h3>
+
+<p>Brew with <strong>your base recipe</strong>, changing nothing. The purpose: measure the distance between the ceiling and your hands.</p>
+
+<p>Two principles:</p>
+<ul>
+<li><strong>Match the cupping ratio if you can.</strong> Cupping uses 1:18, so a pour over at 1:16–1:17 is close. At 1:15 you are comparing two different concentrations — and you will not know where the difference came from.</li>
+<li><strong>Adjust nothing.</strong> This is your zero point. Adjust now and you have no reference.</li>
+</ul>
+
+<p>After brewing, do three things:</p>
+<ol>
+<li><strong>Look at the bed.</strong> Even? A hole? Dry patches? How long did it drain?</li>
+<li><strong>Drink it with a slurp.</strong> Not a sip. See chapter 11.</li>
+<li><strong>Compare with the cupping.</strong> Use the four questions from chapter 13.</li>
+</ol>
+
+<h3>Step 3 — One adjustment (5 minutes)</h3>
+
+<p>Now you know which dimension is wrong. Pick <strong>one</strong> lever:</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>What you observed</th><th>The adjustment</th></tr></thead>
+<tbody>
+<tr><td>An uneven bed (a hole, dry patches)</td><td><strong>Technique</strong>: lower the height, pour spirals, swirl the dripper</td></tr>
+<tr><td>Even bed, but weaker than the cupping</td><td><strong>Ratio</strong>: reduce the water by 5–10%</td></tr>
+<tr><td>Even bed, but an off-flavour the cupping did not have</td><td><strong>Grind</strong>: try one notch coarser</td></tr>
+<tr><td>Even bed, but less aroma than the cupping</td><td><strong>Temperature</strong>: raise by 2 °C</td></tr>
+<tr><td>Even bed, clean flavour, just weaker</td><td><strong>Change nothing.</strong> That is the limit of the method, or of how you drink.</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Brew again. Compare with the cupping again. If it is better, write it down. If not, change direction.</p>
+
+<div class="callout warn">
+<p class="callout-title">A limit: three tries</p>
+<p>If after three adjustments you are still far from the cupping, stop. That is information about <strong>the coffee</strong>, not about you. And it means this coffee does not suit your base recipe — which is normal, and not a reason to change the base recipe for the next coffee.</p>
+</div>
+
+<h3>Step 4 — Write it down (1 minute)</h3>
+
+<p>Write down the recipe that produced the best brew. How many grams, how much water, temperature, grind (click number or description), total time. And one sentence describing the cup.</p>
+
+<p>This is the thing you will forget. Not "might forget" — you will forget. Three weeks from now you will open this bag again and have no idea what you did.</p>
+
+<h3>Time budget</h3>
+
+<div class="stat-grid">
+<div class="stat"><b>2′</b><span>Read the bag</span></div>
+<div class="stat"><b>7′</b><span>Cupping</span></div>
+<div class="stat"><b>5′</b><span>Baseline brew</span></div>
+<div class="stat"><b>5′</b><span>Adjustment</span></div>
+</div>
+
+<p>About twenty minutes in total, for a coffee you will drink over three to five weeks. That is the best return on time in all of home brewing.</p>
+
+<h3>What happens if you skip it</h3>
+
+<p>You brew the new coffee with your base recipe, think "it's fine", and drink the whole bag without ever knowing how good it could have been. That is the fate of most specialty coffee sold — not because the buyer brews badly, but because nobody measured the distance.</p>
+
+<p>One cupping. That is all it takes to know how much you are missing.</p>
+`
     },
 
     "ch-bon-luat": {
@@ -1875,7 +1984,113 @@ Odd:   _______________
       lede: "A good recipe is not an answer. It is a ruler, plus a procedure for using that ruler.",
       minutes: 9,
       tags: ["method", "recipes"],
-      body: ``
+      body: `
+<p>There is a question home brewers ask a lot, and it sounds entirely reasonable: <em>"Is my recipe good for every coffee?"</em></p>
+
+<p>The answer is: <strong>no, and the question is asking the wrong thing.</strong></p>
+
+<h3>A recipe is a coordinate, not a method</h3>
+
+<p>A recipe is a set of values for six variables: dose, water ratio, grind, temperature, time, and how much you agitate. It is a <em>point</em> in a six-dimensional space.</p>
+
+<p>When you have a new coffee you do not know which point suits it. You only know its ceiling (from cupping). So what you need is not a fixed point — it is <strong>a ruler to measure the distance to the ceiling</strong>.</p>
+
+<p>And this is where the ruler earns its value: <strong>you cannot measure anything if you keep moving the ruler.</strong> Change the coffee and the recipe at the same time and you learn nothing — every difference is unattributable.</p>
+
+<h3>But this is the real cost of a fixed recipe</h3>
+
+<p>Not that it is wrong. That it blinds you.</p>
+
+<p>If every coffee goes through the same pipeline, you stop noticing what each coffee is. After a few months every cup tastes similar — and you are drinking <strong>your recipe</strong>, not coffee.</p>
+
+<p>That is why the answer cannot be "keep it fixed for every coffee". It has to be: <strong>keep it fixed as your reference, then adjust deliberately.</strong></p>
+
+<div class="pull">A recipe answers <em>“what did I do?”</em><br>It does not answer <em>“what does this coffee need?”</em></div>
+
+<h3>What transfers, and what does not</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Layer</th><th>Example</th><th>Transfers to another coffee?</th></tr></thead>
+<tbody>
+<tr><td><strong>Brewer mechanism</strong></td><td>Switch valve closed/open = immersion/percolation</td><td><strong>100%</strong> — that is the physics of the dripper</td></tr>
+<tr><td><strong>Routine structure</strong></td><td>Bloom → steep → drain → steep → drain</td><td><strong>~80%</strong> — a good default for most coffees</td></tr>
+<tr><td><strong>The numbers</strong></td><td>Click count, 92 °C, 2:15, bloom temperature</td><td><strong>0%</strong> — depends on the coffee, your grinder and your kettle</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>This is the most important point in the chapter: <strong>those three layers transfer very differently.</strong> People usually share the third layer (the numbers) because it is the easiest to share — and it is exactly the layer with the least value.</p>
+
+<h3>Four rules</h3>
+
+<ol class="steps">
+<li><strong>First brew of a new coffee: change nothing</strong><p>Brew with your base recipe. Smell, taste, write it down. This is your zero point. Change something now and you have no reference, and every later comparison is meaningless.</p></li>
+<li><strong>Compare with the cupping, not with your expectation</strong><p>Your expectation comes from the bag, from a review, from the memory of another coffee. The cupping comes from this coffee. Only one of those is data.</p></li>
+<li><strong>One change at a time, in this order: concentration → grind → temperature → technique</strong><p>Do not touch technique before you have checked concentration. Do not touch temperature before you have checked grind. The order has a reason: it runs from the cleanest lever (no side effects) to the most complex one.</p></li>
+<li><strong>After three tries still far from the cupping → that is information about the coffee</strong><p>Not a reason to change your base recipe. This is the most important rule, and the one that stops you drifting: each coffee pulls the recipe a little, and after twenty coffees you have no anchor left.</p></li>
+</ol>
+
+<h3>Why rule 4 matters so much</h3>
+
+<p>Imagine brewing twenty coffees in a year. Every time a coffee "does not suit" the base recipe, you adjust the base recipe to suit it. After twenty times, your recipe is a blend of twenty corrections — and it is no longer optimal for any coffee, including the first one.</p>
+
+<p>This is very common among people who have brewed for years yet still find their cups "unstable". They are not short of technique. They are short of a fixed anchor.</p>
+
+<div class="callout ok">
+<p class="callout-title">How to keep the anchor</p>
+<p>Write your base recipe on paper and tape it next to the brewer. When you adjust for a specific coffee, write that separately — never overwrite the base. The base should change no more than once a year, and only for a concrete reason (for instance, you changed your water source).</p>
+</div>
+
+<h3>What a good base recipe looks like</h3>
+
+<p>Not the "best tasting" recipe. The <strong>most stable</strong> one: it produces a drinkable cup across many coffees, and it is easy to reproduce.</p>
+
+<p>Three criteria:</p>
+<ul>
+<li><strong>Few variables.</strong> Three pours beats five. One temperature beats three.</li>
+<li><strong>No dependence on special equipment.</strong> If the recipe needs exactly 93 °C and your kettle cannot hold it, it is not a base recipe — it is someone else's recipe.</li>
+<li><strong>A wide window.</strong> If you are 10% off, the cup is still drinkable. This is the most important criterion, and the reason immersion usually makes a better base than percolation.</li>
+</ul>
+
+<h3>One concrete suggestion</h3>
+
+<p>If you use a Switch (or any brewer that can steep), a good base recipe is:</p>
+
+<div class="recipe">
+<div class="recipe-head">Base recipe — Switch, two stages<small>A suggestion, not a truth. Adjust to your equipment.</small></div>
+<div class="recipe-body">
+<div class="recipe-params">
+<span><b>15 g</b> coffee</span>
+<span><b>250 g</b> water</span>
+<span><b>93 °C</b></span>
+<span><b>~3:00</b> total</span>
+</div>
+<ol class="steps">
+<li><strong>Bloom — valve closed</strong><p>45 g of water, gentle swirl, wait 40 seconds.</p></li>
+<li><strong>Stage 1 — valve closed</strong><p>Pour up to 150 g. Valve closed, wait 45 seconds. This is immersion: even, forgiving.</p></li>
+<li><strong>Release</strong><p>Open the valve, let the water drop to near the bed.</p></li>
+<li><strong>Stage 2 — valve closed</strong><p>Close the valve, pour to 250 g, wait 30 seconds.</p></li>
+<li><strong>Final release</strong><p>Open the valve, let it drain fully. Total about 3:00.</p></li>
+</ol>
+</div>
+</div>
+
+<p>This is a "two-steep" structure — each steep allows even extraction, and two steeps allow two different extraction stages (the first pulls the easy solubles, the second pulls the rest). It is also the most forgiving structure you can have with a dripper.</p>
+
+<div class="callout warn">
+<p class="callout-title">About hybrid techniques</p>
+<p>Some recipes combine unusual techniques (for instance a bloom at very low temperature, then a rise). Those techniques have a plausible mechanism but <strong>no controlled evidence</strong> <span class="tier tier-c">Folklore</span>. If they require your equipment to do something it does badly (like recovering temperature quickly), the real cost is larger than the unproven benefit. Keep the base simple; try special techniques as a separate experiment, with notes.</p>
+</div>
+
+<h3>The short answer to the opening question</h3>
+
+<p><em>"Should I keep my pour-over recipe for every coffee?"</em></p>
+
+<p><strong>Keep it as your reference — yes. Keep it unchanged — no.</strong> Its structure and mechanism transfer to any coffee. Its numbers do not, and should not.</p>
+
+<p>And the reason to keep it is not that it is supreme. It is that it <strong>forgives</strong> — and a forgiving recipe gives you data, while an optimised recipe gives you a good cup and no idea why.</p>
+`
     },
 
     "ch-case-study": {
@@ -1883,7 +2098,157 @@ Odd:   _______________
       lede: "A complete example, from cupping to diagnosis, with real numbers — and one very common technical mistake.",
       minutes: 11,
       tags: ["case study", "diagnosis"],
-      body: ``
+      body: `
+<p>This chapter is a complete example, using real data from one brew. The point is not for you to copy the recipe — it is to show you how the routine is applied.</p>
+
+<h3>The starting data</h3>
+
+<ul>
+<li><strong>Coffee:</strong> Arabica, medium roast, from a local roaster (UR Coffee Roastery).</li>
+<li><strong>Cupping:</strong> 10 g of coffee to 170 g of water (1:17), 93 °C.</li>
+</ul>
+
+<p><strong>Cupping result:</strong></p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Stage</th><th>Observation</th><th>Reading</th></tr></thead>
+<tbody>
+<tr><td>Dry grounds</td><td>Sweet, caramel, chocolate-like; possibly nutty and brown sugar</td><td>A clear <strong>roast</strong> layer, a solid sweet base</td></tr>
+<tr><td>After breaking the crust</td><td>Red fruit aroma</td><td>An <strong>origin</strong> layer is present, thinner than the roast layer</td></tr>
+<tr><td>Flavour</td><td>Harmonious, sweet</td><td>Enough extraction, good balance</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>This is a good coffee. It has both layers, with the roast as the base and fruit as the accent. Its ceiling: clear caramel sweetness, faint red fruit, a clean finish.</p>
+
+<h3>The first brew — and the problem</h3>
+
+<div class="recipe">
+<div class="recipe-head">The recipe used<small>V60, no Switch</small></div>
+<div class="recipe-body">
+<div class="recipe-params">
+<span><b>15 g</b> coffee</span>
+<span><b>225 g</b> water</span>
+<span><b>1:15</b></span>
+<span>Bloom 45 g / 40 s</span>
+<span>Everything else in one pour</span>
+</div>
+<p>Technique: centre pour, spout about <strong>15 cm</strong> above the bed.</p>
+</div>
+</div>
+
+<p><strong>Result:</strong> not as good as the cupping.</p>
+
+<h3>Diagnosis: two faults, and why</h3>
+
+<h4>Fault 1 — certain: a centre pour from 15 cm</h4>
+
+<p>This is not debatable. Pouring from 15 cm gives the stream enough kinetic energy to <strong>dig into the bed and bore a hole in the middle</strong>. Water then runs straight down through that hole. That is channelling, by definition.</p>
+
+<p>Two concrete consequences, both visible:</p>
+
+<ul>
+<li><strong>Grounds splashed onto the paper</strong>, above the water line. Those grounds are never extracted again — you are losing part of the coffee.</li>
+<li><strong>Fines driven to the bottom</strong>, clogging the paper and stretching the drawdown. The bottom then keeps extracting at low temperature and produces astringency.</li>
+</ul>
+
+<h4>Fault 2 — suspected: pouring all the remaining water in one go</h4>
+
+<p>One large pour means the bed is disturbed exactly once and then left to drain while compacted. There is no second pour to "open" it. With a medium roast (which extracts quickly), that recipe produces a cup that is both astringent and thin.</p>
+
+<h4>A third problem — not a fault, but it destroys the comparison</h4>
+
+<p>The cupping used 1:17. The pour over used 1:15. Those are different concentrations — about a 13% gap. So when you compare, you do not know whether the difference comes from the method, the concentration, or the technique.</p>
+
+<p>That is not a brewing fault. It is a fault in the <strong>experimental design</strong>, and it happens all the time.</p>
+
+<h3>The corrected recipe</h3>
+
+<p>The principle: match the cupping ratio so the comparison means something. 15 g × 17 = 255 g.</p>
+
+<div class="recipe">
+<div class="recipe-head">Corrected recipe — matching the cupping<small>15 g : 255 g = 1:17</small></div>
+<div class="recipe-body">
+<div class="recipe-params">
+<span><b>15 g</b> coffee</span>
+<span><b>255 g</b> water</span>
+<span><b>92–93 °C</b></span>
+<span><b>2:30–3:00</b> total</span>
+</div>
+<ol class="steps">
+<li><strong>Bloom — 0:00–0:40</strong><p>45 g of water. <strong>Swirl the whole dripper</strong> (do not stir with a spoon).</p></li>
+<li><strong>Pour 2 — 0:40–1:00</strong><p>Up to <strong>150 g</strong>. A spiral from the centre out to the rim and back in. Spout <strong>3–5 cm</strong> above the bed. Rate 5–7 g/s.</p></li>
+<li><strong>Pause — 1:00–1:15</strong><p>Let the water drop to near the bed. Do not let it dry.</p></li>
+<li><strong>Pour 3 — 1:15–1:35</strong><p>Up to <strong>255 g</strong>. Same pattern, same rate.</p></li>
+<li><strong>Swirl and drain — 1:35–2:45</strong><p>Swirl the dripper once. Let it drain fully.</p></li>
+</ol>
+</div>
+</div>
+
+<h3>Exactly three things changed</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Change</th><th>From</th><th>To</th><th>Why</th></tr></thead>
+<tbody>
+<tr><td>Height</td><td>15 cm</td><td><strong>3–5 cm</strong></td><td>Removes erosion and channelling</td></tr>
+<tr><td>Number of pours</td><td>1 (the remainder)</td><td><strong>2</strong></td><td>Opens the bed a second time, keeps the level steady</td></tr>
+<tr><td>Ratio</td><td>1:15</td><td><strong>1:17</strong></td><td>Matches the cupping → a meaningful comparison</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Temperature stays at 92–93 °C. A medium roast does not need more. Grind: medium, a little coarser if the previous brew drained in under 2:15.</p>
+
+<h3>How to check the fix worked</h3>
+
+<p>Look into the dripper after it has drained:</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>What you see</th><th>What it means</th></tr></thead>
+<tbody>
+<tr><td>A crater in the middle, dry patches at the rim</td><td>Still channelling — bring your hand even lower</td></tr>
+<tr><td>Flat, evenly damp bed, no dry patches</td><td><strong>The bed extracted evenly.</strong> What is left is grind and temperature</td></tr>
+<tr><td>Grounds stuck high on the paper wall</td><td>Still pouring from too high, or too hard</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>This is the only thing in the whole process that tells you the truth — your palate will lie to you, the bed will not.</p>
+
+<h3>If it is still short of the cupping</h3>
+
+<p>Once the bed is flat and even and the cup is still lacking, go in this order:</p>
+
+<ol class="steps">
+<li><strong>Grind one notch finer</strong><p>If the cup is thin, lacking sweetness, and draining too fast.</p></li>
+<li><strong>Grind one notch coarser</strong><p>If there is astringency, dryness, a lingering bitterness.</p></li>
+<li><strong>Raise the temperature 1–2 °C</strong><p>If there is sour-green, vegetal character (under-extraction).</p></li>
+</ol>
+
+<p>One thing at a time. And if after three tries you are still far from the cupping — by rule 4 in chapter 21 — that is information about the coffee, not a reason to change your base recipe.</p>
+
+<h3>The right expectation</h3>
+
+<div class="callout ok">
+<p class="callout-title">A realistic target for this coffee</p>
+<p><strong>Clear caramel and brown-sugar sweetness; red fruit slightly fainter than the cupping; a clean finish.</strong> Not "identical to the cupping".</p>
+<p>Cupping is full immersion, no flow, steady temperature. Pour over has flow, falling temperature, a compacted bed. That gap is <strong>structural</strong>, not a failure of skill. You can narrow it; you cannot erase it.</p>
+</div>
+
+<h3>Three lessons that transfer to other coffees</h3>
+
+<ol>
+<li><strong>The height of the spout is the most underrated variable.</strong> It is free to fix, and it fixes more problems than any recipe.</li>
+<li><strong>Changing two things at once loses data.</strong> Ratio and technique have to be changed separately, or you do not know which one helped.</li>
+<li><strong>Compare with the cupping, not with the bag.</strong> The bag gives you a promise. The cupping gives you a fact.</li>
+</ol>
+
+<p>And one small but practical thing: <strong>slurp when you drink.</strong> Most of the remaining gap you feel between a cupping and a pour over sits in the slurp, not in the dripper. The next chapter explains why.</p>
+`
     },
 
     "ch-giai-phau-ngum": {
