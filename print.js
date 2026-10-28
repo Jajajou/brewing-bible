@@ -78,10 +78,12 @@
 
     chs.forEach(function (ch) {
       html.push(
-        '<section class="chapter" id="' + ch.id + '">',
-        /* Phần đầu chương phải đi liền một khối: nếu để rời, Paged.js
-           có thể bỏ "Chương NN" lại cuối trang trước và đẩy tiêu đề sang trang sau. */
-        '<header class="ch-head">',
+        '<section class="chapter" data-ch="' + ch.id + '">',
+        /* id nằm trên .ch-head, không nằm trên <section>: Paged.js có thể tạo
+           một mảnh rỗng của section ở cuối trang trước, và target-counter
+           trong mục lục sẽ báo sai trang. Cũng vì thế phần đầu chương là một
+           khối không tách. */
+        '<header class="ch-head" id="' + ch.id + '">',
         '<p class="ch-num">Chương ' + String(ch.__n).padStart(2, "0") + "</p>",
         '<h2 class="ch-title">' + esc(ch.title) + "</h2>",
         ch.lede ? '<p class="ch-lede">' + esc(ch.lede) + "</p>" : "",
