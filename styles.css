@@ -157,7 +157,7 @@ body{
    hoàn toàn với tiếng Nhật. Tắt, và nới dòng cho dễ đọc hơn. */
 html[lang="ja"] .body > p:first-of-type::first-letter{
   float: none; font-size: inherit; line-height: inherit;
-  color: inherit; padding: 0; font-weight: inherit;
+  color: inherit; padding: 0; margin: 0; font-weight: inherit;
 }
 html[lang="ja"] body{
   font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", Georgia, serif;
@@ -395,10 +395,23 @@ html[data-theme="dark"] .btn-primary{ color: #17120c; }
 .body > * + *{ margin-top: 1.15rem; }
 .body p{ margin: 0 0 1.05rem; }
 .body > p:last-child{ margin-bottom: 0; }
+/* Chữ cái đầu lớn. Ba con số quyết định nó có "đứng" trên hai dòng chữ
+   hay lơ lửng:
+
+   · font-size 3.34em ≈ 1,07 × hai dòng (line-height thân bài 1,72em), đúng
+     bằng chiều cao con chữ in hoa của hai dòng cộng lại;
+   · line-height 1 để hộp của chữ không cao hơn thân chữ — hộp cao hơn thì
+     dòng thứ ba cũng bị đẩy sang phải, chừa một khoảng trống bên trái;
+   · margin-top -0,03em hất chữ lên đúng chiều cao con chữ, vì đường chân
+     chữ của hộp lùi xuống theo ascent của font chứ không theo cỡ chữ.
+
+   Trước đây là 3.55rem, line-height 0.82 và padding-top 0.14em: chữ to hơn
+   hai dòng và bị đẩy xuống gần một dòng, nên nó treo ngang đường chân chữ
+   của dòng đầu và dòng hai chạy xuyên dưới. */
 .body > p:first-of-type::first-letter{
   float: left; font-family: var(--font-display);
-  font-size: 3.55rem; line-height: 0.82; font-weight: 400;
-  padding: 0.14em 0.12em 0 0; color: var(--accent);
+  font-size: 3.34em; line-height: 1; font-weight: 400;
+  margin: -0.03em 0.12em 0 0; padding: 0; color: var(--accent);
 }
 
 .body h3{
@@ -683,7 +696,6 @@ html[data-theme="dark"] .btn-primary{ color: #17120c; }
   .search-input{ width: 100%; }
   .search-input:focus{ width: 100%; }
   .lang-select{ font-size: 0.68rem; padding: 0 1.1rem 0 0.4rem; }
-  .body > p:first-of-type::first-letter{ font-size: 2.9rem; }
   .tier-legend > div{ flex-direction: column; gap: 0.25rem; }
   .tier-legend .tier{ flex: none; }
 }
