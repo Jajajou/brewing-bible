@@ -7,7 +7,8 @@ window.BOOK_TEXT = {
     "phan-5": { title: "Pour Over", blurb: "The physics of flow, and what your hand can actually do" },
     "phan-6": { title: "The Bridge", blurb: "From a cupping bowl to a pour-over" },
     "phan-7": { title: "Perception", blurb: "The cup is not the end — it is half the story" },
-    "phan-8": { title: "The Notebook", blurb: "Pages to consult, not to read" }
+    "phan-8": { title: "The Notebook", blurb: "Pages to consult, not to read" },
+    "phu-luc": { title: "References", blurb: "The book uses three evidence labels. This appendix shows you what each label rests on — and where it rests on nothing at all." }
   },
 
   chapters: {
@@ -2866,6 +2867,282 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <p>And if you remember only one thing from all of it, remember this: <strong>you do not create aroma. You can only drop it.</strong> That is both a limit and a liberation.</p>
 
 <p>A limit, because some coffees cannot be made better than what they are. A liberation, because you do not have to try. You only have to avoid breaking them.</p>
+`
+    },
+
+    "ch-nguon-cach-doc": {
+      title: "How this list was built",
+      lede: "The book had no source notes when it was written. This is the list rebuilt afterwards — and here is exactly how it was rebuilt, so you know which part to trust and which part is inference.",
+      minutes: 4,
+      tags: ["appendix", "method"],
+      body: `
+<p>This book is built on one rule: say plainly where there is evidence, where there is only a reasonable argument, and where the advice is folklore. But when I wrote it, I did not record the sources. No footnotes, no bibliography, only the three labels. That is a real hole: a label with nothing behind it is just an assertion wearing a costume.</p>
+
+<p>This appendix fixes that. It is not a bibliography copied in from somewhere else — it was rebuilt backwards, out of what the book actually says.</p>
+
+<h3>Three steps</h3>
+
+<ol class="steps">
+<li><strong>Pull the claims out of the prose.</strong><p>Every chapter was read again and split into two kinds of sentence: the ones an outside document can check, and the ones that are experience, method, or advice. Only the first kind needs a source.</p></li>
+<li><strong>Trace each claim to its original document.</strong><p>Peer-reviewed work with a DOI first. Where none exists, the industry standard or the primary source from the person who proposed the method.</p></li>
+<li><strong>Compare again, and record the mismatch.</strong><p>If the document that turned up does not say what the book says, that goes into chapter A4 — instead of being assigned a convenient citation to make the list look finished.</p></li>
+</ol>
+
+<p>The third step is the important one, and the easiest to skip. A list that looks complete but cites the wrong paper is worse than no list at all, because it makes the reader trust something that does not hold.</p>
+
+<div class="callout">
+<p class="callout-title">A source is not evidence</p>
+<p>Having a source does not make a claim correct. A small paper, a trial on twenty people, a model nobody has tested — all of those are sources. What decides is the design of the study, and this appendix states the design wherever it matters.</p>
+</div>
+
+<h3>Where the book stands, after the check</h3>
+
+<table>
+<tr><th>Status</th><th>Chapters</th><th>What it means</th></tr>
+<tr><td>Directly citable</td><td>9</td><td>A document says what the book says. The Evidence label holds.</td></tr>
+<tr><td>Partly citable</td><td>5</td><td>A document supports the core, but the book reaches further than it does.</td></tr>
+<tr><td>No outside source</td><td>2</td><td>Chapters 16 and 18. Nothing published supports the central claim.</td></tr>
+<tr><td>Method, needs no source</td><td>10</td><td>Notebook, gear, checklist. No empirical claim is made.</td></tr>
+<tr><td>Needs fixing</td><td>2</td><td>Chapters 7 and 10. The original document does not match the book.</td></tr>
+</table>
+
+<p>That adds up to 28. Counting this way does not weaken the book; it lets the book be read correctly. You know which chapters are load-bearing, and which ones are me thinking out loud.</p>
+`
+    },
+
+    "ch-nguon-danh-muc": {
+      title: "Bibliography",
+      lede: "Thirty-three sources, grouped by subject. Each entry carries a DOI or a link that was opened and read, plus one line on what that source contributes.",
+      minutes: 12,
+      tags: ["appendix", "sources"],
+      body: `
+<p>Numbered in the order they appear in chapter A3. The entries with a longer note are the ones where how the result should be read matters more than the result itself.</p>
+
+<h3>Water</h3>
+
+<p><strong>[1]</strong> Rune, C. J. B., Steen, I., Kjærgaard, E. R., Maroun, Z., Bredie, W. L. P., &amp; Kjaergaard, H. G. (2026). <em>Impact of Water Composition on Coffee Sensory Properties: A Comprehensive Analysis.</em> Journal of Food Science, 91(9), e71434. doi:10.1111/1750-3841.71434</p>
+
+<p>Ultrapure water as the reference, then calcium, magnesium and bicarbonate added, assessed by duo–trio and descriptive analysis. Hardness produced <strong>no</strong> marked flavour change, even with calcium above what drinking water normally contains. Bicarbonate did: more of it reduced acidity, fruitiness and complexity, and raised roasted and bitter notes. The paper also states plainly that the industry idea of an "ideal" water zone had <strong>never been tested with controlled sensory methods</strong> before this study.</p>
+
+<p><strong>[2]</strong> Rune, C. J. B., et al. (2023). <em>Acids in brewed coffees: Chemical composition and sensory threshold.</em> Current Research in Food Science, 6, 100485. doi:10.1016/j.crfs.2023.100485</p>
+
+<p>Malic, acetic and lactic acid in French press coffee all sat below their individual detection thresholds. Citric was the exception on threshold, but when acid was added and trained tasters were asked, they could not name which acid it was.</p>
+
+<p><strong>[3]</strong> Hendon, C. H., Colonna-Dashwood, L., &amp; Colonna-Dashwood, M. (2014). <em>The Role of Dissolved Cations in Coffee Extraction.</em> Journal of Agricultural and Food Chemistry, 62(21), 4947–4950. doi:10.1021/jf501687c</p>
+
+<p>A chemistry paper about cations and extraction yield, with no sensory measurement. See chapter A4 for how the book cited the wrong paper here.</p>
+
+<p><strong>[4]</strong> Specialty Coffee Association (2018). <em>The 2018 SCA Water Quality Handbook.</em> Paid document, no public PDF. This is the source of the 40–75 ppm alkalinity, 50–175 ppm hardness and pH 6.5–7.5 figures.</p>
+
+<p><strong>[5]</strong> Lockhart, E. E. (1957). <em>The Soluble Solids in Beverage Coffee as an Index to Cup Quality.</em> Coffee Brewing Institute, Publication No. 27. The foundation of the brewing control chart. Note: the 1957 document does not carry the name "Brewing Control Chart" — that name came later.</p>
+
+<h3>Extraction and temperature</h3>
+
+<p><strong>[6]</strong> Batali, M. E., Ristenpart, W. D., &amp; Guinard, J.-X. (2020). <em>Brew temperature, at fixed brew strength and extraction, has little impact on the sensory profile of drip brew coffee.</em> Scientific Reports, 10, 16450. doi:10.1038/s41598-020-73341-4</p>
+
+<p>87, 90 and 93 °C tested, with grind and time adjusted to hold TDS and EY equal. Once those are fixed, temperature across that range made almost no sensory difference. This is why chapter 9 calls temperature a weak lever.</p>
+
+<p><strong>[7]</strong> Klotz, J. A., Winkler, G., &amp; Lachenmeier, D. W. (2020). <em>Influence of the Brewing Temperature on the Taste of Espresso.</em> Foods, 9(1), 36. doi:10.3390/foods9010036</p>
+
+<p>Espresso at 80 versus 93 °C: 11 of 24 tasters picked the odd one out, not statistically significant. 80 versus 128 °C: 15 of 24, significant. A small study, so read it as a signal rather than a law.</p>
+
+<p><strong>[8]</strong> Schmieder, B. K. L., Pannusch, V. B., Vannieuwenhuyse, L., Briesen, H., &amp; Minceva, M. (2023). <em>Influence of Flow Rate, Particle Size, and Temperature on Espresso Extraction Kinetics.</em> Foods, 12(15), 2871. doi:10.3390/foods12152871</p>
+
+<p>Ten consecutive fractions collected from one espresso shot. Trigonelline fell fastest, then TDS, then 5-CQA, with caffeine slowest. This is the source of the table in chapter 8.</p>
+
+<p><strong>[9]</strong> Guinard, J.-X., et al. (2023). <em>A new Coffee Brewing Control Chart relating sensory properties and consumer liking to brew strength, extraction yield, and brew ratio.</em> Journal of Food Science, 88(5), 2168–2177. doi:10.1111/1750-3841.16531</p>
+
+<p><strong>[10]</strong> Moroney, K. M., O’Connell, K., Meikle-Janney, P., O’Brien, S. B. G., Walker, G. M., &amp; Lee, W. T. (2019). <em>Analysing extraction uniformity from porous coffee beds using mathematical modelling and computational fluid dynamics approaches.</em> PLOS ONE, 14(7), e0219906. doi:10.1371/journal.pone.0219906</p>
+
+<p><strong>[11]</strong> Lee, W. T., Smith, A., &amp; Arshad, A. (2023). <em>Uneven extraction in coffee brewing.</em> Physics of Fluids, 35(5), 054110. doi:10.1063/5.0138998</p>
+
+<p>A two-path flow model, explaining why below a certain threshold a finer grind can come with lower extraction rather than higher.</p>
+
+<h3>Perception and cupping</h3>
+
+<p><strong>[12]</strong> Specialty Coffee Association. <em>Cupping Protocol and Form</em> (the 2004 set) — superseded, see [13].</p>
+
+<p><strong>[13]</strong> Specialty Coffee Association (2024). <em>Coffee Value Assessment</em> — SCA Standard 102-2024 (Sample Preparation and Tasting Mechanics), 103-2024 (Descriptive Assessment), 104-2024 (Affective Assessment).</p>
+
+<p>No single total score. Descriptive, affective and extrinsic assessments are separate. This is the biggest change in cupping in twenty years, and the reason chapter 10 needs a note.</p>
+
+<p><strong>[14]</strong> Chambers, E., IV, et al. (2016). <em>Development of a "living" lexicon for descriptive sensory analysis of brewed coffee.</em> Journal of Sensory Studies, 31(6), 465–480. doi:10.1111/joss.12237</p>
+
+<p>110 attributes, the foundation of the 2016 flavour wheel. Version 2.0 published October 2017.</p>
+
+<p><strong>[15]</strong> Bressani, A. P. P., Martinez, S. J., Batista, N. N., Simão, J. B. P., &amp; Schwan, R. F. (2021). <em>Into the minds of coffee consumers: perception, preference, and impact of information in the sensory analysis of specialty coffee.</em> Food Science and Technology, 41(Suppl. 2), 667–675. doi:10.1590/fst.30720</p>
+
+<p>The same sample, with half the tasters told "specialty, 85 points, natural fermentation". With the information, descriptions shifted toward citrus and fruit; overall liking did not change. This is the best source for the sentence "information changes how you describe it, not how much you like it".</p>
+
+<p><strong>[16]</strong> Sörqvist, P., Hedblom, D., Holmgren, M., Haga, A., Langeborg, L., Nöstl, A., &amp; Kågström, J. (2013). <em>Who Needs Cream and Sugar When There Is Eco-Labeling? Taste and Willingness to Pay for "Eco-Friendly" Coffee.</em> PLOS ONE, 8(12), e80719. doi:10.1371/journal.pone.0080719</p>
+
+<p><strong>[17]</strong> Artêncio, M. M., et al. (2023). <em>The impact of coffee origin information on sensory and hedonic judgment of fine Amazonian robusta coffee.</em> Journal of Sensory Studies, 38(3), e12827. doi:10.1111/joss.12827</p>
+
+<p>Origin information moved sensory ratings, but not liking.</p>
+
+<p><strong>[18]</strong> Carvalho, F. M., de Sousa, M. M. M., &amp; Nadaleti, D. H. S. (2026). <em>Label Information About Fermentation Processing Affects Consumers’ Sensory and Hedonic Judgements of Specialty Coffee.</em> Foods, 15(8), 1287. doi:10.3390/foods15081287</p>
+
+<p>180 people, one coffee, three labels. The "fermentation" label made tasters expect more acidity and like it less — and the expectation moved the tasting scores too.</p>
+
+<p><strong>[19]</strong> Yeager, S. E., et al. (2023). <em>Acids in coffee: A review of sensory measurements and meta-analysis of chemical composition.</em> Critical Reviews in Food Science and Nutrition, 63(8), 1010–1036. doi:10.1080/10408398.2021.1957767</p>
+
+<h3>Freshness and storage</h3>
+
+<p><strong>[20]</strong> Smrke, S., et al. (2018). <em>Time-Resolved Gravimetric Method To Assess Degassing of Roasted Coffee.</em> Journal of Agricultural and Food Chemistry, 66(21), 5293–5300. doi:10.1021/acs.jafc.7b03310</p>
+
+<p><strong>[21]</strong> Anderson, B. A., et al. (2003). <em>The diffusion kinetics of carbon dioxide in fresh roasted and ground coffee.</em> Journal of Food Engineering, 59(1), 71–78. doi:10.1016/S0260-8774(02)00432-6</p>
+
+<p><strong>[22]</strong> Ross, C. F., Pecka, K., &amp; Weller, K. (2006). <em>Effect of storage conditions on the sensory quality of ground Arabica coffee.</em> Journal of Food Quality, 29(6), 596–606. doi:10.1111/j.1745-4557.2006.00093.x</p>
+
+<p><strong>[23]</strong> Kreuml, A. M. L., et al. (2013). <em>Changes in sensory quality characteristics of coffee during storage.</em> Food Science &amp; Nutrition, 1(4), 267–272. doi:10.1002/fsn3.35</p>
+
+<p><strong>[24]</strong> Gantner, M., et al. (2024). <em>Effect of Temperature and Storage on Coffee’s Volatile Compound Profile and Sensory Characteristics.</em> Foods, 13(24), 3995. doi:10.3390/foods13243995</p>
+
+<p>Storage at 5 °C versus 20 °C for a month: cold slowed the change. This is the closest source for the claim in chapter 3 that freezing preserves quality — closest, note, not identical.</p>
+
+<p><strong>[25]</strong> Smrke, S., et al. (2022). <em>Effects of different coffee storage methods on coffee freshness after opening of packages.</em> Food Packaging and Shelf Life, 33, 100893. doi:10.1016/j.fpsl.2022.100893</p>
+
+<p><strong>[26]</strong> Specialty Coffee Association (2012). <em>What is the shelf life of roasted coffee? A literature review on coffee staling.</em></p>
+
+<h3>Brewing methods</h3>
+
+<p><strong>[27]</strong> Kasuya, T. (2016). The 4:6 method, presented at the World Brewers Cup, Dublin, 23–24 June 2016. Transcript and recipe published by Kurasu on 7 October 2016.</p>
+
+<p>A note on rigour: this is the closest accessible source, not an official World Coffee Events publication. When citing it, say "presented at WBrC 2016", not "first published".</p>
+
+<p><strong>[28]</strong> Hoffmann, J. <em>The Ultimate V60 Technique</em> (video). The publication year could not be verified — it is usually given as 2019, but the video page did not show a date when checked. Do not print a year without checking again.</p>
+
+<p><strong>[29]</strong> Hedrick, L. <em>EASY V60 (CONICAL) RECIPE FOR VIBRANT CUPS!</em> (video, the "121" method). Only a latest bound could be verified: it was already being referenced in a piece dated 24 September 2022.</p>
+
+<p><strong>[30]</strong> Santanatoglia, A., et al. (2023). <em>Discrimination of Filter Coffee Extraction Methods of a Medium Roasted Specialty Coffee Based on Volatile Profiles and Sensorial Traits.</em> Foods, 12(17), 3199. doi:10.3390/foods12173199</p>
+
+<p>V60, AeroPress, French press and Pure Brew compared on one Kenya Arabica. Paper gave more caramel and floral compounds; metal gave more fruity and roast compounds. One coffee, four methods — read it as a direction, not a law.</p>
+
+<p><strong>[31]</strong> Liang, J., Chan, K. C., &amp; Ristenpart, W. D. (2021). <em>An equilibrium desorption model for the strength and extraction yield of full immersion brewed coffee.</em> Scientific Reports, 11, 6904. doi:10.1038/s41598-021-85787-1</p>
+
+<p>At equilibrium, extraction yield sits near 21% across a wide range of ratios; ratio moves TDS strongly and yield barely at all.</p>
+
+<p><strong>[32]</strong> Gagné, J. (2019). <em>The Dynamics of Coffee Extraction</em> (29 January) and <em>Testing a Model of Extraction Dynamics</em> (23 February).</p>
+
+<p>A blog post, not peer reviewed, and the author himself notes that the model had not been tested against experimental data when it was published. Chapter 8 cites exactly that point — it is the place where the book is hardest on its own source.</p>
+
+<p><strong>[33]</strong> Cameron, M. I., et al. (2020). <em>Systematically improving espresso: insights from mathematical modeling and experiment.</em> Matter. doi:10.1016/j.matt.2019.12.019</p>
+
+<p>The peer-reviewed paper from the same Hendon group. If you need an academic source for the espresso model, use this one, not the blog.</p>
+
+<div class="callout">
+<p class="callout-title">Three papers I could not open in full</p>
+<p>[17], [22] and the DOI page for [5] were blocked by the publishers during the check. Their details here come from abstracts and from the SCA review. If you need a sentence-exact citation, open the full text.</p>
+</div>
+`
+    },
+
+    "ch-nguon-doi-chieu": {
+      title: "Chapter by chapter",
+      lede: "Which claim, which label, and which source stands behind it. This is a table to look things up in, not to read straight through.",
+      minutes: 9,
+      tags: ["appendix", "table"],
+      body: `
+<p>The last column is the verdict of this check, not the author's. "Citable" means a document was found that says what the book says — it does not mean that document is flawless.</p>
+
+<table>
+<tr><th>Ch.</th><th>Claim that needs a source</th><th>Label in the book</th><th>Source</th><th>Verdict</th></tr>
+<tr><td>1</td><td>Label information changes what you taste</td><td>Evidence</td><td>[15] [16] [17] [18]</td><td>Citable</td></tr>
+<tr><td>2</td><td>No shared definition of "medium roast"; Agtron has two variants</td><td>—</td><td>[12]–[14] for the colour measurement</td><td>Partly</td></tr>
+<tr><td>3</td><td>Freezing preserves quality long term</td><td>Evidence</td><td>[22] [23] [24] [25]</td><td>Citable</td></tr>
+<tr><td>3</td><td>20-day-old coffee with correct water beats 5-day-old with 250 ppm alkaline water</td><td>"not an opinion"</td><td>none</td><td>No source</td></tr>
+<tr><td>4</td><td>Bicarbonate drives perception, calcium does not</td><td>Evidence</td><td>[1] directly, [3] for chemistry</td><td>Citable, see A4</td></tr>
+<tr><td>4</td><td>Water zone of 40–75 ppm alkalinity, 50–175 ppm hardness, pH 6.5–7.5</td><td>Plausible</td><td>[4]</td><td>Citable</td></tr>
+<tr><td>5</td><td>A TDS pen does not measure alkalinity; HCO₃ × 0.82; 1 dKH = 17.86 ppm</td><td>—</td><td>general chemistry</td><td>Needs no source</td></tr>
+<tr><td>6</td><td>Dilution is linear; bottled water figures</td><td>—</td><td>product labels</td><td>Needs no source</td></tr>
+<tr><td>7</td><td>18–22% EY and 1.15–1.45% TDS</td><td>—</td><td>[5] and the Golden Cup standard</td><td>See A4</td></tr>
+<tr><td>8</td><td>"Acid first, bitter later" is an untested hypothesis</td><td>Folklore</td><td>[32]</td><td>Citable, accurate</td></tr>
+<tr><td>8</td><td>Order of decline: trigonelline, TDS, 5-CQA, caffeine</td><td>Evidence</td><td>[8]</td><td>Citable</td></tr>
+<tr><td>8</td><td>Malic, acetic and lactic below threshold; tasters cannot name them</td><td>Evidence</td><td>[2]</td><td>Citable</td></tr>
+<tr><td>9</td><td>Temperature is a weak lever once TDS and EY are fixed</td><td>—</td><td>[6] [7]</td><td>Citable</td></tr>
+<tr><td>10</td><td>The SCA ten-item, 100-point scale</td><td>—</td><td>[12]</td><td>Outdated, see A4</td></tr>
+<tr><td>11</td><td>8.25 g to 150 ml; five cups per sample; a four-minute protocol</td><td>—</td><td>[12]</td><td>Citable</td></tr>
+<tr><td>12</td><td>Three layers in time; the flavour wheel</td><td>—</td><td>[14]</td><td>Citable</td></tr>
+<tr><td>13</td><td>Cupping does not predict pour over</td><td>—</td><td>[30] [31]</td><td>Partly</td></tr>
+<tr><td>14</td><td>Immersion has no equivalent channelling mechanism</td><td>—</td><td>[10] [11] [31]</td><td>Partly</td></tr>
+<tr><td>15</td><td>Paper and metal give different volatile profiles</td><td>Plausible</td><td>[30]</td><td>Citable, one coffee</td></tr>
+<tr><td>16</td><td>Kettle 3–5 cm above the bed; keep the water level above the bed; 5–8 g/s</td><td>—</td><td>none</td><td>No source</td></tr>
+<tr><td>17</td><td>Three schools of recipe</td><td>—</td><td>[27] [28] [29]</td><td>Citable</td></tr>
+<tr><td>18</td><td>Reading the bed to diagnose</td><td>—</td><td>none</td><td>No source</td></tr>
+<tr><td>19</td><td>The diagnostic table</td><td>—</td><td>derived from [10] [11]</td><td>Partly</td></tr>
+<tr><td>20–22</td><td>Process, four rules, case study</td><td>—</td><td>method</td><td>Needs no source</td></tr>
+<tr><td>23</td><td>Anatomy of a sip; retronasal path</td><td>—</td><td>general olfactory physiology</td><td>Needs no source</td></tr>
+<tr><td>24</td><td>Flavour-note language and its trap</td><td>—</td><td>[14] [19]</td><td>Partly</td></tr>
+<tr><td>25–28</td><td>Palate training, log, gear, checklist</td><td>—</td><td>method</td><td>Needs no source</td></tr>
+</table>
+
+<p>Read down the column and the table says one thing: nine chapters stand on documents, five stand on documents halfway, and two — 16 and 18 — stand on the writer's experience. That does not make those two wrong. It only means they are not the place to invoke science.</p>
+`
+    },
+
+    "ch-nguon-khoang-trong": {
+      title: "What needs fixing, and what is missing",
+      lede: "Three places where the original documents do not match the book, seven claims with no source at all, and a note on image rights.",
+      minutes: 8,
+      tags: ["appendix", "corrections"],
+      body: `
+<p>This is the chapter I most want you to read closely in the whole appendix. A book that teaches people to separate three levels of evidence has to hold itself to that same standard.</p>
+
+<h3>One: the 100-point cupping scale has been replaced</h3>
+
+<p>Chapters 10 to 12 present the SCA ten-item, 100-point scale as the current standard. It is the <em>Cupping Protocol and Form</em> of 2004.</p>
+
+<p>In 2024 the SCA replaced it with the <em>Coffee Value Assessment</em> (SCA-102, 103 and 104-2024), and the CVA <strong>does not use a single total score</strong> — it separates descriptive, affective and extrinsic assessment. In other words, what the SCA publishes now is a set of assessment types, not one number.</p>
+
+<p>This does not make the chapter wrong. The claim that a score measures the agreement of people trained to the same standard still holds, and holds more firmly under the CVA. But "almost everyone in the industry uses the same protocol" has not been true since 2024.</p>
+
+<p>The fix: a note at the head of chapter 10, saying this is the 2004 set and that the SCA moved to the CVA in 2024. The chapter does not need rewriting.</p>
+
+<h3>Two: the "1.15–1.45%" TDS band</h3>
+
+<p>The SCA Golden Cup standard is <strong>1.15–1.35% TDS</strong>, which is 11.5–13.5 g/L, with 18–22% EY and a 55 g/L ratio.</p>
+
+<p>The figure 1.15–<strong>1.45</strong> circulates widely — widely enough that I put it in the book without checking. It is not the standard's number. One digit to fix.</p>
+
+<h3>Three: the wrong source in chapter 4</h3>
+
+<p>Chapter 4 says: "a controlled sensory study by Christopher Hendon and colleagues shows that bicarbonate is the factor that drives flavour perception, while adding calcium at high levels makes no significant sensory difference."</p>
+
+<p>The 2014 paper by Hendon and colleagues is a <strong>chemistry paper on cations and extraction yield</strong>. It takes no sensory measurement. I attributed a sensory finding to a chemistry paper because the two shared a group of authors.</p>
+
+<p>The claim itself is right — more right than I knew. Rune and colleagues (2026) say almost exactly that, including the detail that calcium above ordinary drinking-water levels still makes no difference. The fix is to change the name cited and keep the Evidence label. That label is now firmer than before.</p>
+
+<h3>Seven claims with no source</h3>
+
+<p>This is where the labelling system can lose its value, if it is left alone.</p>
+
+<ul>
+<li><strong>"Dark roast is easier to brew"</strong> (chapter 2) — right about the easier part, wrong about where to start. No study compares brewing difficulty across roast levels. It should be Folklore, not left blank.</li>
+<li><strong>Freshness versus water</strong> (chapter 3) — the specific comparison has no study behind it. The mechanism is right, so it should drop to Plausible.</li>
+<li><strong>Kettle 3–5 cm above the bed, water level above the bed, 5–8 g/s</strong> (chapter 16) — inferred from mechanism, never measured. Plausible, no more.</li>
+<li><strong>Reading the bed to diagnose</strong> (chapter 18) — the book's most confident chapter with its thinnest evidence. Nothing published links bed shape to an extraction map. It should be Folklore.</li>
+<li><strong>Bloom as a gas-handling step</strong> (chapter 3) — the mechanism is right, the sensory benefit is unproven. It should be Plausible.</li>
+<li><strong>Ratio moves TDS linearly; 1:16 to 1:15 is about 6–7% stronger</strong> (chapter 7) — the arithmetic is right, but the 6–7% figure is an extrapolation nobody has tested on its own.</li>
+<li><strong>"No study shows cupping scores predict liking"</strong> (chapter 10) — true so far, but it should read "none yet" rather than "none", because that is a global negative claim.</li>
+</ul>
+
+<h3>A note on rights</h3>
+
+<p>If you ever want to print the flavour wheel in the book: the SCA and World Coffee Research wheel is released under CC BY-NC-ND 4.0 — non-commercial use, attribution required, <strong>no derivative works</strong>. A book sold for money is commercial use, so permission is needed. The WCR Sensory Lexicon is free to download and print for personal use, with no republication right attached.</p>
+
+<h3>What this appendix has not done</h3>
+
+<ul>
+<li>It has not traced every claim to the level of page numbers and original sentences.</li>
+<li>It has not re-checked the publication dates of the two videos at [28] and [29].</li>
+<li>The English edition of this appendix does not exist at the time this chapter was written — if you are reading it in English, it does now.</li>
+<li>It has not checked the claims in Parts VII and VIII, where most of the content is method rather than mechanism.</li>
+</ul>
+
+<div class="callout ok">
+<p class="callout-title">What is worth keeping</p>
+<p>After the check, the book's central claim — that water matters more than people think, and alkalinity more than hardness — did not merely survive; it got stronger. All three fixes are details: an outdated scale, one digit, one name. Nothing had to be withdrawn.</p>
+</div>
 `
     }
   }

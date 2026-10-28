@@ -127,7 +127,7 @@ writeFileSync(
   <p class="kicker">Sách thực hành · Pour Over &amp; Cupping</p>
   <h1>The Brewing<br/><em>Bible</em></h1>
   <p class="dek">Những gì thật sự xảy ra khi nước chạm vào bã cà — và cách biến một ly cupping ngon thành một ly pour-over ngon.</p>
-  <p class="imprint"><b>${PARTS.length} phần · ${PARTS.reduce((n, p) => n + (p.chapters || []).length, 0)} chương</b><br/>
+  <p class="imprint"><b>${PARTS.filter((p) => !p.appendix).length} phần · ${PARTS.filter((p) => !p.appendix).reduce((n, p) => n + (p.chapters || []).length, 0)} chương</b><br/>
   Mỗi khẳng định được đánh dấu theo ba mức bằng chứng: có nghiên cứu · hợp lý nhưng chưa kiểm chứng · truyền miệng.</p>
 </section>`,
     "coverpage"
@@ -139,6 +139,7 @@ const spine = [];
 const navParts = [];
 const ncxPoints = [];
 let counter = 0;
+let acounter = 0;
 
 PARTS.forEach((part, pi) => {
   const chs = part.chapters || [];
@@ -152,7 +153,7 @@ PARTS.forEach((part, pi) => {
     page(
       part.title,
       `<section epub:type="part" class="part">
-  <p class="num">Phần ${esc(roman)}</p>
+  <p class="num">${part.appendix ? "Phụ lục" : "Phần " + esc(roman)}</p>
   <h1>${esc(part.title)}</h1>
   ${part.blurb ? `<p class="blurb">${esc(part.blurb)}</p>` : ""}
 </section>`
@@ -163,10 +164,11 @@ PARTS.forEach((part, pi) => {
 
   /* nav và ncx dùng CHUNG mảng children — chỉ đẩy mỗi chương một lần vào đó,
      nếu đẩy riêng cho từng bên thì mục lục bị nhân đôi. */
-  const partNav = { label: `Phần ${roman} · ${part.title}`, href: partFile, children: [] };
+  const partLabel = `${part.appendix ? "Phụ lục" : "Phần " + roman} · ${part.title}`;
+  const partNav = { label: partLabel, href: partFile, children: [] };
   navParts.push(partNav);
   ncxPoints.push({
-    label: `Phần ${roman} · ${part.title}`,
+    label: partLabel,
     src: partFile,
     children: partNav.children,
   });
@@ -174,9 +176,11 @@ PARTS.forEach((part, pi) => {
   chs.forEach((ch) => {
     const n = ++counter;
     const file = `ch-${pad(n)}.xhtml`;
+    /* phụ lục đánh riêng A1, A2… — n không bị dùng làm số chương */
+    const chNum = part.appendix ? `A${++acounter}` : pad(n);
 
     const body = `<section epub:type="chapter" class="chapter">
-<p class="chnum">Chương ${pad(n)}</p>
+<p class="chnum">${part.appendix ? "Phụ lục " : "Chương "}${chNum}</p>
 <h1>${esc(ch.title)}</h1>
 ${ch.lede ? `<p class="lede">${esc(ch.lede)}</p>` : ""}
 ${toXhtml(ch.body)}
@@ -186,7 +190,7 @@ ${toXhtml(ch.body)}
     manifest.push(`<item id="ch-${n}" href="${file}" media-type="application/xhtml+xml"/>`);
     spine.push(`<itemref idref="ch-${n}"/>`);
 
-    const label = `${pad(n)}. ${ch.title}`;
+    const label = `${chNum}. ${ch.title}`;
     partNav.children.push({ label, href: file });
   });
 });
@@ -303,4 +307,7 @@ try {
 }
 
 rmSync(STAGE, { recursive: true, force: true });
-console.log(`✓ ${OUT}  ·  ${PARTS.length} phần  ·  ${counter} chương`);
+const mainParts = PARTS.filter((p) => !p.appendix);
+console.log(
+  `✓ ${OUT}  ·  ${mainParts.length} phần + phụ lục  ·  ${mainParts.reduce((n, p) => n + (p.chapters || []).length, 0)} chương`
+);

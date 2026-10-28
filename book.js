@@ -19,13 +19,16 @@
   var T = I18N.ui[LANG] || I18N.ui.vi;
 
   function chLabel(n) { return I18N.chapterLabel(LANG, n); }
-  function partLabel(roman) { return I18N.partLabel(LANG, roman); }
+  function partLabel(part, pi) {
+    if (part && part.appendix) return (I18N.ui[LANG] || {}).appendix || "Phụ lục";
+    return I18N.partLabel(LANG, (part && part.roman) || ROMAN[pi] || "");
+  }
 
   /* bản dịch nằm ở content/<lang>/text.js; tiếng Việt là nguồn gốc */
   function loadOverlay(lang) {
     return new Promise(function (resolve) {
       var s = document.createElement("script");
-      s.src = "content/" + lang + "/text.js?v=16";
+      s.src = "content/" + lang + "/text.js?v=18";
       s.onload = function () { resolve(window.BOOK_TEXT || null); };
       s.onerror = function () { resolve(null); };
       document.head.appendChild(s);
@@ -35,8 +38,10 @@
   /* ---------- flatten ---------- */
   var flat = [];
   PARTS.forEach(function (part) {
+    var inPart = 0;
     (part.chapters || []).forEach(function (ch) {
-      flat.push({ ch: ch, part: part, n: flat.length + 1 });
+      inPart++;
+      flat.push({ ch: ch, part: part, n: flat.length + 1, np: inPart });
     });
   });
 
@@ -45,7 +50,19 @@
     if (entry.ch.id) byId[entry.ch.id] = entry;
   });
 
-  var TOTAL = flat.length;
+  /* Phụ lục là chương của nó, không phải chương 29–32: bìa vẫn ghi 28 chương,
+     và thanh tiến độ đọc cũng chỉ đếm 28 chương chính. */
+  function isAppendix(part) { return !!(part && part.appendix); }
+  var MAIN = flat.filter(function (e) { return !isAppendix(e.part); });
+  var MAIN_PARTS = PARTS.filter(function (p) { return !isAppendix(p); });
+  var TOTAL = MAIN.length;
+
+  function numLabel(entry) {
+    return isAppendix(entry.part) ? "A" + entry.np : String(entry.n).padStart(2, "0");
+  }
+  function kickerLabel(entry) {
+    return isAppendix(entry.part) ? partLabel(entry.part) + " A" + entry.np : chLabel(entry.n);
+  }
 
   /* Ghép bản dịch vào cấu trúc gốc: giữ nguyên id và thứ tự, chỉ thay
      tiêu đề / lede / thân bài. Chương chưa có thân bài dịch thì đánh
@@ -158,7 +175,7 @@
         var entry = byId[ch.id];
         if (!entry) return;
         html += '<li><a class="toc-link" href="#/' + ch.id + '" data-ch="' + ch.id + '">' +
-                '<span class="n">' + String(entry.n).padStart(2, "0") + "</span>" +
+                '<span class="n">' + numLabel(entry) + "</span>" +
                 "<span>" + esc(ch.title) +
                 (ch.__translated ? "" : '<span class="toc-todo">' + esc(T.untranslatedBadge) + "</span>") +
                 "</span></a></li>";
@@ -178,7 +195,7 @@
 
     html += '<div class="cover-meta">';
     html += "<div><b>" + TOTAL + "</b>" + esc(T.metaChapters) + "</div>";
-    html += "<div><b>" + PARTS.length + "</b>" + esc(T.metaParts) + "</div>";
+    html += "<div><b>" + MAIN_PARTS.length + "</b>" + esc(T.metaParts) + "</div>";
     html += "<div><b>" + esc(T.metaHoursValue) + "</b>" + esc(T.metaHours) + "</div>";
     html += "<div><b>" + esc(T.metaTiersValue) + "</b>" + esc(T.metaTiers) + "</div>";
     html += "</div>";
@@ -199,12 +216,12 @@
       if (!chs.length) return;
       html += '<div class="ctoc-part">';
       html += '<p class="ctoc-head">' + esc(part.title) +
-              '<span>Phần ' + (part.roman || ROMAN[pi]) + (part.blurb ? " · " + esc(part.blurb) : "") + "</span></p>";
+              '<span>' + esc(partLabel(part, pi)) + (part.blurb ? " · " + esc(part.blurb) : "") + "</span></p>";
       chs.forEach(function (ch) {
         var entry = byId[ch.id];
         if (!entry) return;
         html += '<a class="ctoc-item" href="#/' + ch.id + '">' +
-                '<span class="n">' + String(entry.n).padStart(2, "0") + "</span>" +
+                '<span class="n">' + numLabel(entry) + "</span>" +
                 "<span>" + esc(ch.title) + "</span></a>";
       });
       html += "</div>";
@@ -244,9 +261,11 @@
     var html = "";
     html += '<div class="chapter">';
     html += '<header class="chapter-head">';
-    html += '<p class="chapter-kicker"><span>' + esc(chLabel(entry.n)) + "</span>" +
+    html += '<p class="chapter-kicker"><span>' + esc(kickerLabel(entry)) + "</span>" +
             '<span class="dot"></span>' +
-            '<span class="part-name">' + esc(partLabel(part.roman || ROMAN[pi] || "")) + " · " + esc(part.title) + "</span></p>";
+            '<span class="part-name">' +
+              esc(isAppendix(part) ? part.title : partLabel(part, pi) + " · " + part.title) +
+            "</span></p>";
     html += "<h2>" + esc(ch.title) + "</h2>";
     if (ch.lede) html += '<p class="chapter-lede">' + esc(ch.lede) + "</p>";
 
@@ -309,7 +328,9 @@
   }
 
   function updateReadStat() {
-    var done = Object.keys(readSet).filter(function (k) { return byId[k]; }).length;
+    var done = Object.keys(readSet).filter(function (k) {
+      return byId[k] && !isAppendix(byId[k].part);
+    }).length;
     var pct = TOTAL ? Math.round((done / TOTAL) * 100) : 0;
     $("#readStat").innerHTML =
       T.readStat(done, TOTAL) +
@@ -377,7 +398,7 @@
 
     searchResults.innerHTML = hits.map(function (h) {
       return '<button class="sr-item" data-go="' + h.entry.ch.id + '">' +
-        '<span class="sr-kicker">' + esc(T.searchKicker(String(h.entry.n).padStart(2, "0"), h.entry.part.title)) + "</span>" +
+        '<span class="sr-kicker">' + esc(T.searchKicker(numLabel(h.entry), h.entry.part.title)) + "</span>" +
         '<span class="sr-title">' + esc(h.entry.ch.title) + "</span>" +
         '<span class="sr-snippet">' + esc(h.snippet) + "</span></button>";
     }).join("");

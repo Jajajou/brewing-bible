@@ -15,10 +15,14 @@
     return;
   }
 
-  /* đánh số chương liên tục */
+  /* đánh số chương liên tục; phụ lục đánh riêng A1, A2… để không thành chương 29 */
   var counter = 0;
+  var acounter = 0;
   PARTS.forEach(function (part) {
-    (part.chapters || []).forEach(function (ch) { ch.__n = ++counter; });
+    (part.chapters || []).forEach(function (ch) {
+      if (part.appendix) ch.__a = ++acounter;
+      else ch.__n = ++counter;
+    });
   });
 
   function esc(s) {
@@ -27,6 +31,12 @@
   }
 
   var totalChapters = counter;
+  var totalParts = PARTS.filter(function (p) { return !p.appendix; }).length;
+
+  function partNum(part, pi) {
+    return part.appendix ? "Phụ lục" : "Phần " + (part.roman || ROMAN[pi]);
+  }
+
   var html = [];
 
   /* ---------- bìa ---------- */
@@ -37,7 +47,7 @@
     '<p class="dek">Những gì thật sự xảy ra khi nước chạm vào bã cà — và cách biến một ly cupping ngon thành một ly pour-over ngon.</p>',
     '<div class="rule"></div>',
     '<p class="imprint">',
-    "<b>" + PARTS.length + " phần · " + totalChapters + " chương</b><br>",
+    "<b>" + totalParts + " phần · " + totalChapters + " chương</b><br>",
     "Mỗi khẳng định được đánh dấu theo ba mức bằng chứng:<br>",
     "có nghiên cứu · hợp lý nhưng chưa kiểm chứng · truyền miệng.",
     "</p>",
@@ -50,12 +60,14 @@
     var chs = part.chapters || [];
     if (!chs.length) return;
     html.push(
-      '<p class="toc-part">Phần ' + (part.roman || ROMAN[pi]) + " · " + esc(part.title) + "</p>"
+      '<p class="toc-part">' + partNum(part, pi) + " · " + esc(part.title) + "</p>"
     );
     chs.forEach(function (ch) {
       html.push(
         '<a class="toc-row" href="#' + ch.id + '">' +
-          '<span class="n">' + String(ch.__n).padStart(2, "0") + "</span>" +
+          '<span class="n">' +
+            (ch.__a ? "A" + ch.__a : String(ch.__n).padStart(2, "0")) +
+          "</span>" +
           "<span>" + esc(ch.title) + "</span>" +
         "</a>"
       );
@@ -70,7 +82,7 @@
 
     html.push(
       '<section class="part-page">',
-      '<p class="part-num">Phần ' + (part.roman || ROMAN[pi]) + "</p>",
+      '<p class="part-num">' + partNum(part, pi) + "</p>",
       "<h2>" + esc(part.title) + "</h2>",
       part.blurb ? '<p class="part-blurb">' + esc(part.blurb) + "</p>" : "",
       "</section>"
@@ -84,7 +96,9 @@
            trong mục lục sẽ báo sai trang. Cũng vì thế phần đầu chương là một
            khối không tách. */
         '<header class="ch-head" id="' + ch.id + '">',
-        '<p class="ch-num">Chương ' + String(ch.__n).padStart(2, "0") + "</p>",
+        '<p class="ch-num">' +
+          (ch.__a ? "Phụ lục A" + ch.__a : "Chương " + String(ch.__n).padStart(2, "0")) +
+          "</p>",
         '<h2 class="ch-title">' + esc(ch.title) + "</h2>",
         ch.lede ? '<p class="ch-lede">' + esc(ch.lede) + "</p>" : "",
         '<div class="ch-rule"></div>',
