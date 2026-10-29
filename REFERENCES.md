@@ -360,9 +360,19 @@ Origami Air, giấy Brewista X, cà Sidra Granja La Esperanza. Số gam lấy t�
 các bản **không khớp nhau**: một bản ghi 248 g, bản khác ghi năm lần 50 g (250 g). Chương
 19 dùng 248 g và nói rõ đó là bản dựng lại.
 
-**[50]** Barista Magazine (2022). *Brewers Cup Runner-Up Lance Hedrick on the “Nifty Coffee
+**[50]** Barista Magazine (2020). *Brewers Cup Runner-Up Lance Hedrick on the “Nifty Coffee
 Grinds Trick” from His Routine.*
 [Link](https://www.baristamagazine.com/brewers-cup-runner-up-lance-hedrick-on-the-nifty-coffee-grinds-trick-from-his-routine/)
+
+Bài đăng tháng 3/2020, sau chung kết **U.S. Brewers Cup 2020** ở Costa Mesa; Hedrick về nhì
+sau Elika Liftee. Cách làm phải mô tả đúng: bã pha trong **phễu kim loại** đặt trên một tờ
+giấy lọc, rồi ở phút **1:30** nhấc **phễu kim loại cùng bã** sang **phễu thứ hai đã lót giấy
+ướt**. Không phải lật tờ giấy đang ướt — việc đó không làm được mà không rách. Công thức:
+15 g / 220 g, nước 201 °F (khoảng 94 °C), EK43s số 7.5; 40 g ở 0:00 (khuấy 4 giây), 90 g ở
+0:45 (khuấy 4 giây), chuyển phễu ở 1:30, 90 g còn lại, kết thúc 3:15.
+
+Nguồn thứ hai cho cùng routine: [Able Brewing, “Five Questions with Lance Hedrick”](https://ablebrewing.com/blogs/able-blog/five-questions-with-lance-hedrick)
+— bài này có nguyên công thức. Video anh ấy tự giải thích: [MY 2020 USBrC ROUTINE](https://www.youtube.com/watch?v=galYpd_o2pE).
 
 Hedrick ước lượng khoảng **2,5 g fines** ban đầu, 1,7–2 g bị giấy giữ lại, còn dưới 0,4 g
 trong ly — và nói vấn đề lớn nhất của routine là **độ lặp lại**. Đây là bằng chứng duy nhất

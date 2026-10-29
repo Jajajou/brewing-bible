@@ -220,9 +220,13 @@
 
 <p>Origami Air, giấy Brewista X, cà Sidra của Granja La Esperanza. Số gam lấy từ bản dựng lại, và các bản không khớp nhau — một bản ghi 248 g, bản khác ghi năm lần 50 g, tức 250 g. Chương 19 dùng 248 g và nói rõ đó là bản dựng lại.</p>
 
-<p><strong>[50]</strong> Barista Magazine (2022). <em>Brewers Cup Runner-Up Lance Hedrick on the “Nifty Coffee Grinds Trick” from His Routine.</em> baristamagazine.com/brewers-cup-runner-up-lance-hedrick-on-the-nifty-coffee-grinds-trick-from-his-routine/</p>
+<p><strong>[50]</strong> Barista Magazine (2020). <em>Brewers Cup Runner-Up Lance Hedrick on the “Nifty Coffee Grinds Trick” from His Routine.</em> baristamagazine.com/brewers-cup-runner-up-lance-hedrick-on-the-nifty-coffee-grinds-trick-from-his-routine/</p>
 
-<p>Hedrick ước lượng khoảng 2,5 g fines ban đầu, 1,7–2 g bị giấy giữ lại, còn dưới 0,4 g trong ly; và nói vấn đề lớn nhất của routine là độ lặp lại. Đây là nguồn cho câu “routine thi đấu đánh đổi độ lặp lại lấy độ rõ”.</p>
+<p>Bài đăng tháng 3/2020, sau vòng chung kết U.S. Brewers Cup 2020 ở Costa Mesa; Hedrick về nhì sau Elika Liftee. Cách làm: bã pha trong phễu kim loại đặt trên một tờ giấy lọc, rồi ở phút 1:30 nhấc phễu kim loại cùng bã sang phễu thứ hai đã lót giấy ướt — không phải lật tờ giấy đang ướt. Công thức: 15 g / 220 g, nước 201 °F (khoảng 94 °C), EK43s số 7.5; 40 g ở 0:00, 90 g ở 0:45, chuyển phễu ở 1:30, 90 g còn lại, kết thúc 3:15 (Able Brewing, phỏng vấn cùng kỳ).</p>
+
+<p>Nguồn thứ hai cho cùng routine: Able Brewing, <em>Five Questions with Lance Hedrick</em> — bài này có nguyên công thức. Video do chính anh ấy giải thích: <em>MY 2020 USBrC ROUTINE</em> trên YouTube.</p>
+
+<p>Hedrick ước lượng khoảng 2,5 g fines ban đầu, 1,7–2 g bị giấy giữ lại, còn dưới 0,4 g trong ly; và nói vấn đề lớn nhất của routine là độ lặp lại. Đây là nguồn cho câu “routine thi đấu đánh đổi độ lặp lại lấy độ rõ”. Các con số fines là anh ấy tự đo và tự kể, không phải phép đo độc lập.</p>
 
 <p><strong>[51]</strong> <em>Pour-over coffee: Mixing by a water jet impinging on a granular bed.</em> Physics of Fluids 37(4), 043332 (2025). pubs.aip.org/aip/pof/article/37/4/043332/3342795</p>
 

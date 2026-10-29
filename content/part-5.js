@@ -468,7 +468,7 @@ window.BOOK_PARTS.push({
 
 <p><strong>Ba: một tách, mười phút, hai ngụm.</strong> Ban giám khảo không uống hết 200 ml. Họ nếm, ghi điểm, rồi chuyển sang người tiếp theo. Điều này đổi thứ được tối ưu: độ rõ của ngụm đầu quan trọng hơn độ ổn định của ly thứ ba. Đó là một đánh đổi, không phải một mức chất lượng cao hơn <span class="tier tier-b">Hợp lý</span>.</p>
 
-<p>Và có bằng chứng cho sự đánh đổi đó, từ chính người trong cuộc. Lance Hedrick, á quân Brewers Cup Mỹ, kể routine của anh đổi giấy giữa lúc pha để loại fines: khoảng 2,5 g fines ban đầu, 1,7–2 g bị giữ lại, còn dưới 0,4 g trong ly — và anh nói thẳng vấn đề lớn nhất của routine đó là <em>độ lặp lại</em>: ly này sang ly khác đổi rõ. Một routine đẹp có thể là một routine khó lặp.</p>
+<p>Và có bằng chứng cho sự đánh đổi đó, từ chính người trong cuộc. Lance Hedrick, á quân Brewers Cup Mỹ 2020, kể routine của anh loại fines ngay giữa lúc pha — nhưng không phải bằng cách lật tờ giấy đang ướt, việc không ai làm được mà không rách. Anh pha bã trong <strong>một phễu kim loại</strong> đặt trên một tờ giấy lọc; đến phút 1:30, anh nhấc nguyên phễu kim loại cùng bã sang <strong>một phễu thứ hai đã lót giấy ướt</strong>, rồi rót nốt phần nước còn lại ở đó. Fines lọt qua lỗ kim loại và bị tờ giấy bên dưới giữ lại: khoảng 2,5 g fines ban đầu, 1,7–2 g bị giữ lại, còn dưới 0,4 g trong ly. Cái được nhấc lên là một vật cứng có vành để cầm, không phải một tờ giấy — đó là toàn bộ mẹo. Và anh nói thẳng vấn đề lớn nhất của routine đó là <em>độ lặp lại</em>: ly này sang ly khác đổi rõ. Một routine đẹp có thể là một routine khó lặp.</p>
 
 <h3>Bốn thứ chuyển được</h3>
 

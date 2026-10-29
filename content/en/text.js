@@ -1914,7 +1914,7 @@ Odd:   _______________
 
 <p><strong>Three: one cup, ten minutes, two sips.</strong> The judges do not drink the 200 ml. They taste, score, and move to the next competitor. That changes what gets optimised: the clarity of the first sip matters more than the stability of the third cup. It is a trade-off, not a higher grade of quality <span class="tier tier-b">Plausible</span>.</p>
 
-<p>And there is evidence for that trade-off, from someone who lived it. Lance Hedrick, runner-up at the US Brewers Cup, describes a routine that swapped paper mid-brew to remove fines: roughly 2.5 g of fines at the start, 1.7–2 g caught, under 0.4 g left in the cup — and he says plainly that the routine's biggest problem was <em>repeatability</em>: cup to cup, it changed noticeably. A beautiful routine can be a routine that is hard to repeat.</p>
+<p>And there is evidence for that trade-off, from someone who lived it. Lance Hedrick, runner-up at the 2020 US Brewers Cup, describes a routine that removed fines mid-brew — but not by lifting the wet paper, which nobody can do without tearing it. He brewed the bed in <strong>a metal filter</strong> sitting on a paper filter; at 1:30 he lifted the metal filter and its bed into <strong>a second dripper already lined with wetted paper</strong> and poured the rest of the water there. Fines passed through the mesh and were caught by the paper underneath: roughly 2.5 g at the start, 1.7–2 g caught, under 0.4 g left in the cup. What gets lifted is a rigid, rimmed object, not a sheet of paper — that is the whole trick. And he says plainly that the routine's biggest problem was <em>repeatability</em>: cup to cup, it changed noticeably. A beautiful routine can be a routine that is hard to repeat.</p>
 
 <h3>Four things that do travel</h3>
 
@@ -3351,7 +3351,11 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p>Origami Air, Brewista X paper, a Sidra from Granja La Esperanza. The gram figures come from reconstructions, and they disagree — one gives 248 g, another gives five 50 g pours, that is 250 g. Chapter 19 uses 248 g and says it is a reconstruction.</p>
 
-<p><strong>[50]</strong> Barista Magazine (2022). <em>Brewers Cup Runner-Up Lance Hedrick on the “Nifty Coffee Grinds Trick” from His Routine.</em> baristamagazine.com/brewers-cup-runner-up-lance-hedrick-on-the-nifty-coffee-grinds-trick-from-his-routine/</p>
+<p><strong>[50]</strong> Barista Magazine (2020). <em>Brewers Cup Runner-Up Lance Hedrick on the “Nifty Coffee Grinds Trick” from His Routine.</em> baristamagazine.com/brewers-cup-runner-up-lance-hedrick-on-the-nifty-coffee-grinds-trick-from-his-routine/</p>
+
+<p>Published March 2020, after the 2020 U.S. Brewers Cup final in Costa Mesa; Hedrick finished second behind Elika Liftee. The method: brew the bed in a metal filter sitting on a paper filter, then at 1:30 lift the metal filter and its bed into a second dripper lined with wetted paper — not lifting the wet paper itself. Recipe: 15 g / 220 g, water at 201 °F (about 94 °C), EK43s setting 7.5; 40 g at 0:00, 90 g at 0:45, transfer at 1:30, remaining 90 g, finish at 3:15 (Able Brewing, interview from the same period).</p>
+
+<p>Hedrick estimates roughly 2.5 g of fines at the start, 1.7–2 g caught by the paper, under 0.4 g left in the cup; and he says the routine's biggest problem was repeatability. This is the source for “a competition routine trades repeatability for the clarity of one sip”. The fines figures are his own estimate and account, not an independent measurement.</p>
 
 <p>Hedrick estimates roughly 2.5 g of fines at the start, 1.7–2 g held back by the paper, and under 0.4 g left in the cup; he says the routine's biggest problem was repeatability. This is the source for “a competition routine trades repeatability for clarity”.</p>
 
