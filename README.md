@@ -130,7 +130,12 @@ Số được ghi là commit tại **thời điểm bump**, không phải commit
 ./build-pdf.sh out/ban-in.pdf    # đường dẫn khác
 SHOT_PAGE=6 ./build-pdf.sh       # kèm ảnh trang 6 ra /tmp/shot-6.png để soi lỗi
 SKIP_CHECK=1 ./build-pdf.sh      # bỏ bước tự kiểm (khi máy chưa có poppler)
+BOOK_VER=1.0.0 ./build-pdf.sh    # in "1.0.0" thay cho commit
 ```
+
+Bìa và chân mỗi trang mang số bản đang dựng: mặc định là `git describe --tags --always --dirty`, nên một bản dựng từ cây làm việc chưa commit tự khai là `-dirty` thay vì giả làm bản phát hành. Khi phát hành, tag commit trước rồi dựng (`git tag v1.0.0 && ./build-pdf.sh`) để bản trong tay người đọc mang số `v1.0.0` chứ không phải một chuỗi commit đã bị squash mất.
+
+Mở `print.html` bằng tay thì bìa ghi "Bản nháp (chưa dựng PDF)" và không có số ở chân trang — không bịa số cho một bản chưa tồn tại.
 
 Script tự bật một static server tạm ([tools/serve.mjs](tools/serve.mjs) — Paged.js không chạy được với `file://`), dựng trang, **chờ Paged.js phân trang xong** rồi mới in. Cần Chrome/Chromium, Node 18+ và poppler-utils (`pdftotext`, `pdfinfo`, `pdffonts`) cho bước tự kiểm.
 
