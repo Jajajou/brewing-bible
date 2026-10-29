@@ -250,9 +250,16 @@
   }
 
   /* ---------- đường cong chiết xuất ---------- */
+  /* k: 1 = mịn nhất, 10 = thô nhất. Đỉnh ở 5.
+     Hai sườn là hai hàm mũ ngược nhau, không phải hai đoạn thẳng: chiết
+     xuất không đổi hướng ở một góc nhọn. Sườn trái thoải (mịn lên nghẹt,
+     mức chiết tụt chậm), sườn phải dốc hơn (thô thì chiết nông nhanh). */
   function eyCurve(k) {
-    /* k: 1 = mịn nhất, 10 = thô nhất. Đỉnh ở 5. */
-    return k < 5 ? 22 - 1.5 * Math.pow(5 - k, 0.85) : 22 - 0.78 * Math.pow(k - 5, 1.15);
+    var d = k - 5;
+    var s = d < 0 ? 2.55 : 1.95;
+    /* biên độ 7,4 để hai đầu không chạm đáy khung — chạm đáy thì đuôi
+       đường cong dính vào trục ngang và trông như nó bị cắt cụt */
+    return 22 - 7.4 * (1 - Math.exp(-(d / s) * (d / s)));
   }
 
   function curveSvg() {
@@ -265,13 +272,22 @@
       return L + ((k - 1) / 9) * (W - L - PAD_R);
     }
 
+    var y22 = yOf(22), y18 = yOf(18), x2 = W - PAD_R;
     var s = '<svg class="fig-svg" viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="' + T().curveTitle + '">';
-    s += '<rect class="f-band" x="' + L + '" y="' + yOf(22).toFixed(1) + '" width="' + (W - L - PAD_R) +
-         '" height="' + (yOf(18) - yOf(22)).toFixed(1) + '"/>';
+
+    /* Vùng tốt 18–22%: một dải rất nhạt giữa hai đường mảnh — không phải
+       một khối màu đặc. Khối đặc đọc tốt trên giấy trắng nhưng thành một
+       tấm sáng chói trong trình đọc nền tối, và nó lấn át chính đường cong.
+       Màu tô vì thế là màu nhấn trong suốt, hợp với cả nền sáng lẫn nền tối. */
+    s += '<rect class="f-band" x="' + L + '" y="' + y22.toFixed(1) + '" width="' + (x2 - L) +
+         '" height="' + (y18 - y22).toFixed(1) + '"/>';
+    s += '<line class="f-band-edge" x1="' + L + '" y1="' + y22.toFixed(1) + '" x2="' + x2 + '" y2="' + y22.toFixed(1) + '"/>';
+    s += '<line class="f-band-edge" x1="' + L + '" y1="' + y18.toFixed(1) + '" x2="' + x2 + '" y2="' + y18.toFixed(1) + '"/>';
+
     /* hai mép vùng tốt, ghi số ngay trên mép để đọc được độ cao */
-    s += '<text class="f-lab" x="' + (L - 3) + '" y="' + (yOf(22) + 2.2).toFixed(1) + '" text-anchor="end">22%</text>';
-    s += '<text class="f-lab" x="' + (L - 3) + '" y="' + (yOf(18) + 2.2).toFixed(1) + '" text-anchor="end">18%</text>';
-    s += '<text class="f-lab" x="' + L + '" y="' + (yOf(22) - 3).toFixed(1) + '">' + T().curveBand + '</text>';
+    s += '<text class="f-lab" x="' + (L - 3) + '" y="' + (y22 + 2.2).toFixed(1) + '" text-anchor="end">22%</text>';
+    s += '<text class="f-lab" x="' + (L - 3) + '" y="' + (y18 + 2.2).toFixed(1) + '" text-anchor="end">18%</text>';
+    s += '<text class="f-lab" x="' + L + '" y="' + (y22 - 4).toFixed(1) + '">' + T().curveBand + '</text>';
 
     var d = "";
     for (i = 1; i <= 10; i += 0.25) {

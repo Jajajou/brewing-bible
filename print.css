@@ -297,8 +297,9 @@ a{ color: inherit; text-decoration: none; }
 .f-tick{ stroke: var(--rule); stroke-width: 0.4; }
 .f-guide{ stroke: var(--muted); stroke-width: 0.32; stroke-dasharray: 1.2 1.2; }
 .f-curve{ fill: none; stroke: var(--accent); stroke-width: 0.62; }
-.f-area{ fill: #f3ede1; stroke: none; }
-.f-band{ fill: var(--wash); stroke: none; }
+.f-area{ fill: #8f421a; fill-opacity: 0.08; stroke: none; }
+.f-band{ fill: #8f421a; fill-opacity: 0.07; stroke: none; }
+.f-band-edge{ stroke: #d8cdba; stroke-width: 0.3; }
 .f-mark{ stroke: var(--muted); stroke-width: 0.4; }
 .f-mark-mid{ stroke: var(--ink-2); stroke-width: 0.62; }
 .f-dot{ fill: var(--accent); }

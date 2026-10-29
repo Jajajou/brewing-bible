@@ -494,7 +494,10 @@ html[data-theme="dark"] .btn-primary{ color: #17120c; }
 .f-guide{ stroke: var(--muted); stroke-width: 0.9; stroke-dasharray: 3 3; }
 .f-curve{ fill: none; stroke: var(--accent); stroke-width: 1.6; stroke-linejoin: round; stroke-linecap: round; }
 .f-area{ fill: var(--accent-wash); stroke: none; }
-.f-band{ fill: var(--surface-2); stroke: none; }
+/* Dải và vùng tô là màu nhấn trong suốt, không phải màu nền đặc: một khối
+   đặc thành tấm sáng chói khi trình đọc đổi sang nền tối. */
+.f-band{ fill: var(--accent); fill-opacity: 0.07; stroke: none; }
+.f-band-edge{ stroke: var(--rule); stroke-width: 0.8; }
 .f-mark{ stroke: var(--muted); stroke-width: 1; }
 .f-mark-mid{ stroke: var(--ink-2); stroke-width: 1.6; }
 .f-dot{ fill: var(--accent); }

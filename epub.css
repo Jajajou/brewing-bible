@@ -340,8 +340,11 @@ nav#toc li{ margin: 0.35em 0; }
 .f-axis, .f-tick{ stroke: #d8cdba; stroke-width: 0.4; }
 .f-guide{ stroke: #6f6459; stroke-width: 0.32; stroke-dasharray: 1.2 1.2; }
 .f-curve{ fill: none; stroke: #8f421a; stroke-width: 0.62; }
-.f-area{ fill: #f3ede1; stroke: none; }
-.f-band{ fill: #f7f3ea; stroke: none; }
+/* Không dùng màu nền đặc cho vùng tô: trình đọc nền tối sẽ biến nó thành
+   một tấm sáng chói, còn chữ thì vẫn tối. Màu nhấn trong suốt hợp với cả hai. */
+.f-area{ fill: #8f421a; fill-opacity: 0.08; stroke: none; }
+.f-band{ fill: #8f421a; fill-opacity: 0.07; stroke: none; }
+.f-band-edge{ stroke: #d8cdba; stroke-width: 0.4; }
 .f-mark{ stroke: #6f6459; stroke-width: 0.4; }
 .f-mark-mid{ stroke: #1b1815; stroke-width: 0.62; }
 .f-dot{ fill: #8f421a; }
