@@ -68,7 +68,8 @@ tools/build-epub.mjs  dựng EPUB 3 (nav, ncx, từng chương một file)
 tools/check-i18n.mjs  so cấu trúc bản dịch với bản gốc (bảng, danh sách, đoạn)
 tools/check-refs.mjs  kiểm trích dẫn: số hiệu chết, nguồn mồ côi, và đối chiếu DOI với Crossref
 tools/bump-assets.mjs đặt mọi ?v= về short SHA của commit (--check cho CI)
-search.js             bỏ dấu, chấm điểm và cắt snippet cho tìm kiếm (không đụng DOM)
+search.js             bỏ dấu, chấm điểm, xếp hạng, cắt snippet (không đụng DOM)
+tests/logic.test.mjs  test cho fold, xếp hạng và numLabel — chạy bằng node --test
 vendor/paged.polyfill.js  Paged.js 0.4.3 (phân trang trong trình duyệt)
 ```
 
@@ -198,11 +199,13 @@ Nếu muốn bản `.azw3` hoặc `.kepub` riêng, chuyển bằng Calibre từ 
 Mỗi push và mỗi pull request chạy [.github/workflows/checks.yml](.github/workflows/checks.yml):
 
 ```bash
-node tools/check-i18n.mjs          # cấu trúc bản dịch so với bản gốc
+node --test                         # logic tìm kiếm: bỏ dấu, xếp hạng, nhãn số
+node tools/check-i18n.mjs           # cấu trúc bản dịch so với bản gốc
 node tools/check-refs.mjs --offline # số hiệu chết, nguồn mồ côi, số hiệu EN
+node tools/bump-assets.mjs --check  # mọi ?v= phải cùng một số
 ```
 
-Hai script này chạy không cần mạng và không cần `npm install`. Lượt đối chiếu DOI với Crossref không nằm trong CI — nó gọi 31 request ra ngoài và là việc chạy tay.
+Ba script và bộ test chạy không cần mạng, không cần `npm install`, không cần trình duyệt. Lượt đối chiếu DOI với Crossref không nằm trong CI — nó gọi 31 request ra ngoài và là việc chạy tay.
 
 ## Chạy tại máy
 

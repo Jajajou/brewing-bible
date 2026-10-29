@@ -37,7 +37,7 @@
     if (LANG === "vi") {
       var chain = Promise.resolve();
       for (var n = 1; n <= 9; n++) {
-        chain = chain.then(load.bind(null, "content/part-" + n + ".js?v=fabab58"));
+        chain = chain.then(load.bind(null, "content/part-" + n + ".js?v=ae96173"));
       }
       return chain;
     }
