@@ -330,19 +330,26 @@
      bao cà. Trong sách giấy chỉ có một bản — không ai photo cả cuốn sách để
      lấy một trang. Khối nào có data-tpl thì trên web có thêm nút mở một
      trang in riêng: mỗi bản một tờ A5, in bao nhiêu tuỳ ý rồi đóng lại. */
+  /* Nút nằm *trong* khung mẫu, góc trên phải — không phải một hàng riêng
+     bên dưới. Khối mẫu là thứ người đọc muốn mang đi in; nút thuộc về nó,
+     và ở trong khung thì không ai phải đoán nút đó thuộc khối nào. */
+  var TPL_ICON =
+    '<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">' +
+      '<path d="M4.6 5.9V3.1h6.8v2.8M4.6 11.4H3.1A1.1 1.1 0 0 1 2 10.3V7.1A1.1 1.1 0 0 1 3.1 6h9.8A1.1 1.1 0 0 1 14 7.1v3.2a1.1 1.1 0 0 1-1.1 1.1h-1.5M4.6 9.1h6.8v4.2H4.6z"/>' +
+      '<circle cx="11.6" cy="8.2" r=".65" fill="currentColor" stroke="none"/>' +
+    "</svg>";
+
   function decorateTemplates(ch) {
     document.querySelectorAll(".body [data-tpl]").forEach(function (el, i) {
-      var bar = document.createElement("div");
-      bar.className = "tpl-bar";
-
       var btn = document.createElement("button");
       btn.type = "button";
       btn.className = "tpl-btn";
-      btn.textContent = T.tplPrint;
-      btn.addEventListener("click", function () { openTemplatePrint(el, ch, i, bar); });
+      btn.title = T.tplHint;
+      btn.innerHTML = TPL_ICON + "<span>" + esc(T.tplPrint) + "</span>";
+      btn.addEventListener("click", function () { openTemplatePrint(ch, i, btn); });
 
-      bar.appendChild(btn);
-      el.insertAdjacentElement("afterend", bar);
+      el.classList.add("tpl-host");
+      el.appendChild(btn);
     });
   }
 
@@ -350,23 +357,22 @@
      document.write: mở được bằng link, tải lại được, và không phụ thuộc
      popup của trang đang đọc. Ở đây chỉ cần mở nó kèm mã chương và thứ tự
      của khối mẫu trong chương. */
-  function openTemplatePrint(el, ch, index, bar) {
+  function openTemplatePrint(ch, index, btn) {
     var url = "tpl.html?ch=" + encodeURIComponent(ch.id) +
               "&i=" + index + "&lang=" + LANG;
     var w = window.open(url, "_blank");
     if (w) return;
 
-    /* Popup bị chặn: để lại một link cùng chỗ, thay vì hộp thoại báo lỗi.
-       Link mở được bằng cú click thứ hai, hoặc Ctrl-click. */
-    if (bar.querySelector(".tpl-note")) return;
-    var note = document.createElement("a");
-    note.className = "tpl-note";
-    note.href = url;
-    note.target = "_blank";
-    note.rel = "noopener";
-    note.title = T.tplBlocked;
-    note.textContent = T.tplPrint + " ↗";
-    bar.appendChild(note);
+    /* Popup bị chặn: đổi chính nút đó thành link, giữ nguyên chỗ trong góc
+       khung — thay vì hộp thoại báo lỗi hay một hàng chữ mới bên dưới. */
+    var a = document.createElement("a");
+    a.className = "tpl-btn tpl-fallback";
+    a.href = url;
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.title = T.tplBlocked;
+    a.innerHTML = btn.innerHTML + '<i aria-hidden="true">↗</i>';
+    btn.replaceWith(a);
   }
 
   function markRead(id) {
