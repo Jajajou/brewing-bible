@@ -6,6 +6,7 @@
   "use strict";
 
   var PARTS = window.BOOK_PARTS || [];
+  var S = window.BOOK_SEARCH; /* search.js: bỏ dấu, chấm điểm, snippet */
 
   /* ---------- ngôn ngữ ---------- */
   var I18N = window.BOOK_I18N || {
@@ -58,7 +59,7 @@
   var TOTAL = MAIN.length;
 
   function numLabel(entry) {
-    return isAppendix(entry.part) ? "A" + entry.np : String(entry.n).padStart(2, "0");
+    return S.numLabel(isAppendix(entry.part), entry.n, entry.np);
   }
   function kickerLabel(entry) {
     return isAppendix(entry.part) ? partLabel(entry.part) + " A" + entry.np : chLabel(entry.n);
@@ -145,18 +146,13 @@
   /* ---------- plain text index for search ---------- */
   var index = [];
 
-  function normText(s) { return String(s || "").replace(/\s+/g, " ").toLowerCase(); }
-
   function buildIndex() {
     index = flat.map(function (entry) {
       var tmp = document.createElement("div");
       tmp.innerHTML = entry.ch.body || "";
-      return {
-        entry: entry,
-        title: normText(entry.ch.title),
-        lede: normText(entry.ch.lede),
-        text: normText(entry.ch.title + " " + (entry.ch.lede || "") + " " + (tmp.textContent || ""))
-      };
+      var rec = S.makeRecord(entry.ch.title, entry.ch.lede, tmp.textContent || "");
+      rec.entry = entry;
+      return rec;
     });
   }
 
@@ -419,29 +415,18 @@
   var searchInput = $("#searchInput");
   var searchResults = $("#searchResults");
 
-  function runSearch(q) {
-    q = q.trim().toLowerCase();
+  function runSearch(query) {
+    /* Người Việt gõ không dấu trên điện thoại là mặc định — "chiet xuat"
+       phải ra "chiết xuất". Nhờ fold giữ nguyên độ dài, vị trí tìm được
+       trong bản bỏ dấu vẫn cắt đúng chỗ trong bản có dấu. */
+    var q = S.normFold(query.trim());
     if (q.length < 2) { searchResults.hidden = true; return; }
 
     var hits = [];
     index.forEach(function (rec) {
-      var pos = rec.text.indexOf(q);
-      if (pos === -1) return;
-
-      var start = Math.max(0, pos - 55);
-      var snippet = rec.text.slice(start, pos + q.length + 95);
-
-      /* ranking: title > lede > repetition > early position */
-      var count = 0, from = 0, at;
-      while ((at = rec.text.indexOf(q, from)) !== -1) { count++; from = at + q.length; }
-
-      var score = 0;
-      if (rec.title.indexOf(q) > -1) score += 400;
-      if (rec.lede.indexOf(q) > -1) score += 160;
-      score += Math.min(count, 20) * 8;
-      if (pos < 120) score += 40;
-
-      hits.push({ entry: rec.entry, score: score, snippet: (start > 0 ? "…" : "") + snippet + "…" });
+      var m = S.hit(rec, q);
+      if (!m) return;
+      hits.push({ entry: rec.entry, score: m.score, snippet: S.snippet(rec.text, m.pos, q.length) });
     });
 
     hits.sort(function (a, b) { return b.score - a.score; });
