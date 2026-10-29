@@ -96,6 +96,23 @@
     return (start > 0 ? "…" : "") + text.slice(start, end) + (end < text.length ? "…" : "");
   }
 
+  /* Toàn bộ việc tìm: lọc, chấm điểm, xếp hạng, cắt snippet. Tách khỏi DOM
+     để test được bằng node — phần duy nhất còn lại trong book.js là vẽ HTML. */
+  function rank(records, query, limit) {
+    var q = normFold(query);
+    var out = [];
+    if (!q) return out;
+
+    records.forEach(function (rec) {
+      var m = hit(rec, q);
+      if (!m) return;
+      out.push({ rec: rec, score: m.score, pos: m.pos, snippet: snippet(rec.text, m.pos, q.length) });
+    });
+
+    out.sort(function (a, b) { return b.score - a.score; });
+    return typeof limit === "number" ? out.slice(0, limit) : out;
+  }
+
   /* "01"–"29" cho chương, "A1"–"A4" cho phụ lục. */
   function numLabel(isAppendix, n, np) {
     return isAppendix ? "A" + np : String(n).padStart(2, "0");
@@ -107,6 +124,7 @@
     normFold: normFold,
     makeRecord: makeRecord,
     hit: hit,
+    rank: rank,
     snippet: snippet,
     numLabel: numLabel
   };

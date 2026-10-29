@@ -31,6 +31,9 @@ jobs:
           node-version: 22
 
       # Không có npm install: repo này zero-dependency, chỉ cần node.
+      - name: Test logic tìm kiếm (bỏ dấu, xếp hạng, nhãn số)
+        run: node --test
+
       - name: Bản dịch khớp cấu trúc bản gốc
         run: node tools/check-i18n.mjs
 

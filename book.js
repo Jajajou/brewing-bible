@@ -29,7 +29,7 @@
   function loadOverlay(lang) {
     return new Promise(function (resolve) {
       var s = document.createElement("script");
-      s.src = "content/" + lang + "/text.js?v=fabab58";
+      s.src = "content/" + lang + "/text.js?v=ae96173";
       s.onload = function () { resolve(window.BOOK_TEXT || null); };
       s.onerror = function () { resolve(null); };
       document.head.appendChild(s);
@@ -422,15 +422,7 @@
     var q = S.normFold(query.trim());
     if (q.length < 2) { searchResults.hidden = true; return; }
 
-    var hits = [];
-    index.forEach(function (rec) {
-      var m = S.hit(rec, q);
-      if (!m) return;
-      hits.push({ entry: rec.entry, score: m.score, snippet: S.snippet(rec.text, m.pos, q.length) });
-    });
-
-    hits.sort(function (a, b) { return b.score - a.score; });
-    hits = hits.slice(0, 8);
+    var hits = S.rank(index, q, 8);
 
     if (!hits.length) {
       searchResults.innerHTML = '<p class="sr-empty">' + esc(T.noResults) + "</p>";
@@ -439,9 +431,10 @@
     }
 
     searchResults.innerHTML = hits.map(function (h) {
-      return '<button class="sr-item" data-go="' + h.entry.ch.id + '">' +
-        '<span class="sr-kicker">' + esc(T.searchKicker(numLabel(h.entry), h.entry.part.title)) + "</span>" +
-        '<span class="sr-title">' + esc(h.entry.ch.title) + "</span>" +
+      var entry = h.rec.entry;
+      return '<button class="sr-item" data-go="' + entry.ch.id + '">' +
+        '<span class="sr-kicker">' + esc(T.searchKicker(numLabel(entry), entry.part.title)) + "</span>" +
+        '<span class="sr-title">' + esc(entry.ch.title) + "</span>" +
         '<span class="sr-snippet">' + esc(h.snippet) + "</span></button>";
     }).join("");
     searchResults.hidden = false;
