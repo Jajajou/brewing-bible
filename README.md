@@ -67,6 +67,8 @@ tools/check-pdf.mjs   kiểm bản in: trang trắng lạc chỗ, đoạn bị c
 tools/build-epub.mjs  dựng EPUB 3 (nav, ncx, từng chương một file)
 tools/check-i18n.mjs  so cấu trúc bản dịch với bản gốc (bảng, danh sách, đoạn)
 tools/check-refs.mjs  kiểm trích dẫn: số hiệu chết, nguồn mồ côi, và đối chiếu DOI với Crossref
+tools/bump-assets.mjs đặt mọi ?v= về short SHA của commit (--check cho CI)
+search.js             bỏ dấu, chấm điểm và cắt snippet cho tìm kiếm (không đụng DOM)
 vendor/paged.polyfill.js  Paged.js 0.4.3 (phân trang trong trình duyệt)
 ```
 
@@ -109,12 +111,16 @@ Kết quả cache ở `.refs-cache.json` (đã gitignore) trong 30 ngày; lượ
 
 ### Quy ước version asset
 
-Các thẻ `<link>` và `<script>` trong `index.html` **và** `print.html` có hậu tố `?v=N`. GitHub Pages cache asset 10 phút, nên sau khi sửa `styles.css`, `book.js` hoặc file nội dung, **tăng `N`** ở tất cả các thẻ rồi push — người đọc nhận bản mới ngay thay vì chờ cache hết hạn.
+Các thẻ `<link>` và `<script>` trong `index.html`, `print.html`, `tpl.html` và trong `book.js`, `tpl.js` có hậu tố `?v=`. GitHub Pages cache asset 10 phút, nên sau khi sửa `styles.css`, `book.js` hoặc file nội dung, đặt lại hậu tố rồi push — người đọc nhận bản mới ngay thay vì chờ cache hết hạn.
 
 ```bash
-sed -i '' 's/?v=3/?v=4/g' index.html print.html   # macOS
-sed -i 's/?v=3/?v=4/g' index.html print.html      # Linux
+node tools/bump-assets.mjs          # mọi ?v= → short SHA của commit hiện tại
+node tools/bump-assets.mjs --check  # không ghi, chỉ báo nếu các giá trị lệch nhau
 ```
+
+Một số duy nhất cho tất cả 30 thẻ, thay cho 10 số khác nhau như trước. CI chạy `--check` trên mỗi push: lệch nhau là đỏ.
+
+Số được ghi là commit tại **thời điểm bump**, không phải commit chứa nó — bump xong thì commit mới lại có SHA khác. Điều duy nhất cần đúng là mọi thẻ mang cùng một số.
 
 ## Bản in A5 (PDF)
 

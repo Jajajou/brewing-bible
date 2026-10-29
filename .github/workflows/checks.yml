@@ -36,3 +36,8 @@ jobs:
 
       - name: Trích dẫn (không gọi mạng)
         run: node tools/check-refs.mjs --offline
+
+      # Mọi thẻ ?v= phải mang cùng một số, nếu không thì có người bump nửa
+      # vời và người đọc nhận bản cũ tới 10 phút.
+      - name: Hậu tố ?v= đồng nhất
+        run: node tools/bump-assets.mjs --check
