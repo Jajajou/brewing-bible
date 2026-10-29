@@ -66,6 +66,7 @@ tools/serve.mjs       static server cho bước in (giữ kết nối, có Conte
 tools/check-pdf.mjs   kiểm bản in: trang trắng lạc chỗ, đoạn bị cắt, font chưa nhúng
 tools/build-epub.mjs  dựng EPUB 3 (nav, ncx, từng chương một file)
 tools/check-i18n.mjs  so cấu trúc bản dịch với bản gốc (bảng, danh sách, đoạn)
+tools/check-refs.mjs  kiểm trích dẫn: số hiệu chết, nguồn mồ côi, và đối chiếu DOI với Crossref
 vendor/paged.polyfill.js  Paged.js 0.4.3 (phân trang trong trình duyệt)
 ```
 
@@ -88,6 +89,24 @@ node tools/check-i18n.mjs en     # chỉ một ngôn ngữ
 
 Script so từng chương với bản gốc: số bảng, số hàng, số `<li>`, số `<strong>`, số đoạn, và độ dài trong khoảng cho phép. Lệch là báo lỗi — dấu hiệu bị bỏ sót một hàng bảng hoặc một đoạn văn.
 
+## Trích dẫn
+
+```bash
+node tools/check-refs.mjs             # kiểm tất cả
+node tools/check-refs.mjs --offline   # chỉ kiểm nội bộ, không gọi mạng
+node tools/check-refs.mjs --refresh   # bỏ cache, gọi lại Crossref
+```
+
+Ba lớp, từ rẻ tới đắt:
+
+1. **Liên kết nội bộ.** Mỗi `[n]` trong thân bài phải trỏ tới một mục có thật trong phụ lục A2, và mỗi mục trong A2 phải được ít nhất một dòng khẳng định dẫn tới. Số hiệu chết thì người đọc thấy ngay; nguồn mồ côi thì không ai thấy cho tới khi có người tra ngược và không biết nó đỡ câu nào.
+2. **Bản dịch.** Số hiệu thư mục của bản EN phải trùng bản VI.
+3. **Crossref.** Với mỗi DOI: tựa, năm, tập, trang phải khớp những gì sách in. Đây là lớp bắt lỗi con người không bắt — một chữ số trong năm, một trang đánh nhầm, một DOI chết hoặc đã đổi chủ.
+
+Kết quả cache ở `.refs-cache.json` (đã gitignore) trong 30 ngày; lượt chạy đầu gọi khoảng 31 request, các lượt sau gần như tức thì.
+
+**Giới hạn phải nói rõ:** lớp 3 kiểm *thư mục*, không kiểm việc bài báo có nói đúng câu sách nói. Muốn kiểm điều đó thì phải đọc nguồn — xem mục "Lượt kiểm" trong [REFERENCES.md](REFERENCES.md).
+
 ### Quy ước version asset
 
 Các thẻ `<link>` và `<script>` trong `index.html` **và** `print.html` có hậu tố `?v=N`. GitHub Pages cache asset 10 phút, nên sau khi sửa `styles.css`, `book.js` hoặc file nội dung, **tăng `N`** ở tất cả các thẻ rồi push — người đọc nhận bản mới ngay thay vì chờ cache hết hạn.
@@ -108,14 +127,14 @@ SKIP_CHECK=1 ./build-pdf.sh      # bỏ bước tự kiểm (khi máy chưa có 
 
 Script tự bật một static server tạm ([tools/serve.mjs](tools/serve.mjs) — Paged.js không chạy được với `file://`), dựng trang, **chờ Paged.js phân trang xong** rồi mới in. Cần Chrome/Chromium, Node 18+ và poppler-utils (`pdftotext`, `pdfinfo`, `pdffonts`) cho bước tự kiểm.
 
-Bản dàn trang: khổ A5 148×210 mm, lề 17/16/18 mm, chạy đầu trang theo tên phần, số trang chân, mục lục có số trang thật (dùng `target-counter`), bìa và trang phần riêng. Hiện **167 trang**, trong đó 8 trang trắng chèn để mỗi phần mở ở trang lẻ.
+Bản dàn trang: khổ A5 148×210 mm, lề 17/16/18 mm, chạy đầu trang theo tên phần, số trang chân, mục lục có số trang thật (dùng `target-counter`), bìa và trang phần riêng. Hiện **174 trang**, trong đó 7 trang trắng chèn để mỗi phần mở ở trang lẻ.
 
 ### Quy trình chống hỏng
 
 Bản in từng hỏng theo kiểu âm thầm: Paged.js không chạy, hoặc một file nội dung không nạp kịp, và script vẫn in ra một file PDF thiếu nguyên một phần. Bốn lớp chặn, theo thứ tự chạy:
 
 1. **Kiểm file trước khi dựng** — `build-pdf.sh` đọc `print.html`, xác nhận mọi file `.js`/`.css` nó trỏ tới đều có thật. Thiếu file thì dừng ngay trong một giây, không mất 40 giây dựng rồi mới biết.
-2. **Server giữ kết nối** — `python3 -m http.server` trả lời HTTP/1.0 và đóng kết nối sau mỗi request; với 12 file nạp song song, Chrome thỉnh thoảng nhận `ERR_CONNECTION_RESET` và một script không chạy. `tools/serve.mjs` khai `Content-Length` và giữ kết nối. Đây là nguyên nhân gốc của phần lớn lần hỏng trước đây (3/5 lần đo được); sau khi đổi, 12 lần dựng liên tiếp đều sạch và đều ra đúng 167 trang.
+2. **Server giữ kết nối** — `python3 -m http.server` trả lời HTTP/1.0 và đóng kết nối sau mỗi request; với 12 file nạp song song, Chrome thỉnh thoảng nhận `ERR_CONNECTION_RESET` và một script không chạy. `tools/serve.mjs` khai `Content-Length` và giữ kết nối. Đây là nguyên nhân gốc của phần lớn lần hỏng trước đây (3/5 lần đo được); sau khi đổi, 12 lần dựng liên tiếp đều sạch và đều ra đúng số trang của bản đó.
 3. **Nạp lại tại chỗ** — `print-pdf.mjs` đo lại số trang và số phần sau mỗi lần nạp; chưa đạt thì nạp lại ngay trong cùng phiên Chrome (tối đa `PDF_ATTEMPTS`, mặc định 3), không in ra bản thiếu. `build-pdf.sh` kiểm lại lần nữa và chỉ in `✓` khi đủ trang và đủ phần.
 4. **Kiểm sau khi dựng** — `tools/check-pdf.mjs` đọc lại chính file PDF vừa ra (không tin log) và kiểm ba thứ: trang trắng có nằm đúng chỗ chèn không, có đoạn văn nào bị cắt mất không (so từng đoạn trong `content/` với văn bản rút ra từ PDF), font đã nhúng chưa. Chạy riêng cũng được: `node tools/check-pdf.mjs out/ban-in.pdf`.
 

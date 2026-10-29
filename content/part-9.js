@@ -152,7 +152,7 @@
 
 <p>Bài blog, không bình duyệt, và chính tác giả ghi rằng mô hình chưa được kiểm chứng với dữ liệu thực nghiệm khi đăng. Sách dẫn đúng điểm này ở chương 8 — đây là chỗ sách nghiêm khắc với nguồn của chính nó.</p>
 
-<p><strong>[33]</strong> Cameron, M. I., và cộng sự (2020). <em>Systematically improving espresso: insights from mathematical modeling and experiment.</em> Matter. doi:10.1016/j.matt.2019.12.019</p>
+<p><strong>[33]</strong> Cameron, M. I., và cộng sự (2020). <em>Systematically improving espresso: insights from mathematical modeling and experiment.</em> Matter, 2, 631–648. doi:10.1016/j.matt.2019.12.019</p>
 
 <p>Bài bình duyệt cùng nhóm Hendon. Nếu cần một nguồn học thuật cho mô hình espresso, dùng bài này, không dùng blog. Chương 10 dùng lại bài này cho đường cong có đỉnh.</p>
 
@@ -281,11 +281,13 @@
 <tr><td>2</td><td>Không có định nghĩa chung cho "medium roast"; Agtron có hai biến thể</td><td>—</td><td>[12]–[14] cho phần đo màu</td><td>Một phần</td></tr>
 <tr><td>3</td><td>Trữ đông giữ chất lượng dài hạn</td><td>Hợp lý</td><td>[22] [23] [24] [25]</td><td>Một phần — [24] là 5 °C ngăn mát, một tháng; không có thử nghiệm trữ đông</td></tr>
 <tr><td>3</td><td>20 ngày tuổi pha nước đúng ngon hơn 5 ngày tuổi pha nước kiềm 250 ppm</td><td>"không phải ý kiến"</td><td>không có</td><td>Không có nguồn</td></tr>
+<tr><td>3</td><td>Hạt mới rang nhả CO₂, bọt khí cản nước tiếp xúc; bloom là bước xử lý khí</td><td>Hợp lý</td><td>[20] [21]</td><td>Dẫn được cho phần cơ chế; phần tác dụng cảm quan của bloom thì chưa</td></tr>
+<tr><td>3</td><td>Bảo quản ở nhiệt độ phòng: chất lượng cảm quan giảm dần theo thời gian</td><td>Bằng chứng</td><td>[22] [23] [25] [26]</td><td>Dẫn được — [26] là bài tổng quan, không phải thực nghiệm</td></tr>
 <tr><td>4</td><td>Bicarbonate chi phối cảm nhận, canxi thì không</td><td>Bằng chứng</td><td>[1] trực tiếp, [3] hoá học</td><td>Dẫn được, nguồn đã đổi</td></tr>
 <tr><td>4</td><td>Vùng nước 40–75 ppm alkalinity, 51–175 ppm độ cứng, pH 6–8</td><td>Hợp lý</td><td>[4] và bảng tiêu chuẩn SCA 2018 cho pH</td><td>Dẫn được một phần — pH không lấy từ [4]</td></tr>
 <tr><td>5</td><td>Bút TDS không đo alkalinity; HCO₃ × 0,82; 1 dKH = 17,86 ppm</td><td>—</td><td>hoá học phổ thông</td><td>Không cần nguồn</td></tr>
 <tr><td>6</td><td>Pha loãng tuyến tính; số liệu nước khoáng đóng chai</td><td>—</td><td>nhãn sản phẩm</td><td>Không cần nguồn</td></tr>
-<tr><td>7</td><td>18–22% EY và 1,15–1,35% TDS</td><td>—</td><td>[5] và chuẩn Golden Cup</td><td>Đã sửa, xem A4</td></tr>
+<tr><td>7</td><td>18–22% EY và 1,15–1,35% TDS</td><td>—</td><td>[5], chuẩn Golden Cup, và biểu đồ kiểm soát pha mới ở [9]</td><td>Đã sửa, xem A4</td></tr>
 <tr><td>8</td><td>"Acid trước, đắng sau" là giả thuyết chưa kiểm chứng</td><td>Truyền miệng</td><td>[32]</td><td>Dẫn được, chính xác</td></tr>
 <tr><td>8</td><td>Nhóm giảm nhanh nhất (trigonelline + TDS), rồi 5-CQA, rồi caffeine</td><td>Bằng chứng</td><td>[8]</td><td>Một phần — bài gộp trigonelline với TDS, không tách hai bậc</td></tr>
 <tr><td>8</td><td>Axit malic, acetic, lactic dưới ngưỡng; chuyên gia không gọi được tên</td><td>Bằng chứng</td><td>[2]</td><td>Dẫn được</td></tr>
@@ -303,6 +305,8 @@
 <tr><td>10</td><td>Phân bố hạt có đỉnh fines 30–40 µm; cùng trung vị vẫn có thể khác lượng fines</td><td>Bằng chứng</td><td>[34] [35] [39]</td><td>Dẫn được</td></tr>
 <tr><td>10</td><td>Đường cong chiết–cỡ xay có đỉnh, không đơn điệu</td><td>Bằng chứng</td><td>[33] [11]</td><td>Dẫn được</td></tr>
 <tr><td>10</td><td>Ngâm tới cân bằng: EY 19–23% trên dải trung vị 579–1311 µm</td><td>Bằng chứng</td><td>[31] [37]</td><td>Dẫn được</td></tr>
+<tr><td>10</td><td>Tỉ lệ fines từ 10% lên 15% kéo dài thời gian chiết khoảng 10 giây</td><td>Bằng chứng</td><td>[36]</td><td>Dẫn được, trên capsule — không phải pour-over</td></tr>
+<tr><td>10</td><td>Cỡ xay tương tác với hình học giỏ lọc (vị đắng, hương hoa)</td><td>Bằng chứng</td><td>[38]</td><td>Dẫn được, 45 người thử</td></tr>
 <tr><td>10</td><td>Thứ tự nước → cỡ xay → kỹ thuật là thứ tự chẩn đoán, không phải xếp hạng đo được</td><td>Hợp lý</td><td>không có nghiên cứu trực tiếp</td><td>Đã hạ nhãn, xem A4</td></tr>
 <tr><td>11</td><td>Thang SCA mười mục, 100 điểm (bộ 2004)</td><td>—</td><td>[12] [13]</td><td>Đã ghi chú, xem A4</td></tr>
 <tr><td>12</td><td>8,25 g trên 150 ml; năm cốc mỗi mẫu; quy trình bốn phút</td><td>—</td><td>[12]</td><td>Dẫn được</td></tr>
@@ -322,7 +326,7 @@
 <tr><th>Ch.</th><th>Khẳng định cần nguồn</th><th>Nhãn trong sách</th><th>Nguồn</th><th>Kết luận</th></tr>
 </thead>
 <tbody>
-<tr><td>19</td><td>Sáu công thức vô địch 2021–2026 dùng liều 14–20 g, tỉ lệ 1:13,3–1:16</td><td>—</td><td>[41] [42] [43] [45] [47] [48] [49]</td><td>Dẫn được, nhưng là bản dựng lại</td></tr>
+<tr><td>19</td><td>Sáu công thức vô địch 2021–2026 dùng liều 14–20 g, tỉ lệ 1:13,3–1:16</td><td>—</td><td>[41] [42] [43] [44] [45] [46] [47] [48] [49]</td><td>Dẫn được, nhưng là bản dựng lại</td></tr>
 <tr><td>19</td><td>Cỡ xay công bố trải 490–1000 µm; số click trên máy không chuyển được</td><td>Hợp lý</td><td>[43] [45] [47], và [34] [35] ở chương 10</td><td>Một phần — hai nguồn cho Wölfl lệch 490/630 µm</td></tr>
 <tr><td>19</td><td>Tia nước quyết định cách bã bị xáo trộn</td><td>Bằng chứng</td><td>[51]</td><td>Dẫn được</td></tr>
 <tr><td>19</td><td>Routine thi đấu đánh đổi độ lặp lại để lấy độ rõ của một ngụm</td><td>Hợp lý</td><td>[50]</td><td>Một phần, người trong cuộc kể</td></tr>

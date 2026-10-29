@@ -3287,7 +3287,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p>A blog post, not peer reviewed, and the author himself notes that the model had not been tested against experimental data when it was published. Chapter 8 cites exactly that point — it is the place where the book is hardest on its own source.</p>
 
-<p><strong>[33]</strong> Cameron, M. I., et al. (2020). <em>Systematically improving espresso: insights from mathematical modeling and experiment.</em> Matter. doi:10.1016/j.matt.2019.12.019</p>
+<p><strong>[33]</strong> Cameron, M. I., et al. (2020). <em>Systematically improving espresso: insights from mathematical modeling and experiment.</em> Matter, 2, 631–648. doi:10.1016/j.matt.2019.12.019</p>
 
 <p>The peer-reviewed paper from the same Hendon group. If you need an academic source for the espresso model, use this one, not the blog. Chapter 10 reuses it for the extraction curve with a peak.</p>
 
@@ -3415,11 +3415,13 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <tr><td>2</td><td>No shared definition of "medium roast"; Agtron has two variants</td><td>—</td><td>[12]–[14] for the colour measurement</td><td>Partly</td></tr>
 <tr><td>3</td><td>Freezing preserves quality long term</td><td>Plausible</td><td>[22] [23] [24] [25]</td><td>Partly — [24] is 5 °C fridge, one month; no freezing trial exists</td></tr>
 <tr><td>3</td><td>20-day-old coffee with correct water beats 5-day-old with 250 ppm alkaline water</td><td>"not an opinion"</td><td>none</td><td>No source</td></tr>
+<tr><td>3</td><td>Freshly roasted coffee releases CO₂ and the bubbles block water contact; blooming is the degassing step</td><td>Plausible</td><td>[20] [21]</td><td>Citable for the mechanism; not for the sensory effect of blooming</td></tr>
+<tr><td>3</td><td>At room temperature, sensory quality declines with storage time</td><td>Evidence</td><td>[22] [23] [25] [26]</td><td>Citable — [26] is a literature review, not an experiment</td></tr>
 <tr><td>4</td><td>Bicarbonate drives perception, calcium does not</td><td>Evidence</td><td>[1] directly, [3] for chemistry</td><td>Citable, source changed</td></tr>
 <tr><td>4</td><td>Water zone of 40–75 ppm alkalinity, 51–175 ppm hardness, pH 6–8</td><td>Plausible</td><td>[4], and the 2018 SCA standards table for pH</td><td>Partly citable — pH does not come from [4]</td></tr>
 <tr><td>5</td><td>A TDS pen does not measure alkalinity; HCO₃ × 0.82; 1 dKH = 17.86 ppm</td><td>—</td><td>general chemistry</td><td>Needs no source</td></tr>
 <tr><td>6</td><td>Dilution is linear; bottled water figures</td><td>—</td><td>product labels</td><td>Needs no source</td></tr>
-<tr><td>7</td><td>18–22% EY and 1.15–1.35% TDS</td><td>—</td><td>[5] and the Golden Cup standard</td><td>Fixed, see A4</td></tr>
+<tr><td>7</td><td>18–22% EY and 1.15–1.35% TDS</td><td>—</td><td>[5], the Golden Cup standard, and the newer brewing control chart in [9]</td><td>Fixed, see A4</td></tr>
 <tr><td>8</td><td>"Acid first, bitter later" is an untested hypothesis</td><td>Folklore</td><td>[32]</td><td>Citable, accurate</td></tr>
 <tr><td>8</td><td>Fastest group (trigonelline + TDS), then 5-CQA, then caffeine</td><td>Evidence</td><td>[8]</td><td>Partly — the paper groups trigonelline with TDS rather than ranking them</td></tr>
 <tr><td>8</td><td>Malic, acetic and lactic below threshold; tasters cannot name them</td><td>Evidence</td><td>[2]</td><td>Citable</td></tr>
@@ -3437,6 +3439,8 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <tr><td>10</td><td>The distribution carries a fines peak at 30–40 µm; the same median can hide a different fines load</td><td>Evidence</td><td>[34] [35] [39]</td><td>Citable</td></tr>
 <tr><td>10</td><td>The extraction–grind curve has a peak rather than a monotonic slope</td><td>Evidence</td><td>[33] [11]</td><td>Citable</td></tr>
 <tr><td>10</td><td>At immersion equilibrium: EY 19–23% across a 579–1311 µm median range</td><td>Evidence</td><td>[31] [37]</td><td>Citable</td></tr>
+<tr><td>10</td><td>Raising the fines fraction from 10% to 15% lengthens extraction by about 10 seconds</td><td>Evidence</td><td>[36]</td><td>Citable, on capsules — not pour-over</td></tr>
+<tr><td>10</td><td>Grind size interacts with basket geometry (bitterness, floral aroma)</td><td>Evidence</td><td>[38]</td><td>Citable, 45 tasters</td></tr>
 <tr><td>10</td><td>The order water → grind → technique is a diagnostic order, not a measured ranking</td><td>Plausible</td><td>no direct study</td><td>Downgraded, see A4</td></tr>
 <tr><td>11</td><td>The SCA ten-item, 100-point scale (2004 set)</td><td>—</td><td>[12] [13]</td><td>Noted, see A4</td></tr>
 <tr><td>12</td><td>8.25 g to 150 ml; five cups per sample; a four-minute protocol</td><td>—</td><td>[12]</td><td>Citable</td></tr>
@@ -3456,7 +3460,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <tr><th>Ch.</th><th>Claim that needs a source</th><th>Label in the book</th><th>Source</th><th>Verdict</th></tr>
 </thead>
 <tbody>
-<tr><td>19</td><td>Six championship recipes 2021–2026 use 14–20 g doses and ratios of 1:13.3–1:16</td><td>—</td><td>[41] [42] [43] [45] [47] [48] [49]</td><td>Citable, but a reconstruction</td></tr>
+<tr><td>19</td><td>Six championship recipes 2021–2026 use 14–20 g doses and ratios of 1:13.3–1:16</td><td>—</td><td>[41] [42] [43] [44] [45] [46] [47] [48] [49]</td><td>Citable, but a reconstruction</td></tr>
 <tr><td>19</td><td>Published grinds span 490–1000 µm; click counts do not transfer between grinders</td><td>Plausible</td><td>[43] [45] [47], and [34] [35] in chapter 10</td><td>Partly — two sources for Wölfl disagree, 490/630 µm</td></tr>
 <tr><td>19</td><td>The shape of the kettle stream decides how the bed is disturbed</td><td>Evidence</td><td>[51]</td><td>Citable</td></tr>
 <tr><td>19</td><td>A competition routine trades repeatability for the clarity of one sip</td><td>Plausible</td><td>[50]</td><td>Partly, a first-hand account</td></tr>
