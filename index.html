@@ -30,9 +30,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,800&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=c5fa39e">
+<link rel="stylesheet" href="styles.css?v=fabab58">
 </head>
 <body>
+
+<!-- Tab đầu tiên phải là "bỏ qua mục lục": người dùng bàn phím không nên
+     phải đi qua 33 liên kết chương trước khi tới được nội dung. -->
+<a class="skip" href="#main" id="skipLink">Bỏ qua tới nội dung</a>
 
 <div class="progress-rail"><div class="progress-bar" id="progressBar"></div></div>
 
@@ -80,25 +84,25 @@
 
   <div class="scrim" id="scrim"></div>
 
-  <main class="main" id="main">
+  <main class="main" id="main" tabindex="-1">
     <article class="page" id="page"></article>
     <nav class="pager" id="pager" aria-label="Chuyển chương"></nav>
   </main>
 
 </div>
 
-<script src="content/part-1.js?v=c5fa39e"></script>
-<script src="content/part-2.js?v=c5fa39e"></script>
-<script src="content/part-3.js?v=c5fa39e"></script>
-<script src="content/part-4.js?v=c5fa39e"></script>
-<script src="content/part-5.js?v=c5fa39e"></script>
-<script src="content/part-6.js?v=c5fa39e"></script>
-<script src="content/part-7.js?v=c5fa39e"></script>
-<script src="content/part-8.js?v=c5fa39e"></script>
-<script src="content/part-9.js?v=c5fa39e"></script>
-<script src="i18n.js?v=c5fa39e"></script>
-<script src="figures.js?v=c5fa39e"></script>
-<script src="search.js?v=c5fa39e"></script>
-<script src="book.js?v=c5fa39e"></script>
+<script src="content/part-1.js?v=fabab58"></script>
+<script src="content/part-2.js?v=fabab58"></script>
+<script src="content/part-3.js?v=fabab58"></script>
+<script src="content/part-4.js?v=fabab58"></script>
+<script src="content/part-5.js?v=fabab58"></script>
+<script src="content/part-6.js?v=fabab58"></script>
+<script src="content/part-7.js?v=fabab58"></script>
+<script src="content/part-8.js?v=fabab58"></script>
+<script src="content/part-9.js?v=fabab58"></script>
+<script src="i18n.js?v=fabab58"></script>
+<script src="figures.js?v=fabab58"></script>
+<script src="search.js?v=fabab58"></script>
+<script src="book.js?v=fabab58"></script>
 </body>
 </html>
