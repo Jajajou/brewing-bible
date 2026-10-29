@@ -29,7 +29,7 @@
   function loadOverlay(lang) {
     return new Promise(function (resolve) {
       var s = document.createElement("script");
-      s.src = "content/" + lang + "/text.js?v=c5fa39e";
+      s.src = "content/" + lang + "/text.js?v=fabab58";
       s.onload = function () { resolve(window.BOOK_TEXT || null); };
       s.onerror = function () { resolve(null); };
       document.head.appendChild(s);
@@ -575,6 +575,21 @@
     if (si) {
       si.placeholder = T.searchPlaceholder;
       si.setAttribute("aria-label", T.searchAria);
+    }
+
+    var skip = $("#skipLink");
+    if (skip) {
+      skip.textContent = T.skip;
+      /* Hash ở đây là router của sách: nhảy tới "#main" sẽ bị hiểu là một
+         chương không tồn tại và đá người đọc về bìa. Chuyển focus thẳng
+         vào nội dung, không đụng tới hash. */
+      skip.addEventListener("click", function (e) {
+        var main = $("#main");
+        if (!main) return;
+        e.preventDefault();
+        main.focus();
+        main.scrollIntoView({ block: "start" });
+      });
     }
 
     var toc = $("#toc");

@@ -84,6 +84,28 @@ body{
   *{ animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
 
+/* ---------- skip link ----------
+   Ẩn bằng transform chứ không bằng display:none hay left:-9999px: vẫn nhận
+   được focus bàn phím, và khi hiện ra thì trượt xuống từ mép trên — đúng
+   chỗ ngón tay đang ở, không nhảy sang chỗ khác. */
+.skip{
+  position: fixed; top: 0.6rem; left: 0.6rem; z-index: 90;
+  transform: translateY(calc(-100% - 1rem));
+  transition: transform 0.14s ease-out;
+  padding: 0.6rem 1rem;
+  background: var(--surface); color: var(--ink);
+  border: 1px solid var(--rule); border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  font-family: var(--font-ui); font-size: 0.86rem; font-weight: 500;
+  text-decoration: none;
+}
+.skip:focus{
+  transform: none;
+  outline: 2px solid var(--accent); outline-offset: 2px;
+}
+/* Đích của skip link nhận focus nhưng không cần viền bao quanh cả trang. */
+.main:focus{ outline: none; }
+
 /* ---------- progress rail ---------- */
 .progress-rail{
   position: fixed; inset: 0 0 auto 0; height: 2px; z-index: 60;
