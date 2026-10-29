@@ -466,8 +466,12 @@ Bốn chỗ không xác minh được, ghi lại để lần sau không phải t
 - 2023 (Carlos Medina): các bản dựng lại lệch nhau về tổng nước — 248 g so với 5 × 50 g.
   Chương dùng 248 g và nói rõ.
 - 2024 (Martin Wölfl): trang công thức chặn trình đọc; số gam lấy từ bản tóm tắt.
-- 2022 (Sherry Hsu): thẻ công thức không nêu dụng cụ, và không xác nhận được con cà dùng
-  trong lượt thi.
+- 2022 (Sherry Hsu): **đã giải quyết dụng cụ** — C³ Coffee phỏng vấn cô sau giải, nêu
+  OREA V3 đen + giấy Kalita 185, hỗn hợp xay 75% ~1000 µm / 25% ~800 µm trên hai máy,
+  và nước 75/90 ppm. Nguồn: [C³](https://c3.coffee/shelly-hsu-wbrc/),
+  [Wildkaffee](https://wild-kaffee.com/en-int/pages/filter-coffee-recipes-martin-woelfl).
+  Vẫn không xác nhận được con cà trên thẻ có phải con cà dùng trong lượt thi. Lưu ý: WBrC
+  2022 họp ở **Melbourne**, không phải Milan (Milan là 2021).
 - 2021 (Matt Winton): cỡ xay không được công bố dưới dạng số.
 
 Thêm 14 nguồn mới, **[41]–[54]**, đưa tổng số lên **54**. Hai nguồn trong đó ([43], [51])

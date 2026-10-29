@@ -214,7 +214,9 @@
 
 <p><strong>[48]</strong> Mikava Coffee. <em>Thẻ công thức</em> (2022). mikava.coffee/pages/mikava-recipes</p>
 
-<p>14 g trên 200 g; 50 g ở 70 °C mở đầu, rồi 95 °C; bốn lần 50 g; 800–1000 µm; 2:30–3:00. Hai giới hạn: thẻ không nêu dụng cụ, và không xác nhận được con cà trên thẻ có phải con cà dùng trong lượt thi.</p>
+<p>14 g trên 200 g; 50 g ở 70 °C mở đầu, rồi 95 °C; bốn lần 50 g; 800–1000 µm; 2:30–3:00. Thẻ không nêu dụng cụ, và không xác nhận được con cà trên thẻ có phải con cà dùng trong lượt thi.</p>
+
+<p>Dụng cụ thì có nguồn khác bổ sung: C³ Coffee phỏng vấn Hsu sau giải, cô nêu <strong>OREA V3 đen</strong> (bộ lọc đáy phẳng bằng nhựa, không hút nhiệt, thoát nhanh) với <strong>giấy Kalita 185</strong>; Wildkaffee ghi cùng bộ đôi đó. Cũng theo C³, “800–1000 µm” là <strong>hỗn hợp hai cỡ xay</strong> chứ không phải một cỡ: 75% ở khoảng 1000 µm (1Zpresso) trộn với 25% ở khoảng 800 µm (Comandante C40 MK4), và nước có TDS 75 ppm cho lần rót đầu, 90 ppm cho ba lần sau. Ba dụng cụ pha dựng song song trong video chung kết là ba tách cho ba giảm khảo cảm quan, không phải ba biến thể thử nghiệm.</p>
 
 <p><strong>[49]</strong> Kaffelogic. <em>Carlos Medina, World Brewers Cup</em> (2023). kaffelogic.com/blogs/competitors/carlos-medina-wbrc</p>
 

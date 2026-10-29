@@ -427,7 +427,7 @@ window.BOOK_PARTS.push({
 <thead><tr><th>Năm · vô địch</th><th>Dụng cụ</th><th>Liều : nước</th><th>Nhiệt</th><th>Cỡ xay</th><th>Cấu trúc rót</th></tr></thead>
 <tbody>
 <tr><td>2021 · Matt Winton (Thuỵ Sĩ)</td><td>V60</td><td>20&nbsp;:&nbsp;300</td><td>93&nbsp;°C</td><td>không nêu</td><td>5&nbsp;×&nbsp;60 g, chờ bã rút</td></tr>
-<tr><td>2022 · Sherry Hsu (Đài Loan)</td><td>không nêu</td><td>14&nbsp;:&nbsp;200</td><td>70&nbsp;→&nbsp;95&nbsp;°C</td><td>800–1000 µm</td><td>4&nbsp;×&nbsp;50 g, 2:30–3:00</td></tr>
+<tr><td>2022 · Sherry Hsu (Đài Loan)</td><td>OREA V3 (đen) · giấy Kalita 185</td><td>14&nbsp;:&nbsp;200</td><td>70&nbsp;→&nbsp;95&nbsp;°C</td><td>800–1000 µm</td><td>4&nbsp;×&nbsp;50 g, 2:30–3:00</td></tr>
 <tr><td>2023 · Carlos Medina (Chile)</td><td>Origami Air</td><td>15,5&nbsp;:&nbsp;248</td><td>91&nbsp;°C</td><td>không nêu</td><td>5 lần, cách 30 giây</td></tr>
 <tr><td>2024 · Martin Wölfl (Áo)</td><td>OREA V4 · Sibarist FAST</td><td>17&nbsp;:&nbsp;270</td><td>93&nbsp;°C</td><td>~490 µm</td><td>4 lần, đầu là bloom</td></tr>
 <tr><td>2025 · George Jinyang Peng (Trung Quốc)</td><td>SOLO · Melodrip</td><td>15&nbsp;:&nbsp;210</td><td>96&nbsp;→&nbsp;80&nbsp;°C</td><td>~800 µm</td><td>30&nbsp;/&nbsp;90&nbsp;/&nbsp;90 g, 1:45</td></tr>
@@ -456,7 +456,7 @@ window.BOOK_PARTS.push({
 
 <p><strong>Nhiệt: 70 đến 96 °C.</strong> Hsu mở bằng 70 °C rồi lên 95. Peng rót 96 rồi hạ 80. Jaafar giữ 92 đều. Có người cho rằng nhiệt thấp ở đầu giữ được hương; người khác cho rằng nhiệt cao ở đầu chiết đều hơn. Cả hai cách đều đã thắng.</p>
 
-<p><strong>Cỡ xay: 490 đến 1000 µm.</strong> Chênh hơn gấp đôi. Đây là con số ít giá trị nhất trong cả bảng, vì nó phụ thuộc máy xay và cách đo — bài học đã có ở chương 10. Nó chỉ có nghĩa khi đọc cùng dụng cụ và cùng giấy: Wölfl xay 490 µm nhưng dùng giấy nhanh, nên thời gian rút vẫn ngắn.</p>
+<p><strong>Cỡ xay: 490 đến 1000 µm.</strong> Chênh hơn gấp đôi. Đây là con số ít giá trị nhất trong cả bảng, vì nó phụ thuộc máy xay và cách đo — bài học đã có ở chương 10. Nó chỉ có nghĩa khi đọc cùng dụng cụ và cùng giấy: Wölfl xay 490 µm nhưng dùng giấy nhanh, nên thời gian rút vẫn ngắn. Và con số của Hsu không phải một cỡ xay: cô trộn 75% bột ở khoảng 1000 µm với 25% ở khoảng 800 µm, xay bằng hai máy khác nhau rồi trộn lại — nên “800–1000 µm” trong bảng là hai đầu của một hỗn hợp, không phải một dung sai.</p>
 
 <p>Ba cột đó cộng lại thành một kết luận: <strong>không có công thức vô địch.</strong> Có sáu câu trả lời cho sáu con cà khác nhau, trên sáu bộ thiết bị khác nhau. Thứ duy nhất chung là cách họ nghĩ, không phải con số họ dùng.</p>
 

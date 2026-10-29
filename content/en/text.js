@@ -1873,7 +1873,7 @@ Odd:   _______________
 <thead><tr><th>Year · champion</th><th>Brewer</th><th>Dose : water</th><th>Temperature</th><th>Grind</th><th>Pour structure</th></tr></thead>
 <tbody>
 <tr><td>2021 · Matt Winton (Switzerland)</td><td>V60</td><td>20 : 300 g</td><td>93 °C</td><td>not published</td><td>5 pours of 60 g, waiting for the bed to drain between them</td></tr>
-<tr><td>2022 · Sherry Hsu (Taiwan)</td><td>not named on the card</td><td>14 : 200 g</td><td>70 °C for the first 50 g, 95 °C after</td><td>800–1000 µm</td><td>4 pours of 50 g, 2:30–3:00</td></tr>
+<tr><td>2022 · Sherry Hsu (Taiwan)</td><td>OREA V3 (black) · Kalita 185 paper</td><td>14 : 200 g</td><td>70 °C for the first 50 g, 95 °C after</td><td>800–1000 µm</td><td>4 pours of 50 g, 2:30–3:00</td></tr>
 <tr><td>2023 · Carlos Medina (Chile)</td><td>Origami Air</td><td>15.5 : 248 g</td><td>91 °C</td><td>not published</td><td>5 pours, 30 seconds apart</td></tr>
 <tr><td>2024 · Martin Wölfl (Austria)</td><td>OREA V4, Sibarist FAST paper</td><td>17 : 270 g</td><td>93 °C</td><td>~490 µm</td><td>4 pours, the first being the bloom</td></tr>
 <tr><td>2025 · George Jinyang Peng (China)</td><td>SOLO, Melodrip, Sibarist FAST</td><td>15 : 210 g</td><td>96 °C, then down to 80 °C</td><td>~800 µm</td><td>3 pours: 30 g, 90 g, 90 g; 1:45</td></tr>
@@ -1902,7 +1902,7 @@ Odd:   _______________
 
 <p><strong>Temperature: 70 to 96 °C.</strong> Hsu opens at 70 °C and then goes to 95. Peng pours at 96 and drops to 80. Jaafar holds 92 throughout. Some argue that low heat at the start preserves aroma; others that high heat at the start extracts more evenly. Both approaches have won.</p>
 
-<p><strong>Grind: 490 to 1000 µm.</strong> More than double. This is the least useful number in the whole table, because it depends on the grinder and the way it was measured — a lesson chapter 10 already covered. It only means something read next to the brewer and the paper: Wölfl grinds at 490 µm but uses fast paper, so his drawdown still stays short.</p>
+<p><strong>Grind: 490 to 1000 µm.</strong> More than double. This is the least useful number in the whole table, because it depends on the grinder and the way it was measured — a lesson chapter 10 already covered. It only means something read next to the brewer and the paper: Wölfl grinds at 490 µm but uses fast paper, so his drawdown still stays short. And Hsu's number is not one grind: she blended 75% of the dose at about 1000 µm with 25% at about 800 µm, ground on two different grinders and mixed together — so “800–1000 µm” in the table is the two ends of a blend, not a tolerance.</p>
 
 <p>Those three columns add up to one conclusion: <strong>there is no championship recipe.</strong> There are six answers to six different coffees, on six different setups. The only thing they share is how the people thought, not the numbers they used.</p>
 
@@ -3345,7 +3345,9 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p><strong>[48]</strong> Mikava Coffee. <em>Recipe cards</em> (2022). mikava.coffee/pages/mikava-recipes</p>
 
-<p>14 g to 200 g; 50 g at 70 °C to open, then 95 °C; four 50 g pours; 800–1000 µm; 2:30–3:00. Two limits: the card names no brewer, and it could not be confirmed that its coffee was the one used in the championship routine.</p>
+<p>14 g to 200 g; 50 g at 70 °C to open, then 95 °C; four 50 g pours; 800–1000 µm; 2:30–3:00. The card names no brewer, and it could not be confirmed that its coffee was the one used in the championship routine.</p>
+
+<p>The brewer is covered by another source: in a post-event interview with C³ Coffee, Hsu names a <strong>black OREA V3</strong> (a flat-bottom plastic brewer that does not absorb heat and drains fast) with <strong>Kalita 185 paper</strong>; Wildkaffee records the same pairing. The same interview explains that “800–1000 µm” is a <strong>blend of two grinds</strong>, not one setting: 75% at about 1000 µm (1Zpresso) mixed with 25% at about 800 µm (Comandante C40 MK4), with water at 75 ppm TDS for the first pour and 90 ppm for the next three. The three brewers set up side by side in the finals video are three cups for three sensory judges, not three experimental variants.</p>
 
 <p><strong>[49]</strong> Kaffelogic. <em>Carlos Medina, World Brewers Cup</em> (2023). kaffelogic.com/blogs/competitors/carlos-medina-wbrc</p>
 
