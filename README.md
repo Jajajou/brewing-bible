@@ -187,6 +187,17 @@ Kiểm định bằng epubcheck 5.1.0: 0 lỗi, 0 cảnh báo (EPUB 3.3).
 
 Nếu muốn bản `.azw3` hoặc `.kepub` riêng, chuyển bằng Calibre từ chính file EPUB này — không cần dựng lại từ đầu.
 
+## Kiểm tự động (CI)
+
+Mỗi push và mỗi pull request chạy [.github/workflows/checks.yml](.github/workflows/checks.yml):
+
+```bash
+node tools/check-i18n.mjs          # cấu trúc bản dịch so với bản gốc
+node tools/check-refs.mjs --offline # số hiệu chết, nguồn mồ côi, số hiệu EN
+```
+
+Hai script này chạy không cần mạng và không cần `npm install`. Lượt đối chiếu DOI với Crossref không nằm trong CI — nó gọi 31 request ra ngoài và là việc chạy tay.
+
 ## Chạy tại máy
 
 Không cần build. Chỉ cần một static server:

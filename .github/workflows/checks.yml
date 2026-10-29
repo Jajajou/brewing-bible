@@ -1,0 +1,38 @@
+name: checks
+
+# Hai thứ dễ hỏng âm thầm nhất của repo này: một hàng bảng bị bỏ sót trong
+# bản dịch, và một số hiệu trích dẫn chết. Cả hai không làm vỡ trang, chỉ làm
+# cuốn sách sai — nên phải có máy kiểm trước khi lên Pages.
+#
+# Chỉ kiểm phần nội bộ: check-refs chạy --offline để job không phụ thuộc
+# Crossref. Lượt đối chiếu DOI vẫn là việc chạy tay (xem README).
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # Không có npm install: repo này zero-dependency, chỉ cần node.
+      - name: Bản dịch khớp cấu trúc bản gốc
+        run: node tools/check-i18n.mjs
+
+      - name: Trích dẫn (không gọi mạng)
+        run: node tools/check-refs.mjs --offline
