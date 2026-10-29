@@ -4,6 +4,7 @@
 #   ./build-pdf.sh                     → the-brewing-bible.pdf
 #   ./build-pdf.sh out/ban-in.pdf      → đường dẫn tuỳ chọn
 #   SHOT_PAGE=6 ./build-pdf.sh         → kèm ảnh trang 6 ra /tmp/page6.png
+#   BOOK_VER=1.0.0 ./build-pdf.sh      → in "1.0.0" lên bìa và chân trang
 #
 # Cần: Google Chrome (hoặc Chromium), Node 18+ (có fetch/WebSocket),
 # và poppler-utils (pdftotext, pdfinfo, pdffonts) cho bước tự kiểm.
@@ -51,7 +52,17 @@ SERVER_PID=""
 cleanup() { [ -n "$SERVER_PID" ] && kill "$SERVER_PID" 2>/dev/null || true; }
 trap cleanup EXIT
 
-URL="http://127.0.0.1:$BOOK_PORT/print.html?pdf=1"
+# Số phiên bản in lên bìa và chân trang: commit đang dựng, kèm ngày dựng.
+# --dirty để bản dựng từ cây làm việc chưa commit không mang số của một
+# bản phát hành mà nó không phải.
+# BOOK_VER=1.0.0 ./build-pdf.sh để in số phát hành thay cho commit — bản dựng
+# từ một tag vẫn in ra "v1.0.0" (git describe lấy tag gần nhất), nhưng khi tag
+# chưa có thì một bản phát hành không nên mang số của commit sẽ bị squash mất.
+VER="${BOOK_VER:-$(git -C "$ROOT" describe --tags --always --dirty 2>/dev/null || echo "không rõ")}"
+VER_ENC="${VER// /%20}"
+BUILD_DATE="$(date +%d.%m.%Y)"
+
+URL="http://127.0.0.1:$BOOK_PORT/print.html?pdf=1&ver=$VER_ENC&date=$BUILD_DATE"
 
 # python3 -m http.server trả lời HTTP/1.0 và đóng kết nối sau mỗi request;
 # với 12 file nạp song song, Chrome thỉnh thoảng nhận ERR_CONNECTION_RESET và
@@ -70,7 +81,7 @@ curl -sf -o /dev/null "http://127.0.0.1:$BOOK_PORT/print.html" || {
 
 case "$OUT" in /*) OUT_ABS="$OUT" ;; *) OUT_ABS="$ROOT/$OUT" ;; esac
 
-echo "→ Dựng PDF từ $URL"
+echo "→ Dựng PDF từ $URL  (bản $VER · $BUILD_DATE)"
 mkdir -p "$(dirname "$OUT_ABS")"
 
 LOG="$(node "$ROOT/tools/print-pdf.mjs" "$URL" "$OUT_ABS" "$CHROME")"
