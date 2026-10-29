@@ -1872,7 +1872,7 @@ Odd:   _______________
 <table>
 <thead><tr><th>Year · champion</th><th>Brewer</th><th>Dose : water</th><th>Temperature</th><th>Grind</th><th>Pour structure</th></tr></thead>
 <tbody>
-<tr><td>2021 · Matt Winton (Switzerland)</td><td>V60</td><td>20 : 300 g</td><td>93 °C</td><td>not published</td><td>5 pours of 60 g, waiting for the bed to drain between them</td></tr>
+<tr><td>2021 · Matt Winton (Switzerland)</td><td>metal cone</td><td>20 : 300 g</td><td>two kettles, the second a few °C cooler</td><td>Kinu 3.6 · C40 ~30 clicks</td><td>50 g bloom for 35 s, then 70 g, then 3 × 60 g — never let the bed dry</td></tr>
 <tr><td>2022 · Sherry Hsu (Taiwan)</td><td>OREA V3 (black) · Kalita 185 paper</td><td>14 : 200 g</td><td>70 °C for the first 50 g, 95 °C after</td><td>800–1000 µm</td><td>4 pours of 50 g, 2:30–3:00</td></tr>
 <tr><td>2023 · Carlos Medina (Chile)</td><td>Origami Air</td><td>15.5 : 248 g</td><td>91 °C</td><td>not published</td><td>5 pours, 30 seconds apart</td></tr>
 <tr><td>2024 · Martin Wölfl (Austria)</td><td>OREA V4, Sibarist FAST paper</td><td>17 : 270 g</td><td>93 °C</td><td>~490 µm</td><td>4 pours, the first being the bloom</td></tr>
@@ -1892,7 +1892,7 @@ Odd:   _______________
 
 <p><strong>Three: flow control through materials.</strong> Sibarist FAST, HIFLUX, a Switch valve, a Melodrip — four different things, one purpose: shorten the drawdown without grinding coarser. Grinding coarser to drain faster costs you extraction; making the paper thinner and faster keeps the extraction and still drains quickly. That is why one sheet of paper can change a cup more than one click on the grinder.</p>
 
-<p><strong>Four: pour by the state of the bed, not by the clock.</strong> Winton waits for the bed to finish draining before the next pour. Medina pours every 30 seconds. Neither applies one fixed timeline to every coffee — they pour according to what the bed is doing.</p>
+<p><strong>Four: pour by the state of the bed, not by the clock.</strong> Winton pours about as fast as he can to get back to the first cup, and says plainly that he never let the bed run dry except during the bloom — a dry bed is the way in to a drying finish. Medina pours every 30 seconds. Neither applies one fixed timeline to every coffee — they pour according to what the bed is doing; one watches that it never drains, the other watches the interval.</p>
 
 <p>There is a physical basis for that habit. A 2025 study used transparent particles and laser imaging to watch a water jet meet a bed of grounds: the shape of the jet decides how the bed is disturbed, and a steady laminar jet breaks the bed into slabs far more than a thin stream falling in drops <span class="tier tier-a">Evidence</span>. So the speed and height of your pour are not decoration — they are a real lever, just a lever that is hard to hold steady by hand.</p>
 
@@ -1902,7 +1902,7 @@ Odd:   _______________
 
 <p><strong>Temperature: 70 to 96 °C.</strong> Hsu opens at 70 °C and then goes to 95. Peng pours at 96 and drops to 80. Jaafar holds 92 throughout. Some argue that low heat at the start preserves aroma; others that high heat at the start extracts more evenly. Both approaches have won.</p>
 
-<p><strong>Grind: 490 to 1000 µm.</strong> More than double. This is the least useful number in the whole table, because it depends on the grinder and the way it was measured — a lesson chapter 10 already covered. It only means something read next to the brewer and the paper: Wölfl grinds at 490 µm but uses fast paper, so his drawdown still stays short. And Hsu's number is not one grind: she blended 75% of the dose at about 1000 µm with 25% at about 800 µm, ground on two different grinders and mixed together — so “800–1000 µm” in the table is the two ends of a blend, not a tolerance.</p>
+<p><strong>Grind: 490 to 1000 µm.</strong> More than double. This is the least useful number in the whole table, because it depends on the grinder and the way it was measured — a lesson chapter 10 already covered. It only means something read next to the brewer and the paper: Wölfl grinds at 490 µm but uses fast paper, so his drawdown still stays short. And Hsu's number is not one grind: she blended 75% of the dose at about 1000 µm with 25% at about 800 µm, ground on two different grinders and mixed together — so “800–1000 µm” in the table is the two ends of a blend, not a tolerance. Wölfl's number is no more settled: two recipe pages give 490 µm and 630 µm for the same cup, nearly 30% apart. That is not measurement error — it is two people reading two different sources. Do not copy microns out of a book; copy the <em>relationship</em> between paper, grind and drawdown.</p>
 
 <p>Those three columns add up to one conclusion: <strong>there is no championship recipe.</strong> There are six answers to six different coffees, on six different setups. The only thing they share is how the people thought, not the numbers they used.</p>
 
@@ -3321,11 +3321,15 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p><strong>[42]</strong> Barista Hustle (2021). <em>No Stir: An Interview with World Brewers Cup Champion Matt Winton.</em> baristahustle.com/lesson/p-1-07-1-no-stir-an-interview-with-world-brewers-cup-champion-matt-winton/</p>
 
-<p>20 g to 300 g, 93 °C, five 60 g pours, and the reason for a coarse grind: so that five pours finish without bitterness. Winton also says four pours did not express the coffee the way five did, and that his team tested six water recipes. This is the fullest record for the 2021 row.</p>
+<p>20 g to 300 g; five pours but <strong>not equal ones</strong>: a 50 g bloom for 35 seconds, then 70 g, then three 60 g pours. Coarse grind (Kinu 3.6, about 30 clicks on a Comandante) so that five pours finish without bitterness; two kettles at two temperatures, the second a few degrees cooler; a metal cone, because Kono, Origami and a glass V60 did not give the same clarity. He states plainly that he <strong>never let the bed run dry except during the bloom</strong> — so “wait for the bed to drain, then pour” is the opposite of the source, corrected 29 October 2026.</p>
+
+<p>Winton also says four pours did not express the coffee the way five did, and that his team tested six water recipes. This is the fullest record for the 2021 row — but note that the circulating summary “20 g / 300 g, 5 × 60 g, 93 °C” is a simplification, not what he describes in the interview.</p>
 
 <p><strong>[43]</strong> European Coffee Trip (2024). <em>Winning pour over recipe — Martin Wölfl.</em> europeancoffeetrip.com/winning-pour-over-recipe-martin-woelfl/</p>
 
 <p>17 g to 270 g, 93 °C, about 490 µm, OREA V4 with Sibarist FAST paper. A caveat: the page blocked the reader when checked, so these figures come from its indexed summary and were not verified against the full page. Chapter 19 states that limitation.</p>
+
+<p><strong>Conflicting source:</strong> Wildkaffee gives <strong>630 µm</strong> for the same cup, with pours of 60/60/50/100 g rather than four equal ones — nearly 30% apart on grind between two recipe pages. Chapter 19 uses it as the example for not copying microns.</p>
 
 <p><strong>[44]</strong> Barista Magazine (2024). <em>10 Minutes with Martin Wölfl, Part One.</em> baristamagazine.com/10-minutes-with-martin-wolfl-part-one/</p>
 
@@ -3445,7 +3449,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 </thead>
 <tbody>
 <tr><td>19</td><td>Six championship recipes 2021–2026 use 14–20 g doses and ratios of 1:13.3–1:16</td><td>—</td><td>[41] [42] [43] [45] [47] [48] [49]</td><td>Citable, but a reconstruction</td></tr>
-<tr><td>19</td><td>Published grinds span 490–1000 µm; click counts do not transfer between grinders</td><td>Plausible</td><td>[43] [45] [47], and [34] [35] in chapter 10</td><td>Partly</td></tr>
+<tr><td>19</td><td>Published grinds span 490–1000 µm; click counts do not transfer between grinders</td><td>Plausible</td><td>[43] [45] [47], and [34] [35] in chapter 10</td><td>Partly — two sources for Wölfl disagree, 490/630 µm</td></tr>
 <tr><td>19</td><td>The shape of the kettle stream decides how the bed is disturbed</td><td>Evidence</td><td>[51]</td><td>Citable</td></tr>
 <tr><td>19</td><td>A competition routine trades repeatability for the clarity of one sip</td><td>Plausible</td><td>[50]</td><td>Partly, a first-hand account</td></tr>
 <tr><td>19</td><td>87–93 °C makes no sensory difference once TDS and extraction are fixed</td><td>Evidence</td><td>[52]</td><td>Citable</td></tr>
@@ -3465,11 +3469,11 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
     "ch-nguon-khoang-trong": {
       title: "Where the sources disagree, and what is missing",
-      lede: "Four places where the book says more than the documents allow, seven claims with no source, and a note on image rights.",
+      lede: "Five places where the book says more than the documents allow, seven claims with no source, and a note on image rights.",
       minutes: 8,
       tags: ["appendix", "corrections"],
       body: `
-<p>Four places below are where the book says more than the documents allow. All four are corrected in this edition; they remain on record here so the reader knows where the error sat.</p>
+<p>Five places below are where the book says more than the documents allow. All five are corrected in this edition; they remain on record here so the reader knows where the error sat.</p>
 
 <h3>One: the cupping scale</h3>
 
@@ -3496,6 +3500,12 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <p>No study compares these levers directly in hot pour-over while measuring TDS, extraction yield, drawdown time and sensory character together. What has been measured is narrower: water has direct sensory evidence; grind size is the strongest hydraulic lever; technique is the only lever acting mainly on uniformity, and grind interacts with dripper geometry rather than standing apart from it.</p>
 
 <p>So the book changed in two places. One: chapter 10 was added, a chapter of its own on grind size, so the lever ranked second has somewhere real to stand — seven new sources, [34] to [40]. Two: the ranking sentence became a sentence about function. Technique is not weaker than grind size; it fixes a different thing. The rest of the order is now called by its right name: a diagnostic order, not a ranking.</p>
+
+<h3>Five: Winton's pour structure</h3>
+
+<p>The chapter 19 table used to give the 2021 row as “5 × 60 g, waiting for the bed to drain”, and the “four things shared” section said Winton waited for the bed to dry before the next pour. His own interview says the opposite: a 50 g bloom for 35 seconds, then 70 g, then three 60 g pours — five pours, but not equal ones — and he poured about as fast as he could so that <em>the bed never dried out</em>, except during the bloom. The brewer was not a plain “V60” either: he tried Kono, Origami and a glass V60, and chose a metal cone.</p>
+
+<p>The error came not from careless reading but from repeating a summary circulating online: that version has the right 300 g total and the right number of pours, so it reads convincingly. It is wrong in two places — it divides the pours equally, and it reverses the direction of watching the bed. The general lesson: when two sources both say “five pours”, they can still be saying two different things.</p>
 
 <h3>Seven claims with no source</h3>
 

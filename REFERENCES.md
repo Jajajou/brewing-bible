@@ -312,9 +312,16 @@ chương 19; số gam thì phải lấy từ các mục dưới.
 **[42]** Barista Hustle (2021). *No Stir: An Interview with World Brewers Cup Champion
 Matt Winton.* [Link](https://www.baristahustle.com/lesson/p-1-07-1-no-stir-an-interview-with-world-brewers-cup-champion-matt-winton/)
 
-20 g / 300 g, 93 °C, năm lần rót 60 g. Winton nói rõ vì sao chọn cỡ xay thô (để rót được
-năm lần mà không đắng), rằng bốn lần rót không cho cùng biểu hiện với năm lần, và đội của
-ông đã thử **sáu công thức nước**. Đây là bản ghi chi tiết nhất cho hàng 2021.
+20 g / 300 g. Năm lần rót nhưng **không đều**: 50 g bloom 35 giây, rồi 70 g, rồi ba lần
+60 g. Cỡ xay thô (Kinu 3.6, khoảng 30 click Comandante) để rót được năm lần mà không đắng.
+**Hai ấm ở hai nhiệt độ**, ấm phụ thấp hơn vài độ. Dụng cụ là **nón kim loại** — ông thử
+Kono, Origami và V60 thuỷ tinh, nhưng kim loại cho độ rõ nhất. Ông nói rõ **không để bã khô
+lần nào trừ lúc bloom**; câu “chờ bã rút rồi mới rót” là **ngược với nguồn** và đã sửa
+29/10/2026. Bốn lần rót không cho cùng biểu hiện với năm lần; đội của ông đã thử **sáu công
+thức nước**.
+
+Lưu ý về bản lưu hành: “20 g / 300 g, 93 °C, 5 × 60 g” là bản đơn giản hoá trên mạng, không
+phải điều Winton kể trong bài phỏng vấn. Đừng dẫn lại bản đó như lời ông.
 
 **[43]** European Coffee Trip (2024). *Winning pour over recipe — Martin Wölfl.*
 [Link](https://europeancoffeetrip.com/winning-pour-over-recipe-martin-woelfl/)
@@ -322,6 +329,10 @@ năm lần mà không đắng), rằng bốn lần rót không cho cùng biểu 
 17 g / 270 g, 93 °C, khoảng 490 µm, OREA V4 + giấy Sibarist FAST. **Giới hạn:** trang chặn
 trình đọc khi tra, nên số liệu lấy từ bản tóm tắt được lập chỉ mục, chưa đối chiếu toàn văn.
 Chương 19 ghi đúng mức độ đó.
+
+**Nguồn lệch:** Wildkaffee ghi **630 µm** cho cùng ly đó và chia rót 60/60/50/100 g, không
+phải bốn lần đều. Chênh gần 30% về cỡ xay giữa hai trang công thức. Đây là lý do chương 19
+nói đừng chép micron từ sách — hãy chép quan hệ giữa giấy, cỡ xay và thời gian rút.
 
 **[44]** Barista Magazine (2024). *10 Minutes with Martin Wölfl, Part One.*
 [Link](https://www.baristamagazine.com/10-minutes-with-martin-wolfl-part-one/)

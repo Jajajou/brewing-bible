@@ -190,11 +190,15 @@
 
 <p><strong>[42]</strong> Barista Hustle (2021). <em>No Stir: An Interview with World Brewers Cup Champion Matt Winton.</em> baristahustle.com/lesson/p-1-07-1-no-stir-an-interview-with-world-brewers-cup-champion-matt-winton/</p>
 
-<p>20 g trên 300 g, 93 °C, năm lần rót 60 g, và lý do chọn cỡ xay thô: để rót được năm lần mà không đắng. Winton cũng nói bốn lần rót không cho cùng biểu hiện với năm lần, và đội của ông đã thử sáu công thức nước. Đây là bản ghi chi tiết nhất cho hàng 2021.</p>
+<p>20 g trên 300 g; năm lần rót nhưng <strong>không đều</strong>: 50 g bloom trong 35 giây, rồi 70 g, rồi ba lần 60 g. Cỡ xay thô (Kinu 3.6, khoảng 30 click trên Comandante) vì “để rót được năm lần mà không đắng”. Hai ấm ở hai nhiệt độ, ấm phụ thấp hơn vài độ. Ông nói rõ <strong>không để bã khô lần nào trừ lúc bloom</strong>, và rót gần như nhanh hết mức — nên câu “chờ bã rút rồi mới rót” là ngược với nguồn. Dụng cụ là nón kim loại: ông thử Kono, Origami và V60 thuỷ tinh, nhưng phần kim loại cho độ rõ mà ba cái kia không cho.</p>
+
+<p>Winton cũng nói bốn lần rót không cho cùng biểu hiện với năm lần, và đội của ông đã thử sáu công thức nước. Đây là bản ghi chi tiết nhất cho hàng 2021 — nhưng lưu ý: bản tóm tắt “20 g / 300 g, 5 × 60 g, 93 °C” lưu hành trên mạng là bản đơn giản hoá, không phải điều ông kể trong bài phỏng vấn.</p>
 
 <p><strong>[43]</strong> European Coffee Trip (2024). <em>Winning pour over recipe — Martin Wölfl.</em> europeancoffeetrip.com/winning-pour-over-recipe-martin-woelfl/</p>
 
 <p>17 g trên 270 g, 93 °C, khoảng 490 µm, OREA V4 với giấy Sibarist FAST. Lưu ý: trang này chặn trình đọc khi tra, nên số liệu lấy từ bản tóm tắt được lập chỉ mục, chưa đối chiếu toàn văn. Chương 19 ghi đúng mức độ đó.</p>
+
+<p><strong>Nguồn lệch:</strong> Wildkaffee ghi <strong>630 µm</strong> cho cùng ly đó, và chia rót 60/60/50/100 g thay vì bốn lần đều — chênh gần 30% về cỡ xay giữa hai trang công thức. Chương 19 dùng con số này làm ví dụ cho việc đừng chép micron.</p>
 
 <p><strong>[44]</strong> Barista Magazine (2024). <em>10 Minutes with Martin Wölfl, Part One.</em> baristamagazine.com/10-minutes-with-martin-wolfl-part-one/</p>
 
@@ -315,7 +319,7 @@
 </thead>
 <tbody>
 <tr><td>19</td><td>Sáu công thức vô địch 2021–2026 dùng liều 14–20 g, tỉ lệ 1:13,3–1:16</td><td>—</td><td>[41] [42] [43] [45] [47] [48] [49]</td><td>Dẫn được, nhưng là bản dựng lại</td></tr>
-<tr><td>19</td><td>Cỡ xay công bố trải 490–1000 µm; số click trên máy không chuyển được</td><td>Hợp lý</td><td>[43] [45] [47], và [34] [35] ở chương 10</td><td>Một phần</td></tr>
+<tr><td>19</td><td>Cỡ xay công bố trải 490–1000 µm; số click trên máy không chuyển được</td><td>Hợp lý</td><td>[43] [45] [47], và [34] [35] ở chương 10</td><td>Một phần — hai nguồn cho Wölfl lệch 490/630 µm</td></tr>
 <tr><td>19</td><td>Tia nước quyết định cách bã bị xáo trộn</td><td>Bằng chứng</td><td>[51]</td><td>Dẫn được</td></tr>
 <tr><td>19</td><td>Routine thi đấu đánh đổi độ lặp lại để lấy độ rõ của một ngụm</td><td>Hợp lý</td><td>[50]</td><td>Một phần, người trong cuộc kể</td></tr>
 <tr><td>19</td><td>Nhiệt 87–93 °C không đổi cảm quan khi TDS và mức chiết đã cố định</td><td>Bằng chứng</td><td>[52]</td><td>Dẫn được</td></tr>
@@ -336,11 +340,11 @@
       {
         id: "ch-nguon-khoang-trong",
         title: "Nguồn không khớp, và chỗ trống",
-        lede: "Bốn chỗ sách nói chắc hơn tài liệu cho phép, bảy khẳng định không có nguồn, và một ghi chú về bản quyền hình ảnh.",
+        lede: "Năm chỗ sách nói chắc hơn tài liệu cho phép, bảy khẳng định không có nguồn, và một ghi chú về bản quyền hình ảnh.",
         minutes: 8,
         tags: ["phụ lục", "sửa lỗi"],
         body: `
-<p>Bốn chỗ dưới đây là chỗ sách nói chắc hơn tài liệu cho phép. Cả bốn đã được chỉnh trong bản này; chúng còn ghi ở đây để người đọc biết lỗi nằm ở đâu.</p>
+<p>Năm chỗ dưới đây là chỗ sách nói chắc hơn tài liệu cho phép. Cả năm đã được chỉnh trong bản này; chúng còn ghi ở đây để người đọc biết lỗi nằm ở đâu.</p>
 
 <h3>Một: thang cupping</h3>
 
@@ -367,6 +371,12 @@
 <p>Không có nghiên cứu nào so trực tiếp các đòn bẩy này trong pour-over nóng, đo đồng thời TDS, mức chiết, thời gian rút và cảm quan. Cái đo được thì hẹp hơn: nước có bằng chứng cảm quan trực tiếp; cỡ xay là đòn bẩy thuỷ lực mạnh nhất; kỹ thuật là đòn bẩy duy nhất tác động chủ yếu lên độ đều, và cỡ xay tương tác với hình học phễu thay vì đứng riêng.</p>
 
 <p>Nên sách sửa hai chỗ. Một: thêm chương 10, chương riêng về cỡ xay, để đòn bẩy được xếp thứ hai có chỗ đứng thật — bảy nguồn mới, từ [34] đến [40]. Hai: đổi câu khẳng định thứ hạng thành câu mô tả chức năng. Kỹ thuật không yếu hơn cỡ xay; nó sửa một thứ khác. Phần còn lại của thứ tự được gọi đúng tên: thứ tự chẩn đoán, không phải bảng xếp hạng.</p>
+
+<h3>Năm: cấu trúc rót của Winton</h3>
+
+<p>Bảng chương 19 từng ghi hàng 2021 là “5 × 60 g, chờ bã rút”, và mục “bốn thứ thật sự chung” nói Winton chờ bã ráo rồi mới rót lần tiếp. Bài phỏng vấn của chính anh ấy nói ngược: 50 g bloom trong 35 giây, rồi 70 g, rồi ba lần 60 g — năm lần nhưng không đều — và anh ấy rót gần như nhanh hết mức để <em>bã không bao giờ khô</em>, trừ lúc bloom. Dụng cụ cũng không phải “V60” chung chung: anh ấy thử Kono, Origami và V60 thuỷ tinh, rồi chọn nón kim loại.</p>
+
+<p>Lỗi này không đến từ việc đọc ấu mà từ việc dẫn lại một bản tóm tắt lưu hành trên mạng: bản đó đúng tổng 300 g và đúng số năm lần rót, nên nghe rất giống. Nó chỉ sai hai chỗ — chia đều năm phần, và đảo chiều việc canh bã. Bài học chung: khi hai nguồn cùng nói “năm lần rót”, chúng vẫn có thể nói hai chuyện khác nhau.</p>
 
 <h3>Bảy khẳng định không có nguồn</h3>
 

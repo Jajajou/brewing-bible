@@ -426,7 +426,7 @@ window.BOOK_PARTS.push({
 <table>
 <thead><tr><th>Năm · vô địch</th><th>Dụng cụ</th><th>Liều : nước</th><th>Nhiệt</th><th>Cỡ xay</th><th>Cấu trúc rót</th></tr></thead>
 <tbody>
-<tr><td>2021 · Matt Winton (Thuỵ Sĩ)</td><td>V60</td><td>20&nbsp;:&nbsp;300</td><td>93&nbsp;°C</td><td>không nêu</td><td>5&nbsp;×&nbsp;60 g, chờ bã rút</td></tr>
+<tr><td>2021 · Matt Winton (Thuỵ Sĩ)</td><td>nón kim loại</td><td>20&nbsp;:&nbsp;300</td><td>hai ấm, ấm phụ thấp hơn vài °C</td><td>Kinu 3.6 · C40 ~30 click</td><td>50 g bloom 35&nbsp;s, rồi 70 g, rồi 3&nbsp;×&nbsp;60 g — không để bã khô</td></tr>
 <tr><td>2022 · Sherry Hsu (Đài Loan)</td><td>OREA V3 (đen) · giấy Kalita 185</td><td>14&nbsp;:&nbsp;200</td><td>70&nbsp;→&nbsp;95&nbsp;°C</td><td>800–1000 µm</td><td>4&nbsp;×&nbsp;50 g, 2:30–3:00</td></tr>
 <tr><td>2023 · Carlos Medina (Chile)</td><td>Origami Air</td><td>15,5&nbsp;:&nbsp;248</td><td>91&nbsp;°C</td><td>không nêu</td><td>5 lần, cách 30 giây</td></tr>
 <tr><td>2024 · Martin Wölfl (Áo)</td><td>OREA V4 · Sibarist FAST</td><td>17&nbsp;:&nbsp;270</td><td>93&nbsp;°C</td><td>~490 µm</td><td>4 lần, đầu là bloom</td></tr>
@@ -446,7 +446,7 @@ window.BOOK_PARTS.push({
 
 <p><strong>Ba: kiểm soát dòng chảy bằng vật liệu.</strong> Sibarist FAST, HIFLUX, van Switch, Melodrip — bốn thứ khác nhau, một mục đích: giảm thời gian rút mà không phải xay thô. Xay thô để bã thoát nhanh thì mất mức chiết; làm giấy mỏng và nhanh hơn thì giữ được mức chiết mà vẫn thoát nhanh. Đây là lý do một tờ giấy có thể đổi ly cà nhiều hơn một nấc xay.</p>
 
-<p><strong>Bốn: rót theo trạng thái bã, không theo đồng hồ.</strong> Winton chờ bã rút hết rồi mới rót lần tiếp. Medina cách 30 giây một lần. Cả hai đều không áp một mốc thời gian cố định cho mọi con cà — họ rót theo cái bã đang làm.</p>
+<p><strong>Bốn: rót theo trạng thái bã, không theo đồng hồ.</strong> Winton rót gần như nhanh hết mức cho kịp quay lại tách đầu, và nói rõ anh không để bã khô lần nào, trừ lúc bloom — bã khô là đường vào vị khô miệng. Medina rót cách 30 giây một lần. Cả hai đều không áp một mốc thời gian cố định cho mọi con cà — họ rót theo cái bã đang làm, chỉ là một người canh cho bã đừng ráo, người kia canh nhịp đều.</p>
 
 <p>Cách làm đó có cơ sở vật lý. Một nghiên cứu năm 2025 dùng hạt trong suốt và chụp ảnh bằng laser để xem tia nước tương tác với bã thế nào: kiểu tia quyết định cách bã bị xáo trộn, và một tia tầng ổn định làm bã lở thành từng mảng mạnh hơn hẳn một tia rơi thành giọt <span class="tier tier-a">Bằng chứng</span>. Nghĩa là tốc độ và độ cao của vòi không phải chi tiết trang trí — chúng là một đòn bẩy thật, chỉ là đòn bẩy khó giữ ổn định bằng tay.</p>
 
@@ -456,7 +456,7 @@ window.BOOK_PARTS.push({
 
 <p><strong>Nhiệt: 70 đến 96 °C.</strong> Hsu mở bằng 70 °C rồi lên 95. Peng rót 96 rồi hạ 80. Jaafar giữ 92 đều. Có người cho rằng nhiệt thấp ở đầu giữ được hương; người khác cho rằng nhiệt cao ở đầu chiết đều hơn. Cả hai cách đều đã thắng.</p>
 
-<p><strong>Cỡ xay: 490 đến 1000 µm.</strong> Chênh hơn gấp đôi. Đây là con số ít giá trị nhất trong cả bảng, vì nó phụ thuộc máy xay và cách đo — bài học đã có ở chương 10. Nó chỉ có nghĩa khi đọc cùng dụng cụ và cùng giấy: Wölfl xay 490 µm nhưng dùng giấy nhanh, nên thời gian rút vẫn ngắn. Và con số của Hsu không phải một cỡ xay: cô trộn 75% bột ở khoảng 1000 µm với 25% ở khoảng 800 µm, xay bằng hai máy khác nhau rồi trộn lại — nên “800–1000 µm” trong bảng là hai đầu của một hỗn hợp, không phải một dung sai.</p>
+<p><strong>Cỡ xay: 490 đến 1000 µm.</strong> Chênh hơn gấp đôi. Đây là con số ít giá trị nhất trong cả bảng, vì nó phụ thuộc máy xay và cách đo — bài học đã có ở chương 10. Nó chỉ có nghĩa khi đọc cùng dụng cụ và cùng giấy: Wölfl xay 490 µm nhưng dùng giấy nhanh, nên thời gian rút vẫn ngắn. Và con số của Hsu không phải một cỡ xay: cô trộn 75% bột ở khoảng 1000 µm với 25% ở khoảng 800 µm, xay bằng hai máy khác nhau rồi trộn lại — nên “800–1000 µm” trong bảng là hai đầu của một hỗn hợp, không phải một dung sai. Con số của Wölfl cũng không chắc hơn: hai trang công thức ghi cùng một ly là 490 µm và 630 µm, chênh gần 30%. Đó không phải sai số đo — đó là hai người đọc hai nguồn khác nhau. Đừng chép micron từ sách; hãy chép <em>quan hệ</em> giữa giấy, cỡ xay và thời gian rút.</p>
 
 <p>Ba cột đó cộng lại thành một kết luận: <strong>không có công thức vô địch.</strong> Có sáu câu trả lời cho sáu con cà khác nhau, trên sáu bộ thiết bị khác nhau. Thứ duy nhất chung là cách họ nghĩ, không phải con số họ dùng.</p>
 
