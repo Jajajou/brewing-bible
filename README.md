@@ -210,4 +210,9 @@ Rồi mở http://127.0.0.1:8137/
 
 ## Giấy phép
 
-Nội dung và mã nguồn: dùng tự do cho mục đích cá nhân và phi thương mại.
+Hai phần, hai giấy phép — chi tiết và ranh giới ở [LICENSE](LICENSE):
+
+- **Nội dung** (chương, hình, PDF, EPUB): [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Được đọc, chép, dịch, tặng — miễn là ghi nguồn, không bán, và bản phái sinh mang cùng giấy phép.
+- **Mã nguồn** (`book.js`, `search.js`, `tools/`, CSS): MIT. Dùng thoải mái, kể cả trong dự án thương mại.
+
+Muốn dịch hoặc in tặng: được, không cần xin phép, chỉ cần ghi nguồn và giữ nguyên điều kiện phi thương mại.

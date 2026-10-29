@@ -1,0 +1,91 @@
+The Brewing Bible — giấy phép
+=============================
+
+Cuốn sách này có hai phần, dùng hai giấy phép khác nhau. Ranh giới nằm ở
+chỗ nào là nội dung, chỗ nào là máy móc chạy nội dung đó.
+
+1. NỘI DUNG — CC BY-NC-SA 4.0
+2. MÃ NGUỒN — MIT
+3. Phần nào thuộc phần nào
+
+
+1. NỘI DUNG — Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+=======================================================================
+
+Áp dụng cho: mọi chương và phụ lục trong content/, toàn bộ chữ và hình
+minh hoạ trong sách, file the-brewing-bible.pdf và the-brewing-bible.epub,
+và nội dung văn bản của README.md, TRANSLATION.md, REFERENCES.md,
+CHANGELOG.md.
+
+Bạn được phép:
+
+  Chia sẻ — sao chép và phân phối lại nội dung dưới bất kỳ phương tiện nào.
+  Phỏng theo — sửa, dịch, viết lại, làm bản phái sinh.
+
+Với ba điều kiện:
+
+  Ghi nguồn (BY) — nêu tên sách, tên tác giả, và đường dẫn tới bản gốc
+  https://jajajou.github.io/brewing-bible/. Nếu đã sửa, phải nói rõ là đã sửa.
+
+  Phi thương mại (NC) — không dùng cho mục đích kiếm tiền: không bán, không
+  đặt sau tường trả tiền, không dùng làm quà tặng kèm hàng bán.
+
+  Chia sẻ tương tự (SA) — bản bạn làm ra từ nội dung này phải mang cùng
+  giấy phép CC BY-NC-SA 4.0. Không được dùng giấy phép đóng hơn.
+
+Không có bảo đảm nào. Nội dung được cung cấp nguyên trạng, không kèm bảo
+đảm về tính đúng đắn, kể cả khi sách dẫn nguồn.
+
+Toàn văn giấy phép (bản gốc tiếng Anh, là bản có hiệu lực):
+  https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+Bản tóm tắt dễ đọc:
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+
+2. MÃ NGUỒN — MIT
+=================
+
+Áp dụng cho: book.js, search.js, print.js, tpl.js, figures.js, i18n.js,
+toàn bộ CSS, mọi thứ trong tools/, build-pdf.sh, và .github/workflows/.
+
+Copyright (c) 2026 The Brewing Bible contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+3. Phần nào thuộc phần nào
+==========================
+
+Một file có thể chứa cả hai. Cách đọc: nếu là chữ để đọc, hoặc hình để nhìn
+— nội dung, CC BY-NC-SA 4.0. Nếu là thứ khiến trang chạy được — mã nguồn, MIT.
+
+  content/part-*.js        nội dung (chuỗi HTML trong đó là nội dung)
+  content/en/text.js       nội dung
+  content/ja/text.js       nội dung
+  figures.js               MÃ kiểu dáng SVG và thanh trượt: MIT
+                           hình đã vẽ ra trong sách: CC BY-NC-SA 4.0
+  i18n.js                  chuỗi giao diện: MIT
+  README.md, TRANSLATION.md, REFERENCES.md, CHANGELOG.md
+                           chữ: CC BY-NC-SA 4.0, trích mã trong đó: MIT
+  the-brewing-bible.*      CC BY-NC-SA 4.0
+  vendor/paged.polyfill.js  của Paged.js, giấy phép riêng của nó (MIT)
+
+Điều này không thay đổi quyền của bất cứ ai đã nhận bản trước đó — nó chỉ nói
+rõ điều kiện mà trước đây chỉ được ghi bằng một câu trong README.
