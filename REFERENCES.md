@@ -590,3 +590,44 @@ cho tải và in miễn phí **cho mục đích cá nhân**, không kèm giấy 
   trang DOI của [5]. Chi tiết trong các mục đó lấy từ tóm tắt và từ bài tổng quan của SCA.
 - Ngày đăng video của [28] và [29] chưa xác minh — đừng in năm nếu chưa kiểm lại.
 - Bản tiếng Anh của tài liệu này chưa làm.
+
+---
+
+## Lượt kiểm 29/10/2026
+
+Hai lớp kiểm, chạy khác nhau về bản chất.
+
+**Lớp máy** — gọi API Crossref cho từng DOI và so tựa, năm, tạp chí, tập, trang với những gì
+sách in. **31/31 DOI** giải được và khớp hoàn toàn. Lớp này chỉ kiểm *thư mục*, không kiểm
+việc bài báo có nói đúng câu sách nói.
+
+**Lớp đọc nguồn** — lấy 20 khẳng định có nguồn ở chương 1–18, mở tóm tắt hoặc toàn văn của
+bài được dẫn, và chấm: SUPPORTED / PARTIAL / CONTRADICTED / CANNOT ACCESS. Kết quả: 14
+SUPPORTED, 5 PARTIAL, 0 CONTRADICTED, 1 CANNOT ACCESS ([17], Wiley chặn 403).
+
+Năm chỗ PARTIAL ảnh hưởng tới câu chữ, đã sửa cả VI/EN và ghi vào A4 mục sáu:
+
+1. **pH nước (chương 4)** — dải 6,5–7,5 không có trong Sổ tay SCA 2018. Đúng: 6–8, mục tiêu
+   7,0, và lấy từ bảng tiêu chuẩn chứ không phải sổ tay. Mốc 75 ppm alkalinity chỉ áp dụng
+   khi độ cứng 150–175 ppm.
+2. **[3] Hendon 2014** — là DFT tính năng lượng liên kết, không có thí nghiệm chiết, không đo
+   cảm quan. Câu cũ gọi là "bài hoá học về hiệu suất chiết".
+3. **[8] Schmieder 2023** — bài gộp trigonelline với TDS thành *một* nhóm nhanh nhất; sách cũ
+   tách thành bốn bậc.
+4. **[34] Mo 2023** — kích thước hạt đo bằng nhiễu xạ laser, không phải ảnh cắt lớp vi mô;
+   profile độ rỗng hình thành sau khi chiết. (Chương 10 vốn đã đúng, chỉ chú thích sai.)
+5. **[15] Bressani 2021** — 101 người, hai buổi nếm; không phải chia đôi người thử.
+
+Thêm hai chỗ về *mức bằng chứng*, không phải về số liệu:
+
+- **[24] Gantner 2024** là **5 °C, ngăn mát, một tháng** — không phải trữ đông. Khẳng định
+  "trữ đông giữ chất lượng dài hạn" ở chương 3 đã hạ từ Bằng chứng xuống Hợp lý, và chương
+  nói thẳng là không có thử nghiệm trữ đông nào trong thư mục.
+- **[16] Sörqvist 2013** — tác động phụ thuộc thái độ người nếm, không đều cho mọi người.
+  Hàng A3 chương 1 hạ xuống "Một phần".
+
+Không sửa gì ở [17] vì không đọc được toàn văn; nếu sau này mở được, kiểm lại câu "thông tin
+xuất xứ đổi cảm quan nhưng không đổi mức ưa thích".
+
+**Chưa làm:** chưa đọc toàn văn 29 bài còn lại để đối chiếu từng câu; lớp đọc nguồn mới phủ
+20 khẳng định trong khoảng 40 khẳng định có nguồn.

@@ -52,9 +52,11 @@
 
 <p><strong>[3]</strong> Hendon, C. H., Colonna-Dashwood, L., &amp; Colonna-Dashwood, M. (2014). <em>The Role of Dissolved Cations in Coffee Extraction.</em> Journal of Agricultural and Food Chemistry, 62(21), 4947–4950. doi:10.1021/jf501687c</p>
 
-<p>Bài hoá học về cation và hiệu suất chiết, không đo cảm quan. Chương 4 từng dẫn bài này cho một phát hiện cảm quan; nguồn đã đổi sang [1] — xem A4.</p>
+<p>Bài hoá học <em>tính toán</em>: dùng lý thuyết phiếm hàm mật độ để tính năng lượng liên kết của cation với năm acid và một số hợp chất hương. Không có thí nghiệm chiết nào, và không đo cảm quan. Chương 4 từng dẫn bài này cho một phát hiện cảm quan; nguồn đã đổi sang [1] — xem A4.</p>
 
-<p><strong>[4]</strong> Specialty Coffee Association (2018). <em>The 2018 SCA Water Quality Handbook.</em> Tài liệu trả phí, không có bản PDF công khai. Đây là nguồn của vùng 40–75 ppm alkalinity, 50–175 ppm độ cứng, pH 6,5–7,5.</p>
+<p><strong>[4]</strong> Specialty Coffee Association (2018). <em>The 2018 SCA Water Quality Handbook.</em> Tài liệu trả phí, không có bản PDF công khai.</p>
+
+<p>Đây là nguồn của 40–75 ppm alkalinity và 51–175 ppm độ cứng — với điều kiện mốc 75 chỉ áp dụng khi độ cứng nằm trong 150–175 ppm. Sổ tay <strong>không</strong> đặt một dải pH; dải 6–8 với mục tiêu 7,0 lấy từ bảng tiêu chuẩn cà phê SCA 2018. Bản trước ghi “pH 6,5–7,5” và gán cho sổ tay — không đúng, đã sửa.</p>
 
 <p><strong>[5]</strong> Lockhart, E. E. (1957). <em>The Soluble Solids in Beverage Coffee as an Index to Cup Quality.</em> Coffee Brewing Institute, Publication No. 27. Nền tảng của biểu đồ kiểm soát pha. Lưu ý: tài liệu 1957 không mang tên "Brewing Control Chart" — cái tên đó là sản phẩm sau này.</p>
 
@@ -70,7 +72,7 @@
 
 <p><strong>[8]</strong> Schmieder, B. K. L., Pannusch, V. B., Vannieuwenhuyse, L., Briesen, H., &amp; Minceva, M. (2023). <em>Influence of Flow Rate, Particle Size, and Temperature on Espresso Extraction Kinetics.</em> Foods, 12(15), 2871. doi:10.3390/foods12152871</p>
 
-<p>Thu mười phần liên tiếp của một mẻ espresso. Trigonelline giảm nhanh nhất, rồi TDS, rồi 5-CQA, caffeine giảm chậm nhất. Đây là nguồn của bảng trong chương 8.</p>
+<p>Thu mười phần liên tiếp của một mẻ espresso, rồi phân tích các phần 1, 2, 3, 5, 7 và 10. Bài gộp <strong>trigonelline và TDS vào cùng một nhóm giảm nhanh nhất</strong>, rồi 5-CQA, rồi caffeine chậm nhất — không phân định trigonelline nhanh hơn TDS. Bản trước tách thành bốn bậc, đã sửa. Đây là nguồn của bảng trong chương 8.</p>
 
 <p><strong>[9]</strong> Guinard, J.-X., và cộng sự (2023). <em>A new Coffee Brewing Control Chart relating sensory properties and consumer liking to brew strength, extraction yield, and brew ratio.</em> Journal of Food Science, 88(5), 2168–2177. doi:10.1111/1750-3841.16531</p>
 
@@ -94,9 +96,11 @@
 
 <p><strong>[15]</strong> Bressani, A. P. P., Martinez, S. J., Batista, N. N., Simão, J. B. P., &amp; Schwan, R. F. (2021). <em>Into the minds of coffee consumers: perception, preference, and impact of information in the sensory analysis of specialty coffee.</em> Food Science and Technology, 41(Suppl. 2), 667–675. doi:10.1590/fst.30720</p>
 
-<p>Cùng một mẫu, nửa có thông tin "specialty, 85 điểm, lên men tự nhiên". Có thông tin thì mô tả nghiêng về citrus và trái cây; điểm thích tổng thể không đổi. Đây là nguồn tốt nhất cho câu "thông tin đổi cách bạn mô tả, không đổi mức bạn thích".</p>
+<p>Cùng một mẫu, <strong>101 người, hai buổi nếm</strong>: một buổi có thông tin, một buổi không — không phải chia đôi người thử. Có thông tin thì mô tả nghiêng về citrus và trái cây; điểm hương và ấn tượng tổng không khác biệt có ý nghĩa. Đây là nguồn tốt nhất cho câu “thông tin đổi cách bạn mô tả, không đổi mức bạn thích”.</p>
 
 <p><strong>[16]</strong> Sörqvist, P., Hedblom, D., Holmgren, M., Haga, A., Langeborg, L., Nöstl, A., &amp; Kågström, J. (2013). <em>Who Needs Cream and Sugar When There Is Eco-Labeling? Taste and Willingness to Pay for "Eco-Friendly" Coffee.</em> PLOS ONE, 8(12), e80719. doi:10.1371/journal.pone.0080719</p>
+
+<p>Hiệu ứng phụ thuộc người nếm: nhãn sinh thái làm ly cà ngon hơn và khiến người ta sẵn lòng trả nhiều hơn ở nhóm quan tâm đến tiêu dùng bền vững; ở thí nghiệm đầu, tác động lên điểm vị không có ý nghĩa chung. Đọc là <em>tương tác</em>, không phải tác động đều cho mọi người.</p>
 
 <p><strong>[17]</strong> Artêncio, M. M., và cộng sự (2023). <em>The impact of coffee origin information on sensory and hedonic judgment of fine Amazonian robusta coffee.</em> Journal of Sensory Studies, 38(3), e12827. doi:10.1111/joss.12827</p>
 
@@ -120,7 +124,7 @@
 
 <p><strong>[24]</strong> Gantner, M., và cộng sự (2024). <em>Effect of Temperature and Storage on Coffee’s Volatile Compound Profile and Sensory Characteristics.</em> Foods, 13(24), 3995. doi:10.3390/foods13243995</p>
 
-<p>Bảo quản 5 °C so với 20 °C trong một tháng: nhiệt độ thấp làm chậm thay đổi. Đây là nguồn gần nhất cho khẳng định "trữ đông giữ chất lượng" ở chương 3 — lưu ý, gần nhất, không phải trùng khớp.</p>
+<p>Bảo quản 5 °C so với 20 °C trong một tháng: nhiệt độ thấp làm chậm thay đổi. <strong>Đây là ngăn mát, không phải ngăn đông</strong>, và thời gian là một tháng sau khi mở bao — nên đây không phải bằng chứng cho trữ đông dài hạn. Chương 3 nay đã hạ nhãn khẳng định đó xuống Hợp lý và nói rõ khoảng trống này.</p>
 
 <p><strong>[25]</strong> Smrke, S., và cộng sự (2022). <em>Effects of different coffee storage methods on coffee freshness after opening of packages.</em> Food Packaging and Shelf Life, 33, 100893. doi:10.1016/j.fpsl.2022.100893</p>
 
@@ -156,7 +160,7 @@
 
 <p><strong>[34]</strong> Mo, C., Johnston, R., Navarini, L., Suggi Liverani, F., &amp; Ellero, M. (2023). <em>Exploring the link between coffee matrix microstructure and flow properties using combined X-ray microtomography and smoothed particle hydrodynamics simulations.</em> Scientific Reports, 13, 16374. doi:10.1038/s41598-023-42380-y</p>
 
-<p>Chụp cắt lớp vi mô bã espresso và mô phỏng dòng chảy. Phân bố kích thước hạt có một đỉnh fines khoảng 30–40 µm, quy về các mảnh vách tế bào; đỉnh hạt thô do máy xay quyết định. Độ rỗng của bã giảm dần theo hướng từ đáy lên miệng.</p>
+<p>Chụp cắt lớp vi mô bã espresso và mô phỏng dòng chảy bằng SPH. <strong>Kích thước hạt thì đo bằng nhiễu xạ laser, không phải bằng ảnh cắt lớp</strong>: đỉnh fines quanh 30–40 µm (phân bố đo được trải khoảng 25–50 µm), quy về mảnh vách tế bào; đỉnh hạt thô do máy xay quyết định. Độ rỗng giảm dần từ đáy lên miệng — và đây là profile hình thành <em>sau khi chiết</em>. Bản trước gán phép đo kích thước cho ảnh cắt lớp, đã sửa.</p>
 
 <p><strong>[35]</strong> Smrke, S., Eiermann, A., &amp; Yeretzian, C. (2024). <em>The role of fines in espresso extraction dynamics.</em> Scientific Reports, 14, 5612. doi:10.1038/s41598-024-55831-x</p>
 
@@ -273,17 +277,17 @@
 <tr><th>Ch.</th><th>Khẳng định cần nguồn</th><th>Nhãn trong sách</th><th>Nguồn</th><th>Kết luận</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>Thông tin trên bao bì làm thay đổi vị bạn nếm</td><td>Bằng chứng</td><td>[15] [16] [17] [18]</td><td>Dẫn được</td></tr>
+<tr><td>1</td><td>Thông tin trên bao bì làm thay đổi vị bạn nếm</td><td>Bằng chứng</td><td>[15] [16] [17] [18]</td><td>Một phần — [18] mạnh nhất; [16] phụ thuộc thái độ người nếm; [17] chưa đọc được toàn văn</td></tr>
 <tr><td>2</td><td>Không có định nghĩa chung cho "medium roast"; Agtron có hai biến thể</td><td>—</td><td>[12]–[14] cho phần đo màu</td><td>Một phần</td></tr>
-<tr><td>3</td><td>Trữ đông giữ chất lượng dài hạn</td><td>Bằng chứng</td><td>[22] [23] [24] [25]</td><td>Dẫn được</td></tr>
+<tr><td>3</td><td>Trữ đông giữ chất lượng dài hạn</td><td>Hợp lý</td><td>[22] [23] [24] [25]</td><td>Một phần — [24] là 5 °C ngăn mát, một tháng; không có thử nghiệm trữ đông</td></tr>
 <tr><td>3</td><td>20 ngày tuổi pha nước đúng ngon hơn 5 ngày tuổi pha nước kiềm 250 ppm</td><td>"không phải ý kiến"</td><td>không có</td><td>Không có nguồn</td></tr>
 <tr><td>4</td><td>Bicarbonate chi phối cảm nhận, canxi thì không</td><td>Bằng chứng</td><td>[1] trực tiếp, [3] hoá học</td><td>Dẫn được, nguồn đã đổi</td></tr>
-<tr><td>4</td><td>Vùng nước 40–75 ppm alkalinity, 50–175 ppm độ cứng, pH 6,5–7,5</td><td>Hợp lý</td><td>[4]</td><td>Dẫn được</td></tr>
+<tr><td>4</td><td>Vùng nước 40–75 ppm alkalinity, 51–175 ppm độ cứng, pH 6–8</td><td>Hợp lý</td><td>[4] và bảng tiêu chuẩn SCA 2018 cho pH</td><td>Dẫn được một phần — pH không lấy từ [4]</td></tr>
 <tr><td>5</td><td>Bút TDS không đo alkalinity; HCO₃ × 0,82; 1 dKH = 17,86 ppm</td><td>—</td><td>hoá học phổ thông</td><td>Không cần nguồn</td></tr>
 <tr><td>6</td><td>Pha loãng tuyến tính; số liệu nước khoáng đóng chai</td><td>—</td><td>nhãn sản phẩm</td><td>Không cần nguồn</td></tr>
 <tr><td>7</td><td>18–22% EY và 1,15–1,35% TDS</td><td>—</td><td>[5] và chuẩn Golden Cup</td><td>Đã sửa, xem A4</td></tr>
 <tr><td>8</td><td>"Acid trước, đắng sau" là giả thuyết chưa kiểm chứng</td><td>Truyền miệng</td><td>[32]</td><td>Dẫn được, chính xác</td></tr>
-<tr><td>8</td><td>Thứ tự giảm: trigonelline, TDS, 5-CQA, caffeine</td><td>Bằng chứng</td><td>[8]</td><td>Dẫn được</td></tr>
+<tr><td>8</td><td>Nhóm giảm nhanh nhất (trigonelline + TDS), rồi 5-CQA, rồi caffeine</td><td>Bằng chứng</td><td>[8]</td><td>Một phần — bài gộp trigonelline với TDS, không tách hai bậc</td></tr>
 <tr><td>8</td><td>Axit malic, acetic, lactic dưới ngưỡng; chuyên gia không gọi được tên</td><td>Bằng chứng</td><td>[2]</td><td>Dẫn được</td></tr>
 <tr><td>9</td><td>Nhiệt độ là đòn bẩy yếu khi TDS và EY đã cố định</td><td>—</td><td>[6] [7]</td><td>Dẫn được</td></tr>
 </tbody>
@@ -340,11 +344,11 @@
       {
         id: "ch-nguon-khoang-trong",
         title: "Nguồn không khớp, và chỗ trống",
-        lede: "Năm chỗ sách nói chắc hơn tài liệu cho phép, bảy khẳng định không có nguồn, và một ghi chú về bản quyền hình ảnh.",
+        lede: "Sáu chỗ sách nói chắc hơn tài liệu cho phép, bảy khẳng định không có nguồn, và một ghi chú về bản quyền hình ảnh.",
         minutes: 8,
         tags: ["phụ lục", "sửa lỗi"],
         body: `
-<p>Năm chỗ dưới đây là chỗ sách nói chắc hơn tài liệu cho phép. Cả năm đã được chỉnh trong bản này; chúng còn ghi ở đây để người đọc biết lỗi nằm ở đâu.</p>
+<p>Sáu chỗ dưới đây là chỗ sách nói chắc hơn tài liệu cho phép. Cả sáu đã được chỉnh trong bản này; chúng còn ghi ở đây để người đọc biết lỗi nằm ở đâu.</p>
 
 <h3>Một: thang cupping</h3>
 
@@ -377,6 +381,19 @@
 <p>Bảng chương 19 từng ghi hàng 2021 là “5 × 60 g, chờ bã rút”, và mục “bốn thứ thật sự chung” nói Winton chờ bã ráo rồi mới rót lần tiếp. Bài phỏng vấn của chính anh ấy nói ngược: 50 g bloom trong 35 giây, rồi 70 g, rồi ba lần 60 g — năm lần nhưng không đều — và anh ấy rót gần như nhanh hết mức để <em>bã không bao giờ khô</em>, trừ lúc bloom. Dụng cụ cũng không phải “V60” chung chung: anh ấy thử Kono, Origami và V60 thuỷ tinh, rồi chọn nón kim loại.</p>
 
 <p>Lỗi này không đến từ việc đọc ấu mà từ việc dẫn lại một bản tóm tắt lưu hành trên mạng: bản đó đúng tổng 300 g và đúng số năm lần rót, nên nghe rất giống. Nó chỉ sai hai chỗ — chia đều năm phần, và đảo chiều việc canh bã. Bài học chung: khi hai nguồn cùng nói “năm lần rót”, chúng vẫn có thể nói hai chuyện khác nhau.</p>
+
+<h3>Sáu: các chi tiết trích dẫn</h3>
+
+<p>Một lượt kiểm tự động — đối chiếu từng DOI với Crossref, rồi đọc lại tóm tắt của từng bài — tìm thêm sáu chỗ mà câu trong sách nói rộng hơn bài báo cho phép. Cả sáu đã sửa:</p>
+
+<ul>
+<li><strong>pH của nước</strong> (chương 4) — “6,5–7,5” không có trong Sổ tay SCA 2018. Dải đúng là 6–8 với mục tiêu 7,0, và lấy từ bảng tiêu chuẩn, không phải sổ tay. Mốc 75 ppm alkalinity chỉ áp dụng khi độ cứng 150–175 ppm.</li>
+<li><strong>Hendon 2014 ([3])</strong> — là bài tính toán năng lượng liên kết bằng DFT: không có thí nghiệm chiết, không đo cảm quan. Câu cũ gọi nó là “bài hoá học về hiệu suất chiết”.</li>
+<li><strong>Thứ tự giảm trong espresso ([8])</strong> — bài gộp trigonelline với TDS thành một nhóm nhanh nhất, không xếp trigonelline trên TDS.</li>
+<li><strong>Nguồn của đỉnh fines ([34])</strong> — kích thước hạt đo bằng nhiễu xạ laser, không phải bằng ảnh cắt lớp vi mô; profile độ rỗng hình thành <em>sau khi chiết</em>.</li>
+<li><strong>Thiết kế nghiên cứu của Bressani ([15])</strong> — 101 người, hai buổi nếm, không phải chia đôi người thử.</li>
+<li><strong>Trữ đông</strong> (chương 3) — nguồn gần nhất là 5 °C, tức ngăn mát, trong một tháng. Không có thử nghiệm trữ đông nào, nên nhãn đã hạ xuống Hợp lý.</li>
+</ul>
 
 <h3>Bảy khẳng định không có nguồn</h3>
 

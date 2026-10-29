@@ -238,7 +238,9 @@ window.BOOK_PARTS.push({
 
 <h3>Ngoại lệ có thật: trữ đông</h3>
 
-<p>Nếu bạn mua nhiều hơn mức uống trong ba tuần, trữ đông là cách duy nhất giữ được chất lượng dài hạn <span class="tier tier-a">Bằng chứng</span>. Nhiệt độ thấp làm chậm gần như toàn bộ các phản ứng phân huỷ, và hơi ẩm trong tủ đông thấp hơn tủ lạnh rất nhiều.</p>
+<p>Nếu bạn mua nhiều hơn mức uống trong ba tuần, trữ đông là cách hợp lý nhất để giữ chất lượng dài hạn <span class="tier tier-b">Hợp lý</span>. Nhiệt độ thấp làm chậm gần như toàn bộ các phản ứng phân huỷ, và hơi ẩm trong tủ đông thấp hơn tủ lạnh rất nhiều.</p>
+
+<p>Nhưng phải nói rõ mức bằng chứng, vì đây là chỗ dễ tin quá mức. Không có nghiên cứu nào trong thư mục của sách thử <em>trữ đông dài hạn</em> rồi đo cảm quan. Nghiên cứu gần nhất ([24]) bảo quản ở <strong>5 °C — ngăn mát, không phải ngăn đông</strong> — trong một tháng, và thấy nhiệt độ thấp làm chậm thay đổi. Đó là một trục đúng hướng, không phải một phép đo trữ đông. Ba nguồn còn lại đo bảo quản ở nhiệt độ phòng. Nên câu này là suy luận từ cơ chế, không phải kết quả thực nghiệm.</p>
 
 <p>Nhưng có điều kiện, và điều kiện đó quan trọng:</p>
 

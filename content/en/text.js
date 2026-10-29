@@ -240,7 +240,9 @@ window.BOOK_TEXT = {
 
 <h3>The real exception: freezing</h3>
 
-<p>If you buy more than you can drink in three weeks, freezing is the only way to hold quality long-term <span class="tier tier-a">Evidence</span>. Low temperature slows almost every degradation reaction, and a freezer is far drier than a fridge.</p>
+<p>If you buy more than you can drink in three weeks, freezing is the sensible way to hold quality long-term <span class="tier tier-b">Plausible</span>. Low temperature slows almost every degradation reaction, and a freezer is far drier than a fridge.</p>
+
+<p>But the strength of the evidence has to be stated, because this is an easy place to believe too much. None of the studies in this book's bibliography froze coffee long-term and then measured it sensorially. The closest, [24], stored beans at <strong>5 °C — a fridge, not a freezer</strong> — for one month and found the change slowed. That is a pointer in the right direction, not a measurement of freezing. The other three sources measured storage at room temperature. So this claim is an inference from mechanism, not an experimental result.</p>
 
 <p>But there are conditions, and they matter:</p>
 
@@ -311,13 +313,15 @@ HCO₃⁻ + H⁺ → H₂CO₃ → CO₂ + H₂O
 <table>
 <thead><tr><th>Measure</th><th>Target</th><th>Acceptable range</th></tr></thead>
 <tbody>
-<tr><td>Alkalinity (as CaCO₃)</td><td><strong>~40 ppm</strong></td><td>40–75 ppm</td></tr>
-<tr><td>Total hardness (as CaCO₃)</td><td>~68 ppm</td><td>50–175 ppm</td></tr>
-<tr><td>pH</td><td>~7.0</td><td>6.5–7.5</td></tr>
+<tr><td>Alkalinity (as CaCO₃)</td><td><strong>~40 ppm</strong></td><td>40–75 ppm*</td></tr>
+<tr><td>Total hardness (as CaCO₃)</td><td>~68 ppm</td><td>51–175 ppm</td></tr>
+<tr><td>pH</td><td>~7.0</td><td>6–8</td></tr>
 <tr><td>Na⁺</td><td>—</td><td>&lt; 10 ppm</td></tr>
 </tbody>
 </table>
 </div>
+
+<p><strong>* Those three rows do not come from one page.</strong> The 2018 SCA Water Quality Handbook gives 40–75 ppm alkalinity and 51–175 ppm hardness — but the 75 ppm upper bound <em>applies only when hardness sits between 150 and 175 ppm</em>; outside that, the upper bound is 40 ppm. The pH range of 6–8, target 7.0, comes from the 2018 SCA coffee standards table, not the handbook — the handbook only advises measuring pH for waters of very high alkalinity or very low hardness. “pH 6.5–7.5” is widely quoted for SCA, but I could not find a 2018 SCA document stating it, so this edition replaced it.</p>
 
 <p>40 ppm is the midpoint. At 20 ppm the acidity is very bright, sometimes sharp or thin. At 75 ppm the cup is balanced but the fruit is starting to blur. Above 100 ppm most light-roasted coffee loses its character. Above 200 ppm you are mostly tasting the roast.</p>
 
@@ -3183,9 +3187,11 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p><strong>[3]</strong> Hendon, C. H., Colonna-Dashwood, L., &amp; Colonna-Dashwood, M. (2014). <em>The Role of Dissolved Cations in Coffee Extraction.</em> Journal of Agricultural and Food Chemistry, 62(21), 4947–4950. doi:10.1021/jf501687c</p>
 
-<p>A chemistry paper about cations and extraction yield, with no sensory measurement. Chapter 4 once cited it for a sensory finding; the source has been changed to [1] — see A4.</p>
+<p>A <em>computational</em> chemistry paper: density functional theory used to calculate the binding energies of cations with five acids and a few flavour compounds. There is no extraction experiment and no sensory measurement. Chapter 4 once cited it for a sensory finding; the source has been changed to [1] — see A4.</p>
 
-<p><strong>[4]</strong> Specialty Coffee Association (2018). <em>The 2018 SCA Water Quality Handbook.</em> Paid document, no public PDF. This is the source of the 40–75 ppm alkalinity, 50–175 ppm hardness and pH 6.5–7.5 figures.</p>
+<p><strong>[4]</strong> Specialty Coffee Association (2018). <em>The 2018 SCA Water Quality Handbook.</em> Paid document, no public PDF.</p>
+
+<p>This is the source of the 40–75 ppm alkalinity and 51–175 ppm hardness figures — with the condition that the 75 ppm bound applies only when hardness is 150–175 ppm. The handbook sets <strong>no</strong> pH range; the 6–8 range with a 7.0 target comes from the 2018 SCA coffee standards table. An earlier edition printed “pH 6.5–7.5” and attributed it to the handbook — wrong, now corrected.</p>
 
 <p><strong>[5]</strong> Lockhart, E. E. (1957). <em>The Soluble Solids in Beverage Coffee as an Index to Cup Quality.</em> Coffee Brewing Institute, Publication No. 27. The foundation of the brewing control chart. Note: the 1957 document does not carry the name "Brewing Control Chart" — that name came later.</p>
 
@@ -3201,7 +3207,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p><strong>[8]</strong> Schmieder, B. K. L., Pannusch, V. B., Vannieuwenhuyse, L., Briesen, H., &amp; Minceva, M. (2023). <em>Influence of Flow Rate, Particle Size, and Temperature on Espresso Extraction Kinetics.</em> Foods, 12(15), 2871. doi:10.3390/foods12152871</p>
 
-<p>Ten consecutive fractions collected from one espresso shot. Trigonelline fell fastest, then TDS, then 5-CQA, with caffeine slowest. This is the source of the table in chapter 8.</p>
+<p>Ten consecutive fractions collected from one espresso shot, then fractions 1, 2, 3, 5, 7 and 10 analysed. The paper groups <strong>trigonelline and TDS together as the fastest fallers</strong>, then 5-CQA, with caffeine slowest — it does not rank trigonelline above TDS. An earlier edition split them into four steps; corrected. This is the source of the table in chapter 8.</p>
 
 <p><strong>[9]</strong> Guinard, J.-X., et al. (2023). <em>A new Coffee Brewing Control Chart relating sensory properties and consumer liking to brew strength, extraction yield, and brew ratio.</em> Journal of Food Science, 88(5), 2168–2177. doi:10.1111/1750-3841.16531</p>
 
@@ -3225,9 +3231,11 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p><strong>[15]</strong> Bressani, A. P. P., Martinez, S. J., Batista, N. N., Simão, J. B. P., &amp; Schwan, R. F. (2021). <em>Into the minds of coffee consumers: perception, preference, and impact of information in the sensory analysis of specialty coffee.</em> Food Science and Technology, 41(Suppl. 2), 667–675. doi:10.1590/fst.30720</p>
 
-<p>The same sample, with half the tasters told "specialty, 85 points, natural fermentation". With the information, descriptions shifted toward citrus and fruit; overall liking did not change. This is the best source for the sentence "information changes how you describe it, not how much you like it".</p>
+<p>The same sample, <strong>101 people, two tasting sessions</strong>: one with information, one without — not half the panel informed. With the information, descriptions shifted toward citrus and fruit; aroma and overall-impression scores did not differ significantly. This is the best source for the sentence "information changes how you describe it, not how much you like it".</p>
 
 <p><strong>[16]</strong> Sörqvist, P., Hedblom, D., Holmgren, M., Haga, A., Langeborg, L., Nöstl, A., &amp; Kågström, J. (2013). <em>Who Needs Cream and Sugar When There Is Eco-Labeling? Taste and Willingness to Pay for "Eco-Friendly" Coffee.</em> PLOS ONE, 8(12), e80719. doi:10.1371/journal.pone.0080719</p>
+
+<p>The effect depends on the taster: the eco-label made the coffee taste better and raised willingness to pay among people who scored high on sustainable-consumption attitudes; in the first experiment the overall label effect on taste ratings was not significant. Read it as an <em>interaction</em>, not an effect on everyone.</p>
 
 <p><strong>[17]</strong> Artêncio, M. M., et al. (2023). <em>The impact of coffee origin information on sensory and hedonic judgment of fine Amazonian robusta coffee.</em> Journal of Sensory Studies, 38(3), e12827. doi:10.1111/joss.12827</p>
 
@@ -3251,7 +3259,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p><strong>[24]</strong> Gantner, M., et al. (2024). <em>Effect of Temperature and Storage on Coffee’s Volatile Compound Profile and Sensory Characteristics.</em> Foods, 13(24), 3995. doi:10.3390/foods13243995</p>
 
-<p>Storage at 5 °C versus 20 °C for a month: cold slowed the change. This is the closest source for the claim in chapter 3 that freezing preserves quality — closest, note, not identical.</p>
+<p>Storage at 5 °C versus 20 °C for a month: cold slowed the change. <strong>This is a fridge, not a freezer</strong>, and the period is one month after opening — so it is not evidence for long-term freezing. Chapter 3 has now downgraded that claim to Plausible and spells out the gap.</p>
 
 <p><strong>[25]</strong> Smrke, S., et al. (2022). <em>Effects of different coffee storage methods on coffee freshness after opening of packages.</em> Food Packaging and Shelf Life, 33, 100893. doi:10.1016/j.fpsl.2022.100893</p>
 
@@ -3287,7 +3295,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p><strong>[34]</strong> Mo, C., Johnston, R., Navarini, L., Suggi Liverani, F., &amp; Ellero, M. (2023). <em>Exploring the link between coffee matrix microstructure and flow properties using combined X-ray microtomography and smoothed particle hydrodynamics simulations.</em> Scientific Reports, 13, 16374. doi:10.1038/s41598-023-42380-y</p>
 
-<p>Micro-CT of an espresso bed plus flow simulation. The particle size distribution carries a fines peak around 30–40 µm, traced to cell-wall fragments; the coarse peak is set by the grinder. Bed porosity falls from the bottom of the puck up towards the shower screen.</p>
+<p>Micro-CT of an espresso bed plus SPH flow simulation. <strong>Particle size was measured by laser diffraction, not from the micro-CT images</strong>: the fines peak sits around 30–40 µm (the measured distribution spans roughly 25–50 µm), traced to cell-wall fragments; the coarse peak is set by the grinder. Bed porosity falls from the bottom of the puck up towards the shower screen.</p>
 
 <p><strong>[35]</strong> Smrke, S., Eiermann, A., &amp; Yeretzian, C. (2024). <em>The role of fines in espresso extraction dynamics.</em> Scientific Reports, 14, 5612. doi:10.1038/s41598-024-55831-x</p>
 
@@ -3403,17 +3411,17 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <tr><th>Ch.</th><th>Claim that needs a source</th><th>Label in the book</th><th>Source</th><th>Verdict</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>Label information changes what you taste</td><td>Evidence</td><td>[15] [16] [17] [18]</td><td>Citable</td></tr>
+<tr><td>1</td><td>Label information changes what you taste</td><td>Evidence</td><td>[15] [16] [17] [18]</td><td>Partly — [18] strongest; [16] depends on taster attitudes; [17] full text unreadable</td></tr>
 <tr><td>2</td><td>No shared definition of "medium roast"; Agtron has two variants</td><td>—</td><td>[12]–[14] for the colour measurement</td><td>Partly</td></tr>
-<tr><td>3</td><td>Freezing preserves quality long term</td><td>Evidence</td><td>[22] [23] [24] [25]</td><td>Citable</td></tr>
+<tr><td>3</td><td>Freezing preserves quality long term</td><td>Plausible</td><td>[22] [23] [24] [25]</td><td>Partly — [24] is 5 °C fridge, one month; no freezing trial exists</td></tr>
 <tr><td>3</td><td>20-day-old coffee with correct water beats 5-day-old with 250 ppm alkaline water</td><td>"not an opinion"</td><td>none</td><td>No source</td></tr>
 <tr><td>4</td><td>Bicarbonate drives perception, calcium does not</td><td>Evidence</td><td>[1] directly, [3] for chemistry</td><td>Citable, source changed</td></tr>
-<tr><td>4</td><td>Water zone of 40–75 ppm alkalinity, 50–175 ppm hardness, pH 6.5–7.5</td><td>Plausible</td><td>[4]</td><td>Citable</td></tr>
+<tr><td>4</td><td>Water zone of 40–75 ppm alkalinity, 51–175 ppm hardness, pH 6–8</td><td>Plausible</td><td>[4], and the 2018 SCA standards table for pH</td><td>Partly citable — pH does not come from [4]</td></tr>
 <tr><td>5</td><td>A TDS pen does not measure alkalinity; HCO₃ × 0.82; 1 dKH = 17.86 ppm</td><td>—</td><td>general chemistry</td><td>Needs no source</td></tr>
 <tr><td>6</td><td>Dilution is linear; bottled water figures</td><td>—</td><td>product labels</td><td>Needs no source</td></tr>
 <tr><td>7</td><td>18–22% EY and 1.15–1.35% TDS</td><td>—</td><td>[5] and the Golden Cup standard</td><td>Fixed, see A4</td></tr>
 <tr><td>8</td><td>"Acid first, bitter later" is an untested hypothesis</td><td>Folklore</td><td>[32]</td><td>Citable, accurate</td></tr>
-<tr><td>8</td><td>Order of decline: trigonelline, TDS, 5-CQA, caffeine</td><td>Evidence</td><td>[8]</td><td>Citable</td></tr>
+<tr><td>8</td><td>Fastest group (trigonelline + TDS), then 5-CQA, then caffeine</td><td>Evidence</td><td>[8]</td><td>Partly — the paper groups trigonelline with TDS rather than ranking them</td></tr>
 <tr><td>8</td><td>Malic, acetic and lactic below threshold; tasters cannot name them</td><td>Evidence</td><td>[2]</td><td>Citable</td></tr>
 <tr><td>9</td><td>Temperature is a weak lever once TDS and EY are fixed</td><td>—</td><td>[6] [7]</td><td>Citable</td></tr>
 </tbody>
@@ -3469,11 +3477,11 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
     "ch-nguon-khoang-trong": {
       title: "Where the sources disagree, and what is missing",
-      lede: "Five places where the book says more than the documents allow, seven claims with no source, and a note on image rights.",
+      lede: "Six places where the book says more than the documents allow, seven claims with no source, and a note on image rights.",
       minutes: 8,
       tags: ["appendix", "corrections"],
       body: `
-<p>Five places below are where the book says more than the documents allow. All five are corrected in this edition; they remain on record here so the reader knows where the error sat.</p>
+<p>Six places below are where the book says more than the documents allow. All six are corrected in this edition; they remain on record here so the reader knows where the error sat.</p>
 
 <h3>One: the cupping scale</h3>
 
@@ -3506,6 +3514,19 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <p>The chapter 19 table used to give the 2021 row as “5 × 60 g, waiting for the bed to drain”, and the “four things shared” section said Winton waited for the bed to dry before the next pour. His own interview says the opposite: a 50 g bloom for 35 seconds, then 70 g, then three 60 g pours — five pours, but not equal ones — and he poured about as fast as he could so that <em>the bed never dried out</em>, except during the bloom. The brewer was not a plain “V60” either: he tried Kono, Origami and a glass V60, and chose a metal cone.</p>
 
 <p>The error came not from careless reading but from repeating a summary circulating online: that version has the right 300 g total and the right number of pours, so it reads convincingly. It is wrong in two places — it divides the pours equally, and it reverses the direction of watching the bed. The general lesson: when two sources both say “five pours”, they can still be saying two different things.</p>
+
+<h3>Six: citation details</h3>
+
+<p>One automated pass — checking every DOI against Crossref, then re-reading each paper's abstract — found six more places where the book's sentence went further than the paper allows. All six are fixed:</p>
+
+<ul>
+<li><strong>Water pH</strong> (chapter 4) — “6.5–7.5” is not in the 2018 SCA Water Quality Handbook. The correct range is 6–8 with a 7.0 target, and it comes from the standards table, not the handbook. The 75 ppm alkalinity bound applies only when hardness is 150–175 ppm.</li>
+<li><strong>Hendon 2014 ([3])</strong> — a DFT calculation of binding energies: no extraction experiment, no sensory measurement. The old sentence called it “a chemistry paper about extraction yield”.</li>
+<li><strong>Order of decline in espresso ([8])</strong> — the paper groups trigonelline with TDS as the fastest fallers; it does not rank trigonelline above TDS.</li>
+<li><strong>Source of the fines peak ([34])</strong> — particle size was measured by laser diffraction, not by micro-CT; and the porosity profile develops <em>after extraction</em>.</li>
+<li><strong>Bressani's study design ([15])</strong> — 101 people across two tasting sessions, not half the panel informed.</li>
+<li><strong>Freezing</strong> (chapter 3) — the closest source is 5 °C, a fridge, for one month. No freezing trial exists, so the label has been downgraded to Plausible.</li>
+</ul>
 
 <h3>Seven claims with no source</h3>
 

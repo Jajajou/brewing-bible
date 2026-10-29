@@ -61,13 +61,15 @@ HCO₃⁻ + H⁺ → H₂CO₃ → CO₂ + H₂O
 <table>
 <thead><tr><th>Chỉ số</th><th>Mục tiêu</th><th>Khoảng chấp nhận</th></tr></thead>
 <tbody>
-<tr><td>Alkalinity (as CaCO₃)</td><td><strong>~40 ppm</strong></td><td>40–75 ppm</td></tr>
-<tr><td>Độ cứng tổng (as CaCO₃)</td><td>~68 ppm</td><td>50–175 ppm</td></tr>
-<tr><td>pH</td><td>~7,0</td><td>6,5–7,5</td></tr>
+<tr><td>Alkalinity (as CaCO₃)</td><td><strong>~40 ppm</strong></td><td>40–75 ppm*</td></tr>
+<tr><td>Độ cứng tổng (as CaCO₃)</td><td>~68 ppm</td><td>51–175 ppm</td></tr>
+<tr><td>pH</td><td>~7,0</td><td>6–8</td></tr>
 <tr><td>Na⁺</td><td>—</td><td>&lt; 10 ppm</td></tr>
 </tbody>
 </table>
 </div>
+
+<p><strong>* Ba dòng trên không lấy từ cùng một trang.</strong> Sổ tay chất lượng nước SCA 2018 cho 40–75 ppm alkalinity và 51–175 ppm độ cứng — nhưng mốc 75 ppm <em>chỉ áp dụng khi độ cứng nằm trong khoảng 150–175 ppm</em>; ngoài khoảng đó, mốc trên là 40 ppm. Dải pH 6–8 với mục tiêu 7,0 lấy từ bảng tiêu chuẩn cà phê SCA 2018, không phải từ sổ tay — sổ tay chỉ nói nên đo pH khi nước có alkalinity rất cao hoặc độ cứng rất thấp. Con số “pH 6,5–7,5” vẫn được trích cho SCA ở nhiều nơi, nhưng tôi không tìm được tài liệu SCA 2018 nào nêu nó, nên bản này đã thay.</p>
 
 <p>Mục tiêu 40 ppm là điểm giữa. Ở mức 20 ppm, acid rất sáng, có khi gắt hoặc "mỏng". Ở mức 75 ppm, vị cân bằng nhưng trái cây bắt đầu mờ. Trên 100 ppm, hầu hết cà phê rang sáng sẽ mất tính cách. Trên 200 ppm, bạn gần như chỉ còn nếm vị rang.</p>
 
