@@ -71,6 +71,9 @@ tools/bump-assets.mjs đặt mọi ?v= về short SHA của commit (--check cho 
 search.js             bỏ dấu, chấm điểm, xếp hạng, cắt snippet (không đụng DOM)
 tests/logic.test.mjs  test cho fold, xếp hạng và numLabel — chạy bằng node --test
 vendor/paged.polyfill.js  Paged.js 0.4.3 (phân trang trong trình duyệt)
+CHANGELOG.md          lịch sử thay đổi, quy ước số bản
+LICENSE               CC BY-NC-SA 4.0 cho nội dung, MIT cho mã
+og.png                ảnh chia sẻ 1200×630
 ```
 
 Nội dung nằm trong các file `content/part-N.js` dưới dạng dữ liệu — thêm chương chỉ cần thêm một object vào mảng `chapters`.
@@ -221,6 +224,10 @@ python3 -m http.server 8137
 ```
 
 Rồi mở http://127.0.0.1:8137/
+
+## Thay đổi
+
+Lịch sử và quy ước số bản ở [CHANGELOG.md](CHANGELOG.md). Số bản in trên bìa PDF chính là số ở đó — cầm bản giấy thì đối chiếu được.
 
 ## Giấy phép
 
