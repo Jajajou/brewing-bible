@@ -1,0 +1,20 @@
+{
+  "name": "Nhật ký pha — The Brewing Bible",
+  "short_name": "Nhật ký pha",
+  "description": "Ghi một lần pha bằng điện thoại: bảy dòng, ảnh bã, bốn trục vị.",
+  "lang": "vi",
+  "start_url": "./journal.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4efe5",
+  "theme_color": "#9d4a1c",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -20,7 +20,7 @@ import { dirname, join, resolve } from "node:path";
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
 /* Chỉ những file này chứa ?v=. Thêm file mới có asset thì thêm vào đây. */
-const FILES = ["index.html", "print.html", "tpl.html", "tpl.js", "book.js"];
+const FILES = ["index.html", "print.html", "tpl.html", "tpl.js", "book.js", "journal.html"];
 
 /* ?v=… cho tới dấu phân cách của chuỗi chứa nó. Bắt cả trong JS
    ("content/" + lang + "/text.js?v=22") lẫn trong HTML (src="x.js?v=10"). */

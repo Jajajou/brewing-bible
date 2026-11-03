@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Nhật ký pha">
+  <rect width="512" height="512" rx="104" fill="#9d4a1c"/>
+  <!-- phễu nón nhìn nghiêng, một giọt đang rơi -->
+  <path d="M136 178h240l-84 128v70l-72 34v-104z" fill="none" stroke="#f4efe5" stroke-width="24" stroke-linejoin="round"/>
+  <circle cx="256" cy="96" r="20" fill="#f4efe5"/>
+  <path d="M186 402h140" stroke="#f4efe5" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+</svg>
