@@ -47,9 +47,19 @@ Thấy `Kết nối được. Sheet: Nhật ký pha` là xong. Từ đó:
 
 Cấu hình nằm trong `localStorage` của trình duyệt đó (`nuocba.journal.sync`), không nằm trong trang, nên mở trang ở máy khác thì cần dán lại một lần.
 
+## Ai ghi dòng nào
+
+Trang không có đăng nhập, nên "của ai" được trả lời bằng dữ liệu chứ không bằng tài khoản: mỗi lần pha mang theo **mã nhật ký** (sinh tự động trong trình duyệt lần đầu mở trang) và **tên người ghi** bạn đặt ở ô “Nhật ký của ai”. Hai thứ đó thành hai cột cuối trong Sheet.
+
+- **Mặc định nên theo: mỗi người một Sheet.** Deploy `Code.gs` vào Sheet của chính mình. Khi đó mọi dòng đều là của bạn; hai cột kia chỉ để đối chiếu khi bạn dùng nhiều máy.
+- **Dùng chung một Sheet** (vợ/chồng, bạn cùng phòng): ai có URL và token thì ghi được vào cùng Sheet, và cột “Người ghi” cho biết dòng nào của ai. Trùng tên thì đối chiếu “Mã nhật ký”.
+- Trong trang, bản ghi do nhật ký khác ghi — nhập từ bản sao của người khác — mang nhãn tên người đó; bản ghi của chính máy này thì không có nhãn gì.
+
+Đây là **định danh, không phải phân quyền**. Không ai bị chặn ghi đè lên dòng của người khác nếu biết id, và token vẫn là bí mật chung của cả nhóm. Muốn tách hẳn quyền thì mỗi người deploy một `Code.gs` với token riêng, trỏ vào Sheet riêng.
+
 ## Cái gì rơi vào đâu
 
-- **Sheet "Nhật ký pha"** — một hàng một lần pha, đúng thứ tự cột trong `HEADER` của `Code.gs`: id, ngày, cà, ngày sau rang, cà/nước, tỉ lệ, nhiệt, xay, dụng cụ, tổng/rút (giây), bã, bốn trục vị, ghi chú, **URL ảnh**, mốc cập nhật. Tự tạo khi lần đẩy đầu tiên chạy.
+- **Sheet "Nhật ký pha"** — một hàng một lần pha, đúng thứ tự cột trong `HEADER` của `Code.gs`: id, ngày, cà, ngày sau rang, cà/nước, tỉ lệ, nhiệt, xay, dụng cụ, tổng/rút (giây), bã, bốn trục vị, ghi chú, **URL ảnh**, mốc cập nhật, mã nhật ký, tên người ghi. Tự tạo khi lần đẩy đầu tiên chạy; sheet đã có từ trước thì hai cột mới được điền tiêu đề vào lần đẩy kế tiếp, không phải tạo lại sheet.
 - **Folder "Brewing Bible — ảnh bã"** trong Drive — ảnh JPEG 1200 px, tên dạng `2026-11-03_ethiopia-guji_ba.jpg`. Folder riêng tư theo mặc định; mở được từ link trong Sheet vì bạn là chủ.
 
 **Ghi theo `id`, không phải ghi thêm.** Máy nhận tìm dòng có cùng id: có thì cập nhật, chưa có thì thêm. Nhờ vậy đẩy lại (mất mạng, đóng tab giữa lúc đẩy, bấm hai lần) không sinh dòng trùng, và sửa một lần pha trên điện thoại thì Sheet cũng được sửa theo.

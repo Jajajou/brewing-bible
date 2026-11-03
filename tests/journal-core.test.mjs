@@ -209,3 +209,22 @@ test("đồng bộ: syncedAt và photoUrl sống sót qua normalize", () => {
   assert.equal(C.normalize({}).syncedAt, 0, "bản ghi mới phải ở trạng thái chờ đẩy");
   assert.equal(C.normalize({ photoUrl: null }).photoUrl, "");
 });
+
+test("định danh: mã và tên người ghi đi qua normalize", () => {
+  /* Hai trường này quyết định Sheet biết dòng nào của ai, nên không được
+     bị coi là trường lạ mà bỏ. */
+  const r = C.normalize({ date: "2026-11-03", ownerId: " bd13413f-ebef ", ownerName: " Nam " });
+  assert.equal(r.ownerId, "bd13413f-ebef");
+  assert.equal(r.ownerName, "Nam");
+
+  /* Bản ghi cũ (trước khi có định danh) vẫn hợp lệ. */
+  assert.equal(C.normalize({}).ownerId, "");
+  assert.equal(C.normalize({}).ownerName, "");
+});
+
+test("định danh: ownerCode đủ ngắn để đọc, đủ khác để phân biệt", () => {
+  assert.equal(C.ownerCode("bd13413f-ebef-4ae3-9d7d-194228fb0013"), "BD1341");
+  assert.equal(C.ownerCode("a1b2c3"), "A1B2C3");
+  assert.equal(C.ownerCode(""), "");
+  assert.equal(C.ownerCode(null), "");
+});

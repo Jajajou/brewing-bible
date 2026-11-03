@@ -248,6 +248,12 @@ details.sync[open] > summary{ color: var(--accent); }
   color: var(--accent); border: 1px solid var(--accent-2); border-radius: 999px;
   padding: .05rem .4rem; align-self: center;
 }
+/* Thẻ của bản ghi do nhật ký khác ghi — nhập từ bản sao của người khác. */
+.owner-dot{
+  font-size: .66rem; letter-spacing: .04em;
+  color: var(--muted); border: 1px solid var(--rule); border-radius: 999px;
+  padding: .05rem .4rem; align-self: center;
+}
 .sync-pending{ font-weight: 400; text-transform: none; letter-spacing: 0; color: var(--accent); }
 
 /* ---------- công cụ ---------- */
@@ -391,6 +397,11 @@ footer a{ color: var(--accent); }
   <details class="sync">
     <summary>Đồng bộ Google Sheet (tuỳ chọn)</summary>
     <p class="sync-help">Dán URL triển khai và token của bạn. Cấu hình chỉ nằm trên máy này, không nằm trong trang. Cách dựng máy nhận: xem <a href="SYNC.md">SYNC.md</a>.</p>
+    <div class="sync-grid">
+      <label class="field"><span>Nhật ký của ai</span><input type="text" id="ownerName" placeholder="tên bạn" autocomplete="off"></label>
+      <label class="field"><span>Mã nhật ký này</span><input type="text" id="ownerCode" readonly title="Sinh tự động trong trình duyệt này"></label>
+    </div>
+    <p class="sync-help">Tên đi vào cột “Người ghi” trên Sheet. Hai nhật ký đẩy vào cùng một Sheet vẫn biết dòng nào của ai — đây là nhãn, không phải đăng nhập.</p>
     <div class="sync-grid">
       <label class="field"><span>URL triển khai (kết thúc /exec)</span><input type="text" id="syncUrl" placeholder="https://script.google.com/macros/s/…/exec" autocomplete="off" spellcheck="false"></label>
       <label class="field"><span>Token</span><input type="password" id="syncToken" placeholder="chuỗi bạn đặt trong Code.gs" autocomplete="off" spellcheck="false"></label>

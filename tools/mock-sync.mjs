@@ -15,7 +15,7 @@ import http from "node:http";
 
 const PORT = Number(process.argv[2] || 8790);
 const TOKEN = "test-token";
-const HEADER = ["id", "Ngày", "Cà", "…", "Ảnh", "Cập nhật"];
+const HEADER = ["id", "Ngày", "Cà", "…", "Ảnh", "Cập nhật", "Mã nhật ký", "Người ghi"];
 
 /** id → số dòng, giống Sheet thật */
 const rows = new Map();
@@ -87,6 +87,7 @@ const server = http.createServer((req, res) => {
     console.log(
       `${known ? "~ cập nhật" : "+ thêm mới"} dòng ${row} · ${b.date} · ${b.coffee} · ` +
       `1:${b.ratio} · bã ${b.bed} · ${b.axes ? [b.axes.sang, b.axes.day, b.axes.huong, b.axes.hau].join("/") : "—"}` +
+      ` · chủ ${b.ownerName || "(không tên)"}/${String(b.ownerId || "-").slice(0, 6)}` +
       (b.photoBase64 ? ` · ảnh ${Math.round(b.photoBase64.length / 1024)} KB` : " · (không gửi ảnh)")
     );
 

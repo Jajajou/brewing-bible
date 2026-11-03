@@ -36,6 +36,11 @@
      trang chạy y như cũ, chỉ là không đẩy đi đâu. */
   var SYNC_KEY = "nuocba.journal.sync";
 
+  /* Định danh người ghi. Mã sinh một lần ở trình duyệt này, không cần đăng
+     nhập. Nó đi theo bản ghi và thành cột trong Sheet, nên hai nhật ký đẩy
+     vào cùng một Sheet vẫn đọc được dòng nào của ai. */
+  var OWNER_KEY = "nuocba.journal.owner";
+
   /* Kích thước ảnh: đủ để nhìn ra hố và mảng khô khi phóng to, nhưng
      không phải ảnh gốc 4–8 MB. 1200 px cạnh dài ở chất lượng 0,75 cho ra
      khoảng 150–250 KB; bản thu nhỏ 320 px cho danh sách. */
@@ -337,6 +342,12 @@
     rec.syncedAt = 0;
     rec.photoUrl = prev && prev.photo && rec.photo === prev.photo ? (prev.photoUrl || "") : "";
 
+    /* Sửa bản ghi của người khác thì chủ vẫn là người đó: người ghi không
+       đổi vì mình là người sửa sau. Bản ghi mới thì lấy tên đang đặt. */
+    var owner = getOwner();
+    rec.ownerId = (prev && prev.ownerId) || owner.id;
+    rec.ownerName = (prev && prev.ownerName) || owner.name;
+
     var keep = $("#keepNext").checked;
 
     store.put(rec).then(function () {
@@ -412,6 +423,10 @@
     html += '<span class="brew-date">' + esc(C.dateShort(rec.date)) + "</span>";
     if (hasSync() && !rec.syncedAt) {
       html += '<span class="sync-dot" title="Chưa đẩy lên Google Sheet">chưa đẩy</span>';
+    }
+    if (!isMine(rec)) {
+      html += '<span class="owner-dot" title="Ghi ở nhật ký khác, không phải máy này">' +
+        esc(rec.ownerName || ("nhật ký " + C.ownerCode(rec.ownerId))) + "</span>";
     }
     html += '<h3 class="brew-name">' + esc(rec.coffee || "Không tên") + "</h3>";
     if (rec.photo) {
@@ -514,6 +529,31 @@
     return !!(cfg.url && cfg.token);
   }
 
+  /* Mã nhật ký sống độc lập với cấu hình đồng bộ: bạn đổi URL hoặc xoá
+     token thì bản ghi cũ vẫn giữ đúng chủ của nó. */
+  function getOwner() {
+    var o = null;
+    try { o = JSON.parse(localStorage.getItem(OWNER_KEY) || "null"); } catch (e) {}
+    if (!o || !o.id) {
+      o = { id: uid(), name: "" };
+      try { localStorage.setItem(OWNER_KEY, JSON.stringify(o)); } catch (e) {}
+    }
+    return { id: String(o.id || ""), name: String(o.name || "") };
+  }
+
+  function saveOwnerName(name) {
+    var o = getOwner();
+    o.name = String(name || "").trim();
+    try { localStorage.setItem(OWNER_KEY, JSON.stringify(o)); } catch (e) {}
+    return o;
+  }
+
+  /* Bản ghi cũ (nhập từ bản sao trước khi có mã) không có ownerId — coi như
+     của chính mình, vì nó đến từ chính trang này. */
+  function isMine(rec) {
+    return !rec.ownerId || rec.ownerId === getOwner().id;
+  }
+
   function syncStatus(text, kind) {
     var el = $("#syncStatus");
     if (!el) return;
@@ -528,6 +568,12 @@
     /* Đừng ghi đè ô đang gõ. */
     if (url && document.activeElement !== url) url.value = cfg.url;
     if (token && document.activeElement !== token) token.value = cfg.token;
+
+    var ownerInput = $("#ownerName");
+    var owner = getOwner();
+    if (ownerInput && document.activeElement !== ownerInput) ownerInput.value = owner.name;
+    var codeEl = $("#ownerCode");
+    if (codeEl) codeEl.value = C.ownerCode(owner.id);
 
     var pendingEl = $("#syncPending");
     if (pendingEl) {
@@ -586,7 +632,9 @@
         bed: C.bedLabel(rec.bed),
         axes: rec.axes,
         note: rec.note,
-        updatedAt: rec.updatedAt
+        updatedAt: rec.updatedAt,
+        ownerId: rec.ownerId,
+        ownerName: rec.ownerName
       }
     };
     if (!rec.photo || rec.photoUrl) return Promise.resolve(payload);
@@ -778,6 +826,9 @@
           if (typeof rec.thumb === "string") {
             rec.thumb = dataUrlToBlob(rec.thumb);
           }
+          /* Bản sao cũ không có mã chủ: nhận, nhưng gán cho nhật ký này,
+             vì bản sao đến từ chính trang này. */
+          if (!rec.ownerId) rec.ownerId = getOwner().id;
           rec.updatedAt = rec.updatedAt || Date.now();
           rec.createdAt = rec.createdAt || Date.now();
           added++;
@@ -830,6 +881,13 @@
     $("#f-water").addEventListener("input", updateRatio);
 
     $("#cancelEdit").addEventListener("click", function () { resetForm(false); });
+
+    /* Tên chỉ là nhãn trên Sheet và trên thẻ của bản ghi người khác, nên
+       đổi tên không phải đẩy lại gì: bản ghi giữ tên tại lúc ghi. */
+    $("#ownerName").addEventListener("change", function (ev) {
+      saveOwnerName(ev.target.value);
+      render();
+    });
 
     $("#f-photo").addEventListener("change", function (ev) {
       var file = ev.target.files && ev.target.files[0];

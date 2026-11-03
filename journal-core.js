@@ -46,6 +46,13 @@
     return "";
   };
 
+  /* Sáu ký tự đầu của mã nhật ký, viết hoa: đủ ngắn để đọc to qua điện
+     thoại, đủ dài để hai nhật ký trong cùng một Sheet không trùng nhau. */
+  CORE.ownerCode = function (id) {
+    var s = str(id).replace(/[^a-zA-Z0-9]/g, "");
+    return s ? s.slice(0, 6).toUpperCase() : "";
+  };
+
   /* ---------- tỉ lệ ---------- */
 
   /* Số thuận để so sánh và để đưa vào bảng tính: 250/15 → 16.7 */
@@ -150,7 +157,11 @@
       /* Đồng bộ: 0 = chưa đẩy lên Sheet, >0 = mốc thời gian đã đẩy.
          photoUrl là link ảnh trong Drive sau khi đẩy lần đầu. */
       syncedAt: 0,
-      photoUrl: ""
+      photoUrl: "",
+      /* Định danh nhật ký: hai người dùng chung một Sheet, hoặc chung một
+         máy, cần biết dòng nào của ai. Đây là nhãn, không phải xác thực. */
+      ownerId: "",
+      ownerName: ""
     };
   };
 
@@ -198,6 +209,8 @@
     rec.thumb = raw.thumb === undefined ? null : raw.thumb;
     rec.syncedAt = Math.max(0, Math.round(num(raw.syncedAt) || 0));
     rec.photoUrl = str(raw.photoUrl);
+    rec.ownerId = str(raw.ownerId);
+    rec.ownerName = str(raw.ownerName);
     return rec;
   };
 

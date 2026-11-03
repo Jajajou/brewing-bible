@@ -32,7 +32,8 @@ const FOLDER_NAME = "Brewing Bible — ảnh bã";
 const HEADER = [
   "id", "Ngày", "Cà", "Ngày sau rang", "Cà (g)", "Nước (g)", "Tỉ lệ", "Nhiệt (°C)",
   "Xay", "Dụng cụ", "Tổng (s)", "Rút (s)", "Bã",
-  "Sáng", "Đầy", "Hướng", "Hậu vị", "Ghi chú", "Ảnh", "Cập nhật"
+  "Sáng", "Đầy", "Hướng", "Hậu vị", "Ghi chú", "Ảnh", "Cập nhật",
+  "Mã nhật ký", "Người ghi"
 ];
 
 const COL_PHOTO = 19; /* 1-based, khớp HEADER ở trên */
@@ -87,12 +88,30 @@ function sheet_() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var sh = ss.getSheetByName(SHEET_NAME);
   if (!sh) sh = ss.insertSheet(SHEET_NAME);
+  fixHeader_(sh);
+  return sh;
+}
+
+/* Bảng tính là thứ người ta sửa tay. Thêm cột vào HEADER (như "Mã nhật ký"
+   và "Người ghi") thì sheet cũ vẫn phải có tiêu đề cho cột mới, nếu không
+   dữ liệu ghi vào cột không tên và chẳng ai đọc ra được. Chỉ điền ô tiêu đề
+   còn trống — không ghi đè cột bạn đã đổi tên. */
+function fixHeader_(sh) {
   if (sh.getLastRow() === 0) {
     sh.appendRow(HEADER);
     sh.getRange(1, 1, 1, HEADER.length).setFontWeight("bold");
     sh.setFrozenRows(1);
+    return;
   }
-  return sh;
+  var width = Math.max(sh.getLastColumn(), 1);
+  var have = sh.getRange(1, 1, 1, width).getValues()[0];
+  var filled = 0;
+  for (var i = 0; i < HEADER.length; i++) {
+    if (String(have[i] || "") !== "") continue;
+    sh.getRange(1, i + 1).setValue(HEADER[i]);
+    filled++;
+  }
+  if (filled) sh.getRange(1, 1, 1, HEADER.length).setFontWeight("bold");
 }
 
 function folder_() {
@@ -178,7 +197,9 @@ function upsertBrew_(b) {
     numOr_(axes.hau),
     String(b.note || ""),
     photoUrl,
-    String(b.updatedAt ? new Date(Number(b.updatedAt)).toISOString() : new Date().toISOString())
+    String(b.updatedAt ? new Date(Number(b.updatedAt)).toISOString() : new Date().toISOString()),
+    String(b.ownerId || ""),
+    String(b.ownerName || "")
   ];
 
   if (row) {
