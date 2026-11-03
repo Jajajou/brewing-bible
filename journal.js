@@ -31,6 +31,11 @@
   var DB_VER = 1;
   var STORE = "brews";
 
+  /* Cấu hình đồng bộ nằm trong localStorage, không nằm trong repo: URL
+     triển khai và token chỉ sống trên máy bạn. Không có hai thứ đó thì
+     trang chạy y như cũ, chỉ là không đẩy đi đâu. */
+  var SYNC_KEY = "nuocba.journal.sync";
+
   /* Kích thước ảnh: đủ để nhìn ra hố và mảng khô khi phóng to, nhưng
      không phải ảnh gốc 4–8 MB. 1200 px cạnh dài ở chất lượng 0,75 cho ra
      khoảng 150–250 KB; bản thu nhỏ 320 px cho danh sách. */
@@ -325,6 +330,13 @@
     rec.photo = photoCleared ? null : (pendingPhoto || editingPhoto || null);
     rec.thumb = photoCleared ? null : (pendingThumb || editingThumb || null);
 
+    /* Sửa gì cũng phải đẩy lại. Ảnh thì chỉ đẩy khi nó thật sự đổi —
+       so bằng đúng đối tượng Blob, vì ảnh không đổi được chép nguyên
+       tham chiếu từ bản ghi cũ. */
+    var prev = editingId ? all.filter(function (r) { return r.id === editingId; })[0] : null;
+    rec.syncedAt = 0;
+    rec.photoUrl = prev && prev.photo && rec.photo === prev.photo ? (prev.photoUrl || "") : "";
+
     var keep = $("#keepNext").checked;
 
     store.put(rec).then(function () {
@@ -334,7 +346,11 @@
       if (navigator.storage && navigator.storage.persist) {
         navigator.storage.persist().catch(function () {});
       }
-      return refresh().then(function () { resetForm(keep); });
+      return refresh().then(function () {
+        resetForm(keep);
+        /* Đẩy luôn, nhưng không chờ: lưu được là việc chính đã xong. */
+        if (hasSync()) pushPending(false);
+      });
     }).catch(function (err) {
       showErrors(["Không lưu được: " + (err && err.message ? err.message : err)]);
     });
@@ -394,6 +410,9 @@
     var html = '<article class="brew' + (rec.id === editingId ? " editing" : "") + '">';
     html += '<div class="brew-top">';
     html += '<span class="brew-date">' + esc(C.dateShort(rec.date)) + "</span>";
+    if (hasSync() && !rec.syncedAt) {
+      html += '<span class="sync-dot" title="Chưa đẩy lên Google Sheet">chưa đẩy</span>';
+    }
     html += '<h3 class="brew-name">' + esc(rec.coffee || "Không tên") + "</h3>";
     if (rec.photo) {
       html += '<a class="brew-thumb" href="' + esc(full) + '" target="_blank" rel="noopener">' +
@@ -436,6 +455,7 @@
       list.innerHTML = all.map(card).join("");
     }
     storageInfo();
+    updateSyncUi();
   }
 
   function storageInfo() {
@@ -461,6 +481,192 @@
     return store.all().then(function (rows) {
       all = C.sortRecords(rows.map(C.normalize));
       render();
+    });
+  }
+
+  /* ---------- đồng bộ Google Sheet (tuỳ chọn) ----------
+     Một chiều: máy này đẩy lên Sheet của bạn, không có server của sách ở
+     giữa, và không gửi gì đi khi bạn chưa dán URL + token.
+
+     Ảnh bã đi kèm lần đẩy đầu tiên rồi nằm trong Drive; Sheet giữ URL.
+     Lần đẩy sau (sau khi sửa) không gửi lại ảnh — trừ khi bạn đổi ảnh. */
+
+  function getSync() {
+    try {
+      var raw = localStorage.getItem(SYNC_KEY);
+      var cfg = raw ? JSON.parse(raw) : {};
+      return { url: String(cfg.url || ""), token: String(cfg.token || "") };
+    } catch (e) {
+      return { url: "", token: "" };
+    }
+  }
+
+  function saveSync(url, token) {
+    var cfg = { url: String(url || "").trim(), token: String(token || "").trim() };
+    try {
+      if (!cfg.url && !cfg.token) localStorage.removeItem(SYNC_KEY);
+      else localStorage.setItem(SYNC_KEY, JSON.stringify(cfg));
+    } catch (e) {}
+  }
+
+  function hasSync() {
+    var cfg = getSync();
+    return !!(cfg.url && cfg.token);
+  }
+
+  function syncStatus(text, kind) {
+    var el = $("#syncStatus");
+    if (!el) return;
+    el.textContent = text || "";
+    el.className = "sync-status" + (kind ? " " + kind : "");
+  }
+
+  function updateSyncUi() {
+    var cfg = getSync();
+    var url = $("#syncUrl");
+    var token = $("#syncToken");
+    /* Đừng ghi đè ô đang gõ. */
+    if (url && document.activeElement !== url) url.value = cfg.url;
+    if (token && document.activeElement !== token) token.value = cfg.token;
+
+    var pendingEl = $("#syncPending");
+    if (pendingEl) {
+      var n = all.filter(function (r) { return !r.syncedAt; }).length;
+      pendingEl.textContent = hasSync() ? (n ? n + " chưa đẩy" : "") : "";
+    }
+  }
+
+  function syncPhotoName(rec) {
+    var slug = String(rec.coffee || "ca-phe").toLowerCase()
+      .replace(/đ/g, "d")
+      .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 40);
+    return (C.dateText(rec.date) || "khong-ngay") + "_" + (slug || "ca-phe") + "_ba.jpg";
+  }
+
+  function postSync(payload) {
+    var cfg = getSync();
+    if (!cfg.url) return Promise.reject(new Error("Chưa có URL triển khai."));
+    return fetch(cfg.url, {
+      method: "POST",
+      /* text/plain để trình duyệt không gửi preflight: Apps Script không
+         trả lời OPTIONS. Nội dung vẫn là JSON. */
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify(payload),
+      redirect: "follow"
+    }).then(function (res) {
+      return res.text().then(function (txt) {
+        var data = null;
+        try { data = JSON.parse(txt); } catch (e) {}
+        if (!data) throw new Error("Máy nhận trả về thứ không phải JSON (HTTP " + res.status + ").");
+        if (!res.ok || data.ok !== true) throw new Error(data.error || ("HTTP " + res.status));
+        return data;
+      });
+    });
+  }
+
+  function payloadFor(rec) {
+    var cfg = getSync();
+    var payload = {
+      token: cfg.token,
+      kind: "brew",
+      brew: {
+        id: rec.id,
+        date: rec.date,
+        coffee: rec.coffee,
+        daysOffRoast: rec.daysOffRoast,
+        dose: rec.dose,
+        water: rec.water,
+        ratio: C.ratio(rec.dose, rec.water),
+        temp: rec.temp,
+        grind: rec.grind,
+        brewer: rec.brewer,
+        totalSec: rec.totalSec,
+        drawdownSec: rec.drawdownSec,
+        bed: C.bedLabel(rec.bed),
+        axes: rec.axes,
+        note: rec.note,
+        updatedAt: rec.updatedAt
+      }
+    };
+    if (!rec.photo || rec.photoUrl) return Promise.resolve(payload);
+    return blobToDataUrl(rec.photo).then(function (dataUrl) {
+      payload.brew.photoBase64 = dataUrl;
+      payload.brew.photoName = syncPhotoName(rec);
+      return payload;
+    });
+  }
+
+  function pushOne(rec) {
+    return payloadFor(rec).then(postSync).then(function (data) {
+      rec.syncedAt = Date.now();
+      if (data.photoUrl) rec.photoUrl = data.photoUrl;
+      return store.put(rec);
+    });
+  }
+
+  var pushing = false;
+
+  /* Đẩy hàng chờ theo thứ tự, từng cái một: Apps Script trả lời chậm
+     (1–2 giây), nên bắn song song chỉ làm tăng số lần lỗi. */
+  function pushPending(manual) {
+    var cfg = getSync();
+    if (!cfg.url || !cfg.token) {
+      if (manual) syncStatus("Chưa có URL và token. Dán vào hai ô trên rồi lưu.", "bad");
+      return Promise.resolve({ pushed: 0, failed: 0 });
+    }
+    if (pushing) return Promise.resolve({ pushed: 0, failed: 0 });
+
+    var queue = all.filter(function (r) { return !r.syncedAt; });
+    if (!queue.length) {
+      if (manual) syncStatus("Không còn gì để đẩy.", "ok");
+      return Promise.resolve({ pushed: 0, failed: 0 });
+    }
+
+    pushing = true;
+    var pushed = 0;
+    var failed = 0;
+    var lastErr = "";
+    syncStatus("Đang đẩy 0/" + queue.length + "…");
+
+    var chain = Promise.resolve();
+    queue.forEach(function (rec, i) {
+      chain = chain.then(function () {
+        return pushOne(rec).then(function () {
+          pushed++;
+          syncStatus("Đang đẩy " + (i + 1) + "/" + queue.length + "…");
+        }).catch(function (err) {
+          failed++;
+          lastErr = err && err.message ? err.message : String(err);
+        });
+      });
+    });
+
+    return chain.then(function () {
+      return refresh();
+    }).then(function () {
+      pushing = false;
+      if (failed) syncStatus("Đã đẩy " + pushed + ", còn " + failed + " lỗi: " + lastErr, "bad");
+      else syncStatus("Đã đẩy " + pushed + " lần pha lên Sheet.", "ok");
+      return { pushed: pushed, failed: failed };
+    }).catch(function (err) {
+      pushing = false;
+      syncStatus("Lỗi: " + (err && err.message ? err.message : err), "bad");
+      return { pushed: pushed, failed: failed };
+    });
+  }
+
+  function testSync() {
+    var cfg = getSync();
+    if (!cfg.url || !cfg.token) {
+      syncStatus("Cần cả URL và token.", "bad");
+      return;
+    }
+    syncStatus("Đang kiểm tra…");
+    postSync({ token: cfg.token, kind: "ping" }).then(function (data) {
+      syncStatus("Kết nối được." + (data.sheet ? " Sheet: " + data.sheet : ""), "ok");
+    }).catch(function (err) {
+      syncStatus("Không kết nối được: " + (err && err.message ? err.message : err), "bad");
     });
   }
 
@@ -658,6 +864,22 @@
       else remove(id);
     });
 
+    $("#syncSave").addEventListener("click", function () {
+      saveSync($("#syncUrl").value, $("#syncToken").value);
+      updateSyncUi();
+      syncStatus(hasSync() ? "Đã lưu trên máy này." : "Đã xoá cấu hình đồng bộ.", "ok");
+    });
+    $("#syncTest").addEventListener("click", function () {
+      saveSync($("#syncUrl").value, $("#syncToken").value);
+      updateSyncUi();
+      testSync();
+    });
+    $("#syncPush").addEventListener("click", function () {
+      saveSync($("#syncUrl").value, $("#syncToken").value);
+      updateSyncUi();
+      pushPending(true);
+    });
+
     $("#exportHtml").addEventListener("click", exportBackup);
     $("#exportCsv").addEventListener("click", exportCsv);
     $("#exportTop").addEventListener("click", exportBackup);
@@ -678,7 +900,13 @@
     wire();
     $("#f-date").value = todayIso();
     updateRatio();
-    refresh().catch(function (err) {
+    refresh().then(function () {
+      updateSyncUi();
+      /* Còn hàng chờ từ lần trước — mất mạng, hoặc đóng tab giữa lúc đẩy —
+         thì đẩy lại một lượt. Máy nhận nhận theo id nên đẩy lại không
+         nhân đôi dòng. */
+      if (hasSync()) pushPending(false);
+    }).catch(function (err) {
       showErrors(["Không mở được cơ sở dữ liệu: " + (err && err.message ? err.message : err)]);
     });
   }

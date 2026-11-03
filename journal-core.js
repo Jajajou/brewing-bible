@@ -146,7 +146,11 @@
       axes: { sang: null, day: null, huong: null, hau: null },
       note: "",
       photo: null,
-      thumb: null
+      thumb: null,
+      /* Đồng bộ: 0 = chưa đẩy lên Sheet, >0 = mốc thời gian đã đẩy.
+         photoUrl là link ảnh trong Drive sau khi đẩy lần đầu. */
+      syncedAt: 0,
+      photoUrl: ""
     };
   };
 
@@ -192,6 +196,8 @@
     rec.note = str(raw.note);
     rec.photo = raw.photo === undefined ? null : raw.photo;
     rec.thumb = raw.thumb === undefined ? null : raw.thumb;
+    rec.syncedAt = Math.max(0, Math.round(num(raw.syncedAt) || 0));
+    rec.photoUrl = str(raw.photoUrl);
     return rec;
   };
 

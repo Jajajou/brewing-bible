@@ -194,3 +194,18 @@ test("bản sao: ảnh data URL đi qua và về đúng kiểu chuỗi", () => {
   assert.equal(typeof back.brews[0].photo, "string");
   assert.match(back.brews[0].photo, /^data:image\/jpeg;base64,/);
 });
+
+test("đồng bộ: syncedAt và photoUrl sống sót qua normalize", () => {
+  /* Hai trường này quyết định bản ghi có được đẩy lại không, nên
+     normalize không được nuốt chúng như trường lạ. */
+  const r = C.normalize({
+    date: "2026-11-03", dose: 15, water: 240,
+    syncedAt: "1751600000000",
+    photoUrl: "  https://drive.example/a.jpg  "
+  });
+  assert.equal(r.syncedAt, 1751600000000);
+  assert.equal(r.photoUrl, "https://drive.example/a.jpg");
+
+  assert.equal(C.normalize({}).syncedAt, 0, "bản ghi mới phải ở trạng thái chờ đẩy");
+  assert.equal(C.normalize({ photoUrl: null }).photoUrl, "");
+});
