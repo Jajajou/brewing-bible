@@ -108,6 +108,19 @@ GHI CHÚ: ________________________________
 
 <p>Cách tốt nhất: một cuốn sổ nhỏ và một cây bút, để cạnh máy pha. Viết trong lúc cà đang rút. Bạn đã có 45 giây chờ — dùng nó.</p>
 
+<h3>Bản điện tử, nếu bạn muốn thử</h3>
+
+<p>Cuốn sách này có một trang nhật ký riêng, mở bằng điện thoại: <a href="journal.html">nhật ký pha</a>. Nó là đúng bảy dòng của mẫu trên, thêm một ô chụp ảnh bã và bốn trục vị dạng chọn. Trang tĩnh, không tài khoản, không gọi mạng — dữ liệu nằm trong trình duyệt của chính máy bạn.</p>
+
+<p>Nếu bạn muốn nó sống lâu hơn một lần đổi máy, trang đẩy được từng lần pha lên một Google Sheet của chính bạn, ảnh bã lên Drive, qua một Apps Script bạn tự dựng. Ba bước, khoảng mười lăm phút: <a href="guide.html">hướng dẫn dựng đồng bộ</a>.</p>
+
+<div class="callout warn">
+<p class="callout-title">Đừng để nhật ký chỉ nằm trong một trình duyệt</p>
+<p>Safari trên iOS dọn dữ liệu của trang ít mở sau khoảng bảy ngày. Ghi cả tháng rồi không mở lại là mất sạch. Xuất bản sao hoặc bật đồng bộ là bước bắt buộc, không phải tuỳ chọn.</p>
+</div>
+
+
+
 <h3>Một mẫu tóm tắt cho mỗi bao cà</h3>
 
 <p>Ngoài nhật ký từng lần, hãy có một dòng cho mỗi bao:</p>
