@@ -2948,6 +2948,19 @@ NOTES: ________________________________
 
 <p>The best arrangement: a small notebook and a pen, kept next to the brewer. Write while the coffee is draining. You already have 45 seconds of waiting — use it.</p>
 
+<h3>The electronic version, if you want to try it</h3>
+
+<p>This book has its own log page, made for a phone: <a href="journal.html">the brew log</a>. It is exactly the seven lines above, plus a photo of the bed and the four taste axes as pickers. A static page — no account, no network calls — the data stays in your own browser.</p>
+
+<p>If you want it to outlive a change of phone, the page can push each brew to your own Google Sheet, with bed photos to Drive, through an Apps Script you set up yourself. Three steps, about fifteen minutes: <a href="guide.html">the sync guide</a>.</p>
+
+<div class="callout warn">
+<p class="callout-title">Do not leave the log in one browser</p>
+<p>Safari on iOS clears data for pages it has not opened in about seven days. A month of brews can disappear. Exporting a copy or turning on sync is a required step, not an optional one.</p>
+</div>
+
+
+
 <h3>A one-line summary per bag</h3>
 
 <p>Besides the per-brew log, keep one line for each bag:</p>
