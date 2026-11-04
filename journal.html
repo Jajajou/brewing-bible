@@ -33,6 +33,10 @@ html[data-theme="dark"]{
   --bad:#d97a6f; --ok:#8fb47e;
 }
 *, *::before, *::after{ box-sizing: border-box; }
+/* `hidden` của HTML mặc định chỉ là display:none với độ ưu tiên thấp nhất,
+   nên một quy tắc theo #id có display:block sẽ đè lên nó — ảnh bã chưa có
+   src vẫn hiện ra thành biểu tượng ảnh vỡ kèm dòng alt. */
+[hidden]{ display: none !important; }
 html{ -webkit-text-size-adjust: 100%; }
 body{
   margin: 0; background: var(--bg); color: var(--ink);
