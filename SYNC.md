@@ -6,6 +6,8 @@ Phần đồng bộ dưới đây đẩy mỗi lần pha lên **một Google She
 
 Không có server của cuốn sách ở giữa. Bạn tự dựng máy nhận, trong tài khoản của bạn, mất khoảng 5 phút.
 
+Bản đọc trên web — ba bước có hình dung, câu hỏi hay gặp, và cách xử lý khi hỏng: [guide.html](guide.html). Tệp bạn đang đọc dành cho người sửa code.
+
 ## Ba bước phía Google
 
 **1. Tạo một Google Sheet trống.** Tên gì cũng được. Trong Sheet: **Extensions → Apps Script**.
