@@ -69,6 +69,16 @@ body{
   font-size: 1rem; line-height: 1; display: grid; place-items: center;
 }
 #themeToggle:hover{ border-color: var(--accent-2); }
+/* Nút đổi ngôn ngữ: cùng cỡ với nút giao diện, hiện ngôn ngữ SẼ chuyển
+   sang ("EN" khi đang tiếng Việt), cách của sách — để không phải đoán
+   "VI" nghĩa là gì. */
+#langToggle{
+  border: 1px solid var(--rule); background: var(--surface); color: var(--ink-2);
+  border-radius: var(--radius); min-width: 2.1rem; height: 2.1rem; cursor: pointer;
+  font-family: var(--font-mono); font-size: .75rem; letter-spacing: .04em;
+  line-height: 1; display: grid; place-items: center; padding: 0 .35rem;
+}
+#langToggle:hover{ border-color: var(--accent-2); color: var(--accent); }
 
 main{ max-width: 41rem; margin: 0 auto; padding: 1.1rem 1rem 5rem; }
 .lede{ color: var(--muted); font-size: .9rem; margin: 0 0 1rem; }
@@ -133,6 +143,30 @@ html[data-theme="dark"] .chip input:checked + span{ color: #17130f; }
 .chip input:focus-visible + span{ outline: 2px solid var(--accent); outline-offset: 2px; }
 .axis-row{ margin-bottom: .55rem; }
 .axis-row .lbl{ margin-bottom: .25rem; }
+
+/* bước rót: số thứ tự, mốc thời gian, nước cộng dồn, nút xoá. Một dòng
+   một bước, để thêm bớt không phải sửa cấu trúc gì. */
+.pour-row{
+  display: grid; grid-template-columns: 4.2rem 1fr 1fr auto;
+  gap: .4rem; align-items: center; margin-bottom: .35rem;
+}
+.pour-n{
+  font-family: var(--font-mono); font-size: .75rem; color: var(--muted);
+  font-variant-numeric: tabular-nums; white-space: nowrap;
+  overflow: hidden; text-overflow: ellipsis;
+}
+.pour-row input{ padding: .45rem .5rem; }
+.pour-del{ padding: .25rem .5rem; color: var(--muted); }
+#addPour{ margin-top: .1rem; }
+#pourWarn{ color: var(--bad); }
+.brew-pours{
+  margin: .3rem 0 0; font-family: var(--font-mono); font-size: .78rem;
+  color: var(--ink-2); font-variant-numeric: tabular-nums;
+}
+@media (max-width: 380px){
+  .pour-row{ grid-template-columns: 1fr 1fr auto; }
+  .pour-n{ grid-column: 1 / -1; margin-bottom: -.2rem; }
+}
 
 /* ảnh bã */
 .photo-row{ display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; }
@@ -277,55 +311,64 @@ footer a{ color: var(--accent); }
 <body>
 
 <header class="top">
-  <a class="back" href="./">&larr; Sách</a>
-  <h1>Nhật ký pha</h1>
-  <a class="back" href="guide.html">Hướng dẫn</a>
-  <button id="themeToggle" type="button" aria-label="Đổi giao diện sáng/tối">◐</button>
+  <a class="back" href="./">&larr; <span data-i18n="nav.back">Sách</span></a>
+  <h1 data-i18n="doc.heading">Nhật ký pha</h1>
+  <a class="back" href="guide.html" data-i18n="nav.guide">Hướng dẫn</a>
+  <button id="langToggle" type="button" aria-label="Đổi ngôn ngữ" data-i18n-aria="nav.langAria">EN</button>
+  <button id="themeToggle" type="button" aria-label="Đổi giao diện sáng/tối" data-i18n-aria="nav.themeAria">◐</button>
 </header>
 
 <main>
-  <p class="lede">Bảy dòng của mẫu trong sách, cộng ảnh bã. Ghi xong một lần pha mất khoảng 40 giây.</p>
+  <p class="lede" data-i18n="lede">Bảy dòng của mẫu trong sách, cộng ảnh bã. Ghi xong một lần pha mất khoảng 40 giây.</p>
 
   <p class="local">
-    <span><b>Dữ liệu nằm trong trình duyệt này</b> — không có server nào nhận. Xoá dữ liệu trình duyệt là mất, nên xuất bản sao mỗi tuần.</span>
-    <button type="button" class="link" id="exportTop">Xuất bản sao</button>
+    <span data-i18n-html="local.data"><b>Dữ liệu nằm trong trình duyệt này</b> — không có server nào nhận. Xoá dữ liệu trình duyệt là mất, nên xuất bản sao mỗi tuần.</span>
+    <button type="button" class="link" id="exportTop" data-i18n="local.export">Xuất bản sao</button>
   </p>
 
   <p id="err" role="alert" hidden></p>
 
   <form id="form" novalidate>
     <div class="grid">
-      <label class="field"><span>Ngày</span><input type="date" id="f-date"></label>
-      <label class="field"><span>Ngày sau rang</span><input type="number" id="f-days" min="0" max="400" inputmode="numeric" placeholder="12"></label>
+      <label class="field"><span data-i18n="form.date">Ngày</span><input type="date" id="f-date"></label>
+      <label class="field"><span data-i18n="form.days">Ngày sau rang</span><input type="number" id="f-days" min="0" max="400" inputmode="numeric" placeholder="12"></label>
 
-      <label class="field full"><span>Cà</span><input type="text" id="f-coffee" placeholder="tên, xưởng rang" autocomplete="off"></label>
+      <label class="field full"><span data-i18n="form.coffee">Cà</span><input type="text" id="f-coffee" placeholder="tên, xưởng rang" data-i18n-ph="form.coffeePh" autocomplete="off"></label>
 
-      <label class="field"><span>Cà (g)</span><input type="number" id="f-dose" min="1" step="0.1" inputmode="decimal" placeholder="15"></label>
-      <label class="field"><span>Nước (g)</span><input type="number" id="f-water" min="1" step="1" inputmode="decimal" placeholder="250"></label>
+      <label class="field"><span data-i18n="form.dose">Cà (g)</span><input type="number" id="f-dose" min="1" step="0.1" inputmode="decimal" placeholder="15"></label>
+      <label class="field"><span data-i18n="form.water">Nước (g)</span><input type="number" id="f-water" min="1" step="1" inputmode="decimal" placeholder="250"></label>
 
       <div class="ratio full" id="ratioOut" aria-live="polite">1:—</div>
 
-      <label class="field"><span>Nhiệt (°C)</span><input type="number" id="f-temp" min="0" max="100" inputmode="numeric" placeholder="93"></label>
-      <label class="field"><span>Cỡ xay</span><input type="text" id="f-grind" placeholder="Comandante 22" autocomplete="off"></label>
+      <label class="field"><span data-i18n="form.temp">Nhiệt (°C)</span><input type="number" id="f-temp" min="0" max="100" inputmode="numeric" placeholder="93"></label>
+      <label class="field"><span data-i18n="form.grind">Cỡ xay</span><input type="text" id="f-grind" placeholder="Comandante 22" data-i18n-ph="form.grindPh" autocomplete="off"></label>
 
-      <label class="field"><span>Dụng cụ</span><input type="text" id="f-brewer" placeholder="V60" autocomplete="off"></label>
-      <label class="field"><span>Bã</span>
+      <label class="field"><span data-i18n="form.brewer">Dụng cụ</span><input type="text" id="f-brewer" placeholder="V60" data-i18n-ph="form.brewerPh" autocomplete="off"></label>
+      <label class="field"><span data-i18n="form.bed">Bã</span>
         <span class="chips" style="margin-top:.2rem">
-          <label class="chip"><input type="radio" name="bed" value="deu"><span>Đều</span></label>
-          <label class="chip"><input type="radio" name="bed" value="ho"><span>Có hố</span></label>
-          <label class="chip"><input type="radio" name="bed" value="mang-kho"><span>Mảng khô</span></label>
-          <label class="chip"><input type="radio" name="bed" value="lan"><span>Lẫn</span></label>
+          <label class="chip"><input type="radio" name="bed" value="deu"><span data-i18n="bed.deu">Đều</span></label>
+          <label class="chip"><input type="radio" name="bed" value="ho"><span data-i18n="bed.ho">Có hố</span></label>
+          <label class="chip"><input type="radio" name="bed" value="mang-kho"><span data-i18n="bed.mang-kho">Mảng khô</span></label>
+          <label class="chip"><input type="radio" name="bed" value="lan"><span data-i18n="bed.lan">Lẫn</span></label>
         </span>
       </label>
 
-      <label class="field"><span>Tổng (m:ss)</span><input type="text" id="f-total" placeholder="2:45" autocomplete="off"></label>
-      <label class="field"><span>Rút (m:ss)</span><input type="text" id="f-draw" placeholder="0:45" autocomplete="off"></label>
+      <label class="field"><span data-i18n="form.total">Tổng (m:ss)</span><input type="text" id="f-total" placeholder="2:45" autocomplete="off"></label>
+      <label class="field"><span data-i18n="form.draw">Rút (m:ss)</span><input type="text" id="f-draw" placeholder="0:45" autocomplete="off"></label>
     </div>
 
     <fieldset style="margin-top:1.2rem">
-      <legend>Vị, mỗi trục 1–5</legend>
+      <legend data-i18n="form.poursLegend">Các bước rót (không bắt buộc)</legend>
+      <p class="hint" data-i18n="form.poursHint">Mỗi bước là một mốc thời gian và tổng nước đã rót tính đến mốc đó — đúng con số bạn đọc trên cân. Để trống nếu bạn chỉ muốn ghi tổng và rút.</p>
+      <div id="poursList"></div>
+      <button type="button" class="ghost sm" id="addPour" data-i18n="form.poursAdd">+ Thêm lần rót</button>
+      <p class="hint" id="pourWarn" hidden></p>
+    </fieldset>
+
+    <fieldset style="margin-top:1.2rem">
+      <legend data-i18n="form.axesLegend">Vị, mỗi trục 1–5</legend>
       <div class="axis-row">
-        <span class="lbl">Sáng</span>
+        <span class="lbl" data-i18n="axes.sang">Sáng</span>
         <span class="chips">
           <label class="chip"><input type="radio" name="sang" value=""><span>—</span></label>
           <label class="chip"><input type="radio" name="sang" value="1"><span>1</span></label>
@@ -336,7 +379,7 @@ footer a{ color: var(--accent); }
         </span>
       </div>
       <div class="axis-row">
-        <span class="lbl">Đầy</span>
+        <span class="lbl" data-i18n="axes.day">Đầy</span>
         <span class="chips">
           <label class="chip"><input type="radio" name="day" value=""><span>—</span></label>
           <label class="chip"><input type="radio" name="day" value="1"><span>1</span></label>
@@ -347,7 +390,7 @@ footer a{ color: var(--accent); }
         </span>
       </div>
       <div class="axis-row">
-        <span class="lbl">Hướng</span>
+        <span class="lbl" data-i18n="axes.huong">Hướng</span>
         <span class="chips">
           <label class="chip"><input type="radio" name="huong" value=""><span>—</span></label>
           <label class="chip"><input type="radio" name="huong" value="1"><span>1</span></label>
@@ -358,7 +401,7 @@ footer a{ color: var(--accent); }
         </span>
       </div>
       <div class="axis-row">
-        <span class="lbl">Hậu vị</span>
+        <span class="lbl" data-i18n="axes.hau">Hậu vị</span>
         <span class="chips">
           <label class="chip"><input type="radio" name="hau" value=""><span>—</span></label>
           <label class="chip"><input type="radio" name="hau" value="1"><span>1</span></label>
@@ -368,72 +411,73 @@ footer a{ color: var(--accent); }
           <label class="chip"><input type="radio" name="hau" value="5"><span>5</span></label>
         </span>
       </div>
-      <p class="hint">1 và 5 là hai đầu của thang trong sách: sáng 1 chín/nặng → 5 tươi/nhiều acid; đầy 1 mỏng → 5 tròn; hướng 1 caramel/hạt → 5 trái cây/hoa; hậu vị 1 sạch/ngắn → 5 nặng/dài.</p>
+      <p class="hint" data-i18n="axes.hint">1 và 5 là hai đầu của thang trong sách: sáng 1 chín/nặng → 5 tươi/nhiều acid; đầy 1 mỏng → 5 tròn; hướng 1 caramel/hạt → 5 trái cây/hoa; hậu vị 1 sạch/ngắn → 5 nặng/dài.</p>
     </fieldset>
 
     <label class="field" style="margin-bottom:1rem">
-      <span>Ghi chú (một câu)</span>
-      <textarea id="f-note" rows="2" placeholder="hố ở giữa, fines ở đáy…"></textarea>
+      <span data-i18n="form.note">Ghi chú (một câu)</span>
+      <textarea id="f-note" rows="2" placeholder="hố ở giữa, fines ở đáy…" data-i18n-ph="form.notePh"></textarea>
     </label>
 
     <div class="photo-row">
-      <label class="photo-pick">📷 Chụp bã
+      <label class="photo-pick"><span data-i18n="photo.pick">📷 Chụp bã</span>
         <input type="file" id="f-photo" accept="image/*" capture="environment">
       </label>
-      <button type="button" class="ghost sm" id="clearPhoto" hidden>Xoá ảnh</button>
+      <button type="button" class="ghost sm" id="clearPhoto" hidden data-i18n="photo.clear">Xoá ảnh</button>
       <span id="photoState"></span>
     </div>
-    <img id="photoPreview" alt="Ảnh bã vừa chụp" hidden>
-    <p class="hint" style="margin-top:.4rem">Ảnh được nén tại máy còn cạnh dài 1200 px trước khi lưu. Nhìn phễu sau khi rút — hố, mảng khô trên thành giấy, fines ở đáy. Đó là mục “đọc bã” của sách.</p>
+    <img id="photoPreview" alt="Ảnh bã vừa chụp" data-i18n-alt="photo.alt" hidden>
+    <p class="hint" style="margin-top:.4rem" data-i18n="photo.hint">Ảnh được nén tại máy còn cạnh dài 1200 px trước khi lưu. Nhìn phễu sau khi rút — hố, mảng khô trên thành giấy, fines ở đáy. Đó là mục “đọc bã” của sách.</p>
 
     <div class="actions">
       <button type="submit" id="submitBtn">Lưu lần pha này</button>
-      <button type="button" class="ghost" id="cancelEdit" hidden>Huỷ sửa</button>
-      <label class="keep"><input type="checkbox" id="keepNext" checked> Giữ cà / tỉ lệ / nhiệt / xay</label>
+      <button type="button" class="ghost" id="cancelEdit" hidden data-i18n="actions.cancel">Huỷ sửa</button>
+      <label class="keep"><input type="checkbox" id="keepNext" checked> <span data-i18n="actions.keep">Giữ cà / tỉ lệ / nhiệt / xay / bước rót</span></label>
     </div>
   </form>
 
   <section class="history">
-    <h2>Đã ghi <span id="count"></span> <span class="sync-pending" id="syncPending"></span></h2>
+    <h2><span data-i18n="history.heading">Đã ghi</span> <span id="count"></span> <span class="sync-pending" id="syncPending"></span></h2>
     <div id="list"></div>
     <p class="storage" id="storage"></p>
   </section>
 
   <details class="sync">
-    <summary>Đồng bộ Google Sheet (tuỳ chọn)</summary>
-    <p class="sync-help">Dán URL triển khai và token của bạn. Cấu hình chỉ nằm trên máy này, không nằm trong trang. Cách dựng máy nhận: <a href="guide.html">hướng dẫn</a> · <a href="SYNC.md">bản kỹ thuật</a>.</p>
+    <summary data-i18n="sync.summary">Đồng bộ Google Sheet (tuỳ chọn)</summary>
+    <p class="sync-help" data-i18n-html="sync.help">Dán URL triển khai và token của bạn. Cấu hình chỉ nằm trên máy này, không nằm trong trang. Cách dựng máy nhận: <a href="guide.html">hướng dẫn</a> · <a href="SYNC.md">bản kỹ thuật</a>.</p>
     <div class="sync-grid">
-      <label class="field"><span>Nhật ký của ai</span><input type="text" id="ownerName" placeholder="tên bạn" autocomplete="off"></label>
-      <label class="field"><span>Mã nhật ký này</span><input type="text" id="ownerCode" readonly title="Sinh tự động trong trình duyệt này"></label>
+      <label class="field"><span data-i18n="sync.owner">Nhật ký của ai</span><input type="text" id="ownerName" placeholder="tên bạn" data-i18n-ph="sync.ownerPh" autocomplete="off"></label>
+      <label class="field"><span data-i18n="sync.code">Mã nhật ký này</span><input type="text" id="ownerCode" readonly title="Sinh tự động trong trình duyệt này"></label>
     </div>
-    <p class="sync-help">Tên đi vào cột “Người ghi” trên Sheet. Hai nhật ký đẩy vào cùng một Sheet vẫn biết dòng nào của ai — đây là nhãn, không phải đăng nhập.</p>
+    <p class="sync-help" data-i18n="sync.nameHelp">Tên đi vào cột “Người ghi” trên Sheet. Hai nhật ký đẩy vào cùng một Sheet vẫn biết dòng nào của ai — đây là nhãn, không phải đăng nhập.</p>
     <div class="sync-grid">
-      <label class="field"><span>URL triển khai (kết thúc /exec)</span><input type="text" id="syncUrl" placeholder="https://script.google.com/macros/s/…/exec" autocomplete="off" spellcheck="false"></label>
-      <label class="field"><span>Token</span><input type="password" id="syncToken" placeholder="chuỗi bạn đặt trong Code.gs" autocomplete="off" spellcheck="false"></label>
+      <label class="field"><span data-i18n="sync.url">URL triển khai (kết thúc /exec)</span><input type="text" id="syncUrl" placeholder="https://script.google.com/macros/s/…/exec" autocomplete="off" spellcheck="false"></label>
+      <label class="field"><span data-i18n="sync.token">Token</span><input type="password" id="syncToken" placeholder="chuỗi bạn đặt trong Code.gs" data-i18n-ph="sync.tokenPh" autocomplete="off" spellcheck="false"></label>
     </div>
     <div class="sync-actions">
-      <button type="button" id="syncSave">Lưu cấu hình</button>
-      <button type="button" id="syncTest">Kiểm tra kết nối</button>
-      <button type="button" id="syncPush">Đẩy lên Sheet</button>
+      <button type="button" id="syncSave" data-i18n="sync.save">Lưu cấu hình</button>
+      <button type="button" id="syncTest" data-i18n="sync.test">Kiểm tra kết nối</button>
+      <button type="button" id="syncPush" data-i18n="sync.push">Đẩy lên Sheet</button>
     </div>
     <p class="sync-status" id="syncStatus"></p>
   </details>
 
   <section class="tools">
-    <button type="button" id="exportHtml">Xuất bản sao (.html)</button>
-    <button type="button" id="exportCsv">Xuất CSV</button>
-    <label class="photo-pick" style="border-color:var(--rule);color:var(--ink-2)">Nhập bản sao
+    <button type="button" id="exportHtml" data-i18n="tools.exportHtml">Xuất bản sao (.html)</button>
+    <button type="button" id="exportCsv" data-i18n="tools.exportCsv">Xuất CSV</button>
+    <label class="photo-pick" style="border-color:var(--rule);color:var(--ink-2)"><span data-i18n="tools.import">Nhập bản sao</span>
       <input type="file" id="importFile" accept=".html,.htm,.json,text/html,application/json">
     </label>
-    <p class="note">Bản sao .html tự chứa dữ liệu và ảnh — mở được bằng trình duyệt, nhập lại được. CSV để mở bằng bảng tính: một hàng một lần pha.</p>
+    <p class="note" data-i18n="tools.note">Bản sao .html tự chứa dữ liệu và ảnh — mở được bằng trình duyệt, nhập lại được. CSV để mở bằng bảng tính: một hàng một lần pha.</p>
   </section>
 </main>
 
 <footer>
-  <p>Trang này không gửi gì ra ngoài. Muốn giữ lâu: bấm <b>Xuất bản sao</b> rồi cất tệp đó ở Drive, hoặc gửi cho chính mình. Ảnh bã, cùng tên cà và cỡ xay, là thứ cho bạn biết lần sau nên đổi gì — xem chương “Đọc bã: chẩn đoán bằng mắt” trong <a href="./">sách</a>.</p>
+  <p data-i18n-html="footer.text">Trang này không gửi gì ra ngoài. Muốn giữ lâu: bấm <b>Xuất bản sao</b> rồi cất tệp đó ở Drive, hoặc gửi cho chính mình. Ảnh bã, cùng tên cà và cỡ xay, là thứ cho bạn biết lần sau nên đổi gì — xem chương “Đọc bã: chẩn đoán bằng mắt” trong <a href="./">sách</a>.</p>
 </footer>
 
-<script src="journal-core.js?v=3d7aa96"></script>
-<script src="journal.js?v=3d7aa96"></script>
+<script src="journal-core.js?v=42773a4"></script>
+<script src="journal-i18n.js?v=42773a4"></script>
+<script src="journal.js?v=42773a4"></script>
 </body>
 </html>

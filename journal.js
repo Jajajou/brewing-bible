@@ -19,6 +19,20 @@
   "use strict";
 
   var C = window.JOURNAL_CORE;
+  var I = window.JOURNAL_I18N || null;
+
+  /* Ngôn ngữ giao diện. Dữ liệu thì không đổi theo nó: tiêu đề cột trong
+     CSV và trên Sheet giữ tiếng Việt, để hai người khác ngôn ngữ vẫn so
+     sánh được cùng một bảng. */
+  var lang = "vi";
+
+  /* Mọi chuỗi động đi qua đây. Tệp strings không tải được thì câu tiếng
+     Việt in sẵn trong HTML vẫn còn; chỉ thông báo động là trống — lỗi
+     cài đặt, không phải lỗi dữ liệu. */
+  function t(key, vars) {
+    return I && I.t ? I.t(lang, key, vars) : "";
+  }
+
   if (!C) {
     document.body.innerHTML = '<p style="font:16px system-ui;padding:2rem">Thiếu journal-core.js.</p>';
     return;
@@ -162,6 +176,127 @@
     });
   }
 
+  /* ---------- bước rót ----------
+     Không bắt buộc: mở form ra là danh sách trống. Người dùng bấm "+ Thêm
+     lần rót" nếu muốn ghi công thức của mình; phần lớn lần pha chỉ có bảy
+     dòng và không chạm vào đây. Không bơm sẵn ba bước của sách: dòng có sẵn
+     sẽ bị đọc là dữ liệu đã ghi, và Sheet sẽ đầy công thức chưa ai pha. */
+
+  function pourRows() {
+    return $$("#poursList .pour-row");
+  }
+
+  /* Chuỗi thô, không phải số: người dùng còn đang gõ thì "0:" phải nằm
+     nguyên trong ô, không bị cắt thành 0. */
+  function pourValues() {
+    return pourRows().map(function (row) {
+      return {
+        t: row.querySelector(".pour-time").value,
+        w: row.querySelector(".pour-water").value
+      };
+    });
+  }
+
+  function pourRow(p) {
+    var row = document.createElement("div");
+    row.className = "pour-row";
+
+    var n = document.createElement("span");
+    n.className = "pour-n";
+
+    var time = document.createElement("input");
+    time.type = "text";
+    time.className = "pour-time";
+    time.autocomplete = "off";
+    time.inputMode = "numeric";
+    time.addEventListener("input", function () { paintPourHints(); });
+
+    var water = document.createElement("input");
+    water.type = "number";
+    water.className = "pour-water";
+    water.min = "0";
+    water.step = "1";
+    water.inputMode = "decimal";
+    water.addEventListener("input", function () { paintPourHints(); });
+
+    var del = document.createElement("button");
+    del.type = "button";
+    del.className = "ghost sm pour-del";
+    del.textContent = "✕";
+    del.addEventListener("click", function () {
+      row.remove();
+      paintPourHints();
+    });
+
+    time.value = p && p.t !== undefined && p.t !== null ? String(p.t) : "";
+    water.value = p && p.w !== undefined && p.w !== null ? String(p.w) : "";
+
+    row.appendChild(n);
+    row.appendChild(time);
+    row.appendChild(water);
+    row.appendChild(del);
+    return row;
+  }
+
+  /* Vẽ lại cả danh sách: số thứ tự, placeholder và aria đều phụ thuộc
+     ngôn ngữ, nên đổi ngôn ngữ cũng gọi hàm này. Giá trị đang gõ được
+     đọc ra trước rồi đưa vào lại, nên không mất chữ nào. */
+  function renderPours(list) {
+    var box = $("#poursList");
+    if (!box) return;
+    box.innerHTML = "";
+    (Array.isArray(list) ? list : []).forEach(function (p) {
+      box.appendChild(pourRow(p));
+    });
+    paintPourHints();
+  }
+
+  function relabelPours() {
+    pourRows().forEach(function (row, i) {
+      var n = i + 1;
+      row.querySelector(".pour-n").textContent = t("form.pourRow", { n: n });
+      var time = row.querySelector(".pour-time");
+      var water = row.querySelector(".pour-water");
+      time.placeholder = t("form.pourTimePh");
+      water.placeholder = t("form.pourWaterPh");
+      time.setAttribute("aria-label", t("form.pourTimeAria", { n: n }));
+      water.setAttribute("aria-label", t("form.pourWaterAria", { n: n }));
+      row.querySelector(".pour-del").setAttribute("aria-label", t("form.pourRemoveAria", { n: n }));
+    });
+  }
+
+  /* Hai loại nhắc, cùng một chỗ, không loại nào chặn lưu:
+       - dòng đang gõ dở (sẽ bị bỏ khi lưu) — nhắc ngay khi gõ;
+       - bước lệch thứ tự hoặc vượt tổng nước — nhắc sau khi bấm Lưu. */
+  function paintPourHints(issues) {
+    var el = $("#pourWarn");
+    if (!el) return;
+    relabelPours();
+
+    var parts = [];
+    pourRows().forEach(function (row, i) {
+      var tv = row.querySelector(".pour-time").value.trim();
+      var wv = row.querySelector(".pour-water").value.trim();
+      if (!tv && !wv) return;
+      var tOk = C.parseTime(tv) !== null;
+      var wNum = parseFloat(String(wv).replace(",", "."));
+      var wOk = wv !== "" && isFinite(wNum) && wNum > 0;
+      if (!tOk || !wOk) parts.push(t("form.poursIncomplete", { n: i + 1 }));
+    });
+
+    (issues || []).forEach(function (it) {
+      parts.push(t(it.code, { n: it.n }));
+    });
+
+    if (!parts.length) {
+      el.hidden = true;
+      el.textContent = "";
+      return;
+    }
+    el.hidden = false;
+    el.textContent = parts.join(" ");
+  }
+
   /* ---------- form ---------- */
 
   function checkedValue(name) {
@@ -219,7 +354,8 @@
           water: $("#f-water").value,
           temp: $("#f-temp").value,
           grind: $("#f-grind").value,
-          brewer: $("#f-brewer").value
+          brewer: $("#f-brewer").value,
+          pours: pourValues()
         }
       : null;
 
@@ -237,6 +373,10 @@
     }
     $("#keepNext").checked = true;
 
+    /* Bước rót cũng được giữ: cả điểm của nhật ký là lặp lại một công thức,
+       gõ lại ba dòng mỗi lần thì không ai gõ. */
+    renderPours(keep ? keep.pours : []);
+
     editingId = "";
     editingCreatedAt = 0;
     editingPhoto = null;
@@ -246,7 +386,7 @@
     photoCleared = false;
     $("#f-photo").value = "";
     setPhotoPreview(null);
-    $("#submitBtn").textContent = "Lưu lần pha này";
+    $("#submitBtn").textContent = t("actions.save");
     $("#cancelEdit").hidden = true;
     showErrors(null);
     updateRatio();
@@ -281,8 +421,11 @@
     setChecked("huong", rec.axes.huong === null ? "" : rec.axes.huong);
     setChecked("hau", rec.axes.hau === null ? "" : rec.axes.hau);
     setPhotoPreview(rec.thumb || rec.photo || null);
+    renderPours((rec.pours || []).map(function (p) {
+      return { t: C.timeText(p.t), w: p.w };
+    }));
 
-    $("#submitBtn").textContent = "Cập nhật";
+    $("#submitBtn").textContent = t("actions.update");
     $("#cancelEdit").hidden = false;
     showErrors(null);
     updateRatio();
@@ -310,7 +453,8 @@
         huong: checkedValue("huong"),
         hau: checkedValue("hau")
       },
-      note: $("#f-note").value
+      note: $("#f-note").value,
+      pours: pourValues()
     });
   }
 
@@ -322,12 +466,18 @@
   function save(ev) {
     if (ev) ev.preventDefault();
     var rec = collect();
-    var errs = C.validate(rec);
+    /* validateCodes trả MÃ lỗi, câu hiển thị nằm ở journal-i18n.js. Bản
+       chỉ-có-câu-tiếng-Việt vẫn dùng được nếu tệp strings không tải. */
+    var errs = C.validateCodes
+      ? C.validateCodes(rec).map(function (e) { return t(e.code, { ratio: e.ratio }); })
+      : C.validate(rec);
     if (errs.length) {
       showErrors(errs);
+      paintPourHints(C.pourIssues(rec));
       return;
     }
     showErrors(null);
+    paintPourHints(C.pourIssues(rec));
 
     rec.id = editingId || uid();
     rec.createdAt = editingId ? editingCreatedAt : Date.now();
@@ -363,20 +513,20 @@
         if (hasSync()) pushPending(false);
       });
     }).catch(function (err) {
-      showErrors(["Không lưu được: " + (err && err.message ? err.message : err)]);
+      showErrors([t("err.save", { err: err && err.message ? err.message : err })]);
     });
   }
 
   function remove(id) {
     var rec = all.filter(function (r) { return r.id === id; })[0];
     if (!rec) return;
-    var label = (rec.coffee || "lần pha") + " · " + C.dateShort(rec.date);
-    if (!window.confirm("Xoá " + label + "?")) return;
+    var label = (rec.coffee || t("confirm.brew")) + " · " + C.dateShort(rec.date);
+    if (!window.confirm(t("confirm.delete", { label: label }))) return;
     store.del(id).then(function () {
       if (editingId === id) resetForm(false);
       return refresh();
     }).catch(function (err) {
-      showErrors(["Không xoá được: " + (err && err.message ? err.message : err)]);
+      showErrors([t("err.delete", { err: err && err.message ? err.message : err })]);
     });
   }
 
@@ -395,9 +545,9 @@
     if (rec.temp !== null) bits.push(rec.temp + " °C");
     if (rec.grind) bits.push(esc(rec.grind));
     if (rec.brewer) bits.push(esc(rec.brewer));
-    if (rec.totalSec !== null) bits.push(C.timeText(rec.totalSec) + " tổng");
-    if (rec.drawdownSec !== null) bits.push(C.timeText(rec.drawdownSec) + " rút");
-    if (rec.daysOffRoast !== null) bits.push(rec.daysOffRoast + " ngày sau rang");
+    if (rec.totalSec !== null) bits.push(C.timeText(rec.totalSec) + " " + t("card.total"));
+    if (rec.drawdownSec !== null) bits.push(C.timeText(rec.drawdownSec) + " " + t("card.draw"));
+    if (rec.daysOffRoast !== null) bits.push(rec.daysOffRoast + " " + t("card.days"));
     return bits.join(" · ");
   }
 
@@ -422,16 +572,17 @@
     html += '<div class="brew-top">';
     html += '<span class="brew-date">' + esc(C.dateShort(rec.date)) + "</span>";
     if (hasSync() && !rec.syncedAt) {
-      html += '<span class="sync-dot" title="Chưa đẩy lên Google Sheet">chưa đẩy</span>';
+      html += '<span class="sync-dot" title="' + esc(t("card.unsyncedTitle")) + '">' +
+        esc(t("card.unsynced")) + "</span>";
     }
     if (!isMine(rec)) {
-      html += '<span class="owner-dot" title="Ghi ở nhật ký khác, không phải máy này">' +
-        esc(rec.ownerName || ("nhật ký " + C.ownerCode(rec.ownerId))) + "</span>";
+      html += '<span class="owner-dot" title="' + esc(t("card.otherTitle")) + '">' +
+        esc(rec.ownerName || t("card.other", { code: C.ownerCode(rec.ownerId) })) + "</span>";
     }
-    html += '<h3 class="brew-name">' + esc(rec.coffee || "Không tên") + "</h3>";
+    html += '<h3 class="brew-name">' + esc(rec.coffee || t("card.noName")) + "</h3>";
     if (rec.photo) {
       html += '<a class="brew-thumb" href="' + esc(full) + '" target="_blank" rel="noopener">' +
-        '<img src="' + esc(url) + '" alt="Bã sau khi pha" loading="lazy"></a>';
+        '<img src="' + esc(url) + '" alt="' + esc(t("photo.listAlt")) + '" loading="lazy"></a>';
     }
     html += "</div>";
 
@@ -439,18 +590,24 @@
       html += '<p class="brew-ratio">' + esc(C.ratioText(rec.dose, rec.water, ",")) + "</p>";
     }
     if (facts(rec)) html += '<p class="brew-facts">' + facts(rec) + "</p>";
-    if (rec.bed) html += '<p class="brew-bed">Bã: <b>' + esc(C.bedLabel(rec.bed)) + "</b></p>";
+    if (rec.bed) {
+      html += '<p class="brew-bed">' + esc(t("card.bedPrefix")) + "<b>" + esc(t("bed." + rec.bed)) + "</b></p>";
+    }
+    var pourLine = C.poursText(rec.pours);
+    if (pourLine) {
+      html += '<p class="brew-pours">' + esc(t("card.poursPrefix")) + esc(pourLine) + "</p>";
+    }
 
     if (rec.axes.sang !== null || rec.axes.day !== null || rec.axes.huong !== null || rec.axes.hau !== null) {
       html += '<p class="brew-axes">' +
-        axisChip("Sáng", rec.axes.sang) + axisChip("Đầy", rec.axes.day) +
-        axisChip("Hướng", rec.axes.huong) + axisChip("Hậu vị", rec.axes.hau) + "</p>";
+        axisChip(t("axes.sang"), rec.axes.sang) + axisChip(t("axes.day"), rec.axes.day) +
+        axisChip(t("axes.huong"), rec.axes.huong) + axisChip(t("axes.hau"), rec.axes.hau) + "</p>";
     }
     if (rec.note) html += '<p class="brew-note">' + esc(rec.note) + "</p>";
 
     html += '<p class="brew-actions">' +
-      '<button type="button" class="ghost sm" data-act="edit" data-id="' + esc(rec.id) + '">Sửa</button>' +
-      '<button type="button" class="ghost sm danger" data-act="del" data-id="' + esc(rec.id) + '">Xoá</button>' +
+      '<button type="button" class="ghost sm" data-act="edit" data-id="' + esc(rec.id) + '">' + esc(t("actions.edit")) + "</button>" +
+      '<button type="button" class="ghost sm danger" data-act="del" data-id="' + esc(rec.id) + '">' + esc(t("actions.delete")) + "</button>" +
       "</p>";
     html += "</article>";
     return html;
@@ -462,10 +619,10 @@
 
     var list = $("#list");
     var n = all.length;
-    $("#count").textContent = n ? n + " lần" : "";
+    $("#count").textContent = n ? t("history.count", { n: n }) : "";
 
     if (!n) {
-      list.innerHTML = '<p class="empty">Chưa có lần nào. Lần đầu mất khoảng 40 giây — bảy dòng như mẫu trong sách.</p>';
+      list.innerHTML = '<p class="empty">' + esc(t("history.empty")) + "</p>";
     } else {
       list.innerHTML = all.map(card).join("");
     }
@@ -482,7 +639,7 @@
     }
     navigator.storage.estimate().then(function (est) {
       var used = est.usage || 0;
-      el.textContent = "Đang dùng " + sizeText(used) + " trong bộ nhớ của trình duyệt này.";
+      el.textContent = t("storage.using", { size: sizeText(used) });
     }).catch(function () { el.textContent = ""; });
   }
 
@@ -578,7 +735,7 @@
     var pendingEl = $("#syncPending");
     if (pendingEl) {
       var n = all.filter(function (r) { return !r.syncedAt; }).length;
-      pendingEl.textContent = hasSync() ? (n ? n + " chưa đẩy" : "") : "";
+      pendingEl.textContent = hasSync() ? (n ? t("sync.pendingCount", { n: n }) : "") : "";
     }
   }
 
@@ -592,7 +749,7 @@
 
   function postSync(payload) {
     var cfg = getSync();
-    if (!cfg.url) return Promise.reject(new Error("Chưa có URL triển khai."));
+    if (!cfg.url) return Promise.reject(new Error(t("sync.noUrl")));
     return fetch(cfg.url, {
       method: "POST",
       /* text/plain để trình duyệt không gửi preflight: Apps Script không
@@ -632,6 +789,7 @@
         bed: C.bedLabel(rec.bed),
         axes: rec.axes,
         note: rec.note,
+        pours: C.poursText(rec.pours),
         updatedAt: rec.updatedAt,
         ownerId: rec.ownerId,
         ownerName: rec.ownerName
@@ -660,14 +818,14 @@
   function pushPending(manual) {
     var cfg = getSync();
     if (!cfg.url || !cfg.token) {
-      if (manual) syncStatus("Chưa có URL và token. Dán vào hai ô trên rồi lưu.", "bad");
+      if (manual) syncStatus(t("sync.needCfg"), "bad");
       return Promise.resolve({ pushed: 0, failed: 0 });
     }
     if (pushing) return Promise.resolve({ pushed: 0, failed: 0 });
 
     var queue = all.filter(function (r) { return !r.syncedAt; });
     if (!queue.length) {
-      if (manual) syncStatus("Không còn gì để đẩy.", "ok");
+      if (manual) syncStatus(t("sync.nothing"), "ok");
       return Promise.resolve({ pushed: 0, failed: 0 });
     }
 
@@ -675,14 +833,14 @@
     var pushed = 0;
     var failed = 0;
     var lastErr = "";
-    syncStatus("Đang đẩy 0/" + queue.length + "…");
+    syncStatus(t("sync.pushingStart", { n: queue.length }));
 
     var chain = Promise.resolve();
     queue.forEach(function (rec, i) {
       chain = chain.then(function () {
         return pushOne(rec).then(function () {
           pushed++;
-          syncStatus("Đang đẩy " + (i + 1) + "/" + queue.length + "…");
+          syncStatus(t("sync.pushing", { i: i + 1, n: queue.length }));
         }).catch(function (err) {
           failed++;
           lastErr = err && err.message ? err.message : String(err);
@@ -694,12 +852,12 @@
       return refresh();
     }).then(function () {
       pushing = false;
-      if (failed) syncStatus("Đã đẩy " + pushed + ", còn " + failed + " lỗi: " + lastErr, "bad");
-      else syncStatus("Đã đẩy " + pushed + " lần pha lên Sheet.", "ok");
+      if (failed) syncStatus(t("sync.pushedSome", { pushed: pushed, failed: failed, err: lastErr }), "bad");
+      else syncStatus(t("sync.pushed", { n: pushed }), "ok");
       return { pushed: pushed, failed: failed };
     }).catch(function (err) {
       pushing = false;
-      syncStatus("Lỗi: " + (err && err.message ? err.message : err), "bad");
+      syncStatus(t("sync.error", { err: err && err.message ? err.message : err }), "bad");
       return { pushed: pushed, failed: failed };
     });
   }
@@ -707,14 +865,14 @@
   function testSync() {
     var cfg = getSync();
     if (!cfg.url || !cfg.token) {
-      syncStatus("Cần cả URL và token.", "bad");
+      syncStatus(t("sync.needBoth"), "bad");
       return;
     }
-    syncStatus("Đang kiểm tra…");
+    syncStatus(t("sync.checking"));
     postSync({ token: cfg.token, kind: "ping" }).then(function (data) {
-      syncStatus("Kết nối được." + (data.sheet ? " Sheet: " + data.sheet : ""), "ok");
+      syncStatus(data.sheet ? t("sync.connectedSheet", { sheet: data.sheet }) : t("sync.connected"), "ok");
     }).catch(function (err) {
-      syncStatus("Không kết nối được: " + (err && err.message ? err.message : err), "bad");
+      syncStatus(t("sync.connectFail", { err: err && err.message ? err.message : err }), "bad");
     });
   }
 
@@ -756,7 +914,7 @@
 
   function exportCsv() {
     if (!all.length) {
-      showErrors(["Chưa có lần pha nào để xuất."]);
+      showErrors([t("err.exportNone")]);
       return;
     }
     /* BOM để Excel nhận ra UTF-8; thiếu nó thì "Cà phê" thành "CÃ phÃª". */
@@ -765,12 +923,12 @@
 
   function exportBackup() {
     if (!all.length) {
-      showErrors(["Chưa có lần pha nào để xuất."]);
+      showErrors([t("err.exportNone")]);
       return;
     }
     var btn = $("#exportHtml");
     btn.disabled = true;
-    btn.textContent = "Đang đóng gói…";
+    btn.textContent = t("export.busy");
 
     var jobs = all.map(function (rec) {
       if (!rec.photo) return Promise.resolve(rec);
@@ -787,10 +945,10 @@
       var html = C.buildBackup(records, { exportedAt: new Date().toISOString() });
       download("nhat-ky-" + stamp() + ".html", html, "text/html;charset=utf-8");
     }).catch(function (err) {
-      showErrors(["Không xuất được: " + (err && err.message ? err.message : err)]);
+      showErrors([t("err.export", { err: err && err.message ? err.message : err })]);
     }).then(function () {
       btn.disabled = false;
-      btn.textContent = "Xuất bản sao (.html)";
+      btn.textContent = t("tools.exportHtml");
     });
   }
 
@@ -802,7 +960,9 @@
       try {
         data = C.readBackup(reader.result);
       } catch (err) {
-        showErrors([err.message]);
+        /* journal-core gắn mã cho hai lỗi đọc tệp; mã thì dịch được, câu
+           trong lõi là tiếng Việt. */
+        showErrors([err.code ? t("err." + err.code) : err.message]);
         return;
       }
       var known = {};
@@ -840,13 +1000,71 @@
         return refresh();
       }).then(function () {
         showErrors(null);
-        alert("Đã nhập " + added + " lần pha" + (skipped ? ", bỏ qua " + skipped + " bản đã có" : "") + ".");
+        alert(skipped
+          ? t("alert.importedSkipped", { n: added, skipped: skipped })
+          : t("alert.imported", { n: added }));
       }).catch(function (err) {
-        showErrors(["Không nhập được: " + (err && err.message ? err.message : err)]);
+        showErrors([t("err.importFail", { err: err && err.message ? err.message : err })]);
       });
     };
-    reader.onerror = function () { showErrors(["Không đọc được tệp."]); };
+    reader.onerror = function () { showErrors([t("err.importRead")]); };
     reader.readAsText(file, "utf-8");
+  }
+
+  /* ---------- ngôn ngữ ----------
+     Đổi nhãn thì không đụng dữ liệu: input giữ nguyên giá trị, bản ghi
+     không bị đọc lại, IndexedDB không bị mở. Chỉ chữ đổi. */
+
+  function paintLang() {
+    document.documentElement.setAttribute("lang", lang);
+    document.title = t("doc.title");
+    var md = document.querySelector('meta[name="description"]');
+    if (md) md.setAttribute("content", t("doc.desc"));
+
+    $$("[data-i18n]").forEach(function (el) {
+      el.textContent = t(el.getAttribute("data-i18n"));
+    });
+    $$("[data-i18n-html]").forEach(function (el) {
+      el.innerHTML = t(el.getAttribute("data-i18n-html"));
+    });
+    $$("[data-i18n-ph]").forEach(function (el) {
+      el.setAttribute("placeholder", t(el.getAttribute("data-i18n-ph")));
+    });
+    $$("[data-i18n-aria]").forEach(function (el) {
+      el.setAttribute("aria-label", t(el.getAttribute("data-i18n-aria")));
+    });
+    $$("[data-i18n-alt]").forEach(function (el) {
+      el.setAttribute("alt", t(el.getAttribute("data-i18n-alt")));
+    });
+
+    var btn = $("#langToggle");
+    if (btn) {
+      btn.textContent = t("nav.langOther");
+      btn.setAttribute("aria-label", t("nav.langAria"));
+      btn.setAttribute("title", t("nav.langAria"));
+    }
+
+    var submit = $("#submitBtn");
+    if (submit) submit.textContent = editingId ? t("actions.update") : t("actions.save");
+
+    paintPourHints();
+  }
+
+  function setLang(next) {
+    lang = next === "en" ? "en" : "vi";
+    try { localStorage.setItem("nuocba.lang", lang); } catch (e) {}
+    paintLang();
+    showErrors(null);
+    render();
+  }
+
+  function initLang() {
+    var q = "";
+    try { q = new URLSearchParams(location.search).get("lang") || ""; } catch (e) {}
+    var saved = "";
+    try { saved = localStorage.getItem("nuocba.lang") || ""; } catch (e) {}
+    lang = I && I.pickLang ? I.pickLang(q, saved, navigator.language) : "vi";
+    paintLang();
   }
 
   /* ---------- giao diện tối ---------- */
@@ -877,6 +1095,18 @@
 
   function wire() {
     $("#form").addEventListener("submit", save);
+
+    $("#langToggle").addEventListener("click", function () {
+      setLang(lang === "vi" ? "en" : "vi");
+    });
+
+    $("#addPour").addEventListener("click", function () {
+      $("#poursList").appendChild(pourRow({}));
+      paintPourHints();
+      var rows = pourRows();
+      var last = rows[rows.length - 1];
+      if (last) last.querySelector(".pour-time").focus();
+    });
     $("#f-dose").addEventListener("input", updateRatio);
     $("#f-water").addEventListener("input", updateRatio);
 
@@ -892,7 +1122,7 @@
     $("#f-photo").addEventListener("change", function (ev) {
       var file = ev.target.files && ev.target.files[0];
       if (!file) return;
-      $("#photoState").textContent = "Đang nén…";
+      $("#photoState").textContent = t("photo.compressing");
       compressPhoto(file).then(function (out) {
         pendingPhoto = out.photo;
         pendingThumb = out.thumb;
@@ -901,7 +1131,7 @@
         $("#photoState").textContent = Math.round(out.photo.size / 1024) + " KB";
       }).catch(function (err) {
         $("#photoState").textContent = "";
-        showErrors(["Ảnh không dùng được: " + (err && err.message ? err.message : err)]);
+        showErrors([t("err.photo", { err: err && err.message ? err.message : err })]);
       });
     });
 
@@ -925,7 +1155,7 @@
     $("#syncSave").addEventListener("click", function () {
       saveSync($("#syncUrl").value, $("#syncToken").value);
       updateSyncUi();
-      syncStatus(hasSync() ? "Đã lưu trên máy này." : "Đã xoá cấu hình đồng bộ.", "ok");
+      syncStatus(hasSync() ? t("sync.savedLocal") : t("sync.clearedCfg"), "ok");
     });
     $("#syncTest").addEventListener("click", function () {
       saveSync($("#syncUrl").value, $("#syncToken").value);
@@ -954,6 +1184,7 @@
       document.body.innerHTML = '<p style="font:16px system-ui;padding:2rem">Trình duyệt này không có IndexedDB, nên trang nhật ký không lưu được. Dùng Chrome, Safari hoặc Firefox bản mới.</p>';
       return;
     }
+    initLang();
     initTheme();
     wire();
     $("#f-date").value = todayIso();
@@ -965,7 +1196,7 @@
          nhân đôi dòng. */
       if (hasSync()) pushPending(false);
     }).catch(function (err) {
-      showErrors(["Không mở được cơ sở dữ liệu: " + (err && err.message ? err.message : err)]);
+      showErrors([t("err.db", { err: err && err.message ? err.message : err })]);
     });
   }
 

@@ -2950,7 +2950,7 @@ NOTES: ________________________________
 
 <h3>The electronic version, if you want to try it</h3>
 
-<p>This book has its own log page, made for a phone: <a href="journal.html">the brew log</a>. It is exactly the seven lines above, plus a photo of the bed and the four taste axes as pickers. A static page — no account, no network calls — the data stays in your own browser.</p>
+<p>This book has its own log page, made for a phone: <a href="journal.html">the brew log</a>. It is exactly the seven lines above, plus a photo of the bed and the four taste axes as pickers. The fuller template adds pour steps too: one time mark and one cumulative water figure per step, as many or as few as you like, or none at all. A static page — no account, no network calls — the data stays in your own browser.</p>
 
 <p>If you want it to outlive a change of phone, the page can push each brew to your own Google Sheet, with bed photos to Drive, through an Apps Script you set up yourself. Three steps, about fifteen minutes: <a href="guide.html">the sync guide</a>.</p>
 

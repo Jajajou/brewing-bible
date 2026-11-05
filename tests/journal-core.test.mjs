@@ -136,7 +136,7 @@ test("toCsv: một hàng một lần pha, thập phân dùng dấu chấm", () =
   assert.equal(lines.length, 2);
   assert.match(lines[0], /^Ngày,Cà,Ngày sau rang,Cà \(g\),Nước \(g\),Tỉ lệ/);
   assert.match(lines[1], /^2026-11-03,Guji,,15,250,16.7,93,/);
-  assert.match(lines[1], /,Đều,4,3,5,2,mơ,$/);
+  assert.match(lines[1], /,Đều,4,3,5,2,mơ,,$/);
 });
 
 test("toCsv: ô có dấu phẩy, dấu nháy, xuống dòng đều được bọc", () => {
@@ -208,6 +208,83 @@ test("đồng bộ: syncedAt và photoUrl sống sót qua normalize", () => {
 
   assert.equal(C.normalize({}).syncedAt, 0, "bản ghi mới phải ở trạng thái chờ đẩy");
   assert.equal(C.normalize({ photoUrl: null }).photoUrl, "");
+});
+
+test("bước rót: normalize bỏ dòng dở, sắp theo thời gian, bỏ số vô lý", () => {
+  const r = C.normalize({
+    pours: [
+      { t: "1:30", w: "250" },
+      { t: "0:00", w: "30" },
+      { t: "0:45" },            /* thiếu nước */
+      { t: "0:50", w: 0 },      /* nước bằng 0 */
+      { t: "", w: "90" },      /* thiếu giờ */
+      { t: "0:45", w: "120" },
+      "rác"
+    ]
+  });
+  assert.deepEqual(r.pours, [{ t: 0, w: 30 }, { t: 45, w: 120 }, { t: 90, w: 250 }]);
+});
+
+test("bước rót: không bắt buộc, mặc định rỗng", () => {
+  assert.deepEqual(C.normalize({ date: "2026-11-03", dose: 15, water: 240 }).pours, []);
+  assert.deepEqual(C.normalize({ pours: "không phải mảng" }).pours, []);
+  assert.deepEqual(C.normalize({ pours: [] }).pours, []);
+});
+
+test("bước rót: poursText gói thành một ô cho bảng tính", () => {
+  assert.equal(C.poursText([{ t: 0, w: 30 }, { t: 45, w: 120 }]), "0:00/30 · 0:45/120");
+  assert.equal(C.poursText([]), "");
+  assert.equal(C.poursText(null), "");
+});
+
+test("bước rót: pourIssues nhắc, không chặn", () => {
+  assert.deepEqual(
+    C.pourIssues(C.normalize({ water: 250, pours: [{ t: 0, w: 60 }, { t: 45, w: 150 }] })),
+    []
+  );
+  const bad = C.pourIssues({ water: 250, pours: [{ t: 30, w: 300 }, { t: 30, w: 300 }] })
+    .map(function (e) { return e.code; });
+  assert.deepEqual(bad.sort(), ["pour.over", "pour.time", "pour.water"]);
+
+  /* Bước sai vẫn được lưu: dòng gõ nhầm lúc tay ướt không được làm mất
+     cả lần pha. */
+  assert.equal(C.normalize({ water: 250, pours: [{ t: 30, w: 300 }] }).pours.length, 1);
+});
+
+test("bước rót: CSV có cột riêng ở cuối, một hàng một lần pha", () => {
+  const csv = C.toCsv([
+    C.normalize({
+      date: "2026-11-03", dose: 15, water: 250,
+      pours: [{ t: 0, w: 30 }, { t: 45, w: 120 }]
+    })
+  ]);
+  const lines = csv.trim().split("\r\n");
+  assert.match(lines[0], /,Các bước$/);
+  assert.match(lines[1], /,0:00\/30 · 0:45\/120$/);
+});
+
+test("bước rót: bản sao giữ nguyên từng bước", () => {
+  const rec = C.normalize({ date: "2026-11-03", dose: 15, water: 250, pours: [{ t: "0:45", w: "120" }] });
+  const back = C.readBackup(C.buildBackup([rec]));
+  assert.deepEqual(back.brews[0].pours, [{ t: 45, w: 120 }]);
+});
+
+test("validate: câu tiếng Việt khớp bộ mã, không lệch chữ", () => {
+  const rec = C.normalize({ coffee: "chỉ tên" });
+  const fromCodes = C.validateCodes(rec).map(function (e) {
+    return C.VALIDATE_VI[e.code].replace("{ratio}", e.ratio || "");
+  });
+  assert.deepEqual(C.validate(rec), fromCodes);
+  assert.equal(fromCodes.length, 3);
+});
+
+test("readBackup: lỗi có mã để dịch, câu vẫn là tiếng Việt", () => {
+  assert.throws(() => C.readBackup("không phải json"), function (e) {
+    return e.code === "backupJson" && /JSON/.test(e.message);
+  });
+  assert.throws(() => C.readBackup('{"a":1}'), function (e) {
+    return e.code === "backupNoBrews";
+  });
 });
 
 test("định danh: mã và tên người ghi đi qua normalize", () => {
