@@ -61,7 +61,7 @@ Trang không có đăng nhập, nên "của ai" được trả lời bằng dữ
 
 ## Cái gì rơi vào đâu
 
-- **Sheet "Nhật ký pha"** — một hàng một lần pha, đúng thứ tự cột trong `HEADER` của `Code.gs`: id, ngày, cà, ngày sau rang, cà/nước, tỉ lệ, nhiệt, xay, dụng cụ, tổng/rút (giây), bã, bốn trục vị, ghi chú, **URL ảnh**, mốc cập nhật, mã nhật ký, tên người ghi. Tự tạo khi lần đẩy đầu tiên chạy; sheet đã có từ trước thì hai cột mới được điền tiêu đề vào lần đẩy kế tiếp, không phải tạo lại sheet.
+- **Sheet "Nhật ký pha"** — một hàng một lần pha, đúng thứ tự cột trong `HEADER` của `Code.gs`: id, ngày, cà, ngày sau rang, cà/nước, tỉ lệ, nhiệt, xay, dụng cụ, tổng/rút (giây), bã, bốn trục vị, ghi chú, **URL ảnh**, mốc cập nhật, mã nhật ký, tên người ghi, **các bước rót** (một ô, dạng `0:00/30 · 0:45/120`; để trống nếu lần pha không ghi bước). Tự tạo khi lần đẩy đầu tiên chạy; sheet đã có từ trước thì hai cột mới được điền tiêu đề vào lần đẩy kế tiếp, không phải tạo lại sheet.
 - **Folder "Brewing Bible — ảnh bã"** trong Drive — ảnh JPEG 1200 px, tên dạng `2026-11-03_ethiopia-guji_ba.jpg`. Folder riêng tư theo mặc định; mở được từ link trong Sheet vì bạn là chủ.
 
 **Ghi theo `id`, không phải ghi thêm.** Máy nhận tìm dòng có cùng id: có thì cập nhật, chưa có thì thêm. Nhờ vậy đẩy lại (mất mạng, đóng tab giữa lúc đẩy, bấm hai lần) không sinh dòng trùng, và sửa một lần pha trên điện thoại thì Sheet cũng được sửa theo.

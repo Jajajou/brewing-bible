@@ -110,7 +110,7 @@ GHI CHÚ: ________________________________
 
 <h3>Bản điện tử, nếu bạn muốn thử</h3>
 
-<p>Cuốn sách này có một trang nhật ký riêng, mở bằng điện thoại: <a href="journal.html">nhật ký pha</a>. Nó là đúng bảy dòng của mẫu trên, thêm một ô chụp ảnh bã và bốn trục vị dạng chọn. Trang tĩnh, không tài khoản, không gọi mạng — dữ liệu nằm trong trình duyệt của chính máy bạn.</p>
+<p>Cuốn sách này có một trang nhật ký riêng, mở bằng điện thoại: <a href="journal.html">nhật ký pha</a>. Nó là đúng bảy dòng của mẫu trên, thêm một ô chụp ảnh bã và bốn trục vị dạng chọn. Mẫu đầy hơn thì có thêm phần các bước rót: mỗi bước một mốc thời gian và lượng nước cộng dồn, thêm bớt bao nhiêu bước cũng được, để trống cũng được. Trang tĩnh, không tài khoản, không gọi mạng — dữ liệu nằm trong trình duyệt của chính máy bạn.</p>
 
 <p>Nếu bạn muốn nó sống lâu hơn một lần đổi máy, trang đẩy được từng lần pha lên một Google Sheet của chính bạn, ảnh bã lên Drive, qua một Apps Script bạn tự dựng. Ba bước, khoảng mười lăm phút: <a href="guide.html">hướng dẫn dựng đồng bộ</a>.</p>
 

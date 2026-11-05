@@ -53,6 +53,60 @@
     return s ? s.slice(0, 6).toUpperCase() : "";
   };
 
+  /* ---------- bước rót ----------
+     Mỗi bước là một mốc thời gian và lượng nước CỘNG DỒN tại mốc đó:
+     "0:45 / 120" nghĩa là tới giây 45 đã rót tổng cộng 120 g.
+
+     Vì sao cộng dồn chứ không phải nước của riêng lần rót: ngoài đời con
+     số duy nhất bạn đọc được là số trên cân. Bắt người ta cộng trừ trong
+     đầu giữa lúc đang rót là cách chắc chắn để dữ liệu sai.
+
+     Bước rót KHÔNG bắt buộc. Trang vẫn là mẫu bảy dòng; đây là phần của
+     mẫu đầy hơn trong sách, cho người muốn ghi lại công thức của mình. */
+
+  var MAX_POURS = 30;
+
+  CORE.normalizePours = function (raw) {
+    if (!Array.isArray(raw)) return [];
+    var out = [];
+    raw.forEach(function (p) {
+      if (!p || typeof p !== "object") return;
+      var t = CORE.parseTime(p.t);
+      var w = num(p.w);
+      /* Dòng đang gõ dở (có giờ, chưa có nước) không vào cơ sở dữ liệu;
+         câu nhắc hiện ngay dưới danh sách bước rót trong form. */
+      if (t === null || w === null || t < 0 || w <= 0) return;
+      out.push({ t: t, w: w });
+    });
+    out.sort(function (a, b) { return a.t - b.t; });
+    return out.slice(0, MAX_POURS);
+  };
+
+  /* "0:00/30 · 0:45/120 · 1:30/250" — một ô cho bảng tính và một dòng cho
+     thẻ trong danh sách. Dấu "/" vì dấu ":" đã dùng trong m:ss. */
+  CORE.poursText = function (pours, sep) {
+    var list = CORE.normalizePours(pours);
+    return list.map(function (p) {
+      return CORE.timeText(p.t) + "/" + p.w;
+    }).join(sep === undefined ? " · " : sep);
+  };
+
+  /* Nhắc, không chặn: một dòng gõ nhầm giữa lúc tay ướt không được làm mất
+     cả lần pha. Trả mã để journal.js dịch sang ngôn ngữ đang xem. */
+  CORE.pourIssues = function (rec) {
+    var issues = [];
+    var list = CORE.normalizePours(rec && rec.pours);
+    for (var i = 1; i < list.length; i++) {
+      if (list[i].t <= list[i - 1].t) issues.push({ code: "pour.time", n: i + 1 });
+      if (list[i].w <= list[i - 1].w) issues.push({ code: "pour.water", n: i + 1 });
+    }
+    var total = num(rec && rec.water);
+    if (total !== null && list.length && list[list.length - 1].w > total) {
+      issues.push({ code: "pour.over", n: list.length });
+    }
+    return issues;
+  };
+
   /* ---------- tỉ lệ ---------- */
 
   /* Số thuận để so sánh và để đưa vào bảng tính: 250/15 → 16.7 */
@@ -152,6 +206,9 @@
       bed: "",
       axes: { sang: null, day: null, huong: null, hau: null },
       note: "",
+      /* Bước rót: [{ t: giây, w: gam cộng dồn }]. Mảng rỗng là bình
+         thường — phần lớn lần pha chỉ ghi bảy dòng. */
+      pours: [],
       photo: null,
       thumb: null,
       /* Đồng bộ: 0 = chưa đẩy lên Sheet, >0 = mốc thời gian đã đẩy.
@@ -205,6 +262,7 @@
       hau: axis(ax.hau)
     };
     rec.note = str(raw.note);
+    rec.pours = CORE.normalizePours(raw.pours);
     rec.photo = raw.photo === undefined ? null : raw.photo;
     rec.thumb = raw.thumb === undefined ? null : raw.thumb;
     rec.syncedAt = Math.max(0, Math.round(num(raw.syncedAt) || 0));
@@ -214,29 +272,51 @@
     return rec;
   };
 
-  /* Lỗi chặn lưu. Chỉ bốn trường: ngày, cà, nước, và nhiệt độ nếu có nhập.
-     Mọi thứ khác để trống được — mẫu của sách cũng để trống được. */
-  CORE.validate = function (rec) {
-    var errs = [];
-    if (!rec || !CORE.dateText(rec.date)) errs.push("Thiếu ngày (hoặc ngày sai dạng).");
+  /* Lỗi chặn lưu, dạng MÃ: ngày, cà, nước, nhiệt độ nếu có nhập, và tỉ lệ
+     ngoài khoảng hợp lý. Mọi thứ khác để trống được — mẫu của sách cũng
+     để trống được, và bước rót thì không bao giờ chặn.
+
+     Trả mã chứ không trả câu vì trang nhật ký có hai ngôn ngữ: câu hiển
+     thị nằm ở journal-i18n.js, còn chỗ nào cần câu tiếng Việt thì dùng
+     CORE.validate bên dưới. */
+  CORE.validateCodes = function (rec) {
+    var out = [];
+    if (!rec || !CORE.dateText(rec.date)) out.push({ code: "validate.date" });
     if (rec && rec.dose !== null && rec.dose !== undefined) {
-      if (!(rec.dose > 0)) errs.push("Cà phải lớn hơn 0 g.");
+      if (!(rec.dose > 0)) out.push({ code: "validate.dose.zero" });
     } else {
-      errs.push("Thiếu khối lượng cà (g).");
+      out.push({ code: "validate.dose.missing" });
     }
     if (rec && rec.water !== null && rec.water !== undefined) {
-      if (!(rec.water > 0)) errs.push("Nước phải lớn hơn 0 g.");
+      if (!(rec.water > 0)) out.push({ code: "validate.water.zero" });
     } else {
-      errs.push("Thiếu khối lượng nước (g).");
+      out.push({ code: "validate.water.missing" });
     }
     if (rec && rec.temp !== null && rec.temp !== undefined && !(rec.temp >= 0 && rec.temp <= 100)) {
-      errs.push("Nhiệt độ phải trong khoảng 0–100 °C.");
+      out.push({ code: "validate.temp.range" });
     }
     var r = rec ? CORE.ratio(rec.dose, rec.water) : null;
     if (r !== null && (r < 3 || r > 40)) {
-      errs.push("Tỉ lệ " + CORE.ratioText(rec.dose, rec.water, ",") + " nằm ngoài khoảng 1:3–1:40 — kiểm lại đơn vị.");
+      out.push({ code: "validate.ratio.range", ratio: CORE.ratioText(rec.dose, rec.water, ",") });
     }
-    return errs;
+    return out;
+  };
+
+  /* Câu tiếng Việt của cùng bộ lỗi, cho test và cho chỗ gọi cũ. */
+  CORE.VALIDATE_VI = {
+    "validate.date": "Thiếu ngày (hoặc ngày sai dạng).",
+    "validate.dose.zero": "Cà phải lớn hơn 0 g.",
+    "validate.dose.missing": "Thiếu khối lượng cà (g).",
+    "validate.water.zero": "Nước phải lớn hơn 0 g.",
+    "validate.water.missing": "Thiếu khối lượng nước (g).",
+    "validate.temp.range": "Nhiệt độ phải trong khoảng 0–100 °C.",
+    "validate.ratio.range": "Tỉ lệ {ratio} nằm ngoài khoảng 1:3–1:40 — kiểm lại đơn vị."
+  };
+
+  CORE.validate = function (rec) {
+    return CORE.validateCodes(rec).map(function (e) {
+      return String(CORE.VALIDATE_VI[e.code] || "").replace("{ratio}", e.ratio || "");
+    });
   };
 
   /* Mới nhất trước; cùng ngày thì bản ghi tạo sau lên trước. */
@@ -256,7 +336,7 @@
   CORE.CSV_HEADER = [
     "Ngày", "Cà", "Ngày sau rang", "Cà (g)", "Nước (g)", "Tỉ lệ", "Nhiệt (°C)",
     "Xay", "Dụng cụ", "Tổng (s)", "Rút (s)", "Bã",
-    "Sáng", "Đầy", "Hướng", "Hậu vị", "Ghi chú", "Có ảnh"
+    "Sáng", "Đầy", "Hướng", "Hậu vị", "Ghi chú", "Có ảnh", "Các bước"
   ];
 
   function csvCell(v) {
@@ -298,7 +378,8 @@
         rec.axes.huong,
         rec.axes.hau,
         rec.note,
-        rec.photo ? "có" : ""
+        rec.photo ? "có" : "",
+        CORE.poursText(rec.pours)
       ].map(csvCell).join(","));
     });
     return rows.join("\r\n") + "\r\n";
@@ -374,11 +455,17 @@
     try {
       data = JSON.parse(body);
     } catch (e) {
-      throw new Error("Tệp không phải JSON hợp lệ — có phải bản sao của nhật ký không?");
+      /* Kèm mã để journal.js dịch được câu này: lõi giữ tiếng Việt, nhưng
+         lỗi đọc tệp là chuyện người dùng thấy, không phải chuyện nội bộ. */
+      var bad = new Error("Tệp không phải JSON hợp lệ — có phải bản sao của nhật ký không?");
+      bad.code = "backupJson";
+      throw bad;
     }
     if (Array.isArray(data)) return { version: 0, brews: data };
     if (!data || typeof data !== "object" || !Array.isArray(data.brews)) {
-      throw new Error("Không thấy danh sách lần pha trong tệp.");
+      var none = new Error("Không thấy danh sách lần pha trong tệp.");
+      none.code = "backupNoBrews";
+      throw none;
     }
     return data;
   };

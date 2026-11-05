@@ -33,7 +33,7 @@ const HEADER = [
   "id", "Ngày", "Cà", "Ngày sau rang", "Cà (g)", "Nước (g)", "Tỉ lệ", "Nhiệt (°C)",
   "Xay", "Dụng cụ", "Tổng (s)", "Rút (s)", "Bã",
   "Sáng", "Đầy", "Hướng", "Hậu vị", "Ghi chú", "Ảnh", "Cập nhật",
-  "Mã nhật ký", "Người ghi"
+  "Mã nhật ký", "Người ghi", "Các bước"
 ];
 
 const COL_PHOTO = 19; /* 1-based, khớp HEADER ở trên */
@@ -199,7 +199,10 @@ function upsertBrew_(b) {
     photoUrl,
     String(b.updatedAt ? new Date(Number(b.updatedAt)).toISOString() : new Date().toISOString()),
     String(b.ownerId || ""),
-    String(b.ownerName || "")
+    String(b.ownerName || ""),
+    /* "0:00/30 · 0:45/120 · 1:30/250" — một ô, không tách thành Bước 1,
+       Bước 2: số bước thay đổi mỗi người, cột cố định sẽ đầy ô trống. */
+    String(b.pours || "")
   ];
 
   if (row) {

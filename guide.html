@@ -151,6 +151,7 @@ footer a{ color: var(--accent); }
       <li><a href="#nhanh">Nếu bạn chỉ muốn ghi, không cần Sheet</a></li>
       <li><a href="#dung">Dựng đồng bộ: ba bước Google</a></li>
       <li><a href="#noi">Nối điện thoại: hai việc</a></li>
+      <li><a href="#buoc">Bước rót, và cột mới trên Sheet</a></li>
       <li><a href="#ai">Ai ghi dòng nào</a></li>
       <li><a href="#giu">Giữ dữ liệu cho lâu</a></li>
       <li><a href="#hoi">Câu hỏi hay gặp</a></li>
@@ -195,6 +196,12 @@ footer a{ color: var(--accent); }
   <p>Mở <a href="journal.html">nhật ký pha</a> trên điện thoại → mục <strong>Đồng bộ Google Sheet (tuỳ chọn)</strong> → dán URL và token → <strong>Lưu cấu hình</strong> → <strong>Kiểm tra kết nối</strong>.</p>
   <p>Thấy <code>Kết nối được. Sheet: Nhật ký pha</code> là xong. Từ đó mỗi lần bấm <strong>Lưu lần pha này</strong>, dòng được đẩy lên trong 1–2 giây. Mất mạng thì bản ghi vẫn nằm trong máy, mang nhãn <strong>chưa đẩy</strong>, và tự đẩy lại lần sau mở trang.</p>
   <p>Cấu hình nằm trong trình duyệt của máy đó, không nằm trong trang và không đi đâu khác. Máy thứ hai thì dán lại một lần, hoặc nhập bản sao <code>.html</code> từ máy thứ nhất.</p>
+
+  <h2 id="buoc">Bước rót, và cột mới trên Sheet</h2>
+  <p>Mỗi lần pha ghi thêm được <strong>các bước rót</strong>: một mốc thời gian và tổng nước đã rót tính đến mốc đó. Danh sách bắt đầu trống — bấm <strong>+ Thêm lần rót</strong> bao nhiêu lần cũng được, hoặc để trống và chỉ ghi tổng và rút như trước.</p>
+  <p>Con số nước là <strong>cộng dồn</strong>, đúng con số trên cân: <code>0:00 / 30</code> rồi <code>0:45 / 120</code> nghĩa là tới giây 45 đã rót tổng cộng 120 g. Ghi theo kiểu tăng dần thì không phải cộng trừ trong đầu giữa lúc đang rót.</p>
+  <p>Trong Sheet, các bước nằm ở cột cuối <strong>Các bước</strong>, dạng một chuỗi <code>0:00/30 · 0:45/120</code>. Không tách thành nhiều cột vì số bước mỗi người mỗi khác, cột cố định sẽ đầy ô trống. Cột giữ tiêu đề tiếng Việt kể cả khi bạn đổi giao diện sang tiếng Anh — dữ liệu không đổi theo ngôn ngữ.</p>
+  <p class="note"><b>Bước rót không chặn lưu.</b> Nếu nước không tăng, mốc thời gian lùi, hoặc bước cuối vượt ô Nước (g), trang chỉ nhắc dưới danh sách; bản ghi vẫn được lưu. Dòng đang gõ dở thì không được lưu — câu nhắc nói rõ đó là dòng nào.</p>
 
   <h2 id="ai">Ai ghi dòng nào</h2>
   <p>Không có đăng nhập, nên “của ai” trả lời bằng dữ liệu: mỗi lần pha mang theo <strong>mã nhật ký</strong> (sinh một lần trong trình duyệt) và <strong>tên người ghi</strong> bạn đặt ở ô “Nhật ký của ai”. Hai thứ đó thành hai cột cuối trong Sheet.</p>
@@ -272,7 +279,8 @@ footer a{ color: var(--accent); }
 
   <details>
     <summary>Có bản tiếng Anh hay tiếng Nhật của trang này không?</summary>
-    <p>Chưa. Sách có bản dịch, nhưng trang nhật ký và trang hướng dẫn này mới chỉ có tiếng Việt.</p>
+    <p>Trang <a href="journal.html">nhật ký pha</a> có nút đổi ngôn ngữ ở góc trên (VI/EN) và nhớ lựa chọn trong trình duyệt. Sách có bản dịch tiếng Anh và tiếng Nhật. Riêng trang hướng dẫn này mới chỉ có tiếng Việt.</p>
+    <p>Đổi ngôn ngữ chỉ đổi chữ hiện trên màn hình. Dữ liệu đã ghi, tiêu đề cột trong CSV và trên Sheet vẫn giữ tiếng Việt, để hai người dùng hai ngôn ngữ so sánh được cùng một bảng.</p>
   </details>
 
   <h2 id="hong">Khi nó hỏng</h2>
