@@ -237,6 +237,35 @@ test("bước rót: poursText gói thành một ô cho bảng tính", () => {
   assert.equal(C.poursText(null), "");
 });
 
+test("bước rót: gõ phím số trên điện thoại cũng ra m:ss", () => {
+  /* Bàn phím số không có phím ":", nên ô thời gian nhận toàn chữ số và tự
+     chèn dấu hai chấm khi đã có phần phút. Hai chữ số trở xuống để nguyên,
+     vì đệm "0:45" ngay giữa lúc gõ làm phím xoá nhảy số. */
+  assert.equal(C.pourTimeDigits("4"), "4");
+  assert.equal(C.pourTimeDigits("45"), "45");
+  assert.equal(C.pourTimeDigits("100"), "1:00");
+  assert.equal(C.pourTimeDigits("105"), "1:05");
+  assert.equal(C.pourTimeDigits("130"), "1:30");
+  assert.equal(C.pourTimeDigits("1300"), "13:00");
+  assert.equal(C.pourTimeDigits("1:30"), "1:30");
+  assert.equal(C.pourTimeDigits("0:45"), "0:45");
+  assert.equal(C.pourTimeDigits(""), "");
+  assert.equal(C.pourTimeDigits("abc"), "");
+
+  /* Giây vượt 59 dồn lên phút — người dùng thấy số đã sửa, không thấy dòng
+     biến mất khi lưu. */
+  assert.equal(C.pourTimeDigits("199"), "2:39");
+  assert.equal(C.parseTime(C.pourTimeDigits("199")), 159);
+
+  /* Chặn ở mức mà parseTime còn đọc được (999:59). */
+  assert.equal(C.pourTimeDigits("123456"), "123:45");
+
+  /* Rời ô thì chuẩn hoá thành m:ss đầy đủ, và parseTime đọc đúng. */
+  for (const typed of ["45", "130", "1300"]) {
+    assert.equal(C.parseTime(C.timeText(C.parseTime(typed))), C.parseTime(typed));
+  }
+});
+
 test("bước rót: pourIssues nhắc, không chặn", () => {
   assert.deepEqual(
     C.pourIssues(C.normalize({ water: 250, pours: [{ t: 0, w: 60 }, { t: 45, w: 150 }] })),

@@ -60,7 +60,7 @@
       "bed.lan": "Lẫn",
 
       "form.poursLegend": "Các bước rót (không bắt buộc)",
-      "form.poursHint": "Mỗi bước là một mốc thời gian và tổng nước đã rót tính đến mốc đó — đúng con số bạn đọc trên cân. Để trống nếu bạn chỉ muốn ghi tổng và rút.",
+      "form.poursHint": "Mỗi bước là một mốc thời gian và tổng nước đã rót tính đến mốc đó — đúng con số bạn đọc trên cân. Ô thời gian chỉ cần gõ số, dấu hai chấm tự hiện: 130 thành 1:30. Để trống nếu bạn chỉ muốn ghi tổng và rút.",
       "form.poursAdd": "+ Thêm lần rót",
       "form.pourRow": "Lần {n}",
       "form.pourTimePh": "0:45",
@@ -215,7 +215,7 @@
       "bed.lan": "Patchy",
 
       "form.poursLegend": "Pour steps (optional)",
-      "form.poursHint": "Each step is a time on the clock and the total water poured by then — the number you read on the scale. Leave it empty if you only want total and drawdown.",
+      "form.poursHint": "Each step is a time on the clock and the total water poured by then — the number you read on the scale. In the time box just type digits and the colon appears: 130 becomes 1:30. Leave it empty if you only want total and drawdown.",
       "form.poursAdd": "+ Add pour",
       "form.pourRow": "Pour {n}",
       "form.pourTimePh": "0:45",
