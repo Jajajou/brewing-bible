@@ -197,6 +197,28 @@
     });
   }
 
+  /* Bàn phím số của điện thoại không có dấu ":", nên ô thời gian nhận
+     toàn chữ số và tự chèn dấu hai chấm (xem C.pourTimeDigits). Con trỏ
+     được đặt lại sau đúng số chữ số đã gõ, để sửa giữa chuỗi không nhảy
+     về cuối. Lúc rời ô mới chuẩn hoá thành m:ss đầy đủ. */
+  function formatPourTime(input) {
+    var digitsBefore = input.value.slice(0, input.selectionStart || 0).replace(/\D/g, "").length;
+    var out = C.pourTimeDigits(input.value);
+    if (out === input.value) return;
+    input.value = out;
+    var pos = out.length;
+    if (digitsBefore === 0) {
+      pos = 0;
+    } else {
+      var seen = 0;
+      for (var i = 0; i < out.length; i++) {
+        if (out.charAt(i) >= "0" && out.charAt(i) <= "9") seen++;
+        if (seen === digitsBefore) { pos = i + 1; break; }
+      }
+    }
+    try { input.setSelectionRange(pos, pos); } catch (e) { /* ô đang không giữ focus */ }
+  }
+
   function pourRow(p) {
     var row = document.createElement("div");
     row.className = "pour-row";
@@ -209,7 +231,15 @@
     time.className = "pour-time";
     time.autocomplete = "off";
     time.inputMode = "numeric";
-    time.addEventListener("input", function () { paintPourHints(); });
+    time.addEventListener("input", function () {
+      formatPourTime(time);
+      paintPourHints();
+    });
+    time.addEventListener("blur", function () {
+      var sec = C.parseTime(time.value);
+      if (sec !== null) time.value = C.timeText(sec);
+      paintPourHints();
+    });
 
     var water = document.createElement("input");
     water.type = "number";

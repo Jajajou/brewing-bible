@@ -155,6 +155,26 @@
     return m + ":" + (s < 10 ? "0" + s : s);
   };
 
+  /* Ô "mốc thời gian" trên điện thoại: bàn phím số không có phím ":".
+     Chuỗi đang gõ được hiểu là toàn chữ số, hai chữ số cuối là giây, dấu hai
+     chấm tự chèn khi đã có phần phút: "130" → "1:30", "1300" → "13:00".
+
+     Từ hai chữ số trở xuống thì để nguyên ("45"), không đệm thành "0:45":
+     đệm ngay giữa lúc gõ làm phím xoá nhảy số, vì "0:4" đọc lại sẽ thành
+     0:04. Lúc rời ô, journal.js mới chuẩn hoá thành 0:45.
+
+     Giây vượt 59 được dồn lên phút ("199" → "2:39") thay vì để lại một
+     giá trị mà parseTime sẽ từ chối — người dùng thấy số đã sửa, không thấy
+     dòng biến mất khi lưu. */
+  CORE.pourTimeDigits = function (v) {
+    var digits = str(v).replace(/\D/g, "");
+    if (digits.length > 5) digits = digits.slice(0, 5);
+    if (digits.length <= 2) return digits;
+    var ss = parseInt(digits.slice(-2), 10);
+    var mm = parseInt(digits.slice(0, -2), 10);
+    return CORE.timeText(mm * 60 + ss);
+  };
+
   /* ---------- ngày ---------- */
 
   /* Luôn "YYYY-MM-DD" theo giờ máy, không qua UTC: ghi lúc 23:50 ở Hà Nội
