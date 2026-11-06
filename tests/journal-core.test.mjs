@@ -257,6 +257,14 @@ test("bước rót: gõ phím số trên điện thoại cũng ra m:ss", () => {
   assert.equal(C.pourTimeDigits("199"), "2:39");
   assert.equal(C.parseTime(C.pourTimeDigits("199")), 159);
 
+  /* Phút không phải lúc nào cũng một chữ số: 1412 là 14 phút 12 giây, không
+     phải 1 phút 41,2 giây hay 1:41 rồi thừa số 2. */
+  assert.equal(C.pourTimeDigits("1412"), "14:12");
+  assert.equal(C.pourTimeDigits("14:12"), "14:12");
+  assert.equal(C.pourTimeDigits("141"), "1:41");
+  assert.equal(C.parseTime(C.pourTimeDigits("1412")), 852);
+  assert.equal(C.normalize({ pours: [{ t: "14:12", w: "300" }] }).pours[0].t, 852);
+
   /* Chặn ở mức mà parseTime còn đọc được (999:59). */
   assert.equal(C.pourTimeDigits("123456"), "123:45");
 
