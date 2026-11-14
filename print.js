@@ -134,9 +134,12 @@
            trong mục lục sẽ báo sai trang. Cũng vì thế phần đầu chương là một
            khối không tách. */
         '<header class="ch-head" id="' + ch.id + '">',
-        '<p class="ch-num">' +
-          (ch.__front ? "Mở đầu" : ch.__back ? "Cuối sách" : ch.__a ? "Phụ lục A" + ch.__a : "Chương " + String(ch.__n).padStart(2, "0")) +
-          "</p>",
+        /* Phần cuối sách đã có chạy đầu trang "Cuối sách": in thêm nhãn cùng
+           chữ ngay dưới thì trang mở chương lặp lại đúng hai lần. */
+        (ch.__back ? "" :
+          '<p class="ch-num">' +
+            (ch.__front ? "Mở đầu" : ch.__a ? "Phụ lục A" + ch.__a : "Chương " + String(ch.__n).padStart(2, "0")) +
+          "</p>"),
         '<h2 class="ch-title">' + esc(ch.title) + "</h2>",
         ch.lede ? '<p class="ch-lede">' + esc(ch.lede) + "</p>" : "",
         '<div class="ch-rule"></div>',
