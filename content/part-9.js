@@ -254,6 +254,14 @@
 
 <p>Cùng một liều cho độ sâu bã khác nhau ở dụng cụ có đường kính khác nhau; 15 g trên dụng cụ nhỏ không tương đương 15 g trên dụng cụ lớn. Tác giả tự ghi rõ phần nào là giả thuyết.</p>
 
+
+<p><strong>[55]</strong> Batali, M. E., Frost, S. C., Lebrilla, C. B., Ristenpart, W. D., & Guinard, J.-X. (2020). <em>Sensory and monosaccharide analysis of drip brew coffee fractions versus brewing time.</em> Journal of the Science of Food and Agriculture, 100(7), 2953–2962. doi.org/10.1002/jsfa.10323</p>
+
+<p>Cắt mẻ nhỏ giọt thành từng phần 30 giây rồi cho hội đồng nếm từng phần. Phần đầu <strong>đắng hơn và chua hơn</strong> phần sau; phần sau <strong>ngọt hơn và nhiều hương hoa hơn</strong> dù TDS thấp hơn. Không phần nào có monosaccharide ở mức nếm được. Đây là phép thử trực tiếp cho mô hình "đắng ra sau" ở chương 8, và kết quả đi ngược mô hình. Giới hạn: máy pha nhỏ giọt, không phải pha tay.</p>
+
+<p><strong>[56]</strong> Maille, M. J. (2024). <em>Measuring Coffee Extraction Kinetics at Early Time Scales.</em> Luận án tiến sĩ, University of Sheffield. etheses.whiterose.ac.uk/id/eprint/36281/</p>
+
+<p>Đo chiết xuất từ giây thứ 5 đến giây 600; 80% dữ liệu nằm dưới 35 giây. 50% acid citric và malic chiết trong 10 giây đầu; caffeine và 3-CQA chậm hơn 3–4 giây. Chênh lệch giữa các hợp chất tính bằng giây, không phải bằng phút — nên trong một mẻ pour over nó biến mất.</p>
 <div class="callout">
 <p class="callout-title">Ba bài không mở được toàn văn</p>
 <p>[17], [22] và trang DOI của [5] bị nhà xuất bản chặn trong lúc tra. Chi tiết trong các mục đó lấy từ tóm tắt và từ bài tổng quan của SCA. Nếu bạn cần trích dẫn chính xác đến từng câu, phải mở bản đầy đủ.</p>

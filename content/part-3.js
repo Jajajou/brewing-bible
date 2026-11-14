@@ -122,15 +122,17 @@ window.BOOK_PARTS.push({
 
 <h3>Mô hình này đến từ đâu</h3>
 
-<p>Nó không đến từ nghiên cứu thực phẩm. Nó đến từ một bài viết của Jonathan Gagné trên blog <em>Coffee ad Astra</em> năm 2019, trong đó ông xây dựng một mô hình động học về chiết xuất espresso. Bài viết đó rất hay, rất chi tiết, và có ảnh hưởng lớn.</p>
+<p>Nó không đến từ nghiên cứu thực phẩm. Nó là một <strong>mô hình phổ biến trong đào tạo barista</strong>, được truyền qua lớp học, video và tài liệu nội bộ — không ai trong số đó dẫn một thí nghiệm cảm quan nào. Chúng tôi không tìm được nguồn đầu tiên; ai nói câu đó trước cũng không rõ.</p>
 
-<p>Nhưng Gagné tự ghi rõ trong chính bài viết đó rằng: việc gắn tốc độ chiết với các thuộc tính cảm quan cụ thể là <strong>suy đoán</strong>, và mô hình <strong>chưa được kiểm chứng với dữ liệu thật</strong>.</p>
+<p>Bài phân tích chi tiết nhất về nó là của Jonathan Gagné trên blog <em>Coffee ad Astra</em> năm 2019, nơi ông xây dựng một mô hình động học về chiết xuất espresso. Bài đó rất hay, rất chi tiết, và có ảnh hưởng lớn.</p>
 
-<p>Nghĩa là: người tạo ra mô hình đã nói rõ nó là giả thuyết. Rồi mười năm sau, giả thuyết đó được dạy như định luật.</p>
+<p>Nhưng Gagné tự ghi rõ trong chính bài viết đó rằng việc gắn tốc độ chiết với các thuộc tính cảm quan cụ thể là <strong>suy đoán</strong> — nguyên văn: "bằng chứng cho việc các hợp chất chiết nhanh nghiêng về phía vị ngái và chua là suy đoán, nên xin hãy đọc nó với một hạt muối rất lớn" — và mô hình <strong>chưa được kiểm chứng với dữ liệu thật</strong> <span class="tier tier-b">Hợp lý</span> [32].</p>
+
+<p>Nghĩa là: người viết mô hình chi tiết nhất đã nói rõ nó là giả thuyết. Rồi giả thuyết đó được dạy như định luật.</p>
 
 <div class="callout bad">
 <p class="callout-title">Mức bằng chứng</p>
-<p>Khẳng định "acid chiết trước, đắng chiết sau" không có nghiên cứu thực phẩm nào so sánh trực tiếp tốc độ chiết của acid citric/malic với caffeine và lactone acid chlorogenic trong một mẻ pha 2–4 phút <span class="tier tier-c">Truyền miệng</span>. Nó là một giả thuyết được lặp lại, không phải một phát hiện.</p>
+<p>Khẳng định "acid chiết trước, đắng chiết sau" chưa có nghiên cứu thực phẩm nào so sánh trực tiếp tốc độ chiết của acid citric/malic với caffeine và lactone acid chlorogenic <em>trong một mẻ pha tay 2–4 phút</em> <span class="tier tier-c">Truyền miệng</span>. Hai nghiên cứu gần nhất đều đi ngược nó: nếm theo phân đoạn thời gian [55] và đo động học ở thang giây [56]. Nó là một giả thuyết được lặp lại, không phải một phát hiện.</p>
 </div>
 
 <h3>Dữ liệu thật cho thấy gì</h3>
@@ -143,6 +145,16 @@ window.BOOK_PARTS.push({
 </ul>
 
 <p>Đây là bằng chứng về <strong>tốc độ chiết khác nhau</strong> — điều đó đúng và đã được chứng minh. Nhưng nó <em>không</em> phải bằng chứng cho việc acid đi trước và đắng đi sau. Caffeine, ví dụ, gần như không đổi theo thời gian chiết trong một mẻ — nghĩa là nó không "đến muộn". Nó ở đó từ đầu.</p>
+
+<p>Phép thử trực tiếp nhất cho mô hình này là cắt một mẻ pha nhỏ giọt thành từng phần theo thời gian rồi cho hội đồng nếm từng phần. UC Davis đã làm: hứng mỗi 30 giây một bình riêng, rồi phân tích mô tả. Kết quả đi ngược mô hình <span class="tier tier-a">Bằng chứng</span> [55]:</p>
+
+<ul>
+<li><strong>Các phần đầu đắng hơn <em>và</em> chua hơn các phần sau.</strong> Không phải đắng đến sau.</li>
+<li><strong>Các phần sau ngọt hơn và nhiều hương hoa hơn.</strong> Mà phần sau có TDS thấp hơn — nên cảm giác ngọt tỉ lệ <em>nghịch</em> với TDS.</li>
+<li><strong>Không phần nào có monosaccharide ở mức nếm được.</strong> Vị ngọt bạn nếm không đến từ đường.</li>
+</ul>
+
+<p>Đo động học ở thang giây cũng không thấy thứ tự nào như mô hình nói. Trong một luận án đo chiết xuất từ giây thứ 5, <strong>50% acid citric và malic đã tan trong 10 giây đầu</strong>; caffeine và acid chlorogenic (3-CQA) chỉ chậm hơn <strong>3–4 giây</strong> <span class="tier tier-a">Bằng chứng</span> [56]. Ba đến bốn giây — không phải ba đến bốn phút. Trong một mẻ pour over hai phút rưỡi, khoảng chênh đó biến mất.</p>
 
 <h3>Một phát hiện phá trực giác hơn</h3>
 

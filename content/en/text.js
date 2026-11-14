@@ -737,15 +737,17 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 
 <h3>Where this model came from</h3>
 
-<p>It did not come from food science. It came from a 2019 post by Jonathan Gagné on the blog <em>Coffee ad Astra</em>, where he built a kinetic model of espresso extraction. That post is excellent, detailed, and hugely influential.</p>
+<p>It did not come from food science. It is a <strong>model widely taught in barista training</strong>, passed along through classes, videos and in-house material — none of which cites a sensory experiment. We could not trace a first source; who said it first is not clear.</p>
 
-<p>But Gagné states plainly in that same post that tying extraction rates to specific sensory attributes is <strong>speculation</strong>, and that the model <strong>has not been validated against real data</strong>.</p>
+<p>The most detailed analysis of it is a 2019 post by Jonathan Gagné on the blog <em>Coffee ad Astra</em>, where he built a kinetic model of espresso extraction. That post is excellent, detailed, and hugely influential.</p>
 
-<p>Which means the person who built the model said it was a hypothesis. Ten years on, it is taught as a law.</p>
+<p>But Gagné states plainly in that same post that tying extraction rates to specific sensory attributes is <strong>speculation</strong> — his words: "the evidence for fast-extracting compounds being more on the 'vegetal and sour' side of taste is speculative, so please take this claim with a big grain of salt" — and that the model <strong>has not been validated against real data</strong> <span class="tier tier-b">Plausible</span> [32].</p>
+
+<p>Which means the person who wrote the most detailed version of the model said it was a hypothesis. It is now taught as a law.</p>
 
 <div class="callout bad">
 <p class="callout-title">Level of evidence</p>
-<p>The claim that "acids extract first, bitterness last" has no food-science study directly comparing the extraction rate of citric or malic acid with caffeine and chlorogenic acid lactones inside a two-to-four-minute brew <span class="tier tier-c">Folklore</span>. It is a repeated hypothesis, not a finding.</p>
+<p>The claim that "acids extract first, bitterness last" has no food-science study directly comparing the extraction rate of citric or malic acid with caffeine and chlorogenic acid lactones inside a <em>two-to-four-minute manual brew</em> <span class="tier tier-c">Folklore</span>. The two closest studies both run against it: fraction-by-fraction tasting [55] and kinetics measured at the scale of seconds [56]. It is a repeated hypothesis, not a finding.</p>
 </div>
 
 <h3>What the data actually shows</h3>
@@ -758,6 +760,16 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 </ul>
 
 <p>That is evidence for <strong>different extraction rates</strong> — which is true and well established. It is <em>not</em> evidence that acids go first and bitterness last. Caffeine, for instance, barely changes over the course of a shot — meaning it does not "arrive late". It is there from the start.</p>
+
+<p>The most direct test of the model is to cut a drip brew into time fractions and have a panel taste each one. UC Davis did exactly that: switching in an empty carafe every 30 seconds, then running descriptive analysis. The results run against the model <span class="tier tier-a">Evidence</span> [55]:</p>
+
+<ul>
+<li><strong>Earlier fractions were more bitter <em>and</em> more sour than later ones.</strong> Bitterness did not arrive last.</li>
+<li><strong>Later fractions were sweeter and more floral.</strong> And later fractions have lower TDS — so perceived sweetness runs <em>inversely</em> to TDS.</li>
+<li><strong>No fraction had monosaccharides at perceptible levels.</strong> The sweetness you taste does not come from sugar.</li>
+</ul>
+
+<p>Measuring kinetics at the scale of seconds shows no such order either. In a thesis measuring extraction from five seconds on, <strong>50% of the citric and malic acid extracted within the first 10 seconds</strong>; caffeine and chlorogenic acid (3-CQA) lagged by only <strong>3 to 4 seconds</strong> <span class="tier tier-a">Evidence</span> [56]. Three to four seconds — not three to four minutes. Inside a two-and-a-half-minute pour over, that gap disappears.</p>
 
 <h3>A more counter-intuitive finding</h3>
 
@@ -3402,6 +3414,14 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p>The same dose gives different bed depths in brewers of different diameter; 15 g in a small brewer is not equivalent to 15 g in a large one. The author marks which parts are hypotheses.</p>
 
+
+<p><strong>[55]</strong> Batali, M. E., Frost, S. C., Lebrilla, C. B., Ristenpart, W. D., & Guinard, J.-X. (2020). <em>Sensory and monosaccharide analysis of drip brew coffee fractions versus brewing time.</em> Journal of the Science of Food and Agriculture, 100(7), 2953–2962. doi.org/10.1002/jsfa.10323</p>
+
+<p>A drip brew cut into 30-second fractions, each tasted by a trained panel. Earlier fractions were <strong>more bitter and more sour</strong> than later ones; later fractions were <strong>sweeter and more floral</strong> despite lower TDS. No fraction had monosaccharides at perceptible levels. This is the direct test of the "bitterness last" model in chapter 8, and it runs against the model. Limit: a drip brewer, not a manual pour over.</p>
+
+<p><strong>[56]</strong> Maille, M. J. (2024). <em>Measuring Coffee Extraction Kinetics at Early Time Scales.</em> PhD thesis, University of Sheffield. etheses.whiterose.ac.uk/id/eprint/36281/</p>
+
+<p>Extraction measured from 5 s to 600 s, with 80% of the data under 35 s. 50% of the citric and malic acid extracted within the first 10 seconds; caffeine and 3-CQA lagged by 3 to 4 seconds. The gap between compounds is measured in seconds, not minutes — so inside a pour over it disappears.</p>
 <div class="callout">
 <p class="callout-title">Three papers I could not open in full</p>
 <p>[17], [22] and the DOI page for [5] were blocked by the publishers during the check. Their details here come from abstracts and from the SCA review. If you need a sentence-exact citation, open the full text.</p>
