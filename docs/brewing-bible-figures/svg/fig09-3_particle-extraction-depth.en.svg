@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 346" width="600" height="346" role="img">
+<title>Extraction depth by particle size</title>
+<desc>Same brew time</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+<g font-family="'Be Vietnam Pro','Inter','Noto Sans','Helvetica Neue',Arial,sans-serif">
+<circle cx="80" cy="140" r="11" fill="#C9853A" stroke="#7A4E33" stroke-width="1"/>
+<circle cx="215" cy="140" r="50" fill="#C9853A" stroke="#7A4E33" stroke-width="1"/>
+<circle cx="215" cy="140" r="30" fill="#8C847C"/>
+<circle cx="440" cy="140" r="96" fill="#C9853A" stroke="#7A4E33" stroke-width="1"/>
+<circle cx="440" cy="140" r="76" fill="#8C847C"/>
+<text x="80.0" y="270.0" font-size="16" fill="#2B2622" text-anchor="middle" font-weight="700">Fines</text>
+<text x="80.0" y="291.0" font-size="13" fill="#6B625A" text-anchor="middle" font-weight="400">over-extracted</text>
+<text x="215.0" y="270.0" font-size="16" fill="#2B2622" text-anchor="middle" font-weight="700">Medium</text>
+<text x="215.0" y="291.0" font-size="13" fill="#6B625A" text-anchor="middle" font-weight="400">well extracted</text>
+<text x="440.0" y="270.0" font-size="16" fill="#2B2622" text-anchor="middle" font-weight="700">Boulder</text>
+<text x="440.0" y="291.0" font-size="13" fill="#6B625A" text-anchor="middle" font-weight="400">core untouched</text>
+<rect x="80" y="316" width="16" height="16" rx="3" fill="#C9853A" stroke="#7A4E33" stroke-width="1"/>
+<text x="104.0" y="329.0" font-size="13" fill="#2B2622" text-anchor="start" font-weight="400">Extracted</text>
+<rect x="220" y="316" width="16" height="16" rx="3" fill="#8C847C" stroke="none" stroke-width="1"/>
+<text x="244.0" y="329.0" font-size="13" fill="#2B2622" text-anchor="start" font-weight="400">Not extracted</text>
+<text x="560.0" y="26.0" font-size="12" fill="#6B625A" text-anchor="end" font-weight="400" font-style="italic">Same brew time · Illustrative shape, not measured data</text>
+</g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 398" width="600" height="398" role="img">
+<title>Bed depth: V60 versus Deep 27</title>
+<desc>Ideal cones; outlet and ribs ignored</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+<g font-family="'Be Vietnam Pro','Inter','Noto Sans','Helvetica Neue',Arial,sans-serif">
+<text x="300.0" y="34.0" font-size="15" fill="#2B2622" text-anchor="middle" font-weight="700">Same bed volume</text>
+<polygon points="165.0,300.0 118.8,220.0 211.2,220.0" fill="#C9853A" opacity="0.85"/>
+<polyline points="38.0,80.0 165.0,300.0 292.0,80.0" fill="none" stroke="#2B2622" stroke-width="2" stroke-linejoin="round"/>
+<text x="165.0" y="106.0" font-size="14" fill="#6B625A" text-anchor="middle" font-weight="600">60°</text>
+<text x="165.0" y="334.0" font-size="16" fill="#2B2622" text-anchor="middle" font-weight="700">V60 · 60° cone</text>
+<text x="165.0" y="355.0" font-size="13" fill="#6B625A" text-anchor="middle" font-weight="400">shallow, wide bed</text>
+<polygon points="440.0,300.0 405.5,156.4 474.5,156.4" fill="#C9853A" opacity="0.85"/>
+<polyline points="387.2,80.0 440.0,300.0 492.8,80.0" fill="none" stroke="#2B2622" stroke-width="2" stroke-linejoin="round"/>
+<text x="440.0" y="106.0" font-size="14" fill="#6B625A" text-anchor="middle" font-weight="600">27°</text>
+<text x="440.0" y="334.0" font-size="16" fill="#2B2622" text-anchor="middle" font-weight="700">Deep 27 · 27° cone</text>
+<text x="440.0" y="355.0" font-size="13" fill="#6B625A" text-anchor="middle" font-weight="400">bed about 1.8× deeper</text>
+<text x="300.0" y="386.0" font-size="12" fill="#6B625A" text-anchor="middle" font-weight="400" font-style="italic">Ideal cones; outlet and ribs ignored</text>
+</g>
+</svg>
