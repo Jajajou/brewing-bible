@@ -873,6 +873,14 @@ window.BOOK_PARTS.push({
 
 <p>Nghi phạm thứ hai là cối. Q Air ở 90 click tạo khá nhiều bột mịn, và trong một phễu không bypass thì mọi hạt mịn đều ở lại trong buồng chiết. Mình chưa tách được hai nguyên nhân này.</p>
 
+<h3>Một hướng đã có người làm: PHINƠI</h3>
+
+<p>Nếu vấn đề của phin đôi là hình học, thì đã có người sửa hình học đó. PHINƠI là chiếc phin làm lại do Vũ Đình Tú sáng lập: bỏ đáy phẳng truyền thống, tính góc <strong>164,8°</strong> cho dòng chảy, thay đế tròn bằng đế hình hoa năm cánh, và làm bốn bản — nhựa PP5 chịu nhiệt, gốm Bát Tràng, nhôm, và titanium giới hạn [70]. Anh cũng mở quán Refined. ở Hà Nội, nơi khoảng 70% cà là robusta và tiền trả theo kiểu tuỳ tâm [71].</p>
+
+<p>Hãng nói một phễu này pha được cả cà sữa đậm kiểu truyền thống lẫn pour over sạch, có hoặc không có giấy lọc. Đó là lời của nhà sản xuất, không phải kết quả đo: không có số lưu lượng, không có thử nếm nào công bố. Mình ghi lại vì nó đúng là hướng mà chương này chỉ ra — không phải vì nó chứng minh hướng đó đúng.</p>
+
+<p>Mình <em>chưa</em> thử PHINƠI. Nên mọi kết luận phía trên chỉ nói về chiếc phin đôi truyền thống mình dùng: cùng một nguyên nhân — không bypass, bột mịn không có đường thoát — nhưng một hình học khác. Nếu bạn có chiếc phễu này, phép thử song song ở trên là thứ đáng lặp lại với nó.</p>
+
 <h3>Nếu bạn muốn thử tiếp</h3>
 
 <p>Mình dừng ở đây, vì với mình ly phải ngon thì uống mới vui, và ly phin đôi chưa ngon. Nhưng phép thử này để lại ba hướng rõ ràng, và mình ghi lại để người sau không phải bắt đầu từ số không:</p>

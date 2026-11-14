@@ -31,7 +31,7 @@
   function loadOverlay(lang) {
     return new Promise(function (resolve) {
       var s = document.createElement("script");
-      s.src = "content/" + lang + "/text.js?v=9f7f050";
+      s.src = "content/" + lang + "/text.js?v=17eaf87";
       s.onload = function () { resolve(window.BOOK_TEXT || null); };
       s.onerror = function () { resolve(null); };
       document.head.appendChild(s);
@@ -51,6 +51,15 @@
   var byId = {};
   flat.forEach(function (entry) {
     if (entry.ch.id) byId[entry.ch.id] = entry;
+  });
+
+  /* Số chương phải đếm riêng, không dùng chỉ số trong danh sách phẳng: từ khi
+     có phần mở đầu và phần cuối sách, chỉ số đó cộng cả chương của họ — và
+     TOC in "04" cho chương 1. Phụ lục vẫn dùng np (A1, A2…) như trước. */
+  var chNo = 0;
+  flat.forEach(function (entry) {
+    if (entry.part && (entry.part.front || entry.part.back)) entry.n = null;
+    else if (!(entry.part && entry.part.appendix)) entry.n = ++chNo;
   });
 
   /* Phụ lục là chương của nó, không phải chương 30–33: bìa vẫn ghi 29 chương,
@@ -264,11 +273,13 @@
     var html = "";
     html += '<div class="chapter">';
     html += '<header class="chapter-head">';
+    /* Phần cuối sách chỉ có một tên, và tên đó đã nằm ở nhãn trên: lặp lại
+       ở ô tên phần nữa thì người đọc thấy "Cuối sách · Cuối sách". */
+    var partName = part.back ? "" : (isAppendix(part) ? part.title : partLabel(part, pi) + " · " + part.title);
     html += '<p class="chapter-kicker"><span>' + esc(kickerLabel(entry)) + "</span>" +
-            '<span class="dot"></span>' +
-            '<span class="part-name">' +
-              esc(isAppendix(part) ? part.title : partLabel(part, pi) + " · " + part.title) +
-            "</span></p>";
+            (partName ? '<span class="dot"></span>' +
+              '<span class="part-name">' + esc(partName) + "</span>" : "") +
+            "</p>";
     html += "<h2>" + esc(ch.title) + "</h2>";
     if (ch.lede) html += '<p class="chapter-lede">' + esc(ch.lede) + "</p>";
 

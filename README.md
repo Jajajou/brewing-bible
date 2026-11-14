@@ -26,7 +26,7 @@ Mọi khẳng định quan trọng trong sách — nghĩa là mọi câu có th�
 | VI — Cầu nối | Quy trình 20 phút; bốn luật của công thức nền; case study | 3 |
 | VII — Cảm nhận | Giải phẫu một ngụm; ngôn ngữ nốt hương; xây khẩu vị | 3 |
 | VIII — Sổ tay | Nhật ký pha; dụng cụ; checklist khi thất bại | 3 |
-| A — Nguồn tham chiếu | Cách lập danh mục; thư mục 54 nguồn; đối chiếu từng chương; chỗ cần sửa | 4 |
+| A — Nguồn tham chiếu | Cách lập danh mục; thư mục 71 nguồn; đối chiếu từng chương; chỗ cần sửa | 4 |
 
 ## Tính năng
 

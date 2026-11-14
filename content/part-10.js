@@ -16,7 +16,7 @@ window.BOOK_PARTS.push({
     title: "Lời cảm ơn",
     lede: "Cuốn sách này không tự viết ra. Đây là những người đã làm nó tốt hơn, và những công trình nó đứng lên.",
     minutes: 4,
-    tags: ["cuối sách"],
+    tags: [],
     body: `
 <p>Mình cảm ơn từng người ở đây, và nói rõ vì sao. Việc được nêu tên không có nghĩa họ đồng ý với mọi câu trong sách.</p>
 

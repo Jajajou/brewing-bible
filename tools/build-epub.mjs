@@ -159,13 +159,15 @@ PARTS.forEach((part, pi) => {
 
   const roman = part.roman || ROMAN[pi];
   const partFile = `part-${pad(pi + 1)}.xhtml`;
+  /* phần cuối sách không có số phần: "Cuối sách" đã là tiêu đề phần */
+  const partNumLabel = part.back ? "" : part.front ? "Mở đầu" : part.appendix ? "Phụ lục" : "Phần " + roman;
 
   writeFileSync(
     join(OEBPS, partFile),
     page(
       part.title,
       `<section epub:type="part" class="part">
-  <p class="num">${part.front ? "Mở đầu" : part.back ? "Cuối sách" : part.appendix ? "Phụ lục" : "Phần " + esc(roman)}</p>
+  ${partNumLabel ? `<p class="num">${esc(partNumLabel)}</p>` : ""}
   <h1>${esc(part.title)}</h1>
   ${part.blurb ? `<p class="blurb">${esc(part.blurb)}</p>` : ""}
 </section>`
@@ -176,7 +178,7 @@ PARTS.forEach((part, pi) => {
 
   /* nav và ncx dùng CHUNG mảng children — chỉ đẩy mỗi chương một lần vào đó,
      nếu đẩy riêng cho từng bên thì mục lục bị nhân đôi. */
-  const partLabel = `${part.front ? "Mở đầu" : part.back ? "Cuối sách" : part.appendix ? "Phụ lục" : "Phần " + roman} · ${part.title}`;
+  const partLabel = `${partNumLabel ? partNumLabel + " · " : ""}${part.title}`;
   const partNav = { label: partLabel, href: partFile, children: [] };
   navParts.push(partNav);
   ncxPoints.push({

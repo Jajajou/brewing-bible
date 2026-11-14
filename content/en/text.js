@@ -18,7 +18,7 @@ window.BOOK_TEXT = {
       title: "Preface: three cups",
       lede: "One cup I believed was my best, one clean cup that was missing something, one full of aroma that was dirty. None of them had arrived.",
       minutes: 5,
-      tags: ["front matter"],
+      tags: [],
       body: `
 <p>I wrote this book because of one cup of coffee. Not the best cup I have ever brewed — the cup I believed was my best, until a hastily made cupping bowl beat it.</p>
 
@@ -68,7 +68,7 @@ window.BOOK_TEXT = {
       title: "How to read this book",
       lede: "Three evidence labels, three reading routes, and the whole book on one page if you only have ten minutes.",
       minutes: 6,
-      tags: ["front matter", "how to use"],
+      tags: ["how to use"],
       body: `
 <p>This book has thirty-one chapters. You do not need to read all of them, and you certainly do not need to read them in order. This page tells you how to use it.</p>
 
@@ -153,7 +153,7 @@ window.BOOK_TEXT = {
       title: "Glossary",
       lede: "Twenty-five words you will meet again throughout the book, each with the reason it matters to your cup.",
       minutes: 7,
-      tags: ["front matter", "reference"],
+      tags: ["reference"],
       body: `
 <p>These words run through the whole book. Each entry gives the meaning, then says why it matters to your cup.</p>
 
@@ -2694,6 +2694,14 @@ Odd:   _______________
 
 <p>The second suspect is the grinder. A Q Air at 90 clicks makes a fair amount of fines, and in a no-bypass brewer every fine stays in the chamber. I have not separated the two causes.</p>
 
+<h3>A direction someone has already taken: PHINƠI</h3>
+
+<p>If the problem with the double phin is geometry, someone has already fixed that geometry. PHINƠI is a redesigned phin founded by Vũ Đình Tú: the traditional flat bottom is gone, the angle is calculated at <strong>164.8°</strong> for flow, the round base becomes a five-petal flower, and it comes in four editions — heat-stable PP5 plastic, Bát Tràng ceramic, aluminium, and a limited titanium [70]. He also runs Refined. in Hanoi, where about 70% of the coffee is robusta and you pay what you feel [71].</p>
+
+<p>The maker says this one dripper brews both thick traditional coffee and clean pour-overs, with or without filter paper. That is the manufacturer speaking, not a measurement: no flow numbers, no published tasting. I record it because it is exactly the direction this chapter points at — not because it proves that direction right.</p>
+
+<p>I have <em>not</em> tried PHINƠI. So everything above concerns only the traditional double phin I used: the same cause — no bypass, fines with nowhere to go — but a different geometry. If you own this brewer, the side-by-side test above is worth repeating with it.</p>
+
 <h3>If you want to carry on</h3>
 
 <p>I stopped here, because for me the cup has to taste good for brewing to be fun, and the double-phin cup did not. But the test left three clear directions, and I am writing them down so the next person does not start from nothing:</p>
@@ -2715,7 +2723,7 @@ Odd:   _______________
       title: "Acknowledgements",
       lede: "This book did not write itself. These are the people who made it better, and the work it stands on.",
       minutes: 4,
-      tags: ["end matter"],
+      tags: [],
       body: `
 <p>I thank each person here, and say why. Being named does not mean they agree with every sentence in the book.</p>
 
@@ -3773,7 +3781,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p>The rule is simple: only sentences an outside document can check need a source. Statements about experience, method and advice do not — and none of them should be given a source that merely sounds scientific. Peer-reviewed work with a DOI comes first; where none exists, the industry standard or the primary source from the person who proposed the method.</p>
 
-<p>Sixty-nine sources are grouped by subject in A2 and by chapter in A3. Of the 30 chapters, ten rest directly on documents, six rest on them halfway, twelve are method and need no outside source. Two — 17 and 20 — still have no source at all for their central claim; both now say so in the chapter itself and carry the Plausible label.</p>
+<p>Seventy-one sources are grouped by subject in A2 and by chapter in A3. Of the 31 chapters, ten rest directly on documents, six rest on them halfway, twelve are method and need no outside source. Two — 17 and 20 — still have no source at all for their central claim; both now say so in the chapter itself and carry the Plausible label.</p>
 
 <div class="callout">
 <p class="callout-title">A source is not evidence</p>
@@ -3784,7 +3792,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
     "ch-nguon-danh-muc": {
       title: "Bibliography",
-      lede: "Sixty-nine sources, grouped by subject. Each entry carries a DOI or a link that was opened and read, plus one line on what that source contributes.",
+      lede: "Seventy-one sources, grouped by subject. Each entry carries a DOI or a link that was opened and read, plus one line on what that source contributes.",
       minutes: 12,
       tags: ["appendix", "sources"],
       body: `
@@ -4064,6 +4072,14 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <p><strong>[69]</strong> Ristenpart, W. D., Cotter, A. R., & Guinard, J.-X. (2022). <em>Impact of beverage temperature on consumer preferences for black coffee.</em> Scientific Reports, 12, 20621. doi.org/10.1038/s41598-022-23904-4</p>
 
 <p>More than 3,000 tastings analysed by serving temperature across 56–71 °C. A majority rated it "just about right" at every level up to 70 °C; only above 70 °C did a majority call it too hot. The paper reports a wide acceptable range, not an optimum — the source for the note on tasting temperature in chapter 13.</p>
+<p><strong>[70]</strong> PHINƠI. <em>Our story: the boy, the drip, and the universe of phin.</em> phinoi.com/our-story</p>
+
+<p>The company page: the flat bottom removed, the angle calculated at 164.8° for flow, a five-petal base, four material editions (PP5 plastic, Bát Tràng ceramic, aluminium, limited titanium). Product copy and brand story — no flow, temperature or sensory data. The book cites it as the manufacturer's account, not as measurement. Source for the PHINƠI passage in chapter 22.</p>
+
+<p><strong>[71]</strong> Fanarioti, V. (2025). <em>10 Minutes with Vu Dình Tú: A Champion of Modern Vietnamese Coffee Culture.</em> Barista Magazine, 2 July 2025. baristamagazine.com</p>
+
+<p>Interview with the founder of PHINƠI: the Refined. shops in Hanoi with three locations, the pay-as-you-feel model, about 70% robusta, and the project to redesign the phin for the next generation — launched at World of Coffee Jakarta in May 2025. No brewing data. Source for the background in chapter 22.</p>
+
 <div class="callout">
 <p class="callout-title">Three papers I could not open in full</p>
 <p>[17], [22] and the DOI page for [5] were blocked by the publishers during the check. Their details here come from abstracts and from the SCA review. If you need a sentence-exact citation, open the full text.</p>
@@ -4143,6 +4159,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <tr><td>19</td><td>Bed depth has to match the brewer diameter</td><td>Plausible</td><td>[53] [54]</td><td>Inference from practice</td></tr>
 <tr><td>20</td><td>Reading the bed to diagnose</td><td>—</td><td>none</td><td>No source</td></tr>
 <tr><td>21</td><td>The diagnostic table</td><td>—</td><td>derived from [10] [11]</td><td>Partly</td></tr>
+<tr><td>22</td><td>The phin is a no-bypass brewer; fines with no way out leave a lingering bitterness</td><td>Plausible</td><td>[68] [70] [71]</td><td>Partly — [70] [71] are product copy and an interview, with no sensory measurement</td></tr>
 <tr><td>22–24</td><td>Process, four rules, case study</td><td>—</td><td>method</td><td>Needs no source</td></tr>
 <tr><td>25</td><td>Anatomy of a sip; retronasal path</td><td>—</td><td>general olfactory physiology</td><td>Needs no source</td></tr>
 <tr><td>26</td><td>Flavour-note language and its trap</td><td>—</td><td>[14] [19]</td><td>Partly</td></tr>

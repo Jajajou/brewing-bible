@@ -22,7 +22,7 @@
 
 <p>Nguyên tắc lập rất đơn giản: chỉ câu có thể kiểm chứng bằng tài liệu bên ngoài mới cần nguồn. Câu về kinh nghiệm, quy trình và lời khuyên thì không — và không được gán cho chúng một nguồn nghe có vẻ khoa học. Ưu tiên bài bình duyệt có DOI; khi không có, dùng tiêu chuẩn ngành hoặc nguồn sơ cấp của chính người đề xuất phương pháp.</p>
 
-<p>Sáu mươi chín nguồn được xếp theo chủ đề ở A2 và theo chương ở A3. Trong 30 chương, mười chương dựa trực tiếp vào tài liệu, sáu chương dựa một phần, mười hai chương là quy trình nên không cần nguồn ngoài. Hai chương — 17 và 20 — vẫn không có nguồn nào cho khẳng định trung tâm; cả hai giờ nói thẳng điều đó trong thân chương và gắn nhãn Hợp lý.</p>
+<p>Bảy mươi mốt nguồn được xếp theo chủ đề ở A2 và theo chương ở A3. Trong 31 chương, mười chương dựa trực tiếp vào tài liệu, sáu chương dựa một phần, mười hai chương là quy trình nên không cần nguồn ngoài. Hai chương — 17 và 20 — vẫn không có nguồn nào cho khẳng định trung tâm; cả hai giờ nói thẳng điều đó trong thân chương và gắn nhãn Hợp lý.</p>
 
 <div class="callout">
 <p class="callout-title">Có nguồn không có nghĩa là đúng</p>
@@ -34,7 +34,7 @@
       {
         id: "ch-nguon-danh-muc",
         title: "Thư mục",
-        lede: "Sáu mươi chín nguồn, xếp theo chủ đề. Mỗi mục có DOI hoặc đường dẫn đã mở và đọc, kèm một câu nói nguồn đó đóng góp gì.",
+        lede: "Bảy mươi mốt nguồn, xếp theo chủ đề. Mỗi mục có DOI hoặc đường dẫn đã mở và đọc, kèm một câu nói nguồn đó đóng góp gì.",
         minutes: 12,
         tags: ["phụ lục", "nguồn"],
         body: `
@@ -314,6 +314,14 @@
 <p><strong>[69]</strong> Ristenpart, W. D., Cotter, A. R., & Guinard, J.-X. (2022). <em>Impact of beverage temperature on consumer preferences for black coffee.</em> Scientific Reports, 12, 20621. doi.org/10.1038/s41598-022-23904-4</p>
 
 <p>Phân tích hơn 3.000 lượt nếm theo nhiệt độ khi uống, dải 56–71 °C. Đa số đánh giá "vừa" ở mọi mức tới 70 °C; chỉ trên 70 °C mới có đa số nói quá nóng. Bài nói khoảng chấp nhận được rộng, không chỉ ra một khoảng tối ưu — nguồn cho ghi chú ở chương 13 về nhiệt độ nếm.</p>
+<p><strong>[70]</strong> PHINƠI. <em>Our story: the boy, the drip, and the universe of phin.</em> phinoi.com/our-story</p>
+
+<p>Trang của hãng: bỏ đáy phẳng truyền thống, tính góc 164,8° cho dòng chảy, đế hình hoa năm cánh, bốn bản vật liệu (nhựa PP5, gốm Bát Tràng, nhôm, titanium giới hạn). Mô tả sản phẩm và câu chuyện thương hiệu — không có số lưu lượng, nhiệt hay cảm quan. Sách dẫn nó như lời của nhà sản xuất, không phải đo đạc. Nguồn cho mục PHINƠI ở chương 22.</p>
+
+<p><strong>[71]</strong> Fanarioti, V. (2025). <em>10 Minutes with Vu Dình Tú: A Champion of Modern Vietnamese Coffee Culture.</em> Barista Magazine, 2.7.2025. baristamagazine.com</p>
+
+<p>Phỏng vấn người sáng lập PHINƠI: quán Refined. ở Hà Nội với ba điểm bán, mô hình trả tuỳ tâm, khoảng 70% robusta, và dự án làm lại phin cho thế hệ sau — ra mắt tại World of Coffee Jakarta tháng 5.2025. Không có số liệu pha nào. Nguồn cho phần bối cảnh ở chương 22.</p>
+
 <div class="callout">
 <p class="callout-title">Ba bài không mở được toàn văn</p>
 <p>[17], [22] và trang DOI của [5] bị nhà xuất bản chặn trong lúc tra. Chi tiết trong các mục đó lấy từ tóm tắt và từ bài tổng quan của SCA. Nếu bạn cần trích dẫn chính xác đến từng câu, phải mở bản đầy đủ.</p>
@@ -394,6 +402,7 @@
 <tr><td>19</td><td>Độ sâu bã phải khớp đường kính dụng cụ</td><td>Hợp lý</td><td>[53] [54]</td><td>Suy luận từ thực hành</td></tr>
 <tr><td>20</td><td>Nhìn bã để chẩn đoán</td><td>—</td><td>không có</td><td>Không có nguồn</td></tr>
 <tr><td>21</td><td>Bảng chẩn đoán</td><td>—</td><td>suy ra từ [10] [11]</td><td>Một phần</td></tr>
+<tr><td>22</td><td>Phin là phễu không bypass; bột mịn không có đường thoát nên hậu vị đắng đọng</td><td>Hợp lý</td><td>[68] [70] [71]</td><td>Một phần — [70] [71] là mô tả sản phẩm và phỏng vấn, không có đo cảm quan</td></tr>
 <tr><td>23–25</td><td>Quy trình, bốn luật, case study</td><td>—</td><td>phương pháp</td><td>Không cần nguồn</td></tr>
 <tr><td>26</td><td>Giải phẫu một ngụm; đường mũi ngược</td><td>—</td><td>sinh lý khứu giác</td><td>Không cần nguồn</td></tr>
 <tr><td>27</td><td>Ngôn ngữ nốt hương và cái bẫy của nó</td><td>—</td><td>[14] [19]</td><td>Một phần</td></tr>

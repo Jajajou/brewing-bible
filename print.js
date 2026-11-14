@@ -63,7 +63,10 @@
   }
 
   function partNum(part, pi) {
-    return part.front ? "Mở đầu" : part.back ? "Cuối sách" : part.appendix ? "Phụ lục" : "Phần " + (part.roman || ROMAN[pi]);
+    /* Phần cuối sách không có số phần: tiêu đề phần đã là "Cuối sách", nên
+       in thêm một dòng nhãn nữa chỉ lặp lại đúng chữ đó hai lần trên trang. */
+    if (part.back) return "";
+    return part.front ? "Mở đầu" : part.appendix ? "Phụ lục" : "Phần " + (part.roman || ROMAN[pi]);
   }
 
   var html = [];
@@ -90,7 +93,7 @@
     var chs = part.chapters || [];
     if (!chs.length) return;
     html.push(
-      '<p class="toc-part">' + partNum(part, pi) + " · " + esc(part.title) + "</p>"
+      '<p class="toc-part">' + (partNum(part, pi) ? partNum(part, pi) + " · " : "") + esc(part.title) + "</p>"
     );
     chs.forEach(function (ch) {
       html.push(
@@ -112,7 +115,7 @@
 
     html.push(
       '<section class="part-page">',
-      '<p class="part-num">' + partNum(part, pi) + "</p>",
+      (partNum(part, pi) ? '<p class="part-num">' + partNum(part, pi) + "</p>" : ""),
       "<h2>" + esc(part.title) + "</h2>",
       part.blurb ? '<p class="part-blurb">' + esc(part.blurb) + "</p>" : "",
       "</section>"

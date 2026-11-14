@@ -16,7 +16,7 @@ window.BOOK_PARTS.push({
     title: "Lời mở đầu: ba ly cà",
     lede: "Một ly mình tin là đỉnh, một ly sạch nhưng thiếu, một ly đủ hương nhưng bẩn. Cả ba đều chưa tới.",
     minutes: 5,
-    tags: ["mở đầu"],
+    tags: [],
     body: `
 <p>Mình viết cuốn sách này vì một ly cà phê. Không phải ly ngon nhất mình từng pha — mà là ly mình tin là ngon nhất, rồi bị một bát cupping pha vội đánh bại.</p>
 
@@ -67,7 +67,7 @@ window.BOOK_PARTS.push({
     title: "Cách đọc cuốn sách này",
     lede: "Ba nhãn bằng chứng, ba lộ trình đọc, và cả cuốn sách gói trong một trang nếu bạn chỉ có mười phút.",
     minutes: 6,
-    tags: ["mở đầu", "cách dùng"],
+    tags: ["cách dùng"],
     body: `
 <p>Cuốn sách này có ba mươi mốt chương. Bạn không cần đọc hết, và chắc chắn không cần đọc theo thứ tự. Trang này nói cho bạn biết cách dùng nó.</p>
 
@@ -153,7 +153,7 @@ window.BOOK_PARTS.push({
     title: "Bảng thuật ngữ",
     lede: "Hai mươi lăm từ bạn sẽ gặp lại suốt cuốn sách. Mỗi từ kèm lý do nó quan trọng với ly cà của bạn.",
     minutes: 7,
-    tags: ["mở đầu", "tra cứu"],
+    tags: ["tra cứu"],
     body: `
 <p>Những từ dưới đây xuất hiện xuyên suốt cuốn sách. Mỗi mục nói nghĩa, rồi nói vì sao nó quan trọng với ly cà của bạn.</p>
 

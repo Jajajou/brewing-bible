@@ -565,6 +565,22 @@ gần như không đổi đánh giá về cường độ vị, độ chua và c�
 **Lưu ý về cách dẫn:** bản kế hoạch ghi bài này là "người uống thích nhất ở 58–66 °C". Bài không
 nói vậy — nó nói khoảng *chấp nhận được* rộng, không chỉ ra một khoảng tối ưu. Sách dẫn theo bài.
 
+**[70]** PHINƠI. *Our story: the boy, the drip, and the universe of phin.*
+[phinoi.com/our-story](https://www.phinoi.com/our-story)
+
+Trang của hãng: bỏ đáy phẳng truyền thống, tính góc 164,8° cho dòng chảy, đế hình hoa năm cánh,
+bốn bản vật liệu (nhựa PP5 chịu nhiệt, gốm Bát Tràng, nhôm, titanium giới hạn). Đây là mô tả
+sản phẩm và câu chuyện thương hiệu — **không có** số lưu lượng, nhiệt độ hay cảm quan nào. Nguồn
+cho mục PHINƠI ở chương 22; sách dẫn như lời của nhà sản xuất, không phải đo đạc.
+
+**[71]** Fanarioti, V. (02/07/2025). *10 Minutes with Vu Dình Tú: A Champion of Modern Vietnamese
+Coffee Culture.* Barista Magazine.
+[baristamagazine.com](https://www.baristamagazine.com/10-minutes-with-vu-dinh-tu-a-champion-of-modern-vietnamese-coffee-culture/)
+
+Phỏng vấn người sáng lập PHINƠI: quán Refined. ở Hà Nội với ba điểm bán, mô hình trả tuỳ tâm,
+khoảng 70% robusta, và dự án làm lại phin cho thế hệ sau — ra mắt tại World of Coffee Jakarta
+tháng 5/2025. Không có số liệu pha nào. Nguồn cho phần bối cảnh ở chương 22.
+
 ---
 
 ## Đối chiếu theo chương
@@ -602,10 +618,11 @@ Chương | Khẳng định cần nguồn | Nhãn trong sách | Nguồn | Trạng
 19 | Độ sâu bã phải khớp đường kính dụng cụ | Hợp lý | [53] [54] | suy luận từ thực hành
 20 | Nhìn bã để chẩn đoán | — | không có | không có nguồn
 21 | Bảng chẩn đoán | — | suy ra từ [10] [11] | một phần
-22–24 | Quy trình, bốn luật, case study | — | phương pháp, không phải khẳng định thực nghiệm | không cần nguồn
-25 | Giải phẫu một ngụm; retro-nasal | — | sinh lý khứu giác phổ thông | không cần nguồn
-26 | Ngôn ngữ nốt hương và cái bẫy của nó | — | [14] [19] | một phần
-27–30 | Luyện khẩu vị, nhật ký, dụng cụ, checklist | — | phương pháp | không cần nguồn
+22 | Phin là phễu không bypass; bột mịn không có đường thoát nên hậu vị đắng đọng | Hợp lý | [68] [70] [71] | một phần — [70] [71] là mô tả sản phẩm và phỏng vấn, không có đo cảm quan
+23–25 | Quy trình, bốn luật, case study | — | phương pháp, không phải khẳng định thực nghiệm | không cần nguồn
+26 | Giải phẫu một ngụm; retro-nasal | — | sinh lý khứu giác phổ thông | không cần nguồn
+27 | Ngôn ngữ nốt hương và cái bẫy của nó | — | [14] [19] | một phần
+28–31 | Luyện khẩu vị, nhật ký, dụng cụ, checklist | — | phương pháp | không cần nguồn
 
 ---
 
