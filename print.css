@@ -319,6 +319,26 @@ a{ color: inherit; text-decoration: none; }
 .f-lab{ font-family: var(--font-ui); font-size: 5.4px; fill: var(--muted); }
 .f-lab-unit{ text-anchor: end; }
 
+/* bánh xe hương vị */
+.f-wedge-a{ fill: #8f421a; fill-opacity: 0.2; }
+.f-wedge-b{ fill: #8f421a; fill-opacity: 0.3; }
+.f-wedge-c{ fill: #8f421a; fill-opacity: 0.1; }
+.f-wedge-d{ fill: #8f421a; fill-opacity: 0.17; }
+.f-leaf{ stroke: #1b1815; stroke-width: 0.3; opacity: 0.35; }
+.f-hub{ fill: #faf7f2; stroke: #d8cdba; stroke-width: 0.5; }
+.f-ring{ fill: none; stroke: #d8cdba; stroke-width: 0.35; }
+.f-cat{ fill: #1b1815; font-size: 4.9px; letter-spacing: 0.02em; }
+.f-hub-txt{ fill: #1b1815; font-size: 5.8px; }
+.f-tiny{ font-size: 4.4px; }
+.f-q{ fill: #4a4038; font-size: 5.2px; }
+.f-zone{ fill: #8f421a; font-size: 5.2px; letter-spacing: 0.06em; }
+.f-axis-title{ font-size: 5.2px; }
+
+.fig-credit{
+  display: block; margin-top: 1mm;
+  font-size: 6pt; line-height: 1.4; color: var(--muted);
+}
+
 .fig figcaption{
   margin-top: 1.5mm; padding-top: 1.2mm; border-top: 0.2mm solid var(--rule-soft);
   font-family: var(--font-ui); font-size: 6.8pt; line-height: 1.42; color: var(--muted);

@@ -1,2 +1,5 @@
 .refs-cache.json
 .DS_Store
+audio/.tmp/
+audio/.check/
+audio/.check-cache.json

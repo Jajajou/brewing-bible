@@ -57,7 +57,14 @@
       tplGo: "In",
       tplClose: "Đóng",
       tplBlocked: "Trình duyệt chặn cửa sổ in. Cho phép popup rồi thử lại.",
-      tplSheet: "The Brewing Bible"
+      tplSheet: "The Brewing Bible",
+      audioAria: "Nghe chương này",
+      audioPlay: "Phát",
+      audioPause: "Tạm dừng",
+      audioSeek: "Tua trong chương",
+      audioVoice: "Giọng đọc",
+      audioMale: "Giọng nam",
+      audioFemale: "Giọng nữ"
     },
 
     en: {
@@ -110,7 +117,14 @@
       tplGo: "Print",
       tplClose: "Close",
       tplBlocked: "The browser blocked the print window. Allow pop-ups and try again.",
-      tplSheet: "The Brewing Bible"
+      tplSheet: "The Brewing Bible",
+      audioAria: "Listen to this chapter",
+      audioPlay: "Play",
+      audioPause: "Pause",
+      audioSeek: "Seek within chapter",
+      audioVoice: "Voice",
+      audioMale: "Male voice",
+      audioFemale: "Female voice"
     },
 
     ja: {
@@ -163,7 +177,14 @@
       tplGo: "印刷",
       tplClose: "閉じる",
       tplBlocked: "ブラウザが印刷ウィンドウをブロックしました。ポップアップを許可して、もう一度お試しください。",
-      tplSheet: "The Brewing Bible"
+      tplSheet: "The Brewing Bible",
+      audioAria: "この章を聴く",
+      audioPlay: "再生",
+      audioPause: "一時停止",
+      audioSeek: "章内を移動",
+      audioVoice: "音声",
+      audioMale: "男性の声",
+      audioFemale: "女性の声"
     }
   };
 

@@ -65,6 +65,31 @@
       tlPour: "rót 2",
       tlPour3: "rót 3",
       tlDraw: "rút",
+
+      /* Hình vẽ lại, không sao chép tác phẩm gốc: bánh xe SCA phát hành
+         CC BY-NC-ND 4.0, mà CC BY-NC-ND cấm tạo bản phái sinh và cấm dùng
+         thương mại — đúng điều phụ lục A5 đã ghi. Nên sách vẽ lại cấu trúc
+         bằng nét của mình, và ghi công ở dưới. */
+      wheelTitle: "Bánh xe hương vị: ba tầng, không phải danh sách",
+      wheelCap:
+        "Vẽ lại theo cấu trúc bánh xe của SCA và World Coffee Research (bản 2016): tầng trong là nhóm chung, ra ngoài thì cụ thể dần, vành ngoài là hàng trăm từ riêng lẻ. Đi từ trong ra và dừng ở đâu cũng được — đó là công dụng của nó, không phải bảng điểm.",
+      wheelCredit:
+        "Cấu trúc theo SCA &amp; World Coffee Research, Coffee Taster's Flavor Wheel © 2016 (CC BY-NC-ND 4.0). Hình này do sách vẽ lại, không sao chép tác phẩm gốc.",
+      wheelRing1: "nhóm",
+      wheelRing2: "nhánh",
+      wheelRing3: "từ cụ thể",
+
+      mapTitle: "Bản đồ chiết xuất: mọi ly cà nằm trong một ô",
+      mapCap:
+        "Trục ngang là mức chiết, trục dọc là nồng độ. Ô giữa là vùng chuẩn Golden Cup mà SCA dùng từ thời Lockhart. Bốn góc là bốn kiểu sai: đậm mà chưa lấy hết, đậm và đã lấy hết, loãng mà chưa lấy hết, loãng nhưng đã lấy hết — mỗi góc cần một động tác khác nhau.",
+      mapEy: "mức chiết (%)",
+      mapTds: "nồng độ (%)",
+      mapZone: "Golden Cup",
+      mapQ1: "đậm, chưa lấy hết",
+      mapQ2: "đậm và đã lấy hết",
+      mapQ3: "loãng, chưa lấy hết",
+      mapQ4: "loãng nhưng đã lấy hết",
+
       unitG: "g",
       unitUm: "µm"
     },
@@ -110,6 +135,27 @@
       tlPour: "pour 2",
       tlPour3: "pour 3",
       tlDraw: "drawdown",
+
+      wheelTitle: "The flavour wheel: three rings, not a checklist",
+      wheelCap:
+        "Drawn after the structure of the SCA and World Coffee Research wheel (2016 revision): the inner ring is the general family, each ring outward gets more specific, and the outer rim is hundreds of individual words. Work from the centre out and stop wherever you like — that is what it is for, not a scorecard.",
+      wheelCredit:
+        "Structure after SCA &amp; World Coffee Research, Coffee Taster's Flavor Wheel © 2016 (CC BY-NC-ND 4.0). This drawing is the book's own, not a copy of the original artwork.",
+      wheelRing1: "family",
+      wheelRing2: "branch",
+      wheelRing3: "specific word",
+
+      mapTitle: "The brew map: every cup lands in one box",
+      mapCap:
+        "Extraction on the horizontal axis, strength on the vertical. The middle box is the Golden Cup range SCA has used since Lockhart. The four corners are four different failures — strong and under-extracted, strong and fully extracted, weak and under-extracted, weak but fully extracted — and each one calls for a different correction.",
+      mapEy: "extraction yield (%)",
+      mapTds: "strength (%)",
+      mapZone: "Golden Cup",
+      mapQ1: "strong, not fully extracted",
+      mapQ2: "strong and fully extracted",
+      mapQ3: "weak, not fully extracted",
+      mapQ4: "weak but fully extracted",
+
       unitG: "g",
       unitUm: "µm"
     }
@@ -411,6 +457,133 @@
     return s;
   }
 
+  /* ---------- bánh xe hương vị ---------- */
+  /* Vẽ lại cấu trúc, không sao chép tác phẩm của SCA: ba tầng, vành ngoài
+     là vệt mảnh dày đặc (hàng trăm từ) để thấy ngay vì sao nó không phải
+     một danh sách cần hoàn thành. Nhãn tầng một để tiếng Anh vì đó là tên
+     chuẩn trong nghề, và cả sách đều dùng kèm bản gốc. */
+  function wheelSvg() {
+    var cx = 360, cy = 344, rHub = 66, r1 = 158, r2 = 246, r3 = 300;
+    var fam = ["fruity", "floral", "sweet", "nutty / cocoa", "spices", "roasted", "green / veg.", "sour / ferm.", "other"];
+    var n = fam.length, STEP = (Math.PI * 2) / n, GAP = 0.05;
+
+    function pt(r, a) {
+      return (cx + Math.cos(a) * r).toFixed(1) + " " + (cy + Math.sin(a) * r).toFixed(1);
+    }
+    function wedge(rIn, rOut, a0, a1) {
+      var large = a1 - a0 > Math.PI ? 1 : 0;
+      return (
+        "M" + pt(rOut, a0) +
+        "A" + rOut + " " + rOut + " 0 " + large + " 1 " + pt(rOut, a1) +
+        "L" + pt(rIn, a1) +
+        "A" + rIn + " " + rIn + " 0 " + large + " 0 " + pt(rIn, a0) + "Z"
+      );
+    }
+
+    var s = '<svg class="fig-svg" viewBox="0 0 720 700" role="img" aria-label="' + T().wheelTitle + '">';
+
+    /* vành ngoài: vệt mảnh dày đặt — mật độ, không phải dữ liệu */
+    for (var i = 0; i < 420; i++) {
+      var a = (i / 420) * Math.PI * 2;
+      var out = r3 - (i % 9 === 0 ? 14 : i % 4 === 0 ? 6 : 0);
+      s += '<line class="f-leaf" x1="' + pt(r2 + 4, a).replace(" ", '" y1="') + '" x2="' +
+        pt(out, a).replace(" ", '" y2="') + '"/>';
+    }
+
+    for (var k = 0; k < n; k++) {
+      var a0 = -Math.PI / 2 + k * STEP + GAP,
+        a1 = -Math.PI / 2 + (k + 1) * STEP - GAP;
+
+      /* tầng một: nhóm chung — màu đi qua class, không phải biến CSS nội
+         tuyến: bản EPUB không biết var(--accent) và sẽ tô đen hết. */
+      s += '<path class="' + (k % 2 ? "f-wedge-b" : "f-wedge-a") + '" d="' + wedge(rHub, r1, a0, a1) + '"/>';
+      /* tầng hai: mỗi nhóm chẻ ba nhánh, có khe — để thấy nó là tầng khác
+         chứ không phải một vành trơn. Số nhánh thật của mỗi nhóm khác nhau
+         (fruity nhiều hơn spices), nhưng ba là đủ để nói "có chia tiếp". */
+      var sub = 3, subStep = (a1 - a0) / sub;
+      for (var b = 0; b < sub; b++) {
+        s += '<path class="' + ((k + b) % 2 ? "f-wedge-d" : "f-wedge-c") + '" d="' +
+          wedge(r1 + 3, r2, a0 + b * subStep + 0.012, a0 + (b + 1) * subStep - 0.012) + '"/>';
+      }
+
+      /* nhãn tầng một: để ngang. Chữ xoay theo bán kính thì đọc được ở hai
+         cung bên nhưng phải vặn cổ ở cung dưới; chín nhãn ngắn thì ngang
+         vẫn không chạm nhau. */
+      var mid = (a0 + a1) / 2;
+      var lx = (cx + Math.cos(mid) * ((rHub + r1) / 2)).toFixed(1);
+      var ly = (cy + Math.sin(mid) * ((rHub + r1) / 2) + 2.3).toFixed(1);
+      s += '<text class="f-lab f-cat" x="' + lx + '" y="' + ly + '" text-anchor="middle">' + fam[k] + "</text>";
+    }
+
+    /* lõi: chỗ bắt đầu */
+    s += '<circle class="f-hub" cx="' + cx + '" cy="' + cy + '" r="' + rHub + '"/>';
+    s += '<text class="f-lab f-hub-txt" x="' + cx + '" y="' + (cy + 2.5) + '" text-anchor="middle">coffee</text>';
+
+    /* ba tầng, ghi chú bằng ba vòng tròn đứt */
+    [r1, r2, r3].forEach(function (r) {
+      s += '<circle class="f-ring" cx="' + cx + '" cy="' + cy + '" r="' + r + '"/>';
+    });
+
+    s += "</svg>";
+    return s;
+  }
+
+  /* ---------- bản đồ chiết xuất ---------- */
+  /* Trục là hai con số sách vẫn nói: mức chiết 14–26% và nồng độ 1,0–1,5%.
+     Ô giữa lấy đúng hai khoảng Golden Cup mà SCA dùng (18–22%, 1,15–1,35%). */
+  function brewMapSvg() {
+    var L = 54, R = 596, T_ = 26, B = 316;
+    var EY0 = 14, EY1 = 26, TD0 = 1.0, TD1 = 1.5;
+    function x(ey) { return L + ((ey - EY0) / (EY1 - EY0)) * (R - L); }
+    function y(td) { return B - ((td - TD0) / (TD1 - TD0)) * (B - T_); }
+
+    var s = '<svg class="fig-svg" viewBox="0 0 640 368" role="img" aria-label="' + T().mapTitle + '">';
+
+    /* ô chuẩn */
+    s += '<rect class="f-band" x="' + x(18).toFixed(1) + '" y="' + y(1.35).toFixed(1) + '" width="' +
+      (x(22) - x(18)).toFixed(1) + '" height="' + (y(1.15) - y(1.35)).toFixed(1) + '"/>';
+    s += '<rect class="f-band-edge" fill="none" x="' + x(18).toFixed(1) + '" y="' + y(1.35).toFixed(1) + '" width="' +
+      (x(22) - x(18)).toFixed(1) + '" height="' + (y(1.15) - y(1.35)).toFixed(1) + '"/>';
+
+    /* lưới nhẹ ở hai mốc ngoài ô */
+    [18, 22].forEach(function (e) {
+      s += '<line class="f-guide" x1="' + x(e).toFixed(1) + '" y1="' + T_ + '" x2="' + x(e).toFixed(1) + '" y2="' + B + '"/>';
+    });
+    [1.15, 1.35].forEach(function (d) {
+      s += '<line class="f-guide" x1="' + L + '" y1="' + y(d).toFixed(1) + '" x2="' + R + '" y2="' + y(d).toFixed(1) + '"/>';
+    });
+
+    s += '<line class="f-axis" x1="' + L + '" y1="' + B + '" x2="' + R + '" y2="' + B + '"/>';
+    s += '<line class="f-axis" x1="' + L + '" y1="' + T_ + '" x2="' + L + '" y2="' + B + '"/>';
+
+    [14, 18, 22, 26].forEach(function (v) {
+      s += '<line class="f-tick" x1="' + x(v).toFixed(1) + '" y1="' + B + '" x2="' + x(v).toFixed(1) + '" y2="' + (B + 4) + '"/>';
+      s += '<text class="f-lab" x="' + x(v).toFixed(1) + '" y="' + (B + 15) + '" text-anchor="middle">' + v + "</text>";
+    });
+    ["1,00", "1,15", "1,35", "1,50"].forEach(function (lab, i) {
+      var v = [1.0, 1.15, 1.35, 1.5][i];
+      s += '<line class="f-tick" x1="' + (L - 4) + '" y1="' + y(v).toFixed(1) + '" x2="' + L + '" y2="' + y(v).toFixed(1) + '"/>';
+      s += '<text class="f-lab" x="' + (L - 8) + '" y="' + (y(v) + 2.4).toFixed(1) + '" text-anchor="end">' + lab + "</text>";
+    });
+
+    s += '<text class="f-lab f-axis-title" x="' + R + '" y="' + (B + 30) + '" text-anchor="end">' + T().mapEy + "</text>";
+    /* tiêu đề trục dọc: xoay -90 rồi bắt đầu từ đáy trục, nếu không chữ
+       chạy ngược lên khỏi khung và bị cắt. */
+    s += '<text class="f-lab f-axis-title" transform="translate(16 ' + B + ') rotate(-90)">' + T().mapTds + "</text>";
+
+    /* bốn góc */
+    s += '<text class="f-lab f-q" x="' + x(15.1).toFixed(1) + '" y="' + y(1.46).toFixed(1) + '">' + T().mapQ1 + "</text>";
+    s += '<text class="f-lab f-q" x="' + x(24.9).toFixed(1) + '" y="' + y(1.46).toFixed(1) + '" text-anchor="end">' + T().mapQ2 + "</text>";
+    s += '<text class="f-lab f-q" x="' + x(15.1).toFixed(1) + '" y="' + y(1.03).toFixed(1) + '">' + T().mapQ3 + "</text>";
+    s += '<text class="f-lab f-q" x="' + x(24.9).toFixed(1) + '" y="' + y(1.03).toFixed(1) + '" text-anchor="end">' + T().mapQ4 + "</text>";
+
+    s += '<text class="f-lab f-zone" x="' + ((x(18) + x(22)) / 2).toFixed(1) + '" y="' + (y(1.35) - 6).toFixed(1) +
+      '" text-anchor="middle">' + T().mapZone + "</text>";
+
+    s += "</svg>";
+    return s;
+  }
+
   /* ---------- registry ---------- */
   /* at: "h3:2" = chèn ngay trước <h3> thứ 2 của chương. Đếm theo thứ tự
      xuất hiện; check-i18n so số tiêu đề giữa ba bản dịch nên một bản dịch
@@ -475,6 +648,29 @@
       body: function () {
         return '<div class="fig-canvas">' + timelineSvg() + "</div>";
       }
+    },
+    {
+      id: "flavor-wheel",
+      ch: "ch-ngon-ngu-not-huong",
+      at: "h4:3",
+      live: false,
+      title: "wheelTitle",
+      caption: "wheelCap",
+      credit: "wheelCredit",
+      body: function () {
+        return '<div class="fig-canvas">' + wheelSvg() + "</div>";
+      }
+    },
+    {
+      id: "brew-map",
+      ch: "ch-chiet-xuat",
+      at: "h3:2",
+      live: false,
+      title: "mapTitle",
+      caption: "mapCap",
+      body: function () {
+        return '<div class="fig-canvas">' + brewMapSvg() + "</div>";
+      }
     }
   ];
 
@@ -493,6 +689,9 @@
     var html = '<figure class="fig" data-fig="' + fig.id + '">';
     html += fig.body(fig.state || {});
     html += "<figcaption><b>" + t[fig.title] + "</b>" + t[fig.caption];
+    /* dòng nguồn: ảnh và hình vay từ bên ngoài phải để lại dấu vết giấy phép,
+       không chỉ một dòng chữ nhỏ trong README */
+    if (fig.credit) html += '<span class="fig-credit">' + t[fig.credit] + "</span>";
     if (fig.live && typeof document !== "undefined") {
       html += '<span class="fig-live">' + t[fig.liveNote || "psdLive"] + "</span>";
     }
@@ -509,12 +708,17 @@
 
       if (fig.at === "recipe") {
         /* ngay sau khối công thức: chèn trước tiêu đề kế tiếp */
-        var recipe = body.indexOf('<div class="recipe">');
+        /* Không khớp cả dấu đóng thẻ: khối công thức có thể mang thêm
+           attribute (data-audio cho bản nghe). Thêm một attribute mà hình
+           nhảy xuống cuối chương là kiểu hỏng im lặng. */
+        var recipe = body.indexOf('<div class="recipe"');
         idx = recipe >= 0 ? body.indexOf("<h3>", recipe) : -1;
       } else {
-        var m = /^h3:(\d+)$/.exec(fig.at);
+        /* h3:N hoặc h4:N — bẫy và ghi chú nằm ở cấp h4 trong một số chương */
+        var m = /^(h[34]):(\d+)$/.exec(fig.at);
         if (!m) return;
-        var want = Number(m[1]), seen = 0, re = /<h3>/g, hit;
+        var tag = "<" + m[1] + ">";
+        var want = Number(m[2]), seen = 0, re = new RegExp(tag, "g"), hit;
         while ((hit = re.exec(body))) {
           seen++;
           if (seen === want) { idx = hit.index; break; }

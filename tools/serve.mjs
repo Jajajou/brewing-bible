@@ -29,6 +29,9 @@ const TYPES = {
   ".woff2": "font/woff2",
   ".pdf": "application/pdf",
   ".epub": "application/epub+zip",
+  /* Opus trong Ogg. Không khai thì Chrome vẫn thường phát được, nhưng
+     Safari thì không — và "thường" không đủ để kiểm bản nghe. */
+  ".opus": "audio/ogg",
   ".txt": "text/plain; charset=utf-8",
 };
 
@@ -68,16 +71,40 @@ const server = http.createServer((req, res) => {
     return fail(res, 404, "không thấy " + path);
   }
 
-  res.writeHead(200, {
-    "content-type": TYPES[extname(file).toLowerCase()] || "application/octet-stream",
-    "content-length": st.size,
+  const type = TYPES[extname(file).toLowerCase()] || "application/octet-stream";
+
+  /* Range: cần cho thẻ <audio>. Không có 206 thì Chrome không đọc được
+     trang cuối của file Ogg nên báo duration = Infinity, và thanh nghe
+     hiện "0:00 / Infinity:NaN". GitHub Pages có sẵn Range — server dev
+     phải giống nó, nếu không thì kiểm tra ở đây chẳng nói gì về bản thật. */
+  const range = /^bytes=(\d*)-(\d*)$/.exec((req.headers.range || "").trim());
+  let start = 0;
+  let end = st.size - 1;
+  let code = 200;
+  const headers = {
+    "content-type": type,
     "cache-control": "no-store",
     "connection": "keep-alive",
-  });
+    "accept-ranges": "bytes",
+  };
+
+  if (range && (range[1] || range[2])) {
+    start = range[1] ? Number(range[1]) : st.size - Number(range[2]);
+    end = range[1] && range[2] ? Math.min(Number(range[2]), st.size - 1) : end;
+    if (!Number.isFinite(start) || !Number.isFinite(end) || start > end || start < 0) {
+      res.writeHead(416, { "content-range": `bytes */${st.size}` });
+      return res.end();
+    }
+    code = 206;
+    headers["content-range"] = `bytes ${start}-${end}/${st.size}`;
+  }
+
+  headers["content-length"] = end - start + 1;
+  res.writeHead(code, headers);
 
   if (req.method === "HEAD") return res.end();
 
-  const stream = createReadStream(file);
+  const stream = createReadStream(file, { start, end });
   stream.on("error", () => res.destroy());
   res.on("close", () => stream.destroy());
   stream.pipe(res);

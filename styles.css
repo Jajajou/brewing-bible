@@ -413,6 +413,49 @@ html[data-theme="dark"] .btn-primary{ color: #17120c; }
   color: var(--muted); text-transform: uppercase;
 }
 
+/* Thanh nghe: thuộc phần đầu chương, không thuộc thân bài — nó nói về
+   chương, không phải một đoạn trong chương. Chỉ hiện khi manifest có file,
+   nên không có khung rỗng ở chương chưa sinh. */
+.audio-bar{
+  display: flex; align-items: center; gap: 0.8rem;
+  margin-top: 1.1rem; padding: 0.45rem 0.6rem;
+  border: 1px solid var(--rule-soft); border-radius: var(--radius);
+  background: var(--surface-2);
+  font-family: var(--font-ui);
+}
+.audio-bar audio{ display: none; }
+.audio-toggle{
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  flex: 0 0 auto;
+  background: none; border: 0; padding: 0.15rem 0.3rem; cursor: pointer;
+  color: var(--accent); font: inherit; font-size: 0.72rem; font-weight: 600;
+  letter-spacing: 0.03em;
+}
+.audio-toggle:hover{ color: var(--ink); }
+.audio-icon{ font-size: 0.7rem; line-height: 1; width: 0.8rem; text-align: center; }
+.audio-rail{
+  flex: 1 1 auto; min-width: 4rem; height: 3px; border-radius: 99px;
+  background: var(--rule); cursor: pointer; position: relative;
+}
+.audio-rail i{
+  position: absolute; inset: 0 auto 0 0; width: 0;
+  background: var(--accent); border-radius: inherit;
+}
+.audio-rail:focus-visible{ outline: 2px solid var(--accent); outline-offset: 5px; }
+.audio-time{
+  flex: 0 0 auto; font-size: 0.68rem; color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.audio-voice{
+  flex: 0 0 auto; font: inherit; font-size: 0.68rem; color: var(--ink-2);
+  background: var(--surface); border: 1px solid var(--rule-soft);
+  border-radius: 99px; padding: 0.15rem 0.4rem; cursor: pointer;
+}
+@media (max-width: 560px){
+  .audio-label{ display: none; }
+  .audio-time{ display: none; }
+}
+
 .body{ margin-top: 2rem; }
 .body > * + *{ margin-top: 1.15rem; }
 .body p{ margin: 0 0 1.05rem; }
@@ -525,6 +568,28 @@ html[data-theme="dark"] .btn-primary{ color: #17120c; }
 .f-dot{ fill: var(--accent); }
 .f-lab{ font-family: var(--font-ui); font-size: 7px; fill: var(--muted); }
 .f-lab-unit{ text-anchor: end; }
+
+/* bánh xe hương vị: màu đi qua class, không qua style="var(--…)" — bản EPUB
+   không biết biến CSS và sẽ tô đen hết hình. */
+.f-wedge-a{ fill: var(--accent); fill-opacity: 0.26; }
+.f-wedge-b{ fill: var(--accent); fill-opacity: 0.36; }
+.f-wedge-c{ fill: var(--accent); fill-opacity: 0.12; }
+.f-wedge-d{ fill: var(--accent); fill-opacity: 0.2; }
+.f-leaf{ stroke: var(--ink-2); stroke-width: 0.45; opacity: 0.4; }
+.f-hub{ fill: var(--surface-2); stroke: var(--rule); stroke-width: 0.8; }
+.f-ring{ fill: none; stroke: var(--rule); stroke-width: 0.6; }
+.f-cat{ fill: var(--ink); font-size: 6.6px; letter-spacing: 0.04em; }
+.f-hub-txt{ fill: var(--ink); font-size: 8px; }
+.f-tiny{ font-size: 6px; }
+.f-q{ fill: var(--ink-2); font-size: 7px; }
+.f-zone{ fill: var(--accent); font-size: 7px; letter-spacing: 0.08em; }
+.f-axis-title{ font-size: 7px; }
+
+/* dòng nguồn dưới hình: giấy phép phải đi cùng hình, không nằm trong README */
+.fig-credit{
+  display: block; margin-top: 0.5rem;
+  font-size: 0.68rem; line-height: 1.5; color: var(--muted); opacity: 0.9;
+}
 
 .fig figcaption{
   margin-top: 0.85rem; padding-top: 0.7rem;
