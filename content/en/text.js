@@ -805,7 +805,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 <li><strong>Total extraction</strong> — grind, temperature, time. A single dial.</li>
 </ol>
 
-<p>Those three. There is no fourth. And no technique "keeps" a particular flavour note — because a note is not a substance you can hold back; it is a sensation produced by a mixture.</p>
+<p>Those three. Inside this model there is no fourth — and if you find a fourth lever that stands outside them, it is worth a brew to test. But no technique "keeps" a particular flavour note — because a note is not a substance you can hold back; it is a sensation produced by a mixture.</p>
 
 <div class="pull">You cannot choose the notes.<br>You can only choose <em>strength, evenness, and extraction level</em>.</div>
 
@@ -866,7 +866,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 
 <h4>Pouring — the only lever against channelling</h4>
 
-<p>This is where technique genuinely matters, and the only place it does.</p>
+<p>This is where technique matters most — and of the three levers above, the only one it acts on directly.</p>
 
 <p>Pour evenly, keep the water level steady, do not pour from too high, do not let the bed dry, rotate the dripper so water passes over the whole surface — none of this raises extraction much. It makes extraction <em>more uniform across the bed</em>.</p>
 
@@ -3144,7 +3144,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <div class="callout ok">
 <p class="callout-title">1. One change at a time</p>
-<p>Change two things and the cup improves → you do not know which one helped. Change two things and it gets worse → you do not know which one hurt. There are no exceptions to this rule.</p>
+<p>Change two things and the cup improves → you do not know which one helped. Change two things and it gets worse → you do not know which one hurt. Break this rule only when you deliberately change two things to save time, and accept that the brew teaches you nothing.</p>
 </div>
 
 <div class="callout ok">
@@ -3160,9 +3160,9 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <h3>Three things that are never the cause</h3>
 
 <ul>
-<li><strong>"I just do not have the touch."</strong> There is no mechanism for this. If the cup is bad, there is a physical cause. Not having found it yet does not mean it does not exist.</li>
+<li><strong>"I just do not have the touch."</strong> Nobody has yet pointed to a mechanism for this. If the cup is bad, there is a physical cause. Not having found it yet does not mean it does not exist.</li>
 <li><strong>"This coffee is too good for my gear."</strong> Not true. Good gear helps with repeatability, but an ordinary dripper with correct technique beats an expensive one with bad technique.</li>
-<li><strong>"I need to buy more gear."</strong> This is the most common answer and usually the most wrong. In 90% of cases the problem is the water, the coffee, or one of the four pouring variables.</li>
+<li><strong>"I need to buy more gear."</strong> This is the most common answer and usually the most wrong. Almost every time, the problem is the water, the coffee, or one of the four pouring variables. (The "90%" often quoted here is a figure of speech, not a statistic.)</li>
 </ul>
 
 <div class="pull">If you have been through the checklist<br>and the cup is still only “fine” —<br>that is an <em>answer</em>, not a failure.</div>

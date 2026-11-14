@@ -190,7 +190,7 @@ window.BOOK_PARTS.push({
 <li><strong>Mức chiết tổng</strong> — cỡ xay, nhiệt, thời gian. Một núm xoay duy nhất.</li>
 </ol>
 
-<p>Ba thứ đó. Không có thứ thứ tư. Và không có kỹ thuật nào "giữ lại" một nốt hương cụ thể — vì nốt hương không phải là một chất có thể giữ, nó là một cảm giác sinh ra từ một hỗn hợp.</p>
+<p>Ba thứ đó. Trong mô hình này không có thứ thứ tư — và nếu bạn tìm ra một đòn bẩy thứ tư đứng ngoài ba thứ trên, nó đáng một mẻ pha để kiểm tra. Nhưng không có kỹ thuật nào "giữ lại" một nốt hương cụ thể — vì nốt hương không phải là một chất có thể giữ, nó là một cảm giác sinh ra từ một hỗn hợp.</p>
 
 <div class="pull">Bạn không thể chọn nốt hương.<br>Bạn chỉ có thể chọn <em>độ đậm, độ đều, và mức chiết</em>.</div>
 
@@ -252,7 +252,7 @@ window.BOOK_PARTS.push({
 
 <h4>Kỹ thuật rót — đòn bẩy duy nhất chống channeling</h4>
 
-<p>Đây là chỗ kỹ thuật thật sự có tác dụng, và cũng là chỗ duy nhất.</p>
+<p>Đây là chỗ kỹ thuật có tác dụng lớn nhất — và trong ba đòn bẩy trên, là chỗ duy nhất nó tác động trực tiếp.</p>
 
 <p>Rót đều, giữ mực nước ổn định, không rót quá cao, không để bã khô, xoay cả phễu để nước đi qua toàn bộ bề mặt — những thứ này không tăng mức chiết nhiều. Chúng làm cho mức chiết <em>đồng nhất hơn giữa các phần bã</em>.</p>
 
