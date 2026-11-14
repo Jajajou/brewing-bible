@@ -187,7 +187,7 @@ window.BOOK_PARTS.push({
 <tr><td><strong>Bloom</strong></td><td>Lần rót đầu, ít nước, để bã nhả CO₂ trước khi rót chính. CO₂ đẩy nước ra khỏi bã. Bỏ bloom với cà tươi thì chiết không đều.</td></tr>
 <tr><td><strong>Channeling</strong></td><td>Nước tìm được đường ít trở lực và chảy tập trung qua đó, bỏ qua phần bã còn lại. Cho ly <em>vừa chua vừa đắng</em> cùng lúc, phần bị bỏ qua chiết thiếu, phần trên đường nước chiết dư.</td></tr>
 <tr><td><strong>Bypass</strong></td><td>Nước đi men theo thành giấy mà không qua hết lớp bã. Làm đáy lớp bã chiết ít hơn phần trên. Nhóm phễu "không bypass" sinh ra để chặn chuyện này. Chương 15.</td></tr>
-<tr><td><strong>Drawdown</strong> (thời gian rút)</td><td>Thời gian nước thoát hết khỏi bã, thường tính ở giai đoạn cuối. Là <em>kết quả</em>, không phải thứ bạn đặt. Dùng làm chỉ báo: rút dài bất thường nghĩa là bã đang cản nước.</td></tr>
+<tr><td><strong>Drawdown</strong> (thời gian rút)</td><td>Thời gian nước thoát khỏi bã. Sách dùng hai mốc: <em>tổng</em> (từ lần rót đầu đến giọt cuối) và <em>giai đoạn cuối</em> (từ lần rót cuối đến giọt cuối, thường 30–60 giây). Là <em>kết quả</em>, không phải thứ bạn đặt. Dùng làm chỉ báo: rút dài bất thường nghĩa là bã đang cản nước.</td></tr>
 </tbody>
 </table>
 </div>

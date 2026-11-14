@@ -34,7 +34,7 @@ window.BOOK_PARTS.push({
 
 <p>Cảm ơn <strong>Scott Rao</strong>: các bài về bột mịn, về độ sâu lớp bã và về phễu không bypass đã định hướng thí nghiệm phin và chương hình học phễu. Đó là kinh nghiệm hành nghề, không phải nghiên cứu, và sách dẫn đúng như vậy.</p>
 
-<p>Cảm ơn <strong>James Hoffmann</strong>: cách pha nhiều lần rót nhỏ được phân tích ở chương 17. Cảm ơn <strong>Tetsu Kasuya</strong> cho phương pháp 4:6 như một hệ thống chỉnh theo khẩu vị, cũng ở chương 17.</p>
+<p>Cảm ơn <strong>James Hoffmann</strong>: cách pha nhiều lần rót nhỏ được phân tích ở chương 18. Cảm ơn <strong>Tetsu Kasuya</strong> cho phương pháp 4:6 như một hệ thống chỉnh theo khẩu vị, cũng ở chương 17.</p>
 
 <p>Cảm ơn <strong>Christopher Hendon</strong> cho phần hoá học của nước ở chương 4, và cảm ơn nhóm <strong>UC Davis Coffee Center</strong>, Batali, Ristenpart, Guinard và cộng sự, cho những nghiên cứu cảm quan về TDS, mức chiết, nhiệt độ và phân đoạn thời gian mà chương 7, 8 và 9 dựa vào. Phần lớn những chỗ sách phải sửa lại chính mình là nhờ các bài đó.</p>
 

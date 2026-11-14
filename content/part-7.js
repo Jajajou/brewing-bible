@@ -258,7 +258,7 @@ window.BOOK_PARTS.push({
 
 <h3>Bốn trục khẩu vị</h3>
 
-<p>Sau khi bạn có một chuỗi lựa chọn, hãy đọc nó theo bốn trục (từ chương 26):</p>
+<p>Sau khi bạn có một chuỗi lựa chọn, hãy đọc nó theo bốn trục (từ chương 27):</p>
 
 <div class="table-wrap">
 <table>

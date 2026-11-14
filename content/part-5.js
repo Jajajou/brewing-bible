@@ -85,7 +85,7 @@ window.BOOK_PARTS.push({
 
 <div class="callout act">
 <p class="callout-title">Dùng thời gian rút làm chỉ báo, không làm mục tiêu</p>
-<p>Vì thời gian là kết quả, nó là <em>dấu hiệu</em> tốt chứ không phải thứ nên nhắm. Thời gian rút dài bất thường nói rằng bã đang cản nước nhiều hơn mọi khi, có thể do xay mịn hơn, nhiều bột mịn hơn, giấy bị bít, hoặc bã bị nén. Chương 21 có bảng đọc con số đó.</p>
+<p>Vì thời gian là kết quả, nó là <em>dấu hiệu</em> tốt chứ không phải thứ nên nhắm. Thời gian rút dài bất thường nói rằng bã đang cản nước nhiều hơn mọi khi, có thể do xay mịn hơn, nhiều bột mịn hơn, giấy bị bít, hoặc bã bị nén. Chương 20 có bảng đọc con số đó.</p>
 <p>Chỉnh thời gian bằng cách chỉnh nguyên nhân. Đừng rót chậm lại chỉ để đồng hồ chạm con số bạn muốn.</p>
 </div>
 
@@ -804,7 +804,7 @@ window.BOOK_PARTS.push({
     minutes: 8,
     tags: ["phin", "dụng cụ", "thực nghiệm"],
     body: `
-<p>Phin là phễu không bypass có trước mọi phễu không bypass khác. Ở chương 15 mình đã xếp nó vào cùng nhóm với Pulsar, Tricolate, Orea Z1: nước chỉ có một đường ra, và đường đó đi qua bã <span class="tier tier-b">Hợp lý <b class="cite">· 68</b></span>.</p>
+<p>Phin là phễu không bypass có trước mọi phễu không bypass khác. Ở chương 16 mình đã xếp nó vào cùng nhóm với Pulsar, Tricolate, Orea Z1: nước chỉ có một đường ra, và đường đó đi qua bã <span class="tier tier-b">Hợp lý <b class="cite">· 68</b></span>.</p>
 
 <p>Nhưng phin nổi tiếng vì một thứ khác: cà phê sữa đá. Cốt pha đậm cỡ 1:4–1:5, robusta rang đậm, sữa đặc, và lưới kim loại cho dầu cùng bột mịn đi qua nên ly có body dày. Đó là một truyền thống pha riêng, và nó không phải chủ đề của chương này. Mình không có nguồn cho phần đó, và không muốn kể lại nó bằng ký ức.</p>
 

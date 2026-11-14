@@ -65,7 +65,7 @@ GHI CHÚ: ________________________________
 
 <h3>Bốn trục để ghi vị</h3>
 
-<p>Đừng cố viết nốt hương. Dùng bốn trục từ chương 26, mỗi trục một số từ 1 đến 5:</p>
+<p>Đừng cố viết nốt hương. Dùng bốn trục từ chương 27, mỗi trục một số từ 1 đến 5:</p>
 
 <div class="table-wrap">
 <table>

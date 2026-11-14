@@ -187,7 +187,7 @@ window.BOOK_TEXT = {
 <tr><td><strong>Bloom</strong></td><td>The first small pour, letting the bed release CO₂ before the main pours.</td><td>CO₂ pushes water away from the grounds. Skip the bloom with fresh coffee and extraction goes uneven.</td></tr>
 <tr><td><strong>Channelling</strong></td><td>Water finds a path of least resistance and runs through it, bypassing the rest of the bed.</td><td>Gives a cup that is <em>sour and bitter at once</em>, what was bypassed is under-extracted, what was on the path is over-extracted.</td></tr>
 <tr><td><strong>Bypass</strong></td><td>Water running down the paper wall without passing through the whole bed.</td><td>Leaves the bottom of the bed less extracted than the top. The "no-bypass" family of brewers exists to stop it. Chapter 15.</td></tr>
-<tr><td><strong>Drawdown</strong></td><td>The time for water to drain through the bed, usually counted at the end of the brew.</td><td>It is an <em>outcome</em>, not something you set. Use it as a signal: an unusually long drawdown means the bed is resisting water.</td></tr>
+<tr><td><strong>Drawdown</strong></td><td>The time water takes to leave the bed. The book uses two marks: <em>total</em> (first pour to last drop) and the <em>final stage</em> (last pour to last drop, usually 30–60 seconds).</td><td>It is an <em>outcome</em>, not something you set. Use it as a signal: an unusually long drawdown means the bed is resisting water.</td></tr>
 </tbody>
 </table>
 </div>
@@ -1914,7 +1914,7 @@ Odd:   _______________
 
 <div class="callout act">
 <p class="callout-title">Use drawdown as an indicator, not a target</p>
-<p>Because time is an outcome, it is a good <em>signal</em> rather than something to aim at. An unusually long drawdown says the bed is resisting water more than usual, a finer grind, more fines, a clogged paper, or a compacted bed. Chapter 21 has the table for reading that number.</p>
+<p>Because time is an outcome, it is a good <em>signal</em> rather than something to aim at. An unusually long drawdown says the bed is resisting water more than usual, a finer grind, more fines, a clogged paper, or a compacted bed. Chapter 20 has the table for reading that number.</p>
 <p>Change the time by changing the cause. Do not pour more slowly just to make the clock hit a number you like.</p>
 </div>
 
@@ -2627,7 +2627,7 @@ Odd:   _______________
       minutes: 8,
       tags: ["phin", "equipment", "experiment"],
       body: `
-<p>The phin is a no-bypass dripper older than any other no-bypass dripper. In chapter 15 I placed it in the same family as the Pulsar, the Tricolate and the Orea Z1: the water has one way out, and that way goes through the bed <span class="tier tier-b">Plausible <b class="cite">· 68</b></span>.</p>
+<p>The phin is a no-bypass dripper older than any other no-bypass dripper. In chapter 16 I placed it in the same family as the Pulsar, the Tricolate and the Orea Z1: the water has one way out, and that way goes through the bed <span class="tier tier-b">Plausible <b class="cite">· 68</b></span>.</p>
 
 <p>But the phin is famous for something else: iced coffee with condensed milk. A strong concentrate around 1:4–1:5, dark-roasted robusta, condensed milk, and a metal mesh that lets oils and fines through, which is where the thick body comes from. That is a brewing tradition of its own, and it is not this chapter's subject. I have no sources for it, and I will not retell it from memory.</p>
 
@@ -2735,7 +2735,7 @@ Odd:   _______________
 
 <h3>The person who gave me the inspiration</h3>
 
-<p><strong>Lance Hedrick</strong> gave me a great deal of inspiration, which is why he stands here rather than in the list below. His videos led me to a number of the experiments in the book, including the double-phin test. His few-pour recipes are discussed in chapter 17.</p>
+<p><strong>Lance Hedrick</strong> gave me a great deal of inspiration, which is why he stands here rather than in the list below. His videos led me to a number of the experiments in the book, including the double-phin test. His few-pour recipes are discussed in chapter 18.</p>
 
 <h3>The work this book rests on</h3>
 
@@ -2743,7 +2743,7 @@ Odd:   _______________
 
 <p>Thanks to <strong>Scott Rao</strong>: his posts on fines, on bed depth and on no-bypass brewers shaped the phin experiment and the chapter on brewer geometry. That is professional experience, not research, and the book cites it as such.</p>
 
-<p>Thanks to <strong>James Hoffmann</strong>: the many-small-pours approach is analysed in chapter 17. Thanks to <strong>Tetsu Kasuya</strong> for the 4:6 method as a system you tune to your own taste, also in chapter 17.</p>
+<p>Thanks to <strong>James Hoffmann</strong>: the many-small-pours approach is analysed in chapter 18. Thanks to <strong>Tetsu Kasuya</strong> for the 4:6 method as a system you tune to your own taste, also in chapter 18.</p>
 
 <p>Thanks to <strong>Christopher Hendon</strong> for the chemistry of water in chapter 4, and to the <strong>UC Davis Coffee Center</strong>, Batali, Ristenpart, Guinard and colleagues, for the sensory work on TDS, extraction, temperature and brew fractions that chapters 7, 8 and 9 rest on. Most of the places where the book had to correct itself are thanks to those papers.</p>
 
@@ -3391,7 +3391,7 @@ Likely problem:  ____________________
 
 <h3>Four axes of palate</h3>
 
-<p>Once you have a sequence of choices, read it along four axes (from chapter 26):</p>
+<p>Once you have a sequence of choices, read it along four axes (from chapter 27):</p>
 
 <div class="table-wrap">
 <table>
@@ -3517,7 +3517,7 @@ NOTES: ________________________________
 
 <h3>Four axes for recording taste</h3>
 
-<p>Do not try to write flavour notes. Use the four axes from chapter 26, scoring each from 1 to 5:</p>
+<p>Do not try to write flavour notes. Use the four axes from chapter 27, scoring each from 1 to 5:</p>
 
 <div class="table-wrap">
 <table>
