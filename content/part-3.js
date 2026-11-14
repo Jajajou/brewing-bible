@@ -582,7 +582,7 @@ TDS ≈ EY × liều ÷ (nước − 2 × liều)
 <h3>Cách xay trong thực tế</h3>
 
 <ol class="steps">
-<li><strong>Bắt đầu từ một mốc và ghi lại hai con số</strong><p>Số nấc, tổng thời gian rút, và thời gian của 30 giây cuối. Không có hai con số này, bạn không có gì để so.</p></li>
+<li><strong>Bắt đầu từ một mốc và ghi lại ba con số</strong><p>Số nấc, tổng thời gian rút, và thời gian rút của giai đoạn cuối: từ lần rót cuối đến giọt cuối, bình thường 30–60 giây. Không có ba con số này, bạn không có gì để so.</p></li>
 <li><strong>Đổi hai nấc, đừng đổi một</strong><p>Trên nhiều máy xay, một nấc đổi quá ít để nếm ra. Nếu bạn đổi một nấc, thấy không khác, rồi bỏ cuộc, bạn đang đo nhiễu chứ không đo cỡ xay.</p></li>
 <li><strong>Đọc vị và thời gian rút cùng lúc</strong><p>Rút dài hơn + đắng/khô hơn → quá mịn. Rút dài hơn + vẫn chua xanh → nhiều khả năng là không đều, không phải chiết thiếu. Rút ngắn hơn + nhạt → quá thô.</p></li>
 <li><strong>Dừng khi hai tín hiệu đồng ý</strong><p>Vị đúng và thời gian rút nằm trong khoảng bạn chấp nhận. Đừng tìm "cỡ xay chuẩn", không có, và cái phễu của bạn sẽ từ chối nó.</p></li>

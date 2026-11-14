@@ -1416,7 +1416,7 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 <h3>Grinding in practice</h3>
 
 <ol class="steps">
-<li><strong>Start from one mark and record two numbers</strong><p>The setting, total drawdown, and the time of the last 30 seconds. Without those two numbers you have nothing to compare against.</p></li>
+<li><strong>Start from one mark and record three numbers</strong><p>The setting, the total drawdown, and the drawdown after the last pour: from the last pour to the last drop, usually 30–60 seconds. Without those three numbers you have nothing to compare against.</p></li>
 <li><strong>Change two clicks, not one</strong><p>On many grinders one click shifts too little to taste. If you change one click, notice nothing, and give up, you are measuring noise rather than grind.</p></li>
 <li><strong>Read taste and drawdown together</strong><p>Longer drawdown and more bitter and dry → too fine. Longer drawdown and still sour and grassy → most likely uneven, not under-extracted. Shorter drawdown and thin → too coarse.</p></li>
 <li><strong>Stop when the two signals agree</strong><p>The taste is right and the drawdown sits in a range you accept. Do not hunt for “the correct grind”. There is not one, and your dripper will reject it.</p></li>
