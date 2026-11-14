@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Đồng hồ pha &amp; máy tính — The Brewing Bible</title>
+<meta name="description" content="Đồng hồ đếm theo đúng mốc thời gian của hai công thức trong sách, kèm máy tính tỉ lệ và mức chiết EY từ TDS. Trang tĩnh, không tài khoản, không gọi mạng.">
+<meta name="theme-color" content="#9d4a1c">
+<link rel="canonical" href="https://jajajou.github.io/brewing-bible/brew.html">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<style>
+/* Trang đồng hồ — cùng bảng màu với sách và trang nhật ký, nhưng tự chứa:
+   mở trong bếp, một tay, mạng chập chờn. Font hệ thống vì thế. */
+:root{
+  --bg:#f4efe5; --surface:#fbf8f1; --surface-2:#f7f2e7;
+  --ink:#221d17; --ink-2:#4a4038; --muted:#7d7065;
+  --rule:#ded2bf; --rule-soft:#e9dfcd;
+  --accent:#9d4a1c; --accent-2:#b9743a; --accent-wash:rgba(157,74,28,.07);
+  --bad:#94352c; --ok:#4a6b3f; --warn:#8a6414;
+  --radius:6px;
+  --font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, system-ui, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+}
+html[data-theme="dark"]{
+  --bg:#14120e; --surface:#1b1813; --surface-2:#221e18;
+  --ink:#efe7d8; --ink-2:#c8bcab; --muted:#9a8d7e;
+  --rule:#352e24; --rule-soft:#2a241c;
+  --accent:#d98a56; --accent-2:#c99862; --accent-wash:rgba(217,138,86,.1);
+  --bad:#d97a6f; --ok:#8fb47e; --warn:#d8b25e;
+}
+*, *::before, *::after{ box-sizing: border-box; }
+[hidden]{ display: none !important; }
+html{ -webkit-text-size-adjust: 100%; }
+body{
+  margin: 0; background: var(--bg); color: var(--ink);
+  font-family: var(--font-ui); font-size: 16px; line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+a{ color: var(--accent); }
+
+/* ---------- thanh trên ---------- */
+.top{
+  position: sticky; top: 0; z-index: 5;
+  display: flex; align-items: center; gap: .75rem;
+  padding: .6rem 1rem;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--rule-soft);
+}
+.top h1{ margin: 0; font-size: 1rem; font-weight: 600; letter-spacing: -.01em; flex: 1 1 auto; }
+.back{ color: var(--accent); text-decoration: none; font-size: .875rem; display: inline-flex; gap: .3rem; }
+.back:hover{ text-decoration: underline; }
+#themeToggle{
+  border: 1px solid var(--rule); background: var(--surface); color: var(--ink-2);
+  border-radius: var(--radius); width: 2.1rem; height: 2.1rem; cursor: pointer;
+  font-size: 1rem; line-height: 1; display: grid; place-items: center;
+}
+
+main{ max-width: 41rem; margin: 0 auto; padding: 1rem 1rem 4rem; }
+.lede{ color: var(--muted); font-size: .9rem; margin: 0 0 1rem; }
+.muted{ color: var(--muted); }
+
+/* ---------- tab ---------- */
+.tabs{ display: flex; gap: .25rem; border-bottom: 1px solid var(--rule); margin-bottom: 1rem; }
+.tabs button{
+  appearance: none; border: 0; background: none; cursor: pointer;
+  font: inherit; font-size: .9rem; padding: .55rem .8rem; color: var(--muted);
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"]{ color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+
+/* ---------- chọn công thức ---------- */
+.picks{ display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; margin-bottom: .9rem; }
+@media (max-width: 420px){ .picks{ grid-template-columns: 1fr; } }
+.pick{
+  text-align: left; cursor: pointer; font: inherit;
+  background: var(--surface); color: var(--ink-2);
+  border: 1px solid var(--rule); border-radius: var(--radius);
+  padding: .55rem .7rem; display: grid; gap: .1rem;
+}
+.pick b{ font-size: .875rem; color: var(--ink); font-weight: 600; }
+.pick span{ font-size: .75rem; color: var(--muted); font-family: var(--font-mono); }
+.pick.on{ border-color: var(--accent); background: var(--accent-wash); }
+
+/* ---------- đồng hồ ---------- */
+.card{
+  background: var(--surface); border: 1px solid var(--rule);
+  border-radius: var(--radius); padding: .9rem; margin-bottom: .9rem;
+}
+.clock{
+  font-family: var(--font-mono); font-variant-numeric: tabular-nums;
+  font-size: 3.4rem; line-height: 1; letter-spacing: -.02em;
+  text-align: center; color: var(--ink); margin: .2rem 0 .6rem;
+}
+.is-running .clock{ color: var(--accent); }
+.bar{ height: 4px; background: var(--rule-soft); border-radius: 999px; overflow: hidden; margin-bottom: .75rem; }
+.bar > div{ height: 100%; width: 0; background: var(--accent); transition: width .18s linear; }
+.now{
+  display: grid; gap: .15rem; text-align: center;
+  padding: .5rem; background: var(--surface-2); border-radius: var(--radius);
+  border: 1px dashed var(--rule); margin-bottom: .75rem;
+}
+.now b{ font-size: .95rem; }
+.now span{ font-size: .78rem; color: var(--muted); font-family: var(--font-mono); }
+
+.row{ display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; }
+.row .grow{ flex: 1 1 auto; }
+button.primary{
+  font: inherit; font-size: .95rem; font-weight: 600; cursor: pointer;
+  background: var(--accent); color: #fff; border: 1px solid var(--accent);
+  border-radius: var(--radius); padding: .55rem 1.1rem;
+}
+button.primary:disabled{ opacity: .5; cursor: default; }
+button.ghost{
+  font: inherit; font-size: .9rem; cursor: pointer;
+  background: var(--surface); color: var(--ink-2);
+  border: 1px solid var(--rule); border-radius: var(--radius); padding: .55rem .9rem;
+}
+.water{ display: inline-flex; align-items: center; gap: .35rem; font-size: .85rem; color: var(--muted); margin-left: auto; }
+.water input{
+  width: 4.6rem; font: inherit; font-size: 16px; padding: .4rem .45rem;
+  color: var(--ink); background: var(--surface);
+  border: 1px solid var(--rule); border-radius: var(--radius);
+  text-align: right; -webkit-appearance: none; appearance: none;
+}
+input:focus-visible, button:focus-visible, .pick:focus-visible{
+  outline: 2px solid var(--accent); outline-offset: 1px;
+}
+
+/* ---------- các bước ---------- */
+ol.steps{ list-style: none; margin: 0 0 .9rem; padding: 0; display: grid; gap: .35rem; }
+.step{
+  width: 100%; text-align: left; cursor: pointer; font: inherit;
+  display: grid; grid-template-columns: 3.2rem 1fr auto; gap: .6rem; align-items: baseline;
+  background: var(--surface); color: var(--ink-2);
+  border: 1px solid var(--rule-soft); border-radius: var(--radius);
+  padding: .5rem .65rem;
+}
+.step .t{ font-family: var(--font-mono); font-size: .8rem; color: var(--muted); }
+.step .body{ display: grid; gap: .1rem; }
+.step .body b{ font-size: .875rem; font-weight: 600; color: var(--ink); }
+.step .body i{ font-style: normal; font-size: .78rem; color: var(--muted); }
+.step .w{ font-family: var(--font-mono); font-size: .85rem; color: var(--accent-2); }
+.step.on{ border-color: var(--accent); background: var(--accent-wash); }
+.step.on .body b{ color: var(--accent); }
+.note{ font-size: .8rem; color: var(--muted); margin: .2rem 0 0; line-height: 1.5; }
+.note a{ color: var(--accent); }
+
+/* ---------- máy tính ---------- */
+h2{ font-size: .78rem; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); margin: 0 0 .6rem; font-weight: 600; }
+.fields{ display: grid; grid-template-columns: repeat(3, 1fr); gap: .6rem; }
+@media (max-width: 420px){ .fields{ grid-template-columns: 1fr 1fr; } }
+.fields.two{ grid-template-columns: 1fr 1fr; }
+label.f{ display: block; font-size: .78rem; color: var(--muted); }
+label.f input{
+  display: block; width: 100%; margin-top: .15rem;
+  font: inherit; font-size: 16px; padding: .5rem .55rem;
+  color: var(--ink); background: var(--surface);
+  border: 1px solid var(--rule); border-radius: var(--radius);
+  -webkit-appearance: none; appearance: none;
+}
+.out{
+  margin: .7rem 0 0; padding: .55rem .65rem; border-radius: var(--radius);
+  background: var(--surface-2); font-family: var(--font-mono); font-size: .9rem;
+  color: var(--ink-2); font-variant-numeric: tabular-nums;
+}
+.out.big{ font-size: 2rem; text-align: center; color: var(--accent); margin-top: .8rem; }
+.hint{ font-size: .78rem; color: var(--muted); margin: 0 0 .6rem; }
+.zone{ font-size: .8rem; color: var(--ink-2); margin: .45rem 0 0; }
+.zone.tot b{ color: var(--ok); }
+.zone.thieu b, .zone.du b{ color: var(--bad); }
+.zone.thap b, .zone.cao b{ color: var(--warn); }
+
+footer{ max-width: 41rem; margin: 0 auto; padding: 0 1rem 3rem; font-size: .8rem; color: var(--muted); }
+footer p{ margin: 0 0 .4rem; }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <a class="back" href="index.html" title="Về sách">← Sách</a>
+  <h1>Đồng hồ pha &amp; máy tính</h1>
+  <button id="themeToggle" aria-label="Đổi giao diện sáng/tối">☾</button>
+</header>
+
+<main>
+  <nav class="tabs" role="tablist" aria-label="Công cụ">
+    <button role="tab" id="tabTimer" data-tab="timer" aria-selected="true" aria-controls="panel-timer">Đồng hồ</button>
+    <button role="tab" id="tabCalc" data-tab="calc" aria-selected="false" aria-controls="panel-calc" tabindex="-1">Máy tính</button>
+  </nav>
+
+  <section id="panel-timer" role="tabpanel" aria-labelledby="tabTimer">
+    <p class="lede">Hai công thức có mốc thời gian trong sách. Đồng hồ bíp ở mỗi bước; con số bên phải mỗi bước là <b>mốc luỹ kế trên cân</b>, không phải lượng rót thêm.</p>
+
+    <div class="picks" id="recipePick"></div>
+
+    <div class="card">
+      <div class="clock" id="clock" aria-hidden="true">0:00</div>
+      <div class="bar" aria-hidden="true"><div id="bar"></div></div>
+      <div class="now" id="now" aria-live="polite"></div>
+      <div class="row">
+        <button class="primary" id="startBtn">Bắt đầu</button>
+        <button class="ghost" id="resetBtn">Đặt lại</button>
+        <label class="water">Nước <input id="waterIn" type="number" inputmode="numeric" step="1" min="50" max="2000" aria-label="Tổng nước, gam"> g</label>
+      </div>
+    </div>
+
+    <ol class="steps" id="stepList"></ol>
+    <p class="note" id="recipeNote"></p>
+  </section>
+
+  <section id="panel-calc" role="tabpanel" aria-labelledby="tabCalc" hidden>
+    <div class="card">
+      <h2>Tỉ lệ</h2>
+      <p class="hint">Sửa ô nào cũng được — hai ô còn lại tự theo. 1:16 nghĩa là 1 g cà với 16 g nước.</p>
+      <div class="fields">
+        <label class="f">Cà (g)<input id="cDose" type="number" inputmode="decimal" step="0.1" min="1" value="15"></label>
+        <label class="f">Nước (g)<input id="cWater" type="number" inputmode="numeric" step="1" min="20" value="255"></label>
+        <label class="f">Tỉ lệ 1:<input id="cRatio" type="number" inputmode="decimal" step="0.1" min="1" value="17"></label>
+      </div>
+      <p class="out" id="cOut"></p>
+    </div>
+
+    <div class="card">
+      <h2>Mức chiết (EY)</h2>
+      <p class="hint">EY = TDS × khối lượng trong ly ÷ khối lượng cà. Nước còn lại trong bã làm EY thật thấp hơn con số này một chút — đây là số học của tỉ lệ, không phải phép đo.</p>
+      <div class="fields two">
+        <label class="f">TDS đo được (%)<input id="eTds" type="number" inputmode="decimal" step="0.01" min="0.1" value="1.3"></label>
+        <label class="f">Trong ly (g)<input id="eYield" type="number" inputmode="numeric" step="1" min="20" value="255"></label>
+      </div>
+      <p class="out big" id="eOut">—</p>
+      <p class="zone" id="eZone"></p>
+      <p class="zone" id="tZone"></p>
+    </div>
+
+    <p class="note">Đổi tỉ lệ là đòn bẩy sạch nhất: ly đậm hơn hoặc loãng hơn, mức chiết gần như đứng yên. Muốn đổi mức chiết thì đổi cỡ xay, thời gian hoặc nhiệt — xem chương <a href="index.html#/ch-chiet-xuat">“Ba con số và một cái bẫy”</a>.</p>
+  </section>
+</main>
+
+<footer>
+  <p>Trang tĩnh: không tài khoản, không gọi mạng, mọi phép tính chạy trong trình duyệt của bạn.</p>
+  <p>Ghi lại lần pha ở <a href="journal.html">nhật ký pha</a> · đọc lại lý thuyết ở <a href="index.html">sách</a>.</p>
+</footer>
+
+<script src="brew-core.js?v=9045801"></script>
+<script src="brew.js?v=9045801"></script>
+</body>
+</html>

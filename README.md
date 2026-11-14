@@ -38,6 +38,7 @@ Mỗi khẳng định trong sách đều được dán nhãn theo ba mức này.
 - **Bản in**: Ctrl/Cmd + P cho ra bản in nhanh; hoặc tải bản dàn trang A5 sẵn ở [the-brewing-bible.pdf](the-brewing-bible.pdf)
 - **In các mẫu điền tay**: mỗi mẫu (nhật ký pha, phiếu cupping, tóm tắt bao cà) có nút *In mẫu này* ngay dưới khối — mở trang in riêng, mỗi bản một tờ A5
 - **Ba ngôn ngữ trên web**: tiếng Việt, tiếng Anh, tiếng Nhật — chọn ở góc phải thanh trên, lựa chọn được nhớ trong máy
+- **Đồng hồ pha & máy tính**: [brew.html](brew.html) đếm giây theo đúng mốc thời gian của hai công thức trong sách (V60 khớp tỉ lệ cupping, và cupping 8 phút), bíp ở mỗi bước, đổi tổng nước thì mọi mốc gam đổi theo; kèm máy tính tỉ lệ và mức chiết EY từ TDS
 - **Hình minh hoạ**: biểu đồ SVG vẽ bằng nét, in ra sắc nét và đổi màu theo giao diện sáng/tối. Vài hình có thanh trượt trên web (phân bố kích thước hạt, máy tính tỉ lệ); bản PDF và EPUB nhận bản tĩnh cùng nội dung
 
 ## Cấu trúc
@@ -55,6 +56,20 @@ figures.js            hình minh hoạ: SVG + thanh trượt trên web (dùng ch
 
 tpl.html / tpl.js     trang in một mẫu điền tay: mỗi bản một tờ A5, chọn số bản
 
+journal.html          nhật ký pha trên điện thoại: form, ảnh bã, xuất/nhập bản sao
+guide.html            hướng dẫn dựng đồng bộ + câu hỏi hay gặp cho nhật ký pha
+journal.js            trang nhật ký: DOM + IndexedDB + nén ảnh
+journal-core.js       logic thuần của nhật ký: tỉ lệ, thời gian, CSV, đóng gói bản sao
+
+brew.html             đồng hồ pha theo bước + máy tính tỉ lệ và mức chiết
+brew.js               trang đồng hồ: đếm giây, bíp theo bước, giữ màn hình sáng
+brew-core.js          logic thuần: tỉ lệ, EY ⇄ TDS, lịch từng bước của hai công thức
+tests/brew-core.test.mjs  test cho brew-core.js (chạy bằng node --test)
+
+manifest.webmanifest  thêm trang nhật ký vào màn hình chính điện thoại
+icon.svg              biểu tượng của manifest và favicon
+tests/journal-core.test.mjs  test cho journal-core.js (chạy bằng node --test)
+
 print.html            khung bản in A5 (dùng chung content/)
 print.css             dàn trang A5: khổ, lề, chạy đầu trang, số trang, mục lục có số trang
 print.js              dựng bìa → mục lục → phần → chương cho bản in
@@ -62,12 +77,20 @@ print-output.css      luật chỉ áp lúc in (lề 0) — nạp sau khi phân 
 epub.css              giao diện bản EPUB (e-ink)
 build-pdf.sh          một lệnh xuất ra PDF
 tools/print-pdf.mjs   xuất PDF qua Chrome DevTools (chờ Paged.js xong mới in)
-tools/serve.mjs       static server cho bước in (giữ kết nối, có Content-Length)
+tools/serve.mjs       static server cho bước in và bản nghe (giữ kết nối, Content-Length, Range)
 tools/check-pdf.mjs   kiểm bản in: trang trắng lạc chỗ, đoạn bị cắt, font chưa nhúng
 tools/build-epub.mjs  dựng EPUB 3 (nav, ncx, từng chương một file)
 tools/check-i18n.mjs  so cấu trúc bản dịch với bản gốc (bảng, danh sách, đoạn)
 tools/check-refs.mjs  kiểm trích dẫn: số hiệu chết, nguồn mồ côi, và đối chiếu DOI với Crossref
 tools/bump-assets.mjs đặt mọi ?v= về short SHA của commit (--check cho CI)
+tools/audio-text.mjs  rút text đọc được từ HTML và chuẩn hoá ký hiệu cho TTS
+tools/book-content.mjs nạp content/part-*.js cho hai script audio
+tools/build-audio.mjs sinh bản nghe: cổng hash, Opus 24 kbps, hai giọng
+tools/check-audio.mjs nghe lại chính file vừa sinh bằng ASR, so từng từ
+tools/tts-worker.py   tiến trình Python sinh một chương (VieNeu-TTS)
+tools/asr-worker.py   tiến trình Python nghe lại một file (faster-whisper)
+audio/manifest.json   hash + số byte + số giây của từng file audio
+audio/vi/<giọng>/<ch-id>.opus  một file mỗi chương mỗi giọng
 search.js             bỏ dấu, chấm điểm, xếp hạng, cắt snippet (không đụng DOM)
 tests/logic.test.mjs  test cho fold, xếp hạng và numLabel — chạy bằng node --test
 vendor/paged.polyfill.js  Paged.js 0.4.3 (phân trang trong trình duyệt)
@@ -182,6 +205,24 @@ Mỗi tờ là khổ A5, có dòng nhận dạng trên đầu (tên sách + tên
 
 **Thêm một mẫu mới:** đặt khối trong `content/part-N.js` (và bản dịch tương ứng) với thuộc tính `data-tpl`, ví dụ `<div class="formula" data-tpl="1">`. `book.js` tự thêm nút cho mọi khối có thuộc tính này, `tpl.js` lấy đúng khối theo thứ tự trong chương. Không cần sửa gì khác.
 
+## Nhật ký pha trên điện thoại
+
+[journal.html](journal.html) là sổ ghi lần pha mở bằng điện thoại: bảy dòng của mẫu trong chương “Nhật ký pha”, bốn trục vị, và một ô chụp bã. Trang tĩnh, không tài khoản, không gọi mạng — không có server nào nhận dữ liệu.
+
+**Lưu ở đâu.** IndexedDB của chính trình duyệt đang mở. Đó là bộ nhớ của *một* trình duyệt trên *một* máy: xoá dữ liệu trình duyệt là mất, và iOS xoá IndexedDB sau khoảng bảy ngày không mở nếu trang chưa được thêm vào màn hình chính (`manifest.webmanifest` có sẵn cho việc đó). Vì vậy **Xuất bản sao** không phải tính năng phụ — đó là bản sao duy nhất. Trang tự nói điều này với người dùng ngay trên đầu, và gọi `navigator.storage.persist()` sau lần lưu đầu.
+
+**Ảnh bã.** Chụp bằng `<input type="file" capture="environment">` — mở thẳng camera, không cần app. Ảnh nén tại máy bằng canvas: cạnh dài 1200 px, JPEG 0,75 (khoảng 150–250 KB), cộng bản thu nhỏ 320 px cho danh sách. Ảnh gốc 4–8 MB không bao giờ vào cơ sở dữ liệu. `createImageBitmap` với `imageOrientation: "from-image"` để ảnh chụp dọc không nằm ngang.
+
+**Xuất và nhập.** Bản sao `.html` tự chứa: dữ liệu JSON trong một thẻ `script` cùng ảnh dạng data URL — mở được bằng trình duyệt hai mươi năm nữa, đọc được bằng mắt, và nhập lại được bằng chính trang này. Không dùng ZIP vì repo không có thư viện nào và tự viết ZIP là thêm một chỗ để sai. CSV để mở bằng bảng tính, một hàng một lần pha; số thập phân dùng dấu chấm (máy đặt dấu phẩy làm phân cách thập phân sẽ đọc “16,7” thành hai cột). Nhập lại thì bản ghi trùng `id` bị bỏ qua, nên nhập hai lần không nhân đôi.
+
+**Hai file.** `journal-core.js` là logic thuần — tỉ lệ, thời gian, kiểm dữ liệu, CSV, đóng gói bản sao — và được test bằng `node --test` trong CI như `search.js`. `journal.js` chỉ còn DOM, IndexedDB và nén ảnh; phần đó vẫn chỉ kiểm bằng mắt, cùng lý do đã ghi ở `tests/logic.test.mjs`.
+
+**Giọng chữ.** Font hệ thống, không tải Google Fonts: trang này phải mở được khi mạng trong bếp chập chờn. Giao diện tiếng Việt; nút sáng/tối dùng chung khoá `nuocba.theme` với trang sách.
+
+**Đồng bộ (tuỳ chọn).** Trang đẩy được mỗi lần pha lên một Google Sheet của người dùng, ảnh bã lên Drive, qua một Apps Script tự dựng — không có server trung gian. Cách dựng có [guide.html](guide.html) — bản đọc trên web, kèm câu hỏi hay gặp; thứ tự cột, mô hình bảo mật và giới hạn ở [SYNC.md](SYNC.md); máy nhận ở [tools/apps-script/Code.gs](tools/apps-script/Code.gs), và `node tools/mock-sync.mjs` dựng máy nhận giả để kiểm phần này mà không cần tài khoản Google.
+
+Thêm trang mới có asset thì nhớ thêm tên vào `FILES` của [tools/bump-assets.mjs](tools/bump-assets.mjs) và gắn `?v=` — `journal.html` đã được thêm.
+
 ## Bản EPUB (máy đọc sách)
 
 ```bash
@@ -201,6 +242,46 @@ Kiểm định bằng epubcheck 5.1.0: 0 lỗi, 0 cảnh báo (EPUB 3.3).
 - **Boox / PocketBook / máy Android** — chép file vào máy rồi mở bằng ứng dụng đọc.
 
 Nếu muốn bản `.azw3` hoặc `.kepub` riêng, chuyển bằng Calibre từ chính file EPUB này — không cần dựng lại từ đầu.
+
+## Bản nghe (audio)
+
+Mỗi chương có một file Opus 24 kbps mono, hai giọng đọc. Trang vẫn tĩnh: chỉ một thẻ `<audio>` trỏ vào file, không SDK, không API key, không gọi dịch vụ ngoài. Thanh nghe nằm dưới hàng nhãn chương và chỉ hiện khi manifest có file cho chương đó.
+
+```bash
+node tools/build-audio.mjs --dry                 # xem sẽ đọc gì, không sinh
+node tools/build-audio.mjs --only ch-chiet-xuat  # một chương, hai giọng
+node tools/build-audio.mjs --voice female        # một giọng, cả sách
+node tools/check-audio.mjs --only ch-chiet-xuat  # nghe lại bằng ASR
+```
+
+**Cổng hash.** Mỗi file được ghi kèm hash của text đã chuẩn hoá + giọng + định dạng trong `audio/manifest.json`. Chạy lại chỉ sinh chương có chữ đổi — sửa một lỗi chính tả không ghi lại 34 file. `--force` để bỏ qua cổng.
+
+**Text đọc được** không phải thân bài HTML. `tools/audio-text.mjs` rút từ HTML rồi chuẩn hoá: `1:16` thành "1 trên 16" (tỉ lệ) nhưng `1:30` thành "1 phút 30" (thời gian), `HCO₃⁻` thành "bi-cac-bô-nát", `EY` thành "i-oai". Bảng, công thức, recipe chỉ đọc câu trong `data-audio` của chính khối — 71 câu đã viết cho 52 bảng, 6 recipe, 10 formula, 3 stat-grid. Badge mức bằng chứng, trích dẫn `[n]` và `(xem chương …)` bị bỏ. Câu đúc kết (`div.pull`, 13 khối) đọc bằng giọng khác, 1,1 s lặng hai bên.
+
+Test cho lớp này: `node --test tools/audio-text.test.mjs`.
+
+**Máy sinh.** VieNeu-TTS v3 Turbo (Apache 2.0, © pnnbao-ump), chạy CPU, không cần GPU, không cần torch. Dựng môi trường một lần:
+
+```bash
+mkdir -p ~/vieneu && cd ~/vieneu
+uv venv --python 3.12 .venv      # phải là 3.12; transformers 4.57.6 không chạy trên 3.14
+uv pip install --python .venv/bin/python vieneu "transformers==4.57.6"
+# rồi trỏ build-audio vào môi trường đó
+VIENEU_PYTHON=~/vieneu/.venv/bin/python node tools/build-audio.mjs
+```
+
+Lần chạy đầu tải ~500 MB weights về `~/.cache/huggingface/`. Đo trên MacBook Pro M1 16 GB: nạp model ~10–35 s, RTF 0,35–0,45; cả sách ~168.000 ký tự ≈ 4 giờ audio mỗi giọng, ~1,5 giờ máy. Giọng đã chọn: **Thiền Tâm Đức** (nam) và **Mai Anh** (nữ) cho thân bài, **Thiện Minh** cho câu đúc kết.
+
+**Vòng kiểm** không tin log của bước sinh: `tools/check-audio.mjs` giải mã file vừa ra, cho faster-whisper nghe lại, rồi so từng từ với text đã đưa vào TTS. **Lệch ~10% là bình thường** — phần lớn là ASR viết lại khác (`hoà`/`hòa`, `bốn`/`4`, `ti-đi-ét`/`TDS`). Lỗi thật là khi ASR nghe ra từ khác nghĩa. Ngưỡng mặc định 80%; dưới ngưỡng thì script thoát mã 1 kèm các chỗ lệch. ASR cũng sai, nên nghi ngờ thì phải nghe bằng tai.
+
+Riêng một loại lỗi **không** bị tỉ lệ khớp bắt: máy tự thêm chữ. Một câu 9 từ thêm vào chỉ làm tỉ lệ rớt chưa đến 1 %, nhưng tai nghe ra ngay — bản đầu của chương 7 mắc cả hai kiểu: giọng nữ lặp “18 đến hai mươi hai mươi hai”, giọng nam đọc thêm “hãy đăng ký kênh…”. Vì vậy một đoạn không khớp nguồn từ nào mà dài từ 5 từ là lỗi cứng (`⚠ máy TỰ THÊM`), thoát mã 1 kể cả khi tỉ lệ chung trên ngưỡng. Sửa bằng cách sinh lại đúng file đó.
+
+**Giới hạn đã biết.**
+
+- **Chỉ có tiếng Việt.** Bản EN/JA chưa có audio, và thanh nghe không hiện ở hai bản đó.
+- **A2 "Thư mục" không đọc nguyên văn.** 24.000 ký tự toàn tên tác giả và DOI — nghe mười lăm phút không ai theo được. Bản nghe thay bằng một câu nói đúng chỗ, khai trong `tools/book-content.mjs`.
+- **Chưa ai nghe bằng tai.** Vòng ASR bắt được lỗi phát âm như `1:16` → "một giờ mười sáu phút", nhưng nó không biết giọng có dễ chịu hay không. Nghe một chương trước khi phát hành.
+- **Ngoặc tròn trong thân bài đọc nguyên vị trí.** "(nóng)", "(washed)" được đọc cả cặp ngoặc; quy tắc phân loại 370 cụm trong [VOICE.md](VOICE.md) mục 1.2 mới làm phần chỉ đường, năm và trích dẫn.
 
 ## Kiểm tự động (CI)
 
@@ -233,7 +314,16 @@ Lịch sử và quy ước số bản ở [CHANGELOG.md](CHANGELOG.md). Số b�
 
 Hai phần, hai giấy phép — chi tiết và ranh giới ở [LICENSE](LICENSE):
 
-- **Nội dung** (chương, hình, PDF, EPUB): [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Được đọc, chép, dịch, tặng — miễn là ghi nguồn, không bán, và bản phái sinh mang cùng giấy phép.
+- **Nội dung** (chương, hình, PDF, EPUB, bản nghe): [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Được đọc, chép, dịch, tặng — miễn là ghi nguồn, không bán, và bản phái sinh mang cùng giấy phép.
 - **Mã nguồn** (`book.js`, `search.js`, `tools/`, CSS): MIT. Dùng thoải mái, kể cả trong dự án thương mại.
 
+Bản nghe sinh bằng **VieNeu-TTS v3 Turbo** (Apache 2.0, © pnnbao-ump). Giọng preset cũng Apache 2.0 — dùng thương mại được, người nói đã đồng ý. Giấy phép của model không ràng buộc gì thêm lên audio sinh ra, nhưng ghi nguồn cho đúng là việc nên làm.
+
 Muốn dịch hoặc in tặng: được, không cần xin phép, chỉ cần ghi nguồn và giữ nguyên điều kiện phi thương mại.
+
+**Hình vay từ bên ngoài.** Hai hình mới trong `figures.js` dựa vào tài liệu của người khác:
+
+- **Bánh xe hương vị** (`flavor-wheel`, chương “Ngôn ngữ nốt hương”) vẽ lại *cấu trúc* bánh xe của SCA và World Coffee Research (bản 2016). **Không** chép tác phẩm gốc: bánh xe của SCA là CC BY-NC-ND 4.0, cấm bản phái sinh và cấm dùng thương mại — đúng như phụ lục A5 đã ghi. Dòng nguồn nằm ngay dưới hình, không chỉ ở đây.
+- **Bản đồ chiết xuất** (`brew-map`, chương “Chiết xuất”) là hình của sách. Hai khoảng 18–22% và 1,15–1,35% là chuẩn Golden Cup mà SCA dẫn lại từ Lockhart (1957); biểu đồ kiểm soát pha của SCA không có giấy phép tái bản nên không dùng ảnh của họ.
+
+Nếu sau này muốn in bánh xe **gốc** của SCA thì phải xin phép SCA: bán là dùng thương mại.
