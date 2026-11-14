@@ -125,7 +125,7 @@ window.BOOK_PARTS.push({
 
 <p>Đây là một trong những điểm gây nhầm lẫn nhiều nhất, và ít ai nói ra: <strong>không có định nghĩa chung cho "medium roast".</strong> Mỗi nhà rang có thang riêng. Một "medium" của nhà A có thể sáng hơn "light" của nhà B.</p>
 
-<p>Có những thang đo khách quan — Agtron, đo màu bằng quang phổ, hoặc thang "Light/Medium/Dark" của SCAA cũ hơn — nhưng chúng hiếm khi được in trên bao bì bán lẻ. Và ngay cả Agtron cũng có hai biến thể (whole bean và ground), cho số khác nhau <span class="tier tier-a">Bằng chứng</span> [12] [13] [14].</p>
+<p>Có những thang đo khách quan — Agtron, đo màu bằng quang phổ, hoặc thang "Light/Medium/Dark" của SCAA cũ hơn — nhưng chúng hiếm khi được in trên bao bì bán lẻ. Và ngay cả Agtron cũng có hai biến thể (whole bean và ground), cho số khác nhau <span class="tier tier-a">Bằng chứng <b class="cite">· 12, 13, 14</b></span>.</p>
 
 <p>Hệ quả thực dụng: <strong>đừng dùng nhãn "medium" để chọn tham số. Hãy dùng mắt và dùng ly cà.</strong></p>
 

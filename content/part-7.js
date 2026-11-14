@@ -160,7 +160,7 @@ window.BOOK_PARTS.push({
 
 <p>Bảng hương vị (flavor wheel) của SCA có hàng trăm mục. Người mới thường dùng nó như một danh sách kiểm tra: "tôi có nếm được bao nhiêu mục?"</p>
 
-<p>Đó là cách dùng sai. Bảng hương vị được thiết kế để <strong>giao tiếp</strong> — để hai người có thể trao đổi về một ly cà mà không cần ở cùng một chỗ. Nó không được thiết kế để nếm <span class="tier tier-a">Bằng chứng</span> [14].</p>
+<p>Đó là cách dùng sai. Bảng hương vị được thiết kế để <strong>giao tiếp</strong> — để hai người có thể trao đổi về một ly cà mà không cần ở cùng một chỗ. Nó không được thiết kế để nếm <span class="tier tier-a">Bằng chứng <b class="cite">· 14</b></span>.</p>
 
 <div class="callout ok">
 <p class="callout-title">Cách dùng đúng</p>

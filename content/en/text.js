@@ -347,7 +347,7 @@ window.BOOK_TEXT = {
 
 <p>This is one of the most confusing points, and few people say it out loud: <strong>there is no shared definition of "medium roast".</strong> Every roaster has their own scale. One roaster's "medium" can be lighter than another's "light".</p>
 
-<p>Objective scales exist — Agtron, which measures colour spectroscopically, or the older SCAA Light/Medium/Dark scale — but they are rarely printed on retail bags. And even Agtron has two variants (whole bean and ground) that give different numbers <span class="tier tier-a">Evidence</span> [12] [13] [14].</p>
+<p>Objective scales exist — Agtron, which measures colour spectroscopically, or the older SCAA Light/Medium/Dark scale — but they are rarely printed on retail bags. And even Agtron has two variants (whole bean and ground) that give different numbers <span class="tier tier-a">Evidence <b class="cite">· 12, 13, 14</b></span>.</p>
 
 <p>The practical consequence: <strong>do not use the word "medium" to choose parameters. Use your eyes and use the cup.</strong></p>
 
@@ -851,7 +851,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
       body: `
 <p>Start with a question that looks simple: when you brew coffee, what actually travels from the bed into the cup?</p>
 
-<p>The precise answer: <strong>roughly 18–22% of the dry coffee's mass</strong> <span class="tier tier-a">Evidence</span> [5]. The rest — cellulose, some protein, insoluble minerals, compounds that never dissolved — stays in the bed and gets thrown away. Even a "strong" cup only takes about a fifth of what the bean contains.</p>
+<p>The precise answer: <strong>roughly 18–22% of the dry coffee's mass</strong> <span class="tier tier-a">Evidence <b class="cite">· 5</b></span>. The rest — cellulose, some protein, insoluble minerals, compounds that never dissolved — stays in the bed and gets thrown away. Even a "strong" cup only takes about a fifth of what the bean contains.</p>
 
 <p>That number, and everything it implies, is the foundation of every technique in this book.</p>
 
@@ -875,7 +875,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 
 <h4>TDS (Total Dissolved Solids)</h4>
 
-<p>The concentration of dissolved material in the cup, as a percentage. For pour over, 1.15–1.35% is the Golden Cup band <span class="tier tier-a">Evidence</span> [5]. Espresso is 8–12%.</p>
+<p>The concentration of dissolved material in the cup, as a percentage. For pour over, 1.15–1.35% is the Golden Cup band <span class="tier tier-a">Evidence <b class="cite">· 5</b></span>. Espresso is 8–12%.</p>
 
 <div class="callout warn">
 <p class="callout-title">EY and TDS are two different things</p>
@@ -900,7 +900,7 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 
 <h3>How TDS changes flavour</h3>
 
-<p>This is the part usually skipped: TDS does not only change "strength". It changes the flavour profile. A trained panel at UC Davis found, across all three roast levels <span class="tier tier-a">Evidence</span> [58]:</p>
+<p>This is the part usually skipped: TDS does not only change "strength". It changes the flavour profile. A trained panel at UC Davis found, across all three roast levels <span class="tier tier-a">Evidence <b class="cite">· 58</b></span>:</p>
 
 <ul>
 <li><strong>Bitterness, sourness and smoky flavour rise with TDS.</strong></li>
@@ -909,7 +909,7 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 
 <p>That matches the fraction-by-fraction tasting in chapter 8: later fractions had lower TDS and were judged sweeter and more floral [55].</p>
 
-<p>And the "ideal spot" is not a fixed box. Asked of 118 regular black-coffee drinkers, liking depended most on TDS and second on EY — but they <strong>split into two preference clusters</strong> by TDS, with two differently shaped response surfaces <span class="tier tier-a">Evidence</span> [59]. The authors conclude the Brewing Control Chart's "ideal" box needs reconsidering to reflect that.</p>
+<p>And the "ideal spot" is not a fixed box. Asked of 118 regular black-coffee drinkers, liking depended most on TDS and second on EY — but they <strong>split into two preference clusters</strong> by TDS, with two differently shaped response surfaces <span class="tier tier-a">Evidence <b class="cite">· 59</b></span>. The authors conclude the Brewing Control Chart's "ideal" box needs reconsidering to reflect that.</p>
 
 <p>In practice: 1.15–1.35% is a good place to start, not a place you must finish. Your taste may sit outside it, and that is not a brewing fault.</p>
 
@@ -1006,7 +1006,7 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 
 <p>The most detailed analysis of it is a 2019 post by Jonathan Gagné on the blog <em>Coffee ad Astra</em>, where he built a kinetic model of espresso extraction. That post is excellent, detailed, and hugely influential.</p>
 
-<p>But Gagné states plainly in that same post that tying extraction rates to specific sensory attributes is <strong>speculation</strong> — his words: "the evidence for fast-extracting compounds being more on the 'vegetal and sour' side of taste is speculative, so please take this claim with a big grain of salt" — and that the model <strong>has not been validated against real data</strong> <span class="tier tier-b">Plausible</span> [32].</p>
+<p>But Gagné states plainly in that same post that tying extraction rates to specific sensory attributes is <strong>speculation</strong> — his words: "the evidence for fast-extracting compounds being more on the 'vegetal and sour' side of taste is speculative, so please take this claim with a big grain of salt" — and that the model <strong>has not been validated against real data</strong> <span class="tier tier-b">Plausible <b class="cite">· 32</b></span>.</p>
 
 <p>Which means the person who wrote the most detailed version of the model said it was a hypothesis. It is now taught as a law.</p>
 
@@ -1026,7 +1026,7 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 
 <p>That is evidence for <strong>different extraction rates</strong> — which is true and well established. It is <em>not</em> evidence that acids go first and bitterness last. Caffeine, for instance, barely changes over the course of a shot — meaning it does not "arrive late". It is there from the start.</p>
 
-<p>The most direct test of the model is to cut a drip brew into time fractions and have a panel taste each one. UC Davis did exactly that: switching in an empty carafe every 30 seconds, then running descriptive analysis. The results run against the model <span class="tier tier-a">Evidence</span> [55]:</p>
+<p>The most direct test of the model is to cut a drip brew into time fractions and have a panel taste each one. UC Davis did exactly that: switching in an empty carafe every 30 seconds, then running descriptive analysis. The results run against the model <span class="tier tier-a">Evidence <b class="cite">· 55</b></span>:</p>
 
 <ul>
 <li><strong>Earlier fractions were more bitter <em>and</em> more sour than later ones.</strong> Bitterness did not arrive last.</li>
@@ -1034,7 +1034,7 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 <li><strong>No fraction had monosaccharides at perceptible levels.</strong> The sweetness you taste does not come from sugar.</li>
 </ul>
 
-<p>Measuring kinetics at the scale of seconds shows no such order either. In a thesis measuring extraction from five seconds on, <strong>50% of the citric and malic acid extracted within the first 10 seconds</strong>; caffeine and chlorogenic acid (3-CQA) lagged by only <strong>3 to 4 seconds</strong> <span class="tier tier-a">Evidence</span> [56]. Three to four seconds — not three to four minutes. Inside a two-and-a-half-minute pour over, that gap disappears. (Limit: the thesis measured in a closed stirred vessel, closer to immersion than to a pour over.)</p>
+<p>Measuring kinetics at the scale of seconds shows no such order either. In a thesis measuring extraction from five seconds on, <strong>50% of the citric and malic acid extracted within the first 10 seconds</strong>; caffeine and chlorogenic acid (3-CQA) lagged by only <strong>3 to 4 seconds</strong> <span class="tier tier-a">Evidence <b class="cite">· 56</b></span>. Three to four seconds — not three to four minutes. Inside a two-and-a-half-minute pour over, that gap disappears. (Limit: the thesis measured in a closed stirred vessel, closer to immersion than to a pour over.)</p>
 
 <h3>A more counter-intuitive finding</h3>
 
@@ -1125,11 +1125,11 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 
 <h4>Temperature — the subtle lever</h4>
 
-<p>Hotter water: faster extraction and greater solubility for compounds that dissolve slowly. The direction of the effect has been measured: ultimate extraction yield rises with brew temperature <span class="tier tier-a">Evidence</span> [57]. The <strong>size</strong> of it has not. The figure of "roughly 2–4% of extraction per 5 °C" circulating in brewing circles has no study behind it; we looked and could not find one <span class="tier tier-b">Plausible</span>. Treat it as an order of magnitude for guessing which way to adjust, not a constant to calculate with.</p>
+<p>Hotter water: faster extraction and greater solubility for compounds that dissolve slowly. The direction of the effect has been measured: ultimate extraction yield rises with brew temperature <span class="tier tier-a">Evidence <b class="cite">· 57</b></span>. The <strong>size</strong> of it has not. The figure of "roughly 2–4% of extraction per 5 °C" circulating in brewing circles has no study behind it; we looked and could not find one <span class="tier tier-b">Plausible</span>. Treat it as an order of magnitude for guessing which way to adjust, not a constant to calculate with.</p>
 
 <p>But temperature also changes what you <em>perceive</em>: a hotter cup releases more aroma (good) and masks bitterness (also good). So temperature acts on two dimensions at once, which is why it is hard to evaluate.</p>
 
-<p>And one result narrows this lever further. When UC Davis brewed at 87, 90 and 93 °C but adjusted grind and time to <strong>hold TDS and extraction constant</strong>, a trained panel could barely tell the three apart <span class="tier tier-a">Evidence</span> [6] [52]. TDS and extraction change the flavour profile; temperature by itself does not.</p>
+<p>And one result narrows this lever further. When UC Davis brewed at 87, 90 and 93 °C but adjusted grind and time to <strong>hold TDS and extraction constant</strong>, a trained panel could barely tell the three apart <span class="tier tier-a">Evidence <b class="cite">· 6, 52</b></span>. TDS and extraction change the flavour profile; temperature by itself does not.</p>
 
 <p>Which means temperature matters because it <em>changes the rate of extraction</em>, not because it adds or removes a flavour of its own. That is why this chapter calls it the subtle lever: it works through extraction, not directly.</p>
 
@@ -1142,13 +1142,13 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 
 <p>Something easy to miss: the number on the kettle is not the number the bed sees. Water loses heat on the way from spout to bed, and the wet bed — the slurry — is always cooler than the water you poured. Chapter 15 puts that drop at <strong>5–8 °C</strong> <span class="tier tier-b">Plausible</span>.</p>
 
-<p>This has been measured. In a pour over poured at <strong>96 °C</strong> in a two-pour pattern — the approach that keeps the slurry as hot as possible — the peak slurry temperature still stayed <strong>below 90 °C</strong>, and for much of the brew it was lower still. That held for a plastic brewer and a ceramic one alike <span class="tier tier-b">Plausible</span> [64].</p>
+<p>This has been measured. In a pour over poured at <strong>96 °C</strong> in a two-pour pattern — the approach that keeps the slurry as hot as possible — the peak slurry temperature still stayed <strong>below 90 °C</strong>, and for much of the brew it was lower still. That held for a plastic brewer and a ceramic one alike <span class="tier tier-b">Plausible <b class="cite">· 64</b></span>.</p>
 
 <p>Two practical consequences. First: if you pour at 96 °C because you think you "need it hot enough to extract", the bed may never see 96 °C — you are inside 87–93 °C without knowing it. Second: immersion holds heat far better. At the same 97 °C, a one-litre immersion brew kept its slurry above 90 °C for nearly five minutes, because the body of water is larger and the floating crust insulates it. That is why a large French press should be brewed <em>cooler</em> than a pour over, not hotter.</p>
 
 <h4>Why some of the aroma never reaches the cup</h4>
 
-<p>Not every aroma compound follows the water into the cup. Measured by stable isotope dilution, the transfer from grounds to brew splits into two clear groups <span class="tier tier-a">Evidence</span> [62]:</p>
+<p>Not every aroma compound follows the water into the cup. Measured by stable isotope dilution, the transfer from grounds to brew splits into two clear groups <span class="tier tier-a">Evidence <b class="cite">· 62</b></span>:</p>
 
 <div class="table-wrap">
 <table>
@@ -1162,11 +1162,11 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 
 <p>Worth noting: β-damascenone and 2-furfurylthiol are among coffee's <em>most potent</em> odorants — they carry honey, fruit and floral notes — yet most of them stay in the bed. That is a physical basis for this book's central claim: part of a coffee's aroma ceiling is out of reach of any brewing technique.</p>
 
-<p>Higher temperature extracts more volatiles, and the effect is <strong>stronger for the less polar compounds</strong> <span class="tier tier-b">Plausible</span> [63]. But that was measured on espresso, at 82–96 °C and under pressure — so for pour over it is a plausible mechanism, not a measured result.</p>
+<p>Higher temperature extracts more volatiles, and the effect is <strong>stronger for the less polar compounds</strong> <span class="tier tier-b">Plausible <b class="cite">· 63</b></span>. But that was measured on espresso, at 82–96 °C and under pressure — so for pour over it is a plausible mechanism, not a measured result.</p>
 
 <h4>Bitterness is made in the roaster, not in the brewer</h4>
 
-<p>Both of coffee's main families of bitter compounds form during roasting, not during brewing <span class="tier tier-a">Evidence</span> [60] [61]:</p>
+<p>Both of coffee's main families of bitter compounds form during roasting, not during brewing <span class="tier tier-a">Evidence <b class="cite">· 60, 61</b></span>:</p>
 
 <ul>
 <li><strong>Quinides (chlorogenic acid lactones)</strong> — a "coffee-typical" bitterness, formed most at light to medium roast levels.</li>
@@ -1312,9 +1312,9 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 
 <p>Above, fines made the bed conduct water worse. That is half the story, and the other half is rarely told.</p>
 
-<p>The bad half is measured. Raise the share of fines and <strong>bed permeability falls, flow rates drop, extraction times lengthen</strong> <span class="tier tier-a">Evidence</span> [35]. And fines finish extracting very early: they give up their surface solids in seconds while larger particles still need minutes — so while the rest of the bed is working toward the good band, the fines have already gone past it and are contributing bitterness and astringency <span class="tier tier-b">Plausible</span> [65].</p>
+<p>The bad half is measured. Raise the share of fines and <strong>bed permeability falls, flow rates drop, extraction times lengthen</strong> <span class="tier tier-a">Evidence <b class="cite">· 35</b></span>. And fines finish extracting very early: they give up their surface solids in seconds while larger particles still need minutes — so while the rest of the bed is working toward the good band, the fines have already gone past it and are contributing bitterness and astringency <span class="tier tier-b">Plausible <b class="cite">· 65</b></span>.</p>
 
-<p>The good half is geometry. Fines <strong>fill the gaps between the larger particles</strong>. Without them the spaces between boulders are wider and more irregular — water finds a broad path, which is a channel. So the optimal amount of fines is not zero; it is <strong>the amount that minimises astringency</strong> for your particular recipe <span class="tier tier-b">Plausible</span> [66].</p>
+<p>The good half is geometry. Fines <strong>fill the gaps between the larger particles</strong>. Without them the spaces between boulders are wider and more irregular — water finds a broad path, which is a channel. So the optimal amount of fines is not zero; it is <strong>the amount that minimises astringency</strong> for your particular recipe <span class="tier tier-b">Plausible <b class="cite">· 66</b></span>.</p>
 
 <p>The two halves meet at an untidy conclusion: too many fines and you get clogging and astringency, too few and you get channels and also astringency. You do not eliminate them; you find the right amount.</p>
 
@@ -1329,7 +1329,7 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 
 <p>The familiar claim is that fines drift downward during the brew and clog the paper. There is a physical explanation for that, but it is not the one most brewers picture.</p>
 
-<p>The old picture: vibration lifts the boulders, gaps open, fines fall through. That <em>does</em> happen, but it is not required. In an experiment tapping a cylinder of glass beads, friction at the wall pushes the beads nearest the wall downward, setting the whole container into a circular, convection-like flow — <strong>no bead has to be lifted at all</strong>. A larger bead cannot fit into the downward flow, so it gets stuck in the top layer <span class="tier tier-b">Plausible</span> [67].</p>
+<p>The old picture: vibration lifts the boulders, gaps open, fines fall through. That <em>does</em> happen, but it is not required. In an experiment tapping a cylinder of glass beads, friction at the wall pushes the beads nearest the wall downward, setting the whole container into a circular, convection-like flow — <strong>no bead has to be lifted at all</strong>. A larger bead cannot fit into the downward flow, so it gets stuck in the top layer <span class="tier tier-b">Plausible <b class="cite">· 67</b></span>.</p>
 
 <p>The surprise for pour over: when the researchers switched to a <strong>cone</strong>, the flow <em>reversed</em>, and the large particles were trapped at the <em>bottom</em> rather than rising to the top.</p>
 
@@ -1449,7 +1449,7 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 
 <ul>
 <li><strong>No flow.</strong> The grounds sit fully immersed. No percolation, no channelling, no local dry patches.</li>
-<li><strong>Fixed ratio.</strong> 8.25 g of coffee to 150 ml of water — 5.5 g per 100 ml, about 1:18. Everyone uses the same ratio <span class="tier tier-a">Evidence</span> [12].</li>
+<li><strong>Fixed ratio.</strong> 8.25 g of coffee to 150 ml of water — 5.5 g per 100 ml, about 1:18. Everyone uses the same ratio <span class="tier tier-a">Evidence <b class="cite">· 12</b></span>.</li>
 <li><strong>Fixed temperature.</strong> Water at 93 °C, and a large body of water holds heat far more steadily than a small dripper.</li>
 <li><strong>No stirring during extraction.</strong> The crust is broken once, at four minutes, and that is all.</li>
 <li><strong>Identical cups.</strong> Same glass, same size.</li>
@@ -1465,7 +1465,7 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 
 <h3>What cupping measures</h3>
 
-<p>The scale below is the SCA's <strong>2004 Cupping Protocol and Form</strong> — the set that shaped how the whole industry tasted for almost twenty years. It splits the assessment into ten items: the first six are sensory quality; the last four are fault checks. Since 2024 the SCA has moved to the <strong>Coffee Value Assessment</strong>, which no longer uses a single total score <span class="tier tier-a">Evidence</span> [13]; these ten items are still what you need to know, because every older score sheet and every "85 points" claim rests on them:</p>
+<p>The scale below is the SCA's <strong>2004 Cupping Protocol and Form</strong> — the set that shaped how the whole industry tasted for almost twenty years. It splits the assessment into ten items: the first six are sensory quality; the last four are fault checks. Since 2024 the SCA has moved to the <strong>Coffee Value Assessment</strong>, which no longer uses a single total score <span class="tier tier-a">Evidence <b class="cite">· 13</b></span>; these ten items are still what you need to know, because every older score sheet and every "85 points" claim rests on them:</p>
 
 <div class="table-wrap">
 <table>
@@ -1632,7 +1632,7 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 
 <div class="callout bad">
 <p class="callout-title">One misunderstanding to fix right away</p>
-<p>Dry grounds are <em>not</em> the "aroma ceiling of the coffee" in the sense that what you smell there will end up in the cup. The compounds behind the dry smell are the most volatile of the lot — they are what escapes into the air first <span class="tier tier-a">Evidence</span> [20]. When hot water hits the grounds, most of them rise or go into the room, and very little stays in the cup.</p>
+<p>Dry grounds are <em>not</em> the "aroma ceiling of the coffee" in the sense that what you smell there will end up in the cup. The compounds behind the dry smell are the most volatile of the lot — they are what escapes into the air first <span class="tier tier-a">Evidence <b class="cite">· 20</b></span>. When hot water hits the grounds, most of them rise or go into the room, and very little stays in the cup.</p>
 <p>The correct rule: <strong>if the dry grounds have nothing, the cup certainly has nothing. But if the dry grounds are rich, the cup may still have nothing.</strong></p>
 </div>
 
@@ -1706,7 +1706,7 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 <p class="callout-title">The golden rule for drinking</p>
 <p>Drink at 55–65 °C. That is the balance point: hot enough for aroma to rise, cool enough not to burn. Coffee left at 45 °C has lost nearly half its aroma — not because it "went cold", but because the volatiles have already escaped.</p>
 
-<p>One study measured this, and its result is wider than you might expect. Across more than 3,000 tastings in the 56–71 °C range, a majority of drinkers (over 50%) rated the temperature "just about right" at <strong>every level up to 70 °C</strong>. Only above 70 °C did a majority call it too hot — and even there, 40% still said it was just right. At the other end, between 56 and 68 °C, some 6–12% found it too cold <span class="tier tier-a">Evidence</span> [69].</p>
+<p>One study measured this, and its result is wider than you might expect. Across more than 3,000 tastings in the 56–71 °C range, a majority of drinkers (over 50%) rated the temperature "just about right" at <strong>every level up to 70 °C</strong>. Only above 70 °C did a majority call it too hot — and even there, 40% still said it was just right. At the other end, between 56 and 68 °C, some 6–12% found it too cold <span class="tier tier-a">Evidence <b class="cite">· 69</b></span>.</p>
 
 <p>Read it correctly: the study does <em>not</em> say 58–66 °C is the best-tasting band. It says the <strong>acceptable range is far wider than the usual advice</strong>, and that across it temperature barely shifted judgements of flavour intensity, acidity or mouthfeel. The 55–65 °C recommendation above is still a good place to aim, but if you like your coffee hotter than that, you are not wrong.</p>
 </div>
@@ -1768,7 +1768,7 @@ Odd:   _______________
 </table>
 </div>
 
-<p>Cupping is <strong>full immersion with no flow</strong> <span class="tier tier-a">Evidence</span> [10] [11] [31]. That means it removes exactly the hardest part of pour over. It is not an easier version of pour over — it is a different method with a different mechanism.</p>
+<p>Cupping is <strong>full immersion with no flow</strong> <span class="tier tier-a">Evidence <b class="cite">· 10, 11, 31</b></span>. That means it removes exactly the hardest part of pour over. It is not an easier version of pour over — it is a different method with a different mechanism.</p>
 
 <p>So: <strong>cupping has no failure mode. Pour over has exactly one.</strong> That is where the difference lives.</p>
 
@@ -1849,7 +1849,7 @@ Odd:   _______________
 
 <p><strong>Characteristics:</strong></p>
 <ul>
-<li><strong>Naturally even extraction.</strong> Every particle meets the same liquid, at the same concentration, at the same temperature. Channelling is impossible <span class="tier tier-a">Evidence</span> [10] [11].</li>
+<li><strong>Naturally even extraction.</strong> Every particle meets the same liquid, at the same concentration, at the same temperature. Channelling is impossible <span class="tier tier-a">Evidence <b class="cite">· 10, 11</b></span>.</li>
 <li><strong>Self-limiting.</strong> Once the surrounding water is saturated, extraction slows down. That is a built-in safety mechanism — hard to over-extract.</li>
 <li><strong>Stable temperature.</strong> A large body of water holds heat far better than a thin stream.</li>
 <li><strong>Fewer high notes.</strong> With no airflow and no flow, volatile compounds are less disturbed into the cup. The cup is rounder, heavier, but less bright.</li>
@@ -1861,7 +1861,7 @@ Odd:   _______________
 
 <p><strong>Characteristics:</strong></p>
 <ul>
-<li><strong>Can extract very deeply.</strong> Because the water is always fresh, the concentration gradient is maintained, so extraction does not stop itself. That is why pour over can reach a higher extraction than immersion in the same time <span class="tier tier-a">Evidence</span> [31].</li>
+<li><strong>Can extract very deeply.</strong> Because the water is always fresh, the concentration gradient is maintained, so extraction does not stop itself. That is why pour over can reach a higher extraction than immersion in the same time <span class="tier tier-a">Evidence <b class="cite">· 31</b></span>.</li>
 <li><strong>Can give more high notes.</strong> Flow and steam stir volatile compounds into the cup. That is why pour over usually shows flowers and fruit more clearly.</li>
 <li><strong>Can be uneven.</strong> Water takes the path of least resistance. If the bed is not uniform, you get channelling.</li>
 <li><strong>Temperature falls.</strong> A thin stream loses heat fast. The cup can be 5–8 °C below the water you poured.</li>
@@ -1898,7 +1898,7 @@ Odd:   _______________
 </table>
 </div>
 
-<p>The two middle rows are real measurements, but taken in a closed stirred vessel — closer to immersion than to a pour over <span class="tier tier-a">Evidence</span> [56]. The outer two are inference.</p>
+<p>The two middle rows are real measurements, but taken in a closed stirred vessel — closer to immersion than to a pour over <span class="tier tier-a">Evidence <b class="cite">· 56</b></span>. The outer two are inference.</p>
 
 <p>Read the table across and you see why "brew it longer" is crude advice. Another thirty seconds does not act evenly on four rows: the top two finished long ago, the third is mid-way, the last barely moves. You are only pushing one process further.</p>
 
@@ -2001,7 +2001,7 @@ Odd:   _______________
 
 <p>Yes. And the result is striking because of what it sits next to.</p>
 
-<p>UC Davis ran discrimination tests with 45 tasters, one coffee, brewed on a drip machine. Two results side by side <span class="tier tier-a">Evidence</span> [38]:</p>
+<p>UC Davis ran discrimination tests with 45 tasters, one coffee, brewed on a drip machine. Two results side by side <span class="tier tier-a">Evidence <b class="cite">· 38</b></span>:</p>
 
 <ul>
 <li>Two noticeably different grind sizes: <strong>tasters could not tell them apart</strong>.</li>
@@ -2021,13 +2021,13 @@ Odd:   _______________
 
 <p>The same dose gives different bed depths depending on brewer diameter — and that depth is a variable in itself.</p>
 
-<p>The argument: channels form in every bed. In a deep bed, many channels <em>dead-end</em> and the water disperses back into the coffee. In a shallow bed, more channels run straight to the bottom, and a channel that reaches the bottom carries the larger, astringency-causing compounds out into the cup <span class="tier tier-b">Plausible</span> [53] [54].</p>
+<p>The argument: channels form in every bed. In a deep bed, many channels <em>dead-end</em> and the water disperses back into the coffee. In a shallow bed, more channels run straight to the bottom, and a channel that reaches the bottom carries the larger, astringency-causing compounds out into the cup <span class="tier tier-b">Plausible <b class="cite">· 53, 54</b></span>.</p>
 
 <p>In practice: if your cup is astringent and both grind and water are fine, look at dose against brewer diameter. Fifteen grams in a large brewer is a shallow bed.</p>
 
 <h3>No-bypass brewers</h3>
 
-<p>In a V60, some water runs down the paper wall without passing through the whole bed — that is <strong>bypass</strong>. The result is that the bottom of the bed receives less water and extracts less than the layers above it <span class="tier tier-b">Plausible</span> [68].</p>
+<p>In a V60, some water runs down the paper wall without passing through the whole bed — that is <strong>bypass</strong>. The result is that the bottom of the bed receives less water and extracts less than the layers above it <span class="tier tier-b">Plausible <b class="cite">· 68</b></span>.</p>
 
 <p>A family of brewers exists to stop that: the Pulsar, the Tricolate, the Orea Z1. They force all the water through all the coffee. Among heavy users, this family reaches a <strong>higher extraction ceiling</strong> — more taken out of the same coffee before the cup starts to degrade <span class="tier tier-b">Plausible</span>.</p>
 
@@ -2625,7 +2625,7 @@ Odd:   _______________
       minutes: 8,
       tags: ["phin", "equipment", "experiment"],
       body: `
-<p>The phin is a no-bypass dripper older than any other no-bypass dripper. In chapter 15 I placed it in the same family as the Pulsar, the Tricolate and the Orea Z1: the water has one way out, and that way goes through the bed <span class="tier tier-b">Plausible</span> [68].</p>
+<p>The phin is a no-bypass dripper older than any other no-bypass dripper. In chapter 15 I placed it in the same family as the Pulsar, the Tricolate and the Orea Z1: the water has one way out, and that way goes through the bed <span class="tier tier-b">Plausible <b class="cite">· 68</b></span>.</p>
 
 <p>But the phin is famous for something else: iced coffee with condensed milk. A strong concentrate around 1:4–1:5, dark-roasted robusta, condensed milk, and a metal mesh that lets oils and fines through, which is where the thick body comes from. That is a brewing tradition of its own, and it is not this chapter's subject — I have no sources for it, and I will not retell it from memory.</p>
 
@@ -3292,7 +3292,7 @@ Likely problem:  ____________________
 
 <p>The SCA flavour wheel has hundreds of entries. Beginners often use it as a checklist: "how many of these can I taste?"</p>
 
-<p>That is the wrong use. The flavour wheel was designed for <strong>communication</strong> — so two people can discuss a cup without being in the same room. It was not designed for tasting <span class="tier tier-a">Evidence</span> [14].</p>
+<p>That is the wrong use. The flavour wheel was designed for <strong>communication</strong> — so two people can discuss a cup without being in the same room. It was not designed for tasting <span class="tier tier-a">Evidence <b class="cite">· 14</b></span>.</p>
 
 <div class="callout ok">
 <p class="callout-title">The right way round</p>

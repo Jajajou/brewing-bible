@@ -28,7 +28,7 @@ window.BOOK_PARTS.push({
 
 <ul>
 <li><strong>Không có dòng chảy.</strong> Bã ngâm hoàn toàn trong nước. Không có percolation, không có channeling, không có bã khô cục bộ.</li>
-<li><strong>Tỉ lệ cố định.</strong> 8,25 g cà với 150 ml nước — tức 5,5 g/100 ml, tương đương khoảng 1:18. Mọi người dùng cùng một tỉ lệ <span class="tier tier-a">Bằng chứng</span> [12].</li>
+<li><strong>Tỉ lệ cố định.</strong> 8,25 g cà với 150 ml nước — tức 5,5 g/100 ml, tương đương khoảng 1:18. Mọi người dùng cùng một tỉ lệ <span class="tier tier-a">Bằng chứng <b class="cite">· 12</b></span>.</li>
 <li><strong>Nhiệt độ cố định.</strong> Nước ở 93 °C khi rót, và khối nước lớn giữ nhiệt ổn định hơn nhiều so với một phễu nhỏ.</li>
 <li><strong>Không khuấy trong lúc chiết.</strong> Bã chỉ được khuấy một lần, ở phút thứ 4, để phá lớp bã nổi.</li>
 <li><strong>Ly giống nhau.</strong> Cốc thuỷ tinh cùng loại, cùng kích thước.</li>
@@ -44,7 +44,7 @@ window.BOOK_PARTS.push({
 
 <h3>Cupping đo những gì</h3>
 
-<p>Thang điểm dưới đây là bộ <strong>Cupping Protocol and Form 2004</strong> của SCA — bộ đã định hình cách cả ngành nếm trong gần hai mươi năm. Nó chia đánh giá thành mười mục: sáu mục đầu là chất lượng cảm quan, bốn mục sau là kiểm tra lỗi. Từ 2024, SCA chuyển sang <strong>Coffee Value Assessment</strong> và không còn dùng một điểm tổng duy nhất <span class="tier tier-a">Bằng chứng</span> [13]; mười mục này vẫn là thứ bạn cần biết, vì mọi bảng điểm cũ và mọi lời quảng cáo “85 điểm” đều dựa trên nó:</p>
+<p>Thang điểm dưới đây là bộ <strong>Cupping Protocol and Form 2004</strong> của SCA — bộ đã định hình cách cả ngành nếm trong gần hai mươi năm. Nó chia đánh giá thành mười mục: sáu mục đầu là chất lượng cảm quan, bốn mục sau là kiểm tra lỗi. Từ 2024, SCA chuyển sang <strong>Coffee Value Assessment</strong> và không còn dùng một điểm tổng duy nhất <span class="tier tier-a">Bằng chứng <b class="cite">· 13</b></span>; mười mục này vẫn là thứ bạn cần biết, vì mọi bảng điểm cũ và mọi lời quảng cáo “85 điểm” đều dựa trên nó:</p>
 
 <div class="table-wrap">
 <table>
@@ -213,7 +213,7 @@ window.BOOK_PARTS.push({
 
 <div class="callout bad">
 <p class="callout-title">Một hiểu nhầm cần sửa ngay</p>
-<p>Bã khô <em>không</em> phải "trần hương của con cà" theo nghĩa những gì bạn ngửi được ở đó sẽ có trong ly. Nhóm hợp chất tạo mùi khô là nhóm dễ bay hơi nhất — chúng là thứ thoát ra không khí trước tiên <span class="tier tier-a">Bằng chứng</span> [20]. Khi nước nóng chạm vào bã, phần lớn trong số chúng bay lên hoặc đi vào không khí phòng, và rất ít còn lại trong ly.</p>
+<p>Bã khô <em>không</em> phải "trần hương của con cà" theo nghĩa những gì bạn ngửi được ở đó sẽ có trong ly. Nhóm hợp chất tạo mùi khô là nhóm dễ bay hơi nhất — chúng là thứ thoát ra không khí trước tiên <span class="tier tier-a">Bằng chứng <b class="cite">· 20</b></span>. Khi nước nóng chạm vào bã, phần lớn trong số chúng bay lên hoặc đi vào không khí phòng, và rất ít còn lại trong ly.</p>
 <p>Quy tắc đúng: <strong>nếu bã khô không có gì, trong ly chắc chắn không có. Nhưng nếu bã khô có nhiều, trong ly có thể vẫn không có.</strong></p>
 </div>
 
@@ -287,7 +287,7 @@ window.BOOK_PARTS.push({
 <p class="callout-title">Quy tắc vàng khi uống</p>
 <p>Uống khi còn 55–65 °C. Đây là khoảng cân bằng: đủ nóng để hương bay, đủ nguội để không bỏng. Cà phê để ở 45 °C mất gần một nửa hương — không phải vì nó "nguội đi", mà vì hợp chất bay hơi đã thoát hết.</p>
 
-<p>Có một nghiên cứu đo chuyện này, và kết quả của nó rộng hơn bạn tưởng. Trong hơn 3.000 lượt nếm ở dải 56–71 °C, phần lớn người uống (trên 50%) đánh giá nhiệt độ là "vừa" ở <strong>mọi mức tới 70 °C</strong>. Chỉ trên 70 °C mới có đa số nói quá nóng — và kể cả ở đó vẫn còn 40% thấy vừa. Ở phía dưới, trong khoảng 56–68 °C, có 6–12% người thấy quá nguội <span class="tier tier-a">Bằng chứng</span> [69].</p>
+<p>Có một nghiên cứu đo chuyện này, và kết quả của nó rộng hơn bạn tưởng. Trong hơn 3.000 lượt nếm ở dải 56–71 °C, phần lớn người uống (trên 50%) đánh giá nhiệt độ là "vừa" ở <strong>mọi mức tới 70 °C</strong>. Chỉ trên 70 °C mới có đa số nói quá nóng — và kể cả ở đó vẫn còn 40% thấy vừa. Ở phía dưới, trong khoảng 56–68 °C, có 6–12% người thấy quá nguội <span class="tier tier-a">Bằng chứng <b class="cite">· 69</b></span>.</p>
 
 <p>Đọc cho đúng: nghiên cứu này <em>không</em> nói 58–66 °C là khoảng ngon nhất. Nó nói <strong>khoảng chấp nhận được rộng hơn nhiều so với lời khuyên thường gặp</strong>, và trên dải đó nhiệt độ gần như không đổi đánh giá về cường độ vị, độ chua hay cảm giác miệng. Khuyến nghị 55–65 °C ở trên vẫn là chỗ tốt để nhắm, nhưng nếu bạn thích uống nóng hơn thế, bạn không sai.</p>
 </div>
@@ -350,7 +350,7 @@ Lạ:   _______________<br>
 </table>
 </div>
 
-<p>Cupping là <strong>ngâm hoàn toàn, không dòng chảy</strong>. Điều đó có nghĩa là nó loại bỏ đúng cái khó nhất của pour-over <span class="tier tier-a">Bằng chứng</span> [10] [11] [31]. Nó không phải một phiên bản dễ hơn của pour-over — nó là một phương pháp khác, với một cơ chế khác.</p>
+<p>Cupping là <strong>ngâm hoàn toàn, không dòng chảy</strong>. Điều đó có nghĩa là nó loại bỏ đúng cái khó nhất của pour-over <span class="tier tier-a">Bằng chứng <b class="cite">· 10, 11, 31</b></span>. Nó không phải một phiên bản dễ hơn của pour-over — nó là một phương pháp khác, với một cơ chế khác.</p>
 
 <p>Vì vậy: <strong>cupping không có chế độ thất bại. Pour-over có đúng một.</strong> Và đó là chỗ khác biệt nằm.</p>
 

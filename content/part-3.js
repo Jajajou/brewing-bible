@@ -16,7 +16,7 @@ window.BOOK_PARTS.push({
     body: `
 <p>Hãy bắt đầu bằng một câu hỏi tưởng như đơn giản: khi bạn pha cà phê, cái gì thật sự đi từ bã vào ly?</p>
 
-<p>Câu trả lời chính xác là: <strong>khoảng 18–22% khối lượng bã khô</strong> <span class="tier tier-a">Bằng chứng</span> [5]. Phần còn lại — cellulose, một phần protein, khoáng chất không tan, và các hợp chất chưa kịp hoà tan — ở lại trong bã và bị bỏ đi. Ngay cả một ly cà phê "đậm" cũng chỉ lấy được một phần năm những gì có trong hạt.</p>
+<p>Câu trả lời chính xác là: <strong>khoảng 18–22% khối lượng bã khô</strong> <span class="tier tier-a">Bằng chứng <b class="cite">· 5</b></span>. Phần còn lại — cellulose, một phần protein, khoáng chất không tan, và các hợp chất chưa kịp hoà tan — ở lại trong bã và bị bỏ đi. Ngay cả một ly cà phê "đậm" cũng chỉ lấy được một phần năm những gì có trong hạt.</p>
 
 <p>Con số đó, và những gì nó kéo theo, là nền tảng của mọi kỹ thuật trong cuốn sách này.</p>
 
@@ -40,7 +40,7 @@ window.BOOK_PARTS.push({
 
 <h4>TDS (Total Dissolved Solids)</h4>
 
-<p>Nồng độ chất hoà tan trong ly, tính bằng phần trăm. Với pour over, 1,15–1,35% là vùng của chuẩn Golden Cup <span class="tier tier-a">Bằng chứng</span> [5]. Espresso là 8–12%.</p>
+<p>Nồng độ chất hoà tan trong ly, tính bằng phần trăm. Với pour over, 1,15–1,35% là vùng của chuẩn Golden Cup <span class="tier tier-a">Bằng chứng <b class="cite">· 5</b></span>. Espresso là 8–12%.</p>
 
 <div class="callout warn">
 <p class="callout-title">EY và TDS là hai chuyện khác nhau</p>
@@ -65,7 +65,7 @@ TDS ≈ EY × liều ÷ (nước − 2 × liều)
 
 <h3>TDS đổi vị như thế nào</h3>
 
-<p>Đây là phần thường bị bỏ qua: TDS không chỉ đổi "độ đậm". Nó đổi cả hồ sơ vị. Hội đồng nếm có đào tạo của UC Davis thấy, trên cả ba mức rang <span class="tier tier-a">Bằng chứng</span> [58]:</p>
+<p>Đây là phần thường bị bỏ qua: TDS không chỉ đổi "độ đậm". Nó đổi cả hồ sơ vị. Hội đồng nếm có đào tạo của UC Davis thấy, trên cả ba mức rang <span class="tier tier-a">Bằng chứng <b class="cite">· 58</b></span>:</p>
 
 <ul>
 <li><strong>Đắng, chua và vị khói tăng theo TDS.</strong></li>
@@ -74,7 +74,7 @@ TDS ≈ EY × liều ÷ (nước − 2 × liều)
 
 <p>Điều này khớp với kết quả nếm theo phân đoạn ở chương 8: các phần sau có TDS thấp hơn và được cho là ngọt hơn, nhiều hương hoa hơn [55].</p>
 
-<p>Còn "điểm lý tưởng" thì không phải một ô cố định. Khi hỏi 118 người uống cà phê đen thường ngày, mức thích phụ thuộc vào TDS nhiều nhất và EY thứ hai — nhưng họ <strong>tách thành hai nhóm sở thích</strong> theo TDS, với hai mặt cong khác nhau <span class="tier tier-a">Bằng chứng</span> [59]. Nhóm tác giả kết luận rằng ô "lý tưởng" của biểu đồ Brewing Control Chart cần được xem lại cho đúng với chuyện đó.</p>
+<p>Còn "điểm lý tưởng" thì không phải một ô cố định. Khi hỏi 118 người uống cà phê đen thường ngày, mức thích phụ thuộc vào TDS nhiều nhất và EY thứ hai — nhưng họ <strong>tách thành hai nhóm sở thích</strong> theo TDS, với hai mặt cong khác nhau <span class="tier tier-a">Bằng chứng <b class="cite">· 59</b></span>. Nhóm tác giả kết luận rằng ô "lý tưởng" của biểu đồ Brewing Control Chart cần được xem lại cho đúng với chuyện đó.</p>
 
 <p>Nghĩa thực hành: vùng 1,15–1,35% là chỗ tốt để bắt đầu, không phải chỗ bạn phải về đích. Khẩu vị của bạn có thể nằm ngoài nó, và điều đó không phải lỗi pha.</p>
 
@@ -172,7 +172,7 @@ TDS ≈ EY × liều ÷ (nước − 2 × liều)
 
 <p>Bài phân tích chi tiết nhất về nó là của Jonathan Gagné trên blog <em>Coffee ad Astra</em> năm 2019, nơi ông xây dựng một mô hình động học về chiết xuất espresso. Bài đó rất hay, rất chi tiết, và có ảnh hưởng lớn.</p>
 
-<p>Nhưng Gagné tự ghi rõ trong chính bài viết đó rằng việc gắn tốc độ chiết với các thuộc tính cảm quan cụ thể là <strong>suy đoán</strong> — nguyên văn: "bằng chứng cho việc các hợp chất chiết nhanh nghiêng về phía vị ngái và chua là suy đoán, nên xin hãy đọc nó với một hạt muối rất lớn" — và mô hình <strong>chưa được kiểm chứng với dữ liệu thật</strong> <span class="tier tier-b">Hợp lý</span> [32].</p>
+<p>Nhưng Gagné tự ghi rõ trong chính bài viết đó rằng việc gắn tốc độ chiết với các thuộc tính cảm quan cụ thể là <strong>suy đoán</strong> — nguyên văn: "bằng chứng cho việc các hợp chất chiết nhanh nghiêng về phía vị ngái và chua là suy đoán, nên xin hãy đọc nó với một hạt muối rất lớn" — và mô hình <strong>chưa được kiểm chứng với dữ liệu thật</strong> <span class="tier tier-b">Hợp lý <b class="cite">· 32</b></span>.</p>
 
 <p>Nghĩa là: người viết mô hình chi tiết nhất đã nói rõ nó là giả thuyết. Rồi giả thuyết đó được dạy như định luật.</p>
 
@@ -192,7 +192,7 @@ TDS ≈ EY × liều ÷ (nước − 2 × liều)
 
 <p>Đây là bằng chứng về <strong>tốc độ chiết khác nhau</strong> — điều đó đúng và đã được chứng minh. Nhưng nó <em>không</em> phải bằng chứng cho việc acid đi trước và đắng đi sau. Caffeine, ví dụ, gần như không đổi theo thời gian chiết trong một mẻ — nghĩa là nó không "đến muộn". Nó ở đó từ đầu.</p>
 
-<p>Phép thử trực tiếp nhất cho mô hình này là cắt một mẻ pha nhỏ giọt thành từng phần theo thời gian rồi cho hội đồng nếm từng phần. UC Davis đã làm: hứng mỗi 30 giây một bình riêng, rồi phân tích mô tả. Kết quả đi ngược mô hình <span class="tier tier-a">Bằng chứng</span> [55]:</p>
+<p>Phép thử trực tiếp nhất cho mô hình này là cắt một mẻ pha nhỏ giọt thành từng phần theo thời gian rồi cho hội đồng nếm từng phần. UC Davis đã làm: hứng mỗi 30 giây một bình riêng, rồi phân tích mô tả. Kết quả đi ngược mô hình <span class="tier tier-a">Bằng chứng <b class="cite">· 55</b></span>:</p>
 
 <ul>
 <li><strong>Các phần đầu đắng hơn <em>và</em> chua hơn các phần sau.</strong> Không phải đắng đến sau.</li>
@@ -200,7 +200,7 @@ TDS ≈ EY × liều ÷ (nước − 2 × liều)
 <li><strong>Không phần nào có monosaccharide ở mức nếm được.</strong> Vị ngọt bạn nếm không đến từ đường.</li>
 </ul>
 
-<p>Đo động học ở thang giây cũng không thấy thứ tự nào như mô hình nói. Trong một luận án đo chiết xuất từ giây thứ 5, <strong>50% acid citric và malic đã tan trong 10 giây đầu</strong>; caffeine và acid chlorogenic (3-CQA) chỉ chậm hơn <strong>3–4 giây</strong> <span class="tier tier-a">Bằng chứng</span> [56]. Ba đến bốn giây — không phải ba đến bốn phút. Trong một mẻ pour over hai phút rưỡi, khoảng chênh đó biến mất. (Giới hạn: luận án đo trong bình khuấy kín, gần với ngâm hơn là với pour over.)</p>
+<p>Đo động học ở thang giây cũng không thấy thứ tự nào như mô hình nói. Trong một luận án đo chiết xuất từ giây thứ 5, <strong>50% acid citric và malic đã tan trong 10 giây đầu</strong>; caffeine và acid chlorogenic (3-CQA) chỉ chậm hơn <strong>3–4 giây</strong> <span class="tier tier-a">Bằng chứng <b class="cite">· 56</b></span>. Ba đến bốn giây — không phải ba đến bốn phút. Trong một mẻ pour over hai phút rưỡi, khoảng chênh đó biến mất. (Giới hạn: luận án đo trong bình khuấy kín, gần với ngâm hơn là với pour over.)</p>
 
 <h3>Một phát hiện phá trực giác hơn</h3>
 
@@ -292,11 +292,11 @@ TDS ≈ EY × liều ÷ (nước − 2 × liều)
 
 <h4>Nhiệt độ — đòn bẩy tinh tế</h4>
 
-<p>Tăng nhiệt: tăng tốc độ chiết và tăng khả năng hoà tan của các hợp chất khó tan. Chiều của hiệu ứng thì có đo: mức chiết cuối tăng theo nhiệt độ pha <span class="tier tier-a">Bằng chứng</span> [57]. Nhưng <strong>độ lớn</strong> thì không. Con số "khoảng 2–4% mức chiết cho mỗi 5 °C" lưu hành trong giới pha chế không có nghiên cứu nào chống đỡ; chúng tôi đã tra và không tìm được <span class="tier tier-b">Hợp lý</span>. Hãy dùng nó như một thứ tự độ lớn để đoán hướng chỉnh, không phải một hằng số để tính.</p>
+<p>Tăng nhiệt: tăng tốc độ chiết và tăng khả năng hoà tan của các hợp chất khó tan. Chiều của hiệu ứng thì có đo: mức chiết cuối tăng theo nhiệt độ pha <span class="tier tier-a">Bằng chứng <b class="cite">· 57</b></span>. Nhưng <strong>độ lớn</strong> thì không. Con số "khoảng 2–4% mức chiết cho mỗi 5 °C" lưu hành trong giới pha chế không có nghiên cứu nào chống đỡ; chúng tôi đã tra và không tìm được <span class="tier tier-b">Hợp lý</span>. Hãy dùng nó như một thứ tự độ lớn để đoán hướng chỉnh, không phải một hằng số để tính.</p>
 
 <p>Nhưng nhiệt độ còn ảnh hưởng đến thứ bạn <em>cảm nhận</em>: ly cà nóng hơn làm hương bay mạnh hơn (tốt), và che bớt vị đắng (cũng tốt). Nên nhiệt độ tác động lên hai chiều cùng lúc, và đây là lý do nó khó đánh giá.</p>
 
-<p>Và có một kết quả làm hẹp đòn bẩy này hơn nữa. Khi UC Davis pha ở 87, 90 và 93 °C nhưng chỉnh cỡ xay cùng thời gian để <strong>giữ TDS và mức chiết như nhau</strong>, hội đồng nếm có đào tạo gần như không phân biệt được ba mẻ <span class="tier tier-a">Bằng chứng</span> [6] [52]. TDS và mức chiết đổi hồ sơ vị; bản thân nhiệt độ thì không.</p>
+<p>Và có một kết quả làm hẹp đòn bẩy này hơn nữa. Khi UC Davis pha ở 87, 90 và 93 °C nhưng chỉnh cỡ xay cùng thời gian để <strong>giữ TDS và mức chiết như nhau</strong>, hội đồng nếm có đào tạo gần như không phân biệt được ba mẻ <span class="tier tier-a">Bằng chứng <b class="cite">· 6, 52</b></span>. TDS và mức chiết đổi hồ sơ vị; bản thân nhiệt độ thì không.</p>
 
 <p>Nghĩa là nhiệt độ quan trọng vì nó <em>đổi tốc độ chiết</em>, chứ không phải vì nó tự thêm hay bớt một vị nào. Đó là lý do chương này gọi nó là đòn bẩy tinh tế: nó làm việc qua mức chiết, không trực tiếp.</p>
 
@@ -309,13 +309,13 @@ TDS ≈ EY × liều ÷ (nước − 2 × liều)
 
 <p>Một chuyện hay bị bỏ qua: con số trên ấm không phải con số mà bã nhìn thấy. Nước mất nhiệt trên đường từ vòi xuống bã, và lớp bã ướt (slurry) luôn mát hơn nước bạn rót. Chương 15 đã ghi khoảng tụt <strong>5–8 °C</strong> <span class="tier tier-b">Hợp lý</span>.</p>
 
-<p>Có phép đo cho chuyện này. Trong một mẻ pour over rót nước <strong>96 °C</strong> theo kiểu hai lần rót — cách làm slurry nóng nhất có thể — nhiệt độ cao nhất mà slurry đạt tới vẫn <strong>dưới 90 °C</strong>, và phần lớn thời gian còn thấp hơn nữa. Đúng với cả phễu nhựa lẫn phễu sứ <span class="tier tier-b">Hợp lý</span> [64].</p>
+<p>Có phép đo cho chuyện này. Trong một mẻ pour over rót nước <strong>96 °C</strong> theo kiểu hai lần rót — cách làm slurry nóng nhất có thể — nhiệt độ cao nhất mà slurry đạt tới vẫn <strong>dưới 90 °C</strong>, và phần lớn thời gian còn thấp hơn nữa. Đúng với cả phễu nhựa lẫn phễu sứ <span class="tier tier-b">Hợp lý <b class="cite">· 64</b></span>.</p>
 
 <p>Hệ quả thực hành có hai phần. Một: nếu bạn rót ở 96 °C vì nghĩ "cần nóng để chiết đủ", bã có thể chưa bao giờ thấy 96 °C — bạn đang ở trong dải 87–93 °C mà không biết. Hai: ngâm giữ nhiệt tốt hơn nhiều. Cùng mức 97 °C, một mẻ ngâm một lít giữ slurry trên 90 °C gần năm phút, vì khối nước lớn hơn và lớp bã nổi trên mặt có tác dụng giữ nhiệt. Đó là lý do một mẻ French press lớn nên pha bằng nước <em>nguội hơn</em> pour over, không phải nóng hơn.</p>
 
 <h4>Vì sao một phần hương không bao giờ vào ly</h4>
 
-<p>Không phải hợp chất hương nào cũng theo nước vào ly. Khi người ta đo bằng pha loãng đồng vị, tỉ lệ chuyển từ bã sang ly chia thành hai nhóm rất rõ <span class="tier tier-a">Bằng chứng</span> [62]:</p>
+<p>Không phải hợp chất hương nào cũng theo nước vào ly. Khi người ta đo bằng pha loãng đồng vị, tỉ lệ chuyển từ bã sang ly chia thành hai nhóm rất rõ <span class="tier tier-a">Bằng chứng <b class="cite">· 62</b></span>:</p>
 
 <div class="table-wrap">
 <table>
@@ -329,11 +329,11 @@ TDS ≈ EY × liều ÷ (nước − 2 × liều)
 
 <p>Đáng chú ý: β-damascenone và 2-furfurylthiol nằm trong nhóm hợp chất <em>mạnh nhất</em> của cà phê — chúng mang nốt mật ong, trái cây, hoa — nhưng phần lớn chúng ở lại trong bã. Đây là một cơ sở vật lý cho luận điểm trung tâm của sách: một phần trần hương của con cà không nằm trong tầm với của bất kỳ kỹ thuật pha nào.</p>
 
-<p>Nhiệt độ cao làm chiết được nhiều hợp chất bay hơi hơn, và tác động đó <strong>mạnh hơn với nhóm kém phân cực</strong> <span class="tier tier-b">Hợp lý</span> [63]. Nhưng bài đo điều đó làm trên espresso, 82–96 °C và có áp lực — nên với pour over thì đây là cơ chế hợp lý, chưa phải kết quả đã đo.</p>
+<p>Nhiệt độ cao làm chiết được nhiều hợp chất bay hơi hơn, và tác động đó <strong>mạnh hơn với nhóm kém phân cực</strong> <span class="tier tier-b">Hợp lý <b class="cite">· 63</b></span>. Nhưng bài đo điều đó làm trên espresso, 82–96 °C và có áp lực — nên với pour over thì đây là cơ chế hợp lý, chưa phải kết quả đã đo.</p>
 
 <h4>Vị đắng sinh ra trong lò rang, không phải trong phễu</h4>
 
-<p>Hai nhóm hợp chất đắng chính của cà phê đều hình thành khi rang, không phải khi pha <span class="tier tier-a">Bằng chứng</span> [60] [61]:</p>
+<p>Hai nhóm hợp chất đắng chính của cà phê đều hình thành khi rang, không phải khi pha <span class="tier tier-a">Bằng chứng <b class="cite">· 60, 61</b></span>:</p>
 
 <ul>
 <li><strong>Quinide (lactone của acid chlorogenic)</strong> — vị đắng "kiểu cà phê", hình thành nhiều nhất ở mức rang nhẹ đến vừa.</li>
@@ -480,9 +480,9 @@ TDS ≈ EY × liều ÷ (nước − 2 × liều)
 
 <p>Phần trên nói bột mịn làm bã dẫn nước kém đi. Đó là một nửa câu chuyện, và nửa kia ít người nói.</p>
 
-<p>Nửa xấu đã có đo đạc. Tăng tỉ lệ bột mịn thì <strong>độ thấm của lớp bã giảm, dòng chảy chậm lại, thời gian chiết dài ra</strong> <span class="tier tier-a">Bằng chứng</span> [35]. Và bột mịn chiết xong rất sớm: chúng nhả hết phần bề mặt trong vài giây, trong khi hạt lớn còn cần vài phút — nên trong lúc phần còn lại của bã đang tiến tới vùng tốt, bột mịn đã đi quá vùng đó và đóng góp vị đắng cùng vị chát <span class="tier tier-b">Hợp lý</span> [65].</p>
+<p>Nửa xấu đã có đo đạc. Tăng tỉ lệ bột mịn thì <strong>độ thấm của lớp bã giảm, dòng chảy chậm lại, thời gian chiết dài ra</strong> <span class="tier tier-a">Bằng chứng <b class="cite">· 35</b></span>. Và bột mịn chiết xong rất sớm: chúng nhả hết phần bề mặt trong vài giây, trong khi hạt lớn còn cần vài phút — nên trong lúc phần còn lại của bã đang tiến tới vùng tốt, bột mịn đã đi quá vùng đó và đóng góp vị đắng cùng vị chát <span class="tier tier-b">Hợp lý <b class="cite">· 65</b></span>.</p>
 
-<p>Nửa tốt là chuyện hình học. Bột mịn <strong>lấp vào khe giữa các hạt lớn</strong>. Không có chúng, khe hở giữa các mảnh lớn rộng hơn và không đều hơn — nước tìm được đường rộng để đi, tức là kênh. Nên lượng bột mịn tối ưu không phải là không, mà là <strong>lượng làm vị chát thấp nhất</strong> cho đúng công thức của bạn <span class="tier tier-b">Hợp lý</span> [66].</p>
+<p>Nửa tốt là chuyện hình học. Bột mịn <strong>lấp vào khe giữa các hạt lớn</strong>. Không có chúng, khe hở giữa các mảnh lớn rộng hơn và không đều hơn — nước tìm được đường rộng để đi, tức là kênh. Nên lượng bột mịn tối ưu không phải là không, mà là <strong>lượng làm vị chát thấp nhất</strong> cho đúng công thức của bạn <span class="tier tier-b">Hợp lý <b class="cite">· 66</b></span>.</p>
 
 <p>Hai nửa đó gặp nhau ở một kết luận không gọn: bột mịn quá nhiều thì nghẹt và chát, quá ít thì kênh và cũng chát. Bạn không loại bỏ chúng; bạn tìm lượng vừa.</p>
 
@@ -497,7 +497,7 @@ TDS ≈ EY × liều ÷ (nước − 2 × liều)
 
 <p>Câu quen thuộc là: bột mịn trôi dần xuống đáy trong lúc pha rồi bít giấy lọc. Có một lời giải thích vật lý cho chuyện đó, nhưng nó không giống điều phần lớn người pha hình dung.</p>
 
-<p>Cách hiểu cũ: rung làm các hạt lớn nảy lên, chừa khe hở, bột mịn lọt xuống. Cách hiểu đó <em>có</em> xảy ra, nhưng không bắt buộc. Trong thí nghiệm gõ vào một ống đựng bi thuỷ tinh, ma sát ở thành ống đẩy lớp bi sát thành đi xuống, kéo theo cả khối chuyển động vòng tròn giống đối lưu — <strong>không viên bi nào cần được nhấc lên</strong>. Viên bi lớn không lọt vào dòng đi xuống nên mắc lại ở lớp trên <span class="tier tier-b">Hợp lý</span> [67].</p>
+<p>Cách hiểu cũ: rung làm các hạt lớn nảy lên, chừa khe hở, bột mịn lọt xuống. Cách hiểu đó <em>có</em> xảy ra, nhưng không bắt buộc. Trong thí nghiệm gõ vào một ống đựng bi thuỷ tinh, ma sát ở thành ống đẩy lớp bi sát thành đi xuống, kéo theo cả khối chuyển động vòng tròn giống đối lưu — <strong>không viên bi nào cần được nhấc lên</strong>. Viên bi lớn không lọt vào dòng đi xuống nên mắc lại ở lớp trên <span class="tier tier-b">Hợp lý <b class="cite">· 67</b></span>.</p>
 
 <p>Chỗ bất ngờ với người pha pour over: khi nhóm nghiên cứu đổi sang <strong>hình nón</strong>, dòng chảy <em>đảo chiều</em>, và hạt lớn bị kẹt ở <em>đáy</em> thay vì nổi lên trên.</p>
 

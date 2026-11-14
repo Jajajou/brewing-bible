@@ -22,7 +22,7 @@ window.BOOK_PARTS.push({
 
 <p><strong>Đặc điểm:</strong></p>
 <ul>
-<li><strong>Chiết đều tự nhiên.</strong> Mọi hạt bột tiếp xúc cùng một dung dịch, cùng nồng độ, cùng nhiệt độ. Không thể có channeling <span class="tier tier-a">Bằng chứng</span> [10] [11].</li>
+<li><strong>Chiết đều tự nhiên.</strong> Mọi hạt bột tiếp xúc cùng một dung dịch, cùng nồng độ, cùng nhiệt độ. Không thể có channeling <span class="tier tier-a">Bằng chứng <b class="cite">· 10, 11</b></span>.</li>
 <li><strong>Tự hạn chế.</strong> Khi nước xung quanh đã bão hoà, tốc độ chiết chậm lại. Đây là một cơ chế tự bảo vệ — khó chiết dư.</li>
 <li><strong>Nhiệt ổn định.</strong> Khối nước lớn giữ nhiệt tốt hơn nhiều so với một dòng chảy mỏng.</li>
 <li><strong>Ít hương "cao".</strong> Không có dòng khí và dòng chảy, nên các hợp chất dễ bay hơi ít bị khuấy động vào ly. Ly cà tròn hơn, nặng hơn, nhưng ít "sáng".</li>
@@ -34,7 +34,7 @@ window.BOOK_PARTS.push({
 
 <p><strong>Đặc điểm:</strong></p>
 <ul>
-<li><strong>Có thể chiết rất sâu.</strong> Vì nước luôn mới, gradient nồng độ luôn được duy trì, nên quá trình chiết không tự dừng. Đây là lý do pour-over có thể đạt mức chiết cao hơn immersion cùng thời gian <span class="tier tier-a">Bằng chứng</span> [31].</li>
+<li><strong>Có thể chiết rất sâu.</strong> Vì nước luôn mới, gradient nồng độ luôn được duy trì, nên quá trình chiết không tự dừng. Đây là lý do pour-over có thể đạt mức chiết cao hơn immersion cùng thời gian <span class="tier tier-a">Bằng chứng <b class="cite">· 31</b></span>.</li>
 <li><strong>Có thể cho hương "cao" hơn.</strong> Dòng chảy và hơi nước khuấy động các hợp chất bay hơi, đưa chúng vào ly. Đây là lý do pour-over thường có hương hoa và trái cây rõ hơn.</li>
 <li><strong>Có thể không đều.</strong> Nước chọn đường ít trở lực nhất. Nếu bã không đồng nhất, bạn có channeling.</li>
 <li><strong>Nhiệt tụt.</strong> Dòng chảy mỏng mất nhiệt nhanh. Ly cà có thể thấp hơn 5–8 °C so với nước bạn rót.</li>
@@ -71,7 +71,7 @@ window.BOOK_PARTS.push({
 </table>
 </div>
 
-<p>Hai hàng giữa là số đo thật, nhưng đo trong bình khuấy kín — gần với ngâm hơn là với pour over <span class="tier tier-a">Bằng chứng</span> [56]. Hai hàng ngoài là suy luận.</p>
+<p>Hai hàng giữa là số đo thật, nhưng đo trong bình khuấy kín — gần với ngâm hơn là với pour over <span class="tier tier-a">Bằng chứng <b class="cite">· 56</b></span>. Hai hàng ngoài là suy luận.</p>
 
 <p>Đọc bảng này theo chiều ngang thì thấy vì sao "kéo dài thời gian" là lời khuyên thô. Thêm ba mươi giây không tác động đều lên bốn hàng: hai hàng trên đã xong từ lâu, hàng thứ ba đang ở giữa, hàng cuối gần như không nhúc nhích. Bạn chỉ đang đẩy sâu thêm một quá trình.</p>
 
@@ -175,7 +175,7 @@ window.BOOK_PARTS.push({
 
 <p>Có. Và kết quả đáng chú ý vì nó đi kèm một so sánh khác.</p>
 
-<p>UC Davis cho 45 người thử phân biệt, cùng một con cà, pha bằng máy nhỏ giọt. Hai kết quả cạnh nhau <span class="tier tier-a">Bằng chứng</span> [38]:</p>
+<p>UC Davis cho 45 người thử phân biệt, cùng một con cà, pha bằng máy nhỏ giọt. Hai kết quả cạnh nhau <span class="tier tier-a">Bằng chứng <b class="cite">· 38</b></span>:</p>
 
 <ul>
 <li>Hai cỡ xay chênh nhau khá nhiều: <strong>người thử không phân biệt được</strong>.</li>
@@ -195,13 +195,13 @@ window.BOOK_PARTS.push({
 
 <p>Cùng một liều cà cho độ sâu bã khác nhau tuỳ đường kính phễu — và độ sâu đó tự nó là một biến.</p>
 
-<p>Lập luận: kênh nước hình thành ở mọi lớp bã. Trong lớp bã sâu, nhiều kênh <em>chết giữa đường</em>, nước lại tản vào bã. Trong lớp bã nông, nhiều kênh đi thẳng tới đáy, và kênh tới được đáy thì mang theo các hợp chất phân tử lớn gây vị chát ra ly <span class="tier tier-b">Hợp lý</span> [53] [54].</p>
+<p>Lập luận: kênh nước hình thành ở mọi lớp bã. Trong lớp bã sâu, nhiều kênh <em>chết giữa đường</em>, nước lại tản vào bã. Trong lớp bã nông, nhiều kênh đi thẳng tới đáy, và kênh tới được đáy thì mang theo các hợp chất phân tử lớn gây vị chát ra ly <span class="tier tier-b">Hợp lý <b class="cite">· 53, 54</b></span>.</p>
 
 <p>Hệ quả: nếu ly của bạn chát mà cỡ xay và nước đều ổn, hãy nhìn vào liều so với đường kính phễu. Mười lăm gam trên một chiếc phễu lớn là một lớp bã nông.</p>
 
 <h3>Phễu không bypass</h3>
 
-<p>Trong V60, một phần nước đi men theo thành giấy mà không qua hết bã — đó là <strong>bypass</strong>. Kết quả: đáy lớp bã nhận ít nước hơn và chiết ít hơn phần trên <span class="tier tier-b">Hợp lý</span> [68].</p>
+<p>Trong V60, một phần nước đi men theo thành giấy mà không qua hết bã — đó là <strong>bypass</strong>. Kết quả: đáy lớp bã nhận ít nước hơn và chiết ít hơn phần trên <span class="tier tier-b">Hợp lý <b class="cite">· 68</b></span>.</p>
 
 <p>Một nhóm dụng cụ ra đời để chặn chuyện đó: Pulsar, Tricolate, Orea Z1. Chúng buộc toàn bộ nước đi qua toàn bộ bã. Theo người dùng nhiều, nhóm này đạt <strong>trần chiết cao hơn</strong> — lấy được nhiều hơn từ cùng một con cà trước khi ly bắt đầu xấu đi <span class="tier tier-b">Hợp lý</span>.</p>
 
@@ -804,7 +804,7 @@ window.BOOK_PARTS.push({
     minutes: 8,
     tags: ["phin", "dụng cụ", "thực nghiệm"],
     body: `
-<p>Phin là phễu không bypass có trước mọi phễu không bypass khác. Ở chương 15 mình đã xếp nó vào cùng nhóm với Pulsar, Tricolate, Orea Z1: nước chỉ có một đường ra, và đường đó đi qua bã <span class="tier tier-b">Hợp lý</span> [68].</p>
+<p>Phin là phễu không bypass có trước mọi phễu không bypass khác. Ở chương 15 mình đã xếp nó vào cùng nhóm với Pulsar, Tricolate, Orea Z1: nước chỉ có một đường ra, và đường đó đi qua bã <span class="tier tier-b">Hợp lý <b class="cite">· 68</b></span>.</p>
 
 <p>Nhưng phin nổi tiếng vì một thứ khác: cà phê sữa đá. Cốt pha đậm cỡ 1:4–1:5, robusta rang đậm, sữa đặc, và lưới kim loại cho dầu cùng bột mịn đi qua nên ly có body dày. Đó là một truyền thống pha riêng, và nó không phải chủ đề của chương này — mình không có nguồn cho phần đó, và không muốn kể lại nó bằng ký ức.</p>
 
