@@ -1089,6 +1089,47 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 
 <p>A counter-warning is also needed: on one espresso grinder, settings from 1.4 to 2.0 shifted the volume-mean diameter only between 273 and 295 µm, and in that experiment <strong>flow rate mattered more than grind size</strong> <span class="tier tier-a">Evidence</span>. Which means: sometimes you turn three clicks, measure, see nothing, and conclude grind does not matter. That conclusion is wrong — you have only shown that three clicks on your grinder change very little.</p>
 
+<h3>Fines: villain or necessity</h3>
+
+<p>Above, fines made the bed conduct water worse. That is half the story, and the other half is rarely told.</p>
+
+<p>The bad half is measured. Raise the share of fines and <strong>bed permeability falls, flow rates drop, extraction times lengthen</strong> <span class="tier tier-a">Evidence</span> [35]. And fines finish extracting very early: they give up their surface solids in seconds while larger particles still need minutes — so while the rest of the bed is working toward the good band, the fines have already gone past it and are contributing bitterness and astringency <span class="tier tier-b">Plausible</span> [65].</p>
+
+<p>The good half is geometry. Fines <strong>fill the gaps between the larger particles</strong>. Without them the spaces between boulders are wider and more irregular — water finds a broad path, which is a channel. So the optimal amount of fines is not zero; it is <strong>the amount that minimises astringency</strong> for your particular recipe <span class="tier tier-b">Plausible</span> [66].</p>
+
+<p>The two halves meet at an untidy conclusion: too many fines and you get clogging and astringency, too few and you get channels and also astringency. You do not eliminate them; you find the right amount.</p>
+
+<div class="callout act">
+<p class="callout-title">The sieve test</p>
+<p>To find out what fines are doing in your cup, take some of them out and taste. Use a fine tea sieve: grind as usual, sieve for about fifteen seconds, discard what falls through, and brew what remains on your base recipe.</p>
+<p>Weigh again before brewing — you just lost a few percent of the mass, so adjust the water to keep the ratio, or you are changing two variables at once.</p>
+<p>If the sieved cup is cleaner and less astringent, your grinder is making more fines than it benefits from. If it is thin and hollow, the fines were doing useful work and you should leave them alone.</p>
+</div>
+
+<h3>Do fines really “sink to the bottom”</h3>
+
+<p>The familiar claim is that fines drift downward during the brew and clog the paper. There is a physical explanation for that, but it is not the one most brewers picture.</p>
+
+<p>The old picture: vibration lifts the boulders, gaps open, fines fall through. That <em>does</em> happen, but it is not required. In an experiment tapping a cylinder of glass beads, friction at the wall pushes the beads nearest the wall downward, setting the whole container into a circular, convection-like flow — <strong>no bead has to be lifted at all</strong>. A larger bead cannot fit into the downward flow, so it gets stuck in the top layer <span class="tier tier-b">Plausible</span> [67].</p>
+
+<p>The surprise for pour over: when the researchers switched to a <strong>cone</strong>, the flow <em>reversed</em>, and the large particles were trapped at the <em>bottom</em> rather than rising to the top.</p>
+
+<p>But do not celebrate for conical brewers yet. Gagné points out the thing that matters more: whichever way the flow runs, fines still <strong>circulate past the paper wall</strong>, and any motion that brings more fines near the paper contributes to clogging it. A particle small enough to enter a pore will lodge there.</p>
+
+<div class="callout warn">
+<p class="callout-title">What this means in practice, and its limits</p>
+<p>Tapping the brewer — to "level the bed" — is not neutral. It supplies exactly the kind of vibration that drives this flow. If your drawdown is unusually long and the grind has not changed, the habit of tapping the brewer is worth dropping for a week as a test.</p>
+<p>Limits: the original experiment used uniform dry glass beads and a single 30 Hz tapping frequency. A coffee bed is wet, irregularly shaped and many-sized. The mechanism is plausible; the numbers do not transfer directly to your brewer.</p>
+</div>
+
+<h3>Why big particles are so much slower</h3>
+
+<p>Extraction inside one particle runs in two stages: <strong>surface erosion</strong> — fast, measured in seconds — then <strong>diffusion out of the core</strong> — slow, measured in minutes. The second stage is where large and small particles part company.</p>
+
+<p>By the physics of diffusion, the time for material to travel from core to surface rises with the <strong>square</strong> of particle size, not linearly. A particle twice as large needs roughly four times as long, not twice <span class="tier tier-b">Plausible</span>.</p>
+
+<p>This is why a wide grind gives a "messy" cup: within the same two and a half minutes, the small fraction has finished and gone past, while the large fraction has not yet reached its core. You taste both at once. It is also why narrowing the distribution — a better grinder, burrs aligned — does more than shifting the median left or right.</p>
+
 <h3>Two mechanisms pulling opposite ways</h3>
 
 <p>This is the core of it, and the part most grind advice skips. Grinding finer acts on two things at once, in opposite directions:</p>
@@ -3286,7 +3327,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p>The rule is simple: only sentences an outside document can check need a source. Statements about experience, method and advice do not — and none of them should be given a source that merely sounds scientific. Peer-reviewed work with a DOI comes first; where none exists, the industry standard or the primary source from the person who proposed the method.</p>
 
-<p>Sixty-four sources are grouped by subject in A2 and by chapter in A3. Of the 30 chapters, ten rest directly on documents, six rest on them halfway, twelve are method and need no outside source. Two — 17 and 20 — still have no source at all for their central claim; both now say so in the chapter itself and carry the Plausible label.</p>
+<p>Sixty-seven sources are grouped by subject in A2 and by chapter in A3. Of the 30 chapters, ten rest directly on documents, six rest on them halfway, twelve are method and need no outside source. Two — 17 and 20 — still have no source at all for their central claim; both now say so in the chapter itself and carry the Plausible label.</p>
 
 <div class="callout">
 <p class="callout-title">A source is not evidence</p>
@@ -3297,7 +3338,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
     "ch-nguon-danh-muc": {
       title: "Bibliography",
-      lede: "Sixty-four sources, grouped by subject. Each entry carries a DOI or a link that was opened and read, plus one line on what that source contributes.",
+      lede: "Sixty-seven sources, grouped by subject. Each entry carries a DOI or a link that was opened and read, plus one line on what that source contributes.",
       minutes: 12,
       tags: ["appendix", "sources"],
       body: `
@@ -3557,6 +3598,18 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <p><strong>[64]</strong> Barista Hustle (2020). <em>The Ideal Temperature for French Press.</em> baristahustle.com/the-ideal-temperature-for-french-press/</p>
 
 <p>Slurry temperature measurements. A pour over poured at 96 °C in a two-pour pattern: the slurry never exceeded 90 °C, in a plastic brewer and a ceramic one alike. A one-litre immersion at 97 °C: the slurry stayed above 90 °C for nearly five minutes, because the body of water is larger and the floating crust insulates it. The source for "the slurry is cooler than the kettle" in chapter 9. A trainer's article, not peer-reviewed research.</p>
+
+<p><strong>[65]</strong> Rao, S. (2017). <em>Fines: fine for espresso, not so fine for filter.</em> scottrao.com/blog/2017/8/27/fines-fine-for-espresso-not-so-fine-for-filter</p>
+
+<p>Fines release their surface solids in seconds while larger particles need minutes, so they over-extract and contribute bitterness and astringency. The article treats fines as a flavour problem, not a permeability one. Practitioner experience.</p>
+
+<p><strong>[66]</strong> Ineffable Coffee × Rao, S. <em>La cantidad media ideal de finos.</em> ineffablecoffee.com/en/blogs/news/la-cantidad-media-ideal-de-finos</p>
+
+<p>The other side: fines fill the gaps between larger particles and limit flow pathways. The ideal amount of fines for a given recipe is the amount that minimises astringency. A secondary source quoting Rao.</p>
+
+<p><strong>[67]</strong> Gagné, J. (2020). <em>The Physics of Fines Migration.</em> Barista Hustle. baristahustle.com/the-physics-of-fines-migration/</p>
+
+<p>A reading of Knight, Jaeger & Nagel (1993): fines can migrate without any boulder being lifted. Wall friction drives a convection-like circulation; in a cone the flow reverses and large particles are trapped at the bottom. Either way, fines still circulate past the paper and contribute to clogging it. Limits: dry uniform glass beads, a single 30 Hz tapping frequency.</p>
 <div class="callout">
 <p class="callout-title">Three papers I could not open in full</p>
 <p>[17], [22] and the DOI page for [5] were blocked by the publishers during the check. Their details here come from abstracts and from the SCA review. If you need a sentence-exact citation, open the full text.</p>

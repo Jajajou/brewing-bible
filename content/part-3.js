@@ -476,6 +476,47 @@ TDS ≈ EY × liều ÷ (nước − 2 × liều)
 
 <p>Một cảnh báo ngược lại, cũng cần thiết: trên một máy xay espresso, dải cài đặt từ 1.4 đến 2.0 chỉ đổi đường kính trung bình theo thể tích trong khoảng 273–295 µm, và trong thí nghiệm đó <strong>lưu lượng nước mạnh hơn cỡ xay</strong> <span class="tier tier-a">Bằng chứng</span>. Nghĩa là: có những lần bạn vặn ba nấc, đo, thấy không khác gì, rồi kết luận cỡ xay không quan trọng. Kết luận đó sai — bạn chỉ vừa chứng minh rằng ba nấc trên máy của bạn đổi rất ít.</p>
 
+<h3>Bột mịn: kẻ xấu hay thứ cần thiết</h3>
+
+<p>Phần trên nói bột mịn làm bã dẫn nước kém đi. Đó là một nửa câu chuyện, và nửa kia ít người nói.</p>
+
+<p>Nửa xấu đã có đo đạc. Tăng tỉ lệ bột mịn thì <strong>độ thấm của lớp bã giảm, dòng chảy chậm lại, thời gian chiết dài ra</strong> <span class="tier tier-a">Bằng chứng</span> [35]. Và bột mịn chiết xong rất sớm: chúng nhả hết phần bề mặt trong vài giây, trong khi hạt lớn còn cần vài phút — nên trong lúc phần còn lại của bã đang tiến tới vùng tốt, bột mịn đã đi quá vùng đó và đóng góp vị đắng cùng vị chát <span class="tier tier-b">Hợp lý</span> [65].</p>
+
+<p>Nửa tốt là chuyện hình học. Bột mịn <strong>lấp vào khe giữa các hạt lớn</strong>. Không có chúng, khe hở giữa các mảnh lớn rộng hơn và không đều hơn — nước tìm được đường rộng để đi, tức là kênh. Nên lượng bột mịn tối ưu không phải là không, mà là <strong>lượng làm vị chát thấp nhất</strong> cho đúng công thức của bạn <span class="tier tier-b">Hợp lý</span> [66].</p>
+
+<p>Hai nửa đó gặp nhau ở một kết luận không gọn: bột mịn quá nhiều thì nghẹt và chát, quá ít thì kênh và cũng chát. Bạn không loại bỏ chúng; bạn tìm lượng vừa.</p>
+
+<div class="callout act">
+<p class="callout-title">Phép thử rây</p>
+<p>Muốn biết bột mịn đang làm gì trong ly của bạn, hãy bỏ bớt chúng đi rồi nếm. Dùng một chiếc rây trà mắt nhỏ: xay như thường, rây khoảng mười lăm giây, bỏ phần lọt qua rây, rồi pha phần còn lại theo đúng công thức nền.</p>
+<p>Cân lại trước khi pha — bạn vừa mất vài phần trăm khối lượng, nên phải chỉnh nước cho đúng tỉ lệ, nếu không bạn đang đổi hai biến cùng lúc.</p>
+<p>Nếu ly rây sạch hơn và bớt chát: máy xay của bạn đang tạo nhiều bột mịn hơn mức có lợi. Nếu nó mỏng và trống: bột mịn đang làm việc có ích, và bạn nên để yên.</p>
+</div>
+
+<h3>Bột mịn có thật sự “chìm xuống đáy” không</h3>
+
+<p>Câu quen thuộc là: bột mịn trôi dần xuống đáy trong lúc pha rồi bít giấy lọc. Có một lời giải thích vật lý cho chuyện đó, nhưng nó không giống điều phần lớn người pha hình dung.</p>
+
+<p>Cách hiểu cũ: rung làm các hạt lớn nảy lên, chừa khe hở, bột mịn lọt xuống. Cách hiểu đó <em>có</em> xảy ra, nhưng không bắt buộc. Trong thí nghiệm gõ vào một ống đựng bi thuỷ tinh, ma sát ở thành ống đẩy lớp bi sát thành đi xuống, kéo theo cả khối chuyển động vòng tròn giống đối lưu — <strong>không viên bi nào cần được nhấc lên</strong>. Viên bi lớn không lọt vào dòng đi xuống nên mắc lại ở lớp trên <span class="tier tier-b">Hợp lý</span> [67].</p>
+
+<p>Chỗ bất ngờ với người pha pour over: khi nhóm nghiên cứu đổi sang <strong>hình nón</strong>, dòng chảy <em>đảo chiều</em>, và hạt lớn bị kẹt ở <em>đáy</em> thay vì nổi lên trên.</p>
+
+<p>Nhưng đừng vội mừng cho phễu nón. Gagné chỉ ra điều quan trọng hơn: dù dòng đi chiều nào, bột mịn vẫn <strong>đi vòng qua sát thành giấy</strong>, và bất kỳ chuyển động nào đưa thêm bột mịn tới gần giấy đều góp phần bít giấy. Hạt đủ nhỏ để chui vào lỗ giấy thì sẽ kẹt lại ở đó.</p>
+
+<div class="callout warn">
+<p class="callout-title">Hệ quả thực hành, và giới hạn của nó</p>
+<p>Gõ vào phễu — để "san phẳng bã" — không trung tính. Nó cấp đúng loại rung tạo ra dòng chảy này. Nếu thời gian rút của bạn dài bất thường mà cỡ xay không đổi, thói quen gõ phễu là thứ đáng bỏ thử một tuần.</p>
+<p>Giới hạn: thí nghiệm gốc làm với bi thuỷ tinh tròn đều, khô, và rung một tần số duy nhất 30 Hz. Bã cà phê thì ướt, hình dạng lung tung, nhiều cỡ. Cơ chế hợp lý, con số thì không chuyển thẳng sang phễu của bạn.</p>
+</div>
+
+<h3>Vì sao hạt to chậm hơn nhiều đến vậy</h3>
+
+<p>Chiết trong một hạt đi theo hai giai đoạn: <strong>xói mòn bề mặt</strong> — nhanh, tính bằng giây — rồi <strong>khuếch tán từ trong lõi ra</strong> — chậm, tính bằng phút. Giai đoạn hai mới là chỗ quyết định hạt to và hạt nhỏ khác nhau.</p>
+
+<p>Theo vật lý khuếch tán, thời gian để chất từ lõi ra tới bề mặt tăng theo <strong>bình phương</strong> kích thước hạt, chứ không tuyến tính. Hạt to gấp đôi cần khoảng bốn lần thời gian, không phải hai lần <span class="tier tier-b">Hợp lý</span>.</p>
+
+<p>Đây là lý do một mẻ xay rộng cho ly "lộn xộn": trong cùng hai phút rưỡi, nhóm hạt nhỏ đã chiết xong và đi quá, nhóm hạt lớn còn chưa tới lõi. Bạn nếm cả hai cùng lúc. Và đó cũng là lý do thu hẹp phân bố — máy xay tốt hơn, lưỡi chỉnh đúng tâm — có tác dụng lớn hơn việc dịch trung vị sang trái hay phải.</p>
+
 <h3>Hai cơ chế kéo ngược chiều</h3>
 
 <p>Đây là phần cốt lõi, và là phần mọi lời khuyên về cỡ xay bỏ qua. Xay mịn hơn tác động lên hai thứ cùng lúc, theo hai hướng ngược nhau:</p>

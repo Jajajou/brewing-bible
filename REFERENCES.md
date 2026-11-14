@@ -517,6 +517,34 @@ gấp đôi, mẻ 250 ml chỉ lên trên 80 °C vài giây. Lớp bã nổi gi�
 tụt ngay. Bài của nhà đào tạo, không phải nghiên cứu bình duyệt — sách dẫn ở mức Hợp lý. Bài đọc
 bản đầy đủ qua tài khoản của tác giả sách, 14/11/2026.
 
+**[65]** Rao, S. (27/08/2017). *Fines: fine for espresso, not so fine for filter.*
+[Link](https://www.scottrao.com/blog/2017/8/27/fines-fine-for-espresso-not-so-fine-for-filter)
+
+Lập luận: bột mịn nhả phần bề mặt trong vài giây, còn hạt lớn cần vài phút khuếch tán — nên bột
+mịn "chắc chắn chiết quá mức và đóng góp vị đắng cùng vị chát". Rao khuyên giảm bột mịn cho cà
+phê lọc: lưỡi nghiền sắc hơn, chỉnh đúng tâm, xay thô hơn, lưỡi lớn hơn, rang nhạt hơn, hoặc rây.
+Bài này bàn bột mịn như **vấn đề về vị**, không bàn độ thấm — phần độ thấm lấy từ [35]. Kinh
+nghiệm hành nghề, không phải nghiên cứu có kiểm soát.
+
+**[66]** Ineffable Coffee × Rao, S. *La cantidad media ideal de finos.*
+[Link](https://ineffablecoffee.com/en/blogs/news/la-cantidad-media-ideal-de-finos)
+
+Mặt còn lại: bột mịn "lấp các khe giữa những hạt lớn hơn và giúp hạn chế số lượng, có lẽ cả kích
+thước, của các đường dòng chảy". Thiếu bột mịn thì khe giữa các hạt rộng và không đều hơn. Kết
+luận của Rao: **lượng bột mịn lý tưởng cho một công thức là lượng làm vị chát thấp nhất**. Blog
+của nhà bán hàng dẫn lời Rao — nguồn thứ cấp, để ở mức Hợp lý.
+
+**[67]** Gagné, J. (21/04/2020). *The Physics of Fines Migration.* Barista Hustle.
+[Link](https://www.baristahustle.com/the-physics-of-fines-migration/)
+
+Đọc lại bài Knight, Jaeger & Nagel (1993) về vật liệu hạt. Phát hiện chính: **không cần nhấc hạt
+lớn lên thì bột mịn vẫn di chuyển được**. Ma sát ở thành ống đẩy lớp hạt sát thành đi xuống, tạo
+dòng chảy vòng giống đối lưu; hạt lớn không lọt vào dòng đi xuống nên kẹt ở lớp trên. Trong **ống
+hình nón, dòng đảo chiều** và hạt lớn kẹt ở đáy. Gagné nhấn mạnh điều này không cứu được phễu nón:
+bột mịn vẫn đi vòng sát thành giấy, và bất kỳ chuyển động nào đưa chúng tới gần giấy đều góp phần
+bít lỗ. Giới hạn do chính tác giả nêu: bi thuỷ tinh khô, tròn đều, rung một tần số 30 Hz. Bài đọc
+bản đầy đủ qua tài khoản của tác giả sách, 14/11/2026.
+
 ---
 
 ## Đối chiếu theo chương
@@ -594,7 +622,7 @@ Lớp sau (14/11/2026) thêm **[55]–[57]**, đưa tổng số lên **57**: hai
 nhiệt độ). Cả ba đã đối chiếu Crossref.
 
 Lớp mục 3 thêm **[58]–[59]** (cảm quan theo TDS; hai nhóm sở thích của người uống), đưa tổng số
-lên **59**. Lớp mục 3.2 thêm **[60]–[63]** (hai bài Hofmann về nguồn gốc vị đắng khi rang; hiệu suất chuyển hợp chất mùi vào ly; động học VOC theo nhiệt), đưa tổng số lên **63**. Thêm **[64]** (đo nhiệt slurry) sau khi tác giả sách mở được bản đầy đủ: **64**.
+lên **59**. Lớp mục 3.2 thêm **[60]–[63]** (hai bài Hofmann về nguồn gốc vị đắng khi rang; hiệu suất chuyển hợp chất mùi vào ly; động học VOC theo nhiệt), đưa tổng số lên **63**. Thêm **[64]** (đo nhiệt slurry) sau khi tác giả sách mở được bản đầy đủ: **64**. Lớp mục 3.3 thêm **[65]–[67]** (hai mặt của bột mịn; vật lý di chuyển bột mịn): **67**.
 
 ---
 
