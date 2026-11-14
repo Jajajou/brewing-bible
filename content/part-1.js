@@ -89,12 +89,12 @@ window.BOOK_PARTS.push({
 <p>Hạt cà phê xanh là một khối cellulose dày, cứng, chứa khoảng 10–12% nước và hàng trăm hợp chất tiền thân không mùi vị. Khi rang, ba quá trình xảy ra gần như đồng thời:</p>
 
 <ul>
-<li><strong>Mất nước và giãn nở.</strong> Hạt mất khoảng 12–18% khối lượng, chủ yếu là nước, và thể tích tăng 50–100%. Cấu trúc cellulose trở nên xốp, đầy lỗ rỗng. Đây là lý do hạt rang đậm nổi trên nước.</li>
+<li><strong>Mất nước và giãn nở.</strong> Hạt mất khoảng 12–18% khối lượng, chủ yếu là nước, và thể tích tăng 50–100% <span class="tier tier-a">Bằng chứng</span>. Cấu trúc cellulose trở nên xốp, đầy lỗ rỗng. Đây là lý do hạt rang đậm nổi trên nước.</li>
 <li><strong>Phản ứng Maillard.</strong> Acid amin và đường khử kết hợp tạo ra hàng trăm hợp chất mùi: caramel, bánh mì, hạt dẻ, chocolate. Đây là nền hương "rang" mà bạn ngửi thấy ở mọi loại cà.</li>
 <li><strong>Caramel hoá và phân huỷ acid.</strong> Ở nhiệt độ cao hơn, đường caramel hoá (tạo vị ngọt đắng đặc trưng), và các acid hữu cơ bắt đầu phân huỷ. Acid chlorogenic — hợp chất tạo vị chua và se — bị phân huỷ một phần và chuyển thành lactone, có vị đắng hơn.</li>
 </ul>
 
-<p>Hai sự kiện âm thanh đánh dấu các mốc: <strong>first crack</strong> (khoảng 196–205 °C) khi hơi nước và CO₂ bị nén bên trong làm hạt nứt, và <strong>second crack</strong> (khoảng 224–230 °C) khi cấu trúc cellulose bắt đầu gãy. Rang sáng dừng trước hoặc ngay sau first crack. Rang trung bình dừng giữa hai mốc. Rang đậm tiến vào hoặc qua second crack.</p>
+<p>Hai sự kiện âm thanh đánh dấu các mốc: <strong>first crack</strong> (khoảng 196–205 °C) khi hơi nước và CO₂ bị nén bên trong làm hạt nứt, và <strong>second crack</strong> (khoảng 224–230 °C) khi cấu trúc cellulose bắt đầu gãy <span class="tier tier-a">Bằng chứng</span>. Rang sáng dừng trước hoặc ngay sau first crack. Rang trung bình dừng giữa hai mốc. Rang đậm tiến vào hoặc qua second crack.</p>
 
 <div class="table-wrap">
 <table>
@@ -125,7 +125,7 @@ window.BOOK_PARTS.push({
 
 <p>Đây là một trong những điểm gây nhầm lẫn nhiều nhất, và ít ai nói ra: <strong>không có định nghĩa chung cho "medium roast".</strong> Mỗi nhà rang có thang riêng. Một "medium" của nhà A có thể sáng hơn "light" của nhà B.</p>
 
-<p>Có những thang đo khách quan — Agtron, đo màu bằng quang phổ, hoặc thang "Light/Medium/Dark" của SCAA cũ hơn — nhưng chúng hiếm khi được in trên bao bì bán lẻ. Và ngay cả Agtron cũng có hai biến thể (whole bean và ground), cho số khác nhau.</p>
+<p>Có những thang đo khách quan — Agtron, đo màu bằng quang phổ, hoặc thang "Light/Medium/Dark" của SCAA cũ hơn — nhưng chúng hiếm khi được in trên bao bì bán lẻ. Và ngay cả Agtron cũng có hai biến thể (whole bean và ground), cho số khác nhau <span class="tier tier-a">Bằng chứng</span> [12] [13] [14].</p>
 
 <p>Hệ quả thực dụng: <strong>đừng dùng nhãn "medium" để chọn tham số. Hãy dùng mắt và dùng ly cà.</strong></p>
 
@@ -252,7 +252,7 @@ window.BOOK_PARTS.push({
 
 <h3>Điều cần giữ tỉ lệ</h3>
 
-<p>Độ tươi quan trọng. Nhưng nếu bạn phải chọn giữa việc tối ưu độ tươi và việc sửa nước, hãy sửa nước trước. Một bao cà 20 ngày tuổi pha bằng nước đúng sẽ ngon hơn một bao cà 5 ngày tuổi pha bằng nước có độ kiềm 250 ppm. Đây không phải ý kiến — đó là hệ quả của việc alkalinity trung hoà trực tiếp các acid tạo vị trái cây, trong khi oxy hoá ở mức 20 ngày chỉ làm giảm nhẹ cường độ hương.</p>
+<p>Độ tươi quan trọng. Nhưng nếu bạn phải chọn giữa việc tối ưu độ tươi và việc sửa nước, hãy sửa nước trước. Một bao cà 20 ngày tuổi pha bằng nước đúng sẽ ngon hơn một bao cà 5 ngày tuổi pha bằng nước có độ kiềm 250 ppm. Không có thử nghiệm nào đặt hai bao cà đó cạnh nhau, nên đây là suy ra từ cơ chế, không phải từ một phép đo: alkalinity trung hoà trực tiếp các acid tạo vị trái cây, trong khi oxy hoá ở mức 20 ngày chỉ làm giảm nhẹ cường độ hương <span class="tier tier-b">Hợp lý</span>.</p>
 
 <p>Nói cách khác: <strong>thứ tự ưu tiên khi bạn chỉ có thể sửa một thứ là: nước → cỡ xay → độ tươi → mọi thứ còn lại.</strong> Đây là thứ tự chẩn đoán, không phải một bảng xếp hạng đã đo — chương 10 nói rõ chỗ nào đo được và chỗ nào không.</p>
 `

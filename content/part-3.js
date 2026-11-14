@@ -16,7 +16,7 @@ window.BOOK_PARTS.push({
     body: `
 <p>Hãy bắt đầu bằng một câu hỏi tưởng như đơn giản: khi bạn pha cà phê, cái gì thật sự đi từ bã vào ly?</p>
 
-<p>Câu trả lời chính xác là: <strong>khoảng 18–22% khối lượng bã khô</strong>. Phần còn lại — cellulose, một phần protein, khoáng chất không tan, và các hợp chất chưa kịp hoà tan — ở lại trong bã và bị bỏ đi. Ngay cả một ly cà phê "đậm" cũng chỉ lấy được một phần năm những gì có trong hạt.</p>
+<p>Câu trả lời chính xác là: <strong>khoảng 18–22% khối lượng bã khô</strong> <span class="tier tier-a">Bằng chứng</span> [5]. Phần còn lại — cellulose, một phần protein, khoáng chất không tan, và các hợp chất chưa kịp hoà tan — ở lại trong bã và bị bỏ đi. Ngay cả một ly cà phê "đậm" cũng chỉ lấy được một phần năm những gì có trong hạt.</p>
 
 <p>Con số đó, và những gì nó kéo theo, là nền tảng của mọi kỹ thuật trong cuốn sách này.</p>
 
@@ -40,7 +40,7 @@ window.BOOK_PARTS.push({
 
 <h4>TDS (Total Dissolved Solids)</h4>
 
-<p>Nồng độ chất hoà tan trong ly, tính bằng phần trăm. Với pour over, 1,15–1,35% là vùng của chuẩn Golden Cup. Espresso là 8–12%.</p>
+<p>Nồng độ chất hoà tan trong ly, tính bằng phần trăm. Với pour over, 1,15–1,35% là vùng của chuẩn Golden Cup <span class="tier tier-a">Bằng chứng</span> [5]. Espresso là 8–12%.</p>
 
 <div class="callout warn">
 <p class="callout-title">EY và TDS là hai chuyện khác nhau</p>

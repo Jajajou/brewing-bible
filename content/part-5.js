@@ -22,7 +22,7 @@ window.BOOK_PARTS.push({
 
 <p><strong>Đặc điểm:</strong></p>
 <ul>
-<li><strong>Chiết đều tự nhiên.</strong> Mọi hạt bột tiếp xúc cùng một dung dịch, cùng nồng độ, cùng nhiệt độ. Không thể có channeling.</li>
+<li><strong>Chiết đều tự nhiên.</strong> Mọi hạt bột tiếp xúc cùng một dung dịch, cùng nồng độ, cùng nhiệt độ. Không thể có channeling <span class="tier tier-a">Bằng chứng</span> [10] [11].</li>
 <li><strong>Tự hạn chế.</strong> Khi nước xung quanh đã bão hoà, tốc độ chiết chậm lại. Đây là một cơ chế tự bảo vệ — khó chiết dư.</li>
 <li><strong>Nhiệt ổn định.</strong> Khối nước lớn giữ nhiệt tốt hơn nhiều so với một dòng chảy mỏng.</li>
 <li><strong>Ít hương "cao".</strong> Không có dòng khí và dòng chảy, nên các hợp chất dễ bay hơi ít bị khuấy động vào ly. Ly cà tròn hơn, nặng hơn, nhưng ít "sáng".</li>
@@ -34,7 +34,7 @@ window.BOOK_PARTS.push({
 
 <p><strong>Đặc điểm:</strong></p>
 <ul>
-<li><strong>Có thể chiết rất sâu.</strong> Vì nước luôn mới, gradient nồng độ luôn được duy trì, nên quá trình chiết không tự dừng. Đây là lý do pour-over có thể đạt mức chiết cao hơn immersion cùng thời gian.</li>
+<li><strong>Có thể chiết rất sâu.</strong> Vì nước luôn mới, gradient nồng độ luôn được duy trì, nên quá trình chiết không tự dừng. Đây là lý do pour-over có thể đạt mức chiết cao hơn immersion cùng thời gian <span class="tier tier-a">Bằng chứng</span> [31].</li>
 <li><strong>Có thể cho hương "cao" hơn.</strong> Dòng chảy và hơi nước khuấy động các hợp chất bay hơi, đưa chúng vào ly. Đây là lý do pour-over thường có hương hoa và trái cây rõ hơn.</li>
 <li><strong>Có thể không đều.</strong> Nước chọn đường ít trở lực nhất. Nếu bã không đồng nhất, bạn có channeling.</li>
 <li><strong>Nhiệt tụt.</strong> Dòng chảy mỏng mất nhiệt nhanh. Ly cà có thể thấp hơn 5–8 °C so với nước bạn rót.</li>
@@ -219,7 +219,7 @@ window.BOOK_PARTS.push({
 
 <div class="callout act">
 <p class="callout-title">Quy tắc thực dụng</p>
-<p>Giữ vòi ấm cách mặt bã <strong>3–5 cm</strong> trong suốt quá trình rót. Khi mực nước dâng lên, nâng ấm theo. Đây là một thay đổi nhỏ, miễn phí, và nó sửa được nhiều vấn đề hơn bất kỳ công thức nào.</p>
+<p>Giữ vòi ấm cách mặt bã <strong>3–5 cm</strong> trong suốt quá trình rót. Khi mực nước dâng lên, nâng ấm theo. Đây là một thay đổi nhỏ, miễn phí, và nó sửa được nhiều vấn đề hơn bất kỳ công thức nào. Con số 3–5 cm không có thử nghiệm nào chống đỡ; nó là chỗ cắt theo kinh nghiệm giữa hai cơ chế đã biết — rót cao thì xáo trộn mạnh hơn, rót thấp thì xáo trộn yếu hơn <span class="tier tier-b">Hợp lý</span>.</p>
 </div>
 
 <h3>Biến số 2: tốc độ</h3>
@@ -527,6 +527,8 @@ window.BOOK_PARTS.push({
     body: `
 <p>Sau khi pha xong, trước khi bạn rửa phễu, hãy nhìn vào bã. Nó là một bản ghi vật lý của những gì đã xảy ra — và nó không bị ảnh hưởng bởi kỳ vọng, mệt mỏi, hay những gì bạn đã đọc trên bao bì.</p>
 
+<p>Cả chương này là chẩn đoán hành nghề. Không có nghiên cứu nào nối từng hình dạng bã với từng lỗi pha; các hàng dưới đây suy ra từ cơ chế dòng chảy và từ việc nhìn nhiều phễu <span class="tier tier-b">Hợp lý</span>. Hãy dùng chúng để đặt giả thuyết, rồi để ly cà quyết định.</p>
+
 <h3>Bốn thứ cần nhìn</h3>
 
 <h4>1. Hình dạng bề mặt</h4>
@@ -621,6 +623,8 @@ window.BOOK_PARTS.push({
     tags: ["chẩn đoán", "tham khảo"],
     body: `
 <p>Chương này là phần tra cứu. Không cần đọc liền mạch — hãy quay lại khi bạn có một ly cà không ổn và không biết bắt đầu từ đâu.</p>
+
+<p>Bảng dưới đây suy ra từ hai cơ chế đã có nghiên cứu — chiết không đều và channeling — chứ không phải từ một thử nghiệm nào ghép triệu chứng với cách sửa <span class="tier tier-b">Hợp lý</span>.</p>
 
 <h3>Nguyên tắc: một thay đổi mỗi lần</h3>
 

@@ -28,7 +28,7 @@ window.BOOK_PARTS.push({
 
 <ul>
 <li><strong>Không có dòng chảy.</strong> Bã ngâm hoàn toàn trong nước. Không có percolation, không có channeling, không có bã khô cục bộ.</li>
-<li><strong>Tỉ lệ cố định.</strong> 8,25 g cà với 150 ml nước — tức 5,5 g/100 ml, tương đương khoảng 1:18. Mọi người dùng cùng một tỉ lệ.</li>
+<li><strong>Tỉ lệ cố định.</strong> 8,25 g cà với 150 ml nước — tức 5,5 g/100 ml, tương đương khoảng 1:18. Mọi người dùng cùng một tỉ lệ <span class="tier tier-a">Bằng chứng</span> [12].</li>
 <li><strong>Nhiệt độ cố định.</strong> Nước ở 93 °C khi rót, và khối nước lớn giữ nhiệt ổn định hơn nhiều so với một phễu nhỏ.</li>
 <li><strong>Không khuấy trong lúc chiết.</strong> Bã chỉ được khuấy một lần, ở phút thứ 4, để phá lớp bã nổi.</li>
 <li><strong>Ly giống nhau.</strong> Cốc thuỷ tinh cùng loại, cùng kích thước.</li>
@@ -44,7 +44,7 @@ window.BOOK_PARTS.push({
 
 <h3>Cupping đo những gì</h3>
 
-<p>Thang điểm dưới đây là bộ <strong>Cupping Protocol and Form 2004</strong> của SCA — bộ đã định hình cách cả ngành nếm trong gần hai mươi năm. Nó chia đánh giá thành mười mục: sáu mục đầu là chất lượng cảm quan, bốn mục sau là kiểm tra lỗi. Từ 2024, SCA chuyển sang <strong>Coffee Value Assessment</strong> và không còn dùng một điểm tổng duy nhất; mười mục này vẫn là thứ bạn cần biết, vì mọi bảng điểm cũ và mọi lời quảng cáo “85 điểm” đều dựa trên nó:</p>
+<p>Thang điểm dưới đây là bộ <strong>Cupping Protocol and Form 2004</strong> của SCA — bộ đã định hình cách cả ngành nếm trong gần hai mươi năm. Nó chia đánh giá thành mười mục: sáu mục đầu là chất lượng cảm quan, bốn mục sau là kiểm tra lỗi. Từ 2024, SCA chuyển sang <strong>Coffee Value Assessment</strong> và không còn dùng một điểm tổng duy nhất <span class="tier tier-a">Bằng chứng</span> [13]; mười mục này vẫn là thứ bạn cần biết, vì mọi bảng điểm cũ và mọi lời quảng cáo “85 điểm” đều dựa trên nó:</p>
 
 <div class="table-wrap">
 <table>
@@ -213,7 +213,7 @@ window.BOOK_PARTS.push({
 
 <div class="callout bad">
 <p class="callout-title">Một hiểu nhầm cần sửa ngay</p>
-<p>Bã khô <em>không</em> phải "trần hương của con cà" theo nghĩa những gì bạn ngửi được ở đó sẽ có trong ly. Nhóm hợp chất tạo mùi khô là nhóm dễ bay hơi nhất — chúng là thứ thoát ra không khí trước tiên. Khi nước nóng chạm vào bã, phần lớn trong số chúng bay lên hoặc đi vào không khí phòng, và rất ít còn lại trong ly.</p>
+<p>Bã khô <em>không</em> phải "trần hương của con cà" theo nghĩa những gì bạn ngửi được ở đó sẽ có trong ly. Nhóm hợp chất tạo mùi khô là nhóm dễ bay hơi nhất — chúng là thứ thoát ra không khí trước tiên <span class="tier tier-a">Bằng chứng</span> [20]. Khi nước nóng chạm vào bã, phần lớn trong số chúng bay lên hoặc đi vào không khí phòng, và rất ít còn lại trong ly.</p>
 <p>Quy tắc đúng: <strong>nếu bã khô không có gì, trong ly chắc chắn không có. Nhưng nếu bã khô có nhiều, trong ly có thể vẫn không có.</strong></p>
 </div>
 
@@ -346,7 +346,7 @@ Lạ:   _______________<br>
 </table>
 </div>
 
-<p>Cupping là <strong>ngâm hoàn toàn, không dòng chảy</strong>. Điều đó có nghĩa là nó loại bỏ đúng cái khó nhất của pour-over. Nó không phải một phiên bản dễ hơn của pour-over — nó là một phương pháp khác, với một cơ chế khác.</p>
+<p>Cupping là <strong>ngâm hoàn toàn, không dòng chảy</strong>. Điều đó có nghĩa là nó loại bỏ đúng cái khó nhất của pour-over <span class="tier tier-a">Bằng chứng</span> [10] [11] [31]. Nó không phải một phiên bản dễ hơn của pour-over — nó là một phương pháp khác, với một cơ chế khác.</p>
 
 <p>Vì vậy: <strong>cupping không có chế độ thất bại. Pour-over có đúng một.</strong> Và đó là chỗ khác biệt nằm.</p>
 

@@ -516,6 +516,10 @@ Bốn chỗ không xác minh được, ghi lại để lần sau không phải t
 Thêm 14 nguồn mới, **[41]–[54]**, đưa tổng số lên **54**. Hai nguồn trong đó ([43], [51])
 chỉ đọc được một phần — chi tiết nằm ngay trong mục của chúng.
 
+Lớp sau (14/11/2026) thêm **[55]–[57]**, đưa tổng số lên **57**: hai nguồn cho chương 8
+(nếm theo phân đoạn thời gian, động học ở thang giây) và một cho chương 9 (mức chiết theo
+nhiệt độ). Cả ba đã đối chiếu Crossref.
+
 ---
 
 ## Chỗ cần sửa — đã sửa ngày 28/10/2026

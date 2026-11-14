@@ -92,12 +92,12 @@ window.BOOK_TEXT = {
 <p>A green coffee bean is a dense block of cellulose, holding 10–12% water and hundreds of flavourless precursor compounds. During roasting, three processes run almost at once:</p>
 
 <ul>
-<li><strong>Water loss and expansion.</strong> The bean loses roughly 12–18% of its mass, mostly water, and its volume grows by 50–100%. The cellulose structure becomes porous and full of voids. This is why dark-roasted beans float.</li>
+<li><strong>Water loss and expansion.</strong> The bean loses roughly 12–18% of its mass, mostly water, and its volume grows by 50–100% <span class="tier tier-a">Evidence</span>. The cellulose structure becomes porous and full of voids. This is why dark-roasted beans float.</li>
 <li><strong>The Maillard reaction.</strong> Amino acids and reducing sugars combine into hundreds of aroma compounds: caramel, bread, hazelnut, chocolate. This is the roasted base you smell in every coffee.</li>
 <li><strong>Caramelisation and acid breakdown.</strong> At higher temperatures sugars caramelise (creating the characteristic bittersweet taste) and organic acids begin to break down. Chlorogenic acid — the compound behind sourness and astringency — is partly degraded and converted into lactones, which taste more bitter.</li>
 </ul>
 
-<p>Two audible events mark the stages: <strong>first crack</strong> (around 196–205 °C), when steam and CO₂ trapped inside split the bean, and <strong>second crack</strong> (around 224–230 °C), when the cellulose structure starts to fracture. Light roasts stop before or just after first crack. Medium roasts stop between the two. Dark roasts go into or through second crack.</p>
+<p>Two audible events mark the stages: <strong>first crack</strong> (around 196–205 °C), when steam and CO₂ trapped inside split the bean, and <strong>second crack</strong> (around 224–230 °C), when the cellulose structure starts to fracture <span class="tier tier-a">Evidence</span>. Light roasts stop before or just after first crack. Medium roasts stop between the two. Dark roasts go into or through second crack.</p>
 
 <div class="table-wrap">
 <table>
@@ -128,7 +128,7 @@ window.BOOK_TEXT = {
 
 <p>This is one of the most confusing points, and few people say it out loud: <strong>there is no shared definition of "medium roast".</strong> Every roaster has their own scale. One roaster's "medium" can be lighter than another's "light".</p>
 
-<p>Objective scales exist — Agtron, which measures colour spectroscopically, or the older SCAA Light/Medium/Dark scale — but they are rarely printed on retail bags. And even Agtron has two variants (whole bean and ground) that give different numbers.</p>
+<p>Objective scales exist — Agtron, which measures colour spectroscopically, or the older SCAA Light/Medium/Dark scale — but they are rarely printed on retail bags. And even Agtron has two variants (whole bean and ground) that give different numbers <span class="tier tier-a">Evidence</span> [12] [13] [14].</p>
 
 <p>The practical consequence: <strong>do not use the word "medium" to choose parameters. Use your eyes and use the cup.</strong></p>
 
@@ -254,7 +254,7 @@ window.BOOK_TEXT = {
 
 <h3>Keep the proportions right</h3>
 
-<p>Freshness matters. But if you have to choose between optimising freshness and fixing your water, fix the water first. A twenty-day-old bag brewed with the right water will taste better than a five-day-old bag brewed with water at 250 ppm alkalinity. That is not an opinion — it follows from alkalinity directly neutralising the acids that produce fruit, while oxidation at twenty days only slightly reduces aroma intensity.</p>
+<p>Freshness matters. But if you have to choose between optimising freshness and fixing your water, fix the water first. A twenty-day-old bag brewed with the right water will taste better than a five-day-old bag brewed with water at 250 ppm alkalinity. No experiment has put those two bags side by side, so this is inferred from mechanism rather than measured: alkalinity directly neutralises the acids that produce fruit, while oxidation at twenty days only slightly reduces aroma intensity <span class="tier tier-b">Plausible</span>.</p>
 
 <p>Put another way: <strong>when you can only fix one thing, the order is water → grind → freshness → everything else.</strong></p>
 `
@@ -323,7 +323,7 @@ HCO₃⁻ + H⁺ → H₂CO₃ → CO₂ + H₂O
 
 <p><strong>* Those three rows do not come from one page.</strong> The 2018 SCA Water Quality Handbook gives 40–75 ppm alkalinity and 51–175 ppm hardness — but the 75 ppm upper bound <em>applies only when hardness sits between 150 and 175 ppm</em>; outside that, the upper bound is 40 ppm. The pH range of 6–8, target 7.0, comes from the 2018 SCA coffee standards table, not the handbook — the handbook only advises measuring pH for waters of very high alkalinity or very low hardness. “pH 6.5–7.5” is widely quoted for SCA, but I could not find a 2018 SCA document stating it, so this edition replaced it.</p>
 
-<p>40 ppm is the midpoint. At 20 ppm the acidity is very bright, sometimes sharp or thin. At 75 ppm the cup is balanced but the fruit is starting to blur. Above 100 ppm most light-roasted coffee loses its character. Above 200 ppm you are mostly tasting the roast.</p>
+<p>40 ppm is the midpoint. At 20 ppm the acidity is very bright, sometimes sharp or thin. At 75 ppm the cup is balanced but the fruit is starting to blur. Above 100 ppm most light-roasted coffee loses its character. Above 200 ppm you are mostly tasting the roast. The direction of the effect has research behind it; the individual ppm marks above are cut points from tasting experience, not measured thresholds <span class="tier tier-b">Plausible</span>.</p>
 
 <div class="pull">Water is not the background.<br>Water is <em>part of the recipe</em>.</div>
 
@@ -374,7 +374,7 @@ Alkalinity = HCO₃⁻ × <b>50/61</b> ≈ HCO₃⁻ × <b>0.82</b><br>
 
 <h3>What a TDS pen measures</h3>
 
-<p>A TDS (Total Dissolved Solids) pen does not actually count dissolved solids. It measures the water's <strong>electrical conductivity</strong> and multiplies by a factor to display a number in mg/L. Conductivity depends on total ions — calcium, magnesium, sodium, chloride, sulfate, bicarbonate, all of it added together.</p>
+<p>A TDS (Total Dissolved Solids) pen does not actually count dissolved solids. It measures the water's <strong>electrical conductivity</strong> and multiplies by a factor to display a number in mg/L <span class="tier tier-a">Evidence</span>. Conductivity depends on total ions — calcium, magnesium, sodium, chloride, sulfate, bicarbonate, all of it added together.</p>
 
 <p>Which means two samples can both read 100 ppm TDS and have completely different alkalinity.</p>
 
@@ -423,7 +423,7 @@ Alkalinity (ppm as CaCO₃) = HCO₃⁻ (mg/L) × 50/61<br>
 <ul>
 <li>Sold in aquarium shops, roughly 150,000–300,000 VND, good for hundreds of tests.</li>
 <li>The unit is usually <strong>dKH</strong> (German carbonate hardness).</li>
-<li>Conversion: <strong>1 dKH = 17.86 ppm as CaCO₃</strong>.</li>
+<li>Conversion: <strong>1 dKH = 17.86 ppm as CaCO₃</strong> <span class="tier tier-a">Evidence</span>.</li>
 </ul>
 
 <div class="table-wrap">
@@ -561,7 +561,7 @@ Example: target 50 ppm, mineral water 250 ppm<br>
 
 <h4>4 — Boiling (it works, but you cannot control it)</h4>
 
-<p>Boiling genuinely reduces alkalinity, because calcium bicarbonate decomposes:</p>
+<p>Boiling genuinely reduces alkalinity, because calcium bicarbonate decomposes <span class="tier tier-a">Evidence</span>:</p>
 
 <div class="formula">
 <span class="fx-label">Reaction on boiling</span>
@@ -632,7 +632,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
       body: `
 <p>Start with a question that looks simple: when you brew coffee, what actually travels from the bed into the cup?</p>
 
-<p>The precise answer: <strong>roughly 18–22% of the dry coffee's mass</strong>. The rest — cellulose, some protein, insoluble minerals, compounds that never dissolved — stays in the bed and gets thrown away. Even a "strong" cup only takes about a fifth of what the bean contains.</p>
+<p>The precise answer: <strong>roughly 18–22% of the dry coffee's mass</strong> <span class="tier tier-a">Evidence</span> [5]. The rest — cellulose, some protein, insoluble minerals, compounds that never dissolved — stays in the bed and gets thrown away. Even a "strong" cup only takes about a fifth of what the bean contains.</p>
 
 <p>That number, and everything it implies, is the foundation of every technique in this book.</p>
 
@@ -656,7 +656,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 
 <h4>TDS (Total Dissolved Solids)</h4>
 
-<p>The concentration of dissolved material in the cup, as a percentage. For pour over, 1.15–1.35% is the Golden Cup band. Espresso is 8–12%.</p>
+<p>The concentration of dissolved material in the cup, as a percentage. For pour over, 1.15–1.35% is the Golden Cup band <span class="tier tier-a">Evidence</span> [5]. Espresso is 8–12%.</p>
 
 <div class="callout warn">
 <p class="callout-title">EY and TDS are two different things</p>
@@ -1090,7 +1090,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 
 <ul>
 <li><strong>No flow.</strong> The grounds sit fully immersed. No percolation, no channelling, no local dry patches.</li>
-<li><strong>Fixed ratio.</strong> 8.25 g of coffee to 150 ml of water — 5.5 g per 100 ml, about 1:18. Everyone uses the same ratio.</li>
+<li><strong>Fixed ratio.</strong> 8.25 g of coffee to 150 ml of water — 5.5 g per 100 ml, about 1:18. Everyone uses the same ratio <span class="tier tier-a">Evidence</span> [12].</li>
 <li><strong>Fixed temperature.</strong> Water at 93 °C, and a large body of water holds heat far more steadily than a small dripper.</li>
 <li><strong>No stirring during extraction.</strong> The crust is broken once, at four minutes, and that is all.</li>
 <li><strong>Identical cups.</strong> Same glass, same size.</li>
@@ -1106,7 +1106,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 
 <h3>What cupping measures</h3>
 
-<p>The scale below is the SCA's <strong>2004 Cupping Protocol and Form</strong> — the set that shaped how the whole industry tasted for almost twenty years. It splits the assessment into ten items: the first six are sensory quality; the last four are fault checks. Since 2024 the SCA has moved to the <strong>Coffee Value Assessment</strong>, which no longer uses a single total score; these ten items are still what you need to know, because every older score sheet and every "85 points" claim rests on them:</p>
+<p>The scale below is the SCA's <strong>2004 Cupping Protocol and Form</strong> — the set that shaped how the whole industry tasted for almost twenty years. It splits the assessment into ten items: the first six are sensory quality; the last four are fault checks. Since 2024 the SCA has moved to the <strong>Coffee Value Assessment</strong>, which no longer uses a single total score <span class="tier tier-a">Evidence</span> [13]; these ten items are still what you need to know, because every older score sheet and every "85 points" claim rests on them:</p>
 
 <div class="table-wrap">
 <table>
@@ -1273,7 +1273,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 
 <div class="callout bad">
 <p class="callout-title">One misunderstanding to fix right away</p>
-<p>Dry grounds are <em>not</em> the "aroma ceiling of the coffee" in the sense that what you smell there will end up in the cup. The compounds behind the dry smell are the most volatile of the lot — they are what escapes into the air first. When hot water hits the grounds, most of them rise or go into the room, and very little stays in the cup.</p>
+<p>Dry grounds are <em>not</em> the "aroma ceiling of the coffee" in the sense that what you smell there will end up in the cup. The compounds behind the dry smell are the most volatile of the lot — they are what escapes into the air first <span class="tier tier-a">Evidence</span> [20]. When hot water hits the grounds, most of them rise or go into the room, and very little stays in the cup.</p>
 <p>The correct rule: <strong>if the dry grounds have nothing, the cup certainly has nothing. But if the dry grounds are rich, the cup may still have nothing.</strong></p>
 </div>
 
@@ -1405,7 +1405,7 @@ Odd:   _______________
 </table>
 </div>
 
-<p>Cupping is <strong>full immersion with no flow</strong>. That means it removes exactly the hardest part of pour over. It is not an easier version of pour over — it is a different method with a different mechanism.</p>
+<p>Cupping is <strong>full immersion with no flow</strong> <span class="tier tier-a">Evidence</span> [10] [11] [31]. That means it removes exactly the hardest part of pour over. It is not an easier version of pour over — it is a different method with a different mechanism.</p>
 
 <p>So: <strong>cupping has no failure mode. Pour over has exactly one.</strong> That is where the difference lives.</p>
 
@@ -1486,7 +1486,7 @@ Odd:   _______________
 
 <p><strong>Characteristics:</strong></p>
 <ul>
-<li><strong>Naturally even extraction.</strong> Every particle meets the same liquid, at the same concentration, at the same temperature. Channelling is impossible.</li>
+<li><strong>Naturally even extraction.</strong> Every particle meets the same liquid, at the same concentration, at the same temperature. Channelling is impossible <span class="tier tier-a">Evidence</span> [10] [11].</li>
 <li><strong>Self-limiting.</strong> Once the surrounding water is saturated, extraction slows down. That is a built-in safety mechanism — hard to over-extract.</li>
 <li><strong>Stable temperature.</strong> A large body of water holds heat far better than a thin stream.</li>
 <li><strong>Fewer high notes.</strong> With no airflow and no flow, volatile compounds are less disturbed into the cup. The cup is rounder, heavier, but less bright.</li>
@@ -1498,7 +1498,7 @@ Odd:   _______________
 
 <p><strong>Characteristics:</strong></p>
 <ul>
-<li><strong>Can extract very deeply.</strong> Because the water is always fresh, the concentration gradient is maintained, so extraction does not stop itself. That is why pour over can reach a higher extraction than immersion in the same time.</li>
+<li><strong>Can extract very deeply.</strong> Because the water is always fresh, the concentration gradient is maintained, so extraction does not stop itself. That is why pour over can reach a higher extraction than immersion in the same time <span class="tier tier-a">Evidence</span> [31].</li>
 <li><strong>Can give more high notes.</strong> Flow and steam stir volatile compounds into the cup. That is why pour over usually shows flowers and fruit more clearly.</li>
 <li><strong>Can be uneven.</strong> Water takes the path of least resistance. If the bed is not uniform, you get channelling.</li>
 <li><strong>Temperature falls.</strong> A thin stream loses heat fast. The cup can be 5–8 °C below the water you poured.</li>
@@ -1681,7 +1681,7 @@ Odd:   _______________
 
 <div class="callout act">
 <p class="callout-title">A practical rule</p>
-<p>Keep the spout <strong>3–5 cm</strong> above the bed throughout the pour. As the water level rises, lift the kettle with it. This is a small, free change, and it fixes more problems than any recipe.</p>
+<p>Keep the spout <strong>3–5 cm</strong> above the bed throughout the pour. As the water level rises, lift the kettle with it. This is a small, free change, and it fixes more problems than any recipe. The 3–5 cm figure has no study behind it; it is a cut point from experience between two known mechanisms — pour higher and you agitate more, pour lower and you agitate less <span class="tier tier-b">Plausible</span>.</p>
 </div>
 
 <h3>Variable 2: speed</h3>
@@ -1988,6 +1988,8 @@ Odd:   _______________
       body: `
 <p>After the brew, before you wash the dripper, look at the bed. It is a physical record of what happened — and it is unaffected by expectation, tiredness, or whatever you read on the bag.</p>
 
+<p>This whole chapter is practitioner diagnosis. No study maps each bed shape to each brewing fault; the rows below are inferred from flow mechanics and from looking at a lot of drippers <span class="tier tier-b">Plausible</span>. Use them to form a hypothesis, then let the cup decide.</p>
+
 <h3>Four things to look at</h3>
 
 <h4>1. Surface shape</h4>
@@ -2081,6 +2083,8 @@ Odd:   _______________
       tags: ["diagnosis", "reference"],
       body: `
 <p>This chapter is a reference. Do not read it straight through — come back to it when you have a cup that is not right and you do not know where to start.</p>
+
+<p>The table below is inferred from two mechanisms that do have research behind them — uneven extraction and channeling — not from any trial pairing symptoms with fixes <span class="tier tier-b">Plausible</span>.</p>
 
 <h3>The rule: one change at a time</h3>
 
@@ -2557,7 +2561,7 @@ Likely problem:  ____________________
 
 <p>When you eat or drink, there is a second route: <strong>retronasal olfaction</strong>. Volatile compounds from food in the mouth travel up the back of the throat and into the nose from behind. The brain does not distinguish between the two routes — it attributes both to "taste".</p>
 
-<p>And here is the important part: <strong>when you drink, most of what you call "flavour" is actually smell, travelling by the retronasal route.</strong> The tongue detects only five basic tastes: sweet, sour, salty, bitter, umami. Everything more complex — caramel, apricot, tea, flowers — is olfaction.</p>
+<p>And here is the important part: <strong>when you drink, most of what you call "flavour" is actually smell, travelling by the retronasal route.</strong> The tongue detects only five basic tastes: sweet, sour, salty, bitter, umami. Everything more complex — caramel, apricot, tea, flowers — is olfaction <span class="tier tier-a">Evidence</span>.</p>
 
 <div class="callout ok">
 <p class="callout-title">An experiment you can run on yourself</p>
@@ -2694,7 +2698,7 @@ Likely problem:  ____________________
 
 <p>The SCA flavour wheel has hundreds of entries. Beginners often use it as a checklist: "how many of these can I taste?"</p>
 
-<p>That is the wrong use. The flavour wheel was designed for <strong>communication</strong> — so two people can discuss a cup without being in the same room. It was not designed for tasting.</p>
+<p>That is the wrong use. The flavour wheel was designed for <strong>communication</strong> — so two people can discuss a cup without being in the same room. It was not designed for tasting <span class="tier tier-a">Evidence</span> [14].</p>
 
 <div class="callout ok">
 <p class="callout-title">The right way round</p>
@@ -3183,7 +3187,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p>The rule is simple: only sentences an outside document can check need a source. Statements about experience, method and advice do not — and none of them should be given a source that merely sounds scientific. Peer-reviewed work with a DOI comes first; where none exists, the industry standard or the primary source from the person who proposed the method.</p>
 
-<p>Fifty-four sources are grouped by subject in A2 and by chapter in A3. Of the 30 chapters, ten rest directly on documents, six rest on them halfway, twelve are method and need no outside source, and two — 17 and 20 — have no source at all for their central claim.</p>
+<p>Fifty-seven sources are grouped by subject in A2 and by chapter in A3. Of the 30 chapters, ten rest directly on documents, six rest on them halfway, twelve are method and need no outside source. Two — 17 and 20 — still have no source at all for their central claim; both now say so in the chapter itself and carry the Plausible label.</p>
 
 <div class="callout">
 <p class="callout-title">A source is not evidence</p>
@@ -3194,7 +3198,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
     "ch-nguon-danh-muc": {
       title: "Bibliography",
-      lede: "Fifty-four sources, grouped by subject. Each entry carries a DOI or a link that was opened and read, plus one line on what that source contributes.",
+      lede: "Fifty-seven sources, grouped by subject. Each entry carries a DOI or a link that was opened and read, plus one line on what that source contributes.",
       minutes: 12,
       tags: ["appendix", "sources"],
       body: `

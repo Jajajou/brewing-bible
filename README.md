@@ -12,7 +12,7 @@ Phần lớn lời khuyên pha cà phê specialty là giả thuyết thủ công
 - **Hợp lý** — cơ chế đúng, nhưng chưa có nghiên cứu kiểm soát
 - **Truyền miệng** — được lặp lại nhiều nhưng không ai kiểm chứng
 
-Mỗi khẳng định trong sách đều được dán nhãn theo ba mức này.
+Mọi khẳng định quan trọng trong sách — nghĩa là mọi câu có thể kiểm chứng bằng tài liệu bên ngoài — đều được dán nhãn theo ba mức này. Câu về quy trình, kinh nghiệm và lời khuyên thì không dán nhãn, vì gán một nhãn bằng chứng cho chúng sẽ là nói quá.
 
 ## Mục lục
 

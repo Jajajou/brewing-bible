@@ -22,7 +22,7 @@ window.BOOK_PARTS.push({
 
 <p>Khi bạn ăn hoặc uống, có một con đường thứ hai: <strong>retronasal olfaction</strong>. Các hợp chất bay hơi từ thức ăn trong miệng đi ngược lên vòm họng, vào mũi từ phía sau. Não không phân biệt được hai con đường này — nó gán cả hai cho "vị".</p>
 
-<p>Và đây là điểm quan trọng: <strong>khi bạn uống, phần lớn những gì bạn gọi là "vị" thật ra là mùi, đi qua đường retronasal.</strong> Lưỡi chỉ nhận được năm vị cơ bản: ngọt, chua, mặn, đắng, umami. Mọi thứ phức tạp hơn — caramel, mơ, trà, hoa — đều là khứu giác.</p>
+<p>Và đây là điểm quan trọng: <strong>khi bạn uống, phần lớn những gì bạn gọi là "vị" thật ra là mùi, đi qua đường retronasal.</strong> Lưỡi chỉ nhận được năm vị cơ bản: ngọt, chua, mặn, đắng, umami. Mọi thứ phức tạp hơn — caramel, mơ, trà, hoa — đều là khứu giác <span class="tier tier-a">Bằng chứng</span>.</p>
 
 <div class="callout ok">
 <p class="callout-title">Một thí nghiệm tự kiểm chứng</p>
@@ -160,7 +160,7 @@ window.BOOK_PARTS.push({
 
 <p>Bảng hương vị (flavor wheel) của SCA có hàng trăm mục. Người mới thường dùng nó như một danh sách kiểm tra: "tôi có nếm được bao nhiêu mục?"</p>
 
-<p>Đó là cách dùng sai. Bảng hương vị được thiết kế để <strong>giao tiếp</strong> — để hai người có thể trao đổi về một ly cà mà không cần ở cùng một chỗ. Nó không được thiết kế để nếm.</p>
+<p>Đó là cách dùng sai. Bảng hương vị được thiết kế để <strong>giao tiếp</strong> — để hai người có thể trao đổi về một ly cà mà không cần ở cùng một chỗ. Nó không được thiết kế để nếm <span class="tier tier-a">Bằng chứng</span> [14].</p>
 
 <div class="callout ok">
 <p class="callout-title">Cách dùng đúng</p>
