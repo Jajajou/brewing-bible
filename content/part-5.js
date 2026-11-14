@@ -22,7 +22,7 @@ window.BOOK_PARTS.push({
 
 <p><strong>Đặc điểm:</strong></p>
 <ul>
-<li><strong>Chiết đều tự nhiên.</strong> Mọi hạt bột tiếp xúc cùng một dung dịch, cùng nồng độ, cùng nhiệt độ. Không thể có channeling.</li>
+<li><strong>Chiết đều tự nhiên.</strong> Mọi hạt bột tiếp xúc cùng một dung dịch, cùng nồng độ, cùng nhiệt độ. Không thể có channeling <span class="tier tier-a">Bằng chứng <b class="cite">· 10, 11</b></span>.</li>
 <li><strong>Tự hạn chế.</strong> Khi nước xung quanh đã bão hoà, tốc độ chiết chậm lại. Đây là một cơ chế tự bảo vệ — khó chiết dư.</li>
 <li><strong>Nhiệt ổn định.</strong> Khối nước lớn giữ nhiệt tốt hơn nhiều so với một dòng chảy mỏng.</li>
 <li><strong>Ít hương "cao".</strong> Không có dòng khí và dòng chảy, nên các hợp chất dễ bay hơi ít bị khuấy động vào ly. Ly cà tròn hơn, nặng hơn, nhưng ít "sáng".</li>
@@ -34,7 +34,7 @@ window.BOOK_PARTS.push({
 
 <p><strong>Đặc điểm:</strong></p>
 <ul>
-<li><strong>Có thể chiết rất sâu.</strong> Vì nước luôn mới, gradient nồng độ luôn được duy trì, nên quá trình chiết không tự dừng. Đây là lý do pour-over có thể đạt mức chiết cao hơn immersion cùng thời gian.</li>
+<li><strong>Có thể chiết rất sâu.</strong> Vì nước luôn mới, gradient nồng độ luôn được duy trì, nên quá trình chiết không tự dừng. Đây là lý do pour-over có thể đạt mức chiết cao hơn immersion cùng thời gian <span class="tier tier-a">Bằng chứng <b class="cite">· 31</b></span>.</li>
 <li><strong>Có thể cho hương "cao" hơn.</strong> Dòng chảy và hơi nước khuấy động các hợp chất bay hơi, đưa chúng vào ly. Đây là lý do pour-over thường có hương hoa và trái cây rõ hơn.</li>
 <li><strong>Có thể không đều.</strong> Nước chọn đường ít trở lực nhất. Nếu bã không đồng nhất, bạn có channeling.</li>
 <li><strong>Nhiệt tụt.</strong> Dòng chảy mỏng mất nhiệt nhanh. Ly cà có thể thấp hơn 5–8 °C so với nước bạn rót.</li>
@@ -51,6 +51,42 @@ window.BOOK_PARTS.push({
 <tr><td>Hợp với</td><td>Rang sáng, cà khó chiết, người mới</td><td>Rang sáng–trung, cà chất lượng cao, người muốn kiểm soát</td></tr>
 </tbody>
 </table>
+</div>
+
+<h3>Thời gian không phải một núm vặn</h3>
+
+<p>Khi nói "pha hai phút rưỡi", bạn đang mô tả <em>kết quả</em>, không phải một thứ bạn đặt. Thời gian là cái rơi ra từ cỡ xay, cách rót, loại giấy và hình dạng phễu. Không có núm nào ghi "thời gian" trên đó.</p>
+
+<p>Và trong khoảng thời gian ấy, bốn quá trình chạy chồng lên nhau, mỗi cái có thang thời gian riêng:</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Quá trình</th><th>Thang thời gian</th><th>Nguồn của con số</th></tr></thead>
+<tbody>
+<tr><td>Làm ướt bã và thoát CO₂</td><td>Vài chục giây đầu</td><td>Lý do có bước bloom</td></tr>
+<tr><td>Rửa trôi bề mặt hạt</td><td><strong>Vài giây</strong></td><td>Đo được [56]</td></tr>
+<tr><td>Khuếch tán chậm từ trong hạt</td><td><strong>20–150 giây</strong></td><td>Đo được [56]</td></tr>
+<tr><td>Chất từ lõi hạt lớn</td><td>Vài phút, có khi không bao giờ xong</td><td>Suy từ vật lý khuếch tán</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Hai hàng giữa là số đo thật, nhưng đo trong bình khuấy kín — gần với ngâm hơn là với pour over <span class="tier tier-a">Bằng chứng <b class="cite">· 56</b></span>. Hai hàng ngoài là suy luận.</p>
+
+<p>Đọc bảng này theo chiều ngang thì thấy vì sao "kéo dài thời gian" là lời khuyên thô. Thêm ba mươi giây không tác động đều lên bốn hàng: hai hàng trên đã xong từ lâu, hàng thứ ba đang ở giữa, hàng cuối gần như không nhúc nhích. Bạn chỉ đang đẩy sâu thêm một quá trình.</p>
+
+<h3>Vì sao chảy xuyên qua chiết nhanh hơn ngâm</h3>
+
+<p>Chương này đã nói percolation chiết sâu hơn immersion cùng thời gian. Cơ chế là <strong>chênh lệch nồng độ</strong>.</p>
+
+<p>Chất tan đi từ chỗ đậm (trong hạt) ra chỗ loãng (nước quanh hạt), và tốc độ phụ thuộc vào khoảng chênh giữa hai bên. Trong ngâm, nước quanh bã đậm dần lên theo thời gian, khoảng chênh hẹp lại, và quá trình tự chậm. Trong percolation, nước mới liên tục thay chỗ nước đã đậm, nên khoảng chênh được giữ rộng suốt mẻ pha.</p>
+
+<p>Đó là lý do ngâm "tự bảo vệ" còn pour over thì không: một chiếc French press để quên mười phút vẫn uống được, một mẻ V60 nghẹt mười phút thì không.</p>
+
+<div class="callout act">
+<p class="callout-title">Dùng thời gian rút làm chỉ báo, không làm mục tiêu</p>
+<p>Vì thời gian là kết quả, nó là <em>dấu hiệu</em> tốt chứ không phải thứ nên nhắm. Thời gian rút dài bất thường nói rằng bã đang cản nước nhiều hơn mọi khi — có thể do xay mịn hơn, nhiều bột mịn hơn, giấy bị bít, hoặc bã bị nén. Chương 21 có bảng đọc con số đó.</p>
+<p>Chỉnh thời gian bằng cách chỉnh nguyên nhân. Đừng rót chậm lại chỉ để đồng hồ chạm con số bạn muốn.</p>
 </div>
 
 <h3>Vì sao điều này quan trọng với một chiếc Switch</h3>
@@ -134,6 +170,50 @@ window.BOOK_PARTS.push({
 </tbody>
 </table>
 </div>
+
+<h3>Phẳng hay nón: có đo được không</h3>
+
+<p>Có. Và kết quả đáng chú ý vì nó đi kèm một so sánh khác.</p>
+
+<p>UC Davis cho 45 người thử phân biệt, cùng một con cà, pha bằng máy nhỏ giọt. Hai kết quả cạnh nhau <span class="tier tier-a">Bằng chứng <b class="cite">· 38</b></span>:</p>
+
+<ul>
+<li>Hai cỡ xay chênh nhau khá nhiều: <strong>người thử không phân biệt được</strong>.</li>
+<li>Giỏ nón so với giỏ đáy phẳng: <strong>phân biệt được rõ ràng</strong>.</li>
+</ul>
+
+<p>Giỏ nón cũng cho TDS cao hơn có ý nghĩa thống kê. Trong phần phân tích mô tả, hình học giỏ một mình chỉ đổi ba thuộc tính (hương khói, vị ngọt, vị thuốc lá) — nhưng <strong>tương tác giữa hình học và mức rang</strong> đổi tới sáu thuộc tính: vị quả mọng, đắng, gỗ cháy, cam chanh, vị đất và chua.</p>
+
+<p>Nghĩa là câu "phễu nào cho vị gì" không có câu trả lời chung: nó phụ thuộc mức rang. Và những thuộc tính đổi theo hình học lại đúng là những thuộc tính quyết định người uống thích hay không.</p>
+
+<div class="callout warn">
+<p class="callout-title">Đọc kết quả này cho đúng</p>
+<p>Thí nghiệm dùng <strong>máy pha nhỏ giọt</strong>, không phải pha tay. Ở máy, cách nước rơi xuống bã là cố định; ở pha tay, tay bạn là một biến lớn hơn hình dạng phễu. Kết quả này nói hình học <em>có</em> tác động nếm được, không nói nó lớn hơn kỹ thuật của bạn.</p>
+</div>
+
+<h3>Độ sâu lớp bã</h3>
+
+<p>Cùng một liều cà cho độ sâu bã khác nhau tuỳ đường kính phễu — và độ sâu đó tự nó là một biến.</p>
+
+<p>Lập luận: kênh nước hình thành ở mọi lớp bã. Trong lớp bã sâu, nhiều kênh <em>chết giữa đường</em>, nước lại tản vào bã. Trong lớp bã nông, nhiều kênh đi thẳng tới đáy, và kênh tới được đáy thì mang theo các hợp chất phân tử lớn gây vị chát ra ly <span class="tier tier-b">Hợp lý <b class="cite">· 53, 54</b></span>.</p>
+
+<p>Hệ quả: nếu ly của bạn chát mà cỡ xay và nước đều ổn, hãy nhìn vào liều so với đường kính phễu. Mười lăm gam trên một chiếc phễu lớn là một lớp bã nông.</p>
+
+<h3>Phễu không bypass</h3>
+
+<p>Trong V60, một phần nước đi men theo thành giấy mà không qua hết bã — đó là <strong>bypass</strong>. Kết quả: đáy lớp bã nhận ít nước hơn và chiết ít hơn phần trên <span class="tier tier-b">Hợp lý <b class="cite">· 68</b></span>.</p>
+
+<p>Một nhóm dụng cụ ra đời để chặn chuyện đó: Pulsar, Tricolate, Orea Z1. Chúng buộc toàn bộ nước đi qua toàn bộ bã. Theo người dùng nhiều, nhóm này đạt <strong>trần chiết cao hơn</strong> — lấy được nhiều hơn từ cùng một con cà trước khi ly bắt đầu xấu đi <span class="tier tier-b">Hợp lý</span>.</p>
+
+<p>Chiếc phin Việt Nam thuộc đúng nhóm này, và nó có trước tất cả.</p>
+
+<h3>Phễu nón sâu: một ví dụ ngược trực giác</h3>
+
+<p>CAFEC Deep 27 có góc 27° thay vì 60° của V60. Cùng một thể tích bã, hình học lý tưởng cho lớp bã sâu khoảng <strong>1,8 lần</strong>.</p>
+
+<p>Suy luận tự nhiên: bã sâu hơn thì nước đi lâu hơn, nên phải xay thô hơn để bù. <strong>Suy luận đó sai trong thực tế.</strong> Phễu được thiết kế sao cho lượng nước vào bằng lượng ra, nên nó không tự chảy chậm; với cùng một cỡ xay thô, nó có thể rút rất nhanh — và cần xay <em>mịn hơn</em> V60, không phải thô hơn <span class="tier tier-c">Truyền miệng</span>.</p>
+
+<p>Đây là quan sát của tác giả trên dụng cụ của mình, không phải một phép đo có kiểm soát. Nó nằm ở đây vì nó là ví dụ tốt cho một điều chung: <strong>hình học cho bạn một giả thuyết, cái phễu trước mặt mới cho bạn câu trả lời.</strong></p>
 
 <h3>Nếu bạn chỉ mua một dụng cụ</h3>
 
@@ -219,7 +299,7 @@ window.BOOK_PARTS.push({
 
 <div class="callout act">
 <p class="callout-title">Quy tắc thực dụng</p>
-<p>Giữ vòi ấm cách mặt bã <strong>3–5 cm</strong> trong suốt quá trình rót. Khi mực nước dâng lên, nâng ấm theo. Đây là một thay đổi nhỏ, miễn phí, và nó sửa được nhiều vấn đề hơn bất kỳ công thức nào.</p>
+<p>Giữ vòi ấm cách mặt bã <strong>3–5 cm</strong> trong suốt quá trình rót. Khi mực nước dâng lên, nâng ấm theo. Đây là một thay đổi nhỏ, miễn phí, và nó sửa được nhiều vấn đề hơn bất kỳ công thức nào. Con số 3–5 cm không có thử nghiệm nào chống đỡ; nó là chỗ cắt theo kinh nghiệm giữa hai cơ chế đã biết — rót cao thì xáo trộn mạnh hơn, rót thấp thì xáo trộn yếu hơn <span class="tier tier-b">Hợp lý</span>.</p>
 </div>
 
 <h3>Biến số 2: tốc độ</h3>
@@ -268,6 +348,24 @@ window.BOOK_PARTS.push({
 <p class="callout-title">Nhịp thực dụng</p>
 <p>Giữ mực nước <strong>không bao giờ xuống dưới mặt bã</strong>. Rót lần tiếp theo khi mực nước còn khoảng 5 mm trên mặt bã. Đây là quy tắc đơn giản nhất và nó xử lý được phần lớn vấn đề về nhịp.</p>
 </div>
+
+<h3>Ngắt quãng hay liên tục: chỗ chưa ai kiểm chứng</h3>
+
+<p>Hai câu sau được nói rất nhiều: rót ngắt quãng cho ly "trong" hơn; rót liên tục cho ly "tròn" hơn. Chúng ta không tìm được <strong>thử nghiệm nếm công khai nào</strong> so sánh hai cách rót này với mọi thứ khác giữ nguyên <span class="tier tier-c">Truyền miệng</span>.</p>
+
+<p>Chúng có cơ sở cơ chế — số lần rót đổi mức xáo trộn, và mức xáo trộn đổi độ đều. Nhưng từ "cơ chế hợp lý" tới "ngắt quãng cho ly trong hơn" là một bước mà chưa ai bước bằng dữ liệu. Hãy coi hai câu đó là <em>giả thuyết để bạn tự thử</em>, không phải kết luận để chép.</p>
+
+<p>Cách thử: cùng con cà, cùng cỡ xay, cùng tổng nước, cùng nhiệt độ, chỉ đổi nhịp rót. Pha mỗi kiểu hai lần. Nếu bạn không phân biệt được, đó cũng là một câu trả lời — và nó nói rằng bạn nên dành công sức cho nước hoặc cỡ xay.</p>
+
+<h3>Về con số 5 g/s và độ cao</h3>
+
+<p>Hai con số của chương này đứng trên nền khác nhau, và nên nói rõ.</p>
+
+<p><strong>Tốc độ.</strong> Khoảng 5 g/s là con số lưu hành rộng, và có một lập luận kèm theo: khi dòng nước <em>đứt thành giọt</em> thay vì giữ thành dòng liền, nó khuấy bã ít hơn và chiết ít hơn <span class="tier tier-b">Hợp lý</span>. Lập luận đó hợp vật lý, nhưng chúng tôi dẫn nó qua nguồn thứ cấp, không phải từ một bài đo.</p>
+
+<p><strong>Độ cao.</strong> Rót cao hơn thì nước chạm bã mạnh hơn, xáo trộn nhiều hơn, và chiết nhiều hơn. Quá cao thì bã bị khoét, bột mịn bị đẩy xuống, giấy nghẹt và ly thành chát <span class="tier tier-b">Hợp lý</span>. Cũng là cơ chế, cũng qua nguồn thứ cấp.</p>
+
+<p>Chương này giữ cả hai vì chúng dự đoán đúng chiều, và vì không có gì tốt hơn. Nhưng chúng không cùng hạng với các con số ở chương 7 hay chương 9.</p>
 
 <h3>Về khuấy và xoay</h3>
 
@@ -527,6 +625,8 @@ window.BOOK_PARTS.push({
     body: `
 <p>Sau khi pha xong, trước khi bạn rửa phễu, hãy nhìn vào bã. Nó là một bản ghi vật lý của những gì đã xảy ra — và nó không bị ảnh hưởng bởi kỳ vọng, mệt mỏi, hay những gì bạn đã đọc trên bao bì.</p>
 
+<p>Cả chương này là chẩn đoán hành nghề. Không có nghiên cứu nào nối từng hình dạng bã với từng lỗi pha; các hàng dưới đây suy ra từ cơ chế dòng chảy và từ việc nhìn nhiều phễu <span class="tier tier-b">Hợp lý</span>. Hãy dùng chúng để đặt giả thuyết, rồi để ly cà quyết định.</p>
+
 <h3>Bốn thứ cần nhìn</h3>
 
 <h4>1. Hình dạng bề mặt</h4>
@@ -622,6 +722,8 @@ window.BOOK_PARTS.push({
     body: `
 <p>Chương này là phần tra cứu. Không cần đọc liền mạch — hãy quay lại khi bạn có một ly cà không ổn và không biết bắt đầu từ đâu.</p>
 
+<p>Bảng dưới đây suy ra từ hai cơ chế đã có nghiên cứu — chiết không đều và channeling — chứ không phải từ một thử nghiệm nào ghép triệu chứng với cách sửa <span class="tier tier-b">Hợp lý</span>.</p>
+
 <h3>Nguyên tắc: một thay đổi mỗi lần</h3>
 
 <p>Đây là quy tắc quan trọng nhất và cũng bị vi phạm nhiều nhất. Nếu bạn đổi hai thứ cùng lúc và ly cà tốt hơn, bạn không biết cái nào đã giúp. Nếu nó tệ hơn, bạn không biết cái nào đã hại.</p>
@@ -691,6 +793,108 @@ window.BOOK_PARTS.push({
 <li><strong>Tin vào "mẹo" không có cơ chế.</strong> Nếu ai đó nói "rót theo hình số 8 để tăng vị ngọt", hỏi: cơ chế là gì? Nếu không trả lời được, bỏ qua.</li>
 <li><strong>Chỉnh khi đang mệt hoặc sau khi uống cà phê khác.</strong> Vị giác của bạn bị ảnh hưởng bởi những gì bạn vừa ăn/uống. Sáng sớm, trước khi ăn, là lúc vị giác nhạy nhất.</li>
 </ul>
+`
+  }
+,
+
+  {
+    id: "ch-phin",
+    title: "Phin: phễu không bypass của Việt Nam",
+    lede: "Hai cái phin chồng lên nhau cho mình ly hương đẹp nhất và hậu vị tệ nhất trong cùng một buổi. Chương này ghi lại đủ để bạn lặp lại phép thử.",
+    minutes: 8,
+    tags: ["phin", "dụng cụ", "thực nghiệm"],
+    body: `
+<p>Phin là phễu không bypass có trước mọi phễu không bypass khác. Ở chương 15 mình đã xếp nó vào cùng nhóm với Pulsar, Tricolate, Orea Z1: nước chỉ có một đường ra, và đường đó đi qua bã <span class="tier tier-b">Hợp lý <b class="cite">· 68</b></span>.</p>
+
+<p>Nhưng phin nổi tiếng vì một thứ khác: cà phê sữa đá. Cốt pha đậm cỡ 1:4–1:5, robusta rang đậm, sữa đặc, và lưới kim loại cho dầu cùng bột mịn đi qua nên ly có body dày. Đó là một truyền thống pha riêng, và nó không phải chủ đề của chương này — mình không có nguồn cho phần đó, và không muốn kể lại nó bằng ký ức.</p>
+
+<p>Chương này thử một câu hỏi hẹp hơn: nếu dùng phin như một dụng cụ pour over — nồng độ filter, cà rang sáng, không sữa — thì được gì và mất gì.</p>
+
+<h3>Bộ dụng cụ</h3>
+
+<p>Hai cái phin chồng lên nhau. Phin dưới là buồng chiết, chứa cà. Phin trên là bình chia nước: nước rót vào đó rồi nhỏ giọt xuống phin dưới.</p>
+
+<p>Buồng chiết chứa tối đa khoảng 100 ml khi chưa có cà. Cà nở ra khi bloom nên chỗ còn lại ít hơn, và vì vậy bắt buộc phải rót nhiều lần — không thể đổ hết nước một lần như trên V60.</p>
+
+<p>Giấy lọc là giấy AeroPress. Cách lót: đặt giấy lên đĩa đáy, rồi ép buồng chứa cà xuống. Giấy rộng hơn đáy phin, nên khi ép, mép giấy tràn ra ngoài và ôm trùm quanh đáy. Kín, không có đường nước đi tắt qua mép.</p>
+
+<p>Mình không tráng nóng phin, và làm vậy có chủ ý: buồng kín, lại có phin trên đậy lại, nên nhiệt mặt bã ổn định hơn là để hở ngoài không khí <span class="tier tier-b">Hợp lý</span>. Đây là lập luận của mình, không phải kết quả đo.</p>
+
+<h3>Công thức đã dùng</h3>
+
+<p>Bản đầu: 15 g cà, 300 ml nước, tức 1:20. Rót sáu lần, mỗi lần 50 ml. Bloom lần đầu đợi một phút; các lần sau châm thêm sau 30–40 giây. Tổng khoảng 4:30.</p>
+
+<p>Rót rất chậm, khoảng 5 ml/s, vào phin trên. Phin dưới luôn chỉ nhỏ giọt, chưa bao giờ ra tia. Lưu lượng trung bình khoảng 1 ml/s — con số này tính ra từ 300 ml trong 4:30, không phải đo.</p>
+
+<p>Cỡ xay, trên cối Q Air: ba vòng tính từ điểm 0, tức 90 click, khoảng 2250 µm theo mức 25 µm mỗi click. Có giai đoạn mình dùng hai vòng rưỡi, 75 click. Bản thô nhất, thử đầu tiên, là Mischief M40 ở 60 click — và số click của hai cối này không quy đổi được sang nhau.</p>
+
+<p>Mình từng ghi TDS 1,2% và EY 18%. Xin nói thẳng: đó là ước lượng theo cảm giác, không đo. Hai con số đó còn không khớp nhau về toán học — với công thức trên, TDS 1,2% tương ứng EY khoảng 21–22%, không phải 18%. Nên chương này không in chúng như số đo, và bạn đừng dùng chúng để so.</p>
+
+<h3>Phép thử song song</h3>
+
+<p>Đặt hai dụng cụ cạnh nhau, cùng một con cà, cùng 10 g cà và 160 ml nước, cùng cỡ xay, cùng nhiệt, cùng nhịp rót 30–50–50–30.</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th></th><th>V60</th><th>Phin đôi</th></tr></thead>
+<tbody>
+<tr><td>Cà / nước</td><td>10 g / 160 ml</td><td>10 g / 160 ml</td></tr>
+<tr><td>Nhịp rót</td><td>30–50–50–30</td><td>30–50–50–30</td></tr>
+<tr><td>Cỡ xay, nước, nhiệt</td><td>như nhau</td><td>như nhau</td></tr>
+<tr><td>Tổng thời gian</td><td>khoảng 2:30</td><td>khoảng 3:30</td></tr>
+<tr><td>Nhiệt trong bình lúc cuối</td><td>60 °C</td><td>55 °C</td></tr>
+<tr><td>Hương</td><td>không thơm bằng</td><td>rất đẹp, “không thiếu gì”</td></tr>
+<tr><td>Vị</td><td>thanh hơn</td><td>chua tươi sáng</td></tr>
+<tr><td>Bã sau khi pha</td><td>còn mùi</td><td>hết mùi</td></tr>
+<tr><td>Cảm giác miệng, hậu vị</td><td>hậu vị sạch hơn</td><td>nặng miệng, chát hơn, hậu vị không sạch; đắng đọng sau 30 giây</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Điều đáng chú ý nhất là hai cột không cùng thắng ở đâu cả. Phin lấy được hương mà V60 bỏ lại trong bã — bã phin sau khi pha không còn mùi, điều mình chưa từng thấy trên V60 với con cà đó. Nhưng cái giá là hậu vị.</p>
+
+<p>Đây là <strong>một lần thử, không nếm mù</strong>: không lặp lại, không có người thứ hai, không có mẫu mã hoá. Nó đủ để nói “có chuyện đáng thử tiếp”, không đủ để nói “phin cho hương hơn V60” như một quy luật.</p>
+
+<h3>Giấy lọc sau khi pha</h3>
+
+<p>Trên giấy có một lớp bùn bột mịn dày, dù cà xay rất thô. Lớp bùn đó không nằm đều: nó dồn về một nửa tờ giấy, nửa kia gần như sạch.</p>
+
+<p>Nửa tờ giấy sạch là dấu hiệu nước thoát lệch một phía. Có thể do phin, có thể do cái đĩa kê bị nghiêng — mình không kiểm tra nên không biết, và đây là suy luận, không phải kết luận.</p>
+
+<p>Mình cũng thử vài biến thể bloom: một dòng mạnh khoảng 12 ml/s chạy một vòng để khuấy bã; bloom 50 ml cho 15 g; bloom hai lần. Kết quả riêng của từng biến thể thì mình không ghi lại — nên ở đây không có số liệu cho chúng, chỉ có kết luận chung: làm gì đi chăng nữa, ly phin đôi vẫn bị đắng đọng.</p>
+
+<h3>Vì sao nó đắng đọng</h3>
+
+<p>Giả thuyết của mình, và mình gắn nhãn đúng mức của nó: <span class="tier tier-b">Hợp lý</span>, chưa kiểm chứng.</p>
+
+<p>Trong phin không có bypass, nên bột mịn không có đường thoát nào ngoài con đường qua giấy. Nó dồn xuống đáy và nằm đó suốt mẻ pha, tiếp xúc với nước nóng lâu hơn bất kỳ hạt nào khác. Bột mịn nhả phần bề mặt trong vài giây, nên lớp bùn ở đáy là thứ bị chiết quá mức nhiều nhất trong ly — và quá mức thì ra chát (chương 10).</p>
+
+<p>Thêm nữa: cùng một cỡ xay, phin chiết mạnh hơn V60 vì toàn bộ nước phải đi qua toàn bộ bã. Trần chiết cao hơn là lợi thế — cho tới khi nó vượt ngưỡng. Ở phép thử trên, nó vượt.</p>
+
+<p>Nghi phạm thứ hai là cối. Q Air ở 90 click tạo khá nhiều bột mịn, và trong một phễu không bypass thì mọi hạt mịn đều ở lại trong buồng chiết. Mình chưa tách được hai nguyên nhân này.</p>
+
+<h3>Một hướng đã có người làm: PHINƠI</h3>
+
+<p>Nếu vấn đề của phin đôi là hình học, thì đã có người sửa hình học đó. PHINƠI là chiếc phin làm lại do Vũ Đình Tú sáng lập: bỏ đáy phẳng truyền thống, tính góc <strong>164,8°</strong> cho dòng chảy, thay đế tròn bằng đế hình hoa năm cánh, và làm bốn bản — nhựa PP5 chịu nhiệt, gốm Bát Tràng, nhôm, và titanium giới hạn [70]. Anh cũng mở quán Refined. ở Hà Nội, nơi khoảng 70% cà là robusta và tiền trả theo kiểu tuỳ tâm [71].</p>
+
+<p>Hãng nói một phễu này pha được cả cà sữa đậm kiểu truyền thống lẫn pour over sạch, có hoặc không có giấy lọc. Đó là lời của nhà sản xuất, không phải kết quả đo: không có số lưu lượng, không có thử nếm nào công bố. Mình ghi lại vì nó đúng là hướng mà chương này chỉ ra — không phải vì nó chứng minh hướng đó đúng.</p>
+
+<p>Mình <em>chưa</em> thử PHINƠI. Nên mọi kết luận phía trên chỉ nói về chiếc phin đôi truyền thống mình dùng: cùng một nguyên nhân — không bypass, bột mịn không có đường thoát — nhưng một hình học khác. Nếu bạn có chiếc phễu này, phép thử song song ở trên là thứ đáng lặp lại với nó.</p>
+
+<h3>Nếu bạn muốn thử tiếp</h3>
+
+<p>Mình dừng ở đây, vì với mình ly phải ngon thì uống mới vui, và ly phin đôi chưa ngon. Nhưng phép thử này để lại ba hướng rõ ràng, và mình ghi lại để người sau không phải bắt đầu từ số không:</p>
+
+<ul>
+<li><strong>Rây bỏ bớt bột mịn.</strong> Nếu giả thuyết ở trên đúng, bỏ bớt bột mịn phải làm hậu vị sạch hơn rõ rệt. Đây là phép thử tách biệt nguyên nhân rẻ nhất — xem chương 10.</li>
+<li><strong>Xay thô hơn nữa.</strong> Ở 90 click bã vẫn còn bùn mịn; thử 110–120 click xem lớp bùn có mỏng đi không.</li>
+<li><strong>Pha cốt rồi pha loãng.</strong> Đây là ý mình <em>chưa</em> thử: chiết đậm cỡ 1:8 qua bã, rồi bù nước vào cốc. Về lý thuyết nó giữ mức chiết và chỉ đổi độ đậm — đúng cơ chế ở chương 7 — nhưng mình không có kết quả nào, nên đừng đọc nó như một công thức.</li>
+</ul>
+
+<div class="callout">
+<p class="callout-title">Điều chương này không nói</p>
+<p>Nó không nói phin là dụng cụ tệ. Nó nói: với cà rang sáng, ở cỡ xay mình dùng, với cách mình rót, phin đôi cho hương tốt hơn và hậu vị tệ hơn V60. Một lần thử không nói được gì về phin truyền thống pha robusta đậm với sữa đặc — đó là một phương pháp khác, cho một mục tiêu khác.</p>
+</div>
 `
   }
 

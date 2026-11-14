@@ -65,7 +65,7 @@ GHI CHÚ: ________________________________
 
 <h3>Bốn trục để ghi vị</h3>
 
-<p>Đừng cố viết nốt hương. Dùng bốn trục từ chương 25, mỗi trục một số từ 1 đến 5:</p>
+<p>Đừng cố viết nốt hương. Dùng bốn trục từ chương 26, mỗi trục một số từ 1 đến 5:</p>
 
 <div class="table-wrap">
 <table>
@@ -290,7 +290,7 @@ Mua lại?  ___ có / ___ không      Vì: ____________
 
 <div class="callout ok">
 <p class="callout-title">1. Một thay đổi mỗi lần</p>
-<p>Đổi hai thứ và ly tốt hơn → bạn không biết cái nào giúp. Đổi hai thứ và ly tệ hơn → bạn không biết cái nào hại. Không có ngoại lệ cho nguyên tắc này.</p>
+<p>Đổi hai thứ và ly tốt hơn → bạn không biết cái nào giúp. Đổi hai thứ và ly tệ hơn → bạn không biết cái nào hại. Chỉ nên phá nguyên tắc này khi bạn cố tình đổi hai thứ để tiết kiệm thời gian, và chấp nhận rằng mẻ đó không dạy bạn điều gì.</p>
 </div>
 
 <div class="callout ok">
@@ -306,9 +306,9 @@ Mua lại?  ___ có / ___ không      Vì: ____________
 <h3>Ba điều không bao giờ là nguyên nhân</h3>
 
 <ul>
-<li><strong>"Tay tôi không có duyên."</strong> Không có cơ chế nào cho điều này. Nếu ly cà dở, có một nguyên nhân vật lý. Bạn chưa tìm ra, không có nghĩa là không có.</li>
+<li><strong>"Tay tôi không có duyên."</strong> Chưa ai chỉ ra được cơ chế nào cho điều này. Nếu ly cà dở, có một nguyên nhân vật lý. Bạn chưa tìm ra, không có nghĩa là không có.</li>
 <li><strong>"Cà phê này quá cao cấp cho dụng cụ của tôi."</strong> Không đúng. Dụng cụ tốt giúp tái lập, nhưng một chiếc phễu bình dân với kỹ thuật đúng cho ly cà tốt hơn một phễu đắt với kỹ thuật sai.</li>
-<li><strong>"Tôi cần mua thêm dụng cụ."</strong> Đây là câu trả lời phổ biến nhất và thường sai nhất. Trong 90% trường hợp, vấn đề nằm ở nước, cà, hoặc một trong bốn biến số của kỹ thuật rót.</li>
+<li><strong>"Tôi cần mua thêm dụng cụ."</strong> Đây là câu trả lời phổ biến nhất và thường sai nhất. Gần như mọi lần, vấn đề nằm ở nước, cà, hoặc một trong bốn biến số của kỹ thuật rót. (Con số "90%" hay được nói ở đây là cách nói, không phải một thống kê.)</li>
 </ul>
 
 <div class="pull">Nếu bạn đã đi hết checklist<br>và ly cà vẫn chỉ ở mức “được” —<br>thì đó là <em>câu trả lời</em>, không phải thất bại.</div>

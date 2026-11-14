@@ -71,7 +71,7 @@ HCO₃⁻ + H⁺ → H₂CO₃ → CO₂ + H₂O
 
 <p><strong>* Ba dòng trên không lấy từ cùng một trang.</strong> Sổ tay chất lượng nước SCA 2018 cho 40–75 ppm alkalinity và 51–175 ppm độ cứng — nhưng mốc 75 ppm <em>chỉ áp dụng khi độ cứng nằm trong khoảng 150–175 ppm</em>; ngoài khoảng đó, mốc trên là 40 ppm. Dải pH 6–8 với mục tiêu 7,0 lấy từ bảng tiêu chuẩn cà phê SCA 2018, không phải từ sổ tay — sổ tay chỉ nói nên đo pH khi nước có alkalinity rất cao hoặc độ cứng rất thấp. Con số “pH 6,5–7,5” vẫn được trích cho SCA ở nhiều nơi, nhưng tôi không tìm được tài liệu SCA 2018 nào nêu nó, nên bản này đã thay.</p>
 
-<p>Mục tiêu 40 ppm là điểm giữa. Ở mức 20 ppm, acid rất sáng, có khi gắt hoặc "mỏng". Ở mức 75 ppm, vị cân bằng nhưng trái cây bắt đầu mờ. Trên 100 ppm, hầu hết cà phê rang sáng sẽ mất tính cách. Trên 200 ppm, bạn gần như chỉ còn nếm vị rang.</p>
+<p>Mục tiêu 40 ppm là điểm giữa. Ở mức 20 ppm, acid rất sáng, có khi gắt hoặc "mỏng". Ở mức 75 ppm, vị cân bằng nhưng trái cây bắt đầu mờ. Trên 100 ppm, hầu hết cà phê rang sáng sẽ mất tính cách. Trên 200 ppm, bạn gần như chỉ còn nếm vị rang. Chiều của hiệu ứng có nghiên cứu; còn từng mốc ppm ở trên là chỗ cắt theo kinh nghiệm nếm, không phải ngưỡng đã đo <span class="tier tier-b">Hợp lý</span>.</p>
 
 <div class="pull">Nước không phải là nền.<br>Nước là <em>một phần của công thức</em>.</div>
 
@@ -123,7 +123,7 @@ Alkalinity = HCO₃⁻ × <b>50/61</b> ≈ HCO₃⁻ × <b>0,82</b><br>
 
 <h3>Bút TDS đo gì</h3>
 
-<p>Bút TDS (Total Dissolved Solids) thật ra không đếm chất rắn hoà tan. Nó đo <strong>độ dẫn điện</strong> của nước, rồi nhân với một hệ số để hiển thị ra một con số mg/L. Độ dẫn điện phụ thuộc vào tổng ion — canxi, magiê, natri, clorua, sulfate, bicarbonate, tất cả cộng lại.</p>
+<p>Bút TDS (Total Dissolved Solids) thật ra không đếm chất rắn hoà tan. Nó đo <strong>độ dẫn điện</strong> của nước, rồi nhân với một hệ số để hiển thị ra một con số mg/L <span class="tier tier-a">Bằng chứng</span>. Độ dẫn điện phụ thuộc vào tổng ion — canxi, magiê, natri, clorua, sulfate, bicarbonate, tất cả cộng lại.</p>
 
 <p>Nghĩa là: hai mẫu nước có thể cùng TDS 100 ppm nhưng có alkalinity hoàn toàn khác nhau.</p>
 
@@ -172,7 +172,7 @@ Alkalinity (ppm as CaCO₃) = HCO₃⁻ (mg/L) × 50/61<br>
 <ul>
 <li>Bán ở tiệm cá cảnh, giá khoảng 150.000–300.000 đồng, dùng được hàng trăm lần.</li>
 <li>Đơn vị thường là <strong>dKH</strong> (độ cứng carbonate của Đức).</li>
-<li>Quy đổi: <strong>1 dKH = 17,86 ppm as CaCO₃</strong>.</li>
+<li>Quy đổi: <strong>1 dKH = 17,86 ppm as CaCO₃</strong> <span class="tier tier-a">Bằng chứng</span>.</li>
 </ul>
 
 <div class="table-wrap">
@@ -311,7 +311,7 @@ Ví dụ: mục tiêu 50 ppm, nước khoáng 250 ppm<br>
 
 <h4>Cách 4 — Đun sôi (có tác dụng, nhưng không kiểm soát được)</h4>
 
-<p>Đun sôi thật sự làm giảm alkalinity, vì canxi bicarbonate phân huỷ khi đun:</p>
+<p>Đun sôi thật sự làm giảm alkalinity, vì canxi bicarbonate phân huỷ khi đun <span class="tier tier-a">Bằng chứng</span>:</p>
 
 <div class="formula">
 <span class="fx-label">Phản ứng khi đun sôi</span>

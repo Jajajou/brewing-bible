@@ -29,7 +29,9 @@
   var acounter = 0;
   PARTS.forEach(function (part) {
     (part.chapters || []).forEach(function (ch) {
-      if (part.appendix) ch.__a = ++acounter;
+      if (part.front) ch.__front = true;
+      else if (part.back) ch.__back = true;
+      else if (part.appendix) ch.__a = ++acounter;
       else ch.__n = ++counter;
     });
   });
@@ -40,7 +42,7 @@
   }
 
   var totalChapters = counter;
-  var totalParts = PARTS.filter(function (p) { return !p.appendix; }).length;
+  var totalParts = PARTS.filter(function (p) { return !p.appendix && !p.front && !p.back; }).length;
 
   /* Phiên bản: build-pdf.sh truyền ?ver=<commit>[&date=<ngày>]. Mở print.html
      bằng tay thì không có gì để in — ghi "bản nháp" chứ không bịa số. */
@@ -61,7 +63,10 @@
   }
 
   function partNum(part, pi) {
-    return part.appendix ? "Phụ lục" : "Phần " + (part.roman || ROMAN[pi]);
+    /* Phần cuối sách không có số phần: tiêu đề phần đã là "Cuối sách", nên
+       in thêm một dòng nhãn nữa chỉ lặp lại đúng chữ đó hai lần trên trang. */
+    if (part.back) return "";
+    return part.front ? "Mở đầu" : part.appendix ? "Phụ lục" : "Phần " + (part.roman || ROMAN[pi]);
   }
 
   var html = [];
@@ -88,13 +93,13 @@
     var chs = part.chapters || [];
     if (!chs.length) return;
     html.push(
-      '<p class="toc-part">' + partNum(part, pi) + " · " + esc(part.title) + "</p>"
+      '<p class="toc-part">' + (partNum(part, pi) ? partNum(part, pi) + " · " : "") + esc(part.title) + "</p>"
     );
     chs.forEach(function (ch) {
       html.push(
         '<a class="toc-row" href="#' + ch.id + '">' +
           '<span class="n">' +
-            (ch.__a ? "A" + ch.__a : String(ch.__n).padStart(2, "0")) +
+            (ch.__front || ch.__back ? "·" : ch.__a ? "A" + ch.__a : String(ch.__n).padStart(2, "0")) +
           "</span>" +
           "<span>" + esc(ch.title) + "</span>" +
         "</a>"
@@ -110,7 +115,7 @@
 
     html.push(
       '<section class="part-page">',
-      '<p class="part-num">' + partNum(part, pi) + "</p>",
+      (partNum(part, pi) ? '<p class="part-num">' + partNum(part, pi) + "</p>" : ""),
       "<h2>" + esc(part.title) + "</h2>",
       part.blurb ? '<p class="part-blurb">' + esc(part.blurb) + "</p>" : "",
       "</section>"
@@ -129,9 +134,12 @@
            trong mục lục sẽ báo sai trang. Cũng vì thế phần đầu chương là một
            khối không tách. */
         '<header class="ch-head" id="' + ch.id + '">',
-        '<p class="ch-num">' +
-          (ch.__a ? "Phụ lục A" + ch.__a : "Chương " + String(ch.__n).padStart(2, "0")) +
-          "</p>",
+        /* Phần cuối sách đã có chạy đầu trang "Cuối sách": in thêm nhãn cùng
+           chữ ngay dưới thì trang mở chương lặp lại đúng hai lần. */
+        (ch.__back ? "" :
+          '<p class="ch-num">' +
+            (ch.__front ? "Mở đầu" : ch.__a ? "Phụ lục A" + ch.__a : "Chương " + String(ch.__n).padStart(2, "0")) +
+          "</p>"),
         '<h2 class="ch-title">' + esc(ch.title) + "</h2>",
         ch.lede ? '<p class="ch-lede">' + esc(ch.lede) + "</p>" : "",
         '<div class="ch-rule"></div>',

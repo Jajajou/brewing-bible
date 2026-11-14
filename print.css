@@ -389,6 +389,7 @@ a{ color: inherit; text-decoration: none; }
 .tier-a{ background: #eef3ea; color: var(--ok); border: 0.2mm solid #cfdcc6; }
 .tier-b{ background: #fbf5e4; color: var(--warn); border: 0.2mm solid #e6d7ad; }
 .tier-c{ background: #fbf0ee; color: var(--bad); border: 0.2mm solid #e6c9c4; }
+.tier .cite{ font-weight: 500; letter-spacing: 0; margin-left: 0.7mm; }
 
 /* công thức */
 .formula{

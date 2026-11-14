@@ -416,6 +416,171 @@ hành nghề, không phải nghiên cứu có kiểm soát.
 Cùng một liều cho độ sâu bã khác nhau ở dụng cụ khác đường kính; 15 g trên dụng cụ nhỏ không
 tương đương 15 g trên dụng cụ lớn. Tác giả tự ghi rõ phần nào là giả thuyết.
 
+**[55]** Batali, M. E., Frost, S. C., Lebrilla, C. B., Ristenpart, W. D., & Guinard, J.-X. (2020).
+*Sensory and monosaccharide analysis of drip brew coffee fractions versus brewing time.*
+Journal of the Science of Food and Agriculture, 100(7), 2953–2962.
+DOI [10.1002/jsfa.10323](https://doi.org/10.1002/jsfa.10323)
+
+Cắt mẻ nhỏ giọt thành từng phần 30 giây rồi cho hội đồng nếm. **Phần đầu đắng hơn và chua hơn
+phần sau**; phần sau **ngọt hơn và nhiều hương hoa hơn**, dù TDS thấp hơn — nên cảm giác ngọt tỉ
+lệ nghịch với TDS. Không phần nào có monosaccharide ở mức nếm được. Đây là phép thử trực tiếp cho
+mô hình "đắng ra sau", và kết quả đi ngược mô hình. Máy pha nhỏ giọt, không phải pha tay.
+
+**[56]** Maille, M. J. (2024). *Measuring Coffee Extraction Kinetics at Early Time Scales.*
+Luận án tiến sĩ, University of Sheffield.
+[Link](https://etheses.whiterose.ac.uk/id/eprint/36281/)
+
+Đo chiết xuất từ giây thứ 5 đến giây 600; 80% dữ liệu nằm dưới 35 giây. **50% acid citric và malic
+chiết trong 10 giây đầu**; caffeine và 3-CQA chậm hơn **3–4 giây**. Chênh lệch tính bằng giây,
+không phải bằng phút.
+
+**[57]** Wang, X., & Lim, L.-T. (2021). *Modeling study of coffee extraction at different
+temperature and grind size conditions to better understand the cold and hot brewing process.*
+Journal of Food Process Engineering, 44(8).
+DOI [10.1111/jfpe.13748](https://doi.org/10.1111/jfpe.13748)
+
+Đo động học chiết theo TDS ở 4, 23, 50 và 93 °C với bốn cỡ xay. **Mức chiết cuối tăng theo nhiệt
+độ pha và giảm theo cỡ hạt** — chiều của hiệu ứng nhiệt có đo. Bài không cho hệ số "bao nhiêu phần
+trăm mức chiết cho mỗi 5 °C"; con số 2–4% trong giới pha chế vẫn không có nguồn. Thí nghiệm ngâm
+khuấy, không phải pour over.
+
+**[58]** Frost, S. C., Ristenpart, W. D., & Guinard, J.-X. (2020). *Effects of brew strength,
+brew yield, and roast on the sensory quality of drip brewed coffee.*
+Journal of Food Science, 85(8), 2530–2543.
+DOI [10.1111/1750-3841.15326](https://doi.org/10.1111/1750-3841.15326)
+
+Một con Arabica sơ chế ướt, rang ba mức, pha thành chín mẻ khác nhau theo TDS và mức chiết, rồi
+phân tích mô tả. 21 trong 30 thuộc tính đổi theo ít nhất một yếu tố. Bảy thuộc tính đổi ở cả ba
+mức rang, gồm **đắng, chua, ngọt, vị gỗ cháy/tro và vị cam chanh**. Đây là nguồn cho câu "độ ngọt
+tỉ lệ nghịch với TDS" ở chương 7. Giới hạn: máy pha nhỏ giọt, một con cà.
+
+**[59]** Cotter, A. R., Batali, M. E., Ristenpart, W. D., & Guinard, J.-X. (2021). *Consumer
+preferences for black coffee are spread over a wide range of brew strengths and extraction yields.*
+Journal of Food Science, 86(1), 194–205.
+DOI [10.1111/1750-3841.15561](https://doi.org/10.1111/1750-3841.15561)
+
+118 người uống cà phê đen, hơn 3.000 lượt nếm. Phân tích cụm cho **hai nhóm sở thích**, và biến
+chia tách chúng mạnh nhất là TDS. Hai nhóm cho hai mặt cong khác nhau (một vòm, một yên ngựa).
+Nhóm tác giả kết luận ô "lý tưởng" của Brewing Control Chart cần xem lại. Phần lớn người thử ở
+tuổi sinh viên — không phải mẫu đại diện cho mọi người uống cà phê.
+
+**[60]** Frank, O., Blumberg, S., Kunert, C., Zehentbauer, G., & Hofmann, T. (2007).
+*Structure determination and sensory analysis of bitter-tasting 4-vinylcatechol oligomers and
+their identification in roasted coffee by means of LC-MS/MS.*
+Journal of Agricultural and Food Chemistry, 55(5), 1945–1954.
+DOI [10.1021/jf0632280](https://doi.org/10.1021/jf0632280)
+
+Xác định cấu trúc 10 hợp chất đắng, trong đó **tám phenylindane nhiều nhóm hydroxyl**, ngưỡng
+nhận biết 23–178 µmol/L, và xác nhận chúng có trong ly bằng LC-MS/MS. Các hợp chất này sinh ra khi
+4-vinylcatechol (từ acid caffeic) oligomer hoá **trong lúc rang**. Đây là nguồn cho câu "vị đắng
+sinh ra trong lò rang" ở chương 9 — thay cho bản tin EurekAlert mà bản kế hoạch dẫn.
+
+**[61]** Blumberg, S., Frank, O., & Hofmann, T. (2010). *Quantitative studies on the influence of
+the bean roasting parameters and hot water percolation on the concentrations of bitter compounds in
+coffee brew.* Journal of Agricultural and Food Chemistry, 58(6), 3720–3728.
+DOI [10.1021/jf9044606](https://doi.org/10.1021/jf9044606)
+
+Rang cùng một con cà ở 260 °C trong 60–600 s, và ở 240 s với 190–280 °C, rồi đo từng nhóm hợp chất
+đắng. **Quinide hình thành nhiều nhất ở mức rang nhẹ–vừa rồi phân huỷ** khi rang mạnh hơn, sinh ra
+nhóm oligomer 4-vinylcatechol đắng gắt — khớp với thay đổi về chất của vị đắng trong thử nghiệm
+cảm quan. Bài cũng đo tốc độ nhả: nhóm 1–8 chiết nhanh, dicaffeoyl quinide chậm, nhóm 12–17 bị giữ
+lại mạnh trong bã.
+
+**[62]** Semmelroch, P., & Grosch, W. (1996). *Studies on character impact odorants of coffee
+brews.* Journal of Agricultural and Food Chemistry, 44(2), 537–543.
+DOI [10.1021/jf9505988](https://doi.org/10.1021/jf9505988)
+
+Định lượng 22 hợp chất mùi mạnh trong ly Arabica và Robusta bằng pha loãng đồng vị, và đo **hiệu
+suất chuyển từ bã sang ly cho 17 hợp chất**. Nguyên văn: hợp chất phân cực (guaiacol, furanone,
+2,3-butanedione) chuyển **75–100%**; hợp chất kém phân cực (β-damascenone,
+2-isobutyl-3-methoxypyrazine) chỉ **10–25%**. Lưu ý mức 10–25% này thấp hơn con số "<25%" mà bản
+kế hoạch ghi. Nhóm mạnh nhất gồm 2-furfurylthiol và β-damascenone — nghĩa là nhiều nốt hương đẹp
+nhất phần lớn ở lại trong bã.
+
+**[63]** Sánchez López, J. A., và cộng sự (2016). *Extraction kinetics of coffee aroma compounds
+using a semi-automatic machine: on-line analysis by PTR-ToF-MS.* International Journal of Mass
+Spectrometry, 401, 22–30.
+DOI [10.1016/j.ijms.2016.02.015](https://doi.org/10.1016/j.ijms.2016.02.015)
+
+Theo dõi hợp chất bay hơi theo thời gian thực trong 25 giây chiết. Tăng nhiệt (82–96 °C) làm tăng
+rõ lượng VOC chiết được, **mạnh hơn với các hợp chất kém phân cực**; độ phân cực là một trong những
+yếu tố chi phối chính. Giới hạn quan trọng: **espresso, có áp lực** — không phải pour over, nên
+sách dẫn bài này ở mức Hợp lý.
+
+**[64]** Barista Hustle (28/11/2020). *The Ideal Temperature for French Press.*
+[Link](https://www.baristahustle.com/the-ideal-temperature-for-french-press/)
+
+Bài có hai bộ đo nhiệt độ slurry. **Pour over** (đo của Colin Runnion): rót 96 °C theo kiểu hai
+lần rót, slurry **không bao giờ vượt 90 °C** — đúng với cả phễu nhựa và phễu sứ. **Ngâm** (đo của
+Gwilym Davies): mẻ một lít ở 97 °C giữ slurry trên 90 °C gần 5 phút; mẻ 500 ml mất nhiệt nhanh
+gấp đôi, mẻ 250 ml chỉ lên trên 80 °C vài giây. Lớp bã nổi giữ nhiệt; khuấy phá lớp đó thì nhiệt
+tụt ngay. Bài của nhà đào tạo, không phải nghiên cứu bình duyệt — sách dẫn ở mức Hợp lý. Bài đọc
+bản đầy đủ qua tài khoản của tác giả sách, 14/11/2026.
+
+**[65]** Rao, S. (27/08/2017). *Fines: fine for espresso, not so fine for filter.*
+[Link](https://www.scottrao.com/blog/2017/8/27/fines-fine-for-espresso-not-so-fine-for-filter)
+
+Lập luận: bột mịn nhả phần bề mặt trong vài giây, còn hạt lớn cần vài phút khuếch tán — nên bột
+mịn "chắc chắn chiết quá mức và đóng góp vị đắng cùng vị chát". Rao khuyên giảm bột mịn cho cà
+phê lọc: lưỡi nghiền sắc hơn, chỉnh đúng tâm, xay thô hơn, lưỡi lớn hơn, rang nhạt hơn, hoặc rây.
+Bài này bàn bột mịn như **vấn đề về vị**, không bàn độ thấm — phần độ thấm lấy từ [35]. Kinh
+nghiệm hành nghề, không phải nghiên cứu có kiểm soát.
+
+**[66]** Ineffable Coffee × Rao, S. *La cantidad media ideal de finos.*
+[Link](https://ineffablecoffee.com/en/blogs/news/la-cantidad-media-ideal-de-finos)
+
+Mặt còn lại: bột mịn "lấp các khe giữa những hạt lớn hơn và giúp hạn chế số lượng, có lẽ cả kích
+thước, của các đường dòng chảy". Thiếu bột mịn thì khe giữa các hạt rộng và không đều hơn. Kết
+luận của Rao: **lượng bột mịn lý tưởng cho một công thức là lượng làm vị chát thấp nhất**. Blog
+của nhà bán hàng dẫn lời Rao — nguồn thứ cấp, để ở mức Hợp lý.
+
+**[67]** Gagné, J. (21/04/2020). *The Physics of Fines Migration.* Barista Hustle.
+[Link](https://www.baristahustle.com/the-physics-of-fines-migration/)
+
+Đọc lại bài Knight, Jaeger & Nagel (1993) về vật liệu hạt. Phát hiện chính: **không cần nhấc hạt
+lớn lên thì bột mịn vẫn di chuyển được**. Ma sát ở thành ống đẩy lớp hạt sát thành đi xuống, tạo
+dòng chảy vòng giống đối lưu; hạt lớn không lọt vào dòng đi xuống nên kẹt ở lớp trên. Trong **ống
+hình nón, dòng đảo chiều** và hạt lớn kẹt ở đáy. Gagné nhấn mạnh điều này không cứu được phễu nón:
+bột mịn vẫn đi vòng sát thành giấy, và bất kỳ chuyển động nào đưa chúng tới gần giấy đều góp phần
+bít lỗ. Giới hạn do chính tác giả nêu: bi thuỷ tinh khô, tròn đều, rung một tần số 30 Hz. Bài đọc
+bản đầy đủ qua tài khoản của tác giả sách, 14/11/2026.
+
+**[68]** Daily Coffee News (08/06/2023). *The DCN Guide to Bypass in Coffee Brewing.*
+[Link](https://dailycoffeenews.com/2023/06/08/the-dcn-guide-to-bypass-in-coffee-brewing)
+
+Bài tổng quan, trích trực tiếp Jonathan Gagné: khi có bypass, "ít nước hơn sẽ tới được đáy lớp bã,
+và phần đáy sẽ chiết ít hơn các lớp bên trên". Bài cũng dẫn Ray Murakawa (người thiết kế Melodrip)
+và nhắc Scott Rao. Phễu nón cho nước thoát ra ở giữa thành, phễu hình trụ thì không. Nguồn thứ
+cấp — trích lời chuyên gia, không phải đo đạc — nên sách để ở mức Hợp lý.
+
+**[69]** Ristenpart, W. D., Cotter, A. R., & Guinard, J.-X. (2022). *Impact of beverage
+temperature on consumer preferences for black coffee.* Scientific Reports, 12, 20621.
+DOI [10.1038/s41598-022-23904-4](https://doi.org/10.1038/s41598-022-23904-4)
+
+Phân tích lại hơn 3.000 lượt nếm của [59] theo nhiệt độ khi uống, dải 56–71 °C. **Đa số người
+uống (trên 50%) đánh giá "vừa" ở mọi mức tới 70 °C**; chỉ trên 70 °C mới có đa số nói quá nóng,
+và ở đó vẫn còn 40% thấy vừa. Trong khoảng 56–68 °C, 6–12% thấy quá nguội. Nhiệt độ trong dải này
+gần như không đổi đánh giá về cường độ vị, độ chua và cảm giác miệng.
+
+**Lưu ý về cách dẫn:** bản kế hoạch ghi bài này là "người uống thích nhất ở 58–66 °C". Bài không
+nói vậy — nó nói khoảng *chấp nhận được* rộng, không chỉ ra một khoảng tối ưu. Sách dẫn theo bài.
+
+**[70]** PHINƠI. *Our story: the boy, the drip, and the universe of phin.*
+[phinoi.com/our-story](https://www.phinoi.com/our-story)
+
+Trang của hãng: bỏ đáy phẳng truyền thống, tính góc 164,8° cho dòng chảy, đế hình hoa năm cánh,
+bốn bản vật liệu (nhựa PP5 chịu nhiệt, gốm Bát Tràng, nhôm, titanium giới hạn). Đây là mô tả
+sản phẩm và câu chuyện thương hiệu — **không có** số lưu lượng, nhiệt độ hay cảm quan nào. Nguồn
+cho mục PHINƠI ở chương 22; sách dẫn như lời của nhà sản xuất, không phải đo đạc.
+
+**[71]** Fanarioti, V. (02/07/2025). *10 Minutes with Vu Dình Tú: A Champion of Modern Vietnamese
+Coffee Culture.* Barista Magazine.
+[baristamagazine.com](https://www.baristamagazine.com/10-minutes-with-vu-dinh-tu-a-champion-of-modern-vietnamese-coffee-culture/)
+
+Phỏng vấn người sáng lập PHINƠI: quán Refined. ở Hà Nội với ba điểm bán, mô hình trả tuỳ tâm,
+khoảng 70% robusta, và dự án làm lại phin cho thế hệ sau — ra mắt tại World of Coffee Jakarta
+tháng 5/2025. Không có số liệu pha nào. Nguồn cho phần bối cảnh ở chương 22.
+
 ---
 
 ## Đối chiếu theo chương
@@ -453,10 +618,11 @@ Chương | Khẳng định cần nguồn | Nhãn trong sách | Nguồn | Trạng
 19 | Độ sâu bã phải khớp đường kính dụng cụ | Hợp lý | [53] [54] | suy luận từ thực hành
 20 | Nhìn bã để chẩn đoán | — | không có | không có nguồn
 21 | Bảng chẩn đoán | — | suy ra từ [10] [11] | một phần
-22–24 | Quy trình, bốn luật, case study | — | phương pháp, không phải khẳng định thực nghiệm | không cần nguồn
-25 | Giải phẫu một ngụm; retro-nasal | — | sinh lý khứu giác phổ thông | không cần nguồn
-26 | Ngôn ngữ nốt hương và cái bẫy của nó | — | [14] [19] | một phần
-27–30 | Luyện khẩu vị, nhật ký, dụng cụ, checklist | — | phương pháp | không cần nguồn
+22 | Phin là phễu không bypass; bột mịn không có đường thoát nên hậu vị đắng đọng | Hợp lý | [68] [70] [71] | một phần — [70] [71] là mô tả sản phẩm và phỏng vấn, không có đo cảm quan
+23–25 | Quy trình, bốn luật, case study | — | phương pháp, không phải khẳng định thực nghiệm | không cần nguồn
+26 | Giải phẫu một ngụm; retro-nasal | — | sinh lý khứu giác phổ thông | không cần nguồn
+27 | Ngôn ngữ nốt hương và cái bẫy của nó | — | [14] [19] | một phần
+28–31 | Luyện khẩu vị, nhật ký, dụng cụ, checklist | — | phương pháp | không cần nguồn
 
 ---
 
@@ -487,6 +653,13 @@ Bốn chỗ không xác minh được, ghi lại để lần sau không phải t
 
 Thêm 14 nguồn mới, **[41]–[54]**, đưa tổng số lên **54**. Hai nguồn trong đó ([43], [51])
 chỉ đọc được một phần — chi tiết nằm ngay trong mục của chúng.
+
+Lớp sau (14/11/2026) thêm **[55]–[57]**, đưa tổng số lên **57**: hai nguồn cho chương 8
+(nếm theo phân đoạn thời gian, động học ở thang giây) và một cho chương 9 (mức chiết theo
+nhiệt độ). Cả ba đã đối chiếu Crossref.
+
+Lớp mục 3 thêm **[58]–[59]** (cảm quan theo TDS; hai nhóm sở thích của người uống), đưa tổng số
+lên **59**. Lớp mục 3.2 thêm **[60]–[63]** (hai bài Hofmann về nguồn gốc vị đắng khi rang; hiệu suất chuyển hợp chất mùi vào ly; động học VOC theo nhiệt), đưa tổng số lên **63**. Thêm **[64]** (đo nhiệt slurry) sau khi tác giả sách mở được bản đầy đủ: **64**. Lớp mục 3.3 thêm **[65]–[67]** (hai mặt của bột mịn; vật lý di chuyển bột mịn): **67**. Mục 3.5 thêm **[68]** (bypass): **68**. Mục 3.7 thêm **[69]** (nhiệt độ khi uống): **69**.
 
 ---
 

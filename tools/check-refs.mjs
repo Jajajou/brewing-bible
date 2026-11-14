@@ -50,9 +50,9 @@ const info = (m) => console.log(`  · ${m}`);
 
 function loadParts() {
   const win = {};
-  for (let i = 1; i <= 20; i++) {
+  for (let i = 0; i <= 20; i++) {
     const f = join(ROOT, "content", `part-${i}.js`);
-    if (!existsSync(f)) break;
+    if (!existsSync(f)) { if (i === 0) continue; break; }
     new Function("window", readFileSync(f, "utf8"))(win);
   }
   return win.BOOK_PARTS || [];
@@ -141,7 +141,11 @@ console.log("1. Liên kết nội bộ");
 const cited = new Set();
 for (const [id, ch] of Object.entries(SRC)) {
   if (id === "ch-nguon-danh-muc") continue;
-  for (const m of String(ch.body || "").matchAll(/\[(\d+)\]/g)) cited.add(Number(m[1]));
+  // Số nguồn nằm trong nhãn bằng chứng (tem "Hợp lý · 68") cũng là một trích dẫn.
+  const body = String(ch.body || "").replace(/<b class="cite">([\s\S]*?)<\/b>/g, (_, t) =>
+    t.replace(/(\d+)/g, "[$1]")
+  );
+  for (const m of body.matchAll(/\[(\d+)\]/g)) cited.add(Number(m[1]));
 }
 
 const dangling = [...cited].filter((n) => !BY_N.has(n)).sort((a, b) => a - b);

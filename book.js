@@ -21,6 +21,8 @@
 
   function chLabel(n) { return I18N.chapterLabel(LANG, n); }
   function partLabel(part, pi) {
+    if (part && part.front) return (I18N.ui[LANG] || {}).frontMatter || "Mở đầu";
+    if (part && part.back) return (I18N.ui[LANG] || {}).backMatter || "Cuối sách";
     if (part && part.appendix) return (I18N.ui[LANG] || {}).appendix || "Phụ lục";
     return I18N.partLabel(LANG, (part && part.roman) || ROMAN[pi] || "");
   }
@@ -29,7 +31,7 @@
   function loadOverlay(lang) {
     return new Promise(function (resolve) {
       var s = document.createElement("script");
-      s.src = "content/" + lang + "/text.js?v=4e7e17b";
+      s.src = "content/" + lang + "/text.js?v=ecbb65d";
       s.onload = function () { resolve(window.BOOK_TEXT || null); };
       s.onerror = function () { resolve(null); };
       document.head.appendChild(s);
@@ -51,17 +53,29 @@
     if (entry.ch.id) byId[entry.ch.id] = entry;
   });
 
+  /* Số chương phải đếm riêng, không dùng chỉ số trong danh sách phẳng: từ khi
+     có phần mở đầu và phần cuối sách, chỉ số đó cộng cả chương của họ — và
+     TOC in "04" cho chương 1. Phụ lục vẫn dùng np (A1, A2…) như trước. */
+  var chNo = 0;
+  flat.forEach(function (entry) {
+    if (entry.part && (entry.part.front || entry.part.back)) entry.n = null;
+    else if (!(entry.part && entry.part.appendix)) entry.n = ++chNo;
+  });
+
   /* Phụ lục là chương của nó, không phải chương 30–33: bìa vẫn ghi 29 chương,
      và thanh tiến độ đọc cũng chỉ đếm 29 chương chính. */
-  function isAppendix(part) { return !!(part && part.appendix); }
+  /* Phần mở đầu cũng không đánh số chương: nếu nó thành chương 1 thì mọi
+     tham chiếu "xem chương N" trong sách lệch đi một. */
+  function isAppendix(part) { return !!(part && (part.appendix || part.front || part.back)); }
   var MAIN = flat.filter(function (e) { return !isAppendix(e.part); });
   var MAIN_PARTS = PARTS.filter(function (p) { return !isAppendix(p); });
   var TOTAL = MAIN.length;
 
   function numLabel(entry) {
-    return S.numLabel(isAppendix(entry.part), entry.n, entry.np);
+    return S.numLabel(isAppendix(entry.part), entry.n, entry.np, !!(entry.part && (entry.part.front || entry.part.back)));
   }
   function kickerLabel(entry) {
+    if (entry.part && (entry.part.front || entry.part.back)) return partLabel(entry.part);
     return isAppendix(entry.part) ? partLabel(entry.part) + " A" + entry.np : chLabel(entry.n);
   }
 
@@ -164,7 +178,9 @@
       var chs = part.chapters || [];
       if (!chs.length) return;
       html += '<div class="toc-part">';
-      html += '<p class="toc-part-head"><span class="num">' + (part.roman || ROMAN[pi] || "") +
+      /* mở đầu và cuối sách không mang số phần: chúng không nằm trong dãy I–VIII */
+      html += '<p class="toc-part-head"><span class="num">' +
+              ((part.front || part.back) ? "" : (part.roman || ROMAN[pi] || "")) +
               "</span><span>" + esc(part.title) + "</span></p>";
       html += '<ul class="toc-list">';
       chs.forEach(function (ch) {
@@ -257,11 +273,13 @@
     var html = "";
     html += '<div class="chapter">';
     html += '<header class="chapter-head">';
+    /* Phần cuối sách chỉ có một tên, và tên đó đã nằm ở nhãn trên: lặp lại
+       ở ô tên phần nữa thì người đọc thấy "Cuối sách · Cuối sách". */
+    var partName = part.back ? "" : (isAppendix(part) ? part.title : partLabel(part, pi) + " · " + part.title);
     html += '<p class="chapter-kicker"><span>' + esc(kickerLabel(entry)) + "</span>" +
-            '<span class="dot"></span>' +
-            '<span class="part-name">' +
-              esc(isAppendix(part) ? part.title : partLabel(part, pi) + " · " + part.title) +
-            "</span></p>";
+            (partName ? '<span class="dot"></span>' +
+              '<span class="part-name">' + esc(partName) + "</span>" : "") +
+            "</p>";
     html += "<h2>" + esc(ch.title) + "</h2>";
     if (ch.lede) html += '<p class="chapter-lede">' + esc(ch.lede) + "</p>";
 

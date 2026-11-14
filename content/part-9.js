@@ -22,7 +22,7 @@
 
 <p>Nguyên tắc lập rất đơn giản: chỉ câu có thể kiểm chứng bằng tài liệu bên ngoài mới cần nguồn. Câu về kinh nghiệm, quy trình và lời khuyên thì không — và không được gán cho chúng một nguồn nghe có vẻ khoa học. Ưu tiên bài bình duyệt có DOI; khi không có, dùng tiêu chuẩn ngành hoặc nguồn sơ cấp của chính người đề xuất phương pháp.</p>
 
-<p>Năm mươi bốn nguồn được xếp theo chủ đề ở A2 và theo chương ở A3. Trong 30 chương, mười chương dựa trực tiếp vào tài liệu, sáu chương dựa một phần, mười hai chương là quy trình nên không cần nguồn ngoài, và hai chương — 17 và 20 — không có nguồn nào cho khẳng định trung tâm.</p>
+<p>Bảy mươi mốt nguồn được xếp theo chủ đề ở A2 và theo chương ở A3. Trong 31 chương, mười chương dựa trực tiếp vào tài liệu, sáu chương dựa một phần, mười hai chương là quy trình nên không cần nguồn ngoài. Hai chương — 17 và 20 — vẫn không có nguồn nào cho khẳng định trung tâm; cả hai giờ nói thẳng điều đó trong thân chương và gắn nhãn Hợp lý.</p>
 
 <div class="callout">
 <p class="callout-title">Có nguồn không có nghĩa là đúng</p>
@@ -34,7 +34,7 @@
       {
         id: "ch-nguon-danh-muc",
         title: "Thư mục",
-        lede: "Năm mươi bốn nguồn, xếp theo chủ đề. Mỗi mục có DOI hoặc đường dẫn đã mở và đọc, kèm một câu nói nguồn đó đóng góp gì.",
+        lede: "Bảy mươi mốt nguồn, xếp theo chủ đề. Mỗi mục có DOI hoặc đường dẫn đã mở và đọc, kèm một câu nói nguồn đó đóng góp gì.",
         minutes: 12,
         tags: ["phụ lục", "nguồn"],
         body: `
@@ -254,6 +254,74 @@
 
 <p>Cùng một liều cho độ sâu bã khác nhau ở dụng cụ có đường kính khác nhau; 15 g trên dụng cụ nhỏ không tương đương 15 g trên dụng cụ lớn. Tác giả tự ghi rõ phần nào là giả thuyết.</p>
 
+
+<p><strong>[55]</strong> Batali, M. E., Frost, S. C., Lebrilla, C. B., Ristenpart, W. D., & Guinard, J.-X. (2020). <em>Sensory and monosaccharide analysis of drip brew coffee fractions versus brewing time.</em> Journal of the Science of Food and Agriculture, 100(7), 2953–2962. doi.org/10.1002/jsfa.10323</p>
+
+<p>Cắt mẻ nhỏ giọt thành từng phần 30 giây rồi cho hội đồng nếm từng phần. Phần đầu <strong>đắng hơn và chua hơn</strong> phần sau; phần sau <strong>ngọt hơn và nhiều hương hoa hơn</strong> dù TDS thấp hơn. Không phần nào có monosaccharide ở mức nếm được. Đây là phép thử trực tiếp cho mô hình "đắng ra sau" ở chương 8, và kết quả đi ngược mô hình. Giới hạn: máy pha nhỏ giọt, không phải pha tay.</p>
+
+<p><strong>[56]</strong> Maille, M. J. (2024). <em>Measuring Coffee Extraction Kinetics at Early Time Scales.</em> Luận án tiến sĩ, University of Sheffield. etheses.whiterose.ac.uk/id/eprint/36281/</p>
+
+<p>Đo chiết xuất từ giây thứ 5 đến giây 600; 80% dữ liệu nằm dưới 35 giây. 50% acid citric và malic chiết trong 10 giây đầu; caffeine và 3-CQA chậm hơn 3–4 giây. Chênh lệch giữa các hợp chất tính bằng giây, không phải bằng phút — nên trong một mẻ pour over nó biến mất.</p>
+
+<p><strong>[57]</strong> Wang, X., & Lim, L.-T. (2021). <em>Modeling study of coffee extraction at different temperature and grind size conditions to better understand the cold and hot brewing process.</em> Journal of Food Process Engineering, 44(8). doi.org/10.1111/jfpe.13748</p>
+
+<p>Đo động học chiết theo TDS ở 4, 23, 50 và 93 °C với bốn cỡ xay. Mức chiết cuối tăng theo nhiệt độ pha và giảm theo cỡ hạt — chiều của hiệu ứng nhiệt ở chương 9 có đo. Bài không cho hệ số phần trăm mức chiết cho mỗi 5 °C; con số 2–4% lưu hành trong giới pha chế vẫn không có nguồn. Giới hạn: thí nghiệm ngâm khuấy, không phải pour over.</p>
+
+<p><strong>[58]</strong> Frost, S. C., Ristenpart, W. D., & Guinard, J.-X. (2020). <em>Effects of brew strength, brew yield, and roast on the sensory quality of drip brewed coffee.</em> Journal of Food Science, 85(8), 2530–2543. doi.org/10.1111/1750-3841.15326</p>
+
+<p>Một con Arabica sơ chế ướt, rang ba mức, pha thành chín mẻ theo TDS và mức chiết, rồi phân tích mô tả. Đắng, chua và vị khói tăng theo TDS; ngọt, trái cây và hoa giảm. Độ ngọt tỉ lệ nghịch với TDS ở cả ba mức rang — nguồn cho mục "TDS đổi vị như thế nào" ở chương 7. Giới hạn: máy pha nhỏ giọt, một con cà.</p>
+
+<p><strong>[59]</strong> Cotter, A. R., Batali, M. E., Ristenpart, W. D., & Guinard, J.-X. (2021). <em>Consumer preferences for black coffee are spread over a wide range of brew strengths and extraction yields.</em> Journal of Food Science, 86(1), 194–205. doi.org/10.1111/1750-3841.15561</p>
+
+<p>118 người uống cà phê đen, hơn 3.000 lượt nếm. Phân tích cụm cho hai nhóm sở thích, tách nhau mạnh nhất theo TDS. Nhóm tác giả kết luận ô "lý tưởng" của Brewing Control Chart cần xem lại — nguồn cho câu "điểm lý tưởng là khẩu vị, không phải một ô cố định". Giới hạn: phần lớn người thử ở tuổi sinh viên.</p>
+
+<p><strong>[60]</strong> Frank, O., Blumberg, S., Kunert, C., Zehentbauer, G., & Hofmann, T. (2007). <em>Structure determination and sensory analysis of bitter-tasting 4-vinylcatechol oligomers and their identification in roasted coffee by means of LC-MS/MS.</em> Journal of Agricultural and Food Chemistry, 55(5), 1945–1954. doi.org/10.1021/jf0632280</p>
+
+<p>Xác định cấu trúc mười hợp chất đắng, trong đó tám phenylindane, ngưỡng nhận biết 23–178 µmol/L, và xác nhận chúng có trong ly. Chúng sinh ra khi rang, không phải khi pha — nguồn cho mục "vị đắng sinh ra trong lò rang" ở chương 9.</p>
+
+<p><strong>[61]</strong> Blumberg, S., Frank, O., & Hofmann, T. (2010). <em>Quantitative studies on the influence of the bean roasting parameters and hot water percolation on the concentrations of bitter compounds in coffee brew.</em> Journal of Agricultural and Food Chemistry, 58(6), 3720–3728. doi.org/10.1021/jf9044606</p>
+
+<p>Đo từng nhóm hợp chất đắng theo thời gian và nhiệt độ rang. Quinide — vị đắng "kiểu cà phê" — nhiều nhất ở rang nhẹ đến vừa, rồi phân huỷ thành nhóm oligomer đắng gắt khi rang mạnh hơn. Đây là lý do rang đậm cho vị đắng khác <em>chất</em>, không chỉ khác lượng.</p>
+
+<p><strong>[62]</strong> Semmelroch, P., & Grosch, W. (1996). <em>Studies on character impact odorants of coffee brews.</em> Journal of Agricultural and Food Chemistry, 44(2), 537–543. doi.org/10.1021/jf9505988</p>
+
+<p>Đo hiệu suất chuyển từ bã sang ly cho 17 hợp chất mùi. Hợp chất phân cực (guaiacol, furanone, 2,3-butanedione) chuyển 75–100%; hợp chất kém phân cực (β-damascenone, methoxypyrazine) chỉ 10–25%. Nguồn cho mục "vì sao một phần hương không bao giờ vào ly" ở chương 9.</p>
+
+<p><strong>[63]</strong> Sánchez López, J. A., và cộng sự (2016). <em>Extraction kinetics of coffee aroma compounds using a semi-automatic machine: on-line analysis by PTR-ToF-MS.</em> International Journal of Mass Spectrometry, 401, 22–30. doi.org/10.1016/j.ijms.2016.02.015</p>
+
+<p>Nhiệt cao làm tăng lượng hợp chất bay hơi chiết được, mạnh hơn với nhóm kém phân cực. Giới hạn: đo trên espresso có áp lực, không phải pour over — nên sách dẫn ở mức Hợp lý.</p>
+
+<p><strong>[64]</strong> Barista Hustle (2020). <em>The Ideal Temperature for French Press.</em> baristahustle.com/the-ideal-temperature-for-french-press/</p>
+
+<p>Đo nhiệt độ slurry. Pour over rót 96 °C theo kiểu hai lần rót: slurry không bao giờ vượt 90 °C, đúng với cả phễu nhựa và phễu sứ. Ngâm một lít ở 97 °C: slurry giữ trên 90 °C gần năm phút, vì khối nước lớn hơn và lớp bã nổi giữ nhiệt. Nguồn cho mục "nhiệt trong phễu thấp hơn nhiệt trong ấm" ở chương 9. Bài của nhà đào tạo, không phải nghiên cứu bình duyệt.</p>
+
+<p><strong>[65]</strong> Rao, S. (2017). <em>Fines: fine for espresso, not so fine for filter.</em> scottrao.com/blog/2017/8/27/fines-fine-for-espresso-not-so-fine-for-filter</p>
+
+<p>Bột mịn nhả phần bề mặt trong vài giây còn hạt lớn cần vài phút, nên chúng chiết quá mức và đóng góp vị đắng cùng vị chát. Bài bàn bột mịn như vấn đề về vị, không bàn độ thấm. Kinh nghiệm hành nghề.</p>
+
+<p><strong>[66]</strong> Ineffable Coffee × Rao, S. <em>La cantidad media ideal de finos.</em> ineffablecoffee.com/en/blogs/news/la-cantidad-media-ideal-de-finos</p>
+
+<p>Mặt còn lại: bột mịn lấp khe giữa các hạt lớn và hạn chế đường dòng chảy. Lượng bột mịn lý tưởng cho một công thức là lượng làm vị chát thấp nhất. Nguồn thứ cấp dẫn lời Rao.</p>
+
+<p><strong>[67]</strong> Gagné, J. (2020). <em>The Physics of Fines Migration.</em> Barista Hustle. baristahustle.com/the-physics-of-fines-migration/</p>
+
+<p>Đọc lại Knight, Jaeger & Nagel (1993): không cần nhấc hạt lớn lên thì bột mịn vẫn di chuyển. Ma sát ở thành tạo dòng vòng giống đối lưu; trong ống hình nón dòng đảo chiều và hạt lớn kẹt ở đáy. Dù chiều nào, bột mịn vẫn đi sát thành giấy và góp phần bít lỗ. Giới hạn: bi thuỷ tinh khô, rung một tần số 30 Hz.</p>
+
+<p><strong>[68]</strong> Daily Coffee News (2023). <em>The DCN Guide to Bypass in Coffee Brewing.</em> dailycoffeenews.com/2023/06/08/the-dcn-guide-to-bypass-in-coffee-brewing</p>
+
+<p>Trích trực tiếp Jonathan Gagné: khi có bypass, ít nước hơn tới được đáy lớp bã, và phần đáy chiết ít hơn các lớp trên. Nguồn cho mục "phễu không bypass" ở chương 15. Nguồn thứ cấp trích lời chuyên gia, không phải đo đạc.</p>
+
+<p><strong>[69]</strong> Ristenpart, W. D., Cotter, A. R., & Guinard, J.-X. (2022). <em>Impact of beverage temperature on consumer preferences for black coffee.</em> Scientific Reports, 12, 20621. doi.org/10.1038/s41598-022-23904-4</p>
+
+<p>Phân tích hơn 3.000 lượt nếm theo nhiệt độ khi uống, dải 56–71 °C. Đa số đánh giá "vừa" ở mọi mức tới 70 °C; chỉ trên 70 °C mới có đa số nói quá nóng. Bài nói khoảng chấp nhận được rộng, không chỉ ra một khoảng tối ưu — nguồn cho ghi chú ở chương 13 về nhiệt độ nếm.</p>
+<p><strong>[70]</strong> PHINƠI. <em>Our story: the boy, the drip, and the universe of phin.</em> phinoi.com/our-story</p>
+
+<p>Trang của hãng: bỏ đáy phẳng truyền thống, tính góc 164,8° cho dòng chảy, đế hình hoa năm cánh, bốn bản vật liệu (nhựa PP5, gốm Bát Tràng, nhôm, titanium giới hạn). Mô tả sản phẩm và câu chuyện thương hiệu — không có số lưu lượng, nhiệt hay cảm quan. Sách dẫn nó như lời của nhà sản xuất, không phải đo đạc. Nguồn cho mục PHINƠI ở chương 22.</p>
+
+<p><strong>[71]</strong> Fanarioti, V. (2025). <em>10 Minutes with Vu Dình Tú: A Champion of Modern Vietnamese Coffee Culture.</em> Barista Magazine, 2.7.2025. baristamagazine.com</p>
+
+<p>Phỏng vấn người sáng lập PHINƠI: quán Refined. ở Hà Nội với ba điểm bán, mô hình trả tuỳ tâm, khoảng 70% robusta, và dự án làm lại phin cho thế hệ sau — ra mắt tại World of Coffee Jakarta tháng 5.2025. Không có số liệu pha nào. Nguồn cho phần bối cảnh ở chương 22.</p>
+
 <div class="callout">
 <p class="callout-title">Ba bài không mở được toàn văn</p>
 <p>[17], [22] và trang DOI của [5] bị nhà xuất bản chặn trong lúc tra. Chi tiết trong các mục đó lấy từ tóm tắt và từ bài tổng quan của SCA. Nếu bạn cần trích dẫn chính xác đến từng câu, phải mở bản đầy đủ.</p>
@@ -319,7 +387,7 @@
 </tbody>
 </table>
 
-<p class="tbl-cap tbl-cap-break">Chương 19–30 · công thức, đọc bã, chẩn đoán, cảm nhận</p>
+<p class="tbl-cap tbl-cap-break">Chương 19–31 · công thức, đọc bã, chẩn đoán, cảm nhận</p>
 
 <table class="tbl-a3">
 <thead>
@@ -334,10 +402,11 @@
 <tr><td>19</td><td>Độ sâu bã phải khớp đường kính dụng cụ</td><td>Hợp lý</td><td>[53] [54]</td><td>Suy luận từ thực hành</td></tr>
 <tr><td>20</td><td>Nhìn bã để chẩn đoán</td><td>—</td><td>không có</td><td>Không có nguồn</td></tr>
 <tr><td>21</td><td>Bảng chẩn đoán</td><td>—</td><td>suy ra từ [10] [11]</td><td>Một phần</td></tr>
-<tr><td>22–24</td><td>Quy trình, bốn luật, case study</td><td>—</td><td>phương pháp</td><td>Không cần nguồn</td></tr>
-<tr><td>25</td><td>Giải phẫu một ngụm; đường mũi ngược</td><td>—</td><td>sinh lý khứu giác</td><td>Không cần nguồn</td></tr>
-<tr><td>26</td><td>Ngôn ngữ nốt hương và cái bẫy của nó</td><td>—</td><td>[14] [19]</td><td>Một phần</td></tr>
-<tr><td>27–30</td><td>Luyện khẩu vị, nhật ký, dụng cụ, checklist</td><td>—</td><td>phương pháp</td><td>Không cần nguồn</td></tr>
+<tr><td>22</td><td>Phin là phễu không bypass; bột mịn không có đường thoát nên hậu vị đắng đọng</td><td>Hợp lý</td><td>[68] [70] [71]</td><td>Một phần — [70] [71] là mô tả sản phẩm và phỏng vấn, không có đo cảm quan</td></tr>
+<tr><td>23–25</td><td>Quy trình, bốn luật, case study</td><td>—</td><td>phương pháp</td><td>Không cần nguồn</td></tr>
+<tr><td>26</td><td>Giải phẫu một ngụm; đường mũi ngược</td><td>—</td><td>sinh lý khứu giác</td><td>Không cần nguồn</td></tr>
+<tr><td>27</td><td>Ngôn ngữ nốt hương và cái bẫy của nó</td><td>—</td><td>[14] [19]</td><td>Một phần</td></tr>
+<tr><td>28–31</td><td>Luyện khẩu vị, nhật ký, dụng cụ, checklist</td><td>—</td><td>phương pháp</td><td>Không cần nguồn</td></tr>
 </tbody>
 </table>
 
