@@ -150,7 +150,9 @@ a{ color: inherit; text-decoration: none; }
 /* ---------- trang phần ---------- */
 .part-page{
   page: partpage;
-  break-before: right;
+  /* Trang phần mở ở trang lẻ chỉ là quy ước sách in: đọc bản in trên màn hình
+     thì nó chỉ sinh thêm trang trắng. `page` đủ để bìa phần luôn đứng riêng. */
+  break-before: page;
   height: 175mm;
   display: flex; flex-direction: column; justify-content: center;
   text-align: center;
