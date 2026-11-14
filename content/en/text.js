@@ -1774,6 +1774,50 @@ Odd:   _______________
 </table>
 </div>
 
+<h3>Flat or cone: has it been measured</h3>
+
+<p>Yes. And the result is striking because of what it sits next to.</p>
+
+<p>UC Davis ran discrimination tests with 45 tasters, one coffee, brewed on a drip machine. Two results side by side <span class="tier tier-a">Evidence</span> [38]:</p>
+
+<ul>
+<li>Two noticeably different grind sizes: <strong>tasters could not tell them apart</strong>.</li>
+<li>A semi-conical basket against a flat-bottom one: <strong>clearly distinguishable</strong>.</li>
+</ul>
+
+<p>The conical basket also gave significantly higher TDS. In the descriptive analysis, basket geometry on its own shifted only three attributes (smoke aroma, sweetness, tobacco flavour) — but the <strong>interaction between geometry and roast</strong> shifted six: berry flavour, bitterness, burnt wood, citrus flavour, earthy flavour and sourness.</p>
+
+<p>So "which brewer gives which flavour" has no general answer: it depends on the roast. And the attributes that moved with geometry were precisely the ones driving whether consumers liked the cup.</p>
+
+<div class="callout warn">
+<p class="callout-title">How to read this result</p>
+<p>The experiment used a <strong>drip machine</strong>, not hand brewing. On a machine, how the water lands on the bed is fixed; by hand, your hand is a bigger variable than the shape of the brewer. The result says geometry <em>does</em> have a tasteable effect, not that it outweighs your technique.</p>
+</div>
+
+<h3>Bed depth</h3>
+
+<p>The same dose gives different bed depths depending on brewer diameter — and that depth is a variable in itself.</p>
+
+<p>The argument: channels form in every bed. In a deep bed, many channels <em>dead-end</em> and the water disperses back into the coffee. In a shallow bed, more channels run straight to the bottom, and a channel that reaches the bottom carries the larger, astringency-causing compounds out into the cup <span class="tier tier-b">Plausible</span> [53] [54].</p>
+
+<p>In practice: if your cup is astringent and both grind and water are fine, look at dose against brewer diameter. Fifteen grams in a large brewer is a shallow bed.</p>
+
+<h3>No-bypass brewers</h3>
+
+<p>In a V60, some water runs down the paper wall without passing through the whole bed — that is <strong>bypass</strong>. The result is that the bottom of the bed receives less water and extracts less than the layers above it <span class="tier tier-b">Plausible</span> [68].</p>
+
+<p>A family of brewers exists to stop that: the Pulsar, the Tricolate, the Orea Z1. They force all the water through all the coffee. Among heavy users, this family reaches a <strong>higher extraction ceiling</strong> — more taken out of the same coffee before the cup starts to degrade <span class="tier tier-b">Plausible</span>.</p>
+
+<p>The Vietnamese phin belongs to exactly this family, and it got there first.</p>
+
+<h3>The deep cone: a counter-intuitive example</h3>
+
+<p>The CAFEC Deep 27 has a 27° wall angle instead of the V60's 60°. For the same volume of coffee, ideal geometry gives a bed roughly <strong>1.8 times</strong> deeper.</p>
+
+<p>The natural inference: a deeper bed means water takes longer, so grind coarser to compensate. <strong>That inference is wrong in practice.</strong> The brewer is designed so that what goes in equals what comes out, so it does not slow itself down; at the same coarse grind it can draw down very fast — and it needs a <em>finer</em> grind than a V60, not a coarser one <span class="tier tier-c">Folklore</span>.</p>
+
+<p>This is the author's observation on his own equipment, not a controlled measurement. It is here because it illustrates something general: <strong>geometry gives you a hypothesis; the brewer in front of you gives you the answer.</strong></p>
+
 <h3>If you only buy one brewer</h3>
 
 <p><strong>Hario Switch.</strong> For concrete reasons, not because it is "the best":</p>
@@ -3363,7 +3407,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p>The rule is simple: only sentences an outside document can check need a source. Statements about experience, method and advice do not — and none of them should be given a source that merely sounds scientific. Peer-reviewed work with a DOI comes first; where none exists, the industry standard or the primary source from the person who proposed the method.</p>
 
-<p>Sixty-seven sources are grouped by subject in A2 and by chapter in A3. Of the 30 chapters, ten rest directly on documents, six rest on them halfway, twelve are method and need no outside source. Two — 17 and 20 — still have no source at all for their central claim; both now say so in the chapter itself and carry the Plausible label.</p>
+<p>Sixty-eight sources are grouped by subject in A2 and by chapter in A3. Of the 30 chapters, ten rest directly on documents, six rest on them halfway, twelve are method and need no outside source. Two — 17 and 20 — still have no source at all for their central claim; both now say so in the chapter itself and carry the Plausible label.</p>
 
 <div class="callout">
 <p class="callout-title">A source is not evidence</p>
@@ -3374,7 +3418,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
     "ch-nguon-danh-muc": {
       title: "Bibliography",
-      lede: "Sixty-seven sources, grouped by subject. Each entry carries a DOI or a link that was opened and read, plus one line on what that source contributes.",
+      lede: "Sixty-eight sources, grouped by subject. Each entry carries a DOI or a link that was opened and read, plus one line on what that source contributes.",
       minutes: 12,
       tags: ["appendix", "sources"],
       body: `
@@ -3646,6 +3690,10 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <p><strong>[67]</strong> Gagné, J. (2020). <em>The Physics of Fines Migration.</em> Barista Hustle. baristahustle.com/the-physics-of-fines-migration/</p>
 
 <p>A reading of Knight, Jaeger & Nagel (1993): fines can migrate without any boulder being lifted. Wall friction drives a convection-like circulation; in a cone the flow reverses and large particles are trapped at the bottom. Either way, fines still circulate past the paper and contribute to clogging it. Limits: dry uniform glass beads, a single 30 Hz tapping frequency.</p>
+
+<p><strong>[68]</strong> Daily Coffee News (2023). <em>The DCN Guide to Bypass in Coffee Brewing.</em> dailycoffeenews.com/2023/06/08/the-dcn-guide-to-bypass-in-coffee-brewing</p>
+
+<p>Quotes Jonathan Gagné directly: with bypass, less water reaches the bottom of the bed, and the bottom stays less extracted than the layers above. The source for "no-bypass brewers" in chapter 15. A secondary source quoting an expert, not a measurement.</p>
 <div class="callout">
 <p class="callout-title">Three papers I could not open in full</p>
 <p>[17], [22] and the DOI page for [5] were blocked by the publishers during the check. Their details here come from abstracts and from the SCA review. If you need a sentence-exact citation, open the full text.</p>

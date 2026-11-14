@@ -545,6 +545,14 @@ bột mịn vẫn đi vòng sát thành giấy, và bất kỳ chuyển động 
 bít lỗ. Giới hạn do chính tác giả nêu: bi thuỷ tinh khô, tròn đều, rung một tần số 30 Hz. Bài đọc
 bản đầy đủ qua tài khoản của tác giả sách, 14/11/2026.
 
+**[68]** Daily Coffee News (08/06/2023). *The DCN Guide to Bypass in Coffee Brewing.*
+[Link](https://dailycoffeenews.com/2023/06/08/the-dcn-guide-to-bypass-in-coffee-brewing)
+
+Bài tổng quan, trích trực tiếp Jonathan Gagné: khi có bypass, "ít nước hơn sẽ tới được đáy lớp bã,
+và phần đáy sẽ chiết ít hơn các lớp bên trên". Bài cũng dẫn Ray Murakawa (người thiết kế Melodrip)
+và nhắc Scott Rao. Phễu nón cho nước thoát ra ở giữa thành, phễu hình trụ thì không. Nguồn thứ
+cấp — trích lời chuyên gia, không phải đo đạc — nên sách để ở mức Hợp lý.
+
 ---
 
 ## Đối chiếu theo chương
@@ -622,7 +630,7 @@ Lớp sau (14/11/2026) thêm **[55]–[57]**, đưa tổng số lên **57**: hai
 nhiệt độ). Cả ba đã đối chiếu Crossref.
 
 Lớp mục 3 thêm **[58]–[59]** (cảm quan theo TDS; hai nhóm sở thích của người uống), đưa tổng số
-lên **59**. Lớp mục 3.2 thêm **[60]–[63]** (hai bài Hofmann về nguồn gốc vị đắng khi rang; hiệu suất chuyển hợp chất mùi vào ly; động học VOC theo nhiệt), đưa tổng số lên **63**. Thêm **[64]** (đo nhiệt slurry) sau khi tác giả sách mở được bản đầy đủ: **64**. Lớp mục 3.3 thêm **[65]–[67]** (hai mặt của bột mịn; vật lý di chuyển bột mịn): **67**.
+lên **59**. Lớp mục 3.2 thêm **[60]–[63]** (hai bài Hofmann về nguồn gốc vị đắng khi rang; hiệu suất chuyển hợp chất mùi vào ly; động học VOC theo nhiệt), đưa tổng số lên **63**. Thêm **[64]** (đo nhiệt slurry) sau khi tác giả sách mở được bản đầy đủ: **64**. Lớp mục 3.3 thêm **[65]–[67]** (hai mặt của bột mịn; vật lý di chuyển bột mịn): **67**. Mục 3.5 thêm **[68]** (bypass): **68**.
 
 ---
 

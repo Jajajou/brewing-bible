@@ -171,6 +171,50 @@ window.BOOK_PARTS.push({
 </table>
 </div>
 
+<h3>Phẳng hay nón: có đo được không</h3>
+
+<p>Có. Và kết quả đáng chú ý vì nó đi kèm một so sánh khác.</p>
+
+<p>UC Davis cho 45 người thử phân biệt, cùng một con cà, pha bằng máy nhỏ giọt. Hai kết quả cạnh nhau <span class="tier tier-a">Bằng chứng</span> [38]:</p>
+
+<ul>
+<li>Hai cỡ xay chênh nhau khá nhiều: <strong>người thử không phân biệt được</strong>.</li>
+<li>Giỏ nón so với giỏ đáy phẳng: <strong>phân biệt được rõ ràng</strong>.</li>
+</ul>
+
+<p>Giỏ nón cũng cho TDS cao hơn có ý nghĩa thống kê. Trong phần phân tích mô tả, hình học giỏ một mình chỉ đổi ba thuộc tính (hương khói, vị ngọt, vị thuốc lá) — nhưng <strong>tương tác giữa hình học và mức rang</strong> đổi tới sáu thuộc tính: vị quả mọng, đắng, gỗ cháy, cam chanh, vị đất và chua.</p>
+
+<p>Nghĩa là câu "phễu nào cho vị gì" không có câu trả lời chung: nó phụ thuộc mức rang. Và những thuộc tính đổi theo hình học lại đúng là những thuộc tính quyết định người uống thích hay không.</p>
+
+<div class="callout warn">
+<p class="callout-title">Đọc kết quả này cho đúng</p>
+<p>Thí nghiệm dùng <strong>máy pha nhỏ giọt</strong>, không phải pha tay. Ở máy, cách nước rơi xuống bã là cố định; ở pha tay, tay bạn là một biến lớn hơn hình dạng phễu. Kết quả này nói hình học <em>có</em> tác động nếm được, không nói nó lớn hơn kỹ thuật của bạn.</p>
+</div>
+
+<h3>Độ sâu lớp bã</h3>
+
+<p>Cùng một liều cà cho độ sâu bã khác nhau tuỳ đường kính phễu — và độ sâu đó tự nó là một biến.</p>
+
+<p>Lập luận: kênh nước hình thành ở mọi lớp bã. Trong lớp bã sâu, nhiều kênh <em>chết giữa đường</em>, nước lại tản vào bã. Trong lớp bã nông, nhiều kênh đi thẳng tới đáy, và kênh tới được đáy thì mang theo các hợp chất phân tử lớn gây vị chát ra ly <span class="tier tier-b">Hợp lý</span> [53] [54].</p>
+
+<p>Hệ quả: nếu ly của bạn chát mà cỡ xay và nước đều ổn, hãy nhìn vào liều so với đường kính phễu. Mười lăm gam trên một chiếc phễu lớn là một lớp bã nông.</p>
+
+<h3>Phễu không bypass</h3>
+
+<p>Trong V60, một phần nước đi men theo thành giấy mà không qua hết bã — đó là <strong>bypass</strong>. Kết quả: đáy lớp bã nhận ít nước hơn và chiết ít hơn phần trên <span class="tier tier-b">Hợp lý</span> [68].</p>
+
+<p>Một nhóm dụng cụ ra đời để chặn chuyện đó: Pulsar, Tricolate, Orea Z1. Chúng buộc toàn bộ nước đi qua toàn bộ bã. Theo người dùng nhiều, nhóm này đạt <strong>trần chiết cao hơn</strong> — lấy được nhiều hơn từ cùng một con cà trước khi ly bắt đầu xấu đi <span class="tier tier-b">Hợp lý</span>.</p>
+
+<p>Chiếc phin Việt Nam thuộc đúng nhóm này, và nó có trước tất cả.</p>
+
+<h3>Phễu nón sâu: một ví dụ ngược trực giác</h3>
+
+<p>CAFEC Deep 27 có góc 27° thay vì 60° của V60. Cùng một thể tích bã, hình học lý tưởng cho lớp bã sâu khoảng <strong>1,8 lần</strong>.</p>
+
+<p>Suy luận tự nhiên: bã sâu hơn thì nước đi lâu hơn, nên phải xay thô hơn để bù. <strong>Suy luận đó sai trong thực tế.</strong> Phễu được thiết kế sao cho lượng nước vào bằng lượng ra, nên nó không tự chảy chậm; với cùng một cỡ xay thô, nó có thể rút rất nhanh — và cần xay <em>mịn hơn</em> V60, không phải thô hơn <span class="tier tier-c">Truyền miệng</span>.</p>
+
+<p>Đây là quan sát của tác giả trên dụng cụ của mình, không phải một phép đo có kiểm soát. Nó nằm ở đây vì nó là ví dụ tốt cho một điều chung: <strong>hình học cho bạn một giả thuyết, cái phễu trước mặt mới cho bạn câu trả lời.</strong></p>
+
 <h3>Nếu bạn chỉ mua một dụng cụ</h3>
 
 <p><strong>Hario Switch.</strong> Lý do rất cụ thể, không phải vì nó "tốt nhất":</p>
