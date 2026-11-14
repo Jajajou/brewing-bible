@@ -136,13 +136,13 @@ SKIP_CHECK=1 ./build-pdf.sh      # bỏ bước tự kiểm (khi máy chưa có 
 BOOK_VER=1.0.0 ./build-pdf.sh    # in "1.0.0" thay cho commit
 ```
 
-Bìa và chân mỗi trang mang số bản đang dựng: mặc định là `git describe --tags --always --dirty`, nên một bản dựng từ cây làm việc chưa commit tự khai là `-dirty` thay vì giả làm bản phát hành. Khi phát hành, tag commit trước rồi dựng (`git tag v1.0.0 && ./build-pdf.sh`) để bản trong tay người đọc mang số `v1.0.0` chứ không phải một chuỗi commit đã bị squash mất.
+Mỗi bản dựng ghi số bản vào **metadata của PDF** (ô `Title`, xem `pdfinfo`), **không in lên trang**: bìa và chân trang là chỗ của sách, không phải của log dựng — một hash commit ở chân mọi trang là thứ người đọc không cần thấy. Số đó mặc định là `git describe --tags --always --dirty`, nên một bản dựng từ cây làm việc chưa commit tự khai là `-dirty` thay vì giả làm bản phát hành. Khi phát hành, tag commit trước rồi dựng (`git tag v1.0.0 && ./build-pdf.sh`) để file mang số `v1.0.0` chứ không phải một chuỗi commit đã bị squash mất.
 
-Mở `print.html` bằng tay thì bìa ghi "Bản nháp (chưa dựng PDF)" và không có số ở chân trang — không bịa số cho một bản chưa tồn tại.
+Mở `print.html` bằng tay thì không có số bản nào để gắn — không bịa số cho một bản chưa tồn tại.
 
 Script tự bật một static server tạm ([tools/serve.mjs](tools/serve.mjs) — Paged.js không chạy được với `file://`), dựng trang, **chờ Paged.js phân trang xong** rồi mới in. Cần Chrome/Chromium, Node 18+ và poppler-utils (`pdftotext`, `pdfinfo`, `pdffonts`) cho bước tự kiểm.
 
-Bản dàn trang: khổ A5 148×210 mm, lề 17/16/18 mm, chạy đầu trang theo tên phần, số trang chân, mục lục có số trang thật (dùng `target-counter`), bìa và trang phần riêng. Hiện **174 trang**, trong đó 7 trang trắng chèn để mỗi phần mở ở trang lẻ.
+Bản dàn trang: khổ A5 148×210 mm, lề 17/16/18 mm, chạy đầu trang theo tên phần, số trang chân, mục lục có số trang thật (dùng `target-counter`), bìa và trang phần riêng. Hiện **209 trang**, trong đó 6 trang trắng chèn để mỗi phần mở ở trang lẻ.
 
 ### Quy trình chống hỏng
 
@@ -227,7 +227,7 @@ Rồi mở http://127.0.0.1:8137/
 
 ## Thay đổi
 
-Lịch sử và quy ước số bản ở [CHANGELOG.md](CHANGELOG.md). Số bản in trên bìa PDF chính là số ở đó — cầm bản giấy thì đối chiếu được.
+Lịch sử và quy ước số bản ở [CHANGELOG.md](CHANGELOG.md). Số bản ghi trong metadata PDF chính là số ở đó — cầm file thì đối chiếu được.
 
 ## Giấy phép
 

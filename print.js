@@ -44,23 +44,15 @@
   var totalChapters = counter;
   var totalParts = PARTS.filter(function (p) { return !p.appendix && !p.front && !p.back; }).length;
 
-  /* Phiên bản: build-pdf.sh truyền ?ver=<commit>[&date=<ngày>]. Mở print.html
-     bằng tay thì không có gì để in — ghi "bản nháp" chứ không bịa số. */
+  /* Phiên bản: build-pdf.sh truyền ?ver=<commit>[&date=<ngày>]. Số đó không
+     in ra trang nào — bìa và chân trang là chỗ của sách, không phải của log
+     dựng. Nó vào tiêu đề tài liệu, tức metadata của PDF: vẫn lần được bản
+     dựng nào đang trong tay khi cần, mà người đọc không phải nhìn thấy hash
+     commit ở chân mọi trang. Mở print.html bằng tay thì không có gì để gắn. */
   var QS = new URLSearchParams(location.search);
   var VER = (QS.get("ver") || "").trim();
   var BUILT = (QS.get("date") || "").trim();
-  var VER_LINE = VER ? VER + (BUILT ? " · " + BUILT : "") : "";
-  var COVER_LINE = VER ? "Bản " + VER_LINE : "Bản nháp (chưa dựng PDF)";
-
-  /* Chân trang: Paged.js không hiểu var() trong content của ô lề, nên chèn
-     một luật @page với chuỗi thật. Không có ?ver= thì không chèn gì —
-     print.html mở bằng tay không nên mang số của bản phát hành nào. */
-  if (VER) {
-    var stamp = document.createElement("style");
-    stamp.textContent =
-      '@page{ @bottom-left{ content: "' + VER_LINE.replace(/["\\]/g, "\\$&") + '"; } }';
-    document.head.appendChild(stamp);
-  }
+  if (VER) document.title = document.title + " — " + VER + (BUILT ? " · " + BUILT : "");
 
   function partNum(part, pi) {
     /* Phần cuối sách không có số phần: tiêu đề phần đã là "Cuối sách", nên
@@ -81,8 +73,7 @@
     '<p class="imprint">',
     "<b>" + totalParts + " phần · " + totalChapters + " chương</b><br>",
     "Mỗi khẳng định được đánh dấu theo ba mức bằng chứng:<br>",
-    "có nghiên cứu · hợp lý nhưng chưa kiểm chứng · truyền miệng.<br>",
-    '<span class="ver">' + esc(COVER_LINE) + "</span>",
+    "có nghiên cứu · hợp lý nhưng chưa kiểm chứng · truyền miệng.",
     "</p>",
     "</section>"
   );

@@ -1,6 +1,6 @@
 # Thay đổi
 
-Ghi theo [Keep a Changelog](https://keepachangelog.com/vi/1.1.0/). Số bản in trên bìa và chân trang PDF chính là số ở đây — người cầm bản giấy đối chiếu được mình đang đọc bản nào.
+Ghi theo [Keep a Changelog](https://keepachangelog.com/vi/1.1.0/). Số bản ghi trong metadata PDF (ô `Title`) chính là số ở đây — người cầm file đối chiếu được mình đang đọc bản nào.
 
 ## Quy ước số bản
 
@@ -9,7 +9,7 @@ Ghi theo [Keep a Changelog](https://keepachangelog.com/vi/1.1.0/). Số bản in
 | `1.x` | Sửa nội dung, sửa lỗi, thêm bản dịch. Người đọc không phải đọc lại từ đầu. |
 | `2.0` | Thêm hoặc bớt một phần, đổi cấu trúc sách. |
 
-Dựng bản phát hành: tag commit rồi dựng, để PDF in số bản chứ không in chuỗi commit đã bị squash mất.
+Dựng bản phát hành: tag commit rồi dựng, để PDF mang số bản chứ không mang chuỗi commit đã bị squash mất.
 
 ```bash
 git tag v1.0.0 && ./build-pdf.sh
@@ -20,6 +20,13 @@ git tag v1.0.0 && ./build-pdf.sh
 Cấu trúc: thêm hai phần không đánh số — **mở đầu** (lời mở đầu, cách đọc, bảng thuật ngữ)
 và **cuối sách** (lời cảm ơn) — cùng chương 22 mới về **phin**. Số chương chính từ 30
 lên 31; các chương cũ 22–30 dời thành 23–31, mọi tham chiếu "xem chương N" đã sửa theo.
+
+Nhãn bằng chứng: số hiệu nguồn nằm trong tem (`Hợp lý · 68`) thay vì đứng riêng
+bên cạnh (`[Hợp lý] [68]`), và mục Cách đọc nói rõ số sau dấu `·` tra ở phụ lục A2.
+
+Bản in: số bản dựng **rời khỏi trang giấy** — không còn ở bìa và chân mỗi trang,
+mà nằm trong metadata PDF (ô `Title`). Hash commit ở chân mọi trang là dấu của
+log dựng, không phải của một cuốn sách.
 
 ## 1.0.0 — 30.10.2026
 
