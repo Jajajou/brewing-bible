@@ -670,6 +670,52 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 
 <p>Ratio sets <strong>TDS almost linearly</strong> — it is the most predictable lever in the whole process. Change 1:16 to 1:15 and the cup comes out about 6–7% stronger, almost certainly. No other lever predicts that well.</p>
 
+<p>One rough formula ties the three numbers together:</p>
+
+<div class="fx">
+<span class="fx-label">Rough formula</span>
+TDS ≈ EY × dose ÷ (water − 2 × dose)
+</div>
+
+<p>The "2" is the grams of water each gram of coffee holds back in the bed. That is an experience figure, not a constant: it shifts with the brewer, the grind and how you pour. Use the formula to see the <em>relationship</em> — raise the ratio and TDS falls even when EY stays put — not to report a TDS number.</p>
+
+<h3>How TDS changes flavour</h3>
+
+<p>This is the part usually skipped: TDS does not only change "strength". It changes the flavour profile. A trained panel at UC Davis found, across all three roast levels <span class="tier tier-a">Evidence</span> [58]:</p>
+
+<ul>
+<li><strong>Bitterness, sourness and smoky flavour rise with TDS.</strong></li>
+<li><strong>Sweetness, fruit and floral notes fall as TDS rises.</strong> Sweetness runs inversely to TDS at every roast level — so a lighter cup often reads as sweeter, not thinner.</li>
+</ul>
+
+<p>That matches the fraction-by-fraction tasting in chapter 8: later fractions had lower TDS and were judged sweeter and more floral [55].</p>
+
+<p>And the "ideal spot" is not a fixed box. Asked of 118 regular black-coffee drinkers, liking depended most on TDS and second on EY — but they <strong>split into two preference clusters</strong> by TDS, with two differently shaped response surfaces <span class="tier tier-a">Evidence</span> [59]. The authors conclude the Brewing Control Chart's "ideal" box needs reconsidering to reflect that.</p>
+
+<p>In practice: 1.15–1.35% is a good place to start, not a place you must finish. Your taste may sit outside it, and that is not a brewing fault.</p>
+
+<h3>Two ways to make a cup lighter — and they are not the same</h3>
+
+<p>When a cup is too strong there are two ways to lower TDS, and they do different things to EY:</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>What you do</th><th>TDS</th><th>EY</th><th>How flavour changes</th></tr></thead>
+<tbody>
+<tr><td>Pour more water <strong>through the bed</strong></td><td>Falls</td><td><strong>Rises</strong></td><td>Lighter, but extracted deeper — can add bitterness and astringency</td></tr>
+<tr><td>Stop early, then <strong>add water to the cup</strong></td><td>Falls</td><td><strong>Unchanged</strong></td><td>Only lighter; the flavour profile keeps its proportions</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>The distinction matters because most people only ever use the first, then conclude "this coffee cannot take a lighter ratio" — when they just changed two variables at once.</p>
+
+<div class="callout ok">
+<p class="callout-title">Experiment: find your preferred strength without changing extraction</p>
+<p>Brew one concentrated batch on your base recipe. Split it into three cups. Add hot water to each to reach 1:15, 1:16 and 1:17. Taste all three side by side.</p>
+<p>Because all three come from one batch, the EY is <em>identical</em> — the only thing that differs is TDS. Whichever cup you prefer tells you your preferred strength, separated from everything about extraction. Write that number down; it is yours, not a standard's.</p>
+</div>
+
 <h3>Why you cannot taste “extraction”</h3>
 
 <p>This is the most important point in the chapter, and it explains why so many people adjust in the wrong direction for years.</p>
@@ -3187,7 +3233,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p>The rule is simple: only sentences an outside document can check need a source. Statements about experience, method and advice do not — and none of them should be given a source that merely sounds scientific. Peer-reviewed work with a DOI comes first; where none exists, the industry standard or the primary source from the person who proposed the method.</p>
 
-<p>Fifty-seven sources are grouped by subject in A2 and by chapter in A3. Of the 30 chapters, ten rest directly on documents, six rest on them halfway, twelve are method and need no outside source. Two — 17 and 20 — still have no source at all for their central claim; both now say so in the chapter itself and carry the Plausible label.</p>
+<p>Fifty-nine sources are grouped by subject in A2 and by chapter in A3. Of the 30 chapters, ten rest directly on documents, six rest on them halfway, twelve are method and need no outside source. Two — 17 and 20 — still have no source at all for their central claim; both now say so in the chapter itself and carry the Plausible label.</p>
 
 <div class="callout">
 <p class="callout-title">A source is not evidence</p>
@@ -3198,7 +3244,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
     "ch-nguon-danh-muc": {
       title: "Bibliography",
-      lede: "Fifty-seven sources, grouped by subject. Each entry carries a DOI or a link that was opened and read, plus one line on what that source contributes.",
+      lede: "Fifty-nine sources, grouped by subject. Each entry carries a DOI or a link that was opened and read, plus one line on what that source contributes.",
       minutes: 12,
       tags: ["appendix", "sources"],
       body: `
@@ -3430,6 +3476,14 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <p><strong>[57]</strong> Wang, X., & Lim, L.-T. (2021). <em>Modeling study of coffee extraction at different temperature and grind size conditions to better understand the cold and hot brewing process.</em> Journal of Food Process Engineering, 44(8). doi.org/10.1111/jfpe.13748</p>
 
 <p>Extraction kinetics measured by TDS at 4, 23, 50 and 93 °C across four grind sizes. Ultimate extraction yield rises with brew temperature and falls with particle size — the direction of the temperature effect in chapter 9 is measured. The paper gives no coefficient for percent extraction per 5 °C; the 2–4% figure circulating in brewing circles still has no source. Limit: a stirred immersion experiment, not a pour over.</p>
+
+<p><strong>[58]</strong> Frost, S. C., Ristenpart, W. D., & Guinard, J.-X. (2020). <em>Effects of brew strength, brew yield, and roast on the sensory quality of drip brewed coffee.</em> Journal of Food Science, 85(8), 2530–2543. doi.org/10.1111/1750-3841.15326</p>
+
+<p>One wet-washed Arabica at three roast levels, brewed to nine targets by TDS and extraction, then put through descriptive analysis. Bitterness, sourness and smoky flavour rise with TDS; sweetness, fruit and floral notes fall. Sweetness runs inversely to TDS at all three roast levels — the source for "How TDS changes flavour" in chapter 7. Limit: a drip brewer, one coffee.</p>
+
+<p><strong>[59]</strong> Cotter, A. R., Batali, M. E., Ristenpart, W. D., & Guinard, J.-X. (2021). <em>Consumer preferences for black coffee are spread over a wide range of brew strengths and extraction yields.</em> Journal of Food Science, 86(1), 194–205. doi.org/10.1111/1750-3841.15561</p>
+
+<p>118 black-coffee drinkers, more than 3,000 individual tastings. Cluster analysis found two preference segments, separated most strongly by TDS. The authors conclude the Brewing Control Chart's "ideal" box needs reconsidering — the source for "the ideal spot is taste, not a fixed box". Limit: most participants were of college age.</p>
 <div class="callout">
 <p class="callout-title">Three papers I could not open in full</p>
 <p>[17], [22] and the DOI page for [5] were blocked by the publishers during the check. Their details here come from abstracts and from the SCA review. If you need a sentence-exact citation, open the full text.</p>

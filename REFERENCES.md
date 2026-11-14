@@ -444,6 +444,26 @@ DOI [10.1111/jfpe.13748](https://doi.org/10.1111/jfpe.13748)
 trăm mức chiết cho mỗi 5 °C"; con số 2–4% trong giới pha chế vẫn không có nguồn. Thí nghiệm ngâm
 khuấy, không phải pour over.
 
+**[58]** Frost, S. C., Ristenpart, W. D., & Guinard, J.-X. (2020). *Effects of brew strength,
+brew yield, and roast on the sensory quality of drip brewed coffee.*
+Journal of Food Science, 85(8), 2530–2543.
+DOI [10.1111/1750-3841.15326](https://doi.org/10.1111/1750-3841.15326)
+
+Một con Arabica sơ chế ướt, rang ba mức, pha thành chín mẻ khác nhau theo TDS và mức chiết, rồi
+phân tích mô tả. 21 trong 30 thuộc tính đổi theo ít nhất một yếu tố. Bảy thuộc tính đổi ở cả ba
+mức rang, gồm **đắng, chua, ngọt, vị gỗ cháy/tro và vị cam chanh**. Đây là nguồn cho câu "độ ngọt
+tỉ lệ nghịch với TDS" ở chương 7. Giới hạn: máy pha nhỏ giọt, một con cà.
+
+**[59]** Cotter, A. R., Batali, M. E., Ristenpart, W. D., & Guinard, J.-X. (2021). *Consumer
+preferences for black coffee are spread over a wide range of brew strengths and extraction yields.*
+Journal of Food Science, 86(1), 194–205.
+DOI [10.1111/1750-3841.15561](https://doi.org/10.1111/1750-3841.15561)
+
+118 người uống cà phê đen, hơn 3.000 lượt nếm. Phân tích cụm cho **hai nhóm sở thích**, và biến
+chia tách chúng mạnh nhất là TDS. Hai nhóm cho hai mặt cong khác nhau (một vòm, một yên ngựa).
+Nhóm tác giả kết luận ô "lý tưởng" của Brewing Control Chart cần xem lại. Phần lớn người thử ở
+tuổi sinh viên — không phải mẫu đại diện cho mọi người uống cà phê.
+
 ---
 
 ## Đối chiếu theo chương
@@ -519,6 +539,9 @@ chỉ đọc được một phần — chi tiết nằm ngay trong mục của c
 Lớp sau (14/11/2026) thêm **[55]–[57]**, đưa tổng số lên **57**: hai nguồn cho chương 8
 (nếm theo phân đoạn thời gian, động học ở thang giây) và một cho chương 9 (mức chiết theo
 nhiệt độ). Cả ba đã đối chiếu Crossref.
+
+Lớp mục 3 thêm **[58]–[59]** (cảm quan theo TDS; hai nhóm sở thích của người uống), đưa tổng số
+lên **59**.
 
 ---
 

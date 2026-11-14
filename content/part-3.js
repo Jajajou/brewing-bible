@@ -54,6 +54,52 @@ window.BOOK_PARTS.push({
 
 <p>Tỉ lệ quyết định <strong>TDS gần như tuyến tính</strong> — đây là đòn bẩy dễ dự đoán nhất trong toàn bộ quá trình. Nếu bạn đổi từ 1:16 sang 1:15, ly cà sẽ đậm hơn khoảng 6–7%, gần như chắc chắn. Không có đòn bẩy nào khác dự đoán được tốt đến vậy.</p>
 
+<p>Có một công thức gần đúng nối ba con số lại với nhau:</p>
+
+<div class="fx">
+<span class="fx-label">Công thức gần đúng</span>
+TDS ≈ EY × liều ÷ (nước − 2 × liều)
+</div>
+
+<p>Con số "2" là số gam nước mà mỗi gam cà giữ lại trong bã. Đó là con số kinh nghiệm, không phải hằng số: nó đổi theo phễu, cỡ xay và cách bạn rót. Dùng công thức để thấy <em>quan hệ</em> — tăng tỉ lệ thì TDS giảm dù EY đứng yên — đừng dùng nó để báo cáo một con số TDS.</p>
+
+<h3>TDS đổi vị như thế nào</h3>
+
+<p>Đây là phần thường bị bỏ qua: TDS không chỉ đổi "độ đậm". Nó đổi cả hồ sơ vị. Hội đồng nếm có đào tạo của UC Davis thấy, trên cả ba mức rang <span class="tier tier-a">Bằng chứng</span> [58]:</p>
+
+<ul>
+<li><strong>Đắng, chua và vị khói tăng theo TDS.</strong></li>
+<li><strong>Ngọt, trái cây và hoa giảm khi TDS tăng.</strong> Độ ngọt tỉ lệ nghịch với TDS ở mọi mức rang — nên ly loãng hơn thường được cảm nhận là ngọt hơn, không phải nhạt hơn.</li>
+</ul>
+
+<p>Điều này khớp với kết quả nếm theo phân đoạn ở chương 8: các phần sau có TDS thấp hơn và được cho là ngọt hơn, nhiều hương hoa hơn [55].</p>
+
+<p>Còn "điểm lý tưởng" thì không phải một ô cố định. Khi hỏi 118 người uống cà phê đen thường ngày, mức thích phụ thuộc vào TDS nhiều nhất và EY thứ hai — nhưng họ <strong>tách thành hai nhóm sở thích</strong> theo TDS, với hai mặt cong khác nhau <span class="tier tier-a">Bằng chứng</span> [59]. Nhóm tác giả kết luận rằng ô "lý tưởng" của biểu đồ Brewing Control Chart cần được xem lại cho đúng với chuyện đó.</p>
+
+<p>Nghĩa thực hành: vùng 1,15–1,35% là chỗ tốt để bắt đầu, không phải chỗ bạn phải về đích. Khẩu vị của bạn có thể nằm ngoài nó, và điều đó không phải lỗi pha.</p>
+
+<h3>Hai cách làm ly loãng hơn — và chúng không giống nhau</h3>
+
+<p>Khi ly cà quá đậm, có hai cách giảm TDS, và chúng tác động khác nhau lên EY:</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Cách làm</th><th>TDS</th><th>EY</th><th>Vị đổi thế nào</th></tr></thead>
+<tbody>
+<tr><td>Rót thêm nước <strong>qua bã</strong></td><td>Giảm</td><td><strong>Tăng</strong></td><td>Loãng hơn, nhưng chiết sâu hơn — có thể thêm đắng và chát</td></tr>
+<tr><td>Dừng sớm, rồi <strong>thêm nước vào cốc</strong></td><td>Giảm</td><td><strong>Giữ nguyên</strong></td><td>Chỉ loãng hơn; hồ sơ vị giữ nguyên tỉ lệ</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Phân biệt này quan trọng vì phần lớn người pha chỉ dùng cách thứ nhất, rồi kết luận "cà này không chịu được tỉ lệ loãng" — trong khi họ vừa đổi hai biến cùng lúc.</p>
+
+<div class="callout ok">
+<p class="callout-title">Thí nghiệm: tìm độ đậm ưa thích mà không đổi mức chiết</p>
+<p>Pha một mẻ cốt theo công thức nền của bạn. Chia ra ba cốc. Thêm nước nóng vào từng cốc để thành tỉ lệ 1:15, 1:16 và 1:17. Nếm cả ba cạnh nhau.</p>
+<p>Vì cả ba đến từ cùng một mẻ, EY <em>giống nhau</em> — thứ duy nhất khác là TDS. Cốc bạn thích nhất cho bạn biết độ đậm ưa thích của mình, tách khỏi mọi chuyện về mức chiết. Ghi lại con số đó; nó là của bạn, không phải của chuẩn nào.</p>
+</div>
+
 <h3>Vì sao bạn không thể nếm “chiết xuất”</h3>
 
 <p>Đây là điểm quan trọng nhất của chương, và nó giải thích vì sao rất nhiều người chỉnh sai hướng trong nhiều năm.</p>

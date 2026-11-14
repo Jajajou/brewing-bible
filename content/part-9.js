@@ -22,7 +22,7 @@
 
 <p>Nguyên tắc lập rất đơn giản: chỉ câu có thể kiểm chứng bằng tài liệu bên ngoài mới cần nguồn. Câu về kinh nghiệm, quy trình và lời khuyên thì không — và không được gán cho chúng một nguồn nghe có vẻ khoa học. Ưu tiên bài bình duyệt có DOI; khi không có, dùng tiêu chuẩn ngành hoặc nguồn sơ cấp của chính người đề xuất phương pháp.</p>
 
-<p>Năm mươi bảy nguồn được xếp theo chủ đề ở A2 và theo chương ở A3. Trong 30 chương, mười chương dựa trực tiếp vào tài liệu, sáu chương dựa một phần, mười hai chương là quy trình nên không cần nguồn ngoài. Hai chương — 17 và 20 — vẫn không có nguồn nào cho khẳng định trung tâm; cả hai giờ nói thẳng điều đó trong thân chương và gắn nhãn Hợp lý.</p>
+<p>Năm mươi chín nguồn được xếp theo chủ đề ở A2 và theo chương ở A3. Trong 30 chương, mười chương dựa trực tiếp vào tài liệu, sáu chương dựa một phần, mười hai chương là quy trình nên không cần nguồn ngoài. Hai chương — 17 và 20 — vẫn không có nguồn nào cho khẳng định trung tâm; cả hai giờ nói thẳng điều đó trong thân chương và gắn nhãn Hợp lý.</p>
 
 <div class="callout">
 <p class="callout-title">Có nguồn không có nghĩa là đúng</p>
@@ -34,7 +34,7 @@
       {
         id: "ch-nguon-danh-muc",
         title: "Thư mục",
-        lede: "Năm mươi bảy nguồn, xếp theo chủ đề. Mỗi mục có DOI hoặc đường dẫn đã mở và đọc, kèm một câu nói nguồn đó đóng góp gì.",
+        lede: "Năm mươi chín nguồn, xếp theo chủ đề. Mỗi mục có DOI hoặc đường dẫn đã mở và đọc, kèm một câu nói nguồn đó đóng góp gì.",
         minutes: 12,
         tags: ["phụ lục", "nguồn"],
         body: `
@@ -266,6 +266,14 @@
 <p><strong>[57]</strong> Wang, X., & Lim, L.-T. (2021). <em>Modeling study of coffee extraction at different temperature and grind size conditions to better understand the cold and hot brewing process.</em> Journal of Food Process Engineering, 44(8). doi.org/10.1111/jfpe.13748</p>
 
 <p>Đo động học chiết theo TDS ở 4, 23, 50 và 93 °C với bốn cỡ xay. Mức chiết cuối tăng theo nhiệt độ pha và giảm theo cỡ hạt — chiều của hiệu ứng nhiệt ở chương 9 có đo. Bài không cho hệ số phần trăm mức chiết cho mỗi 5 °C; con số 2–4% lưu hành trong giới pha chế vẫn không có nguồn. Giới hạn: thí nghiệm ngâm khuấy, không phải pour over.</p>
+
+<p><strong>[58]</strong> Frost, S. C., Ristenpart, W. D., & Guinard, J.-X. (2020). <em>Effects of brew strength, brew yield, and roast on the sensory quality of drip brewed coffee.</em> Journal of Food Science, 85(8), 2530–2543. doi.org/10.1111/1750-3841.15326</p>
+
+<p>Một con Arabica sơ chế ướt, rang ba mức, pha thành chín mẻ theo TDS và mức chiết, rồi phân tích mô tả. Đắng, chua và vị khói tăng theo TDS; ngọt, trái cây và hoa giảm. Độ ngọt tỉ lệ nghịch với TDS ở cả ba mức rang — nguồn cho mục "TDS đổi vị như thế nào" ở chương 7. Giới hạn: máy pha nhỏ giọt, một con cà.</p>
+
+<p><strong>[59]</strong> Cotter, A. R., Batali, M. E., Ristenpart, W. D., & Guinard, J.-X. (2021). <em>Consumer preferences for black coffee are spread over a wide range of brew strengths and extraction yields.</em> Journal of Food Science, 86(1), 194–205. doi.org/10.1111/1750-3841.15561</p>
+
+<p>118 người uống cà phê đen, hơn 3.000 lượt nếm. Phân tích cụm cho hai nhóm sở thích, tách nhau mạnh nhất theo TDS. Nhóm tác giả kết luận ô "lý tưởng" của Brewing Control Chart cần xem lại — nguồn cho câu "điểm lý tưởng là khẩu vị, không phải một ô cố định". Giới hạn: phần lớn người thử ở tuổi sinh viên.</p>
 <div class="callout">
 <p class="callout-title">Ba bài không mở được toàn văn</p>
 <p>[17], [22] và trang DOI của [5] bị nhà xuất bản chặn trong lúc tra. Chi tiết trong các mục đó lấy từ tóm tắt và từ bài tổng quan của SCA. Nếu bạn cần trích dẫn chính xác đến từng câu, phải mở bản đầy đủ.</p>
