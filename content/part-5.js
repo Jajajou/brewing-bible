@@ -353,7 +353,7 @@ window.BOOK_PARTS.push({
 
 <p>Hai câu sau được nói rất nhiều: rót ngắt quãng cho ly "trong" hơn; rót liên tục cho ly "tròn" hơn. Chúng ta không tìm được <strong>thử nghiệm nếm công khai nào</strong> so sánh hai cách rót này với mọi thứ khác giữ nguyên <span class="tier tier-c">Truyền miệng</span>.</p>
 
-<p>Chúng có cơ sở cơ chế, số lần rót đổi mức xáo trộn, và mức xáo trộn đổi độ đều. Nhưng từ "cơ chế hợp lý" tới "ngắt quãng cho ly trong hơn" là một bước mà chưa ai bước bằng dữ liệu. Hãy coi hai câu đó là <em>giả thuyết để bạn tự thử</em>, không phải kết luận để chép.</p>
+<p>Chúng có cơ sở cơ chế: số lần rót đổi mức xáo trộn, và mức xáo trộn đổi độ đều. Nhưng từ "cơ chế hợp lý" tới "ngắt quãng cho ly trong hơn" là một bước mà chưa ai bước bằng dữ liệu. Hãy coi hai câu đó là <em>giả thuyết để bạn tự thử</em>, không phải kết luận để chép.</p>
 
 <p>Cách thử: cùng con cà, cùng cỡ xay, cùng tổng nước, cùng nhiệt độ, chỉ đổi nhịp rót. Pha mỗi kiểu hai lần. Nếu bạn không phân biệt được, đó cũng là một câu trả lời và nó nói rằng bạn nên dành công sức cho nước hoặc cỡ xay.</p>
 
@@ -742,7 +742,7 @@ window.BOOK_PARTS.push({
 <tr><td>Vừa chua vừa đắng, không nốt rõ</td><td>Chiết không đều (channeling)</td><td><strong>Kỹ thuật rót</strong>: hạ độ cao, xoáy ốc</td><td>Xoay phễu sau bloom</td></tr>
 <tr><td>Đắng chỉ ở cuối ly, hậu vị khét</td><td>Fines cháy ở đáy</td><td><strong>Giảm khuấy</strong></td><td>Xay thô hơn; cải thiện máy xay</td></tr>
 <tr><td>Chua gắt, the, kim loại</td><td>Nước thiếu đệm (alkalinity quá thấp)</td><td><strong>Thêm khoáng vào nước</strong></td><td>Giảm nhiệt độ</td></tr>
-<tr><td>Phẳng, mất trái cây, đắng nền</td><td>Nước quá kiềm</td><td><strong>Pha loãng nước với RO</strong></td><td>, </td></tr>
+<tr><td>Phẳng, mất trái cây, đắng nền</td><td>Nước quá kiềm</td><td><strong>Pha loãng nước với RO</strong></td><td></td></tr>
 <tr><td>Rút quá nhanh (&lt; 30 s)</td><td>Xay quá thô, hoặc channeling</td><td><strong>Xay mịn hơn</strong></td><td>Kiểm tra bã để loại trừ channeling</td></tr>
 <tr><td>Rút quá chậm (&gt; 90 s)</td><td>Nghẹt do fines</td><td><strong>Xay thô hơn</strong></td><td>Giảm khuấy; đổi giấy lọc</td></tr>
 <tr><td>Hương đẹp nhưng hậu vị trống</td><td>Chiết thiếu phần cuối</td><td><strong>Tăng nhẹ nhiệt</strong></td><td>Tăng nhẹ thời gian</td></tr>

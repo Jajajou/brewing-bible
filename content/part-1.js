@@ -112,7 +112,7 @@ window.BOOK_PARTS.push({
 
 <h3>Vì sao cửa sổ của rang đậm lại hẹp</h3>
 
-<p>Hãy tưởng tượng chiết xuất như việc rút tiền từ một tài khoản. Rang sáng: tài khoản nhỏ, nhưng bên trong toàn tiền tốt. Bạn phải rút mạnh (xay mịn, nước nóng, khuấy) để lấy đủ và nếu rút quá tay, bạn lấy thêm ít chất đắng. Rang đậm: tài khoản lớn, nhưng đã có sẵn một khoản phí cố định, hợp chất đắng sinh ra từ quá trình rang. Bạn chỉ cần rút nhẹ là đủ, và bất kỳ lần rút dư nào cũng lấy thêm phần đắng đó.</p>
+<p>Hãy tưởng tượng chiết xuất như việc rút tiền từ một tài khoản. Rang sáng: tài khoản nhỏ, nhưng bên trong toàn tiền tốt. Bạn phải rút mạnh (xay mịn, nước nóng, khuấy) để lấy đủ và nếu rút quá tay, bạn lấy thêm ít chất đắng. Rang đậm: tài khoản lớn, nhưng đã có sẵn một khoản phí cố định: hợp chất đắng sinh ra từ quá trình rang. Bạn chỉ cần rút nhẹ là đủ, và bất kỳ lần rút dư nào cũng lấy thêm phần đắng đó.</p>
 
 <p>Nói cách khác: <strong>rang đậm tha thứ cho việc chiết thiếu, nhưng trừng phạt việc chiết dư rất nặng.</strong> Và chiết dư là lỗi phổ biến hơn nhiều ở người mới, vì họ thường được khuyên "xay mịn hơn, nước nóng hơn" khi ly cà nhạt.</p>
 
@@ -125,7 +125,7 @@ window.BOOK_PARTS.push({
 
 <p>Đây là một trong những điểm gây nhầm lẫn nhiều nhất, và ít ai nói ra: <strong>không có định nghĩa chung cho "medium roast".</strong> Mỗi nhà rang có thang riêng. Một "medium" của nhà A có thể sáng hơn "light" của nhà B.</p>
 
-<p>Có những thang đo khách quan, Agtron, đo màu bằng quang phổ, hoặc thang "Light/Medium/Dark" của SCAA cũ hơn nhưng chúng hiếm khi được in trên bao bì bán lẻ. Và ngay cả Agtron cũng có hai biến thể (whole bean và ground), cho số khác nhau <span class="tier tier-a">Bằng chứng <b class="cite">· 12, 13, 14</b></span>.</p>
+<p>Có những thang đo khách quan (Agtron, đo màu bằng quang phổ; hoặc thang "Light/Medium/Dark" của SCAA cũ hơn) nhưng chúng hiếm khi được in trên bao bì bán lẻ. Và ngay cả Agtron cũng có hai biến thể (whole bean và ground), cho số khác nhau <span class="tier tier-a">Bằng chứng <b class="cite">· 12, 13, 14</b></span>.</p>
 
 <p>Hệ quả thực dụng: <strong>đừng dùng nhãn "medium" để chọn tham số. Hãy dùng mắt và dùng ly cà.</strong></p>
 
@@ -240,12 +240,12 @@ window.BOOK_PARTS.push({
 
 <p>Nếu bạn mua nhiều hơn mức uống trong ba tuần, trữ đông là cách hợp lý nhất để giữ chất lượng dài hạn <span class="tier tier-b">Hợp lý</span>. Nhiệt độ thấp làm chậm gần như toàn bộ các phản ứng phân huỷ, và hơi ẩm trong tủ đông thấp hơn tủ lạnh rất nhiều.</p>
 
-<p>Nhưng phải nói rõ mức bằng chứng, vì đây là chỗ dễ tin quá mức. Không có nghiên cứu nào trong thư mục của sách thử <em>trữ đông dài hạn</em> rồi đo cảm quan. Nghiên cứu gần nhất ([24]) bảo quản ở <strong>5 °C, ngăn mát, không phải ngăn đông</strong>, trong một tháng, và thấy nhiệt độ thấp làm chậm thay đổi. Đó là một trục đúng hướng, không phải một phép đo trữ đông. Ba nguồn còn lại đo bảo quản ở nhiệt độ phòng. Nên câu này là suy luận từ cơ chế, không phải kết quả thực nghiệm.</p>
+<p>Nhưng phải nói rõ mức bằng chứng, vì đây là chỗ dễ tin quá mức. Không có nghiên cứu nào trong thư mục của sách thử <em>trữ đông dài hạn</em> rồi đo cảm quan. Nghiên cứu gần nhất ([24]) bảo quản ở <strong>5 °C (ngăn mát, không phải ngăn đông)</strong> trong một tháng, và thấy nhiệt độ thấp làm chậm thay đổi. Đó là một trục đúng hướng, không phải một phép đo trữ đông. Ba nguồn còn lại đo bảo quản ở nhiệt độ phòng. Nên câu này là suy luận từ cơ chế, không phải kết quả thực nghiệm.</p>
 
 <p>Nhưng có điều kiện, và điều kiện đó quan trọng:</p>
 
 <ul>
-<li><strong>Chia thành phần một lần pha</strong> trước khi đông. Bạn không thể rã đông rồi đông lại, mỗi chu kỳ tạo ngưng tụ ẩm bên trong bao.</li>
+<li><strong>Chia thành phần một lần pha</strong> trước khi đông. Bạn không thể rã đông rồi đông lại: mỗi chu kỳ tạo ngưng tụ ẩm bên trong bao.</li>
 <li><strong>Hút chân không hoặc nén hết không khí</strong> khỏi từng phần.</li>
 <li><strong>Xay khi còn đông lạnh</strong>, không rã đông trước. Hạt đông lạnh xay đều hơn vì giòn hơn, và giữ được hương vì ít thời gian tiếp xúc không khí ở nhiệt độ phòng.</li>
 </ul>
@@ -254,7 +254,7 @@ window.BOOK_PARTS.push({
 
 <p>Độ tươi quan trọng. Nhưng nếu bạn phải chọn giữa việc tối ưu độ tươi và việc sửa nước, hãy sửa nước trước. Một bao cà 20 ngày tuổi pha bằng nước đúng sẽ ngon hơn một bao cà 5 ngày tuổi pha bằng nước có độ kiềm 250 ppm. Không có thử nghiệm nào đặt hai bao cà đó cạnh nhau, nên đây là suy ra từ cơ chế, không phải từ một phép đo: alkalinity trung hoà trực tiếp các acid tạo vị trái cây, trong khi oxy hoá ở mức 20 ngày chỉ làm giảm nhẹ cường độ hương <span class="tier tier-b">Hợp lý</span>.</p>
 
-<p>Nói cách khác: <strong>thứ tự ưu tiên khi bạn chỉ có thể sửa một thứ là: nước → cỡ xay → độ tươi → mọi thứ còn lại.</strong> Đây là thứ tự chẩn đoán, không phải một bảng xếp hạng đã đo, chương 10 nói rõ chỗ nào đo được và chỗ nào không.</p>
+<p>Nói cách khác: <strong>thứ tự ưu tiên khi bạn chỉ có thể sửa một thứ là: nước → cỡ xay → độ tươi → mọi thứ còn lại.</strong> Đây là thứ tự chẩn đoán, không phải một bảng xếp hạng đã đo: chương 10 nói rõ chỗ nào đo được và chỗ nào không.</p>
 `
   }
 

@@ -39,7 +39,7 @@ window.BOOK_PARTS.push({
 
 <p><strong>Alkalinity</strong> (độ kiềm) là khả năng trung hoà acid của nước, chủ yếu nhờ ion bicarbonate. Đây là một phép đo <em>khả năng đệm</em>, không phải nồng độ một chất cụ thể. Đơn vị thường dùng trong ngành cà phê là <strong>ppm as CaCO₃</strong>.</p>
 
-<p>Cơ chế rất trực tiếp: acid hữu cơ trong cà phê, citric, malic, acetic, lactic, chlorogenic, chính là những hợp chất tạo cảm giác tươi sáng, trái cây, và "sống". Bicarbonate trung hoà chúng theo phản ứng:</p>
+<p>Cơ chế rất trực tiếp: acid hữu cơ trong cà phê (citric, malic, acetic, lactic, chlorogenic) chính là những hợp chất tạo cảm giác tươi sáng, trái cây, và "sống". Bicarbonate trung hoà chúng theo phản ứng:</p>
 
 <div class="formula">
 <span class="fx-label">Phản ứng trung hoà</span>
@@ -50,7 +50,7 @@ HCO₃⁻ + H⁺ → H₂CO₃ → CO₂ + H₂O
 
 <div class="callout ok">
 <p class="callout-title">Bằng chứng ở mức nào?</p>
-<p>Đây là một trong số ít những khẳng định trong cuốn sách có nền tảng vững. Nghiên cứu cảm quan có kiểm soát của Christina Rune và cộng sự, Đại học Copenhagen (2026), cho thấy <strong>bicarbonate là yếu tố chi phối cảm nhận hương vị</strong>, trong khi việc thêm canxi ở mức cao, cao hơn cả nước uống thông thường, <em>không</em> tạo ra khác biệt cảm quan đáng kể <span class="tier tier-a">Bằng chứng</span>. Đây cũng là nghiên cứu đầu tiên kiểm chứng bằng cảm quan có kiểm soát đúng cái vùng nước mà ngành vẫn gọi là “lý tưởng”. Đây là lý do cuốn sách này đặt alkalinity lên đầu và độ cứng xuống sau.</p>
+<p>Đây là một trong số ít những khẳng định trong cuốn sách có nền tảng vững. Nghiên cứu cảm quan có kiểm soát của Christina Rune và cộng sự, Đại học Copenhagen (2026), cho thấy <strong>bicarbonate là yếu tố chi phối cảm nhận hương vị</strong>, trong khi việc thêm canxi ở mức cao (cao hơn cả nước uống thông thường) <em>không</em> tạo ra khác biệt cảm quan đáng kể <span class="tier tier-a">Bằng chứng</span>. Đây cũng là nghiên cứu đầu tiên kiểm chứng bằng cảm quan có kiểm soát đúng cái vùng nước mà ngành vẫn gọi là “lý tưởng”. Đây là lý do cuốn sách này đặt alkalinity lên đầu và độ cứng xuống sau.</p>
 </div>
 
 <h3>Chỉ tiêu tham chiếu</h3>
@@ -64,7 +64,7 @@ HCO₃⁻ + H⁺ → H₂CO₃ → CO₂ + H₂O
 <tr><td>Alkalinity (as CaCO₃)</td><td><strong>~40 ppm</strong></td><td>40–75 ppm*</td></tr>
 <tr><td>Độ cứng tổng (as CaCO₃)</td><td>~68 ppm</td><td>51–175 ppm</td></tr>
 <tr><td>pH</td><td>~7,0</td><td>6–8</td></tr>
-<tr><td>Na⁺</td><td>, </td><td>&lt; 10 ppm</td></tr>
+<tr><td>Na⁺</td><td>&lt; 10 ppm</td></tr>
 </tbody>
 </table>
 </div>

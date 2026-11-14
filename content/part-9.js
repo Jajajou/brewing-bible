@@ -22,7 +22,7 @@
 
 <p>Nguyên tắc lập rất đơn giản: chỉ câu có thể kiểm chứng bằng tài liệu bên ngoài mới cần nguồn. Câu về kinh nghiệm, quy trình và lời khuyên thì không và không được gán cho chúng một nguồn nghe có vẻ khoa học. Ưu tiên bài bình duyệt có DOI; khi không có, dùng tiêu chuẩn ngành hoặc nguồn sơ cấp của chính người đề xuất phương pháp.</p>
 
-<p>Bảy mươi mốt nguồn được xếp theo chủ đề ở A2 và theo chương ở A3. Trong 31 chương, mười chương dựa trực tiếp vào tài liệu, sáu chương dựa một phần, mười hai chương là quy trình nên không cần nguồn ngoài. Hai chương: 17 và 20, vẫn không có nguồn nào cho khẳng định trung tâm; cả hai giờ nói thẳng điều đó trong thân chương và gắn nhãn Hợp lý.</p>
+<p>Bảy mươi mốt nguồn được xếp theo chủ đề ở A2 và theo chương ở A3. Trong 31 chương, mười chương dựa trực tiếp vào tài liệu, sáu chương dựa một phần, mười hai chương là quy trình nên không cần nguồn ngoài. Hai chương 17 và 20 vẫn không có nguồn nào cho khẳng định trung tâm; cả hai giờ nói thẳng điều đó trong thân chương và gắn nhãn Hợp lý.</p>
 
 <div class="callout">
 <p class="callout-title">Có nguồn không có nghĩa là đúng</p>
@@ -56,7 +56,7 @@
 
 <p><strong>[4]</strong> Specialty Coffee Association (2018). <em>The 2018 SCA Water Quality Handbook.</em> Tài liệu trả phí, không có bản PDF công khai.</p>
 
-<p>Đây là nguồn của 40–75 ppm alkalinity và 51–175 ppm độ cứng, với điều kiện mốc 75 chỉ áp dụng khi độ cứng nằm trong 150–175 ppm. Sổ tay <strong>không</strong> đặt một dải pH; dải 6–8 với mục tiêu 7,0 lấy từ bảng tiêu chuẩn cà phê SCA 2018. Bản trước ghi “pH 6,5–7,5” và gán cho sổ tay, không đúng, đã sửa.</p>
+<p>Đây là nguồn của 40–75 ppm alkalinity và 51–175 ppm độ cứng, với điều kiện mốc 75 chỉ áp dụng khi độ cứng nằm trong 150–175 ppm. Sổ tay <strong>không</strong> đặt một dải pH; dải 6–8 với mục tiêu 7,0 lấy từ bảng tiêu chuẩn cà phê SCA 2018. Bản trước ghi “pH 6,5–7,5” và gán cho sổ tay. Không đúng, đã sửa.</p>
 
 <p><strong>[5]</strong> Lockhart, E. E. (1957). <em>The Soluble Solids in Beverage Coffee as an Index to Cup Quality.</em> Coffee Brewing Institute, Publication No. 27. Nền tảng của biểu đồ kiểm soát pha. Lưu ý: tài liệu 1957 không mang tên "Brewing Control Chart" — cái tên đó là sản phẩm sau này.</p>
 
@@ -346,20 +346,20 @@
 </thead>
 <tbody>
 <tr><td>1</td><td>Thông tin trên bao bì làm thay đổi vị bạn nếm</td><td>Bằng chứng</td><td>[15] [16] [17] [18]</td><td>Một phần, [18] mạnh nhất; [16] phụ thuộc thái độ người nếm; [17] chưa đọc được toàn văn</td></tr>
-<tr><td>2</td><td>Không có định nghĩa chung cho "medium roast"; Agtron có hai biến thể</td><td>, </td><td>[12]–[14] cho phần đo màu</td><td>Một phần</td></tr>
+<tr><td>2</td><td>Không có định nghĩa chung cho "medium roast"; Agtron có hai biến thể</td><td></td><td>[12]–[14] cho phần đo màu</td><td>Một phần</td></tr>
 <tr><td>3</td><td>Trữ đông giữ chất lượng dài hạn</td><td>Hợp lý</td><td>[22] [23] [24] [25]</td><td>Một phần, [24] là 5 °C ngăn mát, một tháng; không có thử nghiệm trữ đông</td></tr>
 <tr><td>3</td><td>20 ngày tuổi pha nước đúng ngon hơn 5 ngày tuổi pha nước kiềm 250 ppm</td><td>"không phải ý kiến"</td><td>không có</td><td>Không có nguồn</td></tr>
 <tr><td>3</td><td>Hạt mới rang nhả CO₂, bọt khí cản nước tiếp xúc; bloom là bước xử lý khí</td><td>Hợp lý</td><td>[20] [21]</td><td>Dẫn được cho phần cơ chế; phần tác dụng cảm quan của bloom thì chưa</td></tr>
 <tr><td>3</td><td>Bảo quản ở nhiệt độ phòng: chất lượng cảm quan giảm dần theo thời gian</td><td>Bằng chứng</td><td>[22] [23] [25] [26]</td><td>Dẫn được, [26] là bài tổng quan, không phải thực nghiệm</td></tr>
 <tr><td>4</td><td>Bicarbonate chi phối cảm nhận, canxi thì không</td><td>Bằng chứng</td><td>[1] trực tiếp, [3] hoá học</td><td>Dẫn được, nguồn đã đổi</td></tr>
 <tr><td>4</td><td>Vùng nước 40–75 ppm alkalinity, 51–175 ppm độ cứng, pH 6–8</td><td>Hợp lý</td><td>[4] và bảng tiêu chuẩn SCA 2018 cho pH</td><td>Dẫn được một phần, pH không lấy từ [4]</td></tr>
-<tr><td>5</td><td>Bút TDS không đo alkalinity; HCO₃ × 0,82; 1 dKH = 17,86 ppm</td><td>, </td><td>hoá học phổ thông</td><td>Không cần nguồn</td></tr>
-<tr><td>6</td><td>Pha loãng tuyến tính; số liệu nước khoáng đóng chai</td><td>, </td><td>nhãn sản phẩm</td><td>Không cần nguồn</td></tr>
-<tr><td>7</td><td>18–22% EY và 1,15–1,35% TDS</td><td>, </td><td>[5], chuẩn Golden Cup, và biểu đồ kiểm soát pha mới ở [9]</td><td>Đã sửa, xem A4</td></tr>
+<tr><td>5</td><td>Bút TDS không đo alkalinity; HCO₃ × 0,82; 1 dKH = 17,86 ppm</td><td></td><td>hoá học phổ thông</td><td>Không cần nguồn</td></tr>
+<tr><td>6</td><td>Pha loãng tuyến tính; số liệu nước khoáng đóng chai</td><td></td><td>nhãn sản phẩm</td><td>Không cần nguồn</td></tr>
+<tr><td>7</td><td>18–22% EY và 1,15–1,35% TDS</td><td></td><td>[5], chuẩn Golden Cup, và biểu đồ kiểm soát pha mới ở [9]</td><td>Đã sửa, xem A4</td></tr>
 <tr><td>8</td><td>"Acid trước, đắng sau" là giả thuyết chưa kiểm chứng</td><td>Truyền miệng</td><td>[32]</td><td>Dẫn được, chính xác</td></tr>
 <tr><td>8</td><td>Nhóm giảm nhanh nhất (trigonelline + TDS), rồi 5-CQA, rồi caffeine</td><td>Bằng chứng</td><td>[8]</td><td>Một phần, bài gộp trigonelline với TDS, không tách hai bậc</td></tr>
 <tr><td>8</td><td>Axit malic, acetic, lactic dưới ngưỡng; chuyên gia không gọi được tên</td><td>Bằng chứng</td><td>[2]</td><td>Dẫn được</td></tr>
-<tr><td>9</td><td>Nhiệt độ là đòn bẩy yếu khi TDS và EY đã cố định</td><td>, </td><td>[6] [7]</td><td>Dẫn được</td></tr>
+<tr><td>9</td><td>Nhiệt độ là đòn bẩy yếu khi TDS và EY đã cố định</td><td></td><td>[6] [7]</td><td>Dẫn được</td></tr>
 </tbody>
 </table>
 
@@ -376,14 +376,14 @@
 <tr><td>10</td><td>Tỉ lệ fines từ 10% lên 15% kéo dài thời gian chiết khoảng 10 giây</td><td>Bằng chứng</td><td>[36]</td><td>Dẫn được, trên capsule, không phải pour-over</td></tr>
 <tr><td>10</td><td>Cỡ xay tương tác với hình học giỏ lọc (vị đắng, hương hoa)</td><td>Bằng chứng</td><td>[38]</td><td>Dẫn được, 45 người thử</td></tr>
 <tr><td>10</td><td>Thứ tự nước → cỡ xay → kỹ thuật là thứ tự chẩn đoán, không phải xếp hạng đo được</td><td>Hợp lý</td><td>không có nghiên cứu trực tiếp</td><td>Đã hạ nhãn, xem A4</td></tr>
-<tr><td>11</td><td>Thang SCA mười mục, 100 điểm (bộ 2004)</td><td>, </td><td>[12] [13]</td><td>Đã ghi chú, xem A4</td></tr>
-<tr><td>12</td><td>8,25 g trên 150 ml; năm cốc mỗi mẫu; quy trình bốn phút</td><td>, </td><td>[12]</td><td>Dẫn được</td></tr>
-<tr><td>13</td><td>Ba lớp thời gian; bánh xe hương vị</td><td>, </td><td>[14]</td><td>Dẫn được</td></tr>
-<tr><td>14</td><td>Cupping không dự đoán pour over</td><td>, </td><td>[30] [31]</td><td>Một phần</td></tr>
-<tr><td>15</td><td>Immersion không có cùng cơ chế channeling</td><td>, </td><td>[10] [11] [31]</td><td>Một phần</td></tr>
+<tr><td>11</td><td>Thang SCA mười mục, 100 điểm (bộ 2004)</td><td></td><td>[12] [13]</td><td>Đã ghi chú, xem A4</td></tr>
+<tr><td>12</td><td>8,25 g trên 150 ml; năm cốc mỗi mẫu; quy trình bốn phút</td><td></td><td>[12]</td><td>Dẫn được</td></tr>
+<tr><td>13</td><td>Ba lớp thời gian; bánh xe hương vị</td><td></td><td>[14]</td><td>Dẫn được</td></tr>
+<tr><td>14</td><td>Cupping không dự đoán pour over</td><td></td><td>[30] [31]</td><td>Một phần</td></tr>
+<tr><td>15</td><td>Immersion không có cùng cơ chế channeling</td><td></td><td>[10] [11] [31]</td><td>Một phần</td></tr>
 <tr><td>16</td><td>Giấy và kim loại cho hồ sơ bay hơi khác nhau</td><td>Hợp lý</td><td>[30]</td><td>Dẫn được, một con cà</td></tr>
-<tr><td>17</td><td>Vòi cách bã 3–5 cm; giữ mực nước trên mặt bã; 5–8 g/s</td><td>, </td><td>không có</td><td>Không có nguồn</td></tr>
-<tr><td>18</td><td>Ba trường phái công thức</td><td>, </td><td>[27] [28] [29]</td><td>Dẫn được</td></tr>
+<tr><td>17</td><td>Vòi cách bã 3–5 cm; giữ mực nước trên mặt bã; 5–8 g/s</td><td></td><td>không có</td><td>Không có nguồn</td></tr>
+<tr><td>18</td><td>Ba trường phái công thức</td><td></td><td>[27] [28] [29]</td><td>Dẫn được</td></tr>
 </tbody>
 </table>
 
@@ -394,19 +394,19 @@
 <tr><th>Ch.</th><th>Khẳng định cần nguồn</th><th>Nhãn trong sách</th><th>Nguồn</th><th>Kết luận</th></tr>
 </thead>
 <tbody>
-<tr><td>19</td><td>Sáu công thức vô địch 2021–2026 dùng liều 14–20 g, tỉ lệ 1:13,3–1:16</td><td>, </td><td>[41] [42] [43] [44] [45] [46] [47] [48] [49]</td><td>Dẫn được, nhưng là bản dựng lại</td></tr>
+<tr><td>19</td><td>Sáu công thức vô địch 2021–2026 dùng liều 14–20 g, tỉ lệ 1:13,3–1:16</td><td></td><td>[41] [42] [43] [44] [45] [46] [47] [48] [49]</td><td>Dẫn được, nhưng là bản dựng lại</td></tr>
 <tr><td>19</td><td>Cỡ xay công bố trải 490–1000 µm; số click trên máy không chuyển được</td><td>Hợp lý</td><td>[43] [45] [47], và [34] [35] ở chương 10</td><td>Một phần, hai nguồn cho Wölfl lệch 490/630 µm</td></tr>
 <tr><td>19</td><td>Tia nước quyết định cách bã bị xáo trộn</td><td>Bằng chứng</td><td>[51]</td><td>Dẫn được</td></tr>
 <tr><td>19</td><td>Routine thi đấu đánh đổi độ lặp lại để lấy độ rõ của một ngụm</td><td>Hợp lý</td><td>[50]</td><td>Một phần, người trong cuộc kể</td></tr>
 <tr><td>19</td><td>Nhiệt 87–93 °C không đổi cảm quan khi TDS và mức chiết đã cố định</td><td>Bằng chứng</td><td>[52]</td><td>Dẫn được</td></tr>
 <tr><td>19</td><td>Độ sâu bã phải khớp đường kính dụng cụ</td><td>Hợp lý</td><td>[53] [54]</td><td>Suy luận từ thực hành</td></tr>
-<tr><td>20</td><td>Nhìn bã để chẩn đoán</td><td>, </td><td>không có</td><td>Không có nguồn</td></tr>
-<tr><td>21</td><td>Bảng chẩn đoán</td><td>, </td><td>suy ra từ [10] [11]</td><td>Một phần</td></tr>
+<tr><td>20</td><td>Nhìn bã để chẩn đoán</td><td></td><td>không có</td><td>Không có nguồn</td></tr>
+<tr><td>21</td><td>Bảng chẩn đoán</td><td></td><td>suy ra từ [10] [11]</td><td>Một phần</td></tr>
 <tr><td>22</td><td>Phin là phễu không bypass; bột mịn không có đường thoát nên hậu vị đắng đọng</td><td>Hợp lý</td><td>[68] [70] [71]</td><td>Một phần, [70] [71] là mô tả sản phẩm và phỏng vấn, không có đo cảm quan</td></tr>
-<tr><td>23–25</td><td>Quy trình, bốn luật, case study</td><td>, </td><td>phương pháp</td><td>Không cần nguồn</td></tr>
-<tr><td>26</td><td>Giải phẫu một ngụm; đường mũi ngược</td><td>, </td><td>sinh lý khứu giác</td><td>Không cần nguồn</td></tr>
-<tr><td>27</td><td>Ngôn ngữ nốt hương và cái bẫy của nó</td><td>, </td><td>[14] [19]</td><td>Một phần</td></tr>
-<tr><td>28–31</td><td>Luyện khẩu vị, nhật ký, dụng cụ, checklist</td><td>, </td><td>phương pháp</td><td>Không cần nguồn</td></tr>
+<tr><td>23–25</td><td>Quy trình, bốn luật, case study</td><td></td><td>phương pháp</td><td>Không cần nguồn</td></tr>
+<tr><td>26</td><td>Giải phẫu một ngụm; đường mũi ngược</td><td></td><td>sinh lý khứu giác</td><td>Không cần nguồn</td></tr>
+<tr><td>27</td><td>Ngôn ngữ nốt hương và cái bẫy của nó</td><td></td><td>[14] [19]</td><td>Một phần</td></tr>
+<tr><td>28–31</td><td>Luyện khẩu vị, nhật ký, dụng cụ, checklist</td><td></td><td>phương pháp</td><td>Không cần nguồn</td></tr>
 </tbody>
 </table>
 

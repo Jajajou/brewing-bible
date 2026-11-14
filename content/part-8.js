@@ -223,7 +223,7 @@ Mua lại?  ___ có / ___ không      Vì: ____________
 <div class="stat"><b>~6tr</b><span>Đầy đủ</span></div>
 </div>
 
-<p>Với khoảng 1,5 triệu, cân, máy xay tay, phễu Switch, ấm thường. Bạn có thể pha một ly cà phê tốt hơn 90% các quán cà phê bình dân. Phần còn lại là kỹ thuật và nước, và cả hai đều gần như miễn phí.</p>
+<p>Với khoảng 1,5 triệu (cân, máy xay tay, phễu Switch, ấm thường), bạn có thể pha một ly cà phê tốt hơn 90% các quán cà phê bình dân. Phần còn lại là kỹ thuật và nước, và cả hai đều gần như miễn phí.</p>
 
 <div class="callout warn">
 <p class="callout-title">Một lưu ý về ấm</p>
@@ -315,7 +315,7 @@ Mua lại?  ___ có / ___ không      Vì: ____________
 
 <h3>Lời cuối</h3>
 
-<p>Cuốn sách này bắt đầu bằng một ý tưởng: <strong>ly cà phê có một trần, và trần đó được đặt trước khi bạn bắt đầu.</strong> Mọi kỹ thuật trong cuốn sách này, nước, cỡ xay, kỹ thuật rót, đọc bã, đều là những cách để đến gần trần đó hơn, không phải để vượt qua nó.</p>
+<p>Cuốn sách này bắt đầu bằng một ý tưởng: <strong>ly cà phê có một trần, và trần đó được đặt trước khi bạn bắt đầu.</strong> Mọi kỹ thuật trong cuốn sách này (nước, cỡ xay, kỹ thuật rót, đọc bã) đều là những cách để đến gần trần đó hơn, không phải để vượt qua nó.</p>
 
 <p>Và nếu bạn chỉ nhớ một điều từ tất cả những trang này, hãy nhớ điều này: <strong>bạn không tạo ra hương. Bạn chỉ có thể đánh rơi nó.</strong> Đó vừa là một giới hạn, vừa là một sự giải phóng.</p>
 

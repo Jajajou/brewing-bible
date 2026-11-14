@@ -38,7 +38,7 @@ window.BOOK_TEXT = {
 
 <p><strong>The third cup.</strong> I saw the Orea Z1, a no-bypass dripper, and thought: the same thing might work with two phins stacked. The lower phin holds the grounds, the upper one meters the water, which drips down. The reason was not only technical: the phin is a Vietnamese tool, and I wanted it to have a place in this book.</p>
 
-<p>The test ran side by side with a V60: the same 10 g of coffee, 160 ml of water, the same grind, the same temperature, the same pouring rhythm of 30–50–50–30. The phin cup won on aroma, clearly: beautiful, with nothing missing, bright acidity, and a spent bed that smelled of nothing, for the first time I had taken everything out of the coffee.</p>
+<p>The test ran side by side with a V60: the same 10 g of coffee, 160 ml of water, the same grind, the same temperature, the same pouring rhythm of 30–50–50–30. The phin cup won on aroma, clearly: beautiful, with nothing missing, bright acidity, and a spent bed that smelled of nothing: for the first time I had taken everything out of the coffee.</p>
 
 <p>But the phin cup was heavier in the mouth, more astringent, and the finish was not clean. No bitterness while drinking; thirty seconds later, swallowing, still bitter. I tried more variations and got the same thing. I gave up on the double phin and went back to the V60 and the Cafec Deep 27. The cup has to taste good, or brewing it is not fun. That test ran once and was not blind. I say so here, because that matters more than the result.</p>
 
@@ -54,7 +54,7 @@ window.BOOK_TEXT = {
 
 <p>For the home brewer who already has a scale and a grinder, who has brewed a V60 or something like it, and who wants to know why today's cup is good and yesterday's was not. For the person who dislikes lingering bitterness and is looking for aroma and sweetness. For the person willing to keep a log, change one thing at a time, and taste blind.</p>
 
-<p>Not for anyone who wants a magic recipe that works for every coffee, the book says plainly that a number does not transfer to another coffee. Not for anyone who needs a competition routine or a café workflow. Not for anyone looking for espresso, or for a traditional phin with robusta and condensed milk.</p>
+<p>Not for anyone who wants a magic recipe that works for every coffee: the book says plainly that a number does not transfer to another coffee. Not for anyone who needs a competition routine or a café workflow. Not for anyone looking for espresso, or for a traditional phin with robusta and condensed milk.</p>
 
 <h3>A promise</h3>
 
@@ -93,7 +93,7 @@ window.BOOK_TEXT = {
 
 <div class="callout">
 <p class="callout-title">Having a source does not make it true</p>
-<p>A small paper, a trial on twenty people, a model nobody has validated, all of these are sources. What decides the matter is the design of the study. Appendix A2 states the design whenever it matters, including when that weakens a claim in the main text.</p>
+<p>A small paper, a trial on twenty people, a model nobody has validated: all of these are sources. What decides the matter is the design of the study. Appendix A2 states the design whenever it matters, including when that weakens a claim in the main text.</p>
 </div>
 
 <h3>Three reading routes</h3>
@@ -294,7 +294,7 @@ window.BOOK_TEXT = {
 
 <p>One detail most drinkers do not know: the information on the bag <strong>affects what you taste</strong>. In a sensory study, when tasters were told the origin and process, their assessments shifted toward what they expected <span class="tier tier-a">Evidence</span>. Which means the "apricot" you find may come partly from the words on the bag.</p>
 
-<p>This is not you being fooled. It is how the human brain works: taste is not separate from knowledge. But it has a plainly practical consequence, if you want to know what you <em>actually</em> like, you sometimes have to taste without knowing what you are tasting. Chapter 28 is about this.</p>
+<p>This is not you being fooled. It is how the human brain works: taste is not separate from knowledge. But it has a plainly practical consequence: if you want to know what you <em>actually</em> like, you sometimes have to taste without knowing what you are tasting. Chapter 28 is about this.</p>
 `
     },
 
@@ -336,7 +336,7 @@ window.BOOK_TEXT = {
 
 <h3>Why the dark-roast window is narrow</h3>
 
-<p>Think of extraction as withdrawing money from an account. Light roast: a small account, but all of it is good money. You have to withdraw hard (finer grind, hotter water, agitation) to get enough and if you overdo it you take a little bitterness too. Dark roast: a large account, with a fixed fee already charged, the bitter compounds created during roasting. A light withdrawal is enough, and any extra withdrawal takes more of that fee.</p>
+<p>Think of extraction as withdrawing money from an account. Light roast: a small account, but all of it is good money. You have to withdraw hard (finer grind, hotter water, agitation) to get enough and if you overdo it you take a little bitterness too. Dark roast: a large account, with a fixed fee already charged: the bitter compounds created during roasting. A light withdrawal is enough, and any extra withdrawal takes more of that fee.</p>
 
 <p>Put another way: <strong>dark roast forgives under-extraction, but punishes over-extraction severely.</strong> And over-extraction is far more common among beginners, who are usually told "grind finer, use hotter water" whenever a cup tastes weak.</p>
 
@@ -349,7 +349,7 @@ window.BOOK_TEXT = {
 
 <p>This is one of the most confusing points, and few people say it out loud: <strong>there is no shared definition of "medium roast".</strong> Every roaster has their own scale. One roaster's "medium" can be lighter than another's "light".</p>
 
-<p>Objective scales exist, Agtron, which measures colour spectroscopically, or the older SCAA Light/Medium/Dark scale, but they are rarely printed on retail bags. And even Agtron has two variants (whole bean and ground) that give different numbers <span class="tier tier-a">Evidence <b class="cite">· 12, 13, 14</b></span>.</p>
+<p>Objective scales exist (Agtron, which measures colour spectroscopically; or the older SCAA Light/Medium/Dark scale), but they are rarely printed on retail bags. And even Agtron has two variants (whole bean and ground) that give different numbers <span class="tier tier-a">Evidence <b class="cite">· 12, 13, 14</b></span>.</p>
 
 <p>The practical consequence: <strong>do not use the word "medium" to choose parameters. Use your eyes and use the cup.</strong></p>
 
@@ -463,7 +463,7 @@ window.BOOK_TEXT = {
 
 <p>If you buy more than you can drink in three weeks, freezing is the sensible way to hold quality long-term <span class="tier tier-b">Plausible</span>. Low temperature slows almost every degradation reaction, and a freezer is far drier than a fridge.</p>
 
-<p>But the strength of the evidence has to be stated, because this is an easy place to believe too much. None of the studies in this book's bibliography froze coffee long-term and then measured it sensorially. The closest, [24], stored beans at <strong>5 °C, a fridge, not a freezer</strong>, for one month and found the change slowed. That is a pointer in the right direction, not a measurement of freezing. The other three sources measured storage at room temperature. So this claim is an inference from mechanism, not an experimental result.</p>
+<p>But the strength of the evidence has to be stated, because this is an easy place to believe too much. None of the studies in this book's bibliography froze coffee long-term and then measured it sensorially. The closest, [24], stored beans at <strong>5 °C (a fridge, not a freezer)</strong> for one month and found the change slowed. That is a pointer in the right direction, not a measurement of freezing. The other three sources measured storage at room temperature. So this claim is an inference from mechanism, not an experimental result.</p>
 
 <p>But there are conditions, and they matter:</p>
 
@@ -512,7 +512,7 @@ window.BOOK_TEXT = {
 
 <p><strong>Alkalinity</strong> is the water's capacity to neutralise acid, mostly through the bicarbonate ion. It is a measure of <em>buffering capacity</em>, not the concentration of one specific substance. The unit used in coffee is <strong>ppm as CaCO₃</strong>.</p>
 
-<p>The mechanism is direct: the organic acids in coffee, citric, malic, acetic, lactic, chlorogenic, are exactly the compounds that create brightness, fruit, and "life". Bicarbonate neutralises them:</p>
+<p>The mechanism is direct: the organic acids in coffee (citric, malic, acetic, lactic, chlorogenic) are exactly the compounds that create brightness, fruit, and "life". Bicarbonate neutralises them:</p>
 
 <div class="formula">
 <span class="fx-label">Neutralisation</span>
@@ -523,7 +523,7 @@ HCO₃⁻ + H⁺ → H₂CO₃ → CO₂ + H₂O
 
 <div class="callout ok">
 <p class="callout-title">How strong is the evidence?</p>
-<p>This is one of the few claims in this book with solid foundations. Controlled sensory work by Christina Rune and colleagues at the University of Copenhagen (2026) shows that <strong>bicarbonate is the dominant factor in flavour perception</strong>, while adding calcium at high levels, higher than ordinary drinking water, produced <em>no</em> significant sensory difference <span class="tier tier-a">Evidence</span>. It is also the first study to test that "ideal" water zone the industry had been quoting, using controlled sensory methods. That is why this book puts alkalinity first and hardness second.</p>
+<p>This is one of the few claims in this book with solid foundations. Controlled sensory work by Christina Rune and colleagues at the University of Copenhagen (2026) shows that <strong>bicarbonate is the dominant factor in flavour perception</strong>, while adding calcium at high levels (higher than ordinary drinking water) produced <em>no</em> significant sensory difference <span class="tier tier-a">Evidence</span>. It is also the first study to test that "ideal" water zone the industry had been quoting, using controlled sensory methods. That is why this book puts alkalinity first and hardness second.</p>
 </div>
 
 <h3>Reference targets</h3>
@@ -537,12 +537,12 @@ HCO₃⁻ + H⁺ → H₂CO₃ → CO₂ + H₂O
 <tr><td>Alkalinity (as CaCO₃)</td><td><strong>~40 ppm</strong></td><td>40–75 ppm*</td></tr>
 <tr><td>Total hardness (as CaCO₃)</td><td>~68 ppm</td><td>51–175 ppm</td></tr>
 <tr><td>pH</td><td>~7.0</td><td>6–8</td></tr>
-<tr><td>Na⁺</td><td>, </td><td>&lt; 10 ppm</td></tr>
+<tr><td>Na⁺</td><td></td><td>&lt; 10 ppm</td></tr>
 </tbody>
 </table>
 </div>
 
-<p><strong>* Those three rows do not come from one page.</strong> The 2018 SCA Water Quality Handbook gives 40–75 ppm alkalinity and 51–175 ppm hardness but the 75 ppm upper bound <em>applies only when hardness sits between 150 and 175 ppm</em>; outside that, the upper bound is 40 ppm. The pH range of 6–8, target 7.0, comes from the 2018 SCA coffee standards table, not the handbook, the handbook only advises measuring pH for waters of very high alkalinity or very low hardness. “pH 6.5–7.5” is widely quoted for SCA, but I could not find a 2018 SCA document stating it, so this edition replaced it.</p>
+<p><strong>* Those three rows do not come from one page.</strong> The 2018 SCA Water Quality Handbook gives 40–75 ppm alkalinity and 51–175 ppm hardness but the 75 ppm upper bound <em>applies only when hardness sits between 150 and 175 ppm</em>; outside that, the upper bound is 40 ppm. The pH range of 6–8, target 7.0, comes from the 2018 SCA coffee standards table, not the handbook; the handbook only advises measuring pH for waters of very high alkalinity or very low hardness. “pH 6.5–7.5” is widely quoted for SCA, but I could not find a 2018 SCA document stating it, so this edition replaced it.</p>
 
 <p>40 ppm is the midpoint. At 20 ppm the acidity is very bright, sometimes sharp or thin. At 75 ppm the cup is balanced but the fruit is starting to blur. Above 100 ppm most light-roasted coffee loses its character. Above 200 ppm you are mostly tasting the roast. The direction of the effect has research behind it; the individual ppm marks above are cut points from tasting experience, not measured thresholds <span class="tier tier-b">Plausible</span>.</p>
 
@@ -595,7 +595,7 @@ Alkalinity = HCO₃⁻ × <b>50/61</b> ≈ HCO₃⁻ × <b>0.82</b><br>
 
 <h3>What a TDS pen measures</h3>
 
-<p>A TDS (Total Dissolved Solids) pen does not actually count dissolved solids. It measures the water's <strong>electrical conductivity</strong> and multiplies by a factor to display a number in mg/L <span class="tier tier-a">Evidence</span>. Conductivity depends on total ions, calcium, magnesium, sodium, chloride, sulfate, bicarbonate, all of it added together.</p>
+<p>A TDS (Total Dissolved Solids) pen does not actually count dissolved solids. It measures the water's <strong>electrical conductivity</strong> and multiplies by a factor to display a number in mg/L <span class="tier tier-a">Evidence</span>. Conductivity depends on total ions (calcium, magnesium, sodium, chloride, sulfate, bicarbonate), all of it added together.</p>
 
 <p>Which means two samples can both read 100 ppm TDS and have completely different alkalinity.</p>
 
@@ -688,7 +688,7 @@ Alkalinity (ppm as CaCO₃) = HCO₃⁻ (mg/L) × 50/61<br>
 </div>
 </div>
 
-<p>Note: this recipe uses sodium instead of calcium, and that is deliberate, sodium bicarbonate buffers acid without adding flavour, while calcium can scale equipment and affect your gear. If you want calcium, use calcium carbonate, but it has to be dissolved with CO₂, which is far more involved.</p>
+<p>Note: this recipe uses sodium instead of calcium, and that is deliberate: sodium bicarbonate buffers acid without adding flavour, while calcium can scale equipment and affect your gear. If you want calcium, use calcium carbonate, but it has to be dissolved with CO₂, which is far more involved.</p>
 
 <h3>Checking your tap water</h3>
 
@@ -772,7 +772,7 @@ Example: target 50 ppm, mineral water 250 ppm<br>
 
 <p>A household RO system (1.5–3 million VND) gives you a stable source at ~0 alkalinity. Combined with method 1 or method 3, you control the water completely, all the time.</p>
 
-<p>What to check: whether the membrane is still good. This is where the TDS pen earns its place, output should be near 0. If it climbs to 30–50, the membrane is weak and you are drinking partially filtered tap water.</p>
+<p>What to check: whether the membrane is still good. This is where the TDS pen earns its place: output should be near 0. If it climbs to 30–50, the membrane is weak and you are drinking partially filtered tap water.</p>
 
 <p>Note: RO removes <em>almost everything</em>, including beneficial minerals. So pure RO is not ideal brewing water. It is a <strong>base ingredient</strong>, and you have to add minerals back (method 3) or blend with mineral water (method 1).</p>
 
@@ -853,7 +853,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
       body: `
 <p>Start with a question that looks simple: when you brew coffee, what actually travels from the bed into the cup?</p>
 
-<p>The precise answer: <strong>roughly 18–22% of the dry coffee's mass</strong> <span class="tier tier-a">Evidence <b class="cite">· 5</b></span>. The rest, cellulose, some protein, insoluble minerals, compounds that never dissolved, stays in the bed and gets thrown away. Even a "strong" cup only takes about a fifth of what the bean contains.</p>
+<p>The precise answer: <strong>roughly 18–22% of the dry coffee's mass</strong> <span class="tier tier-a">Evidence <b class="cite">· 5</b></span>. The rest (cellulose, some protein, insoluble minerals, compounds that never dissolved) stays in the bed and gets thrown away. Even a "strong" cup only takes about a fifth of what the bean contains.</p>
 
 <p>That number, and everything it implies, is the foundation of every technique in this book.</p>
 
@@ -1144,7 +1144,7 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 
 <p>Something easy to miss: the number on the kettle is not the number the bed sees. Water loses heat on the way from spout to bed, and the wet bed, the slurry, is always cooler than the water you poured. Chapter 15 puts that drop at <strong>5–8 °C</strong> <span class="tier tier-b">Plausible</span>.</p>
 
-<p>This has been measured. In a pour over poured at <strong>96 °C</strong> in a two-pour pattern, the approach that keeps the slurry as hot as possible, the peak slurry temperature still stayed <strong>below 90 °C</strong>, and for much of the brew it was lower still. That held for a plastic brewer and a ceramic one alike <span class="tier tier-b">Plausible <b class="cite">· 64</b></span>.</p>
+<p>This has been measured. In a pour over poured at <strong>96 °C</strong> in a two-pour pattern (the approach that keeps the slurry as hot as possible), the peak slurry temperature still stayed <strong>below 90 °C</strong>, and for much of the brew it was lower still. That held for a plastic brewer and a ceramic one alike <span class="tier tier-b">Plausible <b class="cite">· 64</b></span>.</p>
 
 <p>Two practical consequences. First: if you pour at 96 °C because you think you "need it hot enough to extract", the bed may never see 96 °C. You are inside 87–93 °C without knowing it. Second: immersion holds heat far better. At the same 97 °C, a one-litre immersion brew kept its slurry above 90 °C for nearly five minutes, because the body of water is larger and the floating crust insulates it. That is why a large French press should be brewed <em>cooler</em> than a pour over, not hotter.</p>
 
@@ -1314,7 +1314,7 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 
 <p>Above, fines made the bed conduct water worse. That is half the story, and the other half is rarely told.</p>
 
-<p>The bad half is measured. Raise the share of fines and <strong>bed permeability falls, flow rates drop, extraction times lengthen</strong> <span class="tier tier-a">Evidence <b class="cite">· 35</b></span>. And fines finish extracting very early: they give up their surface solids in seconds while larger particles still need minutes so while the rest of the bed is working toward the good band, the fines have already gone past it and are contributing bitterness and astringency <span class="tier tier-b">Plausible <b class="cite">· 65</b></span>.</p>
+<p>The bad half is measured. Raise the share of fines and <strong>bed permeability falls, flow rates drop, extraction times lengthen</strong> <span class="tier tier-a">Evidence <b class="cite">· 35</b></span>. And fines finish extracting very early: they give up their surface solids in seconds while larger particles still need minutes, so while the rest of the bed is working toward the good band, the fines have already gone past it and are contributing bitterness and astringency <span class="tier tier-b">Plausible <b class="cite">· 65</b></span>.</p>
 
 <p>The good half is geometry. Fines <strong>fill the gaps between the larger particles</strong>. Without them the spaces between boulders are wider and more irregular, water finds a broad path, which is a channel. So the optimal amount of fines is not zero; it is <strong>the amount that minimises astringency</strong> for your particular recipe <span class="tier tier-b">Plausible <b class="cite">· 66</b></span>.</p>
 
@@ -1323,7 +1323,7 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 <div class="callout act">
 <p class="callout-title">The sieve test</p>
 <p>To find out what fines are doing in your cup, take some of them out and taste. Use a fine tea sieve: grind as usual, sieve for about fifteen seconds, discard what falls through, and brew what remains on your base recipe.</p>
-<p>Weigh again before brewing, you just lost a few percent of the mass, so adjust the water to keep the ratio, or you are changing two variables at once.</p>
+<p>Weigh again before brewing: you just lost a few percent of the mass, so adjust the water to keep the ratio, or you are changing two variables at once.</p>
 <p>If the sieved cup is cleaner and less astringent, your grinder is making more fines than it benefits from. If it is thin and hollow, the fines were doing useful work and you should leave them alone.</p>
 </div>
 
@@ -1349,7 +1349,7 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 
 <p>By the physics of diffusion, the time for material to travel from core to surface rises with the <strong>square</strong> of particle size, not linearly. A particle twice as large needs roughly four times as long, not twice <span class="tier tier-b">Plausible</span>.</p>
 
-<p>This is why a wide grind gives a "messy" cup: within the same two and a half minutes, the small fraction has finished and gone past, while the large fraction has not yet reached its core. You taste both at once. It is also why narrowing the distribution, a better grinder, burrs aligned, does more than shifting the median left or right.</p>
+<p>This is why a wide grind gives a "messy" cup: within the same two and a half minutes, the small fraction has finished and gone past, while the large fraction has not yet reached its core. You taste both at once. It is also why narrowing the distribution (a better grinder, burrs aligned) does more than shifting the median left or right.</p>
 
 <h3>Two mechanisms pulling opposite ways</h3>
 
@@ -1672,7 +1672,7 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 
 <h4>4. Is there anything that should not be there?</h4>
 
-<p>This is the question beginners skip, and it matters more than the three above. Off-flavours, paper, cardboard, metal, mould, medicine, rubber, earth, are stronger information than any pretty note.</p>
+<p>This is the question beginners skip, and it matters more than the three above. Off-flavours (paper, cardboard, metal, mould, medicine, rubber, earth) are stronger information than any pretty note.</p>
 
 <div class="table-wrap">
 <table>
@@ -1792,7 +1792,7 @@ Odd:   _______________
 
 <p>In cupping you <strong>slurp hard</strong> from an open cup, at low concentration, with a large volume in the mouth. Drinking pour over at home, you take a small sip from a mug, possibly while it is still hot, possibly while it sits cooling on the desk.</p>
 
-<p>Those three differences, motion, volume, temperature, cut the aroma you receive enormously. That is mechanics, not psychology.</p>
+<p>Those three differences (motion, volume, temperature) cut the aroma you receive enormously. That is mechanics, not psychology.</p>
 
 <div class="callout ok">
 <p class="callout-title">A two-minute test</p>
@@ -1947,7 +1947,7 @@ Odd:   _______________
 
 <ol>
 <li><strong>Fix your technique</strong> so the percolation is more even (see chapters 17 and 20).</li>
-<li><strong>Move toward immersion</strong>: or increase the immersion share of your routine. This is the faster route, and the one I would suggest if you are tired of optimising.</li>
+<li><strong>Move toward immersion</strong>: increase the immersion share of your routine. This is the faster route, and the one I would suggest if you are tired of optimising.</li>
 </ol>
 
 <p>The second is not surrender. It is choosing a mechanism that matches your goal. If your goal is "a pleasant, stable cup without much thinking", immersion is the right mechanism. Percolation is for people who want to extract everything a coffee can give, and are willing to pay for it in inconsistency.</p>
@@ -2381,7 +2381,7 @@ Odd:   _______________
 
 <p><strong>Temperature: 70 to 96 °C.</strong> Hsu opens at 70 °C and then goes to 95. Peng pours at 96 and drops to 80. Jaafar holds 92 throughout. Some argue that low heat at the start preserves aroma; others that high heat at the start extracts more evenly. Both approaches have won.</p>
 
-<p><strong>Grind: 490 to 1000 µm.</strong> More than double. This is the least useful number in the whole table, because it depends on the grinder and the way it was measured, a lesson chapter 10 already covered. It only means something read next to the brewer and the paper: Wölfl grinds at 490 µm but uses fast paper, so his drawdown still stays short. And Hsu's number is not one grind: she blended 75% of the dose at about 1000 µm with 25% at about 800 µm, ground on two different grinders and mixed together so “800–1000 µm” in the table is the two ends of a blend, not a tolerance. Wölfl's number is no more settled: two recipe pages give 490 µm and 630 µm for the same cup, nearly 30% apart. That is not measurement error. It is two people reading two different sources. Do not copy microns out of a book; copy the <em>relationship</em> between paper, grind and drawdown.</p>
+<p><strong>Grind: 490 to 1000 µm.</strong> More than double. This is the least useful number in the whole table, because it depends on the grinder and the way it was measured, a lesson chapter 10 already covered. It only means something read next to the brewer and the paper: Wölfl grinds at 490 µm but uses fast paper, so his drawdown still stays short. And Hsu's number is not one grind: she blended 75% of the dose at about 1000 µm with 25% at about 800 µm, ground on two different grinders and mixed together, so “800–1000 µm” in the table is the two ends of a blend, not a tolerance. Wölfl's number is no more settled: two recipe pages give 490 µm and 630 µm for the same cup, nearly 30% apart. That is not measurement error. It is two people reading two different sources. Do not copy microns out of a book; copy the <em>relationship</em> between paper, grind and drawdown.</p>
 
 <p>Those three columns add up to one conclusion: <strong>there is no championship recipe.</strong> There are six answers to six different coffees, on six different setups. The only thing they share is how the people thought, not the numbers they used.</p>
 
@@ -2393,7 +2393,7 @@ Odd:   _______________
 
 <p><strong>Three: one cup, ten minutes, two sips.</strong> The judges do not drink the 200 ml. They taste, score, and move to the next competitor. That changes what gets optimised: the clarity of the first sip matters more than the stability of the third cup. It is a trade-off, not a higher grade of quality <span class="tier tier-b">Plausible</span>.</p>
 
-<p>And there is evidence for that trade-off, from someone who lived it. Lance Hedrick, runner-up at the 2020 US Brewers Cup, describes a routine that removed fines mid-brew but not by lifting the wet paper, which nobody can do without tearing it. He brewed the bed in <strong>a metal filter</strong> sitting on a paper filter; at 1:30 he lifted the metal filter and its bed into <strong>a second dripper already lined with wetted paper</strong> and poured the rest of the water there. Fines passed through the mesh and were caught by the paper underneath: roughly 2.5 g at the start, 1.7–2 g caught, under 0.4 g left in the cup. What gets lifted is a rigid, rimmed object, not a sheet of paper, that is the whole trick. And he says plainly that the routine's biggest problem was <em>repeatability</em>: cup to cup, it changed noticeably. A beautiful routine can be a routine that is hard to repeat.</p>
+<p>And there is evidence for that trade-off, from someone who lived it. Lance Hedrick, runner-up at the 2020 US Brewers Cup, describes a routine that removed fines mid-brew but not by lifting the wet paper, which nobody can do without tearing it. He brewed the bed in <strong>a metal filter</strong> sitting on a paper filter; at 1:30 he lifted the metal filter and its bed into <strong>a second dripper already lined with wetted paper</strong> and poured the rest of the water there. Fines passed through the mesh and were caught by the paper underneath: roughly 2.5 g at the start, 1.7–2 g caught, under 0.4 g left in the cup. What gets lifted is a rigid, rimmed object, not a sheet of paper. That is the whole trick. And he says plainly that the routine's biggest problem was <em>repeatability</em>: cup to cup, it changed noticeably. A beautiful routine can be a routine that is hard to repeat.</p>
 
 <h3>Four things that do travel</h3>
 
@@ -2567,7 +2567,7 @@ Odd:   _______________
 <tr><td>Sour and bitter at once, no clear notes</td><td>Uneven extraction (channelling)</td><td><strong>Pouring technique</strong>: lower height, spiral</td><td>Swirl the dripper after the bloom</td></tr>
 <tr><td>Bitter only at the end of the cup, burnt finish</td><td>Fines scorching at the bottom</td><td><strong>Less agitation</strong></td><td>Coarser grind; a better grinder</td></tr>
 <tr><td>Sharp sourness, astringent, metallic</td><td>Water with too little buffer (alkalinity too low)</td><td><strong>Add minerals to the water</strong></td><td>Lower the temperature</td></tr>
-<tr><td>Flat, no fruit, bitter base</td><td>Water too alkaline</td><td><strong>Dilute the water with RO</strong></td><td>, </td></tr>
+<tr><td>Flat, no fruit, bitter base</td><td>Water too alkaline</td><td><strong>Dilute the water with RO</strong></td><td></td></tr>
 <tr><td>Drains too fast (&lt; 30 s)</td><td>Grind too coarse, or channelling</td><td><strong>Finer grind</strong></td><td>Check the bed to rule out channelling</td></tr>
 <tr><td>Drains too slowly (&gt; 90 s)</td><td>Clogged by fines</td><td><strong>Coarser grind</strong></td><td>Less agitation; change the filter paper</td></tr>
 <tr><td>Lovely aroma but an empty finish</td><td>Under-extracted at the end of the brew</td><td><strong>Slightly hotter</strong></td><td>Slightly longer</td></tr>
@@ -3109,7 +3109,7 @@ Likely problem:  ____________________
 </table>
 </div>
 
-<p>This is the only thing in the whole process that tells you the truth, your palate will lie to you, the bed will not.</p>
+<p>This is the only thing in the whole process that tells you the truth: your palate will lie to you, the bed will not.</p>
 
 <h3>If it is still short of the cupping</h3>
 
@@ -3268,7 +3268,7 @@ Likely problem:  ____________________
 
 <h3>A flavour note is a metaphor, not an ingredient</h3>
 
-<p>There is no apricot molecule in coffee. No jasmine molecule either. What we call "apricot" is a combination of volatile compounds, esters, lactones, aldehydes, that your brain has learned to associate with apricots.</p>
+<p>There is no apricot molecule in coffee. No jasmine molecule either. What we call "apricot" is a combination of volatile compounds (esters, lactones, aldehydes) that your brain has learned to associate with apricots.</p>
 
 <p>Which means: <strong>"apricot" is a neural association, not a measurement.</strong> And that association depends on how many ripe apricots you have eaten, which kind, and where.</p>
 
@@ -3674,7 +3674,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <div class="stat"><b>~6m</b><span>Complete</span></div>
 </div>
 
-<p>With about 1.5 million, a scale, a hand grinder, a Switch, an ordinary kettle, you can brew a cup better than 90% of ordinary coffee shops. The rest is technique and water, and both are nearly free.</p>
+<p>With about 1.5 million (a scale, a hand grinder, a Switch, an ordinary kettle), you can brew a cup better than 90% of ordinary coffee shops. The rest is technique and water, and both are nearly free.</p>
 
 <div class="callout warn">
 <p class="callout-title">A note on kettles</p>
@@ -3787,7 +3787,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <div class="callout">
 <p class="callout-title">A source is not evidence</p>
-<p>A short paper, a trial on twenty people, a model nobody has tested, all of those are sources. What decides is the design of the study, and this appendix states the design wherever it matters.</p>
+<p>A short paper, a trial on twenty people, a model nobody has tested: all of those are sources. What decides is the design of the study, and this appendix states the design wherever it matters.</p>
 </div>
 `
     },
@@ -3816,7 +3816,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p><strong>[4]</strong> Specialty Coffee Association (2018). <em>The 2018 SCA Water Quality Handbook.</em> Paid document, no public PDF.</p>
 
-<p>This is the source of the 40–75 ppm alkalinity and 51–175 ppm hardness figures, with the condition that the 75 ppm bound applies only when hardness is 150–175 ppm. The handbook sets <strong>no</strong> pH range; the 6–8 range with a 7.0 target comes from the 2018 SCA coffee standards table. An earlier edition printed “pH 6.5–7.5” and attributed it to the handbook, wrong, now corrected.</p>
+<p>This is the source of the 40–75 ppm alkalinity and 51–175 ppm hardness figures, with the condition that the 75 ppm bound applies only when hardness is 150–175 ppm. The handbook sets <strong>no</strong> pH range; the 6–8 range with a 7.0 target comes from the 2018 SCA coffee standards table. An earlier edition printed “pH 6.5–7.5” and attributed it to the handbook. Wrong, now corrected.</p>
 
 <p><strong>[5]</strong> Lockhart, E. E. (1957). <em>The Soluble Solids in Beverage Coffee as an Index to Cup Quality.</em> Coffee Brewing Institute, Publication No. 27. The foundation of the brewing control chart. Note: the 1957 document does not carry the name "Brewing Control Chart" — that name came later.</p>
 
@@ -4105,20 +4105,20 @@ Buy again?  ___ yes / ___ no      Why: ____________
 </thead>
 <tbody>
 <tr><td>1</td><td>Label information changes what you taste</td><td>Evidence</td><td>[15] [16] [17] [18]</td><td>Partly, [18] strongest; [16] depends on taster attitudes; [17] full text unreadable</td></tr>
-<tr><td>2</td><td>No shared definition of "medium roast"; Agtron has two variants</td><td>, </td><td>[12]–[14] for the colour measurement</td><td>Partly</td></tr>
+<tr><td>2</td><td>No shared definition of "medium roast"; Agtron has two variants</td><td></td><td>[12]–[14] for the colour measurement</td><td>Partly</td></tr>
 <tr><td>3</td><td>Freezing preserves quality long term</td><td>Plausible</td><td>[22] [23] [24] [25]</td><td>Partly, [24] is 5 °C fridge, one month; no freezing trial exists</td></tr>
 <tr><td>3</td><td>20-day-old coffee with correct water beats 5-day-old with 250 ppm alkaline water</td><td>"not an opinion"</td><td>none</td><td>No source</td></tr>
 <tr><td>3</td><td>Freshly roasted coffee releases CO₂ and the bubbles block water contact; blooming is the degassing step</td><td>Plausible</td><td>[20] [21]</td><td>Citable for the mechanism; not for the sensory effect of blooming</td></tr>
 <tr><td>3</td><td>At room temperature, sensory quality declines with storage time</td><td>Evidence</td><td>[22] [23] [25] [26]</td><td>Citable, [26] is a literature review, not an experiment</td></tr>
 <tr><td>4</td><td>Bicarbonate drives perception, calcium does not</td><td>Evidence</td><td>[1] directly, [3] for chemistry</td><td>Citable, source changed</td></tr>
 <tr><td>4</td><td>Water zone of 40–75 ppm alkalinity, 51–175 ppm hardness, pH 6–8</td><td>Plausible</td><td>[4], and the 2018 SCA standards table for pH</td><td>Partly citable, pH does not come from [4]</td></tr>
-<tr><td>5</td><td>A TDS pen does not measure alkalinity; HCO₃ × 0.82; 1 dKH = 17.86 ppm</td><td>, </td><td>general chemistry</td><td>Needs no source</td></tr>
-<tr><td>6</td><td>Dilution is linear; bottled water figures</td><td>, </td><td>product labels</td><td>Needs no source</td></tr>
-<tr><td>7</td><td>18–22% EY and 1.15–1.35% TDS</td><td>, </td><td>[5], the Golden Cup standard, and the newer brewing control chart in [9]</td><td>Fixed, see A4</td></tr>
+<tr><td>5</td><td>A TDS pen does not measure alkalinity; HCO₃ × 0.82; 1 dKH = 17.86 ppm</td><td></td><td>general chemistry</td><td>Needs no source</td></tr>
+<tr><td>6</td><td>Dilution is linear; bottled water figures</td><td></td><td>product labels</td><td>Needs no source</td></tr>
+<tr><td>7</td><td>18–22% EY and 1.15–1.35% TDS</td><td></td><td>[5], the Golden Cup standard, and the newer brewing control chart in [9]</td><td>Fixed, see A4</td></tr>
 <tr><td>8</td><td>"Acid first, bitter later" is an untested hypothesis</td><td>Folklore</td><td>[32]</td><td>Citable, accurate</td></tr>
 <tr><td>8</td><td>Fastest group (trigonelline + TDS), then 5-CQA, then caffeine</td><td>Evidence</td><td>[8]</td><td>Partly, the paper groups trigonelline with TDS rather than ranking them</td></tr>
 <tr><td>8</td><td>Malic, acetic and lactic below threshold; tasters cannot name them</td><td>Evidence</td><td>[2]</td><td>Citable</td></tr>
-<tr><td>9</td><td>Temperature is a weak lever once TDS and EY are fixed</td><td>, </td><td>[6] [7]</td><td>Citable</td></tr>
+<tr><td>9</td><td>Temperature is a weak lever once TDS and EY are fixed</td><td></td><td>[6] [7]</td><td>Citable</td></tr>
 </tbody>
 </table>
 
@@ -4135,14 +4135,14 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <tr><td>10</td><td>Raising the fines fraction from 10% to 15% lengthens extraction by about 10 seconds</td><td>Evidence</td><td>[36]</td><td>Citable, on capsules, not pour-over</td></tr>
 <tr><td>10</td><td>Grind size interacts with basket geometry (bitterness, floral aroma)</td><td>Evidence</td><td>[38]</td><td>Citable, 45 tasters</td></tr>
 <tr><td>10</td><td>The order water → grind → technique is a diagnostic order, not a measured ranking</td><td>Plausible</td><td>no direct study</td><td>Downgraded, see A4</td></tr>
-<tr><td>11</td><td>The SCA ten-item, 100-point scale (2004 set)</td><td>, </td><td>[12] [13]</td><td>Noted, see A4</td></tr>
-<tr><td>12</td><td>8.25 g to 150 ml; five cups per sample; a four-minute protocol</td><td>, </td><td>[12]</td><td>Citable</td></tr>
-<tr><td>13</td><td>Three layers in time; the flavour wheel</td><td>, </td><td>[14]</td><td>Citable</td></tr>
-<tr><td>14</td><td>Cupping does not predict pour over</td><td>, </td><td>[30] [31]</td><td>Partly</td></tr>
-<tr><td>15</td><td>Immersion has no equivalent channelling mechanism</td><td>, </td><td>[10] [11] [31]</td><td>Partly</td></tr>
+<tr><td>11</td><td>The SCA ten-item, 100-point scale (2004 set)</td><td></td><td>[12] [13]</td><td>Noted, see A4</td></tr>
+<tr><td>12</td><td>8.25 g to 150 ml; five cups per sample; a four-minute protocol</td><td></td><td>[12]</td><td>Citable</td></tr>
+<tr><td>13</td><td>Three layers in time; the flavour wheel</td><td></td><td>[14]</td><td>Citable</td></tr>
+<tr><td>14</td><td>Cupping does not predict pour over</td><td></td><td>[30] [31]</td><td>Partly</td></tr>
+<tr><td>15</td><td>Immersion has no equivalent channelling mechanism</td><td></td><td>[10] [11] [31]</td><td>Partly</td></tr>
 <tr><td>16</td><td>Paper and metal give different volatile profiles</td><td>Plausible</td><td>[30]</td><td>Citable, one coffee</td></tr>
-<tr><td>17</td><td>Kettle 3–5 cm above the bed; keep the water level above the bed; 5–8 g/s</td><td>, </td><td>none</td><td>No source</td></tr>
-<tr><td>18</td><td>Three schools of recipe</td><td>, </td><td>[27] [28] [29]</td><td>Citable</td></tr>
+<tr><td>17</td><td>Kettle 3–5 cm above the bed; keep the water level above the bed; 5–8 g/s</td><td></td><td>none</td><td>No source</td></tr>
+<tr><td>18</td><td>Three schools of recipe</td><td></td><td>[27] [28] [29]</td><td>Citable</td></tr>
 </tbody>
 </table>
 
@@ -4153,19 +4153,19 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <tr><th>Ch.</th><th>Claim that needs a source</th><th>Label in the book</th><th>Source</th><th>Verdict</th></tr>
 </thead>
 <tbody>
-<tr><td>19</td><td>Six championship recipes 2021–2026 use 14–20 g doses and ratios of 1:13.3–1:16</td><td>, </td><td>[41] [42] [43] [44] [45] [46] [47] [48] [49]</td><td>Citable, but a reconstruction</td></tr>
+<tr><td>19</td><td>Six championship recipes 2021–2026 use 14–20 g doses and ratios of 1:13.3–1:16</td><td></td><td>[41] [42] [43] [44] [45] [46] [47] [48] [49]</td><td>Citable, but a reconstruction</td></tr>
 <tr><td>19</td><td>Published grinds span 490–1000 µm; click counts do not transfer between grinders</td><td>Plausible</td><td>[43] [45] [47], and [34] [35] in chapter 10</td><td>Partly, two sources for Wölfl disagree, 490/630 µm</td></tr>
 <tr><td>19</td><td>The shape of the kettle stream decides how the bed is disturbed</td><td>Evidence</td><td>[51]</td><td>Citable</td></tr>
 <tr><td>19</td><td>A competition routine trades repeatability for the clarity of one sip</td><td>Plausible</td><td>[50]</td><td>Partly, a first-hand account</td></tr>
 <tr><td>19</td><td>87–93 °C makes no sensory difference once TDS and extraction are fixed</td><td>Evidence</td><td>[52]</td><td>Citable</td></tr>
 <tr><td>19</td><td>Bed depth has to match the brewer diameter</td><td>Plausible</td><td>[53] [54]</td><td>Inference from practice</td></tr>
-<tr><td>20</td><td>Reading the bed to diagnose</td><td>, </td><td>none</td><td>No source</td></tr>
-<tr><td>21</td><td>The diagnostic table</td><td>, </td><td>derived from [10] [11]</td><td>Partly</td></tr>
+<tr><td>20</td><td>Reading the bed to diagnose</td><td></td><td>none</td><td>No source</td></tr>
+<tr><td>21</td><td>The diagnostic table</td><td></td><td>derived from [10] [11]</td><td>Partly</td></tr>
 <tr><td>22</td><td>The phin is a no-bypass brewer; fines with no way out leave a lingering bitterness</td><td>Plausible</td><td>[68] [70] [71]</td><td>Partly, [70] [71] are product copy and an interview, with no sensory measurement</td></tr>
-<tr><td>22–24</td><td>Process, four rules, case study</td><td>, </td><td>method</td><td>Needs no source</td></tr>
-<tr><td>25</td><td>Anatomy of a sip; retronasal path</td><td>, </td><td>general olfactory physiology</td><td>Needs no source</td></tr>
-<tr><td>26</td><td>Flavour-note language and its trap</td><td>, </td><td>[14] [19]</td><td>Partly</td></tr>
-<tr><td>27–30</td><td>Palate training, log, gear, checklist</td><td>, </td><td>method</td><td>Needs no source</td></tr>
+<tr><td>22–24</td><td>Process, four rules, case study</td><td></td><td>method</td><td>Needs no source</td></tr>
+<tr><td>25</td><td>Anatomy of a sip; retronasal path</td><td></td><td>general olfactory physiology</td><td>Needs no source</td></tr>
+<tr><td>26</td><td>Flavour-note language and its trap</td><td></td><td>[14] [19]</td><td>Partly</td></tr>
+<tr><td>27–30</td><td>Palate training, log, gear, checklist</td><td></td><td>method</td><td>Needs no source</td></tr>
 </tbody>
 </table>
 

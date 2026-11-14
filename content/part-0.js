@@ -30,13 +30,13 @@ window.BOOK_PARTS.push({
 
 <p><strong>Ly thứ hai.</strong> Công thức nền của mình trên V60 là 1:16. Bloom hai lần, tổng nước bloom bằng ba lần khối lượng cà, để khí thoát hết, rồi đổ hết phần nước còn lại một lần. Lần nào cũng ra mặt bã phẳng, đẹp, ly sạch. Uống ngon.</p>
 
-<p>Nhưng có gì đó chưa ưng. Với cà xịn, một SL28, một Sidra Geisha, pha xong, bã vẫn còn mùi thơm. Hương còn nằm trong bã, nghĩa là hương không vào ly. Công thức nền của mình cho ra khoảng 80% con cà đó, và không bao giờ là 100%.</p>
+<p>Nhưng có gì đó chưa ưng. Với cà xịn (một SL28, một Sidra Geisha), pha xong, bã vẫn còn mùi thơm. Hương còn nằm trong bã, nghĩa là hương không vào ly. Công thức nền của mình cho ra khoảng 80% con cà đó, và không bao giờ là 100%.</p>
 
 <p>Mình cũng không ngại đắng. Mình ngại vị đắng đọng: lúc uống không thấy gì, ba mươi giây sau nuốt nước miếng vẫn thấy đắng. Đó là thứ mình muốn bỏ khỏi ly.</p>
 
-<p><strong>Ly thứ ba.</strong> Mình thấy chiếc Orea Z1, một phễu không bypass và nghĩ: có thể làm điều tương tự với hai cái phin chồng lên nhau. Phin dưới giữ cà, phin trên chia nước, nước nhỏ giọt xuống. Lý do không chỉ là kỹ thuật: phin là dụng cụ của Việt Nam, và mình muốn nó có một chỗ trong cuốn sách này.</p>
+<p><strong>Ly thứ ba.</strong> Mình thấy chiếc Orea Z1, một phễu không bypass, và nghĩ: có thể làm điều tương tự với hai cái phin chồng lên nhau. Phin dưới giữ cà, phin trên chia nước, nước nhỏ giọt xuống. Lý do không chỉ là kỹ thuật: phin là dụng cụ của Việt Nam, và mình muốn nó có một chỗ trong cuốn sách này.</p>
 
-<p>Phép thử đặt song song với V60: cùng 10 g cà, 160 ml nước, cùng cỡ xay, cùng nhiệt, cùng nhịp rót 30–50–50–30. Ly phin thắng rõ ở hương: rất đẹp, không thiếu gì, chua tươi sáng, và bã sau khi pha hết mùi, lần đầu mình lấy được hết con cà.</p>
+<p>Phép thử đặt song song với V60: cùng 10 g cà, 160 ml nước, cùng cỡ xay, cùng nhiệt, cùng nhịp rót 30–50–50–30. Ly phin thắng rõ ở hương: rất đẹp, không thiếu gì, chua tươi sáng, và bã sau khi pha hết mùi: lần đầu mình lấy được hết con cà.</p>
 
 <p>Nhưng ly phin nặng miệng hơn, chát hơn, hậu vị không sạch. Lúc uống không thấy đắng; ba mươi giây sau nuốt nước miếng vẫn thấy đắng. Mình thử thêm nhiều cách nữa, vẫn vậy. Mình bỏ phin đôi, quay về V60 và Cafec Deep 27. Ly phải ngon thì uống mới vui. Phép thử này chỉ chạy một lần và không nếm mù. Mình ghi rõ ở đây vì điều đó quan trọng hơn kết quả.</p>
 
@@ -52,7 +52,7 @@ window.BOOK_PARTS.push({
 
 <p>Dành cho người pha ở nhà, đã có cân và cối, đã pha V60 hoặc một phễu tương tự, và muốn hiểu vì sao ly hôm nay ngon còn ly hôm qua thì không. Dành cho người ngại vị đắng đọng, đang đi tìm hương và vị ngọt. Dành cho người chịu ghi sổ, mỗi lần chỉ đổi một thứ, và chịu nếm mù.</p>
 
-<p>Không dành cho người muốn một công thức thần kỳ dùng cho mọi con cà, sách nói thẳng là số không chuyển được sang con cà khác. Không dành cho người cần quy trình thi đấu hay vận hành quán. Không dành cho người tìm hướng dẫn espresso, hoặc phin truyền thống pha robusta với sữa đặc.</p>
+<p>Không dành cho người muốn một công thức thần kỳ dùng cho mọi con cà: sách nói thẳng là số không chuyển được sang con cà khác. Không dành cho người cần quy trình thi đấu hay vận hành quán. Không dành cho người tìm hướng dẫn espresso, hoặc phin truyền thống pha robusta với sữa đặc.</p>
 
 <h3>Một lời hứa</h3>
 
@@ -79,7 +79,7 @@ window.BOOK_PARTS.push({
 <table>
 <thead><tr><th>Nhãn</th><th>Nghĩa là</th><th>Bạn nên làm gì</th></tr></thead>
 <tbody>
-<tr><td><span class="tier tier-a">Bằng chứng</span></td><td>Có nghiên cứu bình duyệt, tiêu chuẩn ngành, hoặc đo đạc có kiểm soát. Nguồn nằm ở phụ lục A2.</td><td>Tin, nhưng đọc cả phần giới hạn, một nghiên cứu trên một con cà không nói về mọi con cà.</td></tr>
+<tr><td><span class="tier tier-a">Bằng chứng</span></td><td>Có nghiên cứu bình duyệt, tiêu chuẩn ngành, hoặc đo đạc có kiểm soát. Nguồn nằm ở phụ lục A2.</td><td>Tin, nhưng đọc cả phần giới hạn: một nghiên cứu trên một con cà không nói về mọi con cà.</td></tr>
 <tr><td><span class="tier tier-b">Hợp lý</span></td><td>Suy ra từ cơ chế vật lý hoặc hoá học, hoặc từ kinh nghiệm chuyên gia, nhưng chưa ai làm thử nghiệm cảm quan.</td><td>Dùng làm giả thuyết. Nó dự đoán đúng chiều, nhưng độ lớn thì chưa ai biết.</td></tr>
 <tr><td><span class="tier tier-c">Truyền miệng</span></td><td>Kinh nghiệm cộng đồng. Được lặp lại rộng rãi, không ai kiểm chứng.</td><td>Biết để hiểu vì sao người ta nói vậy. Đừng xây công thức quanh nó.</td></tr>
 </tbody>
@@ -92,7 +92,7 @@ window.BOOK_PARTS.push({
 
 <div class="callout">
 <p class="callout-title">Có nguồn không có nghĩa là đúng</p>
-<p>Một bài báo nhỏ, một thử nghiệm trên hai mươi người, một mô hình chưa ai kiểm chứng, tất cả đều là nguồn. Cái quyết định vẫn là thiết kế của nghiên cứu. Phụ lục A2 ghi rõ thiết kế mỗi khi nó quan trọng, kể cả khi điều đó làm yếu đi khẳng định trong thân sách.</p>
+<p>Một bài báo nhỏ, một thử nghiệm trên hai mươi người, một mô hình chưa ai kiểm chứng: tất cả đều là nguồn. Cái quyết định vẫn là thiết kế của nghiên cứu. Phụ lục A2 ghi rõ thiết kế mỗi khi nó quan trọng, kể cả khi điều đó làm yếu đi khẳng định trong thân sách.</p>
 </div>
 
 <h3>Ba lộ trình đọc</h3>
@@ -166,7 +166,7 @@ window.BOOK_PARTS.push({
 <thead><tr><th>Từ</th><th>Nghĩa</th></tr></thead>
 <tbody>
 <tr><td><strong>EY</strong> (extraction yield, mức chiết)</td><td>Phần trăm khối lượng bã khô đã đi vào ly. Vùng thường dùng: 18–22%. Nói bạn lấy được <em>bao nhiêu</em> từ hạt. Chương 7.</td></tr>
-<tr><td><strong>TDS</strong> (total dissolved solids)</td><td>Nồng độ chất hoà tan trong ly, tính bằng phần trăm. Pour over thường 1,15–1,35%. Nói ly <em>đậm đến đâu</em>. Khác hẳn EY, lẫn hai thứ này là nguồn gốc của phần lớn việc chỉnh sai hướng.</td></tr>
+<tr><td><strong>TDS</strong> (total dissolved solids)</td><td>Nồng độ chất hoà tan trong ly, tính bằng phần trăm. Pour over thường 1,15–1,35%. Nói ly <em>đậm đến đâu</em>. Khác hẳn EY. Lẫn hai thứ này là nguồn gốc của phần lớn việc chỉnh sai hướng.</td></tr>
 <tr><td><strong>Tỉ lệ</strong> (brew ratio)</td><td>Khối lượng cà so với khối lượng nước. 1:16 là 1 g cà với 16 g nước. Đòn bẩy dễ dự đoán nhất. Đổi tỉ lệ là đổi TDS gần như tuyến tính.</td></tr>
 <tr><td><strong>Alkalinity</strong> (độ kiềm)</td><td>Khả năng đệm acid của nước, tính bằng ppm as CaCO₃. Mục tiêu khoảng 40 ppm. Thứ duy nhất trong nước thật sự quyết định vị. Cao quá thì mất trái cây. Chương 4.</td></tr>
 <tr><td><strong>dKH</strong></td><td>Đơn vị độ cứng carbonate của Đức, dùng trên bộ test hồ cá. 1 dKH = 17,86 ppm as CaCO₃. Cách đo alkalinity rẻ nhất. Chương 5.</td></tr>
@@ -218,7 +218,7 @@ window.BOOK_PARTS.push({
 <tr><td><strong>Quinide</strong> (lactone acid chlorogenic)</td><td>Nhóm hợp chất đắng hình thành khi rang, nhiều nhất ở mức nhẹ đến vừa. Vị đắng "kiểu cà phê". Sinh ra trong lò rang, không phải trong phễu. Chương 9.</td></tr>
 <tr><td><strong>Phenylindane</strong></td><td>Nhóm đắng sinh ra khi rang mạnh hơn làm quinide phân huỷ tiếp. Đắng gắt hơn và đọng lâu hơn. Đây là lý do rang đậm cho vị đắng khác <em>chất</em>, không chỉ khác lượng.</td></tr>
 <tr><td><strong>Retronasal</strong></td><td>Đường mùi đi từ miệng ngược lên mũi khi bạn nuốt. Phần lớn thứ bạn gọi là "vị" đi qua đường này. Lưỡi chỉ nhận năm vị cơ bản. Chương 26.</td></tr>
-<tr><td><strong>Astringency</strong> (vị chát)</td><td>Cảm giác khô, rít trong miệng, là <em>xúc giác</em>, không phải vị. Hay bị gọi nhầm là "đắng". Nguyên nhân thường khác nhau, nên cách sửa cũng khác.</td></tr>
+<tr><td><strong>Astringency</strong> (vị chát)</td><td>Cảm giác khô, rít trong miệng. Đây là <em>xúc giác</em>, không phải vị. Hay bị gọi nhầm là "đắng". Nguyên nhân thường khác nhau, nên cách sửa cũng khác.</td></tr>
 <tr><td><strong>Cupping</strong></td><td>Quy trình nếm chuẩn hoá: tỉ lệ cố định, ngâm, không lọc. Cho bạn biết trần của con cà, tách khỏi kỹ thuật pha. Phần IV.</td></tr>
 </tbody>
 </table>

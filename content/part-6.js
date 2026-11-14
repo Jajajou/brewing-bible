@@ -271,7 +271,7 @@ Dễ gặp vấn đề:  ____________________
 
 <p>Đây là một con cà tốt. Nó có cả hai lớp hương, với lớp rang làm nền và lớp trái cây làm điểm nhấn. Trần của nó: ngọt caramel rõ, quả đỏ mờ, hậu vị sạch.</p>
 
-<h3>Lần pha thứ nhất, và vấn đề</h3>
+<h3>Lần pha thứ nhất và vấn đề</h3>
 
 <div class="recipe">
 <div class="recipe-head">Công thức đã dùng<small>V60, không switch</small></div>

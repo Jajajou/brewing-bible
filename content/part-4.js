@@ -82,7 +82,7 @@ window.BOOK_PARTS.push({
 
 <h4>3. Điểm cao không dự đoán bạn sẽ thích</h4>
 
-<p>Đây là điểm quan trọng nhất với người uống tại nhà. Cupping đo chất lượng theo tiêu chuẩn ngành, độ sạch, độ phức tạp, độ cân bằng, tính đặc trưng của origin. Nó <strong>không</strong> đo sở thích cá nhân. Và không có nghiên cứu nào cho thấy điểm cupping dự đoán được mức độ ưa thích của người tiêu dùng thông thường.</p>
+<p>Đây là điểm quan trọng nhất với người uống tại nhà. Cupping đo chất lượng theo tiêu chuẩn ngành: độ sạch, độ phức tạp, độ cân bằng, tính đặc trưng của origin. Nó <strong>không</strong> đo sở thích cá nhân. Và không có nghiên cứu nào cho thấy điểm cupping dự đoán được mức độ ưa thích của người tiêu dùng thông thường.</p>
 
 <div class="pull">Cupping trả lời: <em>“con cà này là gì?”</em><br>Nó không trả lời: <em>“bạn có thích nó không?”</em></div>
 
@@ -141,11 +141,11 @@ window.BOOK_PARTS.push({
 <h3>Các bước</h3>
 
 <ol class="steps">
-<li><strong>Ngửi bã khô (0:00)</strong><p>Xay cà, cho vào cốc, và ngửi ngay. Đây là mùi mạnh nhất và dễ nhận nhất trong toàn bộ quy trình. Ghi lại, không cần đặt tên chính xác, chỉ cần "quen/lạ, dễ chịu/khó chịu" và một hoặc hai từ mô tả.</p></li>
+<li><strong>Ngửi bã khô (0:00)</strong><p>Xay cà, cho vào cốc, và ngửi ngay. Đây là mùi mạnh nhất và dễ nhận nhất trong toàn bộ quy trình. Ghi lại: không cần đặt tên chính xác, chỉ cần "quen/lạ, dễ chịu/khó chịu" và một hoặc hai từ mô tả.</p></li>
 <li><strong>Rót nước (0:10)</strong><p>Rót 150 ml nước 93 °C, đổ nhanh và đều để toàn bộ bã ướt. Bắt đầu tính giờ.</p></li>
 <li><strong>Ngửi bã ướt (0:30–1:30)</strong><p>Đây là lớp hương quan trọng nhất, vì nó gần với những gì sẽ vào ly. Bã sẽ phồng lên thành một lớp dày trên mặt. Ngửi sát mặt nước.</p></li>
 <li><strong>Đợi (1:30–4:00)</strong><p>Không làm gì. Đây là lúc bã lắng xuống. Bạn có thể ngửi lại ở phút thứ 3, hương đã thay đổi, thường dịu hơn và có thêm nốt nặng.</p></li>
-<li><strong>Phá bã (4:00)</strong><p>Dùng thìa đẩy lớp bã nổi sang một bên, ba lần. Động tác này giải phóng một đợt hương mạnh, ngửi ngay. Đây là khoảnh khắc nhiều người thấy hương rõ nhất trong toàn bộ quy trình.</p></li>
+<li><strong>Phá bã (4:00)</strong><p>Dùng thìa đẩy lớp bã nổi sang một bên, ba lần. Động tác này giải phóng một đợt hương mạnh: ngửi ngay. Đây là khoảnh khắc nhiều người thấy hương rõ nhất trong toàn bộ quy trình.</p></li>
 <li><strong>Hớt bọt và bã nổi</strong><p>Dùng hai thìa hớt sạch phần bã và bọt còn nổi trên mặt. Bây giờ bạn có một ly nước cà phê trong.</p></li>
 <li><strong>Đợi nguội một chút (7:00–8:00)</strong><p>Đừng nếm khi còn quá nóng. Bạn sẽ bỏng và không cảm nhận được gì. Đợi đến khoảng 70 °C.</p></li>
 <li><strong>Nếm ở ba nhiệt độ</strong><p>Nếm khi còn nóng (~70 °C), khi ấm (~55 °C) và khi nguội (~40 °C). Mỗi nhiệt độ cho bạn một thông tin khác nhau. Đây là bước bị bỏ qua nhiều nhất, và nó là bước hữu ích nhất.</p></li>
@@ -251,7 +251,7 @@ window.BOOK_PARTS.push({
 
 <h4>4. Có gì không nên có?</h4>
 
-<p>Đây là câu hỏi mà người mới hay bỏ qua, và nó quan trọng hơn cả ba câu trên. Vị lạ, giấy, các-tông, kim loại, mốc, thuốc, cao su, mùi đất, là thông tin mạnh hơn bất kỳ nốt hương đẹp nào.</p>
+<p>Đây là câu hỏi mà người mới hay bỏ qua, và nó quan trọng hơn cả ba câu trên. Vị lạ (giấy, các-tông, kim loại, mốc, thuốc, cao su, mùi đất) là thông tin mạnh hơn bất kỳ nốt hương đẹp nào.</p>
 
 <div class="table-wrap">
 <table>
@@ -372,7 +372,7 @@ Lạ:   _______________<br>
 
 <p>Khi cupping, bạn <strong>slurp mạnh</strong> từ một chiếc cốc mở, ở nồng độ thấp, với một lượng lớn trong miệng. Khi uống pour-over ở nhà, bạn nhấp một ngụm nhỏ từ một chiếc cốc, có thể còn đang nóng, có thể đang để nguội trên bàn.</p>
 
-<p>Ba khác biệt đó, động tác, lượng, nhiệt độ, làm giảm lượng hương bạn nhận được rất nhiều. Đây là lý do cơ học, không phải tâm lý.</p>
+<p>Ba khác biệt đó (động tác, lượng, nhiệt độ) làm giảm lượng hương bạn nhận được rất nhiều. Đây là lý do cơ học, không phải tâm lý.</p>
 
 <div class="callout ok">
 <p class="callout-title">Thử nghiệm 2 phút</p>
@@ -409,7 +409,7 @@ Lạ:   _______________<br>
 <ol class="steps">
 <li><strong>Có thêm vị xấu mà cupping không có không?</strong><p>Đắng, chát, khô, kim loại. Nếu có → <strong>lỗi kỹ thuật</strong>. Đọc bã. Sửa kỹ thuật.</p></li>
 <li><strong>Chỉ yếu đi, không thêm gì?</strong><p>Hương nhạt hơn nhưng sạch. → <strong>Không phải lỗi kỹ thuật.</strong> Đây là cường độ, hoặc cách uống, hoặc chênh lệch tỉ lệ.</p></li>
-<li><strong>Có nốt mới mà cupping không có?</strong><p>Đôi khi pour-over làm nổi bật một khía cạnh (thường là acid, vì percolation chiết acid nhanh hơn ở giai đoạn đầu). Đây không phải lỗi, đây là tính cách của phương pháp.</p></li>
+<li><strong>Có nốt mới mà cupping không có?</strong><p>Đôi khi pour-over làm nổi bật một khía cạnh (thường là acid, vì percolation chiết acid nhanh hơn ở giai đoạn đầu). Đây không phải lỗi: đây là tính cách của phương pháp.</p></li>
 <li><strong>Không có gì cả, hoàn toàn phẳng?</strong><p>Kiểm tra nước trước tiên. Sau đó kiểm tra độ tươi của cà. Rồi mới đến kỹ thuật.</p></li>
 </ol>
 
