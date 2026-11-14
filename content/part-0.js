@@ -86,6 +86,8 @@ window.BOOK_PARTS.push({
 </table>
 </div>
 
+<p>Số sau dấu <strong>·</strong> trong tem là số hiệu nguồn ở phụ lục A2 — <em>Hợp lý · 68</em> nghĩa là khẳng định đó dựa vào nguồn [68] trong danh mục.</p>
+
 <p>Câu về <em>quy trình</em> và <em>kinh nghiệm riêng</em> thì không mang nhãn — "rót theo xoáy ốc từ trong ra" không phải một khẳng định cần nguồn, nó là một chỉ dẫn. Gắn nhãn bằng chứng cho những câu như vậy là nói quá.</p>
 
 <div class="callout">

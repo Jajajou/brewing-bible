@@ -87,6 +87,8 @@ window.BOOK_TEXT = {
 </table>
 </div>
 
+<p>The number after the <strong>·</strong> inside a label is the source number in appendix A2 — <em>Plausible · 68</em> means the claim rests on source [68] in that list.</p>
+
 <p>Sentences about <em>method</em> and <em>personal experience</em> carry no label — "pour in a spiral from the centre out" is not a claim needing a source, it is an instruction. Labelling sentences like that as evidence would overstate them.</p>
 
 <div class="callout">
