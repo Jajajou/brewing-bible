@@ -1740,7 +1740,7 @@ After: _______________  (long/short, clean/dirty)<br>
 Odd:   _______________
 </div>
 
-<p>These five lines, after ten coffees, give you something no book can: <strong>a map of your own palate</strong>. And that is the foundation for chapter 27.</p>
+<p>These five lines, after ten coffees, give you something no book can: <strong>a map of your own palate</strong>. And that is the foundation for chapter 28.</p>
 `
     },
 
