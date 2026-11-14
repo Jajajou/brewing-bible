@@ -1,0 +1,559 @@
+{
+  "voices": {
+    "male": "Thiền Tâm Đức",
+    "female": "Mai Anh",
+    "quote": "Thiện Minh"
+  },
+  "format": {
+    "codec": "opus",
+    "bitrate": "24k",
+    "sampleRate": 48000
+  },
+  "chapters": {
+    "ch-chiet-xuat": {
+      "male": {
+        "hash": "9e9f2a82a85c6294",
+        "file": "audio/vi/male/ch-chiet-xuat.opus",
+        "bytes": 1235194,
+        "seconds": 421.26,
+        "chars": 5484
+      },
+      "female": {
+        "hash": "372f4136eac94655",
+        "file": "audio/vi/female/ch-chiet-xuat.opus",
+        "bytes": 1056596,
+        "seconds": 353.28,
+        "chars": 5484
+      }
+    },
+    "ch-muc-rang": {
+      "male": {
+        "hash": "bfdeac1505dbef4a",
+        "file": "audio/vi/male/ch-muc-rang.opus",
+        "bytes": 1338048,
+        "seconds": 453.64,
+        "chars": 6052
+      },
+      "female": {
+        "hash": "6a6f33a67ac29a4c",
+        "file": "audio/vi/female/ch-muc-rang.opus",
+        "bytes": 1149963,
+        "seconds": 382.09,
+        "chars": 6052
+      }
+    },
+    "ch-quy-trinh-cupping": {
+      "male": {
+        "hash": "4ac25491d33e7ee0",
+        "file": "audio/vi/male/ch-quy-trinh-cupping.opus",
+        "bytes": 984054,
+        "seconds": 337.6,
+        "chars": 4328
+      },
+      "female": {
+        "hash": "8d8d78acd2fac8a0",
+        "file": "audio/vi/female/ch-quy-trinh-cupping.opus",
+        "bytes": 829223,
+        "seconds": 276.58,
+        "chars": 4328
+      }
+    },
+    "ch-nguon-danh-muc": {
+      "male": {
+        "hash": "68845bf2970f16db",
+        "file": "audio/vi/male/ch-nguon-danh-muc.opus",
+        "bytes": 23995,
+        "seconds": 8.24,
+        "chars": 114
+      },
+      "female": {
+        "hash": "4303989b8af5e4d1",
+        "file": "audio/vi/female/ch-nguon-danh-muc.opus",
+        "bytes": 20509,
+        "seconds": 6.56,
+        "chars": 114
+      }
+    },
+    "ch-nguon-doi-chieu": {
+      "male": {
+        "hash": "316740296beb5db8",
+        "file": "audio/vi/male/ch-nguon-doi-chieu.opus",
+        "bytes": 241959,
+        "seconds": 82.98,
+        "chars": 1124
+      },
+      "female": {
+        "hash": "ba966fe3e5fd5dcc",
+        "file": "audio/vi/female/ch-nguon-doi-chieu.opus",
+        "bytes": 207697,
+        "seconds": 68.56,
+        "chars": 1124
+      }
+    },
+    "ch-bon-bien-so": {
+      "male": {
+        "hash": "da9ebf67f276a0e3",
+        "file": "audio/vi/male/ch-bon-bien-so.opus",
+        "bytes": 1122486,
+        "seconds": 382.11,
+        "chars": 5220
+      },
+      "female": {
+        "hash": "d0847d354f9402b3",
+        "file": "audio/vi/female/ch-bon-bien-so.opus",
+        "bytes": 988208,
+        "seconds": 327.44,
+        "chars": 5220
+      }
+    },
+    "ch-do-tuoi": {
+      "male": {
+        "hash": "d45da826892e3d7c",
+        "file": "audio/vi/male/ch-do-tuoi.opus",
+        "bytes": 1235033,
+        "seconds": 419.33,
+        "chars": 5620
+      },
+      "female": {
+        "hash": "d6c3fbf14ffac431",
+        "file": "audio/vi/female/ch-do-tuoi.opus",
+        "bytes": 1056749,
+        "seconds": 351.12,
+        "chars": 5620
+      }
+    },
+    "ch-nuoc": {
+      "male": {
+        "hash": "9375a79990851d75",
+        "file": "audio/vi/male/ch-nuoc.opus",
+        "bytes": 1441595,
+        "seconds": 491.28,
+        "chars": 6115
+      },
+      "female": {
+        "hash": "442d30adb82ae075",
+        "file": "audio/vi/female/ch-nuoc.opus",
+        "bytes": 1217593,
+        "seconds": 405.03,
+        "chars": 6115
+      }
+    },
+    "ch-do-nuoc": {
+      "male": {
+        "hash": "0544cc694a3d44d8",
+        "file": "audio/vi/male/ch-do-nuoc.opus",
+        "bytes": 1420019,
+        "seconds": 484.39,
+        "chars": 5944
+      },
+      "female": {
+        "hash": "58d6102da8455b74",
+        "file": "audio/vi/female/ch-do-nuoc.opus",
+        "bytes": 1220517,
+        "seconds": 405.96,
+        "chars": 5944
+      }
+    },
+    "ch-xu-ly-nuoc": {
+      "male": {
+        "hash": "92e25200dd9a91c9",
+        "file": "audio/vi/male/ch-xu-ly-nuoc.opus",
+        "bytes": 1313995,
+        "seconds": 449.91,
+        "chars": 5574
+      },
+      "female": {
+        "hash": "b991489059191c80",
+        "file": "audio/vi/female/ch-xu-ly-nuoc.opus",
+        "bytes": 1128534,
+        "seconds": 376.61,
+        "chars": 5574
+      }
+    },
+    "ch-huyen-thoai-thu-tu": {
+      "male": {
+        "hash": "4a3036c7df5a5af6",
+        "file": "audio/vi/male/ch-huyen-thoai-thu-tu.opus",
+        "bytes": 1123109,
+        "seconds": 384.71,
+        "chars": 5131
+      },
+      "female": {
+        "hash": "3cfbd04888098124",
+        "file": "audio/vi/female/ch-huyen-thoai-thu-tu.opus",
+        "bytes": 959409,
+        "seconds": 321.12,
+        "chars": 5131
+      }
+    },
+    "ch-ba-thu-kiem-soat": {
+      "male": {
+        "hash": "4d3a47fadba509e0",
+        "file": "audio/vi/male/ch-ba-thu-kiem-soat.opus",
+        "bytes": 1013478,
+        "seconds": 345.91,
+        "chars": 4611
+      },
+      "female": {
+        "hash": "d56aecc64819f65b",
+        "file": "audio/vi/female/ch-ba-thu-kiem-soat.opus",
+        "bytes": 869060,
+        "seconds": 289.16,
+        "chars": 4611
+      }
+    },
+    "ch-co-xay": {
+      "male": {
+        "hash": "e3cc18ce1727b3d8",
+        "file": "audio/vi/male/ch-co-xay.opus",
+        "bytes": 2596113,
+        "seconds": 879.43,
+        "chars": 11622
+      },
+      "female": {
+        "hash": "71422ea4621c2036",
+        "file": "audio/vi/female/ch-co-xay.opus",
+        "bytes": 2248211,
+        "seconds": 743.78,
+        "chars": 11622
+      }
+    },
+    "ch-cupping-la-gi": {
+      "male": {
+        "hash": "2f68c36d0153b182",
+        "file": "audio/vi/male/ch-cupping-la-gi.opus",
+        "bytes": 1215913,
+        "seconds": 415.63,
+        "chars": 5517
+      },
+      "female": {
+        "hash": "f427f2e97c6b6873",
+        "file": "audio/vi/female/ch-cupping-la-gi.opus",
+        "bytes": 1058258,
+        "seconds": 353.27,
+        "chars": 5517
+      }
+    },
+    "ch-doc-cupping": {
+      "male": {
+        "hash": "b65db1de7482ad75",
+        "file": "audio/vi/male/ch-doc-cupping.opus",
+        "bytes": 1062223,
+        "seconds": 366.14,
+        "chars": 4700
+      },
+      "female": {
+        "hash": "bef4309ab100f13b",
+        "file": "audio/vi/female/ch-doc-cupping.opus",
+        "bytes": 899144,
+        "seconds": 302.68,
+        "chars": 4700
+      }
+    },
+    "ch-gioi-han-cupping": {
+      "male": {
+        "hash": "9f453bf88085b8d8",
+        "file": "audio/vi/male/ch-gioi-han-cupping.opus",
+        "bytes": 976566,
+        "seconds": 334.83,
+        "chars": 4496
+      },
+      "female": {
+        "hash": "a2126a6550dddfea",
+        "file": "audio/vi/female/ch-gioi-han-cupping.opus",
+        "bytes": 851774,
+        "seconds": 285.17,
+        "chars": 4496
+      }
+    },
+    "ch-hai-co-che": {
+      "male": {
+        "hash": "d091e1ca0f327631",
+        "file": "audio/vi/male/ch-hai-co-che.opus",
+        "bytes": 905597,
+        "seconds": 312.82,
+        "chars": 4044
+      },
+      "female": {
+        "hash": "155715c4986efed4",
+        "file": "audio/vi/female/ch-hai-co-che.opus",
+        "bytes": 777515,
+        "seconds": 260.72,
+        "chars": 4044
+      }
+    },
+    "ch-chon-dung-cu": {
+      "male": {
+        "hash": "c580175efeefc007",
+        "file": "audio/vi/male/ch-chon-dung-cu.opus",
+        "bytes": 1037668,
+        "seconds": 353.98,
+        "chars": 4691
+      },
+      "female": {
+        "hash": "dab73d42bd988fc7",
+        "file": "audio/vi/female/ch-chon-dung-cu.opus",
+        "bytes": 896466,
+        "seconds": 299.29,
+        "chars": 4691
+      }
+    },
+    "ch-ky-thuat-rot": {
+      "male": {
+        "hash": "27960df4c65298da",
+        "file": "audio/vi/male/ch-ky-thuat-rot.opus",
+        "bytes": 1167258,
+        "seconds": 399.92,
+        "chars": 5026
+      },
+      "female": {
+        "hash": "afe038bbb91ae1e1",
+        "file": "audio/vi/female/ch-ky-thuat-rot.opus",
+        "bytes": 1005749,
+        "seconds": 337.24,
+        "chars": 5026
+      }
+    },
+    "ch-giai-phau-cong-thuc": {
+      "male": {
+        "hash": "84711625f4a39dcb",
+        "file": "audio/vi/male/ch-giai-phau-cong-thuc.opus",
+        "bytes": 1080448,
+        "seconds": 370.39,
+        "chars": 4951
+      },
+      "female": {
+        "hash": "49eac38d02318d70",
+        "file": "audio/vi/female/ch-giai-phau-cong-thuc.opus",
+        "bytes": 928750,
+        "seconds": 309.24,
+        "chars": 4951
+      }
+    },
+    "ch-cong-thuc-nha-vo-dich": {
+      "male": {
+        "hash": "da63af5758ae520f",
+        "file": "audio/vi/male/ch-cong-thuc-nha-vo-dich.opus",
+        "bytes": 2432582,
+        "seconds": 823.12,
+        "chars": 10595
+      },
+      "female": {
+        "hash": "c3c807fa2c90508f",
+        "file": "audio/vi/female/ch-cong-thuc-nha-vo-dich.opus",
+        "bytes": 2089098,
+        "seconds": 691.67,
+        "chars": 10595
+      }
+    },
+    "ch-doc-ba": {
+      "male": {
+        "hash": "719e0236aa1ca046",
+        "file": "audio/vi/male/ch-doc-ba.opus",
+        "bytes": 878447,
+        "seconds": 300.27,
+        "chars": 3933
+      },
+      "female": {
+        "hash": "ad96b3b9c21bdfe7",
+        "file": "audio/vi/female/ch-doc-ba.opus",
+        "bytes": 750556,
+        "seconds": 251.98,
+        "chars": 3933
+      }
+    },
+    "ch-bang-chan-doan": {
+      "male": {
+        "hash": "f7148a526371427a",
+        "file": "audio/vi/male/ch-bang-chan-doan.opus",
+        "bytes": 733909,
+        "seconds": 251.3,
+        "chars": 3294
+      },
+      "female": {
+        "hash": "c1a8a72c1414cc45",
+        "file": "audio/vi/female/ch-bang-chan-doan.opus",
+        "bytes": 623826,
+        "seconds": 207.49,
+        "chars": 3294
+      }
+    },
+    "ch-quy-trinh-con-ca-moi": {
+      "male": {
+        "hash": "c300d003a4f4989a",
+        "file": "audio/vi/male/ch-quy-trinh-con-ca-moi.opus",
+        "bytes": 1000940,
+        "seconds": 345.3,
+        "chars": 4518
+      },
+      "female": {
+        "hash": "0396e2524ac01997",
+        "file": "audio/vi/female/ch-quy-trinh-con-ca-moi.opus",
+        "bytes": 851048,
+        "seconds": 285.36,
+        "chars": 4518
+      }
+    },
+    "ch-bon-luat": {
+      "male": {
+        "hash": "0fb29cc79ee85621",
+        "file": "audio/vi/male/ch-bon-luat.opus",
+        "bytes": 1316932,
+        "seconds": 450.6,
+        "chars": 6068
+      },
+      "female": {
+        "hash": "ff7112a4bdf69444",
+        "file": "audio/vi/female/ch-bon-luat.opus",
+        "bytes": 1137893,
+        "seconds": 379.43,
+        "chars": 6068
+      }
+    },
+    "ch-case-study": {
+      "male": {
+        "hash": "46253dac83f4ef53",
+        "file": "audio/vi/male/ch-case-study.opus",
+        "bytes": 1305966,
+        "seconds": 447.76,
+        "chars": 5524
+      },
+      "female": {
+        "hash": "9139e92282787069",
+        "file": "audio/vi/female/ch-case-study.opus",
+        "bytes": 1108123,
+        "seconds": 370.6,
+        "chars": 5524
+      }
+    },
+    "ch-giai-phau-ngum": {
+      "male": {
+        "hash": "56899d79a9bfdd52",
+        "file": "audio/vi/male/ch-giai-phau-ngum.opus",
+        "bytes": 1139657,
+        "seconds": 390.96,
+        "chars": 5134
+      },
+      "female": {
+        "hash": "08b5cefefc1d7933",
+        "file": "audio/vi/female/ch-giai-phau-ngum.opus",
+        "bytes": 972589,
+        "seconds": 327.46,
+        "chars": 5134
+      }
+    },
+    "ch-ngon-ngu-not-huong": {
+      "male": {
+        "hash": "6e3401c49e2a3446",
+        "file": "audio/vi/male/ch-ngon-ngu-not-huong.opus",
+        "bytes": 1044716,
+        "seconds": 359.85,
+        "chars": 4891
+      },
+      "female": {
+        "hash": "88d593d51d3dea62",
+        "file": "audio/vi/female/ch-ngon-ngu-not-huong.opus",
+        "bytes": 902156,
+        "seconds": 302.48,
+        "chars": 4891
+      }
+    },
+    "ch-xay-khau-vi": {
+      "male": {
+        "hash": "b79a795be4c1ff8d",
+        "file": "audio/vi/male/ch-xay-khau-vi.opus",
+        "bytes": 1005452,
+        "seconds": 344.13,
+        "chars": 4550
+      },
+      "female": {
+        "hash": "41dcd25e7e6770ed",
+        "file": "audio/vi/female/ch-xay-khau-vi.opus",
+        "bytes": 852304,
+        "seconds": 285.9,
+        "chars": 4550
+      }
+    },
+    "ch-nhat-ky": {
+      "male": {
+        "hash": "e3b5a6d0202ef8b6",
+        "file": "audio/vi/male/ch-nhat-ky.opus",
+        "bytes": 779662,
+        "seconds": 265.68,
+        "chars": 3503
+      },
+      "female": {
+        "hash": "2ffe5a049e143ee7",
+        "file": "audio/vi/female/ch-nhat-ky.opus",
+        "bytes": 668925,
+        "seconds": 224.44,
+        "chars": 3503
+      }
+    },
+    "ch-bo-dung-cu": {
+      "male": {
+        "hash": "efffbba184c45ed8",
+        "file": "audio/vi/male/ch-bo-dung-cu.opus",
+        "bytes": 817872,
+        "seconds": 279.14,
+        "chars": 3650
+      },
+      "female": {
+        "hash": "d80a8469fade45a9",
+        "file": "audio/vi/female/ch-bo-dung-cu.opus",
+        "bytes": 708228,
+        "seconds": 234.95,
+        "chars": 3650
+      }
+    },
+    "ch-khi-that-bai": {
+      "male": {
+        "hash": "428c0e538e069d96",
+        "file": "audio/vi/male/ch-khi-that-bai.opus",
+        "bytes": 1062384,
+        "seconds": 363.4,
+        "chars": 4794
+      },
+      "female": {
+        "hash": "5b87af840c090482",
+        "file": "audio/vi/female/ch-khi-that-bai.opus",
+        "bytes": 898663,
+        "seconds": 299.57,
+        "chars": 4794
+      }
+    },
+    "ch-nguon-cach-doc": {
+      "male": {
+        "hash": "6d356dc099aed44a",
+        "file": "audio/vi/male/ch-nguon-cach-doc.opus",
+        "bytes": 219083,
+        "seconds": 73.91,
+        "chars": 1073
+      },
+      "female": {
+        "hash": "dde0a0caba174b5f",
+        "file": "audio/vi/female/ch-nguon-cach-doc.opus",
+        "bytes": 186676,
+        "seconds": 61.46,
+        "chars": 1073
+      }
+    },
+    "ch-nguon-khoang-trong": {
+      "male": {
+        "hash": "21d0945141d1eb43",
+        "file": "audio/vi/male/ch-nguon-khoang-trong.opus",
+        "bytes": 1515463,
+        "seconds": 513.86,
+        "chars": 6429
+      },
+      "female": {
+        "hash": "a38e2b715855a838",
+        "file": "audio/vi/female/ch-nguon-khoang-trong.opus",
+        "bytes": 1299915,
+        "seconds": 432.93,
+        "chars": 6429
+      }
+    }
+  },
+  "updated": "2026-11-06T05:20:07.960Z"
+}
