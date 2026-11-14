@@ -154,7 +154,7 @@ window.BOOK_PARTS.push({
 <li><strong>Không phần nào có monosaccharide ở mức nếm được.</strong> Vị ngọt bạn nếm không đến từ đường.</li>
 </ul>
 
-<p>Đo động học ở thang giây cũng không thấy thứ tự nào như mô hình nói. Trong một luận án đo chiết xuất từ giây thứ 5, <strong>50% acid citric và malic đã tan trong 10 giây đầu</strong>; caffeine và acid chlorogenic (3-CQA) chỉ chậm hơn <strong>3–4 giây</strong> <span class="tier tier-a">Bằng chứng</span> [56]. Ba đến bốn giây — không phải ba đến bốn phút. Trong một mẻ pour over hai phút rưỡi, khoảng chênh đó biến mất.</p>
+<p>Đo động học ở thang giây cũng không thấy thứ tự nào như mô hình nói. Trong một luận án đo chiết xuất từ giây thứ 5, <strong>50% acid citric và malic đã tan trong 10 giây đầu</strong>; caffeine và acid chlorogenic (3-CQA) chỉ chậm hơn <strong>3–4 giây</strong> <span class="tier tier-a">Bằng chứng</span> [56]. Ba đến bốn giây — không phải ba đến bốn phút. Trong một mẻ pour over hai phút rưỡi, khoảng chênh đó biến mất. (Giới hạn: luận án đo trong bình khuấy kín, gần với ngâm hơn là với pour over.)</p>
 
 <h3>Một phát hiện phá trực giác hơn</h3>
 
@@ -246,7 +246,7 @@ window.BOOK_PARTS.push({
 
 <h4>Nhiệt độ — đòn bẩy tinh tế</h4>
 
-<p>Tăng nhiệt: tăng tốc độ chiết và tăng khả năng hoà tan của các hợp chất khó tan. Hiệu ứng khoảng 2–4% mức chiết cho mỗi 5 °C trong vùng 88–96 °C.</p>
+<p>Tăng nhiệt: tăng tốc độ chiết và tăng khả năng hoà tan của các hợp chất khó tan. Chiều của hiệu ứng thì có đo: mức chiết cuối tăng theo nhiệt độ pha <span class="tier tier-a">Bằng chứng</span> [57]. Nhưng <strong>độ lớn</strong> thì không. Con số "khoảng 2–4% mức chiết cho mỗi 5 °C" lưu hành trong giới pha chế không có nghiên cứu nào chống đỡ; chúng tôi đã tra và không tìm được <span class="tier tier-b">Hợp lý</span>. Hãy dùng nó như một thứ tự độ lớn để đoán hướng chỉnh, không phải một hằng số để tính.</p>
 
 <p>Nhưng nhiệt độ còn ảnh hưởng đến thứ bạn <em>cảm nhận</em>: ly cà nóng hơn làm hương bay mạnh hơn (tốt), và che bớt vị đắng (cũng tốt). Nên nhiệt độ tác động lên hai chiều cùng lúc, và đây là lý do nó khó đánh giá.</p>
 

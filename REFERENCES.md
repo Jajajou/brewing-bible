@@ -434,6 +434,16 @@ Luận án tiến sĩ, University of Sheffield.
 chiết trong 10 giây đầu**; caffeine và 3-CQA chậm hơn **3–4 giây**. Chênh lệch tính bằng giây,
 không phải bằng phút.
 
+**[57]** Wang, X., & Lim, L.-T. (2021). *Modeling study of coffee extraction at different
+temperature and grind size conditions to better understand the cold and hot brewing process.*
+Journal of Food Process Engineering, 44(8).
+DOI [10.1111/jfpe.13748](https://doi.org/10.1111/jfpe.13748)
+
+Đo động học chiết theo TDS ở 4, 23, 50 và 93 °C với bốn cỡ xay. **Mức chiết cuối tăng theo nhiệt
+độ pha và giảm theo cỡ hạt** — chiều của hiệu ứng nhiệt có đo. Bài không cho hệ số "bao nhiêu phần
+trăm mức chiết cho mỗi 5 °C"; con số 2–4% trong giới pha chế vẫn không có nguồn. Thí nghiệm ngâm
+khuấy, không phải pour over.
+
 ---
 
 ## Đối chiếu theo chương

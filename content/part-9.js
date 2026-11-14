@@ -262,6 +262,10 @@
 <p><strong>[56]</strong> Maille, M. J. (2024). <em>Measuring Coffee Extraction Kinetics at Early Time Scales.</em> Luận án tiến sĩ, University of Sheffield. etheses.whiterose.ac.uk/id/eprint/36281/</p>
 
 <p>Đo chiết xuất từ giây thứ 5 đến giây 600; 80% dữ liệu nằm dưới 35 giây. 50% acid citric và malic chiết trong 10 giây đầu; caffeine và 3-CQA chậm hơn 3–4 giây. Chênh lệch giữa các hợp chất tính bằng giây, không phải bằng phút — nên trong một mẻ pour over nó biến mất.</p>
+
+<p><strong>[57]</strong> Wang, X., & Lim, L.-T. (2021). <em>Modeling study of coffee extraction at different temperature and grind size conditions to better understand the cold and hot brewing process.</em> Journal of Food Process Engineering, 44(8). doi.org/10.1111/jfpe.13748</p>
+
+<p>Đo động học chiết theo TDS ở 4, 23, 50 và 93 °C với bốn cỡ xay. Mức chiết cuối tăng theo nhiệt độ pha và giảm theo cỡ hạt — chiều của hiệu ứng nhiệt ở chương 9 có đo. Bài không cho hệ số phần trăm mức chiết cho mỗi 5 °C; con số 2–4% lưu hành trong giới pha chế vẫn không có nguồn. Giới hạn: thí nghiệm ngâm khuấy, không phải pour over.</p>
 <div class="callout">
 <p class="callout-title">Ba bài không mở được toàn văn</p>
 <p>[17], [22] và trang DOI của [5] bị nhà xuất bản chặn trong lúc tra. Chi tiết trong các mục đó lấy từ tóm tắt và từ bài tổng quan của SCA. Nếu bạn cần trích dẫn chính xác đến từng câu, phải mở bản đầy đủ.</p>

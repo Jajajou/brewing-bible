@@ -769,7 +769,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 <li><strong>No fraction had monosaccharides at perceptible levels.</strong> The sweetness you taste does not come from sugar.</li>
 </ul>
 
-<p>Measuring kinetics at the scale of seconds shows no such order either. In a thesis measuring extraction from five seconds on, <strong>50% of the citric and malic acid extracted within the first 10 seconds</strong>; caffeine and chlorogenic acid (3-CQA) lagged by only <strong>3 to 4 seconds</strong> <span class="tier tier-a">Evidence</span> [56]. Three to four seconds — not three to four minutes. Inside a two-and-a-half-minute pour over, that gap disappears.</p>
+<p>Measuring kinetics at the scale of seconds shows no such order either. In a thesis measuring extraction from five seconds on, <strong>50% of the citric and malic acid extracted within the first 10 seconds</strong>; caffeine and chlorogenic acid (3-CQA) lagged by only <strong>3 to 4 seconds</strong> <span class="tier tier-a">Evidence</span> [56]. Three to four seconds — not three to four minutes. Inside a two-and-a-half-minute pour over, that gap disappears. (Limit: the thesis measured in a closed stirred vessel, closer to immersion than to a pour over.)</p>
 
 <h3>A more counter-intuitive finding</h3>
 
@@ -860,7 +860,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 
 <h4>Temperature — the subtle lever</h4>
 
-<p>Hotter water: faster extraction and greater solubility for compounds that dissolve slowly. The effect is roughly 2–4% of extraction level per 5 °C between 88 and 96 °C.</p>
+<p>Hotter water: faster extraction and greater solubility for compounds that dissolve slowly. The direction of the effect has been measured: ultimate extraction yield rises with brew temperature <span class="tier tier-a">Evidence</span> [57]. The <strong>size</strong> of it has not. The figure of "roughly 2–4% of extraction per 5 °C" circulating in brewing circles has no study behind it; we looked and could not find one <span class="tier tier-b">Plausible</span>. Treat it as an order of magnitude for guessing which way to adjust, not a constant to calculate with.</p>
 
 <p>But temperature also changes what you <em>perceive</em>: a hotter cup releases more aroma (good) and masks bitterness (also good). So temperature acts on two dimensions at once, which is why it is hard to evaluate.</p>
 
@@ -3422,6 +3422,10 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <p><strong>[56]</strong> Maille, M. J. (2024). <em>Measuring Coffee Extraction Kinetics at Early Time Scales.</em> PhD thesis, University of Sheffield. etheses.whiterose.ac.uk/id/eprint/36281/</p>
 
 <p>Extraction measured from 5 s to 600 s, with 80% of the data under 35 s. 50% of the citric and malic acid extracted within the first 10 seconds; caffeine and 3-CQA lagged by 3 to 4 seconds. The gap between compounds is measured in seconds, not minutes — so inside a pour over it disappears.</p>
+
+<p><strong>[57]</strong> Wang, X., & Lim, L.-T. (2021). <em>Modeling study of coffee extraction at different temperature and grind size conditions to better understand the cold and hot brewing process.</em> Journal of Food Process Engineering, 44(8). doi.org/10.1111/jfpe.13748</p>
+
+<p>Extraction kinetics measured by TDS at 4, 23, 50 and 93 °C across four grind sizes. Ultimate extraction yield rises with brew temperature and falls with particle size — the direction of the temperature effect in chapter 9 is measured. The paper gives no coefficient for percent extraction per 5 °C; the 2–4% figure circulating in brewing circles still has no source. Limit: a stirred immersion experiment, not a pour over.</p>
 <div class="callout">
 <p class="callout-title">Three papers I could not open in full</p>
 <p>[17], [22] and the DOI page for [5] were blocked by the publishers during the check. Their details here come from abstracts and from the SCA review. If you need a sentence-exact citation, open the full text.</p>
