@@ -553,6 +553,18 @@ và phần đáy sẽ chiết ít hơn các lớp bên trên". Bài cũng dẫn 
 và nhắc Scott Rao. Phễu nón cho nước thoát ra ở giữa thành, phễu hình trụ thì không. Nguồn thứ
 cấp — trích lời chuyên gia, không phải đo đạc — nên sách để ở mức Hợp lý.
 
+**[69]** Ristenpart, W. D., Cotter, A. R., & Guinard, J.-X. (2022). *Impact of beverage
+temperature on consumer preferences for black coffee.* Scientific Reports, 12, 20621.
+DOI [10.1038/s41598-022-23904-4](https://doi.org/10.1038/s41598-022-23904-4)
+
+Phân tích lại hơn 3.000 lượt nếm của [59] theo nhiệt độ khi uống, dải 56–71 °C. **Đa số người
+uống (trên 50%) đánh giá "vừa" ở mọi mức tới 70 °C**; chỉ trên 70 °C mới có đa số nói quá nóng,
+và ở đó vẫn còn 40% thấy vừa. Trong khoảng 56–68 °C, 6–12% thấy quá nguội. Nhiệt độ trong dải này
+gần như không đổi đánh giá về cường độ vị, độ chua và cảm giác miệng.
+
+**Lưu ý về cách dẫn:** bản kế hoạch ghi bài này là "người uống thích nhất ở 58–66 °C". Bài không
+nói vậy — nó nói khoảng *chấp nhận được* rộng, không chỉ ra một khoảng tối ưu. Sách dẫn theo bài.
+
 ---
 
 ## Đối chiếu theo chương
@@ -630,7 +642,7 @@ Lớp sau (14/11/2026) thêm **[55]–[57]**, đưa tổng số lên **57**: hai
 nhiệt độ). Cả ba đã đối chiếu Crossref.
 
 Lớp mục 3 thêm **[58]–[59]** (cảm quan theo TDS; hai nhóm sở thích của người uống), đưa tổng số
-lên **59**. Lớp mục 3.2 thêm **[60]–[63]** (hai bài Hofmann về nguồn gốc vị đắng khi rang; hiệu suất chuyển hợp chất mùi vào ly; động học VOC theo nhiệt), đưa tổng số lên **63**. Thêm **[64]** (đo nhiệt slurry) sau khi tác giả sách mở được bản đầy đủ: **64**. Lớp mục 3.3 thêm **[65]–[67]** (hai mặt của bột mịn; vật lý di chuyển bột mịn): **67**. Mục 3.5 thêm **[68]** (bypass): **68**.
+lên **59**. Lớp mục 3.2 thêm **[60]–[63]** (hai bài Hofmann về nguồn gốc vị đắng khi rang; hiệu suất chuyển hợp chất mùi vào ly; động học VOC theo nhiệt), đưa tổng số lên **63**. Thêm **[64]** (đo nhiệt slurry) sau khi tác giả sách mở được bản đầy đủ: **64**. Lớp mục 3.3 thêm **[65]–[67]** (hai mặt của bột mịn; vật lý di chuyển bột mịn): **67**. Mục 3.5 thêm **[68]** (bypass): **68**. Mục 3.7 thêm **[69]** (nhiệt độ khi uống): **69**.
 
 ---
 

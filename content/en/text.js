@@ -1486,6 +1486,10 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 <div class="callout act">
 <p class="callout-title">The golden rule for drinking</p>
 <p>Drink at 55–65 °C. That is the balance point: hot enough for aroma to rise, cool enough not to burn. Coffee left at 45 °C has lost nearly half its aroma — not because it "went cold", but because the volatiles have already escaped.</p>
+
+<p>One study measured this, and its result is wider than you might expect. Across more than 3,000 tastings in the 56–71 °C range, a majority of drinkers (over 50%) rated the temperature "just about right" at <strong>every level up to 70 °C</strong>. Only above 70 °C did a majority call it too hot — and even there, 40% still said it was just right. At the other end, between 56 and 68 °C, some 6–12% found it too cold <span class="tier tier-a">Evidence</span> [69].</p>
+
+<p>Read it correctly: the study does <em>not</em> say 58–66 °C is the best-tasting band. It says the <strong>acceptable range is far wider than the usual advice</strong>, and that across it temperature barely shifted judgements of flavour intensity, acidity or mouthfeel. The 55–65 °C recommendation above is still a good place to aim, but if you like your coffee hotter than that, you are not wrong.</p>
 </div>
 
 <h3>Mouthfeel: the forgotten part</h3>
@@ -3425,7 +3429,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p>The rule is simple: only sentences an outside document can check need a source. Statements about experience, method and advice do not — and none of them should be given a source that merely sounds scientific. Peer-reviewed work with a DOI comes first; where none exists, the industry standard or the primary source from the person who proposed the method.</p>
 
-<p>Sixty-eight sources are grouped by subject in A2 and by chapter in A3. Of the 30 chapters, ten rest directly on documents, six rest on them halfway, twelve are method and need no outside source. Two — 17 and 20 — still have no source at all for their central claim; both now say so in the chapter itself and carry the Plausible label.</p>
+<p>Sixty-nine sources are grouped by subject in A2 and by chapter in A3. Of the 30 chapters, ten rest directly on documents, six rest on them halfway, twelve are method and need no outside source. Two — 17 and 20 — still have no source at all for their central claim; both now say so in the chapter itself and carry the Plausible label.</p>
 
 <div class="callout">
 <p class="callout-title">A source is not evidence</p>
@@ -3436,7 +3440,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
     "ch-nguon-danh-muc": {
       title: "Bibliography",
-      lede: "Sixty-eight sources, grouped by subject. Each entry carries a DOI or a link that was opened and read, plus one line on what that source contributes.",
+      lede: "Sixty-nine sources, grouped by subject. Each entry carries a DOI or a link that was opened and read, plus one line on what that source contributes.",
       minutes: 12,
       tags: ["appendix", "sources"],
       body: `
@@ -3712,6 +3716,10 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <p><strong>[68]</strong> Daily Coffee News (2023). <em>The DCN Guide to Bypass in Coffee Brewing.</em> dailycoffeenews.com/2023/06/08/the-dcn-guide-to-bypass-in-coffee-brewing</p>
 
 <p>Quotes Jonathan Gagné directly: with bypass, less water reaches the bottom of the bed, and the bottom stays less extracted than the layers above. The source for "no-bypass brewers" in chapter 15. A secondary source quoting an expert, not a measurement.</p>
+
+<p><strong>[69]</strong> Ristenpart, W. D., Cotter, A. R., & Guinard, J.-X. (2022). <em>Impact of beverage temperature on consumer preferences for black coffee.</em> Scientific Reports, 12, 20621. doi.org/10.1038/s41598-022-23904-4</p>
+
+<p>More than 3,000 tastings analysed by serving temperature across 56–71 °C. A majority rated it "just about right" at every level up to 70 °C; only above 70 °C did a majority call it too hot. The paper reports a wide acceptable range, not an optimum — the source for the note on tasting temperature in chapter 13.</p>
 <div class="callout">
 <p class="callout-title">Three papers I could not open in full</p>
 <p>[17], [22] and the DOI page for [5] were blocked by the publishers during the check. Their details here come from abstracts and from the SCA review. If you need a sentence-exact citation, open the full text.</p>

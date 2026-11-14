@@ -22,7 +22,7 @@
 
 <p>Nguyên tắc lập rất đơn giản: chỉ câu có thể kiểm chứng bằng tài liệu bên ngoài mới cần nguồn. Câu về kinh nghiệm, quy trình và lời khuyên thì không — và không được gán cho chúng một nguồn nghe có vẻ khoa học. Ưu tiên bài bình duyệt có DOI; khi không có, dùng tiêu chuẩn ngành hoặc nguồn sơ cấp của chính người đề xuất phương pháp.</p>
 
-<p>Sáu mươi tám nguồn được xếp theo chủ đề ở A2 và theo chương ở A3. Trong 30 chương, mười chương dựa trực tiếp vào tài liệu, sáu chương dựa một phần, mười hai chương là quy trình nên không cần nguồn ngoài. Hai chương — 17 và 20 — vẫn không có nguồn nào cho khẳng định trung tâm; cả hai giờ nói thẳng điều đó trong thân chương và gắn nhãn Hợp lý.</p>
+<p>Sáu mươi chín nguồn được xếp theo chủ đề ở A2 và theo chương ở A3. Trong 30 chương, mười chương dựa trực tiếp vào tài liệu, sáu chương dựa một phần, mười hai chương là quy trình nên không cần nguồn ngoài. Hai chương — 17 và 20 — vẫn không có nguồn nào cho khẳng định trung tâm; cả hai giờ nói thẳng điều đó trong thân chương và gắn nhãn Hợp lý.</p>
 
 <div class="callout">
 <p class="callout-title">Có nguồn không có nghĩa là đúng</p>
@@ -34,7 +34,7 @@
       {
         id: "ch-nguon-danh-muc",
         title: "Thư mục",
-        lede: "Sáu mươi tám nguồn, xếp theo chủ đề. Mỗi mục có DOI hoặc đường dẫn đã mở và đọc, kèm một câu nói nguồn đó đóng góp gì.",
+        lede: "Sáu mươi chín nguồn, xếp theo chủ đề. Mỗi mục có DOI hoặc đường dẫn đã mở và đọc, kèm một câu nói nguồn đó đóng góp gì.",
         minutes: 12,
         tags: ["phụ lục", "nguồn"],
         body: `
@@ -310,6 +310,10 @@
 <p><strong>[68]</strong> Daily Coffee News (2023). <em>The DCN Guide to Bypass in Coffee Brewing.</em> dailycoffeenews.com/2023/06/08/the-dcn-guide-to-bypass-in-coffee-brewing</p>
 
 <p>Trích trực tiếp Jonathan Gagné: khi có bypass, ít nước hơn tới được đáy lớp bã, và phần đáy chiết ít hơn các lớp trên. Nguồn cho mục "phễu không bypass" ở chương 15. Nguồn thứ cấp trích lời chuyên gia, không phải đo đạc.</p>
+
+<p><strong>[69]</strong> Ristenpart, W. D., Cotter, A. R., & Guinard, J.-X. (2022). <em>Impact of beverage temperature on consumer preferences for black coffee.</em> Scientific Reports, 12, 20621. doi.org/10.1038/s41598-022-23904-4</p>
+
+<p>Phân tích hơn 3.000 lượt nếm theo nhiệt độ khi uống, dải 56–71 °C. Đa số đánh giá "vừa" ở mọi mức tới 70 °C; chỉ trên 70 °C mới có đa số nói quá nóng. Bài nói khoảng chấp nhận được rộng, không chỉ ra một khoảng tối ưu — nguồn cho ghi chú ở chương 13 về nhiệt độ nếm.</p>
 <div class="callout">
 <p class="callout-title">Ba bài không mở được toàn văn</p>
 <p>[17], [22] và trang DOI của [5] bị nhà xuất bản chặn trong lúc tra. Chi tiết trong các mục đó lấy từ tóm tắt và từ bài tổng quan của SCA. Nếu bạn cần trích dẫn chính xác đến từng câu, phải mở bản đầy đủ.</p>

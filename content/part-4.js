@@ -286,6 +286,10 @@ window.BOOK_PARTS.push({
 <div class="callout act">
 <p class="callout-title">Quy tắc vàng khi uống</p>
 <p>Uống khi còn 55–65 °C. Đây là khoảng cân bằng: đủ nóng để hương bay, đủ nguội để không bỏng. Cà phê để ở 45 °C mất gần một nửa hương — không phải vì nó "nguội đi", mà vì hợp chất bay hơi đã thoát hết.</p>
+
+<p>Có một nghiên cứu đo chuyện này, và kết quả của nó rộng hơn bạn tưởng. Trong hơn 3.000 lượt nếm ở dải 56–71 °C, phần lớn người uống (trên 50%) đánh giá nhiệt độ là "vừa" ở <strong>mọi mức tới 70 °C</strong>. Chỉ trên 70 °C mới có đa số nói quá nóng — và kể cả ở đó vẫn còn 40% thấy vừa. Ở phía dưới, trong khoảng 56–68 °C, có 6–12% người thấy quá nguội <span class="tier tier-a">Bằng chứng</span> [69].</p>
+
+<p>Đọc cho đúng: nghiên cứu này <em>không</em> nói 58–66 °C là khoảng ngon nhất. Nó nói <strong>khoảng chấp nhận được rộng hơn nhiều so với lời khuyên thường gặp</strong>, và trên dải đó nhiệt độ gần như không đổi đánh giá về cường độ vị, độ chua hay cảm giác miệng. Khuyến nghị 55–65 °C ở trên vẫn là chỗ tốt để nhắm, nhưng nếu bạn thích uống nóng hơn thế, bạn không sai.</p>
 </div>
 
 <h3>Xúc giác: phần bị bỏ quên</h3>
