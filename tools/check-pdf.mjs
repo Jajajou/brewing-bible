@@ -6,9 +6,9 @@
 //
 // Ba thứ mà mắt thường bỏ qua nhưng làm hỏng một cuốn sách:
 //
-//   1. Trang trắng ngoài dự kiến. Sách có 9 phần, mỗi phần mở ở trang lẻ
-//      (break-before: right), nên luôn có vài trang trắng chèn vào. Trang
-//      trắng ở chỗ khác nghĩa là một khối nội dung bị đẩy đi hoặc bị nuốt.
+//   1. Trang trắng ngoài dự kiến. Bìa phần mở bằng break-before: page nên bản
+//      in không cần trang trắng chèn; trang trắng nào xuất hiện cũng là dấu
+//      hiệu một khối nội dung bị đẩy đi hoặc bị nuốt.
 //   2. Đoạn văn mất chữ. Paged.js cắt phần tràn khi một khối không chia
 //      trang được — không báo lỗi, chỉ lặng lẽ thiếu. Ta so từng đoạn trong
 //      content/part-*.js với văn bản rút ra từ PDF.
@@ -66,8 +66,10 @@ charCount.forEach((n, i) => {
 const strayBlank = blank.filter((p) => !opener.includes(p + 1));
 if (strayBlank.length) {
   fail(`${strayBlank.length} trang trắng không nằm ngay trước trang mở phần: ${strayBlank.join(", ")}`);
+} else if (blank.length) {
+  ok(`${blank.length} trang trắng, đều nằm ngay trước trang mở phần`);
 } else {
-  ok(`${blank.length} trang trắng, tất cả là trang chèn để phần mới mở ở trang lẻ`);
+  ok("không có trang trắng");
 }
 if (opener.length) ok(`${opener.length} trang mở phần (${opener.join(", ")})`);
 
