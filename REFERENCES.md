@@ -464,6 +464,49 @@ chia tách chúng mạnh nhất là TDS. Hai nhóm cho hai mặt cong khác nhau
 Nhóm tác giả kết luận ô "lý tưởng" của Brewing Control Chart cần xem lại. Phần lớn người thử ở
 tuổi sinh viên — không phải mẫu đại diện cho mọi người uống cà phê.
 
+**[60]** Frank, O., Blumberg, S., Kunert, C., Zehentbauer, G., & Hofmann, T. (2007).
+*Structure determination and sensory analysis of bitter-tasting 4-vinylcatechol oligomers and
+their identification in roasted coffee by means of LC-MS/MS.*
+Journal of Agricultural and Food Chemistry, 55(5), 1945–1954.
+DOI [10.1021/jf0632280](https://doi.org/10.1021/jf0632280)
+
+Xác định cấu trúc 10 hợp chất đắng, trong đó **tám phenylindane nhiều nhóm hydroxyl**, ngưỡng
+nhận biết 23–178 µmol/L, và xác nhận chúng có trong ly bằng LC-MS/MS. Các hợp chất này sinh ra khi
+4-vinylcatechol (từ acid caffeic) oligomer hoá **trong lúc rang**. Đây là nguồn cho câu "vị đắng
+sinh ra trong lò rang" ở chương 9 — thay cho bản tin EurekAlert mà bản kế hoạch dẫn.
+
+**[61]** Blumberg, S., Frank, O., & Hofmann, T. (2010). *Quantitative studies on the influence of
+the bean roasting parameters and hot water percolation on the concentrations of bitter compounds in
+coffee brew.* Journal of Agricultural and Food Chemistry, 58(6), 3720–3728.
+DOI [10.1021/jf9044606](https://doi.org/10.1021/jf9044606)
+
+Rang cùng một con cà ở 260 °C trong 60–600 s, và ở 240 s với 190–280 °C, rồi đo từng nhóm hợp chất
+đắng. **Quinide hình thành nhiều nhất ở mức rang nhẹ–vừa rồi phân huỷ** khi rang mạnh hơn, sinh ra
+nhóm oligomer 4-vinylcatechol đắng gắt — khớp với thay đổi về chất của vị đắng trong thử nghiệm
+cảm quan. Bài cũng đo tốc độ nhả: nhóm 1–8 chiết nhanh, dicaffeoyl quinide chậm, nhóm 12–17 bị giữ
+lại mạnh trong bã.
+
+**[62]** Semmelroch, P., & Grosch, W. (1996). *Studies on character impact odorants of coffee
+brews.* Journal of Agricultural and Food Chemistry, 44(2), 537–543.
+DOI [10.1021/jf9505988](https://doi.org/10.1021/jf9505988)
+
+Định lượng 22 hợp chất mùi mạnh trong ly Arabica và Robusta bằng pha loãng đồng vị, và đo **hiệu
+suất chuyển từ bã sang ly cho 17 hợp chất**. Nguyên văn: hợp chất phân cực (guaiacol, furanone,
+2,3-butanedione) chuyển **75–100%**; hợp chất kém phân cực (β-damascenone,
+2-isobutyl-3-methoxypyrazine) chỉ **10–25%**. Lưu ý mức 10–25% này thấp hơn con số "<25%" mà bản
+kế hoạch ghi. Nhóm mạnh nhất gồm 2-furfurylthiol và β-damascenone — nghĩa là nhiều nốt hương đẹp
+nhất phần lớn ở lại trong bã.
+
+**[63]** Sánchez López, J. A., và cộng sự (2016). *Extraction kinetics of coffee aroma compounds
+using a semi-automatic machine: on-line analysis by PTR-ToF-MS.* International Journal of Mass
+Spectrometry, 401, 22–30.
+DOI [10.1016/j.ijms.2016.02.015](https://doi.org/10.1016/j.ijms.2016.02.015)
+
+Theo dõi hợp chất bay hơi theo thời gian thực trong 25 giây chiết. Tăng nhiệt (82–96 °C) làm tăng
+rõ lượng VOC chiết được, **mạnh hơn với các hợp chất kém phân cực**; độ phân cực là một trong những
+yếu tố chi phối chính. Giới hạn quan trọng: **espresso, có áp lực** — không phải pour over, nên
+sách dẫn bài này ở mức Hợp lý.
+
 ---
 
 ## Đối chiếu theo chương
@@ -541,7 +584,7 @@ Lớp sau (14/11/2026) thêm **[55]–[57]**, đưa tổng số lên **57**: hai
 nhiệt độ). Cả ba đã đối chiếu Crossref.
 
 Lớp mục 3 thêm **[58]–[59]** (cảm quan theo TDS; hai nhóm sở thích của người uống), đưa tổng số
-lên **59**.
+lên **59**. Lớp mục 3.2 thêm **[60]–[63]** (hai bài Hofmann về nguồn gốc vị đắng khi rang; hiệu suất chuyển hợp chất mùi vào ly; động học VOC theo nhiệt), đưa tổng số lên **63**.
 
 ---
 

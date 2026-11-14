@@ -910,6 +910,57 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 
 <p>But temperature also changes what you <em>perceive</em>: a hotter cup releases more aroma (good) and masks bitterness (also good). So temperature acts on two dimensions at once, which is why it is hard to evaluate.</p>
 
+<p>And one result narrows this lever further. When UC Davis brewed at 87, 90 and 93 °C but adjusted grind and time to <strong>hold TDS and extraction constant</strong>, a trained panel could barely tell the three apart <span class="tier tier-a">Evidence</span> [6] [52]. TDS and extraction change the flavour profile; temperature by itself does not.</p>
+
+<p>Which means temperature matters because it <em>changes the rate of extraction</em>, not because it adds or removes a flavour of its own. That is why this chapter calls it the subtle lever: it works through extraction, not directly.</p>
+
+<div class="callout warn">
+<p class="callout-title">The limits of that result</p>
+<p>One wet-washed Arabica, a narrow band (87–93 °C), nothing tested above 93 °C. The researchers say plainly that naturally processed coffee may behave differently. Do not read it as "temperature does not matter" — read it as "once TDS and extraction are fixed, within this band, temperature has nothing left to do".</p>
+</div>
+
+<h4>The slurry is cooler than the kettle</h4>
+
+<p>Something easy to miss: the number on the kettle is not the number the bed sees. Water loses heat on the way from spout to bed, and the wet bed — the slurry — is always cooler than the water you poured. Chapter 15 puts that drop at <strong>5–8 °C</strong> <span class="tier tier-b">Plausible</span>.</p>
+
+<p>In practice: if you pour at 96 °C because you think you "need it hot enough to extract", the bed may never see 96 °C. And if you are inside 87–93 °C measured at the brewer, the result above says you are not losing much.</p>
+
+<h4>Why some of the aroma never reaches the cup</h4>
+
+<p>Not every aroma compound follows the water into the cup. Measured by stable isotope dilution, the transfer from grounds to brew splits into two clear groups <span class="tier tier-a">Evidence</span> [62]:</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Group</th><th>Examples</th><th>Reaches the cup</th></tr></thead>
+<tbody>
+<tr><td><strong>Polar</strong></td><td>guaiacol, furanones, 2,3-butanedione</td><td><strong>75–100%</strong></td></tr>
+<tr><td><strong>Non-polar</strong></td><td>β-damascenone, methoxypyrazines</td><td><strong>10–25%</strong></td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Worth noting: β-damascenone and 2-furfurylthiol are among coffee's <em>most potent</em> odorants — they carry honey, fruit and floral notes — yet most of them stay in the bed. That is a physical basis for this book's central claim: part of a coffee's aroma ceiling is out of reach of any brewing technique.</p>
+
+<p>Higher temperature extracts more volatiles, and the effect is <strong>stronger for the less polar compounds</strong> <span class="tier tier-b">Plausible</span> [63]. But that was measured on espresso, at 82–96 °C and under pressure — so for pour over it is a plausible mechanism, not a measured result.</p>
+
+<h4>Bitterness is made in the roaster, not in the brewer</h4>
+
+<p>Both of coffee's main families of bitter compounds form during roasting, not during brewing <span class="tier tier-a">Evidence</span> [60] [61]:</p>
+
+<ul>
+<li><strong>Quinides (chlorogenic acid lactones)</strong> — a "coffee-typical" bitterness, formed most at light to medium roast levels.</li>
+<li><strong>4-vinylcatechol oligomers, including the phenylindanes</strong> — produced when harder roasting breaks the first group down further; a harsher bitterness that lingers longer.</li>
+</ul>
+
+<p>Hofmann's group roasted the same coffee across a range of times and temperatures and quantified each family: the quinides peak at light-to-medium roast and then <em>fall</em> as roasting goes further, exactly as the harsh group rises. That sequence matches the change in the <em>quality</em> of bitterness that sensory panels report [61].</p>
+
+<p>This is why chapter 2 says dark roast "punishes over-extraction heavily": you do not create that bitterness by brewing, you only extract more or less of it. Lowering the temperature cannot remove something already in the bean.</p>
+
+<div class="callout bad">
+<p class="callout-title">On the "pour hot at the bloom, cooler later" trick</p>
+<p>The idea is that cooler water later extracts fewer bad compounds. No public sensory test shows it reduces bad flavours <em>selectively</em> <span class="tier tier-c">Folklore</span>. On top of that, pour over runs the other way: slurry temperature is lowest at the bloom and climbs as you add more hot water. The trick may still help as a way of lowering total extraction — but that makes it an extraction lever, not a flavour filter.</p>
+</div>
+
 <h4>Pouring — the only lever against channelling</h4>
 
 <p>This is where technique matters most — and of the three levers above, the only one it acts on directly.</p>
@@ -3233,7 +3284,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p>The rule is simple: only sentences an outside document can check need a source. Statements about experience, method and advice do not — and none of them should be given a source that merely sounds scientific. Peer-reviewed work with a DOI comes first; where none exists, the industry standard or the primary source from the person who proposed the method.</p>
 
-<p>Fifty-nine sources are grouped by subject in A2 and by chapter in A3. Of the 30 chapters, ten rest directly on documents, six rest on them halfway, twelve are method and need no outside source. Two — 17 and 20 — still have no source at all for their central claim; both now say so in the chapter itself and carry the Plausible label.</p>
+<p>Sixty-three sources are grouped by subject in A2 and by chapter in A3. Of the 30 chapters, ten rest directly on documents, six rest on them halfway, twelve are method and need no outside source. Two — 17 and 20 — still have no source at all for their central claim; both now say so in the chapter itself and carry the Plausible label.</p>
 
 <div class="callout">
 <p class="callout-title">A source is not evidence</p>
@@ -3244,7 +3295,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
     "ch-nguon-danh-muc": {
       title: "Bibliography",
-      lede: "Fifty-nine sources, grouped by subject. Each entry carries a DOI or a link that was opened and read, plus one line on what that source contributes.",
+      lede: "Sixty-three sources, grouped by subject. Each entry carries a DOI or a link that was opened and read, plus one line on what that source contributes.",
       minutes: 12,
       tags: ["appendix", "sources"],
       body: `
@@ -3484,6 +3535,22 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <p><strong>[59]</strong> Cotter, A. R., Batali, M. E., Ristenpart, W. D., & Guinard, J.-X. (2021). <em>Consumer preferences for black coffee are spread over a wide range of brew strengths and extraction yields.</em> Journal of Food Science, 86(1), 194–205. doi.org/10.1111/1750-3841.15561</p>
 
 <p>118 black-coffee drinkers, more than 3,000 individual tastings. Cluster analysis found two preference segments, separated most strongly by TDS. The authors conclude the Brewing Control Chart's "ideal" box needs reconsidering — the source for "the ideal spot is taste, not a fixed box". Limit: most participants were of college age.</p>
+
+<p><strong>[60]</strong> Frank, O., Blumberg, S., Kunert, C., Zehentbauer, G., & Hofmann, T. (2007). <em>Structure determination and sensory analysis of bitter-tasting 4-vinylcatechol oligomers and their identification in roasted coffee by means of LC-MS/MS.</em> Journal of Agricultural and Food Chemistry, 55(5), 1945–1954. doi.org/10.1021/jf0632280</p>
+
+<p>Structures determined for ten bitter compounds, eight of them phenylindanes, with recognition thresholds of 23–178 µmol/L, and confirmed present in the brew. They form during roasting, not during brewing — the source for "bitterness is made in the roaster" in chapter 9.</p>
+
+<p><strong>[61]</strong> Blumberg, S., Frank, O., & Hofmann, T. (2010). <em>Quantitative studies on the influence of the bean roasting parameters and hot water percolation on the concentrations of bitter compounds in coffee brew.</em> Journal of Agricultural and Food Chemistry, 58(6), 3720–3728. doi.org/10.1021/jf9044606</p>
+
+<p>Each family of bitter compounds quantified against roasting time and temperature. The quinides — the "coffee-typical" bitterness — peak at light to medium roast, then break down into the harsher oligomer family as roasting goes further. This is why dark roast gives a bitterness of a different <em>kind</em>, not merely more of it.</p>
+
+<p><strong>[62]</strong> Semmelroch, P., & Grosch, W. (1996). <em>Studies on character impact odorants of coffee brews.</em> Journal of Agricultural and Food Chemistry, 44(2), 537–543. doi.org/10.1021/jf9505988</p>
+
+<p>Transfer yields from grounds to brew measured for 17 odorants. Polar compounds (guaiacol, furanones, 2,3-butanedione) transfer at 75–100%; non-polar ones (β-damascenone, methoxypyrazines) at only 10–25%. The source for "why some of the aroma never reaches the cup" in chapter 9.</p>
+
+<p><strong>[63]</strong> Sánchez López, J. A., et al. (2016). <em>Extraction kinetics of coffee aroma compounds using a semi-automatic machine: on-line analysis by PTR-ToF-MS.</em> International Journal of Mass Spectrometry, 401, 22–30. doi.org/10.1016/j.ijms.2016.02.015</p>
+
+<p>Higher temperature extracts more volatiles, and more so for the less polar compounds. Limit: measured on espresso under pressure, not pour over — so the book cites it as Plausible.</p>
 <div class="callout">
 <p class="callout-title">Three papers I could not open in full</p>
 <p>[17], [22] and the DOI page for [5] were blocked by the publishers during the check. Their details here come from abstracts and from the SCA review. If you need a sentence-exact citation, open the full text.</p>

@@ -22,7 +22,7 @@
 
 <p>Nguyên tắc lập rất đơn giản: chỉ câu có thể kiểm chứng bằng tài liệu bên ngoài mới cần nguồn. Câu về kinh nghiệm, quy trình và lời khuyên thì không — và không được gán cho chúng một nguồn nghe có vẻ khoa học. Ưu tiên bài bình duyệt có DOI; khi không có, dùng tiêu chuẩn ngành hoặc nguồn sơ cấp của chính người đề xuất phương pháp.</p>
 
-<p>Năm mươi chín nguồn được xếp theo chủ đề ở A2 và theo chương ở A3. Trong 30 chương, mười chương dựa trực tiếp vào tài liệu, sáu chương dựa một phần, mười hai chương là quy trình nên không cần nguồn ngoài. Hai chương — 17 và 20 — vẫn không có nguồn nào cho khẳng định trung tâm; cả hai giờ nói thẳng điều đó trong thân chương và gắn nhãn Hợp lý.</p>
+<p>Sáu mươi ba nguồn được xếp theo chủ đề ở A2 và theo chương ở A3. Trong 30 chương, mười chương dựa trực tiếp vào tài liệu, sáu chương dựa một phần, mười hai chương là quy trình nên không cần nguồn ngoài. Hai chương — 17 và 20 — vẫn không có nguồn nào cho khẳng định trung tâm; cả hai giờ nói thẳng điều đó trong thân chương và gắn nhãn Hợp lý.</p>
 
 <div class="callout">
 <p class="callout-title">Có nguồn không có nghĩa là đúng</p>
@@ -34,7 +34,7 @@
       {
         id: "ch-nguon-danh-muc",
         title: "Thư mục",
-        lede: "Năm mươi chín nguồn, xếp theo chủ đề. Mỗi mục có DOI hoặc đường dẫn đã mở và đọc, kèm một câu nói nguồn đó đóng góp gì.",
+        lede: "Sáu mươi ba nguồn, xếp theo chủ đề. Mỗi mục có DOI hoặc đường dẫn đã mở và đọc, kèm một câu nói nguồn đó đóng góp gì.",
         minutes: 12,
         tags: ["phụ lục", "nguồn"],
         body: `
@@ -274,6 +274,22 @@
 <p><strong>[59]</strong> Cotter, A. R., Batali, M. E., Ristenpart, W. D., & Guinard, J.-X. (2021). <em>Consumer preferences for black coffee are spread over a wide range of brew strengths and extraction yields.</em> Journal of Food Science, 86(1), 194–205. doi.org/10.1111/1750-3841.15561</p>
 
 <p>118 người uống cà phê đen, hơn 3.000 lượt nếm. Phân tích cụm cho hai nhóm sở thích, tách nhau mạnh nhất theo TDS. Nhóm tác giả kết luận ô "lý tưởng" của Brewing Control Chart cần xem lại — nguồn cho câu "điểm lý tưởng là khẩu vị, không phải một ô cố định". Giới hạn: phần lớn người thử ở tuổi sinh viên.</p>
+
+<p><strong>[60]</strong> Frank, O., Blumberg, S., Kunert, C., Zehentbauer, G., & Hofmann, T. (2007). <em>Structure determination and sensory analysis of bitter-tasting 4-vinylcatechol oligomers and their identification in roasted coffee by means of LC-MS/MS.</em> Journal of Agricultural and Food Chemistry, 55(5), 1945–1954. doi.org/10.1021/jf0632280</p>
+
+<p>Xác định cấu trúc mười hợp chất đắng, trong đó tám phenylindane, ngưỡng nhận biết 23–178 µmol/L, và xác nhận chúng có trong ly. Chúng sinh ra khi rang, không phải khi pha — nguồn cho mục "vị đắng sinh ra trong lò rang" ở chương 9.</p>
+
+<p><strong>[61]</strong> Blumberg, S., Frank, O., & Hofmann, T. (2010). <em>Quantitative studies on the influence of the bean roasting parameters and hot water percolation on the concentrations of bitter compounds in coffee brew.</em> Journal of Agricultural and Food Chemistry, 58(6), 3720–3728. doi.org/10.1021/jf9044606</p>
+
+<p>Đo từng nhóm hợp chất đắng theo thời gian và nhiệt độ rang. Quinide — vị đắng "kiểu cà phê" — nhiều nhất ở rang nhẹ đến vừa, rồi phân huỷ thành nhóm oligomer đắng gắt khi rang mạnh hơn. Đây là lý do rang đậm cho vị đắng khác <em>chất</em>, không chỉ khác lượng.</p>
+
+<p><strong>[62]</strong> Semmelroch, P., & Grosch, W. (1996). <em>Studies on character impact odorants of coffee brews.</em> Journal of Agricultural and Food Chemistry, 44(2), 537–543. doi.org/10.1021/jf9505988</p>
+
+<p>Đo hiệu suất chuyển từ bã sang ly cho 17 hợp chất mùi. Hợp chất phân cực (guaiacol, furanone, 2,3-butanedione) chuyển 75–100%; hợp chất kém phân cực (β-damascenone, methoxypyrazine) chỉ 10–25%. Nguồn cho mục "vì sao một phần hương không bao giờ vào ly" ở chương 9.</p>
+
+<p><strong>[63]</strong> Sánchez López, J. A., và cộng sự (2016). <em>Extraction kinetics of coffee aroma compounds using a semi-automatic machine: on-line analysis by PTR-ToF-MS.</em> International Journal of Mass Spectrometry, 401, 22–30. doi.org/10.1016/j.ijms.2016.02.015</p>
+
+<p>Nhiệt cao làm tăng lượng hợp chất bay hơi chiết được, mạnh hơn với nhóm kém phân cực. Giới hạn: đo trên espresso có áp lực, không phải pour over — nên sách dẫn ở mức Hợp lý.</p>
 <div class="callout">
 <p class="callout-title">Ba bài không mở được toàn văn</p>
 <p>[17], [22] và trang DOI của [5] bị nhà xuất bản chặn trong lúc tra. Chi tiết trong các mục đó lấy từ tóm tắt và từ bài tổng quan của SCA. Nếu bạn cần trích dẫn chính xác đến từng câu, phải mở bản đầy đủ.</p>

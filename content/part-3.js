@@ -296,6 +296,57 @@ TDS ≈ EY × liều ÷ (nước − 2 × liều)
 
 <p>Nhưng nhiệt độ còn ảnh hưởng đến thứ bạn <em>cảm nhận</em>: ly cà nóng hơn làm hương bay mạnh hơn (tốt), và che bớt vị đắng (cũng tốt). Nên nhiệt độ tác động lên hai chiều cùng lúc, và đây là lý do nó khó đánh giá.</p>
 
+<p>Và có một kết quả làm hẹp đòn bẩy này hơn nữa. Khi UC Davis pha ở 87, 90 và 93 °C nhưng chỉnh cỡ xay cùng thời gian để <strong>giữ TDS và mức chiết như nhau</strong>, hội đồng nếm có đào tạo gần như không phân biệt được ba mẻ <span class="tier tier-a">Bằng chứng</span> [6] [52]. TDS và mức chiết đổi hồ sơ vị; bản thân nhiệt độ thì không.</p>
+
+<p>Nghĩa là nhiệt độ quan trọng vì nó <em>đổi tốc độ chiết</em>, chứ không phải vì nó tự thêm hay bớt một vị nào. Đó là lý do chương này gọi nó là đòn bẩy tinh tế: nó làm việc qua mức chiết, không trực tiếp.</p>
+
+<div class="callout warn">
+<p class="callout-title">Giới hạn của kết quả này</p>
+<p>Một con Arabica sơ chế ướt, dải nhiệt hẹp (87–93 °C), chưa thử trên 93 °C. Nhóm nghiên cứu nói rõ cà sơ chế natural có thể cho kết quả khác. Đừng đọc thành "nhiệt độ không quan trọng" — hãy đọc thành "khi TDS và mức chiết đã cố định, trong dải này, nhiệt độ không còn việc gì để làm".</p>
+</div>
+
+<h4>Nhiệt trong phễu thấp hơn nhiệt trong ấm</h4>
+
+<p>Một chuyện hay bị bỏ qua: con số trên ấm không phải con số mà bã nhìn thấy. Nước mất nhiệt trên đường từ vòi xuống bã, và lớp bã ướt (slurry) luôn mát hơn nước bạn rót. Chương 15 đã ghi khoảng tụt <strong>5–8 °C</strong> <span class="tier tier-b">Hợp lý</span>.</p>
+
+<p>Hệ quả thực hành: nếu bạn rót ở 96 °C vì nghĩ "cần nóng để chiết đủ", bã có thể chưa bao giờ thấy 96 °C. Và nếu bạn đang ở trong dải 87–93 °C đo tại phễu, phần trên cho biết bạn không mất gì nhiều.</p>
+
+<h4>Vì sao một phần hương không bao giờ vào ly</h4>
+
+<p>Không phải hợp chất hương nào cũng theo nước vào ly. Khi người ta đo bằng pha loãng đồng vị, tỉ lệ chuyển từ bã sang ly chia thành hai nhóm rất rõ <span class="tier tier-a">Bằng chứng</span> [62]:</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Nhóm</th><th>Ví dụ</th><th>Vào ly</th></tr></thead>
+<tbody>
+<tr><td><strong>Phân cực</strong></td><td>guaiacol, furanone, 2,3-butanedione</td><td><strong>75–100%</strong></td></tr>
+<tr><td><strong>Kém phân cực</strong></td><td>β-damascenone, methoxypyrazine</td><td><strong>10–25%</strong></td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Đáng chú ý: β-damascenone và 2-furfurylthiol nằm trong nhóm hợp chất <em>mạnh nhất</em> của cà phê — chúng mang nốt mật ong, trái cây, hoa — nhưng phần lớn chúng ở lại trong bã. Đây là một cơ sở vật lý cho luận điểm trung tâm của sách: một phần trần hương của con cà không nằm trong tầm với của bất kỳ kỹ thuật pha nào.</p>
+
+<p>Nhiệt độ cao làm chiết được nhiều hợp chất bay hơi hơn, và tác động đó <strong>mạnh hơn với nhóm kém phân cực</strong> <span class="tier tier-b">Hợp lý</span> [63]. Nhưng bài đo điều đó làm trên espresso, 82–96 °C và có áp lực — nên với pour over thì đây là cơ chế hợp lý, chưa phải kết quả đã đo.</p>
+
+<h4>Vị đắng sinh ra trong lò rang, không phải trong phễu</h4>
+
+<p>Hai nhóm hợp chất đắng chính của cà phê đều hình thành khi rang, không phải khi pha <span class="tier tier-a">Bằng chứng</span> [60] [61]:</p>
+
+<ul>
+<li><strong>Quinide (lactone của acid chlorogenic)</strong> — vị đắng "kiểu cà phê", hình thành nhiều nhất ở mức rang nhẹ đến vừa.</li>
+<li><strong>Oligomer của 4-vinylcatechol, gồm các phenylindane</strong> — sinh ra khi rang mạnh hơn làm nhóm trên phân huỷ tiếp; vị đắng gắt hơn và đọng lâu hơn.</li>
+</ul>
+
+<p>Nhóm Hofmann rang cùng một con cà ở nhiều thời gian và nhiệt độ rồi đo từng nhóm hợp chất: quinide đạt đỉnh ở rang nhẹ–vừa rồi <em>giảm</em> khi rang mạnh hơn, đúng lúc nhóm đắng gắt tăng lên. Chuỗi đó khớp với thay đổi về <em>chất</em> của vị đắng mà hội đồng nếm ghi nhận [61].</p>
+
+<p>Đây là lý do chương 2 nói rang đậm "trừng phạt việc chiết dư rất nặng": bạn không tạo ra vị đắng đó bằng cách pha, bạn chỉ chiết nhiều hay ít nó ra. Hạ nhiệt độ không xoá được một thứ đã có trong hạt.</p>
+
+<div class="callout bad">
+<p class="callout-title">Về mẹo “rót nóng ở bloom, nguội ở rót chính”</p>
+<p>Ý tưởng là nước nguội về sau sẽ chiết ít hợp chất xấu hơn. Chưa có thử nghiệm cảm quan công khai nào cho thấy nó giảm <em>chọn lọc</em> vị xấu <span class="tier tier-c">Truyền miệng</span>. Thêm nữa, pour over vốn đi theo chiều ngược: nhiệt trong phễu thấp nhất ở bloom rồi tăng dần khi bạn rót thêm nước nóng. Mẹo này có thể vẫn hữu ích như một cách giảm tổng mức chiết — nhưng đó là đòn bẩy mức chiết, không phải một bộ lọc vị.</p>
+</div>
+
 <h4>Kỹ thuật rót — đòn bẩy duy nhất chống channeling</h4>
 
 <p>Đây là chỗ kỹ thuật có tác dụng lớn nhất — và trong ba đòn bẩy trên, là chỗ duy nhất nó tác động trực tiếp.</p>
