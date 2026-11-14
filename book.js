@@ -22,6 +22,7 @@
   function chLabel(n) { return I18N.chapterLabel(LANG, n); }
   function partLabel(part, pi) {
     if (part && part.front) return (I18N.ui[LANG] || {}).frontMatter || "Mở đầu";
+    if (part && part.back) return (I18N.ui[LANG] || {}).backMatter || "Cuối sách";
     if (part && part.appendix) return (I18N.ui[LANG] || {}).appendix || "Phụ lục";
     return I18N.partLabel(LANG, (part && part.roman) || ROMAN[pi] || "");
   }
@@ -30,7 +31,7 @@
   function loadOverlay(lang) {
     return new Promise(function (resolve) {
       var s = document.createElement("script");
-      s.src = "content/" + lang + "/text.js?v=fa9194c";
+      s.src = "content/" + lang + "/text.js?v=9f7f050";
       s.onload = function () { resolve(window.BOOK_TEXT || null); };
       s.onerror = function () { resolve(null); };
       document.head.appendChild(s);
@@ -56,16 +57,16 @@
      và thanh tiến độ đọc cũng chỉ đếm 29 chương chính. */
   /* Phần mở đầu cũng không đánh số chương: nếu nó thành chương 1 thì mọi
      tham chiếu "xem chương N" trong sách lệch đi một. */
-  function isAppendix(part) { return !!(part && (part.appendix || part.front)); }
+  function isAppendix(part) { return !!(part && (part.appendix || part.front || part.back)); }
   var MAIN = flat.filter(function (e) { return !isAppendix(e.part); });
   var MAIN_PARTS = PARTS.filter(function (p) { return !isAppendix(p); });
   var TOTAL = MAIN.length;
 
   function numLabel(entry) {
-    return S.numLabel(isAppendix(entry.part), entry.n, entry.np, !!(entry.part && entry.part.front));
+    return S.numLabel(isAppendix(entry.part), entry.n, entry.np, !!(entry.part && (entry.part.front || entry.part.back)));
   }
   function kickerLabel(entry) {
-    if (entry.part && entry.part.front) return partLabel(entry.part);
+    if (entry.part && (entry.part.front || entry.part.back)) return partLabel(entry.part);
     return isAppendix(entry.part) ? partLabel(entry.part) + " A" + entry.np : chLabel(entry.n);
   }
 
@@ -168,7 +169,9 @@
       var chs = part.chapters || [];
       if (!chs.length) return;
       html += '<div class="toc-part">';
-      html += '<p class="toc-part-head"><span class="num">' + (part.roman || ROMAN[pi] || "") +
+      /* mở đầu và cuối sách không mang số phần: chúng không nằm trong dãy I–VIII */
+      html += '<p class="toc-part-head"><span class="num">' +
+              ((part.front || part.back) ? "" : (part.roman || ROMAN[pi] || "")) +
               "</span><span>" + esc(part.title) + "</span></p>";
       html += '<ul class="toc-list">';
       chs.forEach(function (ch) {

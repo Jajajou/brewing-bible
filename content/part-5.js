@@ -795,6 +795,100 @@ window.BOOK_PARTS.push({
 </ul>
 `
   }
+,
+
+  {
+    id: "ch-phin",
+    title: "Phin: phễu không bypass của Việt Nam",
+    lede: "Hai cái phin chồng lên nhau cho mình ly hương đẹp nhất và hậu vị tệ nhất trong cùng một buổi. Chương này ghi lại đủ để bạn lặp lại phép thử.",
+    minutes: 8,
+    tags: ["phin", "dụng cụ", "thực nghiệm"],
+    body: `
+<p>Phin là phễu không bypass có trước mọi phễu không bypass khác. Ở chương 15 mình đã xếp nó vào cùng nhóm với Pulsar, Tricolate, Orea Z1: nước chỉ có một đường ra, và đường đó đi qua bã <span class="tier tier-b">Hợp lý</span> [68].</p>
+
+<p>Nhưng phin nổi tiếng vì một thứ khác: cà phê sữa đá. Cốt pha đậm cỡ 1:4–1:5, robusta rang đậm, sữa đặc, và lưới kim loại cho dầu cùng bột mịn đi qua nên ly có body dày. Đó là một truyền thống pha riêng, và nó không phải chủ đề của chương này — mình không có nguồn cho phần đó, và không muốn kể lại nó bằng ký ức.</p>
+
+<p>Chương này thử một câu hỏi hẹp hơn: nếu dùng phin như một dụng cụ pour over — nồng độ filter, cà rang sáng, không sữa — thì được gì và mất gì.</p>
+
+<h3>Bộ dụng cụ</h3>
+
+<p>Hai cái phin chồng lên nhau. Phin dưới là buồng chiết, chứa cà. Phin trên là bình chia nước: nước rót vào đó rồi nhỏ giọt xuống phin dưới.</p>
+
+<p>Buồng chiết chứa tối đa khoảng 100 ml khi chưa có cà. Cà nở ra khi bloom nên chỗ còn lại ít hơn, và vì vậy bắt buộc phải rót nhiều lần — không thể đổ hết nước một lần như trên V60.</p>
+
+<p>Giấy lọc là giấy AeroPress. Cách lót: đặt giấy lên đĩa đáy, rồi ép buồng chứa cà xuống. Giấy rộng hơn đáy phin, nên khi ép, mép giấy tràn ra ngoài và ôm trùm quanh đáy. Kín, không có đường nước đi tắt qua mép.</p>
+
+<p>Mình không tráng nóng phin, và làm vậy có chủ ý: buồng kín, lại có phin trên đậy lại, nên nhiệt mặt bã ổn định hơn là để hở ngoài không khí <span class="tier tier-b">Hợp lý</span>. Đây là lập luận của mình, không phải kết quả đo.</p>
+
+<h3>Công thức đã dùng</h3>
+
+<p>Bản đầu: 15 g cà, 300 ml nước, tức 1:20. Rót sáu lần, mỗi lần 50 ml. Bloom lần đầu đợi một phút; các lần sau châm thêm sau 30–40 giây. Tổng khoảng 4:30.</p>
+
+<p>Rót rất chậm, khoảng 5 ml/s, vào phin trên. Phin dưới luôn chỉ nhỏ giọt, chưa bao giờ ra tia. Lưu lượng trung bình khoảng 1 ml/s — con số này tính ra từ 300 ml trong 4:30, không phải đo.</p>
+
+<p>Cỡ xay, trên cối Q Air: ba vòng tính từ điểm 0, tức 90 click, khoảng 2250 µm theo mức 25 µm mỗi click. Có giai đoạn mình dùng hai vòng rưỡi, 75 click. Bản thô nhất, thử đầu tiên, là Mischief M40 ở 60 click — và số click của hai cối này không quy đổi được sang nhau.</p>
+
+<p>Mình từng ghi TDS 1,2% và EY 18%. Xin nói thẳng: đó là ước lượng theo cảm giác, không đo. Hai con số đó còn không khớp nhau về toán học — với công thức trên, TDS 1,2% tương ứng EY khoảng 21–22%, không phải 18%. Nên chương này không in chúng như số đo, và bạn đừng dùng chúng để so.</p>
+
+<h3>Phép thử song song</h3>
+
+<p>Đặt hai dụng cụ cạnh nhau, cùng một con cà, cùng 10 g cà và 160 ml nước, cùng cỡ xay, cùng nhiệt, cùng nhịp rót 30–50–50–30.</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th></th><th>V60</th><th>Phin đôi</th></tr></thead>
+<tbody>
+<tr><td>Cà / nước</td><td>10 g / 160 ml</td><td>10 g / 160 ml</td></tr>
+<tr><td>Nhịp rót</td><td>30–50–50–30</td><td>30–50–50–30</td></tr>
+<tr><td>Cỡ xay, nước, nhiệt</td><td>như nhau</td><td>như nhau</td></tr>
+<tr><td>Tổng thời gian</td><td>khoảng 2:30</td><td>khoảng 3:30</td></tr>
+<tr><td>Nhiệt trong bình lúc cuối</td><td>60 °C</td><td>55 °C</td></tr>
+<tr><td>Hương</td><td>không thơm bằng</td><td>rất đẹp, “không thiếu gì”</td></tr>
+<tr><td>Vị</td><td>thanh hơn</td><td>chua tươi sáng</td></tr>
+<tr><td>Bã sau khi pha</td><td>còn mùi</td><td>hết mùi</td></tr>
+<tr><td>Cảm giác miệng, hậu vị</td><td>hậu vị sạch hơn</td><td>nặng miệng, chát hơn, hậu vị không sạch; đắng đọng sau 30 giây</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Điều đáng chú ý nhất là hai cột không cùng thắng ở đâu cả. Phin lấy được hương mà V60 bỏ lại trong bã — bã phin sau khi pha không còn mùi, điều mình chưa từng thấy trên V60 với con cà đó. Nhưng cái giá là hậu vị.</p>
+
+<p>Đây là <strong>một lần thử, không nếm mù</strong>: không lặp lại, không có người thứ hai, không có mẫu mã hoá. Nó đủ để nói “có chuyện đáng thử tiếp”, không đủ để nói “phin cho hương hơn V60” như một quy luật.</p>
+
+<h3>Giấy lọc sau khi pha</h3>
+
+<p>Trên giấy có một lớp bùn bột mịn dày, dù cà xay rất thô. Lớp bùn đó không nằm đều: nó dồn về một nửa tờ giấy, nửa kia gần như sạch.</p>
+
+<p>Nửa tờ giấy sạch là dấu hiệu nước thoát lệch một phía. Có thể do phin, có thể do cái đĩa kê bị nghiêng — mình không kiểm tra nên không biết, và đây là suy luận, không phải kết luận.</p>
+
+<p>Mình cũng thử vài biến thể bloom: một dòng mạnh khoảng 12 ml/s chạy một vòng để khuấy bã; bloom 50 ml cho 15 g; bloom hai lần. Kết quả riêng của từng biến thể thì mình không ghi lại — nên ở đây không có số liệu cho chúng, chỉ có kết luận chung: làm gì đi chăng nữa, ly phin đôi vẫn bị đắng đọng.</p>
+
+<h3>Vì sao nó đắng đọng</h3>
+
+<p>Giả thuyết của mình, và mình gắn nhãn đúng mức của nó: <span class="tier tier-b">Hợp lý</span>, chưa kiểm chứng.</p>
+
+<p>Trong phin không có bypass, nên bột mịn không có đường thoát nào ngoài con đường qua giấy. Nó dồn xuống đáy và nằm đó suốt mẻ pha, tiếp xúc với nước nóng lâu hơn bất kỳ hạt nào khác. Bột mịn nhả phần bề mặt trong vài giây, nên lớp bùn ở đáy là thứ bị chiết quá mức nhiều nhất trong ly — và quá mức thì ra chát (chương 10).</p>
+
+<p>Thêm nữa: cùng một cỡ xay, phin chiết mạnh hơn V60 vì toàn bộ nước phải đi qua toàn bộ bã. Trần chiết cao hơn là lợi thế — cho tới khi nó vượt ngưỡng. Ở phép thử trên, nó vượt.</p>
+
+<p>Nghi phạm thứ hai là cối. Q Air ở 90 click tạo khá nhiều bột mịn, và trong một phễu không bypass thì mọi hạt mịn đều ở lại trong buồng chiết. Mình chưa tách được hai nguyên nhân này.</p>
+
+<h3>Nếu bạn muốn thử tiếp</h3>
+
+<p>Mình dừng ở đây, vì với mình ly phải ngon thì uống mới vui, và ly phin đôi chưa ngon. Nhưng phép thử này để lại ba hướng rõ ràng, và mình ghi lại để người sau không phải bắt đầu từ số không:</p>
+
+<ul>
+<li><strong>Rây bỏ bớt bột mịn.</strong> Nếu giả thuyết ở trên đúng, bỏ bớt bột mịn phải làm hậu vị sạch hơn rõ rệt. Đây là phép thử tách biệt nguyên nhân rẻ nhất — xem chương 10.</li>
+<li><strong>Xay thô hơn nữa.</strong> Ở 90 click bã vẫn còn bùn mịn; thử 110–120 click xem lớp bùn có mỏng đi không.</li>
+<li><strong>Pha cốt rồi pha loãng.</strong> Đây là ý mình <em>chưa</em> thử: chiết đậm cỡ 1:8 qua bã, rồi bù nước vào cốc. Về lý thuyết nó giữ mức chiết và chỉ đổi độ đậm — đúng cơ chế ở chương 7 — nhưng mình không có kết quả nào, nên đừng đọc nó như một công thức.</li>
+</ul>
+
+<div class="callout">
+<p class="callout-title">Điều chương này không nói</p>
+<p>Nó không nói phin là dụng cụ tệ. Nó nói: với cà rang sáng, ở cỡ xay mình dùng, với cách mình rót, phin đôi cho hương tốt hơn và hậu vị tệ hơn V60. Một lần thử không nói được gì về phin truyền thống pha robusta đậm với sữa đặc — đó là một phương pháp khác, cho một mục tiêu khác.</p>
+</div>
+`
+  }
 
   ]
 });

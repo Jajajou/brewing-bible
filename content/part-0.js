@@ -69,7 +69,7 @@ window.BOOK_PARTS.push({
     minutes: 6,
     tags: ["mở đầu", "cách dùng"],
     body: `
-<p>Cuốn sách này có ba mươi chương. Bạn không cần đọc hết, và chắc chắn không cần đọc theo thứ tự. Trang này nói cho bạn biết cách dùng nó.</p>
+<p>Cuốn sách này có ba mươi mốt chương. Bạn không cần đọc hết, và chắc chắn không cần đọc theo thứ tự. Trang này nói cho bạn biết cách dùng nó.</p>
 
 <h3>Ba nhãn bằng chứng</h3>
 
@@ -106,8 +106,8 @@ window.BOOK_PARTS.push({
 <li><strong>Chương 9</strong><p>Ba thứ bạn thật sự kiểm soát được.</p></li>
 <li><strong>Chương 15</strong><p>Ngâm và chảy xuyên qua — hai cơ chế, và vì sao chúng khác nhau.</p></li>
 <li><strong>Chương 20</strong><p>Đọc bã: cách chẩn đoán bằng mắt, không bằng cảm giác.</p></li>
-<li><strong>Chương 25</strong><p>Giải phẫu một ngụm. Vì sao "vị" phần lớn là mùi.</p></li>
-<li><strong>Chương 28</strong><p>Nhật ký pha. Thứ rẻ nhất cho bạn tiến bộ nhanh nhất.</p></li>
+<li><strong>Chương 26</strong><p>Giải phẫu một ngụm. Vì sao "vị" phần lớn là mùi.</p></li>
+<li><strong>Chương 29</strong><p>Nhật ký pha. Thứ rẻ nhất cho bạn tiến bộ nhanh nhất.</p></li>
 </ol>
 </div>
 
@@ -122,6 +122,7 @@ window.BOOK_PARTS.push({
 <li><strong>Chương 8</strong> — vì sao "acid ra trước, đắng ra sau" không đứng vững, và điều đó đổi cách bạn chỉnh.</li>
 <li><strong>Chương 14 đến 19</strong> — cupping, dụng cụ, kỹ thuật rót, giải phẫu công thức, công thức nhà vô địch.</li>
 <li><strong>Chương 21</strong> — bảng chẩn đoán. Dùng khi một ly hỏng mà bạn không biết bắt đầu từ đâu.</li>
+<li><strong>Chương 22</strong> — phin, phễu không bypass của Việt Nam, thử như một dụng cụ pour over.</li>
 </ul>
 
 <h4>Nếu bạn chỉ có mười phút</h4>
@@ -214,7 +215,7 @@ window.BOOK_PARTS.push({
 <tr><td><strong>Second crack</strong></td><td>Tiếng nổ thứ hai, khoảng 224–230 °C, lúc cấu trúc cellulose bắt đầu gãy. — Qua mốc này là rang đậm. Vết dầu trên mặt hạt là dấu hiệu.</td></tr>
 <tr><td><strong>Quinide</strong> (lactone acid chlorogenic)</td><td>Nhóm hợp chất đắng hình thành khi rang, nhiều nhất ở mức nhẹ đến vừa. — Vị đắng "kiểu cà phê". Sinh ra trong lò rang, không phải trong phễu. Chương 9.</td></tr>
 <tr><td><strong>Phenylindane</strong></td><td>Nhóm đắng sinh ra khi rang mạnh hơn làm quinide phân huỷ tiếp. — Đắng gắt hơn và đọng lâu hơn. Đây là lý do rang đậm cho vị đắng khác <em>chất</em>, không chỉ khác lượng.</td></tr>
-<tr><td><strong>Retronasal</strong></td><td>Đường mùi đi từ miệng ngược lên mũi khi bạn nuốt. — Phần lớn thứ bạn gọi là "vị" đi qua đường này. Lưỡi chỉ nhận năm vị cơ bản. Chương 25.</td></tr>
+<tr><td><strong>Retronasal</strong></td><td>Đường mùi đi từ miệng ngược lên mũi khi bạn nuốt. — Phần lớn thứ bạn gọi là "vị" đi qua đường này. Lưỡi chỉ nhận năm vị cơ bản. Chương 26.</td></tr>
 <tr><td><strong>Astringency</strong> (vị chát)</td><td>Cảm giác khô, rít trong miệng — là <em>xúc giác</em>, không phải vị. — Hay bị gọi nhầm là "đắng". Nguyên nhân thường khác nhau, nên cách sửa cũng khác.</td></tr>
 <tr><td><strong>Cupping</strong></td><td>Quy trình nếm chuẩn hoá: tỉ lệ cố định, ngâm, không lọc. — Cho bạn biết trần của con cà, tách khỏi kỹ thuật pha. Phần IV.</td></tr>
 </tbody>

@@ -17,7 +17,9 @@ git tag v1.0.0 && ./build-pdf.sh
 
 ## Chưa phát hành
 
-(Chưa có gì.)
+Cấu trúc: thêm hai phần không đánh số — **mở đầu** (lời mở đầu, cách đọc, bảng thuật ngữ)
+và **cuối sách** (lời cảm ơn) — cùng chương 22 mới về **phin**. Số chương chính từ 30
+lên 31; các chương cũ 22–30 dời thành 23–31, mọi tham chiếu "xem chương N" đã sửa theo.
 
 ## 1.0.0 — 30.10.2026
 

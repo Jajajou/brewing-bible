@@ -377,7 +377,7 @@ Dễ gặp vấn đề:  ____________________
 <li><strong>Tăng nhiệt 1–2 °C</strong><p>Nếu có vị chua xanh, rau cỏ (chiết thiếu).</p></li>
 </ol>
 
-<p>Chỉ một thứ mỗi lần. Và nếu sau ba lần vẫn cách xa cupping — theo luật 4 ở chương 22 — đó là thông tin về con cà, không phải lý do để đổi công thức nền.</p>
+<p>Chỉ một thứ mỗi lần. Và nếu sau ba lần vẫn cách xa cupping — theo luật 4 ở chương 24 — đó là thông tin về con cà, không phải lý do để đổi công thức nền.</p>
 
 <h3>Kỳ vọng đúng đắn</h3>
 

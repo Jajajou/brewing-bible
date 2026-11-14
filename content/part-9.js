@@ -379,7 +379,7 @@
 </tbody>
 </table>
 
-<p class="tbl-cap tbl-cap-break">Chương 19–30 · công thức, đọc bã, chẩn đoán, cảm nhận</p>
+<p class="tbl-cap tbl-cap-break">Chương 19–31 · công thức, đọc bã, chẩn đoán, cảm nhận</p>
 
 <table class="tbl-a3">
 <thead>
@@ -394,10 +394,10 @@
 <tr><td>19</td><td>Độ sâu bã phải khớp đường kính dụng cụ</td><td>Hợp lý</td><td>[53] [54]</td><td>Suy luận từ thực hành</td></tr>
 <tr><td>20</td><td>Nhìn bã để chẩn đoán</td><td>—</td><td>không có</td><td>Không có nguồn</td></tr>
 <tr><td>21</td><td>Bảng chẩn đoán</td><td>—</td><td>suy ra từ [10] [11]</td><td>Một phần</td></tr>
-<tr><td>22–24</td><td>Quy trình, bốn luật, case study</td><td>—</td><td>phương pháp</td><td>Không cần nguồn</td></tr>
-<tr><td>25</td><td>Giải phẫu một ngụm; đường mũi ngược</td><td>—</td><td>sinh lý khứu giác</td><td>Không cần nguồn</td></tr>
-<tr><td>26</td><td>Ngôn ngữ nốt hương và cái bẫy của nó</td><td>—</td><td>[14] [19]</td><td>Một phần</td></tr>
-<tr><td>27–30</td><td>Luyện khẩu vị, nhật ký, dụng cụ, checklist</td><td>—</td><td>phương pháp</td><td>Không cần nguồn</td></tr>
+<tr><td>23–25</td><td>Quy trình, bốn luật, case study</td><td>—</td><td>phương pháp</td><td>Không cần nguồn</td></tr>
+<tr><td>26</td><td>Giải phẫu một ngụm; đường mũi ngược</td><td>—</td><td>sinh lý khứu giác</td><td>Không cần nguồn</td></tr>
+<tr><td>27</td><td>Ngôn ngữ nốt hương và cái bẫy của nó</td><td>—</td><td>[14] [19]</td><td>Một phần</td></tr>
+<tr><td>28–31</td><td>Luyện khẩu vị, nhật ký, dụng cụ, checklist</td><td>—</td><td>phương pháp</td><td>Không cần nguồn</td></tr>
 </tbody>
 </table>
 

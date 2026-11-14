@@ -244,7 +244,7 @@ TDS ≈ EY × liều ÷ (nước − 2 × liều)
 
 <p>Có một chỗ mà thời gian thật sự quan trọng, nhưng không phải vì thứ tự hợp chất: <strong>giai đoạn cuối của quá trình rút</strong>. Khi bã gần khô, nước còn lại chảy qua một lớp mỏng bã đã bị nén, ở nhiệt độ thấp hơn, và có thể kéo theo các hợp chất có vị khô và chát. Đây là lý do một số người cắt bỏ vài giọt cuối.</p>
 
-<p>Nhưng hiệu ứng này nhỏ hơn nhiều so với những gì nó được gán cho, và nó bị lẫn với một hiệu ứng khác lớn hơn: khi ly cà nguội, cảm giác đắng tăng lên <em>mà không có thêm gì được chiết ra</em>. Đó là sinh lý học, không phải hóa học. Chương 25 nói về điều này.</p>
+<p>Nhưng hiệu ứng này nhỏ hơn nhiều so với những gì nó được gán cho, và nó bị lẫn với một hiệu ứng khác lớn hơn: khi ly cà nguội, cảm giác đắng tăng lên <em>mà không có thêm gì được chiết ra</em>. Đó là sinh lý học, không phải hóa học. Chương 26 nói về điều này.</p>
 `
   },
 

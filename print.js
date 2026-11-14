@@ -30,6 +30,7 @@
   PARTS.forEach(function (part) {
     (part.chapters || []).forEach(function (ch) {
       if (part.front) ch.__front = true;
+      else if (part.back) ch.__back = true;
       else if (part.appendix) ch.__a = ++acounter;
       else ch.__n = ++counter;
     });
@@ -41,7 +42,7 @@
   }
 
   var totalChapters = counter;
-  var totalParts = PARTS.filter(function (p) { return !p.appendix && !p.front; }).length;
+  var totalParts = PARTS.filter(function (p) { return !p.appendix && !p.front && !p.back; }).length;
 
   /* Phiên bản: build-pdf.sh truyền ?ver=<commit>[&date=<ngày>]. Mở print.html
      bằng tay thì không có gì để in — ghi "bản nháp" chứ không bịa số. */
@@ -62,7 +63,7 @@
   }
 
   function partNum(part, pi) {
-    return part.front ? "Mở đầu" : part.appendix ? "Phụ lục" : "Phần " + (part.roman || ROMAN[pi]);
+    return part.front ? "Mở đầu" : part.back ? "Cuối sách" : part.appendix ? "Phụ lục" : "Phần " + (part.roman || ROMAN[pi]);
   }
 
   var html = [];
@@ -95,7 +96,7 @@
       html.push(
         '<a class="toc-row" href="#' + ch.id + '">' +
           '<span class="n">' +
-            (ch.__front ? "·" : ch.__a ? "A" + ch.__a : String(ch.__n).padStart(2, "0")) +
+            (ch.__front || ch.__back ? "·" : ch.__a ? "A" + ch.__a : String(ch.__n).padStart(2, "0")) +
           "</span>" +
           "<span>" + esc(ch.title) + "</span>" +
         "</a>"
@@ -131,7 +132,7 @@
            khối không tách. */
         '<header class="ch-head" id="' + ch.id + '">',
         '<p class="ch-num">' +
-          (ch.__front ? "Mở đầu" : ch.__a ? "Phụ lục A" + ch.__a : "Chương " + String(ch.__n).padStart(2, "0")) +
+          (ch.__front ? "Mở đầu" : ch.__back ? "Cuối sách" : ch.__a ? "Phụ lục A" + ch.__a : "Chương " + String(ch.__n).padStart(2, "0")) +
           "</p>",
         '<h2 class="ch-title">' + esc(ch.title) + "</h2>",
         ch.lede ? '<p class="ch-lede">' + esc(ch.lede) + "</p>" : "",

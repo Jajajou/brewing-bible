@@ -9,6 +9,7 @@ window.BOOK_TEXT = {
     "phan-6": { title: "The Bridge", blurb: "From a cupping bowl to a pour-over" },
     "phan-7": { title: "Perception", blurb: "The cup is not the end — it is half the story" },
     "phan-8": { title: "The Notebook", blurb: "Pages to consult, not to read" },
+    "cuoi-sach": { title: "End matter", blurb: "The people who helped this book take shape" },
     "phu-luc": { title: "References", blurb: "The book uses three evidence labels. This appendix shows you what each label rests on — and where it rests on nothing at all." }
   },
 
@@ -69,7 +70,7 @@ window.BOOK_TEXT = {
       minutes: 6,
       tags: ["front matter", "how to use"],
       body: `
-<p>This book has thirty chapters. You do not need to read all of them, and you certainly do not need to read them in order. This page tells you how to use it.</p>
+<p>This book has thirty-one chapters. You do not need to read all of them, and you certainly do not need to read them in order. This page tells you how to use it.</p>
 
 <h3>Three evidence labels</h3>
 
@@ -106,8 +107,8 @@ window.BOOK_TEXT = {
 <li><strong>Chapter 9</strong><p>The three things you actually control.</p></li>
 <li><strong>Chapter 15</strong><p>Immersion and percolation — two mechanisms, and why they differ.</p></li>
 <li><strong>Chapter 20</strong><p>Reading the bed: diagnosing with your eyes instead of your feelings.</p></li>
-<li><strong>Chapter 25</strong><p>The anatomy of a sip. Why "flavour" is mostly smell.</p></li>
-<li><strong>Chapter 28</strong><p>The brew log. The cheapest thing that makes you improve fastest.</p></li>
+<li><strong>Chapter 26</strong><p>The anatomy of a sip. Why "flavour" is mostly smell.</p></li>
+<li><strong>Chapter 29</strong><p>The brew log. The cheapest thing that makes you improve fastest.</p></li>
 </ol>
 </div>
 
@@ -122,6 +123,7 @@ window.BOOK_TEXT = {
 <li><strong>Chapter 8</strong> — why "acids first, bitterness last" does not hold up, and how that changes the way you adjust.</li>
 <li><strong>Chapters 14 to 19</strong> — cupping, brewers, pouring technique, the anatomy of a recipe, champions' recipes.</li>
 <li><strong>Chapter 21</strong> — the diagnostic table. For when a cup is off and you do not know where to start.</li>
+<li><strong>Chapter 22</strong> — the phin, Vietnam's no-bypass dripper, tested as a pour-over tool.</li>
 </ul>
 
 <h4>If you only have ten minutes</h4>
@@ -213,7 +215,7 @@ window.BOOK_TEXT = {
 <tr><td><strong>Second crack</strong></td><td>The second crack, around 224–230 °C, as the cellulose structure starts to fracture.</td><td>Past this is dark roast. An oily sheen on the bean is the sign.</td></tr>
 <tr><td><strong>Quinides</strong> (chlorogenic acid lactones)</td><td>A family of bitter compounds formed during roasting, peaking at light to medium levels.</td><td>The "coffee-typical" bitterness. Made in the roaster, not in the brewer. Chapter 9.</td></tr>
 <tr><td><strong>Phenylindanes</strong></td><td>The bitter family produced when harder roasting breaks the quinides down further.</td><td>Harsher and longer-lingering. This is why dark roast gives a bitterness of a different <em>kind</em>, not merely more of it.</td></tr>
-<tr><td><strong>Retronasal</strong></td><td>The route aroma takes from the mouth back up to the nose as you swallow.</td><td>Most of what you call "flavour" travels this way. The tongue registers only five basic tastes. Chapter 25.</td></tr>
+<tr><td><strong>Retronasal</strong></td><td>The route aroma takes from the mouth back up to the nose as you swallow.</td><td>Most of what you call "flavour" travels this way. The tongue registers only five basic tastes. Chapter 26.</td></tr>
 <tr><td><strong>Astringency</strong></td><td>A drying, rasping feeling in the mouth — a <em>tactile</em> sensation, not a taste.</td><td>Often misnamed "bitterness". The causes are usually different, so the fixes are too.</td></tr>
 <tr><td><strong>Cupping</strong></td><td>A standardised tasting protocol: fixed ratio, immersion, no filter.</td><td>Tells you a coffee's ceiling, separated from brewing technique. Part IV.</td></tr>
 </tbody>
@@ -290,7 +292,7 @@ window.BOOK_TEXT = {
 
 <p>One detail most drinkers do not know: the information on the bag <strong>affects what you taste</strong>. In a sensory study, when tasters were told the origin and process, their assessments shifted toward what they expected <span class="tier tier-a">Evidence</span>. Which means the "apricot" you find may come partly from the words on the bag.</p>
 
-<p>This is not you being fooled. It is how the human brain works: taste is not separate from knowledge. But it has a plainly practical consequence — if you want to know what you <em>actually</em> like, you sometimes have to taste without knowing what you are tasting. Chapter 26 is about this.</p>
+<p>This is not you being fooled. It is how the human brain works: taste is not separate from knowledge. But it has a plainly practical consequence — if you want to know what you <em>actually</em> like, you sometimes have to taste without knowing what you are tasting. Chapter 28 is about this.</p>
 `
     },
 
@@ -1076,7 +1078,7 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 
 <p>There is one place where time genuinely matters, though not because of compound order: <strong>the last stage of the drawdown</strong>. As the bed approaches dry, the remaining water passes through a thin, compressed layer of grounds at a lower temperature, and it can carry compounds that taste dry and astringent. That is why some people discard the last few drops.</p>
 
-<p>But this effect is much smaller than what it is credited with, and it gets confused with a larger one: as the cup cools, bitterness increases <em>without anything more being extracted</em>. That is physiology, not chemistry. Chapter 24 is about this.</p>
+<p>But this effect is much smaller than what it is credited with, and it gets confused with a larger one: as the cup cools, bitterness increases <em>without anything more being extracted</em>. That is physiology, not chemistry. Chapter 26 is about this.</p>
 `
     },
 
@@ -2617,6 +2619,131 @@ Odd:   _______________
 `
     },
 
+    "ch-phin": {
+      title: "The phin: Vietnam's no-bypass dripper",
+      lede: "Two phins stacked gave me the best aroma and the worst finish of the same session. This chapter records enough for you to repeat the test.",
+      minutes: 8,
+      tags: ["phin", "equipment", "experiment"],
+      body: `
+<p>The phin is a no-bypass dripper older than any other no-bypass dripper. In chapter 15 I placed it in the same family as the Pulsar, the Tricolate and the Orea Z1: the water has one way out, and that way goes through the bed <span class="tier tier-b">Plausible</span> [68].</p>
+
+<p>But the phin is famous for something else: iced coffee with condensed milk. A strong concentrate around 1:4–1:5, dark-roasted robusta, condensed milk, and a metal mesh that lets oils and fines through, which is where the thick body comes from. That is a brewing tradition of its own, and it is not this chapter's subject — I have no sources for it, and I will not retell it from memory.</p>
+
+<p>This chapter asks a narrower question: if you use a phin as a pour-over brewer — filter strength, light roast, no milk — what do you gain and what do you lose.</p>
+
+<h3>The rig</h3>
+
+<p>Two phins stacked. The lower one is the brewing chamber and holds the coffee. The upper one is a water reservoir: you pour into it and it drips down into the lower phin.</p>
+
+<p>The chamber holds at most about 100 ml before the coffee goes in. The bed swells during the bloom, so there is less room than that — which is why you have to pour many times and cannot empty the kettle in one go as you would on a V60.</p>
+
+<p>The filter is an AeroPress paper. To fit it: lay the paper on the base plate, then press the chamber down onto it. The paper is wider than the base, so when you press, the rim spills outside and wraps around the base. Sealed — no water sneaking past the edge.</p>
+
+<p>I do not preheat the phin, and that is deliberate: the chamber is closed and the upper phin caps it, so the surface of the bed holds its temperature better than if it were open to the air <span class="tier tier-b">Plausible</span>. That is my reasoning, not a measurement.</p>
+
+<h3>The recipe I used</h3>
+
+<p>The first version: 15 g of coffee, 300 ml of water, so 1:20. Six pours of 50 ml. The bloom waits one minute; later pours follow 30–40 seconds apart. About 4:30 in total.</p>
+
+<p>Very slow pouring, around 5 ml/s, into the upper phin. The lower phin always dripped; it never ran as a stream. Average flow around 1 ml/s — that number is arithmetic from 300 ml in 4:30, not a measurement.</p>
+
+<p>The grind, on a Q Air: three turns from zero, so 90 clicks, about 2250 µm at 25 µm per click. For a while I used two and a half turns, 75 clicks. The coarsest version, tried first, was a Mischief M40 at 60 clicks — and the click numbers of those two grinders do not convert into each other.</p>
+
+<p>I once wrote down a TDS of 1.2% and an EY of 18%. Plainly: those were impressions, not measurements. They also do not agree with each other mathematically — on the recipe above, a TDS of 1.2% corresponds to an EY of about 21–22%, not 18%. So this chapter does not print them as measurements, and you should not use them for comparison.</p>
+
+<h3>The side-by-side test</h3>
+
+<p>Two brewers next to each other, one coffee, the same 10 g of coffee and 160 ml of water, the same grind, the same temperature, the same pouring rhythm of 30–50–50–30.</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th></th><th>V60</th><th>Double phin</th></tr></thead>
+<tbody>
+<tr><td>Coffee / water</td><td>10 g / 160 ml</td><td>10 g / 160 ml</td></tr>
+<tr><td>Pouring rhythm</td><td>30–50–50–30</td><td>30–50–50–30</td></tr>
+<tr><td>Grind, water, temperature</td><td>identical</td><td>identical</td></tr>
+<tr><td>Total time</td><td>about 2:30</td><td>about 3:30</td></tr>
+<tr><td>Temperature in the carafe at the end</td><td>60 °C</td><td>55 °C</td></tr>
+<tr><td>Aroma</td><td>less fragrant</td><td>beautiful, “nothing missing”</td></tr>
+<tr><td>Taste</td><td>cleaner</td><td>bright acidity</td></tr>
+<tr><td>Spent bed</td><td>still smells</td><td>smells of nothing</td></tr>
+<tr><td>Mouthfeel, finish</td><td>cleaner finish</td><td>heavier, more astringent, finish not clean; bitterness lingering after 30 seconds</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>The thing worth noticing is that neither column wins everywhere. The phin took the aroma the V60 left in the bed — the spent phin bed smelled of nothing, which I had never seen on a V60 with that coffee. The price was the finish.</p>
+
+<p>This is <strong>one trial, not blind</strong>: no repeats, no second taster, no samples coded. It is enough to say “there is something here worth chasing”, not enough to say “a phin gives more aroma than a V60” as a rule.</p>
+
+<h3>The filter afterwards</h3>
+
+<p>There was a thick layer of fine mud on the paper, even with a very coarse grind. The mud was not evenly spread: it piled onto one half of the paper while the other half stayed almost clean.</p>
+
+<p>A clean half is a sign that the water left to one side. It could be the phin, it could be the stand sitting at an angle — I did not check, so I do not know, and this is inference, not a conclusion.</p>
+
+<p>I also tried a few bloom variations: a strong 12 ml/s jet for one circle to stir the bed; a 50 ml bloom for 15 g; a double bloom. I did not write down the result of each variation — so there are no numbers for them here, only the general conclusion: whatever I did, the double-phin cup kept its lingering bitterness.</p>
+
+<h3>Why it is bitter afterwards</h3>
+
+<p>My hypothesis, labelled at the level it deserves: <span class="tier tier-b">Plausible</span>, not verified.</p>
+
+<p>With no bypass in the phin, the fines have no way out except through the paper. They settle at the bottom and stay there for the whole brew, in contact with hot water longer than any other particle. Fines give up their surface in seconds, so the mud at the bottom is the most over-extracted thing in the cup — and over-extracted means astringent (chapter 10).</p>
+
+<p>And: at the same grind, a phin extracts harder than a V60 because all the water has to cross all the bed. A higher extraction ceiling is an advantage — until it goes past the threshold. In the test above, it went past.</p>
+
+<p>The second suspect is the grinder. A Q Air at 90 clicks makes a fair amount of fines, and in a no-bypass brewer every fine stays in the chamber. I have not separated the two causes.</p>
+
+<h3>If you want to carry on</h3>
+
+<p>I stopped here, because for me the cup has to taste good for brewing to be fun, and the double-phin cup did not. But the test left three clear directions, and I am writing them down so the next person does not start from nothing:</p>
+
+<ul>
+<li><strong>Sift out some of the fines.</strong> If the hypothesis above holds, removing fines should make the finish noticeably cleaner. It is the cheapest test that separates the causes — see chapter 10.</li>
+<li><strong>Grind coarser still.</strong> At 90 clicks the bed still had fine mud; try 110–120 clicks and see whether the layer thins.</li>
+<li><strong>Brew a concentrate, then dilute.</strong> This is the idea I have <em>not</em> tried: extract strong, around 1:8 through the bed, then add water to the cup. In theory it holds extraction and changes only strength — the mechanism in chapter 7 — but I have no results, so do not read it as a recipe.</li>
+</ul>
+
+<div class="callout">
+<p class="callout-title">What this chapter does not say</p>
+<p>It does not say the phin is a bad tool. It says: with a light roast, at the grind I used, pouring the way I poured, the double phin gave better aroma and a worse finish than the V60. One trial says nothing about a traditional phin brewing dark robusta with condensed milk — that is a different method aiming at a different thing.</p>
+</div>
+`
+    },
+
+    "ch-loi-cam-on": {
+      title: "Acknowledgements",
+      lede: "This book did not write itself. These are the people who made it better, and the work it stands on.",
+      minutes: 4,
+      tags: ["end matter"],
+      body: `
+<p>I thank each person here, and say why. Being named does not mean they agree with every sentence in the book.</p>
+
+<h3>The teacher</h3>
+
+<p><strong>Nguyễn Tấn Mạnh Lân</strong>, who runs <strong>Cop Coffee Crafter</strong> in Biên Hoà, was my first coffee teacher. I came to him to learn latte, not pour over. This book began in those shifts behind the bar.</p>
+
+<h3>The person who gave me the inspiration</h3>
+
+<p><strong>Lance Hedrick</strong> gave me a great deal of inspiration, which is why he stands here rather than in the list below. His videos led me to a number of the experiments in the book, including the double-phin test. His few-pour recipes are discussed in chapter 17.</p>
+
+<h3>The work this book rests on</h3>
+
+<p>Thanks to <strong>Jonathan Gagné</strong> (Coffee ad Astra): his 2019 post is one of the most detailed analyses of the extraction model, and he is explicit that the sensory part is conjecture — which makes the rest of it more trustworthy. His writing on fines and on bypass also sits under chapter 10 and chapter 15.</p>
+
+<p>Thanks to <strong>Scott Rao</strong>: his posts on fines, on bed depth and on no-bypass brewers shaped the phin experiment and the chapter on brewer geometry. That is professional experience, not research, and the book cites it as such.</p>
+
+<p>Thanks to <strong>James Hoffmann</strong>: the many-small-pours approach is analysed in chapter 17. Thanks to <strong>Tetsu Kasuya</strong> for the 4:6 method as a system you tune to your own taste, also in chapter 17.</p>
+
+<p>Thanks to <strong>Christopher Hendon</strong> for the chemistry of water in chapter 4, and to the <strong>UC Davis Coffee Center</strong> — Batali, Ristenpart, Guinard and colleagues — for the sensory work on TDS, extraction, temperature and brew fractions that chapters 7, 8 and 9 rest on. Most of the places where the book had to correct itself are thanks to those papers.</p>
+
+<div class="callout">
+<p class="callout-title">About the people not named here</p>
+<p>The book still owes a debt to people I have not asked permission to name, and I would rather miss a name than add one that is wrong. If you think I have forgotten someone, that is my mistake, not theirs.</p>
+</div>
+`
+    },
+
     "ch-quy-trinh-con-ca-moi": {
       title: "A twenty-minute routine for a new coffee",
       lede: "Not a study session. Just four steps, in order, each one answering a single question.",
@@ -2984,7 +3111,7 @@ Likely problem:  ____________________
 <li><strong>Raise the temperature 1–2 °C</strong><p>If there is sour-green, vegetal character (under-extraction).</p></li>
 </ol>
 
-<p>One thing at a time. And if after three tries you are still far from the cupping — by rule 4 in chapter 23 — that is information about the coffee, not a reason to change your base recipe.</p>
+<p>One thing at a time. And if after three tries you are still far from the cupping — by rule 4 in chapter 24 — that is information about the coffee, not a reason to change your base recipe.</p>
 
 <h3>The right expectation</h3>
 
