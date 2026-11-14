@@ -16,7 +16,7 @@ window.BOOK_PARTS.push({
     body: `
 <p>Hãy đếm số thứ bạn đã mua để pha cà phê: cân, ấm, phễu, giấy lọc, máy xay, có thể là một chiếc nhiệt kế. Rồi đếm số thứ bạn đã mua để cải thiện <em>nước</em>. Với hầu hết người uống, con số thứ hai là không.</p>
 
-<p>Đó là một sự mất cân đối kỳ lạ, vì nước là thành phần lớn nhất trong ly. Và nước không trơ — nó là một dung môi hoạt động, mang theo khoáng chất tương tác trực tiếp với các hợp chất trong cà phê.</p>
+<p>Đó là một sự mất cân đối kỳ lạ, vì nước là thành phần lớn nhất trong ly. Và nước không trơ. Nó là một dung môi hoạt động, mang theo khoáng chất tương tác trực tiếp với các hợp chất trong cà phê.</p>
 
 <h3>Ba thứ trong nước ảnh hưởng đến cà phê</h3>
 
@@ -37,9 +37,9 @@ window.BOOK_PARTS.push({
 
 <h3>Alkalinity: thứ thật sự quan trọng</h3>
 
-<p><strong>Alkalinity</strong> (độ kiềm) là khả năng trung hoà acid của nước — chủ yếu nhờ ion bicarbonate. Đây là một phép đo <em>khả năng đệm</em>, không phải nồng độ một chất cụ thể. Đơn vị thường dùng trong ngành cà phê là <strong>ppm as CaCO₃</strong>.</p>
+<p><strong>Alkalinity</strong> (độ kiềm) là khả năng trung hoà acid của nước, chủ yếu nhờ ion bicarbonate. Đây là một phép đo <em>khả năng đệm</em>, không phải nồng độ một chất cụ thể. Đơn vị thường dùng trong ngành cà phê là <strong>ppm as CaCO₃</strong>.</p>
 
-<p>Cơ chế rất trực tiếp: acid hữu cơ trong cà phê — citric, malic, acetic, lactic, chlorogenic — chính là những hợp chất tạo cảm giác tươi sáng, trái cây, và "sống". Bicarbonate trung hoà chúng theo phản ứng:</p>
+<p>Cơ chế rất trực tiếp: acid hữu cơ trong cà phê, citric, malic, acetic, lactic, chlorogenic, chính là những hợp chất tạo cảm giác tươi sáng, trái cây, và "sống". Bicarbonate trung hoà chúng theo phản ứng:</p>
 
 <div class="formula">
 <span class="fx-label">Phản ứng trung hoà</span>
@@ -50,7 +50,7 @@ HCO₃⁻ + H⁺ → H₂CO₃ → CO₂ + H₂O
 
 <div class="callout ok">
 <p class="callout-title">Bằng chứng ở mức nào?</p>
-<p>Đây là một trong số ít những khẳng định trong cuốn sách có nền tảng vững. Nghiên cứu cảm quan có kiểm soát của Christina Rune và cộng sự, Đại học Copenhagen (2026), cho thấy <strong>bicarbonate là yếu tố chi phối cảm nhận hương vị</strong>, trong khi việc thêm canxi ở mức cao — cao hơn cả nước uống thông thường — <em>không</em> tạo ra khác biệt cảm quan đáng kể <span class="tier tier-a">Bằng chứng</span>. Đây cũng là nghiên cứu đầu tiên kiểm chứng bằng cảm quan có kiểm soát đúng cái vùng nước mà ngành vẫn gọi là “lý tưởng”. Đây là lý do cuốn sách này đặt alkalinity lên đầu và độ cứng xuống sau.</p>
+<p>Đây là một trong số ít những khẳng định trong cuốn sách có nền tảng vững. Nghiên cứu cảm quan có kiểm soát của Christina Rune và cộng sự, Đại học Copenhagen (2026), cho thấy <strong>bicarbonate là yếu tố chi phối cảm nhận hương vị</strong>, trong khi việc thêm canxi ở mức cao, cao hơn cả nước uống thông thường, <em>không</em> tạo ra khác biệt cảm quan đáng kể <span class="tier tier-a">Bằng chứng</span>. Đây cũng là nghiên cứu đầu tiên kiểm chứng bằng cảm quan có kiểm soát đúng cái vùng nước mà ngành vẫn gọi là “lý tưởng”. Đây là lý do cuốn sách này đặt alkalinity lên đầu và độ cứng xuống sau.</p>
 </div>
 
 <h3>Chỉ tiêu tham chiếu</h3>
@@ -64,12 +64,12 @@ HCO₃⁻ + H⁺ → H₂CO₃ → CO₂ + H₂O
 <tr><td>Alkalinity (as CaCO₃)</td><td><strong>~40 ppm</strong></td><td>40–75 ppm*</td></tr>
 <tr><td>Độ cứng tổng (as CaCO₃)</td><td>~68 ppm</td><td>51–175 ppm</td></tr>
 <tr><td>pH</td><td>~7,0</td><td>6–8</td></tr>
-<tr><td>Na⁺</td><td>—</td><td>&lt; 10 ppm</td></tr>
+<tr><td>Na⁺</td><td>, </td><td>&lt; 10 ppm</td></tr>
 </tbody>
 </table>
 </div>
 
-<p><strong>* Ba dòng trên không lấy từ cùng một trang.</strong> Sổ tay chất lượng nước SCA 2018 cho 40–75 ppm alkalinity và 51–175 ppm độ cứng — nhưng mốc 75 ppm <em>chỉ áp dụng khi độ cứng nằm trong khoảng 150–175 ppm</em>; ngoài khoảng đó, mốc trên là 40 ppm. Dải pH 6–8 với mục tiêu 7,0 lấy từ bảng tiêu chuẩn cà phê SCA 2018, không phải từ sổ tay — sổ tay chỉ nói nên đo pH khi nước có alkalinity rất cao hoặc độ cứng rất thấp. Con số “pH 6,5–7,5” vẫn được trích cho SCA ở nhiều nơi, nhưng tôi không tìm được tài liệu SCA 2018 nào nêu nó, nên bản này đã thay.</p>
+<p><strong>* Ba dòng trên không lấy từ cùng một trang.</strong> Sổ tay chất lượng nước SCA 2018 cho 40–75 ppm alkalinity và 51–175 ppm độ cứng nhưng mốc 75 ppm <em>chỉ áp dụng khi độ cứng nằm trong khoảng 150–175 ppm</em>; ngoài khoảng đó, mốc trên là 40 ppm. Dải pH 6–8 với mục tiêu 7,0 lấy từ bảng tiêu chuẩn cà phê SCA 2018, không phải từ sổ tay, sổ tay chỉ nói nên đo pH khi nước có alkalinity rất cao hoặc độ cứng rất thấp. Con số “pH 6,5–7,5” vẫn được trích cho SCA ở nhiều nơi, nhưng tôi không tìm được tài liệu SCA 2018 nào nêu nó, nên bản này đã thay.</p>
 
 <p>Mục tiêu 40 ppm là điểm giữa. Ở mức 20 ppm, acid rất sáng, có khi gắt hoặc "mỏng". Ở mức 75 ppm, vị cân bằng nhưng trái cây bắt đầu mờ. Trên 100 ppm, hầu hết cà phê rang sáng sẽ mất tính cách. Trên 200 ppm, bạn gần như chỉ còn nếm vị rang. Chiều của hiệu ứng có nghiên cứu; còn từng mốc ppm ở trên là chỗ cắt theo kinh nghiệm nếm, không phải ngưỡng đã đo <span class="tier tier-b">Hợp lý</span>.</p>
 
@@ -79,13 +79,13 @@ HCO₃⁻ + H⁺ → H₂CO₃ → CO₂ + H₂O
 
 <p>Có một hiện tượng rất phổ biến: người ta mua một bao cà phê specialty đắt tiền, pha ở nhà, và thấy nó "không đặc biệt". Họ cho rằng mình pha sai, hoặc nhà rang thổi phồng. Phần lớn trường hợp, nguyên nhân nằm ở cái vòi nước.</p>
 
-<p>Hãy nghĩ về nó theo cách này: bạn trả 300.000 đồng cho 250 g cà phê để có vị mơ và hương hoa. Rồi bạn pha nó bằng nước có alkalinity 250 ppm — nước này trung hoà phần lớn acid tạo ra chính cái vị mơ đó. Bạn đang trả tiền cho một thứ mà nước của bạn xoá bỏ.</p>
+<p>Hãy nghĩ về nó theo cách này: bạn trả 300.000 đồng cho 250 g cà phê để có vị mơ và hương hoa. Rồi bạn pha nó bằng nước có alkalinity 250 ppm, nước này trung hoà phần lớn acid tạo ra chính cái vị mơ đó. Bạn đang trả tiền cho một thứ mà nước của bạn xoá bỏ.</p>
 
 <p>Đây không phải là một chi tiết nhỏ trong quy trình. Đây là biến số có ảnh hưởng lớn nhất mà hầu như không ai kiểm tra.</p>
 
 <h3>Một minh hoạ cụ thể từ Việt Nam</h3>
 
-<p>Nước khoáng đóng chai phổ biến ở Việt Nam thường có hàm lượng bicarbonate rất cao — vì đó là bản chất của nước khoáng tự nhiên. Lấy ví dụ La Vie, theo bản tự công bố sản phẩm: <strong>HCO₃⁻ 280–330 mg/L</strong>, TDS 310–590 mg/L, pH 8,0 ± 0,5.</p>
+<p>Nước khoáng đóng chai phổ biến ở Việt Nam thường có hàm lượng bicarbonate rất cao, vì đó là bản chất của nước khoáng tự nhiên. Lấy ví dụ La Vie, theo bản tự công bố sản phẩm: <strong>HCO₃⁻ 280–330 mg/L</strong>, TDS 310–590 mg/L, pH 8,0 ± 0,5.</p>
 
 <p>Quy đổi sang đơn vị của ngành cà phê:</p>
 
@@ -95,27 +95,27 @@ Alkalinity = HCO₃⁻ × <b>50/61</b> ≈ HCO₃⁻ × <b>0,82</b><br>
 305 mg/L × 0,82 ≈ <b>250 ppm as CaCO₃</b>
 </div>
 
-<p>So với mục tiêu 40 ppm, đó là <strong>gấp hơn sáu lần</strong>. Ở mức này, bạn không còn nếm con cà — bạn đang nếm nước khoáng có pha cà phê.</p>
+<p>So với mục tiêu 40 ppm, đó là <strong>gấp hơn sáu lần</strong>. Ở mức này, bạn không còn nếm con cà. Bạn đang nếm nước khoáng có pha cà phê.</p>
 
 <div class="callout warn">
 <p class="callout-title">Đừng suy rộng</p>
-<p>Con số trên áp dụng cho La Vie. Các nhãn khác có thành phần khác — có loại thấp hơn đáng kể, có loại còn cao hơn. Hãy đọc nhãn của đúng chai bạn dùng, và áp dụng công thức quy đổi ở trên. Chương sau hướng dẫn cách đọc nhãn và cách đo nếu nhãn không ghi.</p>
+<p>Con số trên áp dụng cho La Vie. Các nhãn khác có thành phần khác, có loại thấp hơn đáng kể, có loại còn cao hơn. Hãy đọc nhãn của đúng chai bạn dùng, và áp dụng công thức quy đổi ở trên. Chương sau hướng dẫn cách đọc nhãn và cách đo nếu nhãn không ghi.</p>
 </div>
 
 <h3>Nước tinh khiết cũng không phải câu trả lời</h3>
 
-<p>Nếu nước khoáng quá kiềm, phản ứng tự nhiên là chuyển sang nước tinh khiết (RO). Nhưng nước RO có alkalinity gần 0 — và ở mức đó, acid không bị đệm chút nào. Kết quả là ly cà có thể chua gắt, "sắc", thiếu tròn. Vị chua không được kiểm soát nghe the và kim loại hơn là tươi sáng.</p>
+<p>Nếu nước khoáng quá kiềm, phản ứng tự nhiên là chuyển sang nước tinh khiết (RO). Nhưng nước RO có alkalinity gần 0 và ở mức đó, acid không bị đệm chút nào. Kết quả là ly cà có thể chua gắt, "sắc", thiếu tròn. Vị chua không được kiểm soát nghe the và kim loại hơn là tươi sáng.</p>
 
-<p>Nước hoàn hảo cho cà phê không phải là nước sạch nhất. Nó là nước <strong>có đúng một lượng khoáng nhất định</strong> — đủ để đệm acid ở mức vừa phải, không đủ để xoá chúng.</p>
+<p>Nước hoàn hảo cho cà phê không phải là nước sạch nhất. Nó là nước <strong>có đúng một lượng khoáng nhất định</strong>, đủ để đệm acid ở mức vừa phải, không đủ để xoá chúng.</p>
 
-<p>Ba chương tiếp theo nói về cách đạt được điều đó: đo, pha loãng, và — nếu bạn muốn kiểm soát hoàn toàn — tự làm nước từ nước RO.</p>
+<p>Ba chương tiếp theo nói về cách đạt được điều đó: đo, pha loãng, và, nếu bạn muốn kiểm soát hoàn toàn, tự làm nước từ nước RO.</p>
 `
   },
 
   {
     id: "ch-do-nuoc",
     title: "Đo nước mà không cần máy móc",
-    lede: "Chiếc bút TDS — thứ gần như ai cũng mua đầu tiên — không đo được thứ quan trọng nhất. Đây là ba cách đo đúng, xếp theo chi phí.",
+    lede: "Chiếc bút TDS, thứ gần như ai cũng mua đầu tiên, không đo được thứ quan trọng nhất. Đây là ba cách đo đúng, xếp theo chi phí.",
     minutes: 8,
     tags: ["nước", "dụng cụ"],
     body: `
@@ -123,7 +123,7 @@ Alkalinity = HCO₃⁻ × <b>50/61</b> ≈ HCO₃⁻ × <b>0,82</b><br>
 
 <h3>Bút TDS đo gì</h3>
 
-<p>Bút TDS (Total Dissolved Solids) thật ra không đếm chất rắn hoà tan. Nó đo <strong>độ dẫn điện</strong> của nước, rồi nhân với một hệ số để hiển thị ra một con số mg/L <span class="tier tier-a">Bằng chứng</span>. Độ dẫn điện phụ thuộc vào tổng ion — canxi, magiê, natri, clorua, sulfate, bicarbonate, tất cả cộng lại.</p>
+<p>Bút TDS (Total Dissolved Solids) thật ra không đếm chất rắn hoà tan. Nó đo <strong>độ dẫn điện</strong> của nước, rồi nhân với một hệ số để hiển thị ra một con số mg/L <span class="tier tier-a">Bằng chứng</span>. Độ dẫn điện phụ thuộc vào tổng ion, canxi, magiê, natri, clorua, sulfate, bicarbonate, tất cả cộng lại.</p>
 
 <p>Nghĩa là: hai mẫu nước có thể cùng TDS 100 ppm nhưng có alkalinity hoàn toàn khác nhau.</p>
 
@@ -144,9 +144,9 @@ Alkalinity = HCO₃⁻ × <b>50/61</b> ≈ HCO₃⁻ × <b>0,82</b><br>
 <p>Nó hữu ích cho đúng một việc: kiểm tra xem màng lọc RO còn tốt không (nước ra phải gần 0). Ngoài ra nó không giúp gì cho việc hiểu nước pha cà phê.</p>
 </div>
 
-<h3>Cách 1 — Đọc nhãn chai (miễn phí, và nên làm trước)</h3>
+<h3>Cách 1: Đọc nhãn chai (miễn phí, và nên làm trước)</h3>
 
-<p>Nước đóng chai ở Việt Nam thường in đầy đủ thành phần trên nhãn — đó là một báo cáo phòng thí nghiệm miễn phí. Bạn cần tìm dòng <strong>Bicarbonate (HCO₃⁻)</strong>, đơn vị mg/L.</p>
+<p>Nước đóng chai ở Việt Nam thường in đầy đủ thành phần trên nhãn, đó là một báo cáo phòng thí nghiệm miễn phí. Bạn cần tìm dòng <strong>Bicarbonate (HCO₃⁻)</strong>, đơn vị mg/L.</p>
 
 <p>Nếu có, quy đổi:</p>
 
@@ -160,14 +160,14 @@ Alkalinity (ppm as CaCO₃) = HCO₃⁻ (mg/L) × 50/61<br>
 
 <div class="callout warn">
 <p class="callout-title">Nếu nhãn chỉ ghi “độ kiềm” hoặc “độ cứng”</p>
-<p>Một số nhãn ghi trực tiếp "độ kiềm" theo mg/L CaCO₃ — khi đó bạn có con số cần tìm, không cần quy đổi. Nhưng cẩn thận: "độ cứng" (hardness) là canxi + magiê, không phải alkalinity. Hai thứ khác nhau và hay bị in cạnh nhau gây nhầm.</p>
+<p>Một số nhãn ghi trực tiếp "độ kiềm" theo mg/L CaCO₃, khi đó bạn có con số cần tìm, không cần quy đổi. Nhưng cẩn thận: "độ cứng" (hardness) là canxi + magiê, không phải alkalinity. Hai thứ khác nhau và hay bị in cạnh nhau gây nhầm.</p>
 </div>
 
-<h3>Cách 2 — Bộ test KH hồ cá (thứ duy nhất đáng mua)</h3>
+<h3>Cách 2: Bộ test KH hồ cá (thứ duy nhất đáng mua)</h3>
 
 <p>Đây là cách đo trực tiếp, và nó rẻ đến mức đáng ngạc nhiên. Bộ test KH dùng cho hồ cá thuỷ sinh dùng phương pháp <strong>chuẩn độ nhỏ giọt</strong>: bạn thêm từng giọt thuốc thử vào mẫu nước, đếm số giọt đến khi dung dịch đổi màu. Số giọt chính là alkalinity.</p>
 
-<p>Nó đo đúng thứ cần đo — khả năng đệm — chứ không phải độ dẫn điện. Và nó cho kết quả trực tiếp, không cần quy đổi phức tạp.</p>
+<p>Nó đo đúng thứ cần đo, khả năng đệm, chứ không phải độ dẫn điện. Và nó cho kết quả trực tiếp, không cần quy đổi phức tạp.</p>
 
 <ul>
 <li>Bán ở tiệm cá cảnh, giá khoảng 150.000–300.000 đồng, dùng được hàng trăm lần.</li>
@@ -179,7 +179,7 @@ Alkalinity (ppm as CaCO₃) = HCO₃⁻ (mg/L) × 50/61<br>
 <table>
 <thead><tr><th>dKH</th><th>ppm as CaCO₃</th><th>Đánh giá cho cà phê</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>~18</td><td>Rất thấp — chua sắc, thiếu tròn</td></tr>
+<tr><td>1</td><td>~18</td><td>Rất thấp, chua sắc, thiếu tròn</td></tr>
 <tr><td>2</td><td>~36</td><td><strong>Gần lý tưởng</strong></td></tr>
 <tr><td>3</td><td>~54</td><td><strong>Tốt</strong></td></tr>
 <tr><td>4</td><td>~71</td><td>Chấp nhận được</td></tr>
@@ -192,17 +192,17 @@ Alkalinity (ppm as CaCO₃) = HCO₃⁻ (mg/L) × 50/61<br>
 
 <div class="callout act">
 <p class="callout-title">Mẹo tăng độ phân giải</p>
-<p>Bộ test thường có độ phân giải 1 dKH ≈ 18 ppm — hơi thô nếu bạn muốn nhắm chính xác 40 ppm. Cách khắc phục: <strong>dùng gấp đôi lượng mẫu nước</strong> (ví dụ 10 ml thay vì 5 ml) rồi chia đôi kết quả. Độ phân giải xuống còn khoảng 9 ppm, đủ để điều chỉnh.</p>
+<p>Bộ test thường có độ phân giải 1 dKH ≈ 18 ppm, hơi thô nếu bạn muốn nhắm chính xác 40 ppm. Cách khắc phục: <strong>dùng gấp đôi lượng mẫu nước</strong> (ví dụ 10 ml thay vì 5 ml) rồi chia đôi kết quả. Độ phân giải xuống còn khoảng 9 ppm, đủ để điều chỉnh.</p>
 </div>
 
-<h3>Cách 3 — Tự làm nước từ nước RO (kiểm soát hoàn toàn)</h3>
+<h3>Cách 3: Tự làm nước từ nước RO (kiểm soát hoàn toàn)</h3>
 
 <p>Nếu bạn muốn biết chính xác mình đang uống gì, cách duy nhất là bắt đầu từ nước có alkalinity bằng 0 rồi thêm khoáng chất đã biết. Đây là phương pháp mà nhiều quán specialty dùng, và nó không phức tạp như nghe.</p>
 
 <p>Nguyên tắc: bạn cần hai dung dịch mẹ (concentrate), pha loãng vào nước RO.</p>
 
 <div class="recipe">
-<div class="recipe-head">Nước cà phê tự pha — công thức cơ bản<small>Pha 2 lít nước thành phẩm</small></div>
+<div class="recipe-head">Nước cà phê tự pha, công thức cơ bản<small>Pha 2 lít nước thành phẩm</small></div>
 <div class="recipe-body">
 <div class="recipe-params">
 <span><b>Nền:</b> 2 L nước RO</span>
@@ -210,13 +210,13 @@ Alkalinity (ppm as CaCO₃) = HCO₃⁻ (mg/L) × 50/61<br>
 <span><b>HCO₃:</b> ~40 ppm</span>
 </div>
 <p><strong>Dung dịch A (khoáng):</strong> hoà 2,46 g magiê sulfate (MgSO₄·7H₂O) vào 100 ml nước RO.</p>
-<p><strong>Dung dịch B (đệm):</strong> hoà 1,68 g natri bicarbonate (NaHCO₃ — baking soda) vào 100 ml nước RO.</p>
+<p><strong>Dung dịch B (đệm):</strong> hoà 1,68 g natri bicarbonate (NaHCO₃, baking soda) vào 100 ml nước RO.</p>
 <p><strong>Thành phẩm:</strong> thêm <strong>4 ml A</strong> và <strong>3,2 ml B</strong> vào 2 lít nước RO.</p>
 <p>Chỉnh theo khẩu vị: tăng B để giảm độ chua (đệm nhiều hơn), giảm B để tăng độ sáng.</p>
 </div>
 </div>
 
-<p>Lưu ý: công thức này dùng natri thay vì canxi, và đó là lựa chọn có chủ ý — natri bicarbonate đệm acid mà không thêm vị, trong khi canxi có thể tạo cặn và ảnh hưởng đến thiết bị. Nếu bạn muốn dùng canxi, thay bằng canxi carbonate nhưng phải hoà tan bằng CO₂, phức tạp hơn nhiều.</p>
+<p>Lưu ý: công thức này dùng natri thay vì canxi, và đó là lựa chọn có chủ ý, natri bicarbonate đệm acid mà không thêm vị, trong khi canxi có thể tạo cặn và ảnh hưởng đến thiết bị. Nếu bạn muốn dùng canxi, thay bằng canxi carbonate nhưng phải hoà tan bằng CO₂, phức tạp hơn nhiều.</p>
 
 <h3>Kiểm tra nước máy</h3>
 
@@ -262,11 +262,11 @@ Alkalinity (ppm as CaCO₃) = HCO₃⁻ (mg/L) × 50/61<br>
 </table>
 </div>
 
-<p>Đây là hai sự nhầm lẫn phổ biến nhất. <strong>Độ cứng và độ kiềm là hai thứ khác nhau.</strong> Máy làm mềm xử lý độ cứng. Bạn có thể có nước đã làm mềm hoàn hảo mà alkalinity vẫn 250 ppm — và ly cà phê vẫn phẳng.</p>
+<p>Đây là hai sự nhầm lẫn phổ biến nhất. <strong>Độ cứng và độ kiềm là hai thứ khác nhau.</strong> Máy làm mềm xử lý độ cứng. Bạn có thể có nước đã làm mềm hoàn hảo mà alkalinity vẫn 250 ppm và ly cà phê vẫn phẳng.</p>
 
 <h3>Bốn cách thật sự hoạt động</h3>
 
-<h4>Cách 1 — Pha loãng với nước RO (khởi đầu ở đây)</h4>
+<h4>Cách 1: Pha loãng với nước RO (khởi đầu ở đây)</h4>
 
 <p>Đây là cách rẻ nhất, chính xác nhất, và không cần thiết bị gì. Nguyên tắc: alkalinity pha loãng tuyến tính theo tỉ lệ thể tích.</p>
 
@@ -290,26 +290,26 @@ Ví dụ: mục tiêu 50 ppm, nước khoáng 250 ppm<br>
 </table>
 </div>
 
-<p>Nước RO mua ở các cửa hàng nước tinh khiết rất rẻ — vài nghìn đồng một lít, hoặc 10.000–20.000 đồng cho bình 20 lít. Đây là khoản đầu tư có tỉ lệ lợi ích/chi phí cao nhất trong toàn bộ việc pha cà phê tại nhà.</p>
+<p>Nước RO mua ở các cửa hàng nước tinh khiết rất rẻ, vài nghìn đồng một lít, hoặc 10.000–20.000 đồng cho bình 20 lít. Đây là khoản đầu tư có tỉ lệ lợi ích/chi phí cao nhất trong toàn bộ việc pha cà phê tại nhà.</p>
 
 <div class="callout act">
 <p class="callout-title">Thực hành: pha cả bình, không pha từng ly</p>
-<p>Pha 2 lít một lần, đậy nắp, dùng trong 2–3 ngày. Hai lý do: (1) mỗi lần pha riêng có sai số khác nhau, nên bạn không bao giờ biết thay đổi nào là do nước và thay đổi nào là do tay mình; (2) nước RO không có clo nên nó không tự bảo vệ — nhưng 2–3 ngày trong bình kín là an toàn.</p>
+<p>Pha 2 lít một lần, đậy nắp, dùng trong 2–3 ngày. Hai lý do: (1) mỗi lần pha riêng có sai số khác nhau, nên bạn không bao giờ biết thay đổi nào là do nước và thay đổi nào là do tay mình; (2) nước RO không có clo nên nó không tự bảo vệ nhưng 2–3 ngày trong bình kín là an toàn.</p>
 </div>
 
-<h4>Cách 2 — Lọc RO tại nhà (đầu tư dài hạn tốt nhất)</h4>
+<h4>Cách 2: Lọc RO tại nhà (đầu tư dài hạn tốt nhất)</h4>
 
 <p>Một hệ thống RO gia đình (1,5–3 triệu đồng) cho bạn nguồn nước alkalinity ~0 ổn định. Kết hợp với cách 1 hoặc cách 3, bạn kiểm soát được nước hoàn toàn, mọi lúc.</p>
 
-<p>Điều cần kiểm tra: màng lọc có còn tốt không. Đây là lúc chiếc bút TDS phát huy tác dụng — nước ra phải gần 0. Nếu nó leo lên 30–50, màng đã yếu và bạn đang uống nước máy đã lọc một phần.</p>
+<p>Điều cần kiểm tra: màng lọc có còn tốt không. Đây là lúc chiếc bút TDS phát huy tác dụng, nước ra phải gần 0. Nếu nó leo lên 30–50, màng đã yếu và bạn đang uống nước máy đã lọc một phần.</p>
 
-<p>Lưu ý: RO loại bỏ <em>gần như mọi thứ</em>, kể cả khoáng có lợi. Vì vậy nước RO nguyên chất không phải nước pha cà phê lý tưởng — nó là <strong>nguyên liệu nền</strong>, và bạn phải thêm khoáng trở lại (cách 3) hoặc pha với nước khoáng (cách 1).</p>
+<p>Lưu ý: RO loại bỏ <em>gần như mọi thứ</em>, kể cả khoáng có lợi. Vì vậy nước RO nguyên chất không phải nước pha cà phê lý tưởng. Nó là <strong>nguyên liệu nền</strong>, và bạn phải thêm khoáng trở lại (cách 3) hoặc pha với nước khoáng (cách 1).</p>
 
-<h4>Cách 3 — Tự pha nước từ RO (kiểm soát hoàn toàn)</h4>
+<h4>Cách 3: Tự pha nước từ RO (kiểm soát hoàn toàn)</h4>
 
-<p>Đã trình bày công thức ở chương trước. Đây là cách duy nhất cho bạn biết chính xác mình đang uống gì, và là cách duy nhất để thay đổi alkalinity mà không thay đổi độ cứng (hoặc ngược lại) — vì bạn kiểm soát từng thành phần riêng.</p>
+<p>Đã trình bày công thức ở chương trước. Đây là cách duy nhất cho bạn biết chính xác mình đang uống gì, và là cách duy nhất để thay đổi alkalinity mà không thay đổi độ cứng (hoặc ngược lại), vì bạn kiểm soát từng thành phần riêng.</p>
 
-<h4>Cách 4 — Đun sôi (có tác dụng, nhưng không kiểm soát được)</h4>
+<h4>Cách 4: Đun sôi (có tác dụng, nhưng không kiểm soát được)</h4>
 
 <p>Đun sôi thật sự làm giảm alkalinity, vì canxi bicarbonate phân huỷ khi đun <span class="tier tier-a">Bằng chứng</span>:</p>
 
@@ -318,14 +318,14 @@ Ví dụ: mục tiêu 50 ppm, nước khoáng 250 ppm<br>
 Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 </div>
 
-<p>Canxi carbonate kết tủa (đó là cặn trắng trong ấm), và bicarbonate biến mất khỏi dung dịch. Vậy là alkalinity giảm — thật.</p>
+<p>Canxi carbonate kết tủa (đó là cặn trắng trong ấm), và bicarbonate biến mất khỏi dung dịch. Vậy là alkalinity giảm, thật.</p>
 
 <p>Nhưng có ba vấn đề:</p>
 
 <ul>
 <li><strong>Bạn không biết đã giảm bao nhiêu.</strong> Phụ thuộc vào nồng độ ban đầu, thời gian đun, và lượng CO₂ thoát ra. Không có đích.</li>
 <li><strong>Mất 15–20 phút</strong> cho mỗi bình, và bạn cần làm lại mỗi lần.</li>
-<li><strong>Nước sau khi đun bị khử oxy</strong> — vị "chết", hơi phẳng. Điều này ảnh hưởng đến cảm nhận.</li>
+<li><strong>Nước sau khi đun bị khử oxy</strong>: vị "chết", hơi phẳng. Điều này ảnh hưởng đến cảm nhận.</li>
 </ul>
 
 <p>Dùng khi bạn không có lựa chọn nào khác. Không phải phương pháp chính.</p>

@@ -4,7 +4,7 @@ window.BOOK_PARTS.push({
   id: "phan-7",
   roman: "VII",
   title: "Cảm nhận",
-  blurb: "Cái ly không phải là điểm kết thúc — nó là một nửa của câu chuyện",
+  blurb: "Cái ly không phải là điểm kết thúc. Nó là một nửa của câu chuyện",
   chapters: [
 
   {
@@ -14,19 +14,19 @@ window.BOOK_PARTS.push({
     minutes: 9,
     tags: ["cảm quan", "sinh lý"],
     body: `
-<p>Có một khoảng cách kỳ lạ giữa cupping và pour-over mà không kỹ thuật nào giải thích được. Bạn pha một ly đúng công thức, đúng nhiệt, đúng tỉ lệ — và nó vẫn không "mở" như khi cupping. Rồi bạn phát hiện ra nguyên nhân không nằm ở phễu. Nó nằm ở cách bạn đưa ly lên miệng.</p>
+<p>Có một khoảng cách kỳ lạ giữa cupping và pour-over mà không kỹ thuật nào giải thích được. Bạn pha một ly đúng công thức, đúng nhiệt, đúng tỉ lệ và nó vẫn không "mở" như khi cupping. Rồi bạn phát hiện ra nguyên nhân không nằm ở phễu. Nó nằm ở cách bạn đưa ly lên miệng.</p>
 
 <h3>Hai con đường của hương</h3>
 
-<p>Khi bạn ngửi, bạn dùng <strong>orthonasal olfaction</strong> — không khí đi vào qua mũi, lên cơ quan khứu giác.</p>
+<p>Khi bạn ngửi, bạn dùng <strong>orthonasal olfaction</strong>, không khí đi vào qua mũi, lên cơ quan khứu giác.</p>
 
-<p>Khi bạn ăn hoặc uống, có một con đường thứ hai: <strong>retronasal olfaction</strong>. Các hợp chất bay hơi từ thức ăn trong miệng đi ngược lên vòm họng, vào mũi từ phía sau. Não không phân biệt được hai con đường này — nó gán cả hai cho "vị".</p>
+<p>Khi bạn ăn hoặc uống, có một con đường thứ hai: <strong>retronasal olfaction</strong>. Các hợp chất bay hơi từ thức ăn trong miệng đi ngược lên vòm họng, vào mũi từ phía sau. Não không phân biệt được hai con đường này. Nó gán cả hai cho "vị".</p>
 
-<p>Và đây là điểm quan trọng: <strong>khi bạn uống, phần lớn những gì bạn gọi là "vị" thật ra là mùi, đi qua đường retronasal.</strong> Lưỡi chỉ nhận được năm vị cơ bản: ngọt, chua, mặn, đắng, umami. Mọi thứ phức tạp hơn — caramel, mơ, trà, hoa — đều là khứu giác <span class="tier tier-a">Bằng chứng</span>.</p>
+<p>Và đây là điểm quan trọng: <strong>khi bạn uống, phần lớn những gì bạn gọi là "vị" thật ra là mùi, đi qua đường retronasal.</strong> Lưỡi chỉ nhận được năm vị cơ bản: ngọt, chua, mặn, đắng, umami. Mọi thứ phức tạp hơn, caramel, mơ, trà, hoa, đều là khứu giác <span class="tier tier-a">Bằng chứng</span>.</p>
 
 <div class="callout ok">
 <p class="callout-title">Một thí nghiệm tự kiểm chứng</p>
-<p>Bịt mũi, ngậm một ngụm cà phê, và giữ mũi bịt trong khi nuốt. Bạn sẽ chỉ nếm được: hơi đắng, hơi chua, và cảm giác về độ đậm. Không có caramel, không có trái cây. Rồi mở mũi ra — toàn bộ hương ùa vào cùng lúc. Đó là bằng chứng trực tiếp rằng hương đi qua mũi, không qua lưỡi.</p>
+<p>Bịt mũi, ngậm một ngụm cà phê, và giữ mũi bịt trong khi nuốt. Bạn sẽ chỉ nếm được: hơi đắng, hơi chua, và cảm giác về độ đậm. Không có caramel, không có trái cây. Rồi mở mũi ra, toàn bộ hương ùa vào cùng lúc. Đó là bằng chứng trực tiếp rằng hương đi qua mũi, không qua lưỡi.</p>
 </div>
 
 <h3>Vì sao slurp có tác dụng</h3>
@@ -39,7 +39,7 @@ window.BOOK_PARTS.push({
 <li><strong>Trải đều lên lưỡi.</strong> Cà phê tiếp xúc với toàn bộ bề mặt lưỡi và khoang miệng, không chỉ đầu lưỡi.</li>
 </ol>
 
-<p>Nếu bạn nhấp một ngụm nhỏ và nuốt, bạn nhận được một phần nhỏ của hiệu ứng này. Đó là lý do cơ học — không phải tâm lý, không phải nghi thức.</p>
+<p>Nếu bạn nhấp một ngụm nhỏ và nuốt, bạn nhận được một phần nhỏ của hiệu ứng này. Đó là lý do cơ học, không phải tâm lý, không phải nghi thức.</p>
 
 <h3>Nhiệt độ: ba vùng, ba thông tin</h3>
 
@@ -54,30 +54,30 @@ window.BOOK_PARTS.push({
 </table>
 </div>
 
-<p>Đây là lý do kỹ thuật cupping yêu cầu nếm ở ba nhiệt độ. Không phải để "thử cho kỹ" — mà vì mỗi nhiệt độ cho bạn một thông tin mà nhiệt độ kia không cho.</p>
+<p>Đây là lý do kỹ thuật cupping yêu cầu nếm ở ba nhiệt độ. Không phải để "thử cho kỹ" mà vì mỗi nhiệt độ cho bạn một thông tin mà nhiệt độ kia không cho.</p>
 
 <div class="callout warn">
 <p class="callout-title">Vì sao cà phê nguội lại đắng hơn</p>
-<p>Không phải vì "có thêm gì được chiết ra" — quá trình chiết đã kết thúc. Mà vì hai lý do: (1) hợp chất bay hơi đã thoát, nên phần còn lại (đắng, chua, chát) chiếm tỉ trọng lớn hơn trong cảm nhận; (2) một số thụ thể vị đắng nhạy hơn ở nhiệt độ thấp hơn. Đây là sinh lý học, không phải hóa học.</p>
+<p>Không phải vì "có thêm gì được chiết ra", quá trình chiết đã kết thúc. Mà vì hai lý do: (1) hợp chất bay hơi đã thoát, nên phần còn lại (đắng, chua, chát) chiếm tỉ trọng lớn hơn trong cảm nhận; (2) một số thụ thể vị đắng nhạy hơn ở nhiệt độ thấp hơn. Đây là sinh lý học, không phải hóa học.</p>
 </div>
 
 <h3>Ba lớp của một ngụm</h3>
 
 <p>Khi bạn nếm, hãy tách cảm giác thành ba lớp theo thời gian:</p>
 
-<h4>Lớp 1 — 0 đến 1 giây: tấn công</h4>
+<h4>Lớp 1 (0 đến 1 giây): tấn công</h4>
 
 <p>Ấn tượng đầu tiên. Thường là acid hoặc hương phía trước. Đây là lúc bạn nhận ra "quen hay lạ".</p>
 
 <p>Câu hỏi: <em>Tươi hay chín?</em> (Acid sáng so với ngọt nặng.)</p>
 
-<h4>Lớp 2 — 1 đến 3 giây: giữa miệng</h4>
+<h4>Lớp 2 (1 đến 3 giây): giữa miệng</h4>
 
 <p>Độ đầy, độ dày, kết cấu. Đây là nơi bạn cảm nhận body và độ cân bằng.</p>
 
 <p>Câu hỏi: <em>Đầy hay loãng? Có gì lấn át không?</em></p>
 
-<h4>Lớp 3 — sau khi nuốt: hậu vị</h4>
+<h4>Lớp 3 (sau khi nuốt): hậu vị</h4>
 
 <p>Đây là lớp quan trọng nhất và bị bỏ qua nhiều nhất. Nuốt, đợi 30 giây, rồi chú ý.</p>
 
@@ -85,7 +85,7 @@ window.BOOK_PARTS.push({
 
 <div class="callout act">
 <p class="callout-title">Bài tập 30 giây</p>
-<p>Uống một ngụm. Nuốt. Đặt ly xuống. Đếm đến 30 trong đầu, không uống thêm. Rồi trả lời: miệng bạn còn vị gì? Đó là hậu vị. Nếu câu trả lời là "không còn gì" — ly cà mỏng, hoặc chiết thiếu. Nếu là "vẫn còn đắng" — chiết dư hoặc bản chất hạt.</p>
+<p>Uống một ngụm. Nuốt. Đặt ly xuống. Đếm đến 30 trong đầu, không uống thêm. Rồi trả lời: miệng bạn còn vị gì? Đó là hậu vị. Nếu câu trả lời là "không còn gì", ly cà mỏng, hoặc chiết thiếu. Nếu là "vẫn còn đắng", chiết dư hoặc bản chất hạt.</p>
 </div>
 
 <h3>Xúc giác: lớp bị bỏ quên</h3>
@@ -99,15 +99,15 @@ window.BOOK_PARTS.push({
 <li><strong>Khô miệng:</strong> sau khi nuốt, miệng khô hay ẩm? Khô là dấu hiệu của tannin và hợp chất se.</li>
 </ul>
 
-<p>Body là một trong sáu mục của thang SCA, và nó là mục khó cải thiện nhất bằng kỹ thuật — chủ yếu do hạt và cách sơ chế quyết định (natural cho body cao hơn washed, Robusta cao hơn Arabica).</p>
+<p>Body là một trong sáu mục của thang SCA, và nó là mục khó cải thiện nhất bằng kỹ thuật, chủ yếu do hạt và cách sơ chế quyết định (natural cho body cao hơn washed, Robusta cao hơn Arabica).</p>
 
 <h3>Về cái gọi là “vị”</h3>
 
-<p>Có một điều cần nói rõ, vì nó giải thích nhiều nhầm lẫn: <strong>cà phê không "có vị mơ"</strong>. Không có phân tử mơ nào trong cà phê. Cái bạn gọi là "mơ" là một tổ hợp hợp chất bay hơi mà não bạn đã học cách liên kết với quả mơ — qua kinh nghiệm ăn mơ.</p>
+<p>Có một điều cần nói rõ, vì nó giải thích nhiều nhầm lẫn: <strong>cà phê không "có vị mơ"</strong>. Không có phân tử mơ nào trong cà phê. Cái bạn gọi là "mơ" là một tổ hợp hợp chất bay hơi mà não bạn đã học cách liên kết với quả mơ, qua kinh nghiệm ăn mơ.</p>
 
 <p>Điều này có hai hệ quả:</p>
 <ul>
-<li><strong>Hai người có thể nếm hai thứ khác nhau</strong> từ cùng một ly, và cả hai đều đúng — vì liên kết của họ khác nhau.</li>
+<li><strong>Hai người có thể nếm hai thứ khác nhau</strong> từ cùng một ly, và cả hai đều đúng, vì liên kết của họ khác nhau.</li>
 <li><strong>Bạn có thể học để nếm tốt hơn.</strong> Không phải bằng cách học thuộc từ vựng, mà bằng cách mở rộng kho liên kết: ăn nhiều loại trái cây, uống nhiều loại trà, chú ý đến mùi trong đời sống hàng ngày.</li>
 </ul>
 
@@ -115,7 +115,7 @@ window.BOOK_PARTS.push({
 
 <h3>Một lưu ý về mệt mỏi vị giác</h3>
 
-<p>Vị giác của bạn suy giảm trong một buổi nếm. Sau ba hoặc bốn ly, bạn bắt đầu mất độ nhạy — đặc biệt với vị đắng và vị chua. Đây là lý do các buổi cupping chuyên nghiệp có giới hạn số mẫu, và có nước lọc, bánh quy nhạt để "reset".</p>
+<p>Vị giác của bạn suy giảm trong một buổi nếm. Sau ba hoặc bốn ly, bạn bắt đầu mất độ nhạy, đặc biệt với vị đắng và vị chua. Đây là lý do các buổi cupping chuyên nghiệp có giới hạn số mẫu, và có nước lọc, bánh quy nhạt để "reset".</p>
 
 <p>Với việc pha tại nhà: nếu bạn đang thử nghiệm và so sánh, hãy làm vào buổi sáng, trước khi ăn, và giới hạn ở ba ly. Sau ba ly, bạn sẽ bắt đầu đoán thay vì nếm.</p>
 `
@@ -134,7 +134,7 @@ window.BOOK_PARTS.push({
 
 <h3>Nốt hương là một phép ẩn dụ, không phải một thành phần</h3>
 
-<p>Không có phân tử mơ trong cà phê. Không có phân tử hoa nhài. Cái gọi là "mơ" là một tổ hợp các hợp chất bay hơi — ester, lactone, aldehyde — mà não bạn đã học cách liên kết với quả mơ.</p>
+<p>Không có phân tử mơ trong cà phê. Không có phân tử hoa nhài. Cái gọi là "mơ" là một tổ hợp các hợp chất bay hơi, ester, lactone, aldehyde mà não bạn đã học cách liên kết với quả mơ.</p>
 
 <p>Nghĩa là: <strong>"mơ" là một liên kết thần kinh, không phải một phép đo.</strong> Và liên kết đó phụ thuộc vào việc bạn đã ăn mơ chín bao nhiêu lần, mơ loại nào, ở đâu.</p>
 
@@ -142,29 +142,29 @@ window.BOOK_PARTS.push({
 
 <h3>Ba cái bẫy</h3>
 
-<h4>Bẫy 1 — ảnh hưởng của thông tin</h4>
+<h4>Bẫy 1: ảnh hưởng của thông tin</h4>
 
 <p>Đây là bẫy có bằng chứng rõ ràng nhất. Trong nghiên cứu cảm quan, khi người thử được cho biết thông tin về xuất xứ và cách chế biến, đánh giá của họ thay đổi theo hướng phù hợp với kỳ vọng <span class="tier tier-a">Bằng chứng</span>.</p>
 
-<p>Nghĩa là: nếu bao bì ghi "mơ", bạn có nhiều khả năng tìm thấy mơ hơn — kể cả khi nó không có ở đó, hoặc có ở mức bạn sẽ không nhận ra nếu không được gợi ý.</p>
+<p>Nghĩa là: nếu bao bì ghi "mơ", bạn có nhiều khả năng tìm thấy mơ hơn, kể cả khi nó không có ở đó, hoặc có ở mức bạn sẽ không nhận ra nếu không được gợi ý.</p>
 
 <p>Đây không phải là bạn bị lừa. Đây là cách não hoạt động: vị giác không tách rời khỏi hiểu biết.</p>
 
-<h4>Bẫy 2 — từ vựng đi trước cảm giác</h4>
+<h4>Bẫy 2: từ vựng đi trước cảm giác</h4>
 
 <p>Khi bạn học một từ mới ("bergamot", "quả lý chua đen"), bạn bắt đầu tìm thấy nó ở mọi nơi. Không phải vì nó xuất hiện nhiều hơn, mà vì bạn có một nhãn để gắn vào một cảm giác mà trước đây bạn bỏ qua.</p>
 
 <p>Điều này đúng theo cả hai chiều: nó làm bạn nhạy hơn (tốt), nhưng nó cũng làm bạn <strong>gán nhãn quá mức</strong> (xấu). Bạn bắt đầu nếm bằng từ vựng thay vì bằng lưỡi.</p>
 
-<h4>Bẫy 3 — bảng hương vị như một danh sách cần hoàn thành</h4>
+<h4>Bẫy 3: bảng hương vị như một danh sách cần hoàn thành</h4>
 
 <p>Bảng hương vị (flavor wheel) của SCA có hàng trăm mục. Người mới thường dùng nó như một danh sách kiểm tra: "tôi có nếm được bao nhiêu mục?"</p>
 
-<p>Đó là cách dùng sai. Bảng hương vị được thiết kế để <strong>giao tiếp</strong> — để hai người có thể trao đổi về một ly cà mà không cần ở cùng một chỗ. Nó không được thiết kế để nếm <span class="tier tier-a">Bằng chứng <b class="cite">· 14</b></span>.</p>
+<p>Đó là cách dùng sai. Bảng hương vị được thiết kế để <strong>giao tiếp</strong>, để hai người có thể trao đổi về một ly cà mà không cần ở cùng một chỗ. Nó không được thiết kế để nếm <span class="tier tier-a">Bằng chứng <b class="cite">· 14</b></span>.</p>
 
 <div class="callout ok">
 <p class="callout-title">Cách dùng đúng</p>
-<p>Nếm trước, không có từ vựng. Ghi lại bằng ngôn ngữ của bạn — "giống cái bánh quy hạnh nhân mẹ mình làm", "giống vỏ cam khô". Sau đó, nếu bạn muốn, mới tra bảng để tìm từ chuẩn. Theo thứ tự đó, không phải ngược lại.</p>
+<p>Nếm trước, không có từ vựng. Ghi lại bằng ngôn ngữ của bạn, "giống cái bánh quy hạnh nhân mẹ mình làm", "giống vỏ cam khô". Sau đó, nếu bạn muốn, mới tra bảng để tìm từ chuẩn. Theo thứ tự đó, không phải ngược lại.</p>
 </div>
 
 <h3>Vậy tại sao người ta vẫn dùng nốt hương</h3>
@@ -179,14 +179,14 @@ window.BOOK_PARTS.push({
 
 <p>Nhưng không có việc nào trong ba việc này là "đo độ ngon". Chúng là công cụ, không phải thước đo.</p>
 
-<h3>Vì sao mô tả trên bao bì thường đúng — và thường sai</h3>
+<h3>Vì sao mô tả trên bao bì thường đúng, và thường sai</h3>
 
-<p>Nhà rang mô tả nốt hương dựa trên cupping của họ, thường với nhiều người chấm. Nên mô tả đó thường <em>không sai</em> — nó chỉ là <strong>mô tả của một nhóm người cụ thể, trong một điều kiện cụ thể</strong>.</p>
+<p>Nhà rang mô tả nốt hương dựa trên cupping của họ, thường với nhiều người chấm. Nên mô tả đó thường <em>không sai</em>. Nó chỉ là <strong>mô tả của một nhóm người cụ thể, trong một điều kiện cụ thể</strong>.</p>
 
 <p>Ba lý do mô tả không khớp với trải nghiệm của bạn:</p>
 
 <ul>
-<li><strong>Nước của bạn khác.</strong> Nếu alkalinity của bạn cao, acid trái cây bị trung hoà — và nốt "mơ" biến mất trước mọi nốt khác. Đây là nguyên nhân phổ biến nhất.</li>
+<li><strong>Nước của bạn khác.</strong> Nếu alkalinity của bạn cao, acid trái cây bị trung hoà và nốt "mơ" biến mất trước mọi nốt khác. Đây là nguyên nhân phổ biến nhất.</li>
 <li><strong>Cách pha của bạn khác.</strong> Cupping cho hương rõ hơn pour-over. Nốt hương trên bao bì thường được ghi từ cupping, không từ pour-over.</li>
 <li><strong>Kho liên kết của bạn khác.</strong> Nếu bạn chưa ăn quả lý chua đen, bạn sẽ không tìm thấy nó.</li>
 </ul>
@@ -198,7 +198,7 @@ window.BOOK_PARTS.push({
 
 <h3>Cách nói về một ly cà mà không cần từ vựng hương</h3>
 
-<p>Nếu bạn không muốn học ba trăm từ, đây là một bộ từ vựng tối thiểu — bốn trục, mỗi trục hai cực:</p>
+<p>Nếu bạn không muốn học ba trăm từ, đây là một bộ từ vựng tối thiểu, bốn trục, mỗi trục hai cực:</p>
 
 <div class="table-wrap">
 <table>
@@ -218,7 +218,7 @@ window.BOOK_PARTS.push({
 
 <h3>Một điều nên buông</h3>
 
-<p>Nếu bạn không nếm được nốt hương mà bao bì ghi, và ly cà vẫn ngon — bạn không thiếu gì cả. Bạn đang uống cà phê, không đang làm bài kiểm tra.</p>
+<p>Nếu bạn không nếm được nốt hương mà bao bì ghi, và ly cà vẫn ngon. Bạn không thiếu gì cả. Bạn đang uống cà phê, không đang làm bài kiểm tra.</p>
 
 <p>Nốt hương là một kỹ năng thú vị để phát triển, nhưng nó không phải điều kiện để thưởng thức. Rất nhiều người uống cà phê ngon trong bốn mươi năm mà không bao giờ nói "bergamot".</p>
 `
@@ -237,9 +237,9 @@ window.BOOK_PARTS.push({
 
 <h3>Vì sao tự hỏi không hiệu quả</h3>
 
-<p>Khi bạn tự hỏi "mình thích cà phê gì", bạn đang hỏi một hệ thống không có quyền truy cập vào câu trả lời. Sở thích không phải một sự thật được lưu trữ trong đầu bạn — nó là một <em>mẫu</em> trong hành vi của bạn, và bạn chỉ thấy nó khi nhìn từ bên ngoài.</p>
+<p>Khi bạn tự hỏi "mình thích cà phê gì", bạn đang hỏi một hệ thống không có quyền truy cập vào câu trả lời. Sở thích không phải một sự thật được lưu trữ trong đầu bạn. Nó là một <em>mẫu</em> trong hành vi của bạn, và bạn chỉ thấy nó khi nhìn từ bên ngoài.</p>
 
-<p>Thêm vào đó, câu trả lời của bạn bị ảnh hưởng bởi những gì bạn <em>nghĩ</em> mình nên thích. Nếu bạn đã đọc nhiều về cà phê Ethiopia, bạn sẽ nói mình thích hương hoa — kể cả khi bạn thật sự thích một ly rang đậm.</p>
+<p>Thêm vào đó, câu trả lời của bạn bị ảnh hưởng bởi những gì bạn <em>nghĩ</em> mình nên thích. Nếu bạn đã đọc nhiều về cà phê Ethiopia, bạn sẽ nói mình thích hương hoa, kể cả khi bạn thật sự thích một ly rang đậm.</p>
 
 <h3>Ba lần chọn</h3>
 
@@ -253,7 +253,7 @@ window.BOOK_PARTS.push({
 
 <div class="callout ok">
 <p class="callout-title">Vì sao so sánh tốt hơn chấm điểm</p>
-<p>Chấm điểm ("ly này 7/10") đòi hỏi bạn có một thang đo ổn định — và bạn không có. So sánh ("ly này hơn ly kia") chỉ đòi hỏi một phán đoán tương đối, thứ mà con người làm rất tốt. Đó là lý do các bài kiểm tra cảm quan chuyên nghiệp dùng so sánh cặp đôi.</p>
+<p>Chấm điểm ("ly này 7/10") đòi hỏi bạn có một thang đo ổn định và bạn không có. So sánh ("ly này hơn ly kia") chỉ đòi hỏi một phán đoán tương đối, thứ mà con người làm rất tốt. Đó là lý do các bài kiểm tra cảm quan chuyên nghiệp dùng so sánh cặp đôi.</p>
 </div>
 
 <h3>Bốn trục khẩu vị</h3>
@@ -276,15 +276,15 @@ window.BOOK_PARTS.push({
 
 <h3>Điều quan trọng: khẩu vị thay đổi</h3>
 
-<p>Sở thích của bạn sẽ thay đổi — thường theo một hướng khá dự đoán được. Người mới thường bắt đầu với rang trung–đậm, ngọt, ít acid. Sau vài tháng, họ thường chuyển dần sang rang sáng hơn và acid rõ hơn. Đây là hiện tượng phổ biến đến mức nó gần như là một quy luật.</p>
+<p>Sở thích của bạn sẽ thay đổi, thường theo một hướng khá dự đoán được. Người mới thường bắt đầu với rang trung–đậm, ngọt, ít acid. Sau vài tháng, họ thường chuyển dần sang rang sáng hơn và acid rõ hơn. Đây là hiện tượng phổ biến đến mức nó gần như là một quy luật.</p>
 
-<p>Lý do: khi bạn quen với vị nền (đắng, rang), bạn bắt đầu nhận ra những khác biệt nhỏ hơn — và những khác biệt đó nằm ở phía acid. Giống như khi bạn học uống trà: ban đầu bạn thích trà ngọt, sau đó bạn thích trà không đường.</p>
+<p>Lý do: khi bạn quen với vị nền (đắng, rang), bạn bắt đầu nhận ra những khác biệt nhỏ hơn và những khác biệt đó nằm ở phía acid. Giống như khi bạn học uống trà: ban đầu bạn thích trà ngọt, sau đó bạn thích trà không đường.</p>
 
 <p>Nên: <strong>đừng coi khẩu vị hiện tại của bạn là khẩu vị vĩnh viễn.</strong> Và đừng mua mười bao cà giống nhau vì "đó là gu của mình".</p>
 
 <h3>Nếm mù: công cụ mạnh nhất</h3>
 
-<p>Nếm mù (không biết mình đang nếm gì) là cách duy nhất để biết sở thích thật — vì thông tin trên bao bì ảnh hưởng đến những gì bạn nếm <span class="tier tier-a">Bằng chứng</span>.</p>
+<p>Nếm mù (không biết mình đang nếm gì) là cách duy nhất để biết sở thích thật, vì thông tin trên bao bì ảnh hưởng đến những gì bạn nếm <span class="tier tier-a">Bằng chứng</span>.</p>
 
 <p>Cách làm đơn giản:</p>
 <ol>
@@ -297,7 +297,7 @@ window.BOOK_PARTS.push({
 
 <div class="callout act">
 <p class="callout-title">Kết quả thường gặp</p>
-<p>Rất nhiều người, khi nếm mù, chọn con cà <em>rẻ hơn</em>. Điều này không có nghĩa là cà đắt không đáng tiền — nó có nghĩa là <strong>giá và độ phù hợp với khẩu vị cá nhân là hai chuyện khác nhau</strong>. Biết điều này tiết kiệm cho bạn rất nhiều tiền.</p>
+<p>Rất nhiều người, khi nếm mù, chọn con cà <em>rẻ hơn</em>. Điều này không có nghĩa là cà đắt không đáng tiền. Nó có nghĩa là <strong>giá và độ phù hợp với khẩu vị cá nhân là hai chuyện khác nhau</strong>. Biết điều này tiết kiệm cho bạn rất nhiều tiền.</p>
 </div>
 
 <h3>Một cuốn sổ, ba cột</h3>
@@ -321,7 +321,7 @@ window.BOOK_PARTS.push({
 
 <p>Có một áp lực ngầm trong cộng đồng cà phê specialty: rằng bạn phải có một "gu", phải biết mô tả, phải chọn được nốt hương. Đó là một tiêu chuẩn của người làm nghề, không phải của người uống.</p>
 
-<p>Nếu bạn thích một ly cà vì nó "dễ chịu" và không biết tại sao — đó là một phản ứng hoàn toàn hợp lệ. Và nếu bạn thích một con cà 82 điểm hơn một con 89 điểm, bạn không sai. Bạn chỉ có một khẩu vị khác với nhóm người chấm.</p>
+<p>Nếu bạn thích một ly cà vì nó "dễ chịu" và không biết tại sao, đó là một phản ứng hoàn toàn hợp lệ. Và nếu bạn thích một con cà 82 điểm hơn một con 89 điểm, bạn không sai. Bạn chỉ có một khẩu vị khác với nhóm người chấm.</p>
 
 <div class="pull">Mục tiêu không phải là nếm giỏi hơn.<br>Là <em>uống vui hơn</em>.</div>
 `
