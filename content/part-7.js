@@ -43,7 +43,7 @@ window.BOOK_PARTS.push({
 
 <h3>Nhiệt độ: ba vùng, ba thông tin</h3>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là thang nhiệt độ, và mỗi mức dùng để làm gì. Ở 70 đến 80 °C: hương mạnh nhất, vị đắng bị che một phần, dùng để nhận diện hương. Ở 55 đến 65 °C: hương vẫn rõ, vị cân bằng nhất, dùng để thưởng thức. Ở 35 đến 45 °C: hương yếu và các nốt nặng hơn, đắng, chua, chát rõ nhất, dùng để chẩn đoán lỗi.">
 <table>
 <thead><tr><th>Nhiệt độ</th><th>Hương</th><th>Vị</th><th>Dùng để</th></tr></thead>
 <tbody>
@@ -200,7 +200,7 @@ window.BOOK_PARTS.push({
 
 <p>Nếu bạn không muốn học ba trăm từ, đây là một bộ từ vựng tối thiểu — bốn trục, mỗi trục hai cực:</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là bốn trục khẩu vị, mỗi trục hai cực. Độ sáng: cực A là tươi, sáng, có acid; cực B là chín, nặng, ít acid. Độ đầy: A là đầy, tròn, có body; B là mỏng, nhẹ, như trà. Hướng hương: A là hướng rang, tức caramel, hạt, bánh; B là hướng origin, tức trái cây, hoa, trà. Hậu vị: A là sạch, ngắn, dễ chịu; B là nặng, dài, đắng hoặc khô.">
 <table>
 <thead><tr><th>Trục</th><th>Cực A</th><th>Cực B</th></tr></thead>
 <tbody>
@@ -260,7 +260,7 @@ window.BOOK_PARTS.push({
 
 <p>Sau khi bạn có một chuỗi lựa chọn, hãy đọc nó theo bốn trục (từ chương 25):</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này cùng bốn trục, nhưng là lời khuyên mua theo cực bạn nghiêng về. Về độ sáng: nếu bạn thích rang sáng, washed, acid rõ thì thử Ethiopia, Kenya; nếu thích rang trung đến đậm, natural, body thì thử Brazil, Colombia hoặc pha trộn. Về độ đầy: thích ly tròn, nặng thì dùng immersion, natural, rang trung; thích ly nhẹ, sạch thì dùng V60, rang sáng, washed. Về hướng hương: thích caramel, chocolate, hạt thì chọn rang trung đến đậm; thích trái cây, hoa, trà thì chọn rang sáng. Về hậu vị: thích sạch, ngắn thì washed và rang sáng; thích dài, nặng thì natural, rang đậm hơn, hoặc pha trộn Robusta.">
 <table>
 <thead><tr><th>Trục</th><th>Nếu bạn nghiêng về cực A</th><th>Nếu bạn nghiêng về cực B</th></tr></thead>
 <tbody>
@@ -304,7 +304,7 @@ window.BOOK_PARTS.push({
 
 <p>Bạn không cần một hệ thống phức tạp. Ba cột là đủ:</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Tiếp theo là một trang nhật ký để bạn tự ghi — ngày, tên cà kèm vùng và mức rang, và một câu về cái bạn thích và không thích. Không có gì để đọc.">
 <table class="tbl-tight">
 <thead><tr><th>Ngày</th><th>Cà (tên / vùng / rang)</th><th>Một câu: thích gì, không thích gì</th></tr></thead>
 <tbody>

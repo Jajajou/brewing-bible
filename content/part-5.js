@@ -40,7 +40,7 @@ window.BOOK_PARTS.push({
 <li><strong>Nhiệt tụt.</strong> Dòng chảy mỏng mất nhiệt nhanh. Ly cà có thể thấp hơn 5–8 °C so với nước bạn rót.</li>
 </ul>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này so hai cách chiết: immersion và percolation. Tính cách ly cà: immersion cho ly tròn, nặng, đều và tha thứ; percolation cho ly sáng, tách bạch và có thể sắc. Rủi ro chính: immersion chiết thiếu nếu thời gian ngắn; percolation thì channeling và chiết không đều. Độ khó phá hỏng: immersion cao, percolation thấp. Kiểm soát: immersion chỉ thời gian và nhiệt; percolation thêm tốc độ rót và hình học. Hợp với: immersion hợp rang sáng, cà khó chiết và người mới; percolation hợp rang sáng đến trung, cà chất lượng cao và người muốn kiểm soát.">
 <table>
 <thead><tr><th></th><th>Immersion</th><th>Percolation</th></tr></thead>
 <tbody>
@@ -120,7 +120,7 @@ window.BOOK_PARTS.push({
 
 <h3>So sánh các lựa chọn phổ biến</h3>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là bảy dụng cụ, nghe lần lượt từng cái. Hario V60: percolation hình nón, ly sáng, tách bạch, nhiều hương; ít tha thứ, hợp người có kinh nghiệm với cà chất lượng cao. Hario Switch: chạy được cả hai kiểu nên tính cách tuỳ bạn, từ tròn đến sáng; rất tha thứ và hợp với hầu hết mọi người. Kalita Wave: percolation đáy phẳng, ly tròn, đều, ít lỗi; tha thứ, hợp người mới và cà rang trung. Chemex: percolation chậm, ly trong, sạch, nhẹ; độ tha thứ trung bình, hợp cà rang sáng khi pha nhiều. Origami: percolation, dùng được giấy nón hoặc phẳng, ly sáng và linh hoạt; ít đến trung bình tha thứ, hợp người thích thử nghiệm. French press: immersion, ly nặng, tròn, nhiều dầu; rất tha thứ, hợp cà rang đậm và người mới. AeroPress: immersion cộng áp lực, ly đậm, linh hoạt, nhanh; tha thứ cao, hợp pha một người, pha nhanh và đi du lịch.">
 <table>
 <thead><tr><th>Dụng cụ</th><th>Cơ chế</th><th>Tính cách</th><th>Tha thứ?</th><th>Hợp với</th></tr></thead>
 <tbody>
@@ -198,7 +198,7 @@ window.BOOK_PARTS.push({
 
 <p>Khoảng cách từ vòi ấm đến mặt bã. Đây là biến số bị đánh giá thấp nhất.</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là thang độ cao vòi rót. Ở 2 đến 4 cm, dòng nước chạm nhẹ, ít xáo trộn: chiết đều, ít fines di chuyển, an toàn. Ở 5 đến 8 cm, xáo trộn vừa: cân bằng, và đây là vùng phổ biến của các công thức hiện đại. Ở 10 đến 15 cm, dòng nước có vận tốc và đâm vào bã: khoét hố ở giữa, bắn bã lên thành, đẩy fines xuống đáy. Trên 15 cm thì rất khó kiểm soát, và gần như chắc chắn channeling.">
 <table>
 <thead><tr><th>Độ cao</th><th>Chuyện gì xảy ra</th><th>Hệ quả</th></tr></thead>
 <tbody>
@@ -238,7 +238,7 @@ window.BOOK_PARTS.push({
 
 <p>Bạn rót thành hình gì trên mặt bã.</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là bốn kiểu rót. Center pour, rót một điểm giữa: đơn giản, dễ làm, nhưng khoét hố giữa và rìa không được chiết — đây là lỗi phổ biến nhất. Spiral, xoáy ốc từ giữa ra: đều và kiểm soát được, nhưng cần luyện tay. Rót từ ngoài vào trong: đẩy bã từ rìa vào giữa, ngăn bã khô, nhưng có thể dồn bã vào giữa quá mức. Rót từ trong ra ngoài: bắt đầu ở giữa rồi mở rộng dần, nhưng có thể để bã ở giữa bị xói.">
 <table>
 <thead><tr><th>Pattern</th><th>Đặc điểm</th><th>Vấn đề</th></tr></thead>
 <tbody>
@@ -282,7 +282,7 @@ window.BOOK_PARTS.push({
 
 <h3>Tổng hợp: một quy trình rót tối thiểu</h3>
 
-<div class="recipe">
+<div class="recipe" data-audio="Quy trình rót cơ bản cho V60, hoặc Switch mở van. Đây là khung, không phải công thức cố định. Tham số: 15 gam cà, 240 đến 255 gam nước, 92 đến 94 °C, tổng 2 phút 30 đến 3 phút. Bước một, bloom, ba lần khối lượng cà: 45 gam nước với 15 gam cà, rót đều, xoay nhẹ cả phễu, đợi 40 giây, mục đích là đuổi CO₂. Bước hai, rót lên khoảng 60 phần trăm tổng: xoáy ốc từ trong ra, cao 3 đến 5 cm, tốc độ 5 đến 7 gam mỗi giây, dừng khi đạt khoảng 150 gam. Bước ba, nghỉ ngắn: đợi đến khi mực nước còn khoảng 5 mm trên mặt bã, không để khô. Bước bốn, rót lên tổng: cùng pattern, cùng tốc độ, đến 240 hoặc 255 gam. Bước năm, xoay và rút: xoay nhẹ phễu một lần để làm phẳng bã, rồi để rút hết.">
 <div class="recipe-head">Quy trình rót cơ bản (V60 hoặc Switch mở van)<small>Đây là khung, không phải công thức cố định</small></div>
 <div class="recipe-body">
 <div class="recipe-params">
@@ -365,7 +365,7 @@ window.BOOK_PARTS.push({
 
 <h3>Bảng so sánh</h3>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là năm ý tưởng rót, mỗi ý trả lời một câu hỏi và có một rủi ro. Nhiều lần rót nhỏ trả lời câu làm sao để ổn định, đổi lại ít hương cao và nhiều công đoạn. Một hai lần rót lớn trả lời câu làm sao chiết sâu mà không đắng, nhưng rất nhạy với cỡ xay. Chia 40 trên 60 trả lời câu làm sao điều chỉnh có hệ thống, nhưng mô hình không có nền hoá học. Ngâm rồi xả trả lời câu làm sao cho tha thứ, nhưng ít hương cao và có thể nghẹt. Mịn cộng nhanh trả lời câu làm sao khai thác tối đa, nhưng cửa sổ hẹp và dễ hỏng.">
 <table>
 <thead><tr><th>Ý tưởng</th><th>Câu trả lời cho câu hỏi</th><th>Rủi ro chính</th></tr></thead>
 <tbody>
@@ -422,7 +422,7 @@ window.BOOK_PARTS.push({
 
 <p>Đọc bảng theo hàng ngang, và để mắt ở cột cuối. Cột đó là chỗ duy nhất cho biết công thức <em>làm gì</em>, thay vì <em>dùng bao nhiêu</em>. Cột liều : nước tính bằng gam.</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Đây là sáu công thức vô địch, từ 2021 đến 2026 — loại bảng nên xem bằng mắt, nên chỉ nghe hai dòng và ba xu hướng. Dòng 2021, Matt Winton, Thuỵ Sĩ: nón kim loại, 20 gam cà với 300 gam nước, dùng hai ấm với ấm phụ thấp hơn vài độ, xay Kinu 3.6 hoặc C40 khoảng 30 click, và rót 50 gam bloom trong 35 giây, rồi 70 gam, rồi ba lần 60 gam, không để bã khô. Dòng 2024, Martin Wölfl, Áo: OREA V4 với giấy Sibarist FAST, 17 gam với 270 gam nước, 93 độ, xay khoảng 490 micromet, và bốn lần rót với lần đầu là bloom. Ba xu hướng gộp lại: liều 14 đến 20 gam cho 200 đến 300 gam nước; nhiệt ngày càng cao, có công thức lên tới 96 độ; và cấu trúc rót ngày càng chia nhỏ.">
 <table>
 <thead><tr><th>Năm · vô địch</th><th>Dụng cụ</th><th>Liều : nước</th><th>Nhiệt</th><th>Cỡ xay</th><th>Cấu trúc rót</th></tr></thead>
 <tbody>
@@ -482,7 +482,7 @@ window.BOOK_PARTS.push({
 
 <h3>Chép gì, bỏ gì</h3>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này xét từng thành phần của một công thức vô địch: chép được hay không, và vì sao. Tỉ lệ và liều thì chép được, chỉnh theo dụng cụ, vì nó là hình học bã chứ không phải khẩu vị. Cấu trúc rót chép được như một khung, nhưng vẫn phải đổi theo con cà. Số lần rót thì không cần chép, vì hai đến năm lần đều đã thắng. Cỡ xay thì không, vì số click chỉ có nghĩa trên máy đó. Nhiệt theo tầng thì thử được nhưng đừng kỳ vọng nhiều, vì tác dụng phần lớn đến từ mức chiết. Dụng cụ và giấy chép được nếu cùng loại, vì giấy nhanh đổi thời gian rút thật. Cà và nước thì không, vì mỗi lô mỗi khác và nước dựng riêng.">
 <table>
 <thead><tr><th>Thành phần</th><th>Chép được không</th><th>Vì sao</th></tr></thead>
 <tbody>
@@ -531,7 +531,7 @@ window.BOOK_PARTS.push({
 
 <h4>1. Hình dạng bề mặt</h4>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này đọc hình dạng bã thành việc cần làm. Bã phẳng, đều, hơi lõm nhẹ ở giữa: chiết đều, đây là mục tiêu, không đổi gì. Hố sâu ở giữa như miệng núi lửa: channeling từ một dòng rót giữa — hạ độ cao, đổi sang xoáy ốc. Bã dồn thành vòng ở rìa, giữa trống: nước chảy dọc thành giấy chứ không qua bã — đừng rót sát thành, xoay phễu. Bề mặt gồ ghề, có vết nứt: bã bị khô giữa các lần rót — rót lần sau sớm hơn. Bã nghiêng về một bên: phễu không cân hoặc bạn rót lệch — đặt lại phễu và rót đối xứng.">
 <table>
 <thead><tr><th>Bạn thấy</th><th>Nghĩa là</th><th>Làm gì</th></tr></thead>
 <tbody>
@@ -563,7 +563,7 @@ window.BOOK_PARTS.push({
 
 <p>Đây là con số chẩn đoán hữu ích nhất, và bạn có thể đo bằng đồng hồ.</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là thang thời gian rút sau lần rót cuối. Dưới 30 giây: xay quá thô, hoặc channeling nặng vì nước thoát qua đường tắt. 30 đến 60 giây: bình thường với hầu hết công thức. 60 đến 90 giây: hơi chậm — có thể xay hơi mịn, hoặc nhiều fines. Trên 90 giây: nghẹt, cần xay thô hơn hoặc giảm khuấy.">
 <table>
 <thead><tr><th>Thời gian rút (sau lần rót cuối)</th><th>Nghĩa là</th></tr></thead>
 <tbody>
@@ -630,7 +630,7 @@ window.BOOK_PARTS.push({
 
 <h3>Bảng chính</h3>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là mười hai triệu chứng, nhưng chỉ năm cái đầu là thường gặp nhất. Ly loãng, không có gì, như nước trà: nồng độ thấp — chỉnh tỉ lệ trước, rồi xay mịn hơn. Chua xanh, rau cỏ, ngũ cốc sống: chiết thiếu — xay mịn hơn, rồi tăng nhiệt 1 đến 2 độ. Đắng, khô miệng, chát: chiết dư — xay thô hơn, rồi hạ nhiệt 1 đến 2 độ. Vừa chua vừa đắng, không nốt rõ: chiết không đều — hạ độ cao và rót xoáy ốc, rồi xoay phễu sau bloom. Đắng chỉ ở cuối ly, hậu vị khét: fines cháy ở đáy — giảm khuấy, rồi xay thô hơn hoặc cải thiện máy xay. Còn bảy trường hợp nữa — chua gắt kiểu kim loại vì nước thiếu đệm, phẳng vì nước quá kiềm, rút quá nhanh, rút quá chậm, hương đẹp mà hậu vị trống, ngon khi nóng mà tệ khi nguội, và trường hợp không đổi dù bạn chỉnh gì — nằm trong bảng đầy đủ trên trang này.">
 <table>
 <thead><tr><th>Triệu chứng</th><th>Nguyên nhân khả dĩ</th><th>Đòn bẩy đầu tiên</th><th>Đòn bẩy thứ hai</th></tr></thead>
 <tbody>
@@ -652,7 +652,7 @@ window.BOOK_PARTS.push({
 
 <h3>Bảng phụ: vấn đề theo dụng cụ</h3>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là sự cố đặc trưng của sáu dụng cụ và cách xử lý. V60 hay bị channeling và bã leo thành: hạ độ cao, rót xoáy, xoay phễu, đừng rót sát thành. Kalita rút chậm vì ba lỗ nhỏ: xay thô hơn, đừng rót quá nhanh. Chemex có giấy dày nên giữ hương và rút chậm: xay thô hơn, nước nóng hơn. Switch dễ nghẹt khi mở van nếu xay quá mịn: xay thô hơn, mở van từ từ. French press để lại cặn và bùn ở đáy: xay thô, rót chậm, để lắng trước khi ấn. AeroPress dễ chua nếu ấn quá nhanh: ấn chậm 20 đến 30 giây và ngâm lâu hơn.">
 <table>
 <thead><tr><th>Dụng cụ</th><th>Vấn đề đặc trưng</th><th>Cách xử lý</th></tr></thead>
 <tbody>

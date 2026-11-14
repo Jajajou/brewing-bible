@@ -83,7 +83,7 @@ window.BOOK_TEXT = {
       minutes: 10,
       tags: ["roast", "parameters"],
       body: `
-<p>There is a popular belief among home brewers: dark roast is easier to brew, so beginners should start with dark roast. The belief is wrong in a subtle way — it is right in the first half and wrong in the second, and the second half is the one that matters.</p>
+<p>There is a popular belief among home brewers: dark roast is easier to brew, so beginners should start with dark roast. The belief is wrong in a subtle way — it is right in the first half and wrong in the second, and the wrong half is the one that matters.</p>
 
 <p>Dark roast <em>really is</em> easier to extract. But "easier to extract" does not mean "easier to brew well". Those are two different things, and confusing them produces a great many bitter cups with no obvious cause.</p>
 
@@ -714,7 +714,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 
 <div class="callout act">
 <p class="callout-title">If you only buy one thing</p>
-<p>Buy a scale. Skip everything else. A scale and a notebook are enough to learn 90% of what this book says.</p>
+<p>Buy a scale. Skip everything else. A scale and a notebook are enough to learn 90% of the material here.</p>
 </div>
 `
     },
@@ -2958,8 +2958,6 @@ NOTES: ________________________________
 <p class="callout-title">Do not leave the log in one browser</p>
 <p>Safari on iOS clears data for pages it has not opened in about seven days. A month of brews can disappear. Exporting a copy or turning on sync is a required step, not an optional one.</p>
 </div>
-
-
 
 <h3>A one-line summary per bag</h3>
 

@@ -24,7 +24,7 @@ window.BOOK_PARTS.push({
 
 <p>Rồi viết một câu dự đoán:</p>
 
-<div class="formula">
+<div class="formula" data-audio="Đây là một mẫu để bạn tự điền trước khi pha: với giống này từ vùng này, sơ chế cách này, rang mức này, bạn kỳ vọng có gì, không có gì, và dễ gặp vấn đề gì. Không có gì để đọc.">
 <span class="fx-label">Dự đoán</span>
 Với [giống] từ [vùng], sơ chế [cách], rang [mức], mình kỳ vọng:<br>
 Có:  ____________________<br>
@@ -80,7 +80,7 @@ Dễ gặp vấn đề:  ____________________
 
 <p>Bây giờ bạn đã biết vấn đề nằm ở chiều nào. Chọn <strong>một</strong> đòn bẩy:</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này nối cái bạn quan sát được với một thay đổi duy nhất. Bã không đều, có hố hoặc mảng khô: đổi kỹ thuật — hạ độ cao, rót xoáy ốc, xoay phễu. Bã đều nhưng nhạt hơn cupping: giảm nước 5 đến 10 phần trăm. Bã đều nhưng có vị xấu mà cupping không có: thử xay thô hơn một nấc. Bã đều nhưng thiếu hương so với cupping: tăng 2 độ. Bã đều, vị sạch, chỉ yếu hơn: không chỉnh — đây là giới hạn của phương pháp, hoặc của cách uống.">
 <table>
 <thead><tr><th>Bạn quan sát được</th><th>Điều chỉnh</th></tr></thead>
 <tbody>
@@ -108,7 +108,7 @@ Dễ gặp vấn đề:  ____________________
 
 <h3>Tổng kết thời gian</h3>
 
-<div class="stat-grid">
+<div class="stat-grid" data-audio="Bốn mốc thời gian của chương: 2 phút đọc bao, 7 phút cupping, 5 phút pha nền, 5 phút điều chỉnh.">
 <div class="stat"><b>2′</b><span>Đọc bao</span></div>
 <div class="stat"><b>7′</b><span>Cupping</span></div>
 <div class="stat"><b>5′</b><span>Pha nền</span></div>
@@ -156,7 +156,7 @@ Dễ gặp vấn đề:  ____________________
 
 <h3>Cái gì chuyển được, cái gì không</h3>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này chia mọi thứ trong một công thức thành ba lớp, và lớp nào thì chuyển sang cà khác được. Lớp cơ chế dụng cụ, ví dụ van Switch đóng mở tức ngâm hay chảy: chuyển được 100 phần trăm, vì đó là vật lý của cái phễu. Lớp cấu trúc quy trình, ví dụ bloom rồi ngâm, xả, ngâm, xả: chuyển được khoảng 80 phần trăm, vì nó là mặc định tốt cho hầu hết cà. Lớp con số, ví dụ số click, 92 °C, 2 phút 15, nhiệt độ bloom: chuyển được 0 phần trăm, vì nó phụ thuộc vào cà, máy xay và ấm của bạn.">
 <table>
 <thead><tr><th>Lớp</th><th>Ví dụ</th><th>Chuyển sang cà khác?</th></tr></thead>
 <tbody>
@@ -204,7 +204,7 @@ Dễ gặp vấn đề:  ____________________
 
 <p>Nếu bạn đang dùng Switch (hoặc bất kỳ dụng cụ có thể ngâm), một công thức nền tốt là:</p>
 
-<div class="recipe">
+<div class="recipe" data-audio="Công thức nền cho Switch, hai giai đoạn. Đây là gợi ý, không phải chân lý — điều chỉnh theo thiết bị của bạn. Tham số: 15 gam cà, 250 gam nước, 93 °C, tổng khoảng 3 phút. Bước một, bloom với van đóng: 45 gam nước, xoay nhẹ, đợi 40 giây. Bước hai, giai đoạn một với van đóng: rót thêm đến 150 gam, đóng van, đợi 45 giây — đây là immersion, đều và tha thứ. Bước ba, xả: mở van, để nước xuống gần mặt bã. Bước bốn, giai đoạn hai với van đóng: rót đến 250 gam, đợi 30 giây. Bước năm, xả cuối: mở van, để rút hết, tổng khoảng 3 phút.">
 <div class="recipe-head">Công thức nền — Switch, hai giai đoạn<small>Đây là gợi ý, không phải chân lý. Điều chỉnh theo thiết bị của bạn.</small></div>
 <div class="recipe-body">
 <div class="recipe-params">
@@ -258,7 +258,7 @@ Dễ gặp vấn đề:  ____________________
 
 <p><strong>Kết quả cupping:</strong></p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này đọc ba giai đoạn của một lần pha, theo thứ tự. Lúc bã khô: nếu ngửi thấy ngọt, caramel, giống chocolate, có khi nutty và brown sugar, thì lớp rang rõ và nền ngọt vững. Sau khi phá bã: nếu hương quả đỏ xuất hiện, lớp origin có mặt, nhưng mỏng hơn lớp rang. Cuối cùng là vị: nếu hài hoà và ngọt, thì đã chiết đủ và cân bằng tốt.">
 <table>
 <thead><tr><th>Giai đoạn</th><th>Quan sát</th><th>Đọc ra</th></tr></thead>
 <tbody>
@@ -273,7 +273,7 @@ Dễ gặp vấn đề:  ____________________
 
 <h3>Lần pha thứ nhất — và vấn đề</h3>
 
-<div class="recipe">
+<div class="recipe" data-audio="Công thức đã dùng, cho V60, không switch. 15 gam cà với 225 gam nước, tỉ lệ 1:15. Bloom 45 gam trong 40 giây, rồi rót toàn bộ phần còn lại trong một lần. Kỹ thuật: center pour, vòi cách mặt bã khoảng 15 cm.">
 <div class="recipe-head">Công thức đã dùng<small>V60, không switch</small></div>
 <div class="recipe-body">
 <div class="recipe-params">
@@ -316,7 +316,7 @@ Dễ gặp vấn đề:  ____________________
 
 <p>Nguyên tắc: giữ đúng tỉ lệ cupping để phép so sánh có nghĩa. 15 g × 17 = 255 g.</p>
 
-<div class="recipe">
+<div class="recipe" data-audio="Công thức sửa để khớp tỉ lệ với cupping: 15 gam với 255 gam, tức 1:17. Tham số: 15 gam cà, 255 gam nước, 92 đến 93 °C, tổng 2 phút 30 đến 3 phút. Bước một, bloom từ giây 0 đến giây 40: 45 gam nước, xoay nhẹ cả phễu, không khuấy bằng thìa. Bước hai, rót từ giây 40 đến phút 1: lên 150 gam, xoáy ốc từ giữa ra rìa rồi vào lại, vòi cách mặt bã 3 đến 5 cm, tốc độ 5 đến 7 gam mỗi giây. Bước ba, nghỉ từ phút 1 đến một phút mười lăm: để mực nước xuống gần mặt bã, không để khô. Bước bốn, rót từ một phút mười lăm đến một phút ba lăm: lên 255 gam, cùng pattern, cùng tốc độ. Bước năm, xoay và rút từ một phút ba lăm đến hai phút bốn lăm: xoay nhẹ phễu một lần, để rút hết.">
 <div class="recipe-head">Công thức sửa — khớp tỉ lệ cupping<small>15 g : 255 g = 1:17</small></div>
 <div class="recipe-body">
 <div class="recipe-params">
@@ -337,7 +337,7 @@ Dễ gặp vấn đề:  ____________________
 
 <h3>Sửa đúng ba thứ</h3>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là ba thay đổi cụ thể so với công thức trước, kèm lý do. Độ cao: từ 15 cm xuống 3 đến 5 cm, để loại bỏ xói mòn và channeling. Số lần rót: từ một lần cho toàn bộ phần còn lại lên hai lần, để mở bã lần thứ hai và giữ mực nước ổn định. Tỉ lệ: từ 1:15 lên 1:17, để khớp với cupping, nhờ đó so sánh mới có nghĩa.">
 <table>
 <thead><tr><th>Thay đổi</th><th>Từ</th><th>Sang</th><th>Lý do</th></tr></thead>
 <tbody>
@@ -354,7 +354,7 @@ Dễ gặp vấn đề:  ____________________
 
 <p>Nhìn vào phễu sau khi rút xong:</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này đọc bã thành kết luận. Hố lõm ở giữa, rìa có mảng bã khô: vẫn còn channeling, hạ tay xuống thấp hơn nữa. Bã phẳng đều, ướt toàn bộ, không mảng khô: bã đã chiết đều, vấn đề còn lại là cỡ xay và nhiệt. Thành giấy có bã dính cao trên mực nước: vẫn rót quá cao hoặc quá mạnh.">
 <table>
 <thead><tr><th>Bạn thấy</th><th>Nghĩa là</th></tr></thead>
 <tbody>

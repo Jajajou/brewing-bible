@@ -22,7 +22,7 @@ window.BOOK_PARTS.push({
 
 <p>Nước máy hoặc nước đóng chai chứa hàng chục chất hoà tan. Nhưng chỉ ba nhóm thật sự quan trọng:</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này xếp ba thứ trong nước theo mức quan trọng. Bicarbonate, đo bằng alkalinity, quan trọng nhất: nó trung hoà acid hữu cơ, nên khi cao thì mất vị trái cây và tăng cảm giác đắng và phẳng. Canxi và magiê, đo bằng độ cứng, ở mức trung bình: magiê bám vào hợp chất hương và kéo chúng vào nước, nhưng ảnh hưởng cảm quan nhỏ hơn người ta tưởng. Clo và cloramin thì dễ xử lý, nhưng gây mùi hoá chất và phá huỷ hương thơm.">
 <table>
 <thead><tr><th>Thành phần</th><th>Ảnh hưởng</th><th>Mức quan trọng</th></tr></thead>
 <tbody>
@@ -41,7 +41,7 @@ window.BOOK_PARTS.push({
 
 <p>Cơ chế rất trực tiếp: acid hữu cơ trong cà phê — citric, malic, acetic, lactic, chlorogenic — chính là những hợp chất tạo cảm giác tươi sáng, trái cây, và "sống". Bicarbonate trung hoà chúng theo phản ứng:</p>
 
-<div class="formula">
+<div class="formula" data-audio="Phản ứng trung hoà: bicarbonate cộng ion hydro, tạo thành acid carbonic, rồi phân huỷ thành khí CO₂ và nước.">
 <span class="fx-label">Phản ứng trung hoà</span>
 HCO₃⁻ + H⁺ → H₂CO₃ → CO₂ + H₂O
 </div>
@@ -57,7 +57,7 @@ HCO₃⁻ + H⁺ → H₂CO₃ → CO₂ + H₂O
 
 <p>Ngành cà phê specialty dùng chỉ tiêu của SCAA/SCA làm điểm khởi đầu <span class="tier tier-b">Hợp lý</span>:</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là bốn chỉ số nước, kèm mục tiêu và khoảng chấp nhận. Alkalinity tính theo CaCO₃: mục tiêu khoảng 40 ppm, chấp nhận 40 đến 75. Độ cứng tổng: mục tiêu khoảng 68 ppm, chấp nhận 51 đến 175. pH: mục tiêu khoảng 7, chấp nhận 6 đến 8. Natri: mục tiêu không có, chỉ cần dưới 10 ppm.">
 <table>
 <thead><tr><th>Chỉ số</th><th>Mục tiêu</th><th>Khoảng chấp nhận</th></tr></thead>
 <tbody>
@@ -89,7 +89,7 @@ HCO₃⁻ + H⁺ → H₂CO₃ → CO₂ + H₂O
 
 <p>Quy đổi sang đơn vị của ngành cà phê:</p>
 
-<div class="formula">
+<div class="formula" data-audio="Ví dụ quy đổi: 305 mg/L bicarbonate nhân 50 rồi chia 61, tức khoảng 0,82 lần, cho ra khoảng 250 ppm tính theo CaCO₃.">
 <span class="fx-label">Quy đổi HCO₃⁻ → alkalinity as CaCO₃</span>
 Alkalinity = HCO₃⁻ × <b>50/61</b> ≈ HCO₃⁻ × <b>0,82</b><br>
 305 mg/L × 0,82 ≈ <b>250 ppm as CaCO₃</b>
@@ -127,7 +127,7 @@ Alkalinity = HCO₃⁻ × <b>50/61</b> ≈ HCO₃⁻ × <b>0,82</b><br>
 
 <p>Nghĩa là: hai mẫu nước có thể cùng TDS 100 ppm nhưng có alkalinity hoàn toàn khác nhau.</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này so hai loại nước có cùng TDS nhưng khác nhau hoàn toàn về tính chất. Nước 100 ppm CaCO₃ dạng bicarbonate: TDS khoảng 100, alkalinity cũng khoảng 100, pha ra mất vị trái cây. Nước 100 ppm canxi clorua: TDS cũng khoảng 100 nhưng alkalinity gần như bằng không, nên pha ra chua sắc và không có đệm. Cùng một con số TDS, hai ly cà khác hẳn.">
 <table>
 <thead><tr><th>Mẫu</th><th>TDS</th><th>Alkalinity</th><th>Pha ra</th></tr></thead>
 <tbody>
@@ -150,7 +150,7 @@ Alkalinity = HCO₃⁻ × <b>50/61</b> ≈ HCO₃⁻ × <b>0,82</b><br>
 
 <p>Nếu có, quy đổi:</p>
 
-<div class="formula">
+<div class="formula" data-audio="Công thức: alkalinity tính theo ppm CaCO₃ bằng nồng độ bicarbonate tính bằng mg/L, nhân 50 rồi chia 61 — tức khoảng 0,82 lần.">
 <span class="fx-label">Công thức</span>
 Alkalinity (ppm as CaCO₃) = HCO₃⁻ (mg/L) × 50/61<br>
 ≈ HCO₃⁻ × <b>0,82</b>
@@ -175,7 +175,7 @@ Alkalinity (ppm as CaCO₃) = HCO₃⁻ (mg/L) × 50/61<br>
 <li>Quy đổi: <strong>1 dKH = 17,86 ppm as CaCO₃</strong>.</li>
 </ul>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là thang dKH, đọc theo thứ tự. dKH 1 tương đương khoảng 18 ppm: rất thấp, chua sắc, thiếu tròn. dKH 2, khoảng 36: gần lý tưởng. dKH 3, khoảng 54: tốt. dKH 4, khoảng 71: chấp nhận được. dKH 5, khoảng 89: bắt đầu mất trái cây. dKH 8, khoảng 143: quá cao. dKH 14, khoảng 250: như nước khoáng mạnh. Vùng nên ở là khoảng 2 đến 4.">
 <table>
 <thead><tr><th>dKH</th><th>ppm as CaCO₃</th><th>Đánh giá cho cà phê</th></tr></thead>
 <tbody>
@@ -201,7 +201,7 @@ Alkalinity (ppm as CaCO₃) = HCO₃⁻ (mg/L) × 50/61<br>
 
 <p>Nguyên tắc: bạn cần hai dung dịch mẹ (concentrate), pha loãng vào nước RO.</p>
 
-<div class="recipe">
+<div class="recipe" data-audio="Công thức nước cà phê tự pha, cho 2 lít thành phẩm. Nền là 2 lít nước RO, mục tiêu magiê khoảng 40 ppm và bicarbonate khoảng 40 ppm. Pha hai dung dịch trước. Dung dịch A, phần khoáng: hoà 2,46 gam magiê sulfate ngậm bảy nước vào 100 ml nước RO. Dung dịch B, phần đệm: hoà 1,68 gam natri bicarbonate, tức baking soda, vào 100 ml nước RO. Thành phẩm: thêm 4 ml A và 3,2 ml B vào 2 lít nước RO. Chỉnh theo khẩu vị: tăng B để giảm độ chua vì đệm nhiều hơn, giảm B để tăng độ sáng.">
 <div class="recipe-head">Nước cà phê tự pha — công thức cơ bản<small>Pha 2 lít nước thành phẩm</small></div>
 <div class="recipe-body">
 <div class="recipe-params">
@@ -252,7 +252,7 @@ Alkalinity (ppm as CaCO₃) = HCO₃⁻ (mg/L) × 50/61<br>
 
 <h3>Trước tiên: hai hiểu nhầm tốn tiền</h3>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này so hai cách xử lý nước gia đình, và điểm chung là cả hai đều không giảm alkalinity. Bộ lọc carbon như Brita: loại clo, một số hợp chất hữu cơ và vài kim loại nặng, nhưng bicarbonate đi qua nguyên vẹn. Máy làm mềm nước trao đổi ion natri: đổi canxi và magiê thành natri, bicarbonate vẫn còn đó — nước mềm nhưng vẫn kiềm.">
 <table>
 <thead><tr><th>Cách</th><th>Có giảm alkalinity?</th><th>Thật ra nó làm gì</th></tr></thead>
 <tbody>
@@ -270,14 +270,14 @@ Alkalinity (ppm as CaCO₃) = HCO₃⁻ (mg/L) × 50/61<br>
 
 <p>Đây là cách rẻ nhất, chính xác nhất, và không cần thiết bị gì. Nguyên tắc: alkalinity pha loãng tuyến tính theo tỉ lệ thể tích.</p>
 
-<div class="formula">
+<div class="formula" data-audio="Công thức pha loãng: phần trăm nước khoáng cần dùng bằng mục tiêu chia cho alkalinity đo được. Ví dụ mục tiêu 50 ppm với nước khoáng 250 ppm: 50 chia 250 bằng 20 phần trăm, tức 400 ml khoáng với 1600 ml nước RO, được 2 lít.">
 <span class="fx-label">Công thức pha loãng</span>
 % nước khoáng cần dùng = <b>Mục tiêu</b> ÷ <b>Alkalinity đo được</b><br><br>
 Ví dụ: mục tiêu 50 ppm, nước khoáng 250 ppm<br>
 50 ÷ 250 = <b>20%</b> → 400 ml khoáng + 1600 ml RO = 2 lít
 </div>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là tỉ lệ pha loãng để đưa nước về khoảng 50 ppm. Với La Vie, alkalinity khoảng 250: dùng 20 phần trăm, tức 400 ml khoáng với 1600 ml nước RO. Nước khoáng mạnh khoảng 300: 17 phần trăm, tức 340 với 1660. Nước khoáng nhẹ khoảng 120: 42 phần trăm, tức 840 với 1160. Nước máy nếu khoảng 100: 50 phần trăm, mỗi thứ 1 lít. Nước máy nếu khoảng 150: 33 phần trăm, tức 660 với 1340. Mẫu số luôn là 2 lít thành phẩm.">
 <table>
 <thead><tr><th>Nước bạn có</th><th>Alkalinity</th><th>% pha để đạt ~50 ppm</th><th>Cho 2 lít</th></tr></thead>
 <tbody>
@@ -313,7 +313,7 @@ Ví dụ: mục tiêu 50 ppm, nước khoáng 250 ppm<br>
 
 <p>Đun sôi thật sự làm giảm alkalinity, vì canxi bicarbonate phân huỷ khi đun:</p>
 
-<div class="formula">
+<div class="formula" data-audio="Phản ứng khi đun sôi: canxi bicarbonate phân huỷ thành canxi cacbonat kết tủa, khí CO₂ và nước.">
 <span class="fx-label">Phản ứng khi đun sôi</span>
 Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 </div>
@@ -332,7 +332,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 
 <h3>Bảng quyết định</h3>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là các tình huống về nước và việc cần làm. Nếu bạn không biết nước mình thế nào: đọc nhãn chai, còn nếu là nước máy thì pha một ly với 50 phần trăm nước tinh khiết rồi so sánh. Nếu đang dùng nước khoáng đóng chai: đọc HCO₃ trên nhãn, và nếu trên 120 mg/L thì pha loãng 20 đến 30 phần trăm với nước tinh khiết. Nếu dùng nước máy: để hở vài giờ cho bay clo, đo alkalinity bằng test KH rồi pha loãng nếu cần. Nếu muốn ổn định lâu dài: lắp RO và tự pha khoáng — đây là điểm kết thúc của toàn bộ vấn đề nước. Nếu đang dùng máy làm mềm: nó không giải quyết được gì, vẫn cần pha loãng hoặc RO.">
 <table>
 <thead><tr><th>Tình huống của bạn</th><th>Làm gì</th></tr></thead>
 <tbody>
@@ -355,7 +355,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 <li><strong>Nếm và trả lời một câu</strong><p>Ly nào có nhiều vị trái cây nhất? Ly nào cân bằng nhất?</p></li>
 </ol>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này đọc kết quả một phép thử nước ba ly. Nếu ly C thắng rõ: nước bạn có alkalinity cao, dùng tỉ lệ C từ nay. Nếu ly B, tức ly RO, thắng: nước bạn rất kiềm, hoặc con cà này cần độ sáng tối đa. Nếu ly A thắng: nước bạn đã ổn, đừng sửa gì, vấn đề nằm ở chỗ khác. Nếu ly B dẹt và ly C cũng dẹt: nước không phải vấn đề, quay lại cỡ xay và kỹ thuật.">
 <table>
 <thead><tr><th>Kết quả</th><th>Nghĩa là</th></tr></thead>
 <tbody>
@@ -369,7 +369,7 @@ Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O
 
 <div class="callout ok">
 <p class="callout-title">Tổng chi phí của toàn bộ chương này</p>
-<p>Một chai nước tinh khiết 1,5 L: khoảng 10.000 đồng. Một bộ test KH: 150.000–300.000 đồng. Một hệ RO: 1,5–3 triệu. Bạn có thể bắt đầu với mục đầu tiên và dừng ở đó nếu nó đủ.</p>
+<p>Một chai nước tinh khiết 1,5 L: khoảng 10.000 đồng. Một bộ test KH: 150.000–300.000 đồng. Một hệ RO: 1,5–3 triệu. Bạn có thể bắt đầu với mục đầu tiên và dừng ở đó nếu nó đủ cho nước nhà bạn.</p>
 </div>
 `
   }

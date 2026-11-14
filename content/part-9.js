@@ -26,7 +26,7 @@
 
 <div class="callout">
 <p class="callout-title">Có nguồn không có nghĩa là đúng</p>
-<p>Một bài báo nhỏ, một thử nghiệm trên hai mươi người, một mô hình chưa ai kiểm chứng — tất cả đều là nguồn. Cái quyết định vẫn là thiết kế của nghiên cứu, và phụ lục này ghi rõ thiết kế mỗi khi nó quan trọng.</p>
+<p>Một bài báo nhỏ, một thử nghiệm trên hai mươi người, một mô hình chưa ai kiểm chứng — tất cả đều là nguồn. Cái quyết định vẫn là thiết kế của nghiên cứu, và phụ lục này ghi rõ thiết kế mỗi khi nó quan trọng cho kết luận.</p>
 </div>
 `
       },
@@ -272,7 +272,7 @@
 
 <p class="tbl-cap">Chương 1–9 · hạt, nước, chiết xuất</p>
 
-<table class="tbl-a3">
+<table class="tbl-a3" data-audio="Bảng này đối chiếu từng khẳng định của chương 1 đến 9 — hạt, nước, chiết xuất — với nguồn và kết luận về độ tin cậy. Đây là bảng để tra bằng mắt, không đọc thành tiếng; bảng đầy đủ ở cuối sách.">
 <thead>
 <tr><th>Ch.</th><th>Khẳng định cần nguồn</th><th>Nhãn trong sách</th><th>Nguồn</th><th>Kết luận</th></tr>
 </thead>
@@ -297,7 +297,7 @@
 
 <p class="tbl-cap tbl-cap-break">Chương 10–18 · cỡ xay, cupping, pha</p>
 
-<table class="tbl-a3">
+<table class="tbl-a3" data-audio="Bảng này đối chiếu từng khẳng định của chương 10 đến 18 — cỡ xay, cupping, pha — với nguồn và kết luận về độ tin cậy. Đây là bảng để tra bằng mắt, không đọc thành tiếng.">
 <thead>
 <tr><th>Ch.</th><th>Khẳng định cần nguồn</th><th>Nhãn trong sách</th><th>Nguồn</th><th>Kết luận</th></tr>
 </thead>
@@ -321,7 +321,7 @@
 
 <p class="tbl-cap tbl-cap-break">Chương 19–30 · công thức, đọc bã, chẩn đoán, cảm nhận</p>
 
-<table class="tbl-a3">
+<table class="tbl-a3" data-audio="Bảng này đối chiếu từng khẳng định của chương 19 đến 30 — công thức, đọc bã, chẩn đoán, cảm nhận — với nguồn và kết luận về độ tin cậy. Đây là bảng để tra bằng mắt, không đọc thành tiếng.">
 <thead>
 <tr><th>Ch.</th><th>Khẳng định cần nguồn</th><th>Nhãn trong sách</th><th>Nguồn</th><th>Kết luận</th></tr>
 </thead>

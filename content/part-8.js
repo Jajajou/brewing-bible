@@ -22,7 +22,7 @@ window.BOOK_PARTS.push({
 
 <h3>Mẫu tối thiểu: bảy dòng</h3>
 
-<div class="formula" data-tpl="1">
+<div class="formula" data-tpl="1" data-audio="Đây là mẫu ghi mỗi lần pha để bạn tự điền: ngày, tên cà và số ngày sau rang, tỉ lệ cà và nước, nhiệt, cỡ xay, thời gian tổng và thời gian rút, hình dạng bã, và một câu về vị theo bốn trục. Không có gì để đọc.">
 <span class="fx-label">Mỗi lần pha</span>
 Ngày:        ____________<br>
 Cà:          ____________ (tên + số ngày sau rang)<br>
@@ -37,7 +37,7 @@ Vị:          ____________ (một câu, dùng 4 trục)
 
 <h3>Một mẫu đầy hơn, nếu bạn muốn</h3>
 
-<div class="formula" data-tpl="1">
+<div class="formula" data-tpl="1" data-audio="Đây là bản ghi đầy đủ để bạn tự điền — cà, nước, dụng cụ, các bước rót, bã, thời gian rút, và vị theo bốn trục. Không có gì để đọc.">
 <span class="fx-label">Bản đầy đủ</span>
 NGÀY: __________  CÀ: ______________________<br>
 Giống: __________  Vùng: __________  Sơ chế: __________<br>
@@ -67,7 +67,7 @@ GHI CHÚ: ________________________________
 
 <p>Đừng cố viết nốt hương. Dùng bốn trục từ chương 25, mỗi trục một số từ 1 đến 5:</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là thang điểm 1, 3, 5 cho bốn trục, dùng để mô tả một ly cà bằng bốn con số. Trục sáng: 1 là chín, nặng, ít acid; 3 là cân bằng; 5 là tươi, sáng, nhiều acid. Trục đầy: 1 là mỏng, như trà; 3 là vừa; 5 là đầy, tròn, nặng. Trục hướng: 1 là caramel, hạt, bánh; 3 là trung tính; 5 là trái cây, hoa, trà. Trục hậu vị: 1 là sạch, ngắn; 3 là vừa; 5 là nặng, dài, đắng hoặc khô.">
 <table>
 <thead><tr><th>Trục</th><th>1</th><th>3</th><th>5</th></tr></thead>
 <tbody>
@@ -119,13 +119,11 @@ GHI CHÚ: ________________________________
 <p>Safari trên iOS dọn dữ liệu của trang ít mở sau khoảng bảy ngày. Ghi cả tháng rồi không mở lại là mất sạch. Xuất bản sao hoặc bật đồng bộ là bước bắt buộc, không phải tuỳ chọn.</p>
 </div>
 
-
-
 <h3>Một mẫu tóm tắt cho mỗi bao cà</h3>
 
 <p>Ngoài nhật ký từng lần, hãy có một dòng cho mỗi bao:</p>
 
-<div class="formula" data-tpl="1">
+<div class="formula" data-tpl="1" data-audio="Đây là mẫu tóm tắt một bao cà để bạn tự điền: tên, mức rang, ngày mở, công thức tốt nhất, so với cupping, và có mua lại không. Không có gì để đọc.">
 <span class="fx-label">Tóm tắt bao cà</span>
 Tên: __________  Rang: ______  Mở ngày: ______<br>
 Công thức tốt nhất:  ____ g / ____ g, ___ °C, xay ____, ___ : ___<br>
@@ -148,7 +146,7 @@ Mua lại?  ___ có / ___ không      Vì: ____________
 
 <h3>Bốn thứ bắt buộc</h3>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là bốn thứ nên mua trước, kèm lý do và ngân sách. Cân 0,1 gam, 200 đến 400 nghìn: không có cân thì bạn không thể lặp lại bất cứ điều gì. Máy xay burr, 800 nghìn đến 3 triệu: xay đều là nền của mọi kỹ thuật, và máy cánh quạt không bù được. Phễu và giấy, 150 đến 600 nghìn: đây là dụng cụ chiết. Ấm cổ ngỗng, 300 nghìn đến 1,5 triệu: để kiểm soát dòng chảy, và ấm điện có điều nhiệt thì tốt hơn.">
 <table>
 <thead><tr><th>Thứ</th><th>Vì sao</th><th>Ngân sách</th></tr></thead>
 <tbody>
@@ -176,7 +174,7 @@ Mua lại?  ___ có / ___ không      Vì: ____________
 
 <h3>Những thứ nên bỏ qua</h3>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là bảy thứ không cần mua, và vì sao. Refractometer: đắt, cần hiệu chuẩn, và không cho biết ly cà có ngon không. Bút TDS: không đo được alkalinity, thứ duy nhất quan trọng. Giấy quỳ hoặc bút pH: pH bị chi phối bởi alkalinity, nên đo pH là đo triệu chứng. Bộ lọc carbon: không giảm alkalinity, chỉ giúp clo. Máy làm mềm nước: xử lý độ cứng chứ không xử lý độ kiềm. Nhiệt kế riêng: chỉ cần nếu ấm của bạn không có điều nhiệt. Và bộ starter kit tổng hợp: thường gồm những thứ bạn không cần, mà thiếu đúng thứ bạn cần là cân và một máy xay tốt.">
 <table>
 <thead><tr><th>Thứ</th><th>Vì sao không cần</th></tr></thead>
 <tbody>
@@ -202,7 +200,7 @@ Mua lại?  ___ có / ___ không      Vì: ____________
 
 <h3>Về máy xay: ba mức</h3>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là thang ngân sách cho máy xay. Dưới 1 triệu: máy xay tay burr gốm phổ thông — xay đều hơn cánh quạt rất nhiều, chậm nhưng đủ. Từ 1 đến 2,5 triệu: máy xay tay burr thép, như 1Zpresso hay Timemore — đều, nhanh hơn, điều chỉnh chính xác; đây là điểm ngọt. Trên 3 triệu: máy xay điện burr như Baratza hay Fellow — thuận tiện, ổn định, phù hợp nếu bạn pha nhiều.">
 <table>
 <thead><tr><th>Mức</th><th>Ví dụ</th><th>Bạn nhận được gì</th></tr></thead>
 <tbody>
@@ -217,7 +215,7 @@ Mua lại?  ___ có / ___ không      Vì: ____________
 
 <h3>Tổng ngân sách khởi đầu</h3>
 
-<div class="stat-grid">
+<div class="stat-grid" data-audio="Ba mức ngân sách: khoảng 1,5 triệu là tối thiểu, khoảng 3 triệu là điểm ngọt, khoảng 6 triệu là đầy đủ.">
 <div class="stat"><b>~1,5tr</b><span>Tối thiểu</span></div>
 <div class="stat"><b>~3tr</b><span>Điểm ngọt</span></div>
 <div class="stat"><b>~6tr</b><span>Đầy đủ</span></div>
@@ -268,7 +266,7 @@ Mua lại?  ___ có / ___ không      Vì: ____________
 
 <h3>Bảng tra nhanh: “ly cà của tôi bị gì”</h3>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là mười trường hợp bạn nếm thấy gì đó, nhưng chỉ năm cái đầu là thường gặp. Như nước trà, không có gì: tỉ lệ quá loãng hoặc chiết thiếu — kiểm tra tỉ lệ trước, rồi cỡ xay. Chua như chanh, the: chiết thiếu hoặc nước thiếu đệm — kiểm tra cỡ xay, rồi alkalinity. Đắng như thuốc: chiết dư hoặc bản chất hạt — xay thô hơn và so với cupping. Vừa chua vừa đắng: channeling — nhìn bã và hạ độ cao rót. Khô miệng, chát: chiết dư hoặc fines cháy — giảm khuấy, xay thô hơn. Còn năm trường hợp nữa — mùi giấy, mùi mốc, mùi thuốc cao su, rất nhạt dù đã tăng cà, và đổi vị thất thường giữa các lần — nằm trong bảng đầy đủ.">
 <table>
 <thead><tr><th>Bạn nếm</th><th>Khả năng cao nhất</th><th>Kiểm tra đầu tiên</th></tr></thead>
 <tbody>
@@ -319,7 +317,7 @@ Mua lại?  ___ có / ___ không      Vì: ____________
 
 <p>Và nếu bạn chỉ nhớ một điều từ tất cả những trang này, hãy nhớ điều này: <strong>bạn không tạo ra hương. Bạn chỉ có thể đánh rơi nó.</strong> Đó vừa là một giới hạn, vừa là một sự giải phóng.</p>
 
-<p>Giới hạn, vì có những con cà bạn không thể làm cho ngon hơn bản chất của chúng. Giải phóng, vì bạn không cần phải cố. Bạn chỉ cần không phá hỏng.</p>
+<p>Giới hạn, vì có những con cà bạn không thể làm cho ngon hơn bản chất của chúng. Giải phóng, vì bạn không cần phải cố. Bạn chỉ cần không phá hỏng cái vốn đã có trong hạt.</p>
 `
   }
 

@@ -46,7 +46,7 @@ window.BOOK_PARTS.push({
 
 <p>Thang điểm dưới đây là bộ <strong>Cupping Protocol and Form 2004</strong> của SCA — bộ đã định hình cách cả ngành nếm trong gần hai mươi năm. Nó chia đánh giá thành mười mục: sáu mục đầu là chất lượng cảm quan, bốn mục sau là kiểm tra lỗi. Từ 2024, SCA chuyển sang <strong>Coffee Value Assessment</strong> và không còn dùng một điểm tổng duy nhất; mười mục này vẫn là thứ bạn cần biết, vì mọi bảng điểm cũ và mọi lời quảng cáo “85 điểm” đều dựa trên nó:</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là mười mục của một phiếu cupping, mỗi mục đo một thứ. Fragrance và aroma: mùi của bã khô và mùi của bã ướt. Flavor: vị tổng hợp, tức sự kết hợp của vị giác và khứu giác ngược. Aftertaste: hậu vị — độ dài, chất lượng, có sạch không. Acidity: độ sáng và chất lượng của vị chua, không phải số lượng. Body: cảm giác trong miệng, độ dày, độ nhớt, kết cấu. Balance: các yếu tố có hài hoà hay một yếu tố lấn át. Uniformity: năm ly giống nhau đến đâu. Clean cup: không có vị lạ nào. Sweetness: có ngọt tự nhiên không. Overall: đánh giá tổng thể của người chấm. Ba mục uniformity, clean cup và sweetness là mục kiểm tra lỗi, không phải mục thưởng thức.">
 <table>
 <thead><tr><th>Mục</th><th>Đo cái gì</th></tr></thead>
 <tbody>
@@ -123,7 +123,7 @@ window.BOOK_PARTS.push({
 
 <h3>Thông số</h3>
 
-<div class="recipe">
+<div class="recipe" data-audio="Công thức cupping chuẩn tại nhà, cho một mẫu. 8,25 gam cà với 150 ml nước, tỉ lệ 1:18, nước 93 °C, xay trung bình đến thô, ngâm 4 phút. Nếu muốn số tròn thì dùng 10 gam cà với 180 ml nước ở 93 °C — tỉ lệ gần như giống hệt và dễ nhớ hơn.">
 <div class="recipe-head">Cupping chuẩn tại nhà<small>Một mẫu</small></div>
 <div class="recipe-body">
 <div class="recipe-params">
@@ -200,7 +200,7 @@ window.BOOK_PARTS.push({
 
 <h3>Ba lớp hương trong một lần cupping</h3>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là ba thời điểm ngửi trong một lần cupping. Lúc bã còn khô, phút 0: đây là hợp chất dễ bay hơi nhất, cho trần hương lý thuyết — không phải những gì sẽ có trong ly. Từ 30 giây đến 1 phút 30, bã ướt: hợp chất tan trong hơi nước nóng, và đây là lớp gần nhất với những gì sẽ vào ly, nên quan trọng nhất. Đến phút 4, khi phá bã: một đợt giải phóng đột ngột, hương đậm nhất nhưng cũng dễ gây ấn tượng quá mức.">
 <table>
 <thead><tr><th>Thời điểm</th><th>Bạn đang ngửi gì</th><th>Nó nói gì</th></tr></thead>
 <tbody>
@@ -253,7 +253,7 @@ window.BOOK_PARTS.push({
 
 <p>Đây là câu hỏi mà người mới hay bỏ qua, và nó quan trọng hơn cả ba câu trên. Vị lạ — giấy, các-tông, kim loại, mốc, thuốc, cao su, mùi đất — là thông tin mạnh hơn bất kỳ nốt hương đẹp nào.</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này đọc vị lạ thành nguyên nhân. Vị giấy, các-tông: cà đã cũ, bị oxy hoá. Vị kim loại, the: chiết thiếu, hoặc nước nhiều sắt. Vị mốc, đất: bảo quản ẩm hoặc lỗi sơ chế. Vị thuốc, cao su: rang lỗi kiểu baked, hoặc hạt bị lỗi. Vị rau sống, ngũ cốc: chiết thiếu rõ rệt, hoặc rang quá sáng.">
 <table>
 <thead><tr><th>Vị lạ</th><th>Thường là</th></tr></thead>
 <tbody>
@@ -270,7 +270,7 @@ window.BOOK_PARTS.push({
 
 <p>Đây là kỹ thuật bị bỏ qua nhiều nhất, và nó gần như miễn phí.</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là thang nhiệt độ uống. Ở khoảng 70 °C, nóng: hương mạnh nhất, hợp chất bay hơi mạnh nhất, và vị đắng bị che một phần. Ở khoảng 55 °C, ấm: cân bằng — đây là lúc ly cà đúng nhất, và cũng là nhiệt độ bạn nên uống. Ở khoảng 40 °C, nguội: cấu trúc và lỗi hiện rõ nhất — đắng, chát, khô và các vị lạ. Đây là lúc ly cà thú nhận.">
 <table>
 <thead><tr><th>Nhiệt độ</th><th>Bạn cảm nhận tốt nhất</th></tr></thead>
 <tbody>
@@ -305,7 +305,7 @@ window.BOOK_PARTS.push({
 
 <p>Đừng viết một đoạn văn. Viết năm dòng:</p>
 
-<div class="formula" data-tpl="1">
+<div class="formula" data-tpl="1" data-audio="Đây là mẫu ghi chép cupping để bạn tự điền: ngày, mùi khô, mùi ướt, vị, hậu vị dài hay ngắn và sạch hay bẩn, và vị lạ nếu có. Không có gì để đọc.">
 <span class="fx-label">Mẫu ghi chép cupping</span>
 Mẫu: _______________  Ngày: _______<br>
 Khô:  _______________<br>
@@ -315,7 +315,7 @@ Sau:  _______________  (dài/ngắn, sạch/bẩn)<br>
 Lạ:   _______________<br>
 </div>
 
-<p>Năm dòng này, sau mười con cà, sẽ cho bạn một thứ mà không cuốn sách nào cho được: <strong>bản đồ khẩu vị của chính bạn</strong>. Và nó là nền tảng cho chương 26.</p>
+<p>Năm dòng này, sau mười con cà, sẽ cho bạn một thứ mà không cuốn sách nào cho được: <strong>bản đồ khẩu vị của chính bạn</strong>. Và nó là nền tảng cho chương 26, nơi bản đồ đó thành một công thức cụ thể.</p>
 `
   },
 
@@ -330,7 +330,7 @@ Lạ:   _______________<br>
 
 <h3>Khác biệt cấu trúc</h3>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này so cupping với pour-over theo tám điểm. Nước chảy qua bã: cupping không, pour-over có. Channeling: ở cupping không thể xảy ra, ở pour-over có thể. Bã khô cục bộ: cũng vậy, không thể ở cupping. Nhiệt độ: cupping ổn định vì khối nước lớn, pour-over tụt dần. Fines: ở cupping chúng nổi lên và được hớt bỏ; ở pour-over chúng chìm xuống đáy và có thể cháy. Cỡ xay: cupping hơi thô hơn. Tỉ lệ: cupping 1:18, pour-over 1:15 đến 1:17. Và số biến số bạn kiểm soát: ở cupping gần như không, ở pour-over rất nhiều.">
 <table>
 <thead><tr><th></th><th>Cupping</th><th>Pour over</th></tr></thead>
 <tbody>
@@ -377,7 +377,7 @@ Lạ:   _______________<br>
 
 <h3>Vậy cupping dự đoán được gì</h3>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là năm cặp đối chiếu: cupping cho bạn biết gì, và không cho bạn biết gì. Nó cho biết con cà có tiềm năng gì — nhưng không cho biết bạn có chạm được cái trần đó bằng pour-over hay không. Nó cho biết có lỗi hạt hay không, như mốc hay lên men lỗi — nhưng không cho biết lỗi pha của bạn sẽ ảnh hưởng bao nhiêu. Nó cho biết cấu trúc chua, ngọt, đắng, body, hậu vị — nhưng không cho biết bạn có thích nó không. Nó cho biết nên kỳ vọng gì ở ly pour-over — nhưng không cho biết nên đặt tham số nào. Và nó cho biết cà có bị cũ không — nhưng không cho biết nước của bạn có phù hợp không.">
 <table>
 <thead><tr><th>Cupping cho bạn biết</th><th>Cupping không cho bạn biết</th></tr></thead>
 <tbody>

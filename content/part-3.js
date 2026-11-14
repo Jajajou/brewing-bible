@@ -22,7 +22,7 @@ window.BOOK_PARTS.push({
 
 <h3>Ba con số</h3>
 
-<div class="stat-grid">
+<div class="stat-grid" data-audio="Ba con số của chương này: năng suất chiết 18 đến 22 phần trăm; TDS trong ly 1,15 đến 1,35 phần trăm; tỉ lệ pha 1:15 đến 1:17.">
 <div class="stat"><b>18–22%</b><span>Extraction yield</span></div>
 <div class="stat"><b>1,15–1,35%</b><span>TDS trong ly</span></div>
 <div class="stat"><b>1:15–1:17</b><span>Tỉ lệ pha</span></div>
@@ -62,7 +62,7 @@ window.BOOK_PARTS.push({
 
 <p>Và suy luận đó có thể sai. Có ít nhất bốn nguyên nhân khác nhau tạo ra cùng một triệu chứng "đắng":</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là bốn nguyên nhân của vị đắng và cách phân biệt chúng. Nếu đắng đều, hậu vị dài, không có đỉnh hương nào: chiết dư toàn phần. Nếu vừa chua vừa đắng, có điểm sáng rồi điểm tối, ly lộn xộn: channeling, tức chiết không đều. Nếu đắng ở cuối ly, hậu vị khét: bã cháy cục bộ, thường do fines ở đáy. Nếu đắng từ đầu đến cuối và không đổi khi bạn giảm chiết: đó là bản chất hạt.">
 <table>
 <thead><tr><th>Nguyên nhân</th><th>Cách phân biệt</th></tr></thead>
 <tbody>
@@ -98,7 +98,7 @@ window.BOOK_PARTS.push({
 
 <div class="callout act">
 <p class="callout-title">Nếu bạn chỉ có một thứ</p>
-<p>Mua cân. Bỏ qua mọi thứ khác. Cân + một cuốn sổ là đủ để học được 90% những gì cuốn sách này nói.</p>
+<p>Mua cân. Bỏ qua mọi thứ khác. Cân + một cuốn sổ là đủ để học 90% nội dung trong sách.</p>
 </div>
 `
   },
@@ -203,7 +203,7 @@ window.BOOK_PARTS.push({
 
 <p>Mọi ly cà phê pour over có thể được mô tả bằng ba chiều:</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là ba chiều của một ly cà. Nồng độ trả lời câu đậm hay loãng, đòn bẩy là tỉ lệ cà trên nước, và mức ảnh hưởng rất lớn, tuyến tính. Mức chiết trả lời đã lấy ra nhiều hay ít, đòn bẩy là cỡ xay, nhiệt và thời gian, ảnh hưởng lớn. Độ đều trả lời mọi phần bã có được chiết như nhau không, đòn bẩy là kỹ thuật rót và chống channeling, ảnh hưởng trung bình nhưng quyết định độ rõ.">
 <table>
 <thead><tr><th>Chiều</th><th>Câu hỏi nó trả lời</th><th>Đòn bẩy</th><th>Mức ảnh hưởng</th></tr></thead>
 <tbody>
@@ -261,7 +261,7 @@ window.BOOK_PARTS.push({
 <li><strong>Ly cà có "rõ" không, hay lộn xộn?</strong><p>Nếu không có nốt nào nổi bật, và vừa chua vừa đắng → vấn đề là độ đều, không phải mức chiết. Đổi kỹ thuật, đừng đổi cỡ xay.</p></li>
 </ol>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này nối triệu chứng với chiều bị lệch và đòn bẩy đầu tiên. Mỏng, loãng, không có gì: lệch về nồng độ, sửa bằng tỉ lệ. Chua xanh, rau cỏ, hậu vị ngắn: chiết thiếu, nên xay mịn hơn, nóng hơn hoặc lâu hơn. Đắng, khô, chát, hậu vị dài: chiết quá, nên xay thô hơn, nguội hơn hoặc ngắn hơn. Vừa chua vừa đắng mà không có nốt rõ: lệch về độ đều, sửa bằng kỹ thuật rót. Đắng chỉ ở cuối ly: độ đều, do fines — giảm khuấy, xay đều hơn, và đừng để bã khô.">
 <table>
 <thead><tr><th>Triệu chứng</th><th>Chiều bị lệch</th><th>Đòn bẩy</th></tr></thead>
 <tbody>
@@ -311,7 +311,7 @@ window.BOOK_PARTS.push({
 
 <p>Khi bạn nói "tôi xay ở 18 nấc", bạn đang nói một con số của máy, không phải một tính chất của bột. Ba con số mới mô tả được bột:</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là ba con số của cỡ xay. Trung vị, hay D50: một nửa khối lượng hạt nhỏ hơn mức này, và nó quyết định tốc độ chiết trung bình. Độ rộng, D90 trừ D10: cho biết hỗn hợp trải rộng đến đâu, tức mức độ đều — bã có chỗ chiết quá, chỗ chưa tới. Tỉ lệ fines dưới 100 micromet: bao nhiêu phần trăm là mảnh vụn, quyết định độ thấm của bã và do đó thời gian rút.">
 <table>
 <thead><tr><th>Con số</th><th>Nó nói gì</th><th>Ảnh hưởng đến ly cà</th></tr></thead>
 <tbody>
@@ -330,7 +330,7 @@ window.BOOK_PARTS.push({
 
 <p>Bảng dưới đây đổi µm thành những thứ có trong bếp và trong tay bạn. Đây là <em>so sánh để hình dung</em>, không phải số đo chính xác: mỗi hạt muối, mỗi sợi tóc đều khác nhau, và các con số chỉ để bạn có một cái neo.</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là thang cỡ hạt bằng những thứ quen thuộc, đọc từ mịn đến thô. Bụi phấn và đường bột: 30 đến 100 micromet, ngang cỡ fines — bạn không thấy từng hạt, chỉ thấy một lớp mờ. Một sợi tóc: 50 đến 100 micromet, nên một hạt 40 micromet còn mỏng hơn sợi tóc của bạn. Cát mịn: 100 đến 300, nhỏ hơn hạt muối nhưng rải ra vẫn thấy từng hạt. Muối ăn hạt mịn: 200 đến 400, cỡ thô nhất của bột espresso. Đường cát và tiêu đen xay: 400 đến 700, cỡ xay pour-over từ mịn đến trung bình. Hạt vừng: khoảng 2000 micromet, thô hơn mọi cỡ xay pour-over trong sách này.">
 <table class="tbl-tight">
 <thead><tr><th>Vật</th><th>Cỡ hạt</th><th>Nghĩa là gì với bột cà phê</th></tr></thead>
 <tbody>
@@ -369,7 +369,7 @@ window.BOOK_PARTS.push({
 
 <p>Đây là phần cốt lõi, và là phần mọi lời khuyên về cỡ xay bỏ qua. Xay mịn hơn tác động lên hai thứ cùng lúc, theo hai hướng ngược nhau:</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này đối chiếu cái được và cái mất khi xay mịn hơn. Về cơ chế: diện tích bề mặt tăng nên đường khuếch tán từ trong hạt ra ngoài ngắn lại, nhưng khoảng rỗng giữa các hạt hẹp lại và bã dẫn nước kém hơn. Về kết quả: chất hoà tan ra nhanh hơn, đổi lại nước chảy chậm hơn, dễ nghẹt, dễ đi lệch chỗ. Và cái bạn thấy trong ly: đậm và rõ hơn, nhưng thời gian rút dài, ly vừa đắng vừa chua và không có nốt.">
 <table>
 <thead><tr><th></th><th>Xay mịn hơn được gì</th><th>Xay mịn hơn mất gì</th></tr></thead>
 <tbody>
@@ -441,7 +441,7 @@ window.BOOK_PARTS.push({
 <p><strong>Cỡ xay không phải một núm, mà là hai: kích thước và độ rộng.</strong> Bạn chỉnh được cái thứ nhất. Cái thứ hai do máy xay quyết định, và đó là lý do nâng cấp máy xay có tác dụng lớn hơn học thêm ba công thức.</p>
 </div>
 
-<p>Và đây là chỗ chương này dừng, đúng như nó phải dừng: chưa có nghiên cứu nào cô lập riêng cỡ xay trong pour-over nóng, với cùng một con cà, cùng liều, cùng tỉ lệ, cùng nhiệt, cùng kỹ thuật rót, mà đo đủ bốn thứ. Những gì chương này nói là tổng hợp từ espresso, từ ngâm, từ mô hình và từ một thử nghiệm cảm quan trên drip. Đó là nền tốt hơn truyền miệng, và vẫn là nền mỏng hơn ta muốn.</p>
+<p>Và đây là chỗ chương này dừng, đúng như nó phải dừng: chưa có nghiên cứu nào cô lập riêng cỡ xay trong pour-over nóng, với cùng một con cà, cùng liều, cùng tỉ lệ, cùng nhiệt, cùng kỹ thuật rót, mà đo đủ bốn thứ. Những gì chương này nói là tổng hợp từ espresso, từ ngâm, từ mô hình và từ một thử nghiệm cảm quan trên drip. Đó là nền tốt hơn truyền miệng, và vẫn là nền mỏng hơn ta muốn cho một quyết định hằng ngày.</p>
 `
   }
 

@@ -32,7 +32,7 @@ window.BOOK_PARTS.push({
 
 <p>Sau khi hái, quả cà phê phải được tách lấy hạt. Cách làm việc đó ảnh hưởng lớn đến hương vị — và đây là biến số bị người uống xem nhẹ nhất.</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này so bốn cách sơ chế. Nghe lần lượt từng cách. Sơ chế ướt, hay washed: bóc vỏ và lớp nhầy trước khi phơi. Ly cà ra sạch, acid rõ, hương cao và trong, trái cây sáng nhưng không ngọt kiểu mứt. Khô tự nhiên, natural: phơi cả quả. Ngọt hơn, trái cây chín, đôi khi lên men, nhiều xác thịt hơn và ít trong hơn. Honey: bóc vỏ nhưng giữ lớp nhầy — ở giữa hai cách trên, ngọt hơn washed và sạch hơn natural. Lên men có kiểm soát: ủ trong bồn với vi sinh chọn lọc, cho rất nhiều trái cây, có khi hương lạ như nhiệt đới, rượu, gia vị, và dễ quá tay.">
 <table>
 <thead><tr><th>Cách sơ chế</th><th>Làm gì</th><th>Hệ quả trong ly</th></tr></thead>
 <tbody>
@@ -80,7 +80,7 @@ window.BOOK_PARTS.push({
     minutes: 10,
     tags: ["rang", "tham số"],
     body: `
-<p>Có một niềm tin phổ biến trong giới pha cà tại nhà: rang đậm dễ pha hơn, nên người mới nên bắt đầu bằng rang đậm. Niềm tin này sai theo một cách tinh vi — nó đúng ở nửa đầu và sai ở nửa sau, và nửa sau mới là nửa quan trọng.</p>
+<p>Có một niềm tin phổ biến trong giới pha cà tại nhà: rang đậm dễ pha hơn, nên người mới nên bắt đầu bằng rang đậm. Niềm tin này sai theo một cách tinh vi — nó đúng ở nửa đầu và sai ở nửa sau, mà phần sai mới là phần quyết định.</p>
 
 <p>Rang đậm <em>thật sự</em> dễ chiết xuất hơn. Nhưng "dễ chiết xuất" không đồng nghĩa với "dễ pha ngon". Đó là hai chuyện khác nhau, và sự nhầm lẫn giữa chúng gây ra rất nhiều ly cà đắng không rõ nguyên nhân.</p>
 
@@ -96,7 +96,7 @@ window.BOOK_PARTS.push({
 
 <p>Hai sự kiện âm thanh đánh dấu các mốc: <strong>first crack</strong> (khoảng 196–205 °C) khi hơi nước và CO₂ bị nén bên trong làm hạt nứt, và <strong>second crack</strong> (khoảng 224–230 °C) khi cấu trúc cellulose bắt đầu gãy. Rang sáng dừng trước hoặc ngay sau first crack. Rang trung bình dừng giữa hai mốc. Rang đậm tiến vào hoặc qua second crack.</p>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này so ba mức rang theo từng thuộc tính. Về độ xốp: rang sáng thì độ xốp thấp, hạt nặng; trung bình ở giữa; rang đậm thì hạt xốp, nhẹ. Chất hoà tan: rang sáng ít và khó nhả, rang đậm nhiều và nhả nhanh. Acid hữu cơ: cao ở rang sáng, giảm dần, đến rang đậm thì đã phân huỷ. Hương origin: rõ nhất ở rang sáng, còn một phần ở trung bình, và bị hương rang lấn át ở rang đậm. Vị đắng nền thì ngược lại: thấp, vừa, rồi cao. Gộp lại: càng đậm thì hạt càng xốp, càng nhả nhanh, acid càng giảm, đắng nền càng tăng, và cửa sổ pha thành công hẹp lại — dù rang sáng thì cửa sổ rộng mà cần nhiều lực hơn.">
 <table>
 <thead><tr><th></th><th>Rang sáng</th><th>Trung bình</th><th>Rang đậm</th></tr></thead>
 <tbody>
@@ -131,7 +131,7 @@ window.BOOK_PARTS.push({
 
 <h3>Cách đọc mức rang bằng mắt</h3>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là các dấu hiệu nhìn hạt để đoán mức rang, nên chỉ nghe được phần ý nghĩa chứ không nghe được màu. Nếu đường rãnh giữa hạt còn rõ và màu nhạt hơn vỏ, đó là rang sáng, hạt chưa giãn hết. Nếu có vết dầu bóng trên mặt hạt, hạt đã qua second crack, tức rang khá đậm. Nếu hạt nổi trên mặt nước khi bloom, đó là dấu hiệu rang đậm, vì hạt ít khí và nhiều lỗ rỗng. Còn hạt chìm và bã đặc thì ngược lại: rang sáng, khối lượng riêng cao. Màu hạt đi từ nâu vàng nhạt qua nâu sô-cô-la đến nâu đen bóng, và đó là thước đo tương đối.">
 <table>
 <thead><tr><th>Dấu hiệu</th><th>Cho bạn biết</th></tr></thead>
 <tbody>
@@ -193,7 +193,7 @@ window.BOOK_PARTS.push({
 
 <h3>Vậy bao lâu là đủ?</h3>
 
-<div class="table-wrap">
+<div class="table-wrap" data-audio="Bảng này là trục thời gian sau rang, đọc theo thứ tự. Ba ngày đầu: rất nhiều CO₂, pha khó — cần bloom dài 60 đến 90 giây, khuấy nhẹ để giải phóng khí, và chấp nhận kết quả chưa ổn định. Từ 4 đến 10 ngày: khí còn nhiều nhưng giảm dần, bắt đầu tốt, bloom 40 đến 45 giây. Từ 10 đến 30 ngày: ổn định, và đây là cửa sổ tốt nhất cho hầu hết cà phê. Từ 30 đến 60 ngày: bắt đầu oxy hoá, vẫn uống được nhưng hương giảm và vị phẳng dần. Trên 60 ngày: oxy hoá rõ, phẳng, giấy, gỗ — dành cho cold brew hoặc pha trộn.">
 <table>
 <thead><tr><th>Thời gian sau rang</th><th>Trạng thái</th><th>Pha thế nào</th></tr></thead>
 <tbody>
@@ -254,7 +254,7 @@ window.BOOK_PARTS.push({
 
 <p>Độ tươi quan trọng. Nhưng nếu bạn phải chọn giữa việc tối ưu độ tươi và việc sửa nước, hãy sửa nước trước. Một bao cà 20 ngày tuổi pha bằng nước đúng sẽ ngon hơn một bao cà 5 ngày tuổi pha bằng nước có độ kiềm 250 ppm. Đây không phải ý kiến — đó là hệ quả của việc alkalinity trung hoà trực tiếp các acid tạo vị trái cây, trong khi oxy hoá ở mức 20 ngày chỉ làm giảm nhẹ cường độ hương.</p>
 
-<p>Nói cách khác: <strong>thứ tự ưu tiên khi bạn chỉ có thể sửa một thứ là: nước → cỡ xay → độ tươi → mọi thứ còn lại.</strong> Đây là thứ tự chẩn đoán, không phải một bảng xếp hạng đã đo — chương 10 nói rõ chỗ nào đo được và chỗ nào không.</p>
+<p>Nói cách khác: <strong>thứ tự ưu tiên khi bạn chỉ có thể sửa một thứ là: nước → cỡ xay → độ tươi → mọi thứ còn lại.</strong> Đây là thứ tự chẩn đoán, không phải một bảng xếp hạng đã đo — chương 10 nói rõ chỗ nào đo được và chỗ nào không, kèm số liệu cho từng mục.</p>
 `
   }
 
