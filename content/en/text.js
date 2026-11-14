@@ -1951,6 +1951,24 @@ Odd:   _______________
 <p>Keep the water level <strong>from ever dropping below the surface of the bed</strong>. Start the next pour when the water is still about 5 mm above the bed. That is the simplest rule there is, and it solves most rhythm problems.</p>
 </div>
 
+<h3>Pulse or continuous: where nobody has checked</h3>
+
+<p>Two claims get repeated constantly: pulse pouring gives a "cleaner" cup; a continuous pour gives a "rounder" one. We could find <strong>no public tasting trial</strong> comparing the two with everything else held constant <span class="tier tier-c">Folklore</span>.</p>
+
+<p>They have a mechanism behind them — the number of pours changes agitation, and agitation changes evenness. But getting from "plausible mechanism" to "pulse gives a cleaner cup" is a step nobody has taken with data. Treat both claims as <em>hypotheses to test yourself</em>, not conclusions to copy.</p>
+
+<p>How to test: same coffee, same grind, same total water, same temperature, change only the pour rhythm. Brew each twice. If you cannot tell them apart, that is also an answer — and it says your effort belongs on water or grind instead.</p>
+
+<h3>On the 5 g/s figure and pour height</h3>
+
+<p>Two numbers in this chapter rest on different ground, and it is worth saying so.</p>
+
+<p><strong>Flow rate.</strong> About 5 g/s is widely circulated, and there is an argument with it: when the stream <em>breaks into droplets</em> instead of staying a continuous column, it agitates the bed less and extracts less <span class="tier tier-b">Plausible</span>. The argument is physically sound, but we cite it through a secondary source, not from a measurement.</p>
+
+<p><strong>Height.</strong> Pour from higher and the water hits harder, agitates more, and extracts more. Too high and it gouges the bed, drives fines down, clogs the paper and the cup turns astringent <span class="tier tier-b">Plausible</span>. Also mechanism, also secondary.</p>
+
+<p>This chapter keeps both because they predict the right direction, and because nothing better exists. But they are not the same class of number as those in chapter 7 or chapter 9.</p>
+
 <h3>About stirring and swirling</h3>
 
 <p>Two different motions, and they are not equivalent:</p>
