@@ -507,6 +507,16 @@ rõ lượng VOC chiết được, **mạnh hơn với các hợp chất kém ph
 yếu tố chi phối chính. Giới hạn quan trọng: **espresso, có áp lực** — không phải pour over, nên
 sách dẫn bài này ở mức Hợp lý.
 
+**[64]** Barista Hustle (28/11/2020). *The Ideal Temperature for French Press.*
+[Link](https://www.baristahustle.com/the-ideal-temperature-for-french-press/)
+
+Bài có hai bộ đo nhiệt độ slurry. **Pour over** (đo của Colin Runnion): rót 96 °C theo kiểu hai
+lần rót, slurry **không bao giờ vượt 90 °C** — đúng với cả phễu nhựa và phễu sứ. **Ngâm** (đo của
+Gwilym Davies): mẻ một lít ở 97 °C giữ slurry trên 90 °C gần 5 phút; mẻ 500 ml mất nhiệt nhanh
+gấp đôi, mẻ 250 ml chỉ lên trên 80 °C vài giây. Lớp bã nổi giữ nhiệt; khuấy phá lớp đó thì nhiệt
+tụt ngay. Bài của nhà đào tạo, không phải nghiên cứu bình duyệt — sách dẫn ở mức Hợp lý. Bài đọc
+bản đầy đủ qua tài khoản của tác giả sách, 14/11/2026.
+
 ---
 
 ## Đối chiếu theo chương
@@ -584,7 +594,7 @@ Lớp sau (14/11/2026) thêm **[55]–[57]**, đưa tổng số lên **57**: hai
 nhiệt độ). Cả ba đã đối chiếu Crossref.
 
 Lớp mục 3 thêm **[58]–[59]** (cảm quan theo TDS; hai nhóm sở thích của người uống), đưa tổng số
-lên **59**. Lớp mục 3.2 thêm **[60]–[63]** (hai bài Hofmann về nguồn gốc vị đắng khi rang; hiệu suất chuyển hợp chất mùi vào ly; động học VOC theo nhiệt), đưa tổng số lên **63**.
+lên **59**. Lớp mục 3.2 thêm **[60]–[63]** (hai bài Hofmann về nguồn gốc vị đắng khi rang; hiệu suất chuyển hợp chất mùi vào ly; động học VOC theo nhiệt), đưa tổng số lên **63**. Thêm **[64]** (đo nhiệt slurry) sau khi tác giả sách mở được bản đầy đủ: **64**.
 
 ---
 

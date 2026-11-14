@@ -309,7 +309,9 @@ TDS ≈ EY × liều ÷ (nước − 2 × liều)
 
 <p>Một chuyện hay bị bỏ qua: con số trên ấm không phải con số mà bã nhìn thấy. Nước mất nhiệt trên đường từ vòi xuống bã, và lớp bã ướt (slurry) luôn mát hơn nước bạn rót. Chương 15 đã ghi khoảng tụt <strong>5–8 °C</strong> <span class="tier tier-b">Hợp lý</span>.</p>
 
-<p>Hệ quả thực hành: nếu bạn rót ở 96 °C vì nghĩ "cần nóng để chiết đủ", bã có thể chưa bao giờ thấy 96 °C. Và nếu bạn đang ở trong dải 87–93 °C đo tại phễu, phần trên cho biết bạn không mất gì nhiều.</p>
+<p>Có phép đo cho chuyện này. Trong một mẻ pour over rót nước <strong>96 °C</strong> theo kiểu hai lần rót — cách làm slurry nóng nhất có thể — nhiệt độ cao nhất mà slurry đạt tới vẫn <strong>dưới 90 °C</strong>, và phần lớn thời gian còn thấp hơn nữa. Đúng với cả phễu nhựa lẫn phễu sứ <span class="tier tier-b">Hợp lý</span> [64].</p>
+
+<p>Hệ quả thực hành có hai phần. Một: nếu bạn rót ở 96 °C vì nghĩ "cần nóng để chiết đủ", bã có thể chưa bao giờ thấy 96 °C — bạn đang ở trong dải 87–93 °C mà không biết. Hai: ngâm giữ nhiệt tốt hơn nhiều. Cùng mức 97 °C, một mẻ ngâm một lít giữ slurry trên 90 °C gần năm phút, vì khối nước lớn hơn và lớp bã nổi trên mặt có tác dụng giữ nhiệt. Đó là lý do một mẻ French press lớn nên pha bằng nước <em>nguội hơn</em> pour over, không phải nóng hơn.</p>
 
 <h4>Vì sao một phần hương không bao giờ vào ly</h4>
 

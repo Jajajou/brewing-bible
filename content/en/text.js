@@ -923,7 +923,9 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 
 <p>Something easy to miss: the number on the kettle is not the number the bed sees. Water loses heat on the way from spout to bed, and the wet bed — the slurry — is always cooler than the water you poured. Chapter 15 puts that drop at <strong>5–8 °C</strong> <span class="tier tier-b">Plausible</span>.</p>
 
-<p>In practice: if you pour at 96 °C because you think you "need it hot enough to extract", the bed may never see 96 °C. And if you are inside 87–93 °C measured at the brewer, the result above says you are not losing much.</p>
+<p>This has been measured. In a pour over poured at <strong>96 °C</strong> in a two-pour pattern — the approach that keeps the slurry as hot as possible — the peak slurry temperature still stayed <strong>below 90 °C</strong>, and for much of the brew it was lower still. That held for a plastic brewer and a ceramic one alike <span class="tier tier-b">Plausible</span> [64].</p>
+
+<p>Two practical consequences. First: if you pour at 96 °C because you think you "need it hot enough to extract", the bed may never see 96 °C — you are inside 87–93 °C without knowing it. Second: immersion holds heat far better. At the same 97 °C, a one-litre immersion brew kept its slurry above 90 °C for nearly five minutes, because the body of water is larger and the floating crust insulates it. That is why a large French press should be brewed <em>cooler</em> than a pour over, not hotter.</p>
 
 <h4>Why some of the aroma never reaches the cup</h4>
 
@@ -3284,7 +3286,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
 <p>The rule is simple: only sentences an outside document can check need a source. Statements about experience, method and advice do not — and none of them should be given a source that merely sounds scientific. Peer-reviewed work with a DOI comes first; where none exists, the industry standard or the primary source from the person who proposed the method.</p>
 
-<p>Sixty-three sources are grouped by subject in A2 and by chapter in A3. Of the 30 chapters, ten rest directly on documents, six rest on them halfway, twelve are method and need no outside source. Two — 17 and 20 — still have no source at all for their central claim; both now say so in the chapter itself and carry the Plausible label.</p>
+<p>Sixty-four sources are grouped by subject in A2 and by chapter in A3. Of the 30 chapters, ten rest directly on documents, six rest on them halfway, twelve are method and need no outside source. Two — 17 and 20 — still have no source at all for their central claim; both now say so in the chapter itself and carry the Plausible label.</p>
 
 <div class="callout">
 <p class="callout-title">A source is not evidence</p>
@@ -3295,7 +3297,7 @@ Buy again?  ___ yes / ___ no      Why: ____________
 
     "ch-nguon-danh-muc": {
       title: "Bibliography",
-      lede: "Sixty-three sources, grouped by subject. Each entry carries a DOI or a link that was opened and read, plus one line on what that source contributes.",
+      lede: "Sixty-four sources, grouped by subject. Each entry carries a DOI or a link that was opened and read, plus one line on what that source contributes.",
       minutes: 12,
       tags: ["appendix", "sources"],
       body: `
@@ -3551,6 +3553,10 @@ Buy again?  ___ yes / ___ no      Why: ____________
 <p><strong>[63]</strong> Sánchez López, J. A., et al. (2016). <em>Extraction kinetics of coffee aroma compounds using a semi-automatic machine: on-line analysis by PTR-ToF-MS.</em> International Journal of Mass Spectrometry, 401, 22–30. doi.org/10.1016/j.ijms.2016.02.015</p>
 
 <p>Higher temperature extracts more volatiles, and more so for the less polar compounds. Limit: measured on espresso under pressure, not pour over — so the book cites it as Plausible.</p>
+
+<p><strong>[64]</strong> Barista Hustle (2020). <em>The Ideal Temperature for French Press.</em> baristahustle.com/the-ideal-temperature-for-french-press/</p>
+
+<p>Slurry temperature measurements. A pour over poured at 96 °C in a two-pour pattern: the slurry never exceeded 90 °C, in a plastic brewer and a ceramic one alike. A one-litre immersion at 97 °C: the slurry stayed above 90 °C for nearly five minutes, because the body of water is larger and the floating crust insulates it. The source for "the slurry is cooler than the kettle" in chapter 9. A trainer's article, not peer-reviewed research.</p>
 <div class="callout">
 <p class="callout-title">Three papers I could not open in full</p>
 <p>[17], [22] and the DOI page for [5] were blocked by the publishers during the check. Their details here come from abstracts and from the SCA review. If you need a sentence-exact citation, open the full text.</p>
