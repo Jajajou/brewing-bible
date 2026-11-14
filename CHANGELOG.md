@@ -28,6 +28,10 @@ Bản in: số bản dựng **rời khỏi trang giấy** — không còn ở b�
 mà nằm trong metadata PDF (ô `Title`). Hash commit ở chân mọi trang là dấu của
 log dựng, không phải của một cuốn sách.
 
+Bản in: không còn **trang trắng giữa các phần**. Bìa phần vẫn đứng riêng một
+trang, nhưng không bị ép mở ở trang lẻ nữa, nên bỏ được 6 trang trắng chèn và
+bản in còn 203 trang.
+
 ## 1.0.0 — 30.10.2026
 
 Bản đầu tiên có số bản in trên bìa và chân trang.
