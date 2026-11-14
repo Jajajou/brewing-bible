@@ -53,6 +53,42 @@ window.BOOK_PARTS.push({
 </table>
 </div>
 
+<h3>Thời gian không phải một núm vặn</h3>
+
+<p>Khi nói "pha hai phút rưỡi", bạn đang mô tả <em>kết quả</em>, không phải một thứ bạn đặt. Thời gian là cái rơi ra từ cỡ xay, cách rót, loại giấy và hình dạng phễu. Không có núm nào ghi "thời gian" trên đó.</p>
+
+<p>Và trong khoảng thời gian ấy, bốn quá trình chạy chồng lên nhau, mỗi cái có thang thời gian riêng:</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Quá trình</th><th>Thang thời gian</th><th>Nguồn của con số</th></tr></thead>
+<tbody>
+<tr><td>Làm ướt bã và thoát CO₂</td><td>Vài chục giây đầu</td><td>Lý do có bước bloom</td></tr>
+<tr><td>Rửa trôi bề mặt hạt</td><td><strong>Vài giây</strong></td><td>Đo được [56]</td></tr>
+<tr><td>Khuếch tán chậm từ trong hạt</td><td><strong>20–150 giây</strong></td><td>Đo được [56]</td></tr>
+<tr><td>Chất từ lõi hạt lớn</td><td>Vài phút, có khi không bao giờ xong</td><td>Suy từ vật lý khuếch tán</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Hai hàng giữa là số đo thật, nhưng đo trong bình khuấy kín — gần với ngâm hơn là với pour over <span class="tier tier-a">Bằng chứng</span> [56]. Hai hàng ngoài là suy luận.</p>
+
+<p>Đọc bảng này theo chiều ngang thì thấy vì sao "kéo dài thời gian" là lời khuyên thô. Thêm ba mươi giây không tác động đều lên bốn hàng: hai hàng trên đã xong từ lâu, hàng thứ ba đang ở giữa, hàng cuối gần như không nhúc nhích. Bạn chỉ đang đẩy sâu thêm một quá trình.</p>
+
+<h3>Vì sao chảy xuyên qua chiết nhanh hơn ngâm</h3>
+
+<p>Chương này đã nói percolation chiết sâu hơn immersion cùng thời gian. Cơ chế là <strong>chênh lệch nồng độ</strong>.</p>
+
+<p>Chất tan đi từ chỗ đậm (trong hạt) ra chỗ loãng (nước quanh hạt), và tốc độ phụ thuộc vào khoảng chênh giữa hai bên. Trong ngâm, nước quanh bã đậm dần lên theo thời gian, khoảng chênh hẹp lại, và quá trình tự chậm. Trong percolation, nước mới liên tục thay chỗ nước đã đậm, nên khoảng chênh được giữ rộng suốt mẻ pha.</p>
+
+<p>Đó là lý do ngâm "tự bảo vệ" còn pour over thì không: một chiếc French press để quên mười phút vẫn uống được, một mẻ V60 nghẹt mười phút thì không.</p>
+
+<div class="callout act">
+<p class="callout-title">Dùng thời gian rút làm chỉ báo, không làm mục tiêu</p>
+<p>Vì thời gian là kết quả, nó là <em>dấu hiệu</em> tốt chứ không phải thứ nên nhắm. Thời gian rút dài bất thường nói rằng bã đang cản nước nhiều hơn mọi khi — có thể do xay mịn hơn, nhiều bột mịn hơn, giấy bị bít, hoặc bã bị nén. Chương 21 có bảng đọc con số đó.</p>
+<p>Chỉnh thời gian bằng cách chỉnh nguyên nhân. Đừng rót chậm lại chỉ để đồng hồ chạm con số bạn muốn.</p>
+</div>
+
 <h3>Vì sao điều này quan trọng với một chiếc Switch</h3>
 
 <p>Hario Switch là một chiếc V60 có van ở đáy. Đóng van: immersion. Mở van: percolation. Đó là lý do nó là dụng cụ thú vị nhất trong phân khúc phổ thông: nó cho bạn <strong>cả hai cơ chế trong một phễu</strong>.</p>

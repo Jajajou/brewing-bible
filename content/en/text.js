@@ -1657,6 +1657,42 @@ Odd:   _______________
 </table>
 </div>
 
+<h3>Time is not a dial</h3>
+
+<p>When you say "a two-and-a-half-minute brew", you are describing an <em>outcome</em>, not something you set. Time falls out of the grind, the pour, the paper and the shape of the brewer. No dial says "time" on it.</p>
+
+<p>And inside that time, four processes run on top of each other, each on its own scale:</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Process</th><th>Timescale</th><th>Where the number comes from</th></tr></thead>
+<tbody>
+<tr><td>Wetting the bed and releasing CO₂</td><td>The first tens of seconds</td><td>The reason the bloom exists</td></tr>
+<tr><td>Washing off particle surfaces</td><td><strong>Seconds</strong></td><td>Measured [56]</td></tr>
+<tr><td>Slow diffusion out of particles</td><td><strong>20–150 seconds</strong></td><td>Measured [56]</td></tr>
+<tr><td>Material from the cores of large particles</td><td>Minutes, sometimes never finished</td><td>Inferred from diffusion physics</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>The two middle rows are real measurements, but taken in a closed stirred vessel — closer to immersion than to a pour over <span class="tier tier-a">Evidence</span> [56]. The outer two are inference.</p>
+
+<p>Read the table across and you see why "brew it longer" is crude advice. Another thirty seconds does not act evenly on four rows: the top two finished long ago, the third is mid-way, the last barely moves. You are only pushing one process further.</p>
+
+<h3>Why percolation extracts faster than immersion</h3>
+
+<p>This chapter already said percolation extracts deeper than immersion in the same time. The mechanism is the <strong>concentration gradient</strong>.</p>
+
+<p>Soluble material travels from where it is concentrated (inside the particle) to where it is dilute (the water around it), and the rate depends on the difference between the two. In immersion, the water around the bed grows more concentrated as the brew goes on, the difference narrows, and the process slows itself. In percolation, fresh water keeps replacing the concentrated water, so the difference stays wide throughout.</p>
+
+<p>That is why immersion is "self-protecting" and pour over is not: a French press forgotten for ten minutes is still drinkable; a V60 clogged for ten minutes is not.</p>
+
+<div class="callout act">
+<p class="callout-title">Use drawdown as an indicator, not a target</p>
+<p>Because time is an outcome, it is a good <em>signal</em> rather than something to aim at. An unusually long drawdown says the bed is resisting water more than usual — a finer grind, more fines, a clogged paper, or a compacted bed. Chapter 21 has the table for reading that number.</p>
+<p>Change the time by changing the cause. Do not pour more slowly just to make the clock hit a number you like.</p>
+</div>
+
 <h3>Why this matters for a Switch</h3>
 
 <p>The Hario Switch is a V60 with a valve at the bottom. Close the valve: immersion. Open it: percolation. That is why it is the most interesting brewer in its price range: it gives you <strong>both mechanisms in one dripper</strong>.</p>
