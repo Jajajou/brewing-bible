@@ -42,12 +42,13 @@ const OEBPS = join(STAGE, "OEBPS");
 /* ---------- đọc nội dung ---------- */
 function loadParts() {
   const win = {};
-  for (let i = 1; i <= 20; i++) {
+  for (let i = 0; i <= 20; i++) {
     const file = join(ROOT, "content", `part-${i}.js`);
     let src;
     try {
       src = readFileSync(file, "utf8");
     } catch {
+      if (i === 0) continue; // part-0 (mở đầu) là tuỳ chọn
       break; // hết phần
     }
     new Function("window", src)(win);
@@ -137,7 +138,7 @@ writeFileSync(
   <p class="kicker">Sách thực hành · Pour Over &amp; Cupping</p>
   <h1>The Brewing<br/><em>Bible</em></h1>
   <p class="dek">Những gì thật sự xảy ra khi nước chạm vào bã cà — và cách biến một ly cupping ngon thành một ly pour-over ngon.</p>
-  <p class="imprint"><b>${PARTS.filter((p) => !p.appendix).length} phần · ${PARTS.filter((p) => !p.appendix).reduce((n, p) => n + (p.chapters || []).length, 0)} chương</b><br/>
+  <p class="imprint"><b>${PARTS.filter((p) => !p.appendix && !p.front).length} phần · ${PARTS.filter((p) => !p.appendix && !p.front).reduce((n, p) => n + (p.chapters || []).length, 0)} chương</b><br/>
   Mỗi khẳng định được đánh dấu theo ba mức bằng chứng: có nghiên cứu · hợp lý nhưng chưa kiểm chứng · truyền miệng.</p>
 </section>`,
     "coverpage"
@@ -148,7 +149,8 @@ const manifest = [];
 const spine = [];
 const navParts = [];
 const ncxPoints = [];
-let counter = 0;
+let counter = 0;   /* số thứ tự file ch-NN.xhtml, đếm cả mở đầu và phụ lục */
+let chcounter = 0; /* số chương in ra, chỉ đếm chương chính */
 let acounter = 0;
 
 PARTS.forEach((part, pi) => {
@@ -163,7 +165,7 @@ PARTS.forEach((part, pi) => {
     page(
       part.title,
       `<section epub:type="part" class="part">
-  <p class="num">${part.appendix ? "Phụ lục" : "Phần " + esc(roman)}</p>
+  <p class="num">${part.front ? "Mở đầu" : part.appendix ? "Phụ lục" : "Phần " + esc(roman)}</p>
   <h1>${esc(part.title)}</h1>
   ${part.blurb ? `<p class="blurb">${esc(part.blurb)}</p>` : ""}
 </section>`
@@ -174,7 +176,7 @@ PARTS.forEach((part, pi) => {
 
   /* nav và ncx dùng CHUNG mảng children — chỉ đẩy mỗi chương một lần vào đó,
      nếu đẩy riêng cho từng bên thì mục lục bị nhân đôi. */
-  const partLabel = `${part.appendix ? "Phụ lục" : "Phần " + roman} · ${part.title}`;
+  const partLabel = `${part.front ? "Mở đầu" : part.appendix ? "Phụ lục" : "Phần " + roman} · ${part.title}`;
   const partNav = { label: partLabel, href: partFile, children: [] };
   navParts.push(partNav);
   ncxPoints.push({
@@ -186,11 +188,12 @@ PARTS.forEach((part, pi) => {
   chs.forEach((ch) => {
     const n = ++counter;
     const file = `ch-${pad(n)}.xhtml`;
-    /* phụ lục đánh riêng A1, A2… — n không bị dùng làm số chương */
-    const chNum = part.appendix ? `A${++acounter}` : pad(n);
+    /* Số chương in ra đếm riêng: mở đầu không có số, phụ lục đánh A1, A2…
+       nên n (số thứ tự file) không được dùng làm số chương. */
+    const chNum = part.front ? "" : part.appendix ? `A${++acounter}` : pad(++chcounter);
 
     const body = `<section epub:type="chapter" class="chapter">
-<p class="chnum">${part.appendix ? "Phụ lục " : "Chương "}${chNum}</p>
+<p class="chnum">${part.front ? "Mở đầu" : (part.appendix ? "Phụ lục " : "Chương ") + chNum}</p>
 <h1>${esc(ch.title)}</h1>
 ${ch.lede ? `<p class="lede">${esc(ch.lede)}</p>` : ""}
 ${toXhtml(BOOK.BOOK_FIGURES ? BOOK.BOOK_FIGURES.render(ch.body, ch.id) : ch.body)}
@@ -200,7 +203,8 @@ ${toXhtml(BOOK.BOOK_FIGURES ? BOOK.BOOK_FIGURES.render(ch.body, ch.id) : ch.body
     manifest.push(`<item id="ch-${n}" href="${file}" media-type="application/xhtml+xml"/>`);
     spine.push(`<itemref idref="ch-${n}"/>`);
 
-    const label = `${chNum}. ${ch.title}`;
+    /* chương mở đầu không có số nên không mượn dấu chấm của số chương */
+    const label = chNum ? `${chNum}. ${ch.title}` : ch.title;
     partNav.children.push({ label, href: file });
   });
 });
@@ -317,7 +321,7 @@ try {
 }
 
 rmSync(STAGE, { recursive: true, force: true });
-const mainParts = PARTS.filter((p) => !p.appendix);
+const mainParts = PARTS.filter((p) => !p.appendix && !p.front);
 console.log(
   `✓ ${OUT}  ·  ${mainParts.length} phần + phụ lục  ·  ${mainParts.reduce((n, p) => n + (p.chapters || []).length, 0)} chương`
 );

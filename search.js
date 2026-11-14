@@ -113,8 +113,9 @@
     return typeof limit === "number" ? out.slice(0, limit) : out;
   }
 
-  /* "01"–"29" cho chương, "A1"–"A4" cho phụ lục. */
-  function numLabel(isAppendix, n, np) {
+  /* "01"–"29" cho chương, "A1"–"A4" cho phụ lục, "·" cho phần mở đầu. */
+  function numLabel(isAppendix, n, np, isFront) {
+    if (isFront) return "·";
     return isAppendix ? "A" + np : String(n).padStart(2, "0");
   }
 

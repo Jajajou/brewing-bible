@@ -21,6 +21,7 @@
 
   function chLabel(n) { return I18N.chapterLabel(LANG, n); }
   function partLabel(part, pi) {
+    if (part && part.front) return (I18N.ui[LANG] || {}).frontMatter || "Mở đầu";
     if (part && part.appendix) return (I18N.ui[LANG] || {}).appendix || "Phụ lục";
     return I18N.partLabel(LANG, (part && part.roman) || ROMAN[pi] || "");
   }
@@ -29,7 +30,7 @@
   function loadOverlay(lang) {
     return new Promise(function (resolve) {
       var s = document.createElement("script");
-      s.src = "content/" + lang + "/text.js?v=4e7e17b";
+      s.src = "content/" + lang + "/text.js?v=fa9194c";
       s.onload = function () { resolve(window.BOOK_TEXT || null); };
       s.onerror = function () { resolve(null); };
       document.head.appendChild(s);
@@ -53,15 +54,18 @@
 
   /* Phụ lục là chương của nó, không phải chương 30–33: bìa vẫn ghi 29 chương,
      và thanh tiến độ đọc cũng chỉ đếm 29 chương chính. */
-  function isAppendix(part) { return !!(part && part.appendix); }
+  /* Phần mở đầu cũng không đánh số chương: nếu nó thành chương 1 thì mọi
+     tham chiếu "xem chương N" trong sách lệch đi một. */
+  function isAppendix(part) { return !!(part && (part.appendix || part.front)); }
   var MAIN = flat.filter(function (e) { return !isAppendix(e.part); });
   var MAIN_PARTS = PARTS.filter(function (p) { return !isAppendix(p); });
   var TOTAL = MAIN.length;
 
   function numLabel(entry) {
-    return S.numLabel(isAppendix(entry.part), entry.n, entry.np);
+    return S.numLabel(isAppendix(entry.part), entry.n, entry.np, !!(entry.part && entry.part.front));
   }
   function kickerLabel(entry) {
+    if (entry.part && entry.part.front) return partLabel(entry.part);
     return isAppendix(entry.part) ? partLabel(entry.part) + " A" + entry.np : chLabel(entry.n);
   }
 

@@ -1,6 +1,6 @@
 # The Brewing Bible
 
-Một cuốn sách thực hành về **pour over** và **cupping** — 8 phần, 30 chương, và một phụ lục nguồn tham chiếu.
+Một cuốn sách thực hành về **pour over** và **cupping** — phần mở đầu, 8 phần, 30 chương, và một phụ lục nguồn tham chiếu.
 
 Đọc trực tuyến: **https://jajajou.github.io/brewing-bible/**
 
@@ -46,7 +46,7 @@ Mọi khẳng định quan trọng trong sách — nghĩa là mọi câu có th�
 index.html            khung trang web
 styles.css            toàn bộ giao diện web
 book.js               router, mục lục, tìm kiếm, tiến độ
-content/part-*.js     nội dung 8 phần + phụ lục (dữ liệu JS)
+content/part-*.js     nội dung phần mở đầu, 8 phần + phụ lục (dữ liệu JS)
 REFERENCES.md         danh mục nguồn dạng đọc ngoài trình duyệt (nguồn gốc của phụ lục)
 content/en/text.js    bản dịch tiếng Anh (chỉ dùng cho bản web)
 content/ja/text.js    bản dịch tiếng Nhật (chỉ dùng cho bản web)
@@ -84,7 +84,7 @@ Bản gốc là tiếng Việt. Bản dịch nằm trong `content/en/text.js` v�
 
 Mỗi file dịch có cùng cấu trúc: `parts` (tiêu đề phần) và `chapters` (tiêu đề, lede, phút đọc, tag, thân bài). Chương chưa có `body` sẽ hiện thông báo "chưa dịch" kèm link sang bản tiếng Việt, nên có thể đẩy lên web từng phần một mà không sợ trang vỡ.
 
-**Trạng thái:** tiếng Anh đủ **34/34** (30 chương + 4 chương phụ lục); tiếng Nhật **3/34** có thân bài (Phần I — Hạt), 34/34 có tiêu đề.
+**Trạng thái:** tiếng Anh đủ **37/37** (3 chương mở đầu + 30 chương + 4 chương phụ lục); tiếng Nhật **3/37** có thân bài (Phần I — Hạt), 37/37 có tiêu đề.
 
 Quy ước thuật ngữ và ba nhãn bằng chứng nằm ở [TRANSLATION.md](TRANSLATION.md). Trước khi commit một phần đã dịch:
 

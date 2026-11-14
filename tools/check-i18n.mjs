@@ -15,9 +15,9 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
 function loadParts() {
   const win = {};
-  for (let i = 1; i <= 20; i++) {
+  for (let i = 0; i <= 20; i++) {
     const f = join(ROOT, "content", `part-${i}.js`);
-    if (!existsSync(f)) break;
+    if (!existsSync(f)) { if (i === 0) continue; break; }
     new Function("window", readFileSync(f, "utf8"))(win);
   }
   return win.BOOK_PARTS || [];

@@ -116,3 +116,9 @@ test("numLabel: chương hai chữ số, phụ lục một chữ A", () => {
   assert.equal(S.numLabel(true, 30, 1), "A1");
   assert.equal(S.numLabel(true, 33, 4), "A4");
 });
+
+test("numLabel: chương phần mở đầu không mang số", () => {
+  /* Nếu phần mở đầu lấy số chương thì mọi câu "xem chương N" lệch một. */
+  assert.equal(S.numLabel(true, 1, 1, true), "·");
+  assert.equal(S.numLabel(false, 1, 1, false), "01");
+});

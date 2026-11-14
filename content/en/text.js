@@ -1,5 +1,6 @@
 window.BOOK_TEXT = {
   parts: {
+    "mo-dau": { title: "Before you begin", blurb: "Why this book exists, how to use it, and the words you will meet in it" },
     "phan-1": { title: "The Bean", blurb: "What is already decided before you touch the kettle" },
     "phan-2": { title: "Water", blurb: "98% of your cup is water" },
     "phan-3": { title: "Extraction", blurb: "Truths and legends about what water takes away" },
@@ -12,6 +13,222 @@ window.BOOK_TEXT = {
   },
 
   chapters: {
+    "ch-loi-mo-dau": {
+      title: "Preface: three cups",
+      lede: "One cup I believed was my best, one clean cup that was missing something, one full of aroma that was dirty. None of them had arrived.",
+      minutes: 5,
+      tags: ["front matter"],
+      body: `
+<p>I wrote this book because of one cup of coffee. Not the best cup I have ever brewed — the cup I believed was my best, until a hastily made cupping bowl beat it.</p>
+
+<h3>Three cups</h3>
+
+<p><strong>The first cup.</strong> A morning in November: a Nuimin coffee, nine days off roast. V60 02, 15 g of coffee, 240 g of water at 80 °C, a Q Air at 2.5.0, three pours — 45 g at 0:00, up to 80 g at 0:45, up to 240 g at 1:45. Two minutes forty-five in total, forty-five seconds of drawdown, a flat bed. I sat down and thought: this is my best cup.</p>
+
+<p>Then I cupped that same coffee, in the laziest possible way: grounds in a bowl, hot water over them, four minutes, skim the foam, let it cool a little, take a sip. The bowl was sweet like strawberry. No sourness, no astringency, no bitterness. So clean that I brewed the V60 again to be sure I had not misremembered.</p>
+
+<p>That is the question on the cover of this book: how to turn a good cupping bowl into a good pour over. I did not know the full answer when I began writing, and this book does not pretend that I did.</p>
+
+<p><strong>The second cup.</strong> My base recipe on the V60 is 1:16. Bloom twice, with the total bloom water at three times the mass of the coffee, so the gas can escape, then pour all the remaining water in one go. Every time it gave a flat, handsome bed and a clean cup. It tasted good.</p>
+
+<p>But something was missing. With a good coffee — an SL28, a Sidra Geisha — the spent bed still smelled of the coffee after brewing. The aroma was still in the bed, which means it never reached the cup. My base recipe delivered about 80% of that coffee, and never one hundred.</p>
+
+<p>I do not mind bitterness. I mind lingering bitterness: nothing while you drink, then thirty seconds later you swallow and it is still bitter. That is the thing I wanted out of the cup.</p>
+
+<p><strong>The third cup.</strong> I saw the Orea Z1 — a no-bypass dripper — and thought: the same thing might work with two phins stacked. The lower phin holds the grounds, the upper one meters the water, which drips down. The reason was not only technical: the phin is a Vietnamese tool, and I wanted it to have a place in this book.</p>
+
+<p>The test ran side by side with a V60: the same 10 g of coffee, 160 ml of water, the same grind, the same temperature, the same pouring rhythm of 30–50–50–30. The phin cup won on aroma, clearly: beautiful, with nothing missing, bright acidity, and a spent bed that smelled of nothing — for the first time I had taken everything out of the coffee.</p>
+
+<p>But the phin cup was heavier in the mouth, more astringent, and the finish was not clean. No bitterness while drinking; thirty seconds later, swallowing, still bitter. I tried more variations and got the same thing. I gave up on the double phin and went back to the V60 and the Cafec Deep 27. The cup has to taste good, or brewing it is not fun. That test ran once and was not blind — I say so here, because that matters more than the result.</p>
+
+<p>Those three cups, together, taught me one thing: taking out all the aroma is not enough. How you take it out decides the finish. And a clean cup with too little aroma is not the cup I want to drink either.</p>
+
+<h3>Why this book exists</h3>
+
+<p>I have read a great deal of brewing advice, and most of it has been repeated for long enough that nobody asks why any more. Pour in a spiral. Bloom for thirty seconds. Split the water into two pours. Each of those may be right, but if nobody can state the mechanism, you have no way of knowing whether it applies to your coffee.</p>
+
+<p>This book sets one rule for itself: every piece of advice has to answer the question “why”. And when the answer is “because that is what everyone does”, the book has to say exactly that.</p>
+
+<h3>Who this book is for</h3>
+
+<p>For the home brewer who already has a scale and a grinder, who has brewed a V60 or something like it, and who wants to know why today's cup is good and yesterday's was not. For the person who dislikes lingering bitterness and is looking for aroma and sweetness. For the person willing to keep a log, change one thing at a time, and taste blind.</p>
+
+<p>Not for anyone who wants a magic recipe that works for every coffee — the book says plainly that a number does not transfer to another coffee. Not for anyone who needs a competition routine or a café workflow. Not for anyone looking for espresso, or for a traditional phin with robusta and condensed milk.</p>
+
+<h3>A promise</h3>
+
+<p>The book will state clearly which parts rest on research, which on experience, and which on hearsay. Including the things I myself believe. Where I do not know, I will write that I do not know, rather than a sentence that sounds certain.</p>
+
+<p>That is the whole reason the three evidence labels exist — and the reason they appear on the next page, before the first chapter.</p>
+`
+    },
+
+    "ch-cach-doc": {
+      title: "How to read this book",
+      lede: "Three evidence labels, three reading routes, and the whole book on one page if you only have ten minutes.",
+      minutes: 6,
+      tags: ["front matter", "how to use"],
+      body: `
+<p>This book has thirty chapters. You do not need to read all of them, and you certainly do not need to read them in order. This page tells you how to use it.</p>
+
+<h3>Three evidence labels</h3>
+
+<p>Specialty coffee is full of advice repeated often enough to feel like fact. This book does not pretend every sentence in it is equally solid. Every important claim — meaning every sentence that could be checked against an outside document — carries one of three labels:</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Label</th><th>What it means</th><th>What to do with it</th></tr></thead>
+<tbody>
+<tr><td><span class="tier tier-a">Evidence</span></td><td>Backed by peer-reviewed research, an industry standard, or controlled measurement. The source is in appendix A2.</td><td>Trust it, but read the limits too — a study on one coffee does not speak for every coffee.</td></tr>
+<tr><td><span class="tier tier-b">Plausible</span></td><td>Inferred from physics or chemistry, or from expert practice, but nobody has run a sensory test.</td><td>Use it as a hypothesis. It predicts the right direction; nobody knows the size of the effect.</td></tr>
+<tr><td><span class="tier tier-c">Folklore</span></td><td>Community experience. Repeated widely, verified by nobody.</td><td>Worth knowing so you understand why people say it. Do not build a recipe around it.</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Sentences about <em>method</em> and <em>personal experience</em> carry no label — "pour in a spiral from the centre out" is not a claim needing a source, it is an instruction. Labelling sentences like that as evidence would overstate them.</p>
+
+<div class="callout">
+<p class="callout-title">Having a source does not make it true</p>
+<p>A small paper, a trial on twenty people, a model nobody has validated — all of these are sources. What decides the matter is the design of the study. Appendix A2 states the design whenever it matters, including when that weakens a claim in the main text.</p>
+</div>
+
+<h3>Three reading routes</h3>
+
+<h4>If you are new to brewing</h4>
+
+<p>Read these seven chapters, in order. They give you a workable system and skip everything you do not need yet.</p>
+
+<div class="steps">
+<ol>
+<li><strong>Chapter 1</strong><p>Why most of the flavour in the cup is decided before you touch the kettle.</p></li>
+<li><strong>Chapter 7</strong><p>Three numbers: extraction, TDS, ratio. Enough to understand every other piece of advice.</p></li>
+<li><strong>Chapter 9</strong><p>The three things you actually control.</p></li>
+<li><strong>Chapter 15</strong><p>Immersion and percolation — two mechanisms, and why they differ.</p></li>
+<li><strong>Chapter 20</strong><p>Reading the bed: diagnosing with your eyes instead of your feelings.</p></li>
+<li><strong>Chapter 25</strong><p>The anatomy of a sip. Why "flavour" is mostly smell.</p></li>
+<li><strong>Chapter 28</strong><p>The brew log. The cheapest thing that makes you improve fastest.</p></li>
+</ol>
+</div>
+
+<p>And if you only do one thing after reading: <strong>fix your water first</strong>. Part II shows how, and it costs very little.</p>
+
+<h4>If you already brew</h4>
+
+<p>You have a recipe that works. These chapters aim at where people go wrong, not at the basics.</p>
+
+<ul>
+<li><strong>Chapters 4 to 6</strong> — water. This is where the evidence is strongest and the neglect is deepest, including among experienced brewers.</li>
+<li><strong>Chapter 8</strong> — why "acids first, bitterness last" does not hold up, and how that changes the way you adjust.</li>
+<li><strong>Chapters 14 to 19</strong> — cupping, brewers, pouring technique, the anatomy of a recipe, champions' recipes.</li>
+<li><strong>Chapter 21</strong> — the diagnostic table. For when a cup is off and you do not know where to start.</li>
+</ul>
+
+<h4>If you only have ten minutes</h4>
+
+<p>Read exactly this. It is the core of the whole book.</p>
+
+<div class="callout ok">
+<p class="callout-title">The whole book on one page</p>
+<ul>
+<li><strong>A cup has a ceiling, and the ceiling is set before you begin.</strong> Variety, processing, roast level, freshness. You do not create flavour — you can only drop it.</li>
+<li><strong>Water is the first thing worth fixing.</strong> The cup is 98% water, and high alkalinity flattens fruit. Bottled water in Vietnam often runs three to six times higher than it should.</li>
+<li><strong>Grind comes second</strong>, but it is not one dial: finer grinding raises extraction and lowers evenness at the same time, and the two pull against each other.</li>
+<li><strong>Extraction is a knob, not a valve.</strong> No technique keeps the sweetness and leaves the bitterness behind.</li>
+<li><strong>Ratio sets strength; grind, temperature and time set extraction; pouring sets evenness.</strong> Three levers, three different jobs.</li>
+<li><strong>One change at a time.</strong> Change two and you learn nothing, even if the cup improves.</li>
+<li><strong>Taste at three temperatures</strong> and <strong>look at the bed</strong>. Your palate lies; the bed does not.</li>
+</ul>
+</div>
+
+<h3>About the appendix</h3>
+
+<p>Appendix A is not decoration. It lists every source, says what that source measured, and — more usefully — records the places where the book once claimed more than the documents allow and had to be corrected. If you want to check a claim, start there.</p>
+`
+    },
+
+    "ch-thuat-ngu": {
+      title: "Glossary",
+      lede: "Twenty-five words you will meet again throughout the book, each with the reason it matters to your cup.",
+      minutes: 7,
+      tags: ["front matter", "reference"],
+      body: `
+<p>These words run through the whole book. Each entry gives the meaning, then says why it matters to your cup.</p>
+
+<h3>Measurement</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Term</th><th>Meaning</th><th>Why it matters</th></tr></thead>
+<tbody>
+<tr><td><strong>EY</strong> (extraction yield)</td><td>The percentage of the dry coffee's mass that ended up in the cup. Usual band: 18–22%.</td><td>Says <em>how much</em> you took from the bean. Chapter 7.</td></tr>
+<tr><td><strong>TDS</strong> (total dissolved solids)</td><td>The concentration of dissolved material in the cup, as a percentage. Pour over usually 1.15–1.35%.</td><td>Says <em>how strong</em> the cup is. Entirely different from EY — confusing the two is behind most adjustments made in the wrong direction.</td></tr>
+<tr><td><strong>Brew ratio</strong></td><td>Mass of coffee against mass of water. 1:16 is 1 g of coffee to 16 g of water.</td><td>The most predictable lever. Change the ratio and TDS moves almost linearly.</td></tr>
+<tr><td><strong>Alkalinity</strong></td><td>The water's capacity to buffer acid, in ppm as CaCO₃. Target around 40 ppm.</td><td>The one thing in water that really decides flavour. Too high and the fruit disappears. Chapter 4.</td></tr>
+<tr><td><strong>dKH</strong></td><td>German carbonate hardness, the unit on aquarium test kits. 1 dKH = 17.86 ppm as CaCO₃.</td><td>The cheapest way to measure alkalinity. Chapter 5.</td></tr>
+<tr><td><strong>Hardness</strong></td><td>The calcium and magnesium in water. <em>Not</em> alkalinity.</td><td>The two are often printed side by side on labels and are often confused. A softener treats hardness, not alkalinity.</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Brewing mechanisms</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Term</th><th>Meaning</th><th>Why it matters</th></tr></thead>
+<tbody>
+<tr><td><strong>Immersion</strong></td><td>The grounds sit in one body of water for the whole brew. French press, cupping.</td><td>Naturally even, channelling is impossible, and it slows itself as the water saturates.</td></tr>
+<tr><td><strong>Percolation</strong></td><td>Water flows through the bed and out. V60, Kalita, phin, espresso.</td><td>The water is always fresh, so it extracts deeper than immersion in the same time — but it can be uneven.</td></tr>
+<tr><td><strong>Slurry</strong></td><td>The mixture of grounds and water in the brewer during the brew.</td><td>Slurry temperature is always below kettle temperature. That is the temperature the bed actually sees. Chapter 9.</td></tr>
+<tr><td><strong>Bloom</strong></td><td>The first small pour, letting the bed release CO₂ before the main pours.</td><td>CO₂ pushes water away from the grounds. Skip the bloom with fresh coffee and extraction goes uneven.</td></tr>
+<tr><td><strong>Channelling</strong></td><td>Water finds a path of least resistance and runs through it, bypassing the rest of the bed.</td><td>Gives a cup that is <em>sour and bitter at once</em> — what was bypassed is under-extracted, what was on the path is over-extracted.</td></tr>
+<tr><td><strong>Bypass</strong></td><td>Water running down the paper wall without passing through the whole bed.</td><td>Leaves the bottom of the bed less extracted than the top. The "no-bypass" family of brewers exists to stop it. Chapter 15.</td></tr>
+<tr><td><strong>Drawdown</strong></td><td>The time for water to drain through the bed, usually counted at the end of the brew.</td><td>It is an <em>outcome</em>, not something you set. Use it as a signal: an unusually long drawdown means the bed is resisting water.</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Beans and grounds</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Term</th><th>Meaning</th><th>Why it matters</th></tr></thead>
+<tbody>
+<tr><td><strong>Fines</strong></td><td>The smallest particles in a grind, typically around 30–40 µm.</td><td>Both harmful and necessary: too many and you get clogging and astringency, too few and the water channels. Chapter 10.</td></tr>
+<tr><td><strong>Boulders</strong></td><td>The largest particles in a grind.</td><td>Much slower to extract — the time for material to leave the core rises with the square of particle size.</td></tr>
+<tr><td><strong>Particle size distribution</strong></td><td>The whole spread of particle sizes in a grind, not just the average.</td><td>Two grinds with the same median can still give two different cups, because the spread differs.</td></tr>
+<tr><td><strong>D50</strong> (median)</td><td>The size below which half the mass sits.</td><td>The number grind charts usually print. It says nothing about the width of the spread.</td></tr>
+<tr><td><strong>Burr</strong></td><td>Two grinding discs that cut beans to a set gap. Unlike a blade grinder, which smashes them.</td><td>A blade grinder cannot give a controlled distribution. This is the first upgrade worth making after water.</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Roasting and perception</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Term</th><th>Meaning</th><th>Why it matters</th></tr></thead>
+<tbody>
+<tr><td><strong>First crack</strong></td><td>The first audible crack in roasting, around 196–205 °C, as steam and CO₂ split the bean.</td><td>The marker between light and medium roast.</td></tr>
+<tr><td><strong>Second crack</strong></td><td>The second crack, around 224–230 °C, as the cellulose structure starts to fracture.</td><td>Past this is dark roast. An oily sheen on the bean is the sign.</td></tr>
+<tr><td><strong>Quinides</strong> (chlorogenic acid lactones)</td><td>A family of bitter compounds formed during roasting, peaking at light to medium levels.</td><td>The "coffee-typical" bitterness. Made in the roaster, not in the brewer. Chapter 9.</td></tr>
+<tr><td><strong>Phenylindanes</strong></td><td>The bitter family produced when harder roasting breaks the quinides down further.</td><td>Harsher and longer-lingering. This is why dark roast gives a bitterness of a different <em>kind</em>, not merely more of it.</td></tr>
+<tr><td><strong>Retronasal</strong></td><td>The route aroma takes from the mouth back up to the nose as you swallow.</td><td>Most of what you call "flavour" travels this way. The tongue registers only five basic tastes. Chapter 25.</td></tr>
+<tr><td><strong>Astringency</strong></td><td>A drying, rasping feeling in the mouth — a <em>tactile</em> sensation, not a taste.</td><td>Often misnamed "bitterness". The causes are usually different, so the fixes are too.</td></tr>
+<tr><td><strong>Cupping</strong></td><td>A standardised tasting protocol: fixed ratio, immersion, no filter.</td><td>Tells you a coffee's ceiling, separated from brewing technique. Part IV.</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="callout act">
+<p class="callout-title">If you remember only three words</p>
+<p><strong>Alkalinity</strong> — the thing in water that decides flavour, and the thing almost nobody has measured.</p>
+<p><strong>Channelling</strong> — why one cup can be sour and bitter at once, and why pouring technique exists.</p>
+<p><strong>EY against TDS</strong> — how much you took out, against how strong the cup is. Two things, two levers.</p>
+</div>
+`
+    },
+
     "ch-bon-bien-so": {
       title: "Four variables already set before you touch the kettle",
       lede: "Most of the flavour in your cup was decided in advance. Knowing that does not leave you powerless — it frees you from optimising things that do not matter.",
