@@ -191,7 +191,7 @@ Mở `print.html` bằng tay thì không có số bản nào để gắn — kh�
 
 Script tự bật một static server tạm ([tools/serve.mjs](tools/serve.mjs) — Paged.js không chạy được với `file://`), dựng trang, **chờ Paged.js phân trang xong** rồi mới in. Cần Chrome/Chromium, Node 18+ và poppler-utils (`pdftotext`, `pdfinfo`, `pdffonts`) cho bước tự kiểm.
 
-Bản dàn trang: khổ A5 148×210 mm, lề 17/16/18 mm, chạy đầu trang theo tên phần, số trang chân, mục lục có số trang thật (dùng `target-counter`), bìa và trang phần riêng. Hiện **203 trang**, không có trang trắng: bìa phần đứng riêng một trang nhưng không bị ép sang trang lẻ (đọc PDF trên màn hình không có trang trái/phải).
+Bản dàn trang: khổ A5 148×210 mm, lề 17/16/18 mm, chạy đầu trang theo tên phần, số trang chân, mục lục có số trang thật (dùng `target-counter`), bìa và trang phần riêng. Hiện **210 trang**, không có trang trắng: bìa phần đứng riêng một trang nhưng không bị ép sang trang lẻ (đọc PDF trên màn hình không có trang trái/phải).
 
 ### Quy trình chống hỏng
 
