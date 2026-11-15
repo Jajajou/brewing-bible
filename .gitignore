@@ -1,2 +1,8 @@
 .refs-cache.json
 .DS_Store
+
+# Bản trung gian của hình: adapt-figures.mjs sinh ra từ
+# docs/brewing-bible-figures/svg/, rồi build-plates.mjs gói vào
+# figures-plates.js. Chỉ figures-plates.js là thứ sách dùng, nên bản
+# trung gian không cần nằm trong lịch sử.
+figures-svg/

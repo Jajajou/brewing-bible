@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 380" width="660" height="380" role="img">
+<title>Double phin</title>
+<desc>No shortcut</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+<g font-family="'Be Vietnam Pro','Inter','Noto Sans','Helvetica Neue',Arial,sans-serif">
+<rect x="212" y="40" width="148" height="92" rx="6" fill="#DCE8F4" stroke="#2B2622" stroke-width="2"/>
+<line x1="222.0" y1="64.0" x2="350.0" y2="64.0" stroke="#4F86B7" stroke-width="2" stroke-linecap="round"/>
+<line x1="256.0" y1="132.0" x2="256.0" y2="141.0" stroke="#4F86B7" stroke-width="2" stroke-linecap="round"/>
+<line x1="286.0" y1="132.0" x2="286.0" y2="141.0" stroke="#4F86B7" stroke-width="2" stroke-linecap="round"/>
+<line x1="316.0" y1="132.0" x2="316.0" y2="141.0" stroke="#4F86B7" stroke-width="2" stroke-linecap="round"/>
+<circle cx="256" cy="156" r="3.2" fill="#4F86B7"/>
+<circle cx="286" cy="147" r="3.2" fill="#4F86B7"/>
+<circle cx="316" cy="163" r="3.2" fill="#4F86B7"/>
+<rect x="212" y="180" width="148" height="138" rx="6" fill="none" stroke="#2B2622" stroke-width="2"/>
+<rect x="215" y="184" width="142" height="36" rx="3" fill="#DCE8F4" stroke="none" stroke-width="1"/>
+<line x1="215.0" y1="187.0" x2="357.0" y2="187.0" stroke="#4F86B7" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="215" y="222" width="142" height="86" rx="3" fill="#F4E2C8" stroke="none" stroke-width="1"/>
+<circle cx="224.0" cy="232.0" r="2.5" fill="#7A4E33"/>
+<circle cx="242.0" cy="235.0" r="2.5" fill="#7A4E33"/>
+<circle cx="255.0" cy="233.0" r="2.5" fill="#7A4E33"/>
+<circle cx="273.0" cy="236.0" r="2.5" fill="#7A4E33"/>
+<circle cx="286.0" cy="234.0" r="2.5" fill="#7A4E33"/>
+<circle cx="299.0" cy="232.0" r="2.5" fill="#7A4E33"/>
+<circle cx="317.0" cy="235.0" r="2.5" fill="#7A4E33"/>
+<circle cx="330.0" cy="233.0" r="2.5" fill="#7A4E33"/>
+<circle cx="348.0" cy="236.0" r="2.5" fill="#7A4E33"/>
+<circle cx="226.0" cy="250.0" r="2.5" fill="#7A4E33"/>
+<circle cx="239.0" cy="248.0" r="2.5" fill="#7A4E33"/>
+<circle cx="257.0" cy="251.0" r="2.5" fill="#7A4E33"/>
+<circle cx="270.0" cy="249.0" r="2.5" fill="#7A4E33"/>
+<circle cx="288.0" cy="252.0" r="2.5" fill="#7A4E33"/>
+<circle cx="301.0" cy="250.0" r="2.5" fill="#7A4E33"/>
+<circle cx="314.0" cy="248.0" r="2.5" fill="#7A4E33"/>
+<circle cx="332.0" cy="251.0" r="2.5" fill="#7A4E33"/>
+<circle cx="345.0" cy="249.0" r="2.5" fill="#7A4E33"/>
+<circle cx="228.0" cy="268.0" r="2.5" fill="#7A4E33"/>
+<circle cx="241.0" cy="266.0" r="2.5" fill="#7A4E33"/>
+<circle cx="254.0" cy="264.0" r="2.5" fill="#7A4E33"/>
+<circle cx="272.0" cy="267.0" r="2.5" fill="#7A4E33"/>
+<circle cx="285.0" cy="265.0" r="2.5" fill="#7A4E33"/>
+<circle cx="303.0" cy="268.0" r="2.5" fill="#7A4E33"/>
+<circle cx="316.0" cy="266.0" r="2.5" fill="#7A4E33"/>
+<circle cx="329.0" cy="264.0" r="2.5" fill="#7A4E33"/>
+<circle cx="347.0" cy="267.0" r="2.5" fill="#7A4E33"/>
+<circle cx="225.0" cy="281.0" r="2.5" fill="#7A4E33"/>
+<circle cx="243.0" cy="284.0" r="2.5" fill="#7A4E33"/>
+<circle cx="256.0" cy="282.0" r="2.5" fill="#7A4E33"/>
+<circle cx="269.0" cy="280.0" r="2.5" fill="#7A4E33"/>
+<circle cx="287.0" cy="283.0" r="2.5" fill="#7A4E33"/>
+<circle cx="300.0" cy="281.0" r="2.5" fill="#7A4E33"/>
+<circle cx="318.0" cy="284.0" r="2.5" fill="#7A4E33"/>
+<circle cx="331.0" cy="282.0" r="2.5" fill="#7A4E33"/>
+<circle cx="344.0" cy="280.0" r="2.5" fill="#7A4E33"/>
+<circle cx="227.0" cy="299.0" r="2.5" fill="#7A4E33"/>
+<circle cx="240.0" cy="297.0" r="2.5" fill="#7A4E33"/>
+<circle cx="258.0" cy="300.0" r="2.5" fill="#7A4E33"/>
+<circle cx="271.0" cy="298.0" r="2.5" fill="#7A4E33"/>
+<circle cx="284.0" cy="296.0" r="2.5" fill="#7A4E33"/>
+<circle cx="302.0" cy="299.0" r="2.5" fill="#7A4E33"/>
+<circle cx="315.0" cy="297.0" r="2.5" fill="#7A4E33"/>
+<circle cx="333.0" cy="300.0" r="2.5" fill="#7A4E33"/>
+<circle cx="346.0" cy="298.0" r="2.5" fill="#7A4E33"/>
+<polyline points="202.0,331.0 214.0,310.0 358.0,310.0 370.0,331.0" fill="none" stroke="#8C847C" stroke-width="2" stroke-linejoin="round"/>
+<rect x="208" y="318" width="156" height="10" rx="3" fill="#CFC7BE" stroke="#2B2622" stroke-width="1.6"/>
+<line x1="286.0" y1="333.0" x2="286.0" y2="358.0" stroke="#7A4E33" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="2 6"/>
+<line x1="246.0" y1="228.0" x2="246.0" y2="292.0" stroke="#2F8573" stroke-width="2.4" stroke-linecap="round" marker-end="url(#arr)"/>
+<line x1="326.0" y1="228.0" x2="326.0" y2="292.0" stroke="#2F8573" stroke-width="2.4" stroke-linecap="round" marker-end="url(#arr)"/>
+<line x1="412.0" y1="58.0" x2="364.0" y2="70.0" stroke="#6B625A" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="420.0" y="62.0" font-size="14" fill="#2B2622" text-anchor="start" font-weight="700">Upper phin</text>
+<text x="420.0" y="80.0" font-size="12" fill="#6B625A" text-anchor="start" font-weight="400">water distributor</text>
+<line x1="412.0" y1="132.0" x2="322.0" y2="152.0" stroke="#6B625A" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="420.0" y="136.0" font-size="14" fill="#2B2622" text-anchor="start" font-weight="700">Drips down</text>
+<text x="420.0" y="154.0" font-size="12" fill="#6B625A" text-anchor="start" font-weight="400">even flow, no pouring force</text>
+<line x1="412.0" y1="210.0" x2="332.0" y2="226.0" stroke="#6B625A" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="420.0" y="214.0" font-size="14" fill="#2B2622" text-anchor="start" font-weight="700">No shortcut</text>
+<text x="420.0" y="232.0" font-size="12" fill="#6B625A" text-anchor="start" font-weight="400">water has one way out</text>
+<line x1="412.0" y1="296.0" x2="372.0" y2="324.0" stroke="#6B625A" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="420.0" y="300.0" font-size="14" fill="#2B2622" text-anchor="start" font-weight="700">AeroPress paper</text>
+<text x="420.0" y="318.0" font-size="12" fill="#6B625A" text-anchor="start" font-weight="400">edges wrap under the base</text>
+<line x1="196.0" y1="192.0" x2="206.0" y2="204.0" stroke="#6B625A" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="190.0" y="196.0" font-size="14" fill="#2B2622" text-anchor="end" font-weight="700">Lower phin</text>
+<text x="190.0" y="214.0" font-size="12" fill="#6B625A" text-anchor="end" font-weight="400">brew chamber, holds the coffee</text>
+<line x1="196.0" y1="268.0" x2="206.0" y2="280.0" stroke="#6B625A" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="190.0" y="272.0" font-size="14" fill="#2B2622" text-anchor="end" font-weight="700">Chamber holds ~100 ml</text>
+<text x="190.0" y="290.0" font-size="12" fill="#6B625A" text-anchor="end" font-weight="400">so you pour in stages</text>
+<text x="642.0" y="366.0" font-size="12" fill="#6B625A" text-anchor="end" font-weight="400" font-style="italic">Illustrative shape, not measured data</text>
+</g>
+</svg>

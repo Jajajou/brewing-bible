@@ -53,11 +53,14 @@ function loadParts() {
     }
     new Function("window", src)(win);
   }
-  /* hình minh hoạ: cùng một file với bản web, để EPUB không lệch hình */
-  try {
-    new Function("window", readFileSync(join(ROOT, "figures.js"), "utf8"))(win);
-  } catch (err) {
-    console.error("Không nạp được figures.js: " + err.message);
+  /* hình minh hoạ: cùng một file với bản web, để EPUB không lệch hình.
+     figures-plates.js phải nạp trước vì figures.js đọc window.BOOK_PLATES. */
+  for (const fig of ["figures-plates.js", "figures.js"]) {
+    try {
+      new Function("window", readFileSync(join(ROOT, fig), "utf8"))(win);
+    } catch (err) {
+      console.error(`Không nạp được ${fig}: ` + err.message);
+    }
   }
   return win;
 }

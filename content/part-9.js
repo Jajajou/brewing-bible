@@ -8,25 +8,25 @@
     roman: "A",
     appendix: true,
     title: "Nguồn tham chiếu",
-    blurb: "Sách dùng ba nhãn bằng chứng. Phụ lục này cho bạn thấy cái nhãn đó dựa trên cái gì — và chỗ nào nó không dựa trên gì cả.",
+    blurb: "Sách dùng ba nhãn bằng chứng. Phụ lục này cho bạn thấy cái nhãn đó dựa trên cái gì và chỗ nào nó không dựa trên gì cả.",
     chapters: [
 
       {
         id: "ch-nguon-cach-doc",
         title: "Ghi chú về nguồn",
-        lede: "Mỗi nhãn bằng chứng trong sách dựa trên tài liệu nào — và chỗ nào không dựa trên gì.",
+        lede: "Mỗi nhãn bằng chứng trong sách dựa trên tài liệu nào và chỗ nào không dựa trên gì.",
         minutes: 3,
         tags: ["phụ lục", "nguồn"],
         body: `
 <p>Sách dùng ba nhãn bằng chứng. Phụ lục này nói rõ mỗi nhãn dựa trên tài liệu nào, và chỗ nào không dựa trên gì.</p>
 
-<p>Nguyên tắc lập rất đơn giản: chỉ câu có thể kiểm chứng bằng tài liệu bên ngoài mới cần nguồn. Câu về kinh nghiệm, quy trình và lời khuyên thì không — và không được gán cho chúng một nguồn nghe có vẻ khoa học. Ưu tiên bài bình duyệt có DOI; khi không có, dùng tiêu chuẩn ngành hoặc nguồn sơ cấp của chính người đề xuất phương pháp.</p>
+<p>Nguyên tắc lập rất đơn giản: chỉ câu có thể kiểm chứng bằng tài liệu bên ngoài mới cần nguồn. Câu về kinh nghiệm, quy trình và lời khuyên thì không và không được gán cho chúng một nguồn nghe có vẻ khoa học. Ưu tiên bài bình duyệt có DOI; khi không có, dùng tiêu chuẩn ngành hoặc nguồn sơ cấp của chính người đề xuất phương pháp.</p>
 
-<p>Bảy mươi mốt nguồn được xếp theo chủ đề ở A2 và theo chương ở A3. Trong 31 chương, mười chương dựa trực tiếp vào tài liệu, sáu chương dựa một phần, mười hai chương là quy trình nên không cần nguồn ngoài. Hai chương — 17 và 20 — vẫn không có nguồn nào cho khẳng định trung tâm; cả hai giờ nói thẳng điều đó trong thân chương và gắn nhãn Hợp lý.</p>
+<p>Bảy mươi mốt nguồn được xếp theo chủ đề ở A2 và theo chương ở A3. Trong 31 chương, mười chương dựa trực tiếp vào tài liệu, sáu chương dựa một phần, mười hai chương là quy trình nên không cần nguồn ngoài. Hai chương 17 và 20 vẫn không có nguồn nào cho khẳng định trung tâm; cả hai giờ nói thẳng điều đó trong thân chương và gắn nhãn Hợp lý.</p>
 
 <div class="callout">
 <p class="callout-title">Có nguồn không có nghĩa là đúng</p>
-<p>Một bài báo nhỏ, một thử nghiệm trên hai mươi người, một mô hình chưa ai kiểm chứng — tất cả đều là nguồn. Cái quyết định vẫn là thiết kế của nghiên cứu, và phụ lục này ghi rõ thiết kế mỗi khi nó quan trọng.</p>
+<p>Một bài báo nhỏ, một thử nghiệm trên hai mươi người, một mô hình chưa ai kiểm chứng, tất cả đều là nguồn. Cái quyết định vẫn là thiết kế của nghiên cứu, và phụ lục này ghi rõ thiết kế mỗi khi nó quan trọng.</p>
 </div>
 `
       },
@@ -52,11 +52,11 @@
 
 <p><strong>[3]</strong> Hendon, C. H., Colonna-Dashwood, L., &amp; Colonna-Dashwood, M. (2014). <em>The Role of Dissolved Cations in Coffee Extraction.</em> Journal of Agricultural and Food Chemistry, 62(21), 4947–4950. doi:10.1021/jf501687c</p>
 
-<p>Bài hoá học <em>tính toán</em>: dùng lý thuyết phiếm hàm mật độ để tính năng lượng liên kết của cation với năm acid và một số hợp chất hương. Không có thí nghiệm chiết nào, và không đo cảm quan. Chương 4 từng dẫn bài này cho một phát hiện cảm quan; nguồn đã đổi sang [1] — xem A4.</p>
+<p>Bài hoá học <em>tính toán</em>: dùng lý thuyết phiếm hàm mật độ để tính năng lượng liên kết của cation với năm acid và một số hợp chất hương. Không có thí nghiệm chiết nào, và không đo cảm quan. Chương 4 từng dẫn bài này cho một phát hiện cảm quan; nguồn đã đổi sang [1], xem A4.</p>
 
 <p><strong>[4]</strong> Specialty Coffee Association (2018). <em>The 2018 SCA Water Quality Handbook.</em> Tài liệu trả phí, không có bản PDF công khai.</p>
 
-<p>Đây là nguồn của 40–75 ppm alkalinity và 51–175 ppm độ cứng — với điều kiện mốc 75 chỉ áp dụng khi độ cứng nằm trong 150–175 ppm. Sổ tay <strong>không</strong> đặt một dải pH; dải 6–8 với mục tiêu 7,0 lấy từ bảng tiêu chuẩn cà phê SCA 2018. Bản trước ghi “pH 6,5–7,5” và gán cho sổ tay — không đúng, đã sửa.</p>
+<p>Đây là nguồn của 40–75 ppm alkalinity và 51–175 ppm độ cứng, với điều kiện mốc 75 chỉ áp dụng khi độ cứng nằm trong 150–175 ppm. Sổ tay <strong>không</strong> đặt một dải pH; dải 6–8 với mục tiêu 7,0 lấy từ bảng tiêu chuẩn cà phê SCA 2018. Bản trước ghi “pH 6,5–7,5” và gán cho sổ tay. Không đúng, đã sửa.</p>
 
 <p><strong>[5]</strong> Lockhart, E. E. (1957). <em>The Soluble Solids in Beverage Coffee as an Index to Cup Quality.</em> Coffee Brewing Institute, Publication No. 27. Nền tảng của biểu đồ kiểm soát pha. Lưu ý: tài liệu 1957 không mang tên "Brewing Control Chart" — cái tên đó là sản phẩm sau này.</p>
 
@@ -72,7 +72,7 @@
 
 <p><strong>[8]</strong> Schmieder, B. K. L., Pannusch, V. B., Vannieuwenhuyse, L., Briesen, H., &amp; Minceva, M. (2023). <em>Influence of Flow Rate, Particle Size, and Temperature on Espresso Extraction Kinetics.</em> Foods, 12(15), 2871. doi:10.3390/foods12152871</p>
 
-<p>Thu mười phần liên tiếp của một mẻ espresso, rồi phân tích các phần 1, 2, 3, 5, 7 và 10. Bài gộp <strong>trigonelline và TDS vào cùng một nhóm giảm nhanh nhất</strong>, rồi 5-CQA, rồi caffeine chậm nhất — không phân định trigonelline nhanh hơn TDS. Bản trước tách thành bốn bậc, đã sửa. Đây là nguồn của bảng trong chương 8.</p>
+<p>Thu mười phần liên tiếp của một mẻ espresso, rồi phân tích các phần 1, 2, 3, 5, 7 và 10. Bài gộp <strong>trigonelline và TDS vào cùng một nhóm giảm nhanh nhất</strong>, rồi 5-CQA, rồi caffeine chậm nhất, không phân định trigonelline nhanh hơn TDS. Bản trước tách thành bốn bậc, đã sửa. Đây là nguồn của bảng trong chương 8.</p>
 
 <p><strong>[9]</strong> Guinard, J.-X., và cộng sự (2023). <em>A new Coffee Brewing Control Chart relating sensory properties and consumer liking to brew strength, extraction yield, and brew ratio.</em> Journal of Food Science, 88(5), 2168–2177. doi:10.1111/1750-3841.16531</p>
 
@@ -96,7 +96,7 @@
 
 <p><strong>[15]</strong> Bressani, A. P. P., Martinez, S. J., Batista, N. N., Simão, J. B. P., &amp; Schwan, R. F. (2021). <em>Into the minds of coffee consumers: perception, preference, and impact of information in the sensory analysis of specialty coffee.</em> Food Science and Technology, 41(Suppl. 2), 667–675. doi:10.1590/fst.30720</p>
 
-<p>Cùng một mẫu, <strong>101 người, hai buổi nếm</strong>: một buổi có thông tin, một buổi không — không phải chia đôi người thử. Có thông tin thì mô tả nghiêng về citrus và trái cây; điểm hương và ấn tượng tổng không khác biệt có ý nghĩa. Đây là nguồn tốt nhất cho câu “thông tin đổi cách bạn mô tả, không đổi mức bạn thích”.</p>
+<p>Cùng một mẫu, <strong>101 người, hai buổi nếm</strong>: một buổi có thông tin, một buổi không, không phải chia đôi người thử. Có thông tin thì mô tả nghiêng về citrus và trái cây; điểm hương và ấn tượng tổng không khác biệt có ý nghĩa. Đây là nguồn tốt nhất cho câu “thông tin đổi cách bạn mô tả, không đổi mức bạn thích”.</p>
 
 <p><strong>[16]</strong> Sörqvist, P., Hedblom, D., Holmgren, M., Haga, A., Langeborg, L., Nöstl, A., &amp; Kågström, J. (2013). <em>Who Needs Cream and Sugar When There Is Eco-Labeling? Taste and Willingness to Pay for "Eco-Friendly" Coffee.</em> PLOS ONE, 8(12), e80719. doi:10.1371/journal.pone.0080719</p>
 
@@ -108,7 +108,7 @@
 
 <p><strong>[18]</strong> Carvalho, F. M., de Sousa, M. M. M., &amp; Nadaleti, D. H. S. (2026). <em>Label Information About Fermentation Processing Affects Consumers’ Sensory and Hedonic Judgements of Specialty Coffee.</em> Foods, 15(8), 1287. doi:10.3390/foods15081287</p>
 
-<p>180 người, cùng một cà, ba nhãn khác nhau. Nhãn "fermentation" khiến người thử kỳ vọng chua hơn và thích ít hơn — kỳ vọng đó đi vào cả điểm nếm.</p>
+<p>180 người, cùng một cà, ba nhãn khác nhau. Nhãn "fermentation" khiến người thử kỳ vọng chua hơn và thích ít hơn, kỳ vọng đó đi vào cả điểm nếm.</p>
 
 <p><strong>[19]</strong> Yeager, S. E., và cộng sự (2023). <em>Acids in coffee: A review of sensory measurements and meta-analysis of chemical composition.</em> Critical Reviews in Food Science and Nutrition, 63(8), 1010–1036. doi:10.1080/10408398.2021.1957767</p>
 
@@ -124,7 +124,7 @@
 
 <p><strong>[24]</strong> Gantner, M., và cộng sự (2024). <em>Effect of Temperature and Storage on Coffee’s Volatile Compound Profile and Sensory Characteristics.</em> Foods, 13(24), 3995. doi:10.3390/foods13243995</p>
 
-<p>Bảo quản 5 °C so với 20 °C trong một tháng: nhiệt độ thấp làm chậm thay đổi. <strong>Đây là ngăn mát, không phải ngăn đông</strong>, và thời gian là một tháng sau khi mở bao — nên đây không phải bằng chứng cho trữ đông dài hạn. Chương 3 nay đã hạ nhãn khẳng định đó xuống Hợp lý và nói rõ khoảng trống này.</p>
+<p>Bảo quản 5 °C so với 20 °C trong một tháng: nhiệt độ thấp làm chậm thay đổi. <strong>Đây là ngăn mát, không phải ngăn đông</strong>, và thời gian là một tháng sau khi mở bao nên đây không phải bằng chứng cho trữ đông dài hạn. Chương 3 nay đã hạ nhãn khẳng định đó xuống Hợp lý và nói rõ khoảng trống này.</p>
 
 <p><strong>[25]</strong> Smrke, S., và cộng sự (2022). <em>Effects of different coffee storage methods on coffee freshness after opening of packages.</em> Food Packaging and Shelf Life, 33, 100893. doi:10.1016/j.fpsl.2022.100893</p>
 
@@ -142,7 +142,7 @@
 
 <p><strong>[30]</strong> Santanatoglia, A., và cộng sự (2023). <em>Discrimination of Filter Coffee Extraction Methods of a Medium Roasted Specialty Coffee Based on Volatile Profiles and Sensorial Traits.</em> Foods, 12(17), 3199. doi:10.3390/foods12173199</p>
 
-<p>So V60, AeroPress, French press và Pure Brew trên cùng một Kenya Arabica. Giấy cho nhiều hợp chất caramel và hoa hơn; kim loại cho nhiều hợp chất trái cây và rang hơn. Một con cà, bốn phương pháp — nên đọc là xu hướng, không phải luật.</p>
+<p>So V60, AeroPress, French press và Pure Brew trên cùng một Kenya Arabica. Giấy cho nhiều hợp chất caramel và hoa hơn; kim loại cho nhiều hợp chất trái cây và rang hơn. Một con cà, bốn phương pháp nên đọc là xu hướng, không phải luật.</p>
 
 <p><strong>[31]</strong> Liang, J., Chan, K. C., &amp; Ristenpart, W. D. (2021). <em>An equilibrium desorption model for the strength and extraction yield of full immersion brewed coffee.</em> Scientific Reports, 11, 6904. doi:10.1038/s41598-021-85787-1</p>
 
@@ -150,7 +150,7 @@
 
 <p><strong>[32]</strong> Gagné, J. (2019). <em>The Dynamics of Coffee Extraction</em> (29 tháng 1) và <em>Testing a Model of Extraction Dynamics</em> (23 tháng 2).</p>
 
-<p>Bài blog, không bình duyệt, và chính tác giả ghi rằng mô hình chưa được kiểm chứng với dữ liệu thực nghiệm khi đăng. Sách dẫn đúng điểm này ở chương 8 — đây là chỗ sách nghiêm khắc với nguồn của chính nó.</p>
+<p>Bài blog, không bình duyệt, và chính tác giả ghi rằng mô hình chưa được kiểm chứng với dữ liệu thực nghiệm khi đăng. Sách dẫn đúng điểm này ở chương 8, đây là chỗ sách nghiêm khắc với nguồn của chính nó.</p>
 
 <p><strong>[33]</strong> Cameron, M. I., và cộng sự (2020). <em>Systematically improving espresso: insights from mathematical modeling and experiment.</em> Matter, 2, 631–648. doi:10.1016/j.matt.2019.12.019</p>
 
@@ -160,7 +160,7 @@
 
 <p><strong>[34]</strong> Mo, C., Johnston, R., Navarini, L., Suggi Liverani, F., &amp; Ellero, M. (2023). <em>Exploring the link between coffee matrix microstructure and flow properties using combined X-ray microtomography and smoothed particle hydrodynamics simulations.</em> Scientific Reports, 13, 16374. doi:10.1038/s41598-023-42380-y</p>
 
-<p>Chụp cắt lớp vi mô bã espresso và mô phỏng dòng chảy bằng SPH. <strong>Kích thước hạt thì đo bằng nhiễu xạ laser, không phải bằng ảnh cắt lớp</strong>: đỉnh fines quanh 30–40 µm (phân bố đo được trải khoảng 25–50 µm), quy về mảnh vách tế bào; đỉnh hạt thô do máy xay quyết định. Độ rỗng giảm dần từ đáy lên miệng — và đây là profile hình thành <em>sau khi chiết</em>. Bản trước gán phép đo kích thước cho ảnh cắt lớp, đã sửa.</p>
+<p>Chụp cắt lớp vi mô bã espresso và mô phỏng dòng chảy bằng SPH. <strong>Kích thước hạt thì đo bằng nhiễu xạ laser, không phải bằng ảnh cắt lớp</strong>: đỉnh fines quanh 30–40 µm (phân bố đo được trải khoảng 25–50 µm), quy về mảnh vách tế bào; đỉnh hạt thô do máy xay quyết định. Độ rỗng giảm dần từ đáy lên miệng và đây là profile hình thành <em>sau khi chiết</em>. Bản trước gán phép đo kích thước cho ảnh cắt lớp, đã sửa.</p>
 
 <p><strong>[35]</strong> Smrke, S., Eiermann, A., &amp; Yeretzian, C. (2024). <em>The role of fines in espresso extraction dynamics.</em> Scientific Reports, 14, 5612. doi:10.1038/s41598-024-55831-x</p>
 
@@ -180,7 +180,7 @@
 
 <p><strong>[39]</strong> Uman, E., và cộng sự (2016). <em>The effect of bean origin and temperature on grinding roasted coffee.</em> Scientific Reports, 6, 24483. doi:10.1038/srep24483</p>
 
-<p>Bốn loại cà: phân bố kích thước hạt không phụ thuộc nguồn gốc hay cách sơ chế. Hạt lạnh cho phân bố hẹp hơn và trung bình nhỏ hơn — cơ sở cho kỹ thuật xay hạt còn đông lạnh ở chương 3.</p>
+<p>Bốn loại cà: phân bố kích thước hạt không phụ thuộc nguồn gốc hay cách sơ chế. Hạt lạnh cho phân bố hẹp hơn và trung bình nhỏ hơn, cơ sở cho kỹ thuật xay hạt còn đông lạnh ở chương 3.</p>
 
 <p><strong>[40]</strong> Corrochano, B. R., Melrose, J. R., Bentley, A. C., Fryer, P. J., &amp; Bakalis, S. (2015). <em>A new methodology to estimate the steady-state permeability of roast and ground coffee in packed beds.</em> Journal of Food Engineering, 150, 106–116. doi:10.1016/j.jfoodeng.2014.11.006</p>
 
@@ -194,15 +194,15 @@
 
 <p><strong>[42]</strong> Barista Hustle (2021). <em>No Stir: An Interview with World Brewers Cup Champion Matt Winton.</em> baristahustle.com/lesson/p-1-07-1-no-stir-an-interview-with-world-brewers-cup-champion-matt-winton/</p>
 
-<p>20 g trên 300 g; năm lần rót nhưng <strong>không đều</strong>: 50 g bloom trong 35 giây, rồi 70 g, rồi ba lần 60 g. Cỡ xay thô (Kinu 3.6, khoảng 30 click trên Comandante) vì “để rót được năm lần mà không đắng”. Hai ấm ở hai nhiệt độ, ấm phụ thấp hơn vài độ. Ông nói rõ <strong>không để bã khô lần nào trừ lúc bloom</strong>, và rót gần như nhanh hết mức — nên câu “chờ bã rút rồi mới rót” là ngược với nguồn. Dụng cụ là nón kim loại: ông thử Kono, Origami và V60 thuỷ tinh, nhưng phần kim loại cho độ rõ mà ba cái kia không cho.</p>
+<p>20 g trên 300 g; năm lần rót nhưng <strong>không đều</strong>: 50 g bloom trong 35 giây, rồi 70 g, rồi ba lần 60 g. Cỡ xay thô (Kinu 3.6, khoảng 30 click trên Comandante) vì “để rót được năm lần mà không đắng”. Hai ấm ở hai nhiệt độ, ấm phụ thấp hơn vài độ. Ông nói rõ <strong>không để bã khô lần nào trừ lúc bloom</strong>, và rót gần như nhanh hết mức nên câu “chờ bã rút rồi mới rót” là ngược với nguồn. Dụng cụ là nón kim loại: ông thử Kono, Origami và V60 thuỷ tinh, nhưng phần kim loại cho độ rõ mà ba cái kia không cho.</p>
 
-<p>Winton cũng nói bốn lần rót không cho cùng biểu hiện với năm lần, và đội của ông đã thử sáu công thức nước. Đây là bản ghi chi tiết nhất cho hàng 2021 — nhưng lưu ý: bản tóm tắt “20 g / 300 g, 5 × 60 g, 93 °C” lưu hành trên mạng là bản đơn giản hoá, không phải điều ông kể trong bài phỏng vấn.</p>
+<p>Winton cũng nói bốn lần rót không cho cùng biểu hiện với năm lần, và đội của ông đã thử sáu công thức nước. Đây là bản ghi chi tiết nhất cho hàng 2021 nhưng lưu ý: bản tóm tắt “20 g / 300 g, 5 × 60 g, 93 °C” lưu hành trên mạng là bản đơn giản hoá, không phải điều ông kể trong bài phỏng vấn.</p>
 
 <p><strong>[43]</strong> European Coffee Trip (2024). <em>Winning pour over recipe — Martin Wölfl.</em> europeancoffeetrip.com/winning-pour-over-recipe-martin-woelfl/</p>
 
 <p>17 g trên 270 g, 93 °C, khoảng 490 µm, OREA V4 với giấy Sibarist FAST. Lưu ý: trang này chặn trình đọc khi tra, nên số liệu lấy từ bản tóm tắt được lập chỉ mục, chưa đối chiếu toàn văn. Chương 19 ghi đúng mức độ đó.</p>
 
-<p><strong>Nguồn lệch:</strong> Wildkaffee ghi <strong>630 µm</strong> cho cùng ly đó, và chia rót 60/60/50/100 g thay vì bốn lần đều — chênh gần 30% về cỡ xay giữa hai trang công thức. Chương 19 dùng con số này làm ví dụ cho việc đừng chép micron.</p>
+<p><strong>Nguồn lệch:</strong> Wildkaffee ghi <strong>630 µm</strong> cho cùng ly đó, và chia rót 60/60/50/100 g thay vì bốn lần đều, chênh gần 30% về cỡ xay giữa hai trang công thức. Chương 19 dùng con số này làm ví dụ cho việc đừng chép micron.</p>
 
 <p><strong>[44]</strong> Barista Magazine (2024). <em>10 Minutes with Martin Wölfl, Part One.</em> baristamagazine.com/10-minutes-with-martin-wolfl-part-one/</p>
 
@@ -228,13 +228,13 @@
 
 <p><strong>[49]</strong> Kaffelogic. <em>Carlos Medina, World Brewers Cup</em> (2023). kaffelogic.com/blogs/competitors/carlos-medina-wbrc</p>
 
-<p>Origami Air, giấy Brewista X, cà Sidra của Granja La Esperanza. Số gam lấy từ bản dựng lại, và các bản không khớp nhau — một bản ghi 248 g, bản khác ghi năm lần 50 g, tức 250 g. Chương 19 dùng 248 g và nói rõ đó là bản dựng lại.</p>
+<p>Origami Air, giấy Brewista X, cà Sidra của Granja La Esperanza. Số gam lấy từ bản dựng lại, và các bản không khớp nhau, một bản ghi 248 g, bản khác ghi năm lần 50 g, tức 250 g. Chương 19 dùng 248 g và nói rõ đó là bản dựng lại.</p>
 
 <p><strong>[50]</strong> Barista Magazine (2020). <em>Brewers Cup Runner-Up Lance Hedrick on the “Nifty Coffee Grinds Trick” from His Routine.</em> baristamagazine.com/brewers-cup-runner-up-lance-hedrick-on-the-nifty-coffee-grinds-trick-from-his-routine/</p>
 
-<p>Bài đăng tháng 3/2020, sau vòng chung kết U.S. Brewers Cup 2020 ở Costa Mesa; Hedrick về nhì sau Elika Liftee. Cách làm: bã pha trong phễu kim loại đặt trên một tờ giấy lọc, rồi ở phút 1:30 nhấc phễu kim loại cùng bã sang phễu thứ hai đã lót giấy ướt — không phải lật tờ giấy đang ướt. Công thức: 15 g / 220 g, nước 201 °F (khoảng 94 °C), EK43s số 7.5; 40 g ở 0:00, 90 g ở 0:45, chuyển phễu ở 1:30, 90 g còn lại, kết thúc 3:15 (Able Brewing, phỏng vấn cùng kỳ).</p>
+<p>Bài đăng tháng 3/2020, sau vòng chung kết U.S. Brewers Cup 2020 ở Costa Mesa; Hedrick về nhì sau Elika Liftee. Cách làm: bã pha trong phễu kim loại đặt trên một tờ giấy lọc, rồi ở phút 1:30 nhấc phễu kim loại cùng bã sang phễu thứ hai đã lót giấy ướt, không phải lật tờ giấy đang ướt. Công thức: 15 g / 220 g, nước 201 °F (khoảng 94 °C), EK43s số 7.5; 40 g ở 0:00, 90 g ở 0:45, chuyển phễu ở 1:30, 90 g còn lại, kết thúc 3:15 (Able Brewing, phỏng vấn cùng kỳ).</p>
 
-<p>Nguồn thứ hai cho cùng routine: Able Brewing, <em>Five Questions with Lance Hedrick</em> — bài này có nguyên công thức. Video do chính anh ấy giải thích: <em>MY 2020 USBrC ROUTINE</em> trên YouTube.</p>
+<p>Nguồn thứ hai cho cùng routine: Able Brewing, <em>Five Questions with Lance Hedrick</em>, bài này có nguyên công thức. Video do chính anh ấy giải thích: <em>MY 2020 USBrC ROUTINE</em> trên YouTube.</p>
 
 <p>Hedrick ước lượng khoảng 2,5 g fines ban đầu, 1,7–2 g bị giấy giữ lại, còn dưới 0,4 g trong ly; và nói vấn đề lớn nhất của routine là độ lặp lại. Đây là nguồn cho câu “routine thi đấu đánh đổi độ lặp lại lấy độ rõ”. Các con số fines là anh ấy tự đo và tự kể, không phải phép đo độc lập.</p>
 
@@ -261,27 +261,27 @@
 
 <p><strong>[56]</strong> Maille, M. J. (2024). <em>Measuring Coffee Extraction Kinetics at Early Time Scales.</em> Luận án tiến sĩ, University of Sheffield. etheses.whiterose.ac.uk/id/eprint/36281/</p>
 
-<p>Đo chiết xuất từ giây thứ 5 đến giây 600; 80% dữ liệu nằm dưới 35 giây. 50% acid citric và malic chiết trong 10 giây đầu; caffeine và 3-CQA chậm hơn 3–4 giây. Chênh lệch giữa các hợp chất tính bằng giây, không phải bằng phút — nên trong một mẻ pour over nó biến mất.</p>
+<p>Đo chiết xuất từ giây thứ 5 đến giây 600; 80% dữ liệu nằm dưới 35 giây. 50% acid citric và malic chiết trong 10 giây đầu; caffeine và 3-CQA chậm hơn 3–4 giây. Chênh lệch giữa các hợp chất tính bằng giây, không phải bằng phút nên trong một mẻ pour over nó biến mất.</p>
 
 <p><strong>[57]</strong> Wang, X., & Lim, L.-T. (2021). <em>Modeling study of coffee extraction at different temperature and grind size conditions to better understand the cold and hot brewing process.</em> Journal of Food Process Engineering, 44(8). doi.org/10.1111/jfpe.13748</p>
 
-<p>Đo động học chiết theo TDS ở 4, 23, 50 và 93 °C với bốn cỡ xay. Mức chiết cuối tăng theo nhiệt độ pha và giảm theo cỡ hạt — chiều của hiệu ứng nhiệt ở chương 9 có đo. Bài không cho hệ số phần trăm mức chiết cho mỗi 5 °C; con số 2–4% lưu hành trong giới pha chế vẫn không có nguồn. Giới hạn: thí nghiệm ngâm khuấy, không phải pour over.</p>
+<p>Đo động học chiết theo TDS ở 4, 23, 50 và 93 °C với bốn cỡ xay. Mức chiết cuối tăng theo nhiệt độ pha và giảm theo cỡ hạt, chiều của hiệu ứng nhiệt ở chương 9 có đo. Bài không cho hệ số phần trăm mức chiết cho mỗi 5 °C; con số 2–4% lưu hành trong giới pha chế vẫn không có nguồn. Giới hạn: thí nghiệm ngâm khuấy, không phải pour over.</p>
 
 <p><strong>[58]</strong> Frost, S. C., Ristenpart, W. D., & Guinard, J.-X. (2020). <em>Effects of brew strength, brew yield, and roast on the sensory quality of drip brewed coffee.</em> Journal of Food Science, 85(8), 2530–2543. doi.org/10.1111/1750-3841.15326</p>
 
-<p>Một con Arabica sơ chế ướt, rang ba mức, pha thành chín mẻ theo TDS và mức chiết, rồi phân tích mô tả. Đắng, chua và vị khói tăng theo TDS; ngọt, trái cây và hoa giảm. Độ ngọt tỉ lệ nghịch với TDS ở cả ba mức rang — nguồn cho mục "TDS đổi vị như thế nào" ở chương 7. Giới hạn: máy pha nhỏ giọt, một con cà.</p>
+<p>Một con Arabica sơ chế ướt, rang ba mức, pha thành chín mẻ theo TDS và mức chiết, rồi phân tích mô tả. Đắng, chua và vị khói tăng theo TDS; ngọt, trái cây và hoa giảm. Độ ngọt tỉ lệ nghịch với TDS ở cả ba mức rang, nguồn cho mục "TDS đổi vị như thế nào" ở chương 7. Giới hạn: máy pha nhỏ giọt, một con cà.</p>
 
 <p><strong>[59]</strong> Cotter, A. R., Batali, M. E., Ristenpart, W. D., & Guinard, J.-X. (2021). <em>Consumer preferences for black coffee are spread over a wide range of brew strengths and extraction yields.</em> Journal of Food Science, 86(1), 194–205. doi.org/10.1111/1750-3841.15561</p>
 
-<p>118 người uống cà phê đen, hơn 3.000 lượt nếm. Phân tích cụm cho hai nhóm sở thích, tách nhau mạnh nhất theo TDS. Nhóm tác giả kết luận ô "lý tưởng" của Brewing Control Chart cần xem lại — nguồn cho câu "điểm lý tưởng là khẩu vị, không phải một ô cố định". Giới hạn: phần lớn người thử ở tuổi sinh viên.</p>
+<p>118 người uống cà phê đen, hơn 3.000 lượt nếm. Phân tích cụm cho hai nhóm sở thích, tách nhau mạnh nhất theo TDS. Nhóm tác giả kết luận ô "lý tưởng" của Brewing Control Chart cần xem lại, nguồn cho câu "điểm lý tưởng là khẩu vị, không phải một ô cố định". Giới hạn: phần lớn người thử ở tuổi sinh viên.</p>
 
 <p><strong>[60]</strong> Frank, O., Blumberg, S., Kunert, C., Zehentbauer, G., & Hofmann, T. (2007). <em>Structure determination and sensory analysis of bitter-tasting 4-vinylcatechol oligomers and their identification in roasted coffee by means of LC-MS/MS.</em> Journal of Agricultural and Food Chemistry, 55(5), 1945–1954. doi.org/10.1021/jf0632280</p>
 
-<p>Xác định cấu trúc mười hợp chất đắng, trong đó tám phenylindane, ngưỡng nhận biết 23–178 µmol/L, và xác nhận chúng có trong ly. Chúng sinh ra khi rang, không phải khi pha — nguồn cho mục "vị đắng sinh ra trong lò rang" ở chương 9.</p>
+<p>Xác định cấu trúc mười hợp chất đắng, trong đó tám phenylindane, ngưỡng nhận biết 23–178 µmol/L, và xác nhận chúng có trong ly. Chúng sinh ra khi rang, không phải khi pha, nguồn cho mục "vị đắng sinh ra trong lò rang" ở chương 9.</p>
 
 <p><strong>[61]</strong> Blumberg, S., Frank, O., & Hofmann, T. (2010). <em>Quantitative studies on the influence of the bean roasting parameters and hot water percolation on the concentrations of bitter compounds in coffee brew.</em> Journal of Agricultural and Food Chemistry, 58(6), 3720–3728. doi.org/10.1021/jf9044606</p>
 
-<p>Đo từng nhóm hợp chất đắng theo thời gian và nhiệt độ rang. Quinide — vị đắng "kiểu cà phê" — nhiều nhất ở rang nhẹ đến vừa, rồi phân huỷ thành nhóm oligomer đắng gắt khi rang mạnh hơn. Đây là lý do rang đậm cho vị đắng khác <em>chất</em>, không chỉ khác lượng.</p>
+<p>Đo từng nhóm hợp chất đắng theo thời gian và nhiệt độ rang. Quinide, vị đắng "kiểu cà phê", nhiều nhất ở rang nhẹ đến vừa, rồi phân huỷ thành nhóm oligomer đắng gắt khi rang mạnh hơn. Đây là lý do rang đậm cho vị đắng khác <em>chất</em>, không chỉ khác lượng.</p>
 
 <p><strong>[62]</strong> Semmelroch, P., & Grosch, W. (1996). <em>Studies on character impact odorants of coffee brews.</em> Journal of Agricultural and Food Chemistry, 44(2), 537–543. doi.org/10.1021/jf9505988</p>
 
@@ -289,7 +289,7 @@
 
 <p><strong>[63]</strong> Sánchez López, J. A., và cộng sự (2016). <em>Extraction kinetics of coffee aroma compounds using a semi-automatic machine: on-line analysis by PTR-ToF-MS.</em> International Journal of Mass Spectrometry, 401, 22–30. doi.org/10.1016/j.ijms.2016.02.015</p>
 
-<p>Nhiệt cao làm tăng lượng hợp chất bay hơi chiết được, mạnh hơn với nhóm kém phân cực. Giới hạn: đo trên espresso có áp lực, không phải pour over — nên sách dẫn ở mức Hợp lý.</p>
+<p>Nhiệt cao làm tăng lượng hợp chất bay hơi chiết được, mạnh hơn với nhóm kém phân cực. Giới hạn: đo trên espresso có áp lực, không phải pour over nên sách dẫn ở mức Hợp lý.</p>
 
 <p><strong>[64]</strong> Barista Hustle (2020). <em>The Ideal Temperature for French Press.</em> baristahustle.com/the-ideal-temperature-for-french-press/</p>
 
@@ -313,14 +313,14 @@
 
 <p><strong>[69]</strong> Ristenpart, W. D., Cotter, A. R., & Guinard, J.-X. (2022). <em>Impact of beverage temperature on consumer preferences for black coffee.</em> Scientific Reports, 12, 20621. doi.org/10.1038/s41598-022-23904-4</p>
 
-<p>Phân tích hơn 3.000 lượt nếm theo nhiệt độ khi uống, dải 56–71 °C. Đa số đánh giá "vừa" ở mọi mức tới 70 °C; chỉ trên 70 °C mới có đa số nói quá nóng. Bài nói khoảng chấp nhận được rộng, không chỉ ra một khoảng tối ưu — nguồn cho ghi chú ở chương 13 về nhiệt độ nếm.</p>
+<p>Phân tích hơn 3.000 lượt nếm theo nhiệt độ khi uống, dải 56–71 °C. Đa số đánh giá "vừa" ở mọi mức tới 70 °C; chỉ trên 70 °C mới có đa số nói quá nóng. Bài nói khoảng chấp nhận được rộng, không chỉ ra một khoảng tối ưu, nguồn cho ghi chú ở chương 13 về nhiệt độ nếm.</p>
 <p><strong>[70]</strong> PHINƠI. <em>Our story: the boy, the drip, and the universe of phin.</em> phinoi.com/our-story</p>
 
-<p>Trang của hãng: bỏ đáy phẳng truyền thống, tính góc 164,8° cho dòng chảy, đế hình hoa năm cánh, bốn bản vật liệu (nhựa PP5, gốm Bát Tràng, nhôm, titanium giới hạn). Mô tả sản phẩm và câu chuyện thương hiệu — không có số lưu lượng, nhiệt hay cảm quan. Sách dẫn nó như lời của nhà sản xuất, không phải đo đạc. Nguồn cho mục PHINƠI ở chương 22.</p>
+<p>Trang của hãng: bỏ đáy phẳng truyền thống, tính góc 164,8° cho dòng chảy, đế hình hoa năm cánh, bốn bản vật liệu (nhựa PP5, gốm Bát Tràng, nhôm, titanium giới hạn). Mô tả sản phẩm và câu chuyện thương hiệu, không có số lưu lượng, nhiệt hay cảm quan. Sách dẫn nó như lời của nhà sản xuất, không phải đo đạc. Nguồn cho mục PHINƠI ở chương 22.</p>
 
 <p><strong>[71]</strong> Fanarioti, V. (2025). <em>10 Minutes with Vu Dình Tú: A Champion of Modern Vietnamese Coffee Culture.</em> Barista Magazine, 2.7.2025. baristamagazine.com</p>
 
-<p>Phỏng vấn người sáng lập PHINƠI: quán Refined. ở Hà Nội với ba điểm bán, mô hình trả tuỳ tâm, khoảng 70% robusta, và dự án làm lại phin cho thế hệ sau — ra mắt tại World of Coffee Jakarta tháng 5.2025. Không có số liệu pha nào. Nguồn cho phần bối cảnh ở chương 22.</p>
+<p>Phỏng vấn người sáng lập PHINƠI: quán Refined. ở Hà Nội với ba điểm bán, mô hình trả tuỳ tâm, khoảng 70% robusta, và dự án làm lại phin cho thế hệ sau, ra mắt tại World of Coffee Jakarta tháng 5.2025. Không có số liệu pha nào. Nguồn cho phần bối cảnh ở chương 22.</p>
 
 <div class="callout">
 <p class="callout-title">Ba bài không mở được toàn văn</p>
@@ -345,21 +345,21 @@
 <tr><th>Ch.</th><th>Khẳng định cần nguồn</th><th>Nhãn trong sách</th><th>Nguồn</th><th>Kết luận</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>Thông tin trên bao bì làm thay đổi vị bạn nếm</td><td>Bằng chứng</td><td>[15] [16] [17] [18]</td><td>Một phần — [18] mạnh nhất; [16] phụ thuộc thái độ người nếm; [17] chưa đọc được toàn văn</td></tr>
-<tr><td>2</td><td>Không có định nghĩa chung cho "medium roast"; Agtron có hai biến thể</td><td>—</td><td>[12]–[14] cho phần đo màu</td><td>Một phần</td></tr>
-<tr><td>3</td><td>Trữ đông giữ chất lượng dài hạn</td><td>Hợp lý</td><td>[22] [23] [24] [25]</td><td>Một phần — [24] là 5 °C ngăn mát, một tháng; không có thử nghiệm trữ đông</td></tr>
+<tr><td>1</td><td>Thông tin trên bao bì làm thay đổi vị bạn nếm</td><td>Bằng chứng</td><td>[15] [16] [17] [18]</td><td>Một phần, [18] mạnh nhất; [16] phụ thuộc thái độ người nếm; [17] chưa đọc được toàn văn</td></tr>
+<tr><td>2</td><td>Không có định nghĩa chung cho "medium roast"; Agtron có hai biến thể</td><td></td><td>[12]–[14] cho phần đo màu</td><td>Một phần</td></tr>
+<tr><td>3</td><td>Trữ đông giữ chất lượng dài hạn</td><td>Hợp lý</td><td>[22] [23] [24] [25]</td><td>Một phần, [24] là 5 °C ngăn mát, một tháng; không có thử nghiệm trữ đông</td></tr>
 <tr><td>3</td><td>20 ngày tuổi pha nước đúng ngon hơn 5 ngày tuổi pha nước kiềm 250 ppm</td><td>"không phải ý kiến"</td><td>không có</td><td>Không có nguồn</td></tr>
 <tr><td>3</td><td>Hạt mới rang nhả CO₂, bọt khí cản nước tiếp xúc; bloom là bước xử lý khí</td><td>Hợp lý</td><td>[20] [21]</td><td>Dẫn được cho phần cơ chế; phần tác dụng cảm quan của bloom thì chưa</td></tr>
-<tr><td>3</td><td>Bảo quản ở nhiệt độ phòng: chất lượng cảm quan giảm dần theo thời gian</td><td>Bằng chứng</td><td>[22] [23] [25] [26]</td><td>Dẫn được — [26] là bài tổng quan, không phải thực nghiệm</td></tr>
+<tr><td>3</td><td>Bảo quản ở nhiệt độ phòng: chất lượng cảm quan giảm dần theo thời gian</td><td>Bằng chứng</td><td>[22] [23] [25] [26]</td><td>Dẫn được, [26] là bài tổng quan, không phải thực nghiệm</td></tr>
 <tr><td>4</td><td>Bicarbonate chi phối cảm nhận, canxi thì không</td><td>Bằng chứng</td><td>[1] trực tiếp, [3] hoá học</td><td>Dẫn được, nguồn đã đổi</td></tr>
-<tr><td>4</td><td>Vùng nước 40–75 ppm alkalinity, 51–175 ppm độ cứng, pH 6–8</td><td>Hợp lý</td><td>[4] và bảng tiêu chuẩn SCA 2018 cho pH</td><td>Dẫn được một phần — pH không lấy từ [4]</td></tr>
-<tr><td>5</td><td>Bút TDS không đo alkalinity; HCO₃ × 0,82; 1 dKH = 17,86 ppm</td><td>—</td><td>hoá học phổ thông</td><td>Không cần nguồn</td></tr>
-<tr><td>6</td><td>Pha loãng tuyến tính; số liệu nước khoáng đóng chai</td><td>—</td><td>nhãn sản phẩm</td><td>Không cần nguồn</td></tr>
-<tr><td>7</td><td>18–22% EY và 1,15–1,35% TDS</td><td>—</td><td>[5], chuẩn Golden Cup, và biểu đồ kiểm soát pha mới ở [9]</td><td>Đã sửa, xem A4</td></tr>
+<tr><td>4</td><td>Vùng nước 40–75 ppm alkalinity, 51–175 ppm độ cứng, pH 6–8</td><td>Hợp lý</td><td>[4] và bảng tiêu chuẩn SCA 2018 cho pH</td><td>Dẫn được một phần, pH không lấy từ [4]</td></tr>
+<tr><td>5</td><td>Bút TDS không đo alkalinity; HCO₃ × 0,82; 1 dKH = 17,86 ppm</td><td></td><td>hoá học phổ thông</td><td>Không cần nguồn</td></tr>
+<tr><td>6</td><td>Pha loãng tuyến tính; số liệu nước khoáng đóng chai</td><td></td><td>nhãn sản phẩm</td><td>Không cần nguồn</td></tr>
+<tr><td>7</td><td>18–22% EY và 1,15–1,35% TDS</td><td></td><td>[5], chuẩn Golden Cup, và biểu đồ kiểm soát pha mới ở [9]</td><td>Đã sửa, xem A4</td></tr>
 <tr><td>8</td><td>"Acid trước, đắng sau" là giả thuyết chưa kiểm chứng</td><td>Truyền miệng</td><td>[32]</td><td>Dẫn được, chính xác</td></tr>
-<tr><td>8</td><td>Nhóm giảm nhanh nhất (trigonelline + TDS), rồi 5-CQA, rồi caffeine</td><td>Bằng chứng</td><td>[8]</td><td>Một phần — bài gộp trigonelline với TDS, không tách hai bậc</td></tr>
+<tr><td>8</td><td>Nhóm giảm nhanh nhất (trigonelline + TDS), rồi 5-CQA, rồi caffeine</td><td>Bằng chứng</td><td>[8]</td><td>Một phần, bài gộp trigonelline với TDS, không tách hai bậc</td></tr>
 <tr><td>8</td><td>Axit malic, acetic, lactic dưới ngưỡng; chuyên gia không gọi được tên</td><td>Bằng chứng</td><td>[2]</td><td>Dẫn được</td></tr>
-<tr><td>9</td><td>Nhiệt độ là đòn bẩy yếu khi TDS và EY đã cố định</td><td>—</td><td>[6] [7]</td><td>Dẫn được</td></tr>
+<tr><td>9</td><td>Nhiệt độ là đòn bẩy yếu khi TDS và EY đã cố định</td><td></td><td>[6] [7]</td><td>Dẫn được</td></tr>
 </tbody>
 </table>
 
@@ -373,17 +373,17 @@
 <tr><td>10</td><td>Phân bố hạt có đỉnh fines 30–40 µm; cùng trung vị vẫn có thể khác lượng fines</td><td>Bằng chứng</td><td>[34] [35] [39]</td><td>Dẫn được</td></tr>
 <tr><td>10</td><td>Đường cong chiết–cỡ xay có đỉnh, không đơn điệu</td><td>Bằng chứng</td><td>[33] [11]</td><td>Dẫn được</td></tr>
 <tr><td>10</td><td>Ngâm tới cân bằng: EY 19–23% trên dải trung vị 579–1311 µm</td><td>Bằng chứng</td><td>[31] [37]</td><td>Dẫn được</td></tr>
-<tr><td>10</td><td>Tỉ lệ fines từ 10% lên 15% kéo dài thời gian chiết khoảng 10 giây</td><td>Bằng chứng</td><td>[36]</td><td>Dẫn được, trên capsule — không phải pour-over</td></tr>
+<tr><td>10</td><td>Tỉ lệ fines từ 10% lên 15% kéo dài thời gian chiết khoảng 10 giây</td><td>Bằng chứng</td><td>[36]</td><td>Dẫn được, trên capsule, không phải pour-over</td></tr>
 <tr><td>10</td><td>Cỡ xay tương tác với hình học giỏ lọc (vị đắng, hương hoa)</td><td>Bằng chứng</td><td>[38]</td><td>Dẫn được, 45 người thử</td></tr>
 <tr><td>10</td><td>Thứ tự nước → cỡ xay → kỹ thuật là thứ tự chẩn đoán, không phải xếp hạng đo được</td><td>Hợp lý</td><td>không có nghiên cứu trực tiếp</td><td>Đã hạ nhãn, xem A4</td></tr>
-<tr><td>11</td><td>Thang SCA mười mục, 100 điểm (bộ 2004)</td><td>—</td><td>[12] [13]</td><td>Đã ghi chú, xem A4</td></tr>
-<tr><td>12</td><td>8,25 g trên 150 ml; năm cốc mỗi mẫu; quy trình bốn phút</td><td>—</td><td>[12]</td><td>Dẫn được</td></tr>
-<tr><td>13</td><td>Ba lớp thời gian; bánh xe hương vị</td><td>—</td><td>[14]</td><td>Dẫn được</td></tr>
-<tr><td>14</td><td>Cupping không dự đoán pour over</td><td>—</td><td>[30] [31]</td><td>Một phần</td></tr>
-<tr><td>15</td><td>Immersion không có cùng cơ chế channeling</td><td>—</td><td>[10] [11] [31]</td><td>Một phần</td></tr>
+<tr><td>11</td><td>Thang SCA mười mục, 100 điểm (bộ 2004)</td><td></td><td>[12] [13]</td><td>Đã ghi chú, xem A4</td></tr>
+<tr><td>12</td><td>8,25 g trên 150 ml; năm cốc mỗi mẫu; quy trình bốn phút</td><td></td><td>[12]</td><td>Dẫn được</td></tr>
+<tr><td>13</td><td>Ba lớp thời gian; bánh xe hương vị</td><td></td><td>[14]</td><td>Dẫn được</td></tr>
+<tr><td>14</td><td>Cupping không dự đoán pour over</td><td></td><td>[30] [31]</td><td>Một phần</td></tr>
+<tr><td>15</td><td>Immersion không có cùng cơ chế channeling</td><td></td><td>[10] [11] [31]</td><td>Một phần</td></tr>
 <tr><td>16</td><td>Giấy và kim loại cho hồ sơ bay hơi khác nhau</td><td>Hợp lý</td><td>[30]</td><td>Dẫn được, một con cà</td></tr>
-<tr><td>17</td><td>Vòi cách bã 3–5 cm; giữ mực nước trên mặt bã; 5–8 g/s</td><td>—</td><td>không có</td><td>Không có nguồn</td></tr>
-<tr><td>18</td><td>Ba trường phái công thức</td><td>—</td><td>[27] [28] [29]</td><td>Dẫn được</td></tr>
+<tr><td>17</td><td>Vòi cách bã 3–5 cm; giữ mực nước trên mặt bã; 5–8 g/s</td><td></td><td>không có</td><td>Không có nguồn</td></tr>
+<tr><td>18</td><td>Ba trường phái công thức</td><td></td><td>[27] [28] [29]</td><td>Dẫn được</td></tr>
 </tbody>
 </table>
 
@@ -394,23 +394,23 @@
 <tr><th>Ch.</th><th>Khẳng định cần nguồn</th><th>Nhãn trong sách</th><th>Nguồn</th><th>Kết luận</th></tr>
 </thead>
 <tbody>
-<tr><td>19</td><td>Sáu công thức vô địch 2021–2026 dùng liều 14–20 g, tỉ lệ 1:13,3–1:16</td><td>—</td><td>[41] [42] [43] [44] [45] [46] [47] [48] [49]</td><td>Dẫn được, nhưng là bản dựng lại</td></tr>
-<tr><td>19</td><td>Cỡ xay công bố trải 490–1000 µm; số click trên máy không chuyển được</td><td>Hợp lý</td><td>[43] [45] [47], và [34] [35] ở chương 10</td><td>Một phần — hai nguồn cho Wölfl lệch 490/630 µm</td></tr>
+<tr><td>19</td><td>Sáu công thức vô địch 2021–2026 dùng liều 14–20 g, tỉ lệ 1:13,3–1:16</td><td></td><td>[41] [42] [43] [44] [45] [46] [47] [48] [49]</td><td>Dẫn được, nhưng là bản dựng lại</td></tr>
+<tr><td>19</td><td>Cỡ xay công bố trải 490–1000 µm; số click trên máy không chuyển được</td><td>Hợp lý</td><td>[43] [45] [47], và [34] [35] ở chương 10</td><td>Một phần, hai nguồn cho Wölfl lệch 490/630 µm</td></tr>
 <tr><td>19</td><td>Tia nước quyết định cách bã bị xáo trộn</td><td>Bằng chứng</td><td>[51]</td><td>Dẫn được</td></tr>
 <tr><td>19</td><td>Routine thi đấu đánh đổi độ lặp lại để lấy độ rõ của một ngụm</td><td>Hợp lý</td><td>[50]</td><td>Một phần, người trong cuộc kể</td></tr>
 <tr><td>19</td><td>Nhiệt 87–93 °C không đổi cảm quan khi TDS và mức chiết đã cố định</td><td>Bằng chứng</td><td>[52]</td><td>Dẫn được</td></tr>
 <tr><td>19</td><td>Độ sâu bã phải khớp đường kính dụng cụ</td><td>Hợp lý</td><td>[53] [54]</td><td>Suy luận từ thực hành</td></tr>
-<tr><td>20</td><td>Nhìn bã để chẩn đoán</td><td>—</td><td>không có</td><td>Không có nguồn</td></tr>
-<tr><td>21</td><td>Bảng chẩn đoán</td><td>—</td><td>suy ra từ [10] [11]</td><td>Một phần</td></tr>
-<tr><td>22</td><td>Phin là phễu không bypass; bột mịn không có đường thoát nên hậu vị đắng đọng</td><td>Hợp lý</td><td>[68] [70] [71]</td><td>Một phần — [70] [71] là mô tả sản phẩm và phỏng vấn, không có đo cảm quan</td></tr>
-<tr><td>23–25</td><td>Quy trình, bốn luật, case study</td><td>—</td><td>phương pháp</td><td>Không cần nguồn</td></tr>
-<tr><td>26</td><td>Giải phẫu một ngụm; đường mũi ngược</td><td>—</td><td>sinh lý khứu giác</td><td>Không cần nguồn</td></tr>
-<tr><td>27</td><td>Ngôn ngữ nốt hương và cái bẫy của nó</td><td>—</td><td>[14] [19]</td><td>Một phần</td></tr>
-<tr><td>28–31</td><td>Luyện khẩu vị, nhật ký, dụng cụ, checklist</td><td>—</td><td>phương pháp</td><td>Không cần nguồn</td></tr>
+<tr><td>20</td><td>Nhìn bã để chẩn đoán</td><td></td><td>không có</td><td>Không có nguồn</td></tr>
+<tr><td>21</td><td>Bảng chẩn đoán</td><td></td><td>suy ra từ [10] [11]</td><td>Một phần</td></tr>
+<tr><td>22</td><td>Phin là phễu không bypass; bột mịn không có đường thoát nên hậu vị đắng đọng</td><td>Hợp lý</td><td>[68] [70] [71]</td><td>Một phần, [70] [71] là mô tả sản phẩm và phỏng vấn, không có đo cảm quan</td></tr>
+<tr><td>23–25</td><td>Quy trình, bốn luật, case study</td><td></td><td>phương pháp</td><td>Không cần nguồn</td></tr>
+<tr><td>26</td><td>Giải phẫu một ngụm; đường mũi ngược</td><td></td><td>sinh lý khứu giác</td><td>Không cần nguồn</td></tr>
+<tr><td>27</td><td>Ngôn ngữ nốt hương và cái bẫy của nó</td><td></td><td>[14] [19]</td><td>Một phần</td></tr>
+<tr><td>28–31</td><td>Luyện khẩu vị, nhật ký, dụng cụ, checklist</td><td></td><td>phương pháp</td><td>Không cần nguồn</td></tr>
 </tbody>
 </table>
 
-<p>Hai chương cuối cột — 17 và 20 — đứng trên kinh nghiệm của người viết. Điều đó không làm chúng sai; chỉ có nghĩa chúng không phải chỗ để viện dẫn khoa học.</p>
+<p>Hai chương cuối cột: 17 và 20, đứng trên kinh nghiệm của người viết. Điều đó không làm chúng sai; chỉ có nghĩa chúng không phải chỗ để viện dẫn khoa học.</p>
 `
       },
 
@@ -427,7 +427,7 @@
 
 <p>Chương 11 đến 13 dùng thang mười mục, 100 điểm. Đó là bộ <em>Cupping Protocol and Form</em> năm 2004. Từ 2024, SCA thay bằng <em>Coffee Value Assessment</em> (SCA-102, 103 và 104-2024), và CVA không dùng một điểm tổng duy nhất: nó tách thành đánh giá mô tả, đánh giá cảm xúc và phần ngoại cảnh.</p>
 
-<p>Lập luận của chương vẫn đứng, vì điểm số đo sự đồng thuận của những người được huấn luyện theo cùng một hệ tiêu chuẩn — điều đó còn đúng hơn với CVA. Chỉ câu “hầu như mọi chuyên gia trong ngành đều dùng cùng một quy trình” là không còn chính xác từ 2024. Chương 11 nay nói rõ điều này ngay câu đầu.</p>
+<p>Lập luận của chương vẫn đứng, vì điểm số đo sự đồng thuận của những người được huấn luyện theo cùng một hệ tiêu chuẩn, điều đó còn đúng hơn với CVA. Chỉ câu “hầu như mọi chuyên gia trong ngành đều dùng cùng một quy trình” là không còn chính xác từ 2024. Chương 11 nay nói rõ điều này ngay câu đầu.</p>
 
 <h3>Hai: vùng TDS</h3>
 
@@ -439,7 +439,7 @@
 
 <p>Chương 4 dẫn Christopher Hendon và cộng sự cho một phát hiện cảm quan. Bài năm 2014 của nhóm này là bài hoá học về cation và hiệu suất chiết; nó không đo cảm quan.</p>
 
-<p>Phát hiện đó có nguồn trực tiếp hơn: Rune và cộng sự (2026), Đại học Copenhagen — nghiên cứu đầu tiên kiểm chứng vùng nước “lý tưởng” của ngành bằng cảm quan có kiểm soát. Chương 4 nay dẫn bài này.</p>
+<p>Phát hiện đó có nguồn trực tiếp hơn: Rune và cộng sự (2026), Đại học Copenhagen, nghiên cứu đầu tiên kiểm chứng vùng nước “lý tưởng” của ngành bằng cảm quan có kiểm soát. Chương 4 nay dẫn bài này.</p>
 
 <h3>Bốn: thứ hạng các đòn bẩy</h3>
 
@@ -447,25 +447,25 @@
 
 <p>Không có nghiên cứu nào so trực tiếp các đòn bẩy này trong pour-over nóng, đo đồng thời TDS, mức chiết, thời gian rút và cảm quan. Cái đo được thì hẹp hơn: nước có bằng chứng cảm quan trực tiếp; cỡ xay là đòn bẩy thuỷ lực mạnh nhất; kỹ thuật là đòn bẩy duy nhất tác động chủ yếu lên độ đều, và cỡ xay tương tác với hình học phễu thay vì đứng riêng.</p>
 
-<p>Nên sách sửa hai chỗ. Một: thêm chương 10, chương riêng về cỡ xay, để đòn bẩy được xếp thứ hai có chỗ đứng thật — bảy nguồn mới, từ [34] đến [40]. Hai: đổi câu khẳng định thứ hạng thành câu mô tả chức năng. Kỹ thuật không yếu hơn cỡ xay; nó sửa một thứ khác. Phần còn lại của thứ tự được gọi đúng tên: thứ tự chẩn đoán, không phải bảng xếp hạng.</p>
+<p>Nên sách sửa hai chỗ. Một: thêm chương 10, chương riêng về cỡ xay, để đòn bẩy được xếp thứ hai có chỗ đứng thật, bảy nguồn mới, từ [34] đến [40]. Hai: đổi câu khẳng định thứ hạng thành câu mô tả chức năng. Kỹ thuật không yếu hơn cỡ xay; nó sửa một thứ khác. Phần còn lại của thứ tự được gọi đúng tên: thứ tự chẩn đoán, không phải bảng xếp hạng.</p>
 
 <h3>Năm: cấu trúc rót của Winton</h3>
 
-<p>Bảng chương 19 từng ghi hàng 2021 là “5 × 60 g, chờ bã rút”, và mục “bốn thứ thật sự chung” nói Winton chờ bã ráo rồi mới rót lần tiếp. Bài phỏng vấn của chính anh ấy nói ngược: 50 g bloom trong 35 giây, rồi 70 g, rồi ba lần 60 g — năm lần nhưng không đều — và anh ấy rót gần như nhanh hết mức để <em>bã không bao giờ khô</em>, trừ lúc bloom. Dụng cụ cũng không phải “V60” chung chung: anh ấy thử Kono, Origami và V60 thuỷ tinh, rồi chọn nón kim loại.</p>
+<p>Bảng chương 19 từng ghi hàng 2021 là “5 × 60 g, chờ bã rút”, và mục “bốn thứ thật sự chung” nói Winton chờ bã ráo rồi mới rót lần tiếp. Bài phỏng vấn của chính anh ấy nói ngược: 50 g bloom trong 35 giây, rồi 70 g, rồi ba lần 60 g, năm lần nhưng không đều và anh ấy rót gần như nhanh hết mức để <em>bã không bao giờ khô</em>, trừ lúc bloom. Dụng cụ cũng không phải “V60” chung chung: anh ấy thử Kono, Origami và V60 thuỷ tinh, rồi chọn nón kim loại.</p>
 
-<p>Lỗi này không đến từ việc đọc ấu mà từ việc dẫn lại một bản tóm tắt lưu hành trên mạng: bản đó đúng tổng 300 g và đúng số năm lần rót, nên nghe rất giống. Nó chỉ sai hai chỗ — chia đều năm phần, và đảo chiều việc canh bã. Bài học chung: khi hai nguồn cùng nói “năm lần rót”, chúng vẫn có thể nói hai chuyện khác nhau.</p>
+<p>Lỗi này không đến từ việc đọc ấu mà từ việc dẫn lại một bản tóm tắt lưu hành trên mạng: bản đó đúng tổng 300 g và đúng số năm lần rót, nên nghe rất giống. Nó chỉ sai hai chỗ, chia đều năm phần, và đảo chiều việc canh bã. Bài học chung: khi hai nguồn cùng nói “năm lần rót”, chúng vẫn có thể nói hai chuyện khác nhau.</p>
 
 <h3>Sáu: các chi tiết trích dẫn</h3>
 
-<p>Một lượt kiểm tự động — đối chiếu từng DOI với Crossref, rồi đọc lại tóm tắt của từng bài — tìm thêm sáu chỗ mà câu trong sách nói rộng hơn bài báo cho phép. Cả sáu đã sửa:</p>
+<p>Một lượt kiểm tự động, đối chiếu từng DOI với Crossref, rồi đọc lại tóm tắt của từng bài, tìm thêm sáu chỗ mà câu trong sách nói rộng hơn bài báo cho phép. Cả sáu đã sửa:</p>
 
 <ul>
-<li><strong>pH của nước</strong> (chương 4) — “6,5–7,5” không có trong Sổ tay SCA 2018. Dải đúng là 6–8 với mục tiêu 7,0, và lấy từ bảng tiêu chuẩn, không phải sổ tay. Mốc 75 ppm alkalinity chỉ áp dụng khi độ cứng 150–175 ppm.</li>
-<li><strong>Hendon 2014 ([3])</strong> — là bài tính toán năng lượng liên kết bằng DFT: không có thí nghiệm chiết, không đo cảm quan. Câu cũ gọi nó là “bài hoá học về hiệu suất chiết”.</li>
-<li><strong>Thứ tự giảm trong espresso ([8])</strong> — bài gộp trigonelline với TDS thành một nhóm nhanh nhất, không xếp trigonelline trên TDS.</li>
-<li><strong>Nguồn của đỉnh fines ([34])</strong> — kích thước hạt đo bằng nhiễu xạ laser, không phải bằng ảnh cắt lớp vi mô; profile độ rỗng hình thành <em>sau khi chiết</em>.</li>
-<li><strong>Thiết kế nghiên cứu của Bressani ([15])</strong> — 101 người, hai buổi nếm, không phải chia đôi người thử.</li>
-<li><strong>Trữ đông</strong> (chương 3) — nguồn gần nhất là 5 °C, tức ngăn mát, trong một tháng. Không có thử nghiệm trữ đông nào, nên nhãn đã hạ xuống Hợp lý.</li>
+<li><strong>pH của nước</strong> (chương 4), “6,5–7,5” không có trong Sổ tay SCA 2018. Dải đúng là 6–8 với mục tiêu 7,0, và lấy từ bảng tiêu chuẩn, không phải sổ tay. Mốc 75 ppm alkalinity chỉ áp dụng khi độ cứng 150–175 ppm.</li>
+<li><strong>Hendon 2014 ([3])</strong>: là bài tính toán năng lượng liên kết bằng DFT: không có thí nghiệm chiết, không đo cảm quan. Câu cũ gọi nó là “bài hoá học về hiệu suất chiết”.</li>
+<li><strong>Thứ tự giảm trong espresso ([8])</strong>: bài gộp trigonelline với TDS thành một nhóm nhanh nhất, không xếp trigonelline trên TDS.</li>
+<li><strong>Nguồn của đỉnh fines ([34])</strong>: kích thước hạt đo bằng nhiễu xạ laser, không phải bằng ảnh cắt lớp vi mô; profile độ rỗng hình thành <em>sau khi chiết</em>.</li>
+<li><strong>Thiết kế nghiên cứu của Bressani ([15])</strong>: 101 người, hai buổi nếm, không phải chia đôi người thử.</li>
+<li><strong>Trữ đông</strong> (chương 3), nguồn gần nhất là 5 °C, tức ngăn mát, trong một tháng. Không có thử nghiệm trữ đông nào, nên nhãn đã hạ xuống Hợp lý.</li>
 </ul>
 
 <h3>Bảy khẳng định không có nguồn</h3>
@@ -473,13 +473,13 @@
 <p>Đây là chỗ hệ thống nhãn mất giá trị nếu để nguyên.</p>
 
 <ul>
-<li><strong>“Rang đậm dễ pha hơn”</strong> (chương 2) — đúng phần dễ, sai phần nên bắt đầu bằng. Không có nghiên cứu so sánh độ khó pha theo mức rang. Nên là Truyền miệng, không phải để trống.</li>
-<li><strong>Độ tươi so với nước</strong> (chương 3) — câu so sánh cụ thể không có nghiên cứu nào. Cơ chế đúng, nên hạ xuống Hợp lý.</li>
-<li><strong>Vòi cách bã 3–5 cm, giữ mực nước trên mặt bã, 5–8 g/s</strong> (chương 17) — suy luận từ cơ chế, chưa ai đo. Hợp lý, không hơn.</li>
-<li><strong>Nhìn bã để chẩn đoán</strong> (chương 20) — chỗ sách tự tin nhất mà bằng chứng mỏng nhất. Không có nghiên cứu nào nối hình dạng bã với bản đồ chiết xuất. Nên là Truyền miệng.</li>
-<li><strong>Bloom là bước xử lý khí</strong> (chương 3) — cơ chế đúng, tác dụng cảm quan chưa được chứng minh. Nên là Hợp lý.</li>
-<li><strong>Tỉ lệ đổi TDS tuyến tính, 1:16 sang 1:15 đậm hơn 6–7%</strong> (chương 7) — số học đúng, nhưng con số 6–7% là ngoại suy chưa được kiểm riêng.</li>
-<li><strong>“Không có nghiên cứu nào cho thấy điểm cupping dự đoán được mức ưa thích”</strong> (chương 11) — đúng tính đến nay, nhưng nên nói “chưa có” thay vì “không có”, vì đó là khẳng định phủ định toàn cầu.</li>
+<li><strong>“Rang đậm dễ pha hơn”</strong> (chương 2), đúng phần dễ, sai phần nên bắt đầu bằng. Không có nghiên cứu so sánh độ khó pha theo mức rang. Nên là Truyền miệng, không phải để trống.</li>
+<li><strong>Độ tươi so với nước</strong> (chương 3), câu so sánh cụ thể không có nghiên cứu nào. Cơ chế đúng, nên hạ xuống Hợp lý.</li>
+<li><strong>Vòi cách bã 3–5 cm, giữ mực nước trên mặt bã, 5–8 g/s</strong> (chương 17), suy luận từ cơ chế, chưa ai đo. Hợp lý, không hơn.</li>
+<li><strong>Nhìn bã để chẩn đoán</strong> (chương 20), chỗ sách tự tin nhất mà bằng chứng mỏng nhất. Không có nghiên cứu nào nối hình dạng bã với bản đồ chiết xuất. Nên là Truyền miệng.</li>
+<li><strong>Bloom là bước xử lý khí</strong> (chương 3), cơ chế đúng, tác dụng cảm quan chưa được chứng minh. Nên là Hợp lý.</li>
+<li><strong>Tỉ lệ đổi TDS tuyến tính, 1:16 sang 1:15 đậm hơn 6–7%</strong> (chương 7), số học đúng, nhưng con số 6–7% là ngoại suy chưa được kiểm riêng.</li>
+<li><strong>“Không có nghiên cứu nào cho thấy điểm cupping dự đoán được mức ưa thích”</strong> (chương 11), đúng tính đến nay, nhưng nên nói “chưa có” thay vì “không có”, vì đó là khẳng định phủ định toàn cầu.</li>
 </ul>
 
 <h3>Bản quyền hình ảnh</h3>
@@ -488,11 +488,11 @@
 
 <h3>Giới hạn</h3>
 
-<p>Phụ lục chưa tra từng khẳng định đến mức trích số trang và câu gốc, chưa kiểm lại ngày đăng hai video ở [28] và [29], và chưa tra Phần VII, VIII — nơi phần lớn nội dung là phương pháp chứ không phải cơ chế. Ba bài [17], [22] và trang DOI của [5] bị chặn toàn văn khi tra; chi tiết lấy từ tóm tắt và bài tổng quan của SCA.</p>
+<p>Phụ lục chưa tra từng khẳng định đến mức trích số trang và câu gốc, chưa kiểm lại ngày đăng hai video ở [28] và [29], và chưa tra Phần VII, VIII, nơi phần lớn nội dung là phương pháp chứ không phải cơ chế. Ba bài [17], [22] và trang DOI của [5] bị chặn toàn văn khi tra; chi tiết lấy từ tóm tắt và bài tổng quan của SCA.</p>
 
 <div class="callout ok">
 <p class="callout-title">Điều đáng giữ lại</p>
-<p>Khẳng định trung tâm của sách — nước quan trọng hơn người ta tưởng, và alkalinity quan trọng hơn độ cứng — không chỉ đứng vững mà còn mạnh hơn sau khi tra. Ba chỗ phải sửa đều là chi tiết: một thang điểm đã cũ, một chữ số, một cái tên.</p>
+<p>Khẳng định trung tâm của sách, nước quan trọng hơn người ta tưởng, và alkalinity quan trọng hơn độ cứng, không chỉ đứng vững mà còn mạnh hơn sau khi tra. Ba chỗ phải sửa đều là chi tiết: một thang điểm đã cũ, một chữ số, một cái tên.</p>
 </div>
 `
       }

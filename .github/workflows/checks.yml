@@ -1,7 +1,8 @@
 name: checks
 
-# Hai thứ dễ hỏng âm thầm nhất của repo này: một hàng bảng bị bỏ sót trong
-# bản dịch, và một số hiệu trích dẫn chết. Cả hai không làm vỡ trang, chỉ làm
+# Ba thứ dễ hỏng âm thầm nhất của repo này: một hàng bảng bị bỏ sót trong
+# bản dịch, một số hiệu trích dẫn chết, và một câu "xem chương N" trỏ nhầm
+# chương sau khi đánh số lại (đã xảy ra khi sách từ 30 lên 31 chương). Cả hai không làm vỡ trang, chỉ làm
 # cuốn sách sai — nên phải có máy kiểm trước khi lên Pages.
 #
 # Chỉ kiểm phần nội bộ: check-refs chạy --offline để job không phụ thuộc
@@ -31,7 +32,7 @@ jobs:
           node-version: 22
 
       # Không có npm install: repo này zero-dependency, chỉ cần node.
-      - name: Test logic tìm kiếm (bỏ dấu, xếp hạng, nhãn số)
+      - name: Test logic tìm kiếm và tham chiếu chương
         run: node --test
 
       - name: Bản dịch khớp cấu trúc bản gốc

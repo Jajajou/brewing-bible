@@ -10,7 +10,7 @@ window.BOOK_PARTS.push({
   {
     id: "ch-nhat-ky",
     title: "Nhật ký pha: mẫu ghi chép tối thiểu",
-    lede: "Bạn sẽ quên. Không phải “có thể quên” — bạn sẽ quên. Đây là cách ghi để không mất dữ liệu.",
+    lede: "Bạn sẽ quên. Không phải “có thể quên”. Bạn sẽ quên. Đây là cách ghi để không mất dữ liệu.",
     minutes: 6,
     tags: ["thực hành", "tham khảo"],
     body: `
@@ -65,7 +65,7 @@ GHI CHÚ: ________________________________
 
 <h3>Bốn trục để ghi vị</h3>
 
-<p>Đừng cố viết nốt hương. Dùng bốn trục từ chương 26, mỗi trục một số từ 1 đến 5:</p>
+<p>Đừng cố viết nốt hương. Dùng bốn trục từ chương 27, mỗi trục một số từ 1 đến 5:</p>
 
 <div class="table-wrap">
 <table>
@@ -79,7 +79,7 @@ GHI CHÚ: ________________________________
 </table>
 </div>
 
-<p>Một dòng như: <code>4 / 3 / 5 / 2</code> nói với bạn nhiều hơn "mơ, hoa nhài, mật ong" — và nó có thể so sánh được giữa các lần pha.</p>
+<p>Một dòng như: <code>4 / 3 / 5 / 2</code> nói với bạn nhiều hơn "mơ, hoa nhài, mật ong" và nó có thể so sánh được giữa các lần pha.</p>
 
 <h3>Ba cột bạn nên xem lại</h3>
 
@@ -93,24 +93,24 @@ GHI CHÚ: ________________________________
 
 <h3>Ghi cả những lần thất bại</h3>
 
-<p>Đây là điều quan trọng nhất và cũng khó nhất. Người ta có xu hướng ghi lại những ly ngon và bỏ qua những ly dở. Nhưng dữ liệu về thất bại thường hữu ích hơn — vì nó cho bạn biết <em>biên</em> của vùng thành công.</p>
+<p>Đây là điều quan trọng nhất và cũng khó nhất. Người ta có xu hướng ghi lại những ly ngon và bỏ qua những ly dở. Nhưng dữ liệu về thất bại thường hữu ích hơn, vì nó cho bạn biết <em>biên</em> của vùng thành công.</p>
 
 <p>Nếu bạn ghi ba ly dở liên tiếp với cùng một thay đổi, bạn biết thay đổi đó sai hướng. Nếu bạn chỉ ghi ly ngon, bạn không biết mình đã đi qua bao nhiêu lần sai để đến đó.</p>
 
 <div class="callout act">
 <p class="callout-title">Cách dùng nhật ký hiệu quả nhất</p>
-<p>Đừng đọc nó mỗi ngày. Đọc nó <strong>khi bạn mở một bao cà mới</strong> — và tìm con cà gần giống nhất về giống/sơ chế/rang. Đó là điểm khởi đầu tốt hơn bất kỳ công thức chung nào.</p>
+<p>Đừng đọc nó mỗi ngày. Đọc nó <strong>khi bạn mở một bao cà mới</strong> và tìm con cà gần giống nhất về giống/sơ chế/rang. Đó là điểm khởi đầu tốt hơn bất kỳ công thức chung nào.</p>
 </div>
 
 <h3>Về việc ghi bằng điện thoại</h3>
 
 <p>Ghi bằng điện thoại được, nhưng có hai nhược điểm: bạn sẽ không thấy nó khi đang pha (tay ướt), và bạn sẽ không đọc lại.</p>
 
-<p>Cách tốt nhất: một cuốn sổ nhỏ và một cây bút, để cạnh máy pha. Viết trong lúc cà đang rút. Bạn đã có 45 giây chờ — dùng nó.</p>
+<p>Cách tốt nhất: một cuốn sổ nhỏ và một cây bút, để cạnh máy pha. Viết trong lúc cà đang rút. Bạn đã có 45 giây chờ, dùng nó.</p>
 
 <h3>Bản điện tử, nếu bạn muốn thử</h3>
 
-<p>Cuốn sách này có một trang nhật ký riêng, mở bằng điện thoại: <a href="journal.html">nhật ký pha</a>. Nó là đúng bảy dòng của mẫu trên, thêm một ô chụp ảnh bã và bốn trục vị dạng chọn. Mẫu đầy hơn thì có thêm phần các bước rót: mỗi bước một mốc thời gian và lượng nước cộng dồn, thêm bớt bao nhiêu bước cũng được, để trống cũng được. Trang tĩnh, không tài khoản, không gọi mạng — dữ liệu nằm trong trình duyệt của chính máy bạn.</p>
+<p>Cuốn sách này có một trang nhật ký riêng, mở bằng điện thoại: <a href="journal.html">nhật ký pha</a>. Nó là đúng bảy dòng của mẫu trên, thêm một ô chụp ảnh bã và bốn trục vị dạng chọn. Mẫu đầy hơn thì có thêm phần các bước rót: mỗi bước một mốc thời gian và lượng nước cộng dồn, thêm bớt bao nhiêu bước cũng được, để trống cũng được. Trang tĩnh, không tài khoản, không gọi mạng, dữ liệu nằm trong trình duyệt của chính máy bạn.</p>
 
 <p>Nếu bạn muốn nó sống lâu hơn một lần đổi máy, trang đẩy được từng lần pha lên một Google Sheet của chính bạn, ảnh bã lên Drive, qua một Apps Script bạn tự dựng. Ba bước, khoảng mười lăm phút: <a href="guide.html">hướng dẫn dựng đồng bộ</a>.</p>
 
@@ -133,7 +133,7 @@ So với cupping:  ___ gần / ___ cách xa<br>
 Mua lại?  ___ có / ___ không      Vì: ____________
 </div>
 
-<p>Dòng cuối cùng — "mua lại?" — là dòng có giá trị nhất trong toàn bộ cuốn sổ. Sau một năm, nó là danh sách những gì bạn thật sự thích, đã được kiểm chứng bằng tiền và thời gian của bạn.</p>
+<p>Dòng cuối cùng, "mua lại?", là dòng có giá trị nhất trong toàn bộ cuốn sổ. Sau một năm, nó là danh sách những gì bạn thật sự thích, đã được kiểm chứng bằng tiền và thời gian của bạn.</p>
 `
   },
 
@@ -181,7 +181,7 @@ Mua lại?  ___ có / ___ không      Vì: ____________
 <thead><tr><th>Thứ</th><th>Vì sao không cần</th></tr></thead>
 <tbody>
 <tr><td>Refractometer</td><td>Đắt, cần hiệu chuẩn, và không cho biết ly cà có ngon không. Xem chương 7.</td></tr>
-<tr><td>Bút TDS</td><td>Không đo được alkalinity — thứ duy nhất quan trọng. Xem chương 5.</td></tr>
+<tr><td>Bút TDS</td><td>Không đo được alkalinity, thứ duy nhất quan trọng. Xem chương 5.</td></tr>
 <tr><td>Giấy quỳ / bút pH</td><td>pH bị chi phối bởi alkalinity; đo pH là đo triệu chứng.</td></tr>
 <tr><td>Bộ lọc carbon (Brita)</td><td>Không giảm alkalinity. Chỉ giúp clo. Xem chương 6.</td></tr>
 <tr><td>Máy làm mềm nước</td><td>Xử lý độ cứng, không xử lý độ kiềm.</td></tr>
@@ -194,10 +194,10 @@ Mua lại?  ___ có / ___ không      Vì: ____________
 <h3>Những thứ đáng mua, theo thứ tự</h3>
 
 <ol>
-<li><strong>Bộ test KH hồ cá</strong> (150–300k) — thứ duy nhất đo được alkalinity, và đo được hàng trăm lần.</li>
-<li><strong>Nước RO</strong> (vài nghìn/lít) — để pha loãng. Không cần máy lọc nếu bạn mua được nước RO.</li>
-<li><strong>Hũ kín tối màu</strong> (100–200k) — nếu bao của bạn không có van một chiều.</li>
-<li><strong>Cân có timer</strong> (300–500k) — nếu bạn muốn theo dõi thời gian rót mà không cần nhìn điện thoại.</li>
+<li><strong>Bộ test KH hồ cá</strong> (150–300k), thứ duy nhất đo được alkalinity, và đo được hàng trăm lần.</li>
+<li><strong>Nước RO</strong> (vài nghìn/lít), để pha loãng. Không cần máy lọc nếu bạn mua được nước RO.</li>
+<li><strong>Hũ kín tối màu</strong> (100–200k), nếu bao của bạn không có van một chiều.</li>
+<li><strong>Cân có timer</strong> (300–500k), nếu bạn muốn theo dõi thời gian rót mà không cần nhìn điện thoại.</li>
 </ol>
 
 <h3>Về máy xay: ba mức</h3>
@@ -223,11 +223,11 @@ Mua lại?  ___ có / ___ không      Vì: ____________
 <div class="stat"><b>~6tr</b><span>Đầy đủ</span></div>
 </div>
 
-<p>Với khoảng 1,5 triệu — cân, máy xay tay, phễu Switch, ấm thường — bạn có thể pha một ly cà phê tốt hơn 90% các quán cà phê bình dân. Phần còn lại là kỹ thuật và nước, và cả hai đều gần như miễn phí.</p>
+<p>Với khoảng 1,5 triệu (cân, máy xay tay, phễu Switch, ấm thường), bạn có thể pha một ly cà phê tốt hơn 90% các quán cà phê bình dân. Phần còn lại là kỹ thuật và nước, và cả hai đều gần như miễn phí.</p>
 
 <div class="callout warn">
 <p class="callout-title">Một lưu ý về ấm</p>
-<p>Nếu bạn đang dùng ấm thường (không cổ ngỗng, không điều nhiệt), bạn vẫn pha được — nhưng bạn phải chấp nhận hai giới hạn: không kiểm soát được dòng chảy chính xác, và không biết nhiệt độ. Với giới hạn đó, hãy dùng công thức có cửa sổ rộng (immersion) thay vì công thức cần kiểm soát chính xác (percolation nhiều bước).</p>
+<p>Nếu bạn đang dùng ấm thường (không cổ ngỗng, không điều nhiệt), bạn vẫn pha được nhưng bạn phải chấp nhận hai giới hạn: không kiểm soát được dòng chảy chính xác, và không biết nhiệt độ. Với giới hạn đó, hãy dùng công thức có cửa sổ rộng (immersion) thay vì công thức cần kiểm soát chính xác (percolation nhiều bước).</p>
 </div>
 `
   },
@@ -243,13 +243,13 @@ Mua lại?  ___ có / ___ không      Vì: ____________
 
 <div class="callout warn">
 <p class="callout-title">Trước khi bắt đầu</p>
-<p>Nếu bạn đang mệt, vừa ăn, vừa uống cà phê khác, hoặc vừa hút thuốc — vị giác của bạn đang bị ảnh hưởng. Thử lại vào sáng mai, trước khi ăn. Đây là bước 0 và nó giải quyết được nhiều "vấn đề" hơn bạn nghĩ.</p>
+<p>Nếu bạn đang mệt, vừa ăn, vừa uống cà phê khác, hoặc vừa hút thuốc, vị giác của bạn đang bị ảnh hưởng. Thử lại vào sáng mai, trước khi ăn. Đây là bước 0 và nó giải quyết được nhiều "vấn đề" hơn bạn nghĩ.</p>
 </div>
 
 <h3>Checklist theo thứ tự</h3>
 
 <ol class="steps">
-<li><strong>Nước</strong><p>Bạn có biết alkalinity của nước mình đang dùng không? Nếu không, làm thí nghiệm ba ly ở chương 6. Nếu bạn dùng nước khoáng đóng chai, đọc nhãn — nhiều loại ở Việt Nam có bicarbonate 200–330 mg/L, tương đương 160–270 ppm alkalinity, gấp ba đến sáu lần mức khuyến nghị.</p><p><em>Dấu hiệu:</em> ly cà phẳng, mất trái cây, đắng nền dù bạn đã giảm chiết.</p></li>
+<li><strong>Nước</strong><p>Bạn có biết alkalinity của nước mình đang dùng không? Nếu không, làm thí nghiệm ba ly ở chương 6. Nếu bạn dùng nước khoáng đóng chai, đọc nhãn, nhiều loại ở Việt Nam có bicarbonate 200–330 mg/L, tương đương 160–270 ppm alkalinity, gấp ba đến sáu lần mức khuyến nghị.</p><p><em>Dấu hiệu:</em> ly cà phẳng, mất trái cây, đắng nền dù bạn đã giảm chiết.</p></li>
 
 <li><strong>Cà có cũ không</strong><p>Bao nhiêu ngày sau rang? Nếu trên 60 ngày và bao không có van một chiều, đây có thể là nguyên nhân chính. Nếu bạn không biết ngày rang, giả định là cũ.</p><p><em>Dấu hiệu:</em> mùi giấy, các-tông; hương không mở dù bạn tăng nhiệt.</p></li>
 
@@ -257,11 +257,11 @@ Mua lại?  ___ có / ___ không      Vì: ____________
 
 <li><strong>Nhìn bã</strong><p>Đều không? Có hố ở giữa? Có mảng khô ở rìa? Rút bao lâu?</p><p><em>Nếu không đều:</em> vấn đề là kỹ thuật. Hạ độ cao xuống 3–5 cm, đổi sang xoáy ốc, xoay phễu sau bloom.</p></li>
 
-<li><strong>Nhiệt độ</strong><p>Bạn có thật sự đang rót ở nhiệt độ mình nghĩ? Nếu ấm không có điều nhiệt, nhiệt độ thật có thể thấp hơn 5–8 °C. Đo bằng nhiệt kế một lần.</p><p><em>Dấu hiệu:</em> chua xanh, rau cỏ, thiếu hương — dù cỡ xay có vẻ đúng.</p></li>
+<li><strong>Nhiệt độ</strong><p>Bạn có thật sự đang rót ở nhiệt độ mình nghĩ? Nếu ấm không có điều nhiệt, nhiệt độ thật có thể thấp hơn 5–8 °C. Đo bằng nhiệt kế một lần.</p><p><em>Dấu hiệu:</em> chua xanh, rau cỏ, thiếu hương, dù cỡ xay có vẻ đúng.</p></li>
 
-<li><strong>Cỡ xay</strong><p>Trong checklist này, đây là thứ bạn kiểm sau cùng — vì mọi thứ phía trên đều dễ kiểm hơn và đều có thể giả làm lỗi cỡ xay. Nếu bã đều và thời gian rút bình thường (30–60 giây cho giai đoạn cuối), cỡ xay có thể đã đúng.</p></li>
+<li><strong>Cỡ xay</strong><p>Trong checklist này, đây là thứ bạn kiểm sau cùng, vì mọi thứ phía trên đều dễ kiểm hơn và đều có thể giả làm lỗi cỡ xay. Nếu bã đều và thời gian rút bình thường (30–60 giây cho giai đoạn cuối), cỡ xay có thể đã đúng.</p></li>
 
-<li><strong>So với cupping</strong><p>Nếu cupping cũng dở, vấn đề không phải pha. Đó là con cà, hoặc nước, hoặc cả hai.</p><p><em>Đây là bước quan trọng nhất trong toàn bộ checklist</em> — vì nó chia đôi vấn đề.</p></li>
+<li><strong>So với cupping</strong><p>Nếu cupping cũng dở, vấn đề không phải pha. Đó là con cà, hoặc nước, hoặc cả hai.</p><p><em>Đây là bước quan trọng nhất trong toàn bộ checklist</em>, vì nó chia đôi vấn đề.</p></li>
 
 <li><strong>Chấp nhận</strong><p>Nếu bạn đã đi qua bảy bước và ly cà vẫn chỉ ở mức "được", có thể đây là giới hạn của con cà này. Không phải mọi bao cà đều có thể ngon. Và không phải mọi ly cà không ngon là lỗi của bạn.</p></li>
 </ol>
@@ -300,7 +300,7 @@ Mua lại?  ___ có / ___ không      Vì: ____________
 
 <div class="callout ok">
 <p class="callout-title">3. Giới hạn ba lần</p>
-<p>Nếu sau ba lần điều chỉnh bạn vẫn không đến gần cupping, dừng. Đó là thông tin về con cà. Và nó là thông tin có giá trị — nó nói với bạn đừng mua lại.</p>
+<p>Nếu sau ba lần điều chỉnh bạn vẫn không đến gần cupping, dừng. Đó là thông tin về con cà. Và nó là thông tin có giá trị. Nó nói với bạn đừng mua lại.</p>
 </div>
 
 <h3>Ba điều không bao giờ là nguyên nhân</h3>
@@ -311,11 +311,11 @@ Mua lại?  ___ có / ___ không      Vì: ____________
 <li><strong>"Tôi cần mua thêm dụng cụ."</strong> Đây là câu trả lời phổ biến nhất và thường sai nhất. Gần như mọi lần, vấn đề nằm ở nước, cà, hoặc một trong bốn biến số của kỹ thuật rót. (Con số "90%" hay được nói ở đây là cách nói, không phải một thống kê.)</li>
 </ul>
 
-<div class="pull">Nếu bạn đã đi hết checklist<br>và ly cà vẫn chỉ ở mức “được” —<br>thì đó là <em>câu trả lời</em>, không phải thất bại.</div>
+<div class="pull">Nếu bạn đã đi hết checklist<br>và ly cà vẫn chỉ ở mức “được”, <br>thì đó là <em>câu trả lời</em>, không phải thất bại.</div>
 
 <h3>Lời cuối</h3>
 
-<p>Cuốn sách này bắt đầu bằng một ý tưởng: <strong>ly cà phê có một trần, và trần đó được đặt trước khi bạn bắt đầu.</strong> Mọi kỹ thuật trong cuốn sách này — nước, cỡ xay, kỹ thuật rót, đọc bã — đều là những cách để đến gần trần đó hơn, không phải để vượt qua nó.</p>
+<p>Cuốn sách này bắt đầu bằng một ý tưởng: <strong>ly cà phê có một trần, và trần đó được đặt trước khi bạn bắt đầu.</strong> Mọi kỹ thuật trong cuốn sách này (nước, cỡ xay, kỹ thuật rót, đọc bã) đều là những cách để đến gần trần đó hơn, không phải để vượt qua nó.</p>
 
 <p>Và nếu bạn chỉ nhớ một điều từ tất cả những trang này, hãy nhớ điều này: <strong>bạn không tạo ra hương. Bạn chỉ có thể đánh rơi nó.</strong> Đó vừa là một giới hạn, vừa là một sự giải phóng.</p>
 
