@@ -595,7 +595,7 @@ Chương | Khẳng định cần nguồn | Nhãn trong sách | Nguồn | Trạng
 4 | Vùng nước 40–75 / 50–175 / pH 6,5–7,5 | Hợp lý | [4] | dẫn được
 5 | Bút TDS không đo alkalinity; HCO₃ × 0,82; 1 dKH = 17,86 ppm | — | hoá học phổ thông | không cần nguồn
 6 | Pha loãng tuyến tính; RO; số liệu La Vie | — | nhãn sản phẩm | không cần nguồn
-7 | 18–22% EY, 1,15–1,45% TDS | — | [5] + SCA Golden Cup | **xem mục "Chỗ cần sửa"**
+7 | 18–22% EY, 1,15–1,35% TDS | Bằng chứng | [5] + SCA Golden Cup | đã sửa từ 1,45 — xem A4
 8 | "Acid trước, đắng sau" là giả thuyết không kiểm chứng | Truyền miệng | [32] | dẫn được — chính xác
 8 | Thứ tự giảm: trigonelline → TDS → 5-CQA → caffeine | Bằng chứng | [8] | dẫn được
 8 | Axit malic/acetic/lactic dưới ngưỡng; chuyên gia không gọi được tên | Bằng chứng | [2] | dẫn được

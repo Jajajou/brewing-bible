@@ -352,6 +352,25 @@ nav#toc li{ margin: 0.35em 0; }
 .f-lab{ font-family: "Helvetica", sans-serif; font-size: 5.4px; fill: #6f6459; }
 .f-lab-unit{ text-anchor: end; }
 
+/* ---------- hình nhập từ bộ figures-svg ---------- */
+/* Màu viết thẳng chứ không dùng var(): máy đọc cũ không hiểu biến CSS,
+   và hình mất màu thì không còn đọc được. Xem ghi chú ở styles.css. */
+.fig-plate text{ font-family: "Helvetica", sans-serif; }
+.fig-plate .p-ink{ fill: #1b1815; }
+.fig-plate .p-ink2{ fill: #3d3833; }
+.fig-plate .p-muted{ fill: #6f6459; }
+.fig-plate .p-accent{ fill: #8f421a; }
+.fig-plate .p-soft{ fill: #e8dfcd; }
+/* Không tô đặc: trình đọc nền tối biến khối đặc thành tấm sáng chói. */
+.fig-plate .p-wash{ fill: #8f421a; fill-opacity: 0.1; }
+.fig-plate .s-ink{ stroke: #1b1815; }
+.fig-plate .s-ink2{ stroke: #3d3833; }
+.fig-plate .s-muted{ stroke: #6f6459; }
+.fig-plate .s-accent{ stroke: #8f421a; }
+.fig-plate .s-axis{ stroke: #d8cdba; }
+.fig-plate .s-grid{ stroke: #e8dfcd; }
+
+
 .fig figcaption{
   margin-top: 0.7em; padding-top: 0.5em;
   border-top: 1px solid #e8dfcd;

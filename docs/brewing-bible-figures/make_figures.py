@@ -38,7 +38,7 @@ STR = {
         # fig 7.1
         "ey_axis": "Mức chiết — EY (%)",
         "tds_axis": "Độ đậm — TDS (%)",
-        "zone": "Vùng tham khảo của sách: EY 18–22%, TDS 1,15–1,45%",
+        "zone": "Vùng tham khảo của sách: EY 18–22%, TDS 1,15–1,35%",
         "ratio_note": "TDS ≈ EY ÷ (tỉ lệ − 2), bã giữ ~2 g nước/g cà",
         # fig 7.2
         "hi_tds": "TDS cao", "hi_sub": "ly đậm hơn",
@@ -102,6 +102,13 @@ STR = {
         "bypass": ("Bypass dọc giấy", "ít được chiết"),
         "through": ("Nước qua bã", "được chiết"),
         "fines_bottom": ("Bột mịn dồn đáy", "dễ bít giấy"),
+        # fig 22.1
+        "phin_upper": ("Phin trên", "bình chia nước"),
+        "phin_drip": ("Nhỏ giọt xuống", "nước xuống đều, không xối"),
+        "phin_lower": ("Phin dưới", "buồng chiết, chứa cà"),
+        "phin_paper": ("Giấy AeroPress", "mép ôm trùm quanh đáy"),
+        "phin_nobypass": ("Không có đường tắt", "nước chỉ có một lối ra"),
+        "phin_cap": ("Buồng chỉ chứa ~100 ml", "nên phải rót nhiều lần"),
     },
     "en": {
         "dec": ".",
@@ -109,7 +116,7 @@ STR = {
         "src": "Source",
         "ey_axis": "Extraction yield — EY (%)",
         "tds_axis": "Strength — TDS (%)",
-        "zone": "Book's reference zone: EY 18–22%, TDS 1.15–1.45%",
+        "zone": "Book's reference zone: EY 18–22%, TDS 1.15–1.35%",
         "ratio_note": "TDS ≈ EY ÷ (ratio − 2); grounds hold ~2 g water per g",
         "hi_tds": "Higher TDS", "hi_sub": "stronger cup",
         "hi_items": ["More bitter", "More sour", "More smoky"],
@@ -163,6 +170,13 @@ STR = {
         "bypass": ("Bypass along paper", "barely extracted"),
         "through": ("Through the bed", "extracts coffee"),
         "fines_bottom": ("Fines settle low", "can clog the paper"),
+        # fig 22.1
+        "phin_upper": ("Upper phin", "water distributor"),
+        "phin_drip": ("Drips down", "even flow, no pouring force"),
+        "phin_lower": ("Lower phin", "brew chamber, holds the coffee"),
+        "phin_paper": ("AeroPress paper", "edges wrap under the base"),
+        "phin_nobypass": ("No shortcut", "water has one way out"),
+        "phin_cap": ("Chamber holds ~100 ml", "so you pour in stages"),
     },
 }
 
@@ -231,7 +245,9 @@ def fig_ratio(lang):
         v = 1.0 + i * 0.1
         b.append(line(80, Y(v), 560, Y(v), GRID))
         b.append(t(70, Y(v) + 4, num(v, lang), 13, MUTED, "end"))
-    b.append(rect(X(18), Y(1.45), X(22) - X(18), Y(1.15) - Y(1.45), TEAL_L, TEAL, 6, 1))
+    # Vùng Golden Cup của SCA là 1,15–1,35% TDS. Con số 1,45 lưu hành rộng
+    # nhưng không phải của chuẩn — xem mục "Chỗ cần sửa" trong REFERENCES.md.
+    b.append(rect(X(18), Y(1.35), X(22) - X(18), Y(1.15) - Y(1.35), TEAL_L, TEAL, 6, 1))
     b.append(line(80, 360, 560, 360, AXIS, 1.2))
     b.append(line(80, 60, 80, 360, AXIS, 1.2))
     styles = {15: (COFFEE, None), 16: (AMBER, None), 17: (TEAL, "7 5"), 18: (STONE_D, "2 5")}
@@ -515,6 +531,85 @@ def fig_v60_paths(lang):
     return svg(600, 430, "Water paths in a V60", S["bypass"][0], "\n".join(b))
 
 
+# ---------------------------------------------------------------- 22.1 double phin
+def fig_phin(lang):
+    """Phin đôi: phin trên chia nước, phin dưới chiết. Hình cắt dọc.
+
+    Mục đích của hình là cho thấy vì sao phin là phễu không bypass: thành
+    buồng thẳng đứng và giấy ôm trùm quanh đáy, nên nước không có mép nào
+    để lách qua như ở phễu nón.
+    """
+    S = STR[lang]
+    b = []
+    cx = 286                      # trục giữa của hai cái phin
+    halfw = 74                    # nửa bề ngang buồng
+
+    # --- phin trên: bình chia nước ---
+    up_top, up_bot = 40, 132
+    b.append(rect(cx - halfw, up_top, halfw * 2, up_bot - up_top, WATER_L, INK, rx=6, sw=2))
+    b.append(line(cx - halfw + 10, up_top + 24, cx + halfw - 10, up_top + 24, WATER, 2))
+    for dx in (-30, 0, 30):
+        b.append(line(cx + dx, up_bot, cx + dx, up_bot + 9, WATER, 2))
+    for dx, dy in ((-30, 24), (0, 15), (30, 31)):
+        b.append(f'<circle cx="{cx + dx}" cy="{up_bot + dy}" r="3.2" fill="{WATER}"/>')
+
+    # --- phin dưới: buồng chiết ---
+    lo_top, lo_bot = 180, 318
+    b.append(rect(cx - halfw, lo_top, halfw * 2, lo_bot - lo_top, "none", INK, rx=6, sw=2))
+
+    # nước ngập trên mặt bã
+    bed_top = lo_top + 42
+    b.append(rect(cx - halfw + 3, lo_top + 4, halfw * 2 - 6, bed_top - lo_top - 6, WATER_L, "none", rx=3))
+    b.append(line(cx - halfw + 3, lo_top + 7, cx + halfw - 3, lo_top + 7, WATER, 1.6))
+
+    # lớp cà: rải đều bằng hai chỉ số độc lập, không phải một dãy modulo
+    # (một dãy duy nhất cho các hạt xếp thành đường chéo, trông như lỗi vẽ)
+    b.append(rect(cx - halfw + 3, bed_top, halfw * 2 - 6, lo_bot - bed_top - 10, AMBER_L, "none", rx=3))
+    cols, rows = 9, 5
+    for r in range(rows):
+        for c in range(cols):
+            jitter = ((r * 7 + c * 13) % 5) - 2
+            gx = cx - halfw + 14 + c * (halfw * 2 - 28) / (cols - 1) + jitter
+            gy = bed_top + 12 + r * (lo_bot - bed_top - 32) / (rows - 1) + jitter
+            b.append(f'<circle cx="{gx:.1f}" cy="{gy:.1f}" r="2.5" fill="{COFFEE}"/>')
+
+    # --- giấy lọc ôm trùm quanh đáy ---
+    paper = [(cx - halfw - 10, lo_bot + 13), (cx - halfw + 2, lo_bot - 8),
+             (cx + halfw - 2, lo_bot - 8), (cx + halfw + 10, lo_bot + 13)]
+    b.append(f'<polyline points="{poly(paper)}" fill="none" stroke="{STONE_D}" stroke-width="2" stroke-linejoin="round"/>')
+    b.append(rect(cx - halfw - 4, lo_bot, halfw * 2 + 8, 10, STONE, INK, rx=3, sw=1.6))
+    b.append(line(cx, lo_bot + 15, cx, lo_bot + 40, COFFEE, 2.4, "2 6"))
+
+    # --- mũi tên: nước chỉ có một lối ra, đi thẳng xuống qua bã ---
+    for dx in (-40, 40):
+        b.append(line(cx + dx, bed_top + 6, cx + dx, lo_bot - 26, TEAL, 2.4, arrow=True))
+
+    # --- nhãn phải ---
+    lx = 420
+    for (head, sub), y, (px, py) in [
+        (S["phin_upper"], 62, (cx + halfw, 70)),
+        (S["phin_drip"], 136, (cx + 32, 152)),
+        (S["phin_nobypass"], 214, (cx + 42, 226)),
+        (S["phin_paper"], 300, (cx + halfw + 8, lo_bot + 6)),
+    ]:
+        b.append(line(lx - 8, y - 4, px + 4, py, MUTED, 0.8, "3 3"))
+        b.append(t(lx, y, head, 14, INK, "start", 700))
+        b.append(t(lx, y + 18, sub, 12, MUTED))
+
+    # --- nhãn trái: neo kết thúc trước mép buồng để chữ không đè lên hình ---
+    lx_end = cx - halfw - 16
+    for (head, sub), y, py in [
+        (S["phin_lower"], 196, 204),
+        (S["phin_cap"], 272, 280),
+    ]:
+        b.append(line(lx_end, y - 4, lx_end + 10, py, MUTED, 0.8, "3 3"))
+        b.append(t(lx_end - 6, y, head, 14, INK, "end", 700))
+        b.append(t(lx_end - 6, y + 18, sub, 12, MUTED, "end"))
+
+    b.append(illus_tag(S, 642, 366))
+    return svg(660, 380, "Double phin", S["phin_nobypass"][0], "\n".join(b))
+
+
 FIGS = [
     ("fig07-1_ratio-lines", fig_ratio),
     ("fig07-2_tds-sensory", fig_tds_sensory),
@@ -527,6 +622,7 @@ FIGS = [
     ("fig09-4_ey-vs-grind", fig_grind_peak),
     ("fig15-1_v60-vs-deep27", fig_cones),
     ("fig16-1_v60-water-paths", fig_v60_paths),
+    ("fig22-1_double-phin", fig_phin),
 ]
 
 if __name__ == "__main__":

@@ -52,6 +52,7 @@ content/en/text.js    bản dịch tiếng Anh (chỉ dùng cho bản web)
 content/ja/text.js    bản dịch tiếng Nhật (chỉ dùng cho bản web)
 i18n.js               chuỗi giao diện ba thứ tiếng
 figures.js            hình minh hoạ: SVG + thanh trượt trên web (dùng chung cho web, PDF, EPUB)
+figures-plates.js     hình vẽ sẵn, đã nhúng thành chuỗi SVG — SINH TỰ ĐỘNG, đừng sửa tay
 
 tpl.html / tpl.js     trang in một mẫu điền tay: mỗi bản một tờ A5, chọn số bản
 
@@ -68,6 +69,8 @@ tools/build-epub.mjs  dựng EPUB 3 (nav, ncx, từng chương một file)
 tools/check-i18n.mjs  so cấu trúc bản dịch với bản gốc (bảng, danh sách, đoạn)
 tools/check-refs.mjs  kiểm trích dẫn: số hiệu chết, nguồn mồ côi, và đối chiếu DOI với Crossref
 tools/bump-assets.mjs đặt mọi ?v= về short SHA của commit (--check cho CI)
+tools/adapt-figures.mjs  đổi màu cứng trong SVG gốc thành class, để hình theo giao diện
+tools/build-plates.mjs   gói figures-svg/*.svg thành figures-plates.js
 search.js             bỏ dấu, chấm điểm, xếp hạng, cắt snippet (không đụng DOM)
 tests/logic.test.mjs  test cho fold, xếp hạng và numLabel — chạy bằng node --test
 tests/chapter-refs.test.mjs  tham chiếu "xem chương N" trỏ đúng chương, và bản Anh khớp bản Việt
@@ -95,6 +98,51 @@ node tools/check-i18n.mjs en     # chỉ một ngôn ngữ
 ```
 
 Script so từng chương với bản gốc: số bảng, số hàng, số `<li>`, số `<strong>`, số đoạn, và độ dài trong khoảng cho phép. Lệch là báo lỗi — dấu hiệu bị bỏ sót một hàng bảng hoặc một đoạn văn.
+
+## Hình minh hoạ
+
+Sách có hai loại hình, và chúng đi theo hai đường khác nhau.
+
+**Loại 1: vẽ bằng JS, có thanh trượt.** Nằm thẳng trong `figures.js`, vẽ SVG từ
+công thức. Trên web chúng có thanh trượt để kéo; bản in và EPUB chỉ lấy phần
+tĩnh. Dùng cho hình mà việc *tự kéo thử* mới là nội dung: phân bố kích thước
+hạt, đường cong mức chiết theo cỡ xay, máy tính tỉ lệ, pha loãng nước.
+
+**Loại 2: vẽ sẵn, nhập vào.** Vẽ bằng `docs/brewing-bible-figures/make_figures.py`,
+rồi qua hai bước để thành thứ sách dùng được:
+
+```bash
+cd docs/brewing-bible-figures && python3 make_figures.py svg && cd ../..
+node tools/adapt-figures.mjs     # màu cứng → class, bỏ font riêng, id duy nhất
+node tools/build-plates.mjs      # gói figures-svg/*.svg → figures-plates.js
+```
+
+Hai bước giữa cần thiết vì bản gốc vẽ cho một môi trường khác:
+
+- **Màu.** Script gốc dùng mã màu cứng. Giao diện tối của sách đổi nền sang
+  `#14120e`, nên một khối tô `#F7E1D9` giữ nguyên sẽ thành tấm sáng chói và chữ
+  `#2B2622` trên đó không đọc được. `adapt-figures.mjs` đổi chúng thành class
+  (`.p-*` cho fill, `.s-*` cho stroke); mỗi bản CSS tự định nghĩa theo cách của
+  mình. Dùng class chứ không dùng `var()` là có lý do: `epub.css` cố tình viết
+  màu cứng vì máy đọc cũ không hiểu biến CSS.
+- **Font.** Bỏ `font-family` trong SVG để chữ trong hình dùng luôn font của
+  sách. Nếu giữ font riêng mà máy người đọc không có, dấu tiếng Việt rơi về
+  font thay thế và chữ xô lệch.
+- **id.** Mọi SVG gốc đều khai báo `<marker id="arr">`. Nhiều hình trên cùng
+  một trang thì id trùng, trình duyệt chỉ giữ cái đầu, các hình sau mất mũi
+  tên. Mỗi hình được thêm tiền tố riêng.
+
+Chữ nằm trong hình nên mỗi ngôn ngữ một bản (`.vi.svg`, `.en.svg`). Thiếu bản
+dịch thì `figures.js` lấy bản tiếng Việt — thà hiện hình chữ Việt còn hơn để
+trống một ô.
+
+`figures-svg/` là bản trung gian, đã gitignore. Thứ được commit là
+`figures-plates.js`.
+
+**Chèn hình vào chương:** khai báo trong mảng `FIGS` của `figures.js`, trỏ
+`ch` tới id chương và `at: "h3:n"` tới tiêu đề thứ n. Chèn theo vị trí tiêu đề
+chứ không sửa thẳng vào `content/*.js`, vì một chương có ba bản dịch và sửa
+từng bản là ba chỗ để lệch nhau.
 
 ## Trích dẫn
 

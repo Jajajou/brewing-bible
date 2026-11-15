@@ -499,3 +499,21 @@ a{ color: inherit; text-decoration: none; }
   body{ background: #ddd8cf; padding: 8mm 0; }
   .pagedjs_pages{ display: block; }
 }
+
+/* ---------- hình nhập từ bộ figures-svg ---------- */
+/* Xem ghi chú ở styles.css. Bản in chỉ có một giao diện nên màu đơn giản
+   hơn, nhưng vẫn phải là class để cùng một file SVG dùng được cho cả ba
+   bản: web, in và EPUB. */
+.fig-plate text{ font-family: "Inter", sans-serif; }
+.fig-plate .p-ink{ fill: var(--ink); }
+.fig-plate .p-ink2{ fill: var(--ink-2); }
+.fig-plate .p-muted{ fill: var(--muted); }
+.fig-plate .p-accent{ fill: var(--accent); }
+.fig-plate .p-soft{ fill: var(--rule-soft); }
+.fig-plate .p-wash{ fill: var(--accent); fill-opacity: 0.1; }
+.fig-plate .s-ink{ stroke: var(--ink); }
+.fig-plate .s-ink2{ stroke: var(--ink-2); }
+.fig-plate .s-muted{ stroke: var(--muted); }
+.fig-plate .s-accent{ stroke: var(--accent); }
+.fig-plate .s-axis{ stroke: var(--rule); }
+.fig-plate .s-grid{ stroke: var(--rule-soft); }

@@ -66,6 +66,39 @@
       tlPour3: "rót 3",
       tlDraw: "rút",
       unitG: "g",
+      /* --- chú thích cho hình nhập từ bộ figures-svg --- */
+      /* Tiêu đề in hoa nhỏ ở trên, mô tả ở dưới. Mô tả nói hình được vẽ
+         từ đâu: tính toán, vẽ lại theo kết quả công bố, hay chỉ minh hoạ. */
+      p071Title: "Mỗi tỉ lệ là một đường",
+      p071Cap:
+        "Tính toán từ công thức TDS ≈ EY ÷ (tỉ lệ − 2), giả định bã giữ lại khoảng 2 g nước cho mỗi gam cà. Chỉnh cỡ xay, nhiệt hay thời gian là trượt dọc theo một đường; đổi tỉ lệ là nhảy sang đường khác.",
+      p072Title: "TDS đổi vị như thế nào",
+      p072Cap:
+        "Vẽ lại theo kết quả cảm quan của UC Davis. Ly đậm hơn được cảm nhận đắng, chua và khói hơn; ly loãng hơn cho cảm giác ngọt, trái cây và hoa rõ hơn. Nguồn: Frost và cộng sự 2020; Batali và cộng sự 2020.",
+      p073Title: "Hai cách làm ly loãng hơn",
+      p073Cap:
+        "Hình minh hoạ, không phải số đo. Rót thêm nước qua bã làm giảm độ đậm nhưng tăng mức chiết; dừng sớm rồi thêm nước vào cốc chỉ đổi độ đậm, mức chiết giữ nguyên.",
+      p081Title: "Chiết theo thời gian",
+      p081Cap:
+        "Hình minh hoạ dạng đường cong, không phải số đo của một mẻ cụ thể. Rất nhanh trong vài giây đầu khi nước rửa bề mặt hạt, rồi chậm dần trong vài phút khi chất phải khuếch tán từ lõi hạt ra.",
+      p082Title: "Bốn quá trình chồng lên nhau",
+      p082Cap:
+        "Vẽ lại ở thang gần đúng. Mốc thời gian của hai thanh giữa lấy từ đo đạc trong bình khuấy kín, không phải pour over, nên hãy đọc chúng như thứ tự độ lớn. Nguồn: Maille 2024.",
+      p091Title: "Hương nào vào được ly",
+      p091Cap:
+        "Vẽ lại theo số đo hiệu suất chuyển từ bã sang ly. Hợp chất phân cực vào ly 75–100%; nhóm kém phân cực, gồm nhiều nốt mật ong và trái cây, chỉ 10–25%. Nguồn: Semmelroch và Grosch 1996; Mayer và cộng sự 2000.",
+      p093Title: "Chiết sâu tới đâu trong một hạt",
+      p093Cap:
+        "Hình minh hoạ. Hạt nhỏ được chiết gần như tới lõi trong thời gian của một mẻ pha; hạt lớn chỉ được chiết ở lớp ngoài, phần lõi gần như còn nguyên.",
+      p151Title: "Cùng một liều, hai độ sâu bã",
+      p151Cap:
+        "Tính theo hình nón lý tưởng. Cùng thể tích bã, phễu nón 27° cho lớp bã sâu khoảng 1,8 lần phễu 60°. Đây là hình học, không phải phép đo trên dụng cụ thật.",
+      p221Title: "Phin đôi: cấu tạo và đường nước",
+      p221Cap:
+        "Hình minh hoạ bộ dụng cụ dùng trong phép thử của chương này, vẽ cắt dọc. Phin trên chỉ làm một việc: chia nước thành giọt rơi đều thay vì một dòng xối. Thành buồng thẳng đứng và mép giấy ôm trùm quanh đáy, nên nước không có khe nào để lách qua, đó là nghĩa của “không bypass”.",
+      p161Title: "Đường đi của nước trong phễu nón",
+      p161Cap:
+        "Hình minh hoạ. Nước đi qua bã thì được chiết; nước đi men theo thành giấy là bypass, gần như không chiết; bột mịn dồn xuống đáy và làm chậm dòng. Cơ sở: Gagné, Coffee ad Astra.",
       unitUm: "µm"
     },
     en: {
@@ -111,6 +144,37 @@
       tlPour3: "pour 3",
       tlDraw: "drawdown",
       unitG: "g",
+      /* --- captions for the figures imported from figures-svg --- */
+      p071Title: "Each ratio is a line",
+      p071Cap:
+        "Computed from TDS ≈ EY ÷ (ratio − 2), assuming the bed holds back about 2 g of water per gram of coffee. Grind, temperature and time move you along a line; changing the ratio moves you to another line.",
+      p072Title: "How TDS changes flavour",
+      p072Cap:
+        "Redrawn from UC Davis sensory results. Stronger cups read as more bitter, sour and smoky; lighter cups read as sweeter, fruitier and more floral. Sources: Frost et al. 2020; Batali et al. 2020.",
+      p073Title: "Two ways to make a cup lighter",
+      p073Cap:
+        "Illustrative, not measured. Pouring more water through the bed lowers strength but raises extraction; stopping early and adding water to the cup changes strength only, leaving extraction where it was.",
+      p081Title: "Extraction over time",
+      p081Cap:
+        "An illustrative curve, not a measurement of any one brew. Very fast in the first seconds as water washes the particle surfaces, then slowing over minutes as material has to diffuse out of the cores.",
+      p082Title: "Four overlapping processes",
+      p082Cap:
+        "Redrawn at approximate scale. The timescales of the two middle bars come from stirred-batch measurements, not from a pour over, so read them as orders of magnitude. Source: Maille 2024.",
+      p091Title: "Which aromas reach the cup",
+      p091Cap:
+        "Redrawn from measured transfer yields. Polar compounds reach the cup at 75–100%; the less polar group, which carries many honey and fruit notes, at only 10–25%. Sources: Semmelroch and Grosch 1996; Mayer et al. 2000.",
+      p093Title: "How deep extraction reaches",
+      p093Cap:
+        "Illustrative. A small particle is extracted almost to its core within one brew; a large particle is extracted only in its outer layer, leaving the core largely untouched.",
+      p151Title: "One dose, two bed depths",
+      p151Cap:
+        "An ideal-cone calculation. For the same volume of coffee, a 27° cone gives a bed roughly 1.8 times deeper than a 60° one. This is geometry, not a measurement on real brewers.",
+      p221Title: "The double phin, and where water goes",
+      p221Cap:
+        "An illustrative cross-section of the setup used in this chapter's test. The upper phin does one job: it turns the pour into even drips instead of a stream. The chamber walls are vertical and the paper wraps under the base, so water has no gap to slip through — that is what \"no bypass\" means.",
+      p161Title: "Water paths in a cone",
+      p161Cap:
+        "Illustrative. Water through the bed extracts; water running down the paper is bypass and barely extracts; fines settle at the bottom and slow the flow. Basis: Gagné, Coffee ad Astra.",
       unitUm: "µm"
     }
   };
@@ -415,6 +479,23 @@
   /* at: "h3:2" = chèn ngay trước <h3> thứ 2 của chương. Đếm theo thứ tự
      xuất hiện; check-i18n so số tiêu đề giữa ba bản dịch nên một bản dịch
      không thể lệch vị trí mà không bị bắt. */
+  /* ---------- hình nhập sẵn (plate) ----------
+     Khác với các hình ở trên, nhóm này không vẽ bằng JS mà lấy nguyên
+     chuỗi SVG trong figures-plates.js. Chuỗi đó do
+     docs/brewing-bible-figures/make_figures.py sinh ra, rồi
+     tools/adapt-figures.mjs đổi mã màu cứng sang class để hình đổi màu
+     theo giao diện. Chữ nằm trong hình nên mỗi ngôn ngữ một bản. */
+  function plate(id) {
+    return function () {
+      var set = (window.BOOK_PLATES || {})[id];
+      if (!set) return "";
+      /* Chưa có bản dịch cho ngôn ngữ đang đọc thì lấy bản tiếng Việt:
+         thà hiện hình với chữ tiếng Việt còn hơn để trống một ô. */
+      var svg = set[lang()] || set.vi;
+      return svg ? '<div class="fig-canvas">' + svg + "</div>" : "";
+    };
+  }
+
   var FIGS = [
     {
       id: "psd",
@@ -475,6 +556,50 @@
       body: function () {
         return '<div class="fig-canvas">' + timelineSvg() + "</div>";
       }
+    },
+
+    /* --- hình nhập từ bộ figures-svg --- */
+    /* Vị trí chèn tính theo <h3> thứ n của chương. check-i18n bảo đảm các
+       bản dịch có cùng số tiêu đề nên một con số dùng được cho mọi bản. */
+    {
+      id: "p071", ch: "ch-chiet-xuat", at: "h3:2", live: false,
+      title: "p071Title", caption: "p071Cap", body: plate("fig07-1")
+    },
+    {
+      id: "p072", ch: "ch-chiet-xuat", at: "h3:3", live: false,
+      title: "p072Title", caption: "p072Cap", body: plate("fig07-2")
+    },
+    {
+      id: "p073", ch: "ch-chiet-xuat", at: "h3:4", live: false,
+      title: "p073Title", caption: "p073Cap", body: plate("fig07-3")
+    },
+    {
+      id: "p081", ch: "ch-huyen-thoai-thu-tu", at: "h3:3", live: false,
+      title: "p081Title", caption: "p081Cap", body: plate("fig08-1")
+    },
+    {
+      id: "p082", ch: "ch-hai-co-che", at: "h3:4", live: false,
+      title: "p082Title", caption: "p082Cap", body: plate("fig08-2")
+    },
+    {
+      id: "p091", ch: "ch-ba-thu-kiem-soat", at: "h3:3", live: false,
+      title: "p091Title", caption: "p091Cap", body: plate("fig09-1")
+    },
+    {
+      id: "p093", ch: "ch-co-xay", at: "h3:7", live: false,
+      title: "p093Title", caption: "p093Cap", body: plate("fig09-3")
+    },
+    {
+      id: "p151", ch: "ch-chon-dung-cu", at: "h3:6", live: false,
+      title: "p151Title", caption: "p151Cap", body: plate("fig15-1")
+    },
+    {
+      id: "p161", ch: "ch-chon-dung-cu", at: "h3:5", live: false,
+      title: "p161Title", caption: "p161Cap", body: plate("fig16-1")
+    },
+    {
+      id: "p221", ch: "ch-phin", at: "h3:2", live: false,
+      title: "p221Title", caption: "p221Cap", body: plate("fig22-1")
     }
   ];
 

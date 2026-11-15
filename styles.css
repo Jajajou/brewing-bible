@@ -526,6 +526,28 @@ html[data-theme="dark"] .btn-primary{ color: #17120c; }
 .f-lab{ font-family: var(--font-ui); font-size: 7px; fill: var(--muted); }
 .f-lab-unit{ text-anchor: end; }
 
+/* ---------- hình nhập từ bộ figures-svg ---------- */
+/* Hình do docs/brewing-bible-figures/make_figures.py vẽ, rồi
+   tools/adapt-figures.mjs đổi mã màu cứng thành các class dưới đây.
+   Vì màu nằm ở CSS nên cùng một file SVG hiện đúng ở giao diện sáng và
+   tối, và chữ trong hình dùng luôn font của sách. */
+.fig-plate text{ font-family: var(--font-ui); }
+.fig-plate .p-ink{ fill: var(--ink); }
+.fig-plate .p-ink2{ fill: var(--ink-2); }
+.fig-plate .p-muted{ fill: var(--muted); }
+.fig-plate .p-accent{ fill: var(--accent); }
+.fig-plate .p-soft{ fill: var(--rule-soft); }
+/* Khối nền là màu nhấn pha trong suốt, không phải màu đặc: một khối đặc
+   thành tấm sáng chói khi giao diện đổi sang nền tối. */
+.fig-plate .p-wash{ fill: var(--accent); fill-opacity: 0.1; }
+.fig-plate .s-ink{ stroke: var(--ink); }
+.fig-plate .s-ink2{ stroke: var(--ink-2); }
+.fig-plate .s-muted{ stroke: var(--muted); }
+.fig-plate .s-accent{ stroke: var(--accent); }
+.fig-plate .s-axis{ stroke: var(--rule); }
+.fig-plate .s-grid{ stroke: var(--rule-soft); }
+
+
 .fig figcaption{
   margin-top: 0.85rem; padding-top: 0.7rem;
   border-top: 1px solid var(--rule-soft);

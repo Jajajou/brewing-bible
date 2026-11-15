@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" width="600" height="480" role="img">
 <title>TDS–EY ratio lines</title>
-<desc>Book&#x27;s reference zone: EY 18–22%, TDS 1.15–1.45%</desc>
+<desc>Book&#x27;s reference zone: EY 18–22%, TDS 1.15–1.35%</desc>
 <defs>
 <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
 <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
@@ -33,7 +33,7 @@
 <text x="70.0" y="106.9" font-size="13" fill="#6B625A" text-anchor="end" font-weight="400">1.6</text>
 <line x1="80.0" y1="60.0" x2="560.0" y2="60.0" stroke="#ECE7E1" stroke-width="1" stroke-linecap="round"/>
 <text x="70.0" y="64.0" font-size="13" fill="#6B625A" text-anchor="end" font-weight="400">1.7</text>
-<rect x="200" y="167.14285714285714" width="240" height="128.57142857142864" rx="6" fill="#DDEFEA" stroke="#2F8573" stroke-width="1"/>
+<rect x="200" y="209.99999999999994" width="240" height="85.71428571428584" rx="6" fill="#DDEFEA" stroke="#2F8573" stroke-width="1"/>
 <line x1="80.0" y1="360.0" x2="560.0" y2="360.0" stroke="#B8AFA6" stroke-width="1.2" stroke-linecap="round"/>
 <line x1="80.0" y1="60.0" x2="80.0" y2="360.0" stroke="#B8AFA6" stroke-width="1.2" stroke-linecap="round"/>
 <line x1="80.0" y1="261.1" x2="446.0" y2="60.0" stroke="#7A4E33" stroke-width="2.4" stroke-linecap="round"/>
@@ -47,7 +47,7 @@
 <text x="80.0" y="42.0" font-size="14" fill="#2B2622" text-anchor="start" font-weight="600">Strength — TDS (%)</text>
 <text x="320.0" y="410.0" font-size="14" fill="#2B2622" text-anchor="middle" font-weight="600">Extraction yield — EY (%)</text>
 <rect x="80" y="428" width="16" height="16" rx="3" fill="#DDEFEA" stroke="#2F8573" stroke-width="1"/>
-<text x="104.0" y="441.0" font-size="13" fill="#2B2622" text-anchor="start" font-weight="400">Book&#x27;s reference zone: EY 18–22%, TDS 1.15–1.45%</text>
+<text x="104.0" y="441.0" font-size="13" fill="#2B2622" text-anchor="start" font-weight="400">Book&#x27;s reference zone: EY 18–22%, TDS 1.15–1.35%</text>
 <text x="80.0" y="466.0" font-size="12" fill="#6B625A" text-anchor="start" font-weight="400" font-style="italic">TDS ≈ EY ÷ (ratio − 2); grounds hold ~2 g water per g</text>
 </g>
 </svg>
