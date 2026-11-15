@@ -1127,7 +1127,7 @@ TDS ≈ EY × dose ÷ (water − 2 × dose)
 
 <h4>Temperature: the subtle lever</h4>
 
-<p>Hotter water: faster extraction and greater solubility for compounds that dissolve slowly. The direction of the effect has been measured: ultimate extraction yield rises with brew temperature <span class="tier tier-a">Evidence <b class="cite">· 57</b></span>. The <strong>size</strong> of it has not. The figure of "roughly 2–4% of extraction per 5 °C" circulating in brewing circles has no study behind it; we looked and could not find one <span class="tier tier-b">Plausible</span>. Treat it as an order of magnitude for guessing which way to adjust, not a constant to calculate with.</p>
+<p>Hotter water: faster extraction and greater solubility for compounds that dissolve slowly. The direction of the effect has been measured: ultimate extraction yield rises with brew temperature <span class="tier tier-a">Evidence <b class="cite">· 57</b></span>. The <strong>size</strong> of it has not. The figure of "roughly 2–4% of extraction per 5 °C" circulating in brewing circles has no study behind it; I looked and could not find one <span class="tier tier-b">Plausible</span>. Treat it as an order of magnitude for guessing which way to adjust, not a constant to calculate with.</p>
 
 <p>But temperature also changes what you <em>perceive</em>: a hotter cup releases more aroma (good) and masks bitterness (also good). So temperature acts on two dimensions at once, which is why it is hard to evaluate.</p>
 
@@ -2178,7 +2178,7 @@ Odd:   _______________
 
 <h3>Pulse or continuous: where nobody has checked</h3>
 
-<p>Two claims get repeated constantly: pulse pouring gives a "cleaner" cup; a continuous pour gives a "rounder" one. We could find <strong>no public tasting trial</strong> comparing the two with everything else held constant <span class="tier tier-c">Folklore</span>.</p>
+<p>Two claims get repeated constantly: pulse pouring gives a "cleaner" cup; a continuous pour gives a "rounder" one. I could find <strong>no public tasting trial</strong> comparing the two with everything else held constant <span class="tier tier-c">Folklore</span>.</p>
 
 <p>They have a mechanism behind them, the number of pours changes agitation, and agitation changes evenness. But getting from "plausible mechanism" to "pulse gives a cleaner cup" is a step nobody has taken with data. Treat both claims as <em>hypotheses to test yourself</em>, not conclusions to copy.</p>
 
@@ -2188,7 +2188,7 @@ Odd:   _______________
 
 <p>Two numbers in this chapter rest on different ground, and it is worth saying so.</p>
 
-<p><strong>Flow rate.</strong> About 5 g/s is widely circulated, and there is an argument with it: when the stream <em>breaks into droplets</em> instead of staying a continuous column, it agitates the bed less and extracts less <span class="tier tier-b">Plausible</span>. The argument is physically sound, but we cite it through a secondary source, not from a measurement.</p>
+<p><strong>Flow rate.</strong> About 5 g/s is widely circulated, and there is an argument with it: when the stream <em>breaks into droplets</em> instead of staying a continuous column, it agitates the bed less and extracts less <span class="tier tier-b">Plausible</span>. The argument is physically sound, but I cite it through a secondary source, not from a measurement.</p>
 
 <p><strong>Height.</strong> Pour from higher and the water hits harder, agitates more, and extracts more. Too high and it gouges the bed, drives fines down, clogs the paper and the cup turns astringent <span class="tier tier-b">Plausible</span>. Also mechanism, also secondary.</p>
 
@@ -2731,7 +2731,13 @@ Odd:   _______________
 
 <h3>The teacher</h3>
 
-<p><strong>Nguyễn Tấn Mạnh Lân</strong>, who runs <strong>Cop Coffee Crafter</strong> in Biên Hoà, was my first coffee teacher. I came to him to learn latte, not pour over. This book began in those shifts behind the bar.</p>
+<p><strong>Lân Mập</strong> — Nguyễn Tấn Mạnh Lân, who runs <strong>Cop Coffee Crafter</strong> in Biên Hoà — is my coffee teacher. I came to him to learn latte, and stayed to learn pour over from him too. His knowledge is thorough, his perspective deep, and he cleared up a great many things for me that books never mention.</p>
+
+<p>The line of his I remember best is close to being this book's outline:</p>
+
+<div class="pull">Water first, coffee second,<br>brewing third, gear last.</div>
+
+<p>That order is right, and it took me a long time to understand why. Water comes first because it is 98% of the cup and the easiest thing to fix; gear comes last because it is the thing people buy first. Part II of this book is that line written out at length, with measurements added. Thank you.</p>
 
 <h3>The person who gave me the inspiration</h3>
 

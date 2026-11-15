@@ -292,7 +292,7 @@ TDS ≈ EY × liều ÷ (nước − 2 × liều)
 
 <h4>Nhiệt độ: đòn bẩy tinh tế</h4>
 
-<p>Tăng nhiệt: tăng tốc độ chiết và tăng khả năng hoà tan của các hợp chất khó tan. Chiều của hiệu ứng thì có đo: mức chiết cuối tăng theo nhiệt độ pha <span class="tier tier-a">Bằng chứng <b class="cite">· 57</b></span>. Nhưng <strong>độ lớn</strong> thì không. Con số "khoảng 2–4% mức chiết cho mỗi 5 °C" lưu hành trong giới pha chế không có nghiên cứu nào chống đỡ; chúng tôi đã tra và không tìm được <span class="tier tier-b">Hợp lý</span>. Hãy dùng nó như một thứ tự độ lớn để đoán hướng chỉnh, không phải một hằng số để tính.</p>
+<p>Tăng nhiệt: tăng tốc độ chiết và tăng khả năng hoà tan của các hợp chất khó tan. Chiều của hiệu ứng thì có đo: mức chiết cuối tăng theo nhiệt độ pha <span class="tier tier-a">Bằng chứng <b class="cite">· 57</b></span>. Nhưng <strong>độ lớn</strong> thì không. Con số "khoảng 2–4% mức chiết cho mỗi 5 °C" lưu hành trong giới pha chế không có nghiên cứu nào chống đỡ; mình đã tra và không tìm được <span class="tier tier-b">Hợp lý</span>. Hãy dùng nó như một thứ tự độ lớn để đoán hướng chỉnh, không phải một hằng số để tính.</p>
 
 <p>Nhưng nhiệt độ còn ảnh hưởng đến thứ bạn <em>cảm nhận</em>: ly cà nóng hơn làm hương bay mạnh hơn (tốt), và che bớt vị đắng (cũng tốt). Nên nhiệt độ tác động lên hai chiều cùng lúc, và đây là lý do nó khó đánh giá.</p>
 

@@ -128,6 +128,22 @@ const ANCHORS = [
     anchor: /nhiều lần rót nhỏ/,
     why: "công thức nhiều lần rót nhỏ",
   },
+  // ba công thức nổi tiếng nằm chung một chương: Hoffmann, Hedrick, Kasuya.
+  // Lời cảm ơn từng trỏ hai trong ba sang chương 17 (Kỹ thuật rót).
+  {
+    file: "content/part-10.js",
+    phrase: "cũng ở chương 18",
+    ref: 18,
+    anchor: /Kasuya/,
+    why: "phương pháp 4:6 của Kasuya",
+  },
+  {
+    file: "content/part-10.js",
+    phrase: "Các công thức ít lần rót của anh được bàn ở chương 18",
+    ref: 18,
+    anchor: /Hedrick/,
+    why: "công thức ít lần rót của Hedrick",
+  },
   // bản đồ khẩu vị dẫn sang chương Xây khẩu vị
   {
     file: "content/part-4.js",

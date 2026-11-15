@@ -22,11 +22,17 @@ window.BOOK_PARTS.push({
 
 <h3>Thầy cà phê</h3>
 
-<p>Anh <strong>Nguyễn Tấn Mạnh Lân</strong>, chủ quán <strong>Cop Coffee Crafter</strong> ở Biên Hoà, là người thầy cà phê đầu tiên của mình. Mình đến với anh để học latte, chưa phải pour over. Cuốn sách này bắt đầu từ những buổi đứng quầy đó.</p>
+<p>Anh <strong>Lân Mập</strong> — Nguyễn Tấn Mạnh Lân, chủ quán <strong>Cop Coffee Crafter</strong> ở Biên Hoà — là người thầy cà phê của mình. Mình đến với anh để học latte, rồi học luôn pour over từ anh. Kiến thức của anh rất đầy đủ, góc nhìn chuyên sâu, và anh đã giải ngố cho mình rất nhiều thứ mà sách vở không nói.</p>
+
+<p>Câu của anh mình nhớ nhất, và nó gần như là dàn ý của cuốn sách này:</p>
+
+<div class="pull">Nhất nước, nhì cà,<br>tam pha, tứ cụ.</div>
+
+<p>Thứ tự đó đúng, và mình mất một thời gian dài mới hiểu vì sao nó đúng. Nước đứng đầu vì nó là 98% ly cà và là thứ dễ sửa nhất; dụng cụ đứng cuối vì nó là thứ người ta mua trước tiên. Phần II của sách là câu đó viết dài ra, có thêm số đo. Cảm ơn anh.</p>
 
 <h3>Người cho mình cảm hứng</h3>
 
-<p><strong>Lance Hedrick</strong> đã cho mình rất nhiều cảm hứng, và đó là lý do anh ấy đứng ở đây chứ không ở danh sách bên dưới. Những video của anh dẫn mình tới nhiều thí nghiệm trong sách, kể cả phép thử phin đôi. Các công thức ít lần rót của anh được bàn ở chương 17.</p>
+<p><strong>Lance Hedrick</strong> đã cho mình rất nhiều cảm hứng, và đó là lý do anh ấy đứng ở đây chứ không ở danh sách bên dưới. Những video của anh dẫn mình tới nhiều thí nghiệm trong sách, kể cả phép thử phin đôi. Các công thức ít lần rót của anh được bàn ở chương 18.</p>
 
 <h3>Những công trình cuốn sách dựa vào</h3>
 
@@ -34,7 +40,7 @@ window.BOOK_PARTS.push({
 
 <p>Cảm ơn <strong>Scott Rao</strong>: các bài về bột mịn, về độ sâu lớp bã và về phễu không bypass đã định hướng thí nghiệm phin và chương hình học phễu. Đó là kinh nghiệm hành nghề, không phải nghiên cứu, và sách dẫn đúng như vậy.</p>
 
-<p>Cảm ơn <strong>James Hoffmann</strong>: cách pha nhiều lần rót nhỏ được phân tích ở chương 18. Cảm ơn <strong>Tetsu Kasuya</strong> cho phương pháp 4:6 như một hệ thống chỉnh theo khẩu vị, cũng ở chương 17.</p>
+<p>Cảm ơn <strong>James Hoffmann</strong>: cách pha nhiều lần rót nhỏ được phân tích ở chương 18. Cảm ơn <strong>Tetsu Kasuya</strong> cho phương pháp 4:6 như một hệ thống chỉnh theo khẩu vị, cũng ở chương 18.</p>
 
 <p>Cảm ơn <strong>Christopher Hendon</strong> cho phần hoá học của nước ở chương 4, và cảm ơn nhóm <strong>UC Davis Coffee Center</strong>, Batali, Ristenpart, Guinard và cộng sự, cho những nghiên cứu cảm quan về TDS, mức chiết, nhiệt độ và phân đoạn thời gian mà chương 7, 8 và 9 dựa vào. Phần lớn những chỗ sách phải sửa lại chính mình là nhờ các bài đó.</p>
 

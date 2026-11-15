@@ -351,7 +351,7 @@ window.BOOK_PARTS.push({
 
 <h3>Ngắt quãng hay liên tục: chỗ chưa ai kiểm chứng</h3>
 
-<p>Hai câu sau được nói rất nhiều: rót ngắt quãng cho ly "trong" hơn; rót liên tục cho ly "tròn" hơn. Chúng ta không tìm được <strong>thử nghiệm nếm công khai nào</strong> so sánh hai cách rót này với mọi thứ khác giữ nguyên <span class="tier tier-c">Truyền miệng</span>.</p>
+<p>Hai câu sau được nói rất nhiều: rót ngắt quãng cho ly "trong" hơn; rót liên tục cho ly "tròn" hơn. Mình không tìm được <strong>thử nghiệm nếm công khai nào</strong> so sánh hai cách rót này với mọi thứ khác giữ nguyên <span class="tier tier-c">Truyền miệng</span>.</p>
 
 <p>Chúng có cơ sở cơ chế: số lần rót đổi mức xáo trộn, và mức xáo trộn đổi độ đều. Nhưng từ "cơ chế hợp lý" tới "ngắt quãng cho ly trong hơn" là một bước mà chưa ai bước bằng dữ liệu. Hãy coi hai câu đó là <em>giả thuyết để bạn tự thử</em>, không phải kết luận để chép.</p>
 
@@ -361,7 +361,7 @@ window.BOOK_PARTS.push({
 
 <p>Hai con số của chương này đứng trên nền khác nhau, và nên nói rõ.</p>
 
-<p><strong>Tốc độ.</strong> Khoảng 5 g/s là con số lưu hành rộng, và có một lập luận kèm theo: khi dòng nước <em>đứt thành giọt</em> thay vì giữ thành dòng liền, nó khuấy bã ít hơn và chiết ít hơn <span class="tier tier-b">Hợp lý</span>. Lập luận đó hợp vật lý, nhưng chúng tôi dẫn nó qua nguồn thứ cấp, không phải từ một bài đo.</p>
+<p><strong>Tốc độ.</strong> Khoảng 5 g/s là con số lưu hành rộng, và có một lập luận kèm theo: khi dòng nước <em>đứt thành giọt</em> thay vì giữ thành dòng liền, nó khuấy bã ít hơn và chiết ít hơn <span class="tier tier-b">Hợp lý</span>. Lập luận đó hợp vật lý, nhưng mình dẫn nó qua nguồn thứ cấp, không phải từ một bài đo.</p>
 
 <p><strong>Độ cao.</strong> Rót cao hơn thì nước chạm bã mạnh hơn, xáo trộn nhiều hơn, và chiết nhiều hơn. Quá cao thì bã bị khoét, bột mịn bị đẩy xuống, giấy nghẹt và ly thành chát <span class="tier tier-b">Hợp lý</span>. Cũng là cơ chế, cũng qua nguồn thứ cấp.</p>
 
